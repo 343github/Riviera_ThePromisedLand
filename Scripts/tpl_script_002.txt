@@ -1,0 +1,988 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($CEE780,$CF0A7E)
+
+//GAME NAME:		
+
+//BLOCK #002 NAME:		PART (002)
+
+//POINTER #0 @ $CF0EAC - STRING #0 @ $CEE780
+
+#W24($CF0EAC)
+//Should we run for it?<End>
+
+//POINTER #1 @ $CF0EB0 - STRING #1 @ $CEE7A7
+
+#W24($CF0EB0)
+//Now's not the time to fight…<End>
+
+//POINTER #2 @ $CF0EB4 - STRING #2 @ $CEE7DB
+
+#W24($CF0EB4)
+//Huh? We're running away?<End>
+
+//POINTER #3 @ $CF0EB8 - STRING #3 @ $CEE809
+
+#W24($CF0EB8)
+//Let's get out of here!<End>
+
+//POINTER #4 @ $CF0EBC - STRING #4 @ $CEE832
+
+#W24($CF0EBC)
+//Are you sure?<End>
+
+//POINTER #5 @ $CF0EC0 - STRING #5 @ $CEE84B
+
+#W24($CF0EC0)
+//There's no need to run…<End>
+
+//POINTER #6 @ $CF0EC4 - STRING #6 @ $CEE876
+
+#W24($CF0EC4)
+//Okay, everyone!<line>
+//Give it your best.<End>
+
+//POINTER #7 @ $CF0EC8 - STRING #7 @ $CEE8B6
+
+#W24($CF0EC8)
+//(Sorry, no weapons here.)<End>
+
+//POINTER #8 @ $CF0ECC - STRING #8 @ $CEE8E6
+
+#W24($CF0ECC)
+//Better safe than sorry,<line>
+//right?<End>
+
+//POINTER #9 @ $CF0ED0 - STRING #9 @ $CEE91F
+
+#W24($CF0ED0)
+//Training?<line>
+//I'm all set!<End>
+
+//POINTER #10 @ $CF0ED4 - STRING #10 @ $CEE949
+
+#W24($CF0ED4)
+//Alright, let's do it!<End>
+
+//POINTER #11 @ $CF0ED8 - STRING #11 @ $CEE971
+
+#W24($CF0ED8)
+//What're we waiting for?<line>
+//Let's go!<End>
+
+//POINTER #12 @ $CF0EDC - STRING #12 @ $CEE9AF
+
+#W24($CF0EDC)
+//It's best to be prepared.<End>
+
+//POINTER #13 @ $CF0EE0 - STRING #13 @ $CEE9DE
+
+#W24($CF0EE0)
+//Ein, we have to hurry.<End>
+
+//POINTER #14 @ $CF0EE4 - STRING #14 @ $CEEA07
+
+#W24($CF0EE4)
+//We don't have time.<End>
+
+//POINTER #15 @ $CF0EE8 - STRING #15 @ $CEEA2B
+
+#W24($CF0EE8)
+//Do we have time for this?<End>
+
+//POINTER #16 @ $CF0EEC - STRING #16 @ $CEEA59
+
+#W24($CF0EEC)
+//Right now?<line>
+//Is that a good idea?<End>
+
+//POINTER #17 @ $CF0EF0 - STRING #17 @ $CEEA92
+
+#W24($CF0EF0)
+//We're all out of items…<line>
+//We can't fight…<End>
+
+//POINTER #18 @ $CF0EF4 - STRING #18 @ $CEEADA
+
+#W24($CF0EF4)
+//We used up all our items.<line>
+//How can we fight…?<End>
+
+//POINTER #19 @ $CF0EF8 - STRING #19 @ $CEEB2A
+
+#W24($CF0EF8)
+//We used up all our items!<line>
+//We can't fight…<End>
+
+//POINTER #20 @ $CF0EFC - STRING #20 @ $CEEB75
+
+#W24($CF0EFC)
+//Our items are gone…<line>
+//We can't fight…<End>
+
+//POINTER #21 @ $CF0F00 - STRING #21 @ $CEEBB6
+
+#W24($CF0F00)
+//We have no items left.<line>
+//How can we fight…?<End>
+
+//POINTER #22 @ $CF0F04 - STRING #22 @ $CEEC01
+
+#W24($CF0F04)
+//Ugh! No way…<End>
+
+//POINTER #23 @ $CF0F08 - STRING #23 @ $CEEC18
+
+#W24($CF0F08)
+//I'm sorry.<line>
+//I failed you all…<End>
+
+//POINTER #24 @ $CF0F0C - STRING #24 @ $CEEC4C
+
+#W24($CF0F0C)
+//I—I can't believe it…<End>
+
+//POINTER #25 @ $CF0F10 - STRING #25 @ $CEEC74
+
+#W24($CF0F10)
+//Waaaaaah!<line>
+//No fair!<End>
+
+//POINTER #26 @ $CF0F14 - STRING #26 @ $CEEC97
+
+#W24($CF0F14)
+//I'm sorry…<line>
+//That's all I can do…<End>
+
+//POINTER #27 @ $CF0F18 - STRING #27 @ $CEECD0
+
+#W24($CF0F18)
+//Just focus on winning!<End>
+
+//POINTER #28 @ $CF0F1C - STRING #28 @ $CEECFA
+
+#W24($CF0F1C)
+//Leave the fighting to us!<End>
+
+//POINTER #29 @ $CF0F20 - STRING #29 @ $CEED29
+
+#W24($CF0F20)
+//Don't worry,<line>
+//we'll protect you.<End>
+
+//POINTER #30 @ $CF0F24 - STRING #30 @ $CEED64
+
+#W24($CF0F24)
+//You know how to<line>
+//change places?<End>
+
+//POINTER #31 @ $CF0F28 - STRING #31 @ $CEED9C
+
+#W24($CF0F28)
+//Not really…<End>
+
+//POINTER #32 @ $CF0F2C - STRING #32 @ $CEEDB2
+
+#W24($CF0F2C)
+//I'll explain later.<line>
+//Let's finish this first.<End>
+
+//POINTER #33 @ $CF0F30 - STRING #33 @ $CEEE05
+
+#W24($CF0F30)
+//You can check out the event<line>
+//graphics.<End>
+
+//POINTER #34 @ $CF0F34 - STRING #34 @ $CEEE4A
+
+#W24($CF0F34)
+//You can view items you've<line>
+//collected.<End>
+
+//POINTER #35 @ $CF0F38 - STRING #35 @ $CEEE8E
+
+#W24($CF0F38)
+//You can listen to the game's<line>
+//music.<End>
+
+//POINTER #36 @ $CF0F3C - STRING #36 @ $CEEECF
+
+#W24($CF0F3C)
+//You can see your score for<line>
+//each chapter!<End>
+
+//POINTER #37 @ $CF0F40 - STRING #37 @ $CEEF19
+
+#W24($CF0F40)
+//You can view character<line>
+//portraits.<End>
+
+//POINTER #38 @ $CF0F44 - STRING #38 @ $CEEF58
+
+#W24($CF0F44)
+//The dark region of chaos…<End>
+
+//POINTER #39 @ $CF0F48 - STRING #39 @ $CEEF87
+
+#W24($CF0F48)
+//Meow meow…<line>
+//(Not available yet…)<End>
+
+//POINTER #40 @ $CF0F4C - STRING #40 @ $CEF035
+
+#W24($CF0F4C)
+//That's enough.<End>
+
+//POINTER #41 @ $CF0F50 - STRING #41 @ $CEF051
+
+#W24($CF0F50)
+//We're finished already?<End>
+
+//POINTER #42 @ $CF0F54 - STRING #42 @ $CEF07E
+
+#W24($CF0F54)
+//Huh? That's it?<End>
+
+//POINTER #43 @ $CF0F58 - STRING #43 @ $CEF09B
+
+#W24($CF0F58)
+//We're done?<End>
+
+//POINTER #44 @ $CF0F5C - STRING #44 @ $CEF0B1
+
+#W24($CF0F5C)
+//Are we done training?<End>
+
+//POINTER #45 @ $CF0F60 - STRING #45 @ $CEF112
+
+#W24($CF0F60)
+//This is used in<line>
+//Opening Demo A.<End>
+
+//POINTER #46 @ $CF0F64 - STRING #46 @ $CEF14B
+
+#W24($CF0F64)
+//The music used in<line>
+//Opening Demo B.<End>
+
+//POINTER #47 @ $CF0F68 - STRING #47 @ $CEF188
+
+#W24($CF0F68)
+//The title BGM.<End>
+
+//POINTER #48 @ $CF0F6C - STRING #48 @ $CEF1A3
+
+#W24($CF0F6C)
+//The BGM played on<line>
+//the World Map.<End>
+
+//POINTER #49 @ $CF0F70 - STRING #49 @ $CEF1DE
+
+#W24($CF0F70)
+//A song from Lina's hometown,<line>
+//Elendia.<End>
+
+//POINTER #50 @ $CF0F74 - STRING #50 @ $CEF224
+
+#W24($CF0F74)
+//The field BGM for Chapter 1.<End>
+
+//POINTER #51 @ $CF0F78 - STRING #51 @ $CEF258
+
+#W24($CF0F78)
+//The field BGM for Chapter 2.<End>
+
+//POINTER #52 @ $CF0F7C - STRING #52 @ $CEF28C
+
+#W24($CF0F7C)
+//The field BGM for Chapter 3.<End>
+
+//POINTER #53 @ $CF0F80 - STRING #53 @ $CEF2C0
+
+#W24($CF0F80)
+//The field BGM for Chapter 4.<End>
+
+//POINTER #54 @ $CF0F84 - STRING #54 @ $CEF2F4
+
+#W24($CF0F84)
+//The field BGM for Chapter 5.<End>
+
+//POINTER #55 @ $CF0F88 - STRING #55 @ $CEF328
+
+#W24($CF0F88)
+//The field BGM for Chapter 6.<End>
+
+//POINTER #56 @ $CF0F8C - STRING #56 @ $CEF35C
+
+#W24($CF0F8C)
+//The field BGM for the 1st<line>
+//half of Chapter 7.<End>
+
+//POINTER #57 @ $CF0F90 - STRING #57 @ $CEF3AC
+
+#W24($CF0F90)
+//The field BGM for the 2nd<line>
+//half of Chapter 7.<End>
+
+//POINTER #58 @ $CF0F94 - STRING #58 @ $CEF3FC
+
+#W24($CF0F94)
+//The BGM played before<line>
+//battle!<End>
+
+//POINTER #59 @ $CF0F98 - STRING #59 @ $CEF433
+
+#W24($CF0F98)
+//The BGM played during<line>
+//normal battles!<End>
+
+//POINTER #60 @ $CF0F9C - STRING #60 @ $CEF479
+
+#W24($CF0F9C)
+//The BGM played during<line>
+//inescapable battles!<End>
+
+//POINTER #61 @ $CF0FA0 - STRING #61 @ $CEF4C9
+
+#W24($CF0FA0)
+//The BGM for battles against<line>
+//powerful foes!<End>
+
+//POINTER #62 @ $CF0FA4 - STRING #62 @ $CEF518
+
+#W24($CF0FA4)
+//The BGM for areas where<line>
+//the Accursed await.<End>
+
+//POINTER #63 @ $CF0FA8 - STRING #63 @ $CEF568
+
+#W24($CF0FA8)
+//The BGM for battles against<line>
+//the Accursed!<End>
+
+//POINTER #64 @ $CF0FAC - STRING #64 @ $CEF5B5
+
+#W24($CF0FAC)
+//The BGM for the battle<line>
+//against me, Hector.<End>
+
+//POINTER #65 @ $CF0FB0 - STRING #65 @ $CEF603
+
+#W24($CF0FB0)
+//The BGM played when Seth<line>
+//becomes Seth—Rah.<End>
+
+//POINTER #66 @ $CF0FB4 - STRING #66 @ $CEF652
+
+#W24($CF0FB4)
+//The BGM for the battle<line>
+//against me, Seth—Rah.<End>
+
+//POINTER #67 @ $CF0FB8 - STRING #67 @ $CEF6A4
+
+#W24($CF0FB8)
+//The victory song♪<End>
+
+//POINTER #68 @ $CF0FBC - STRING #68 @ $CEF6C5
+
+#W24($CF0FBC)
+//The BGM played when you<line>
+//lose… Waaaah!<End>
+
+//POINTER #69 @ $CF0FC0 - STRING #69 @ $CEF70A
+
+#W24($CF0FC0)
+//Music for fun scenes.<End>
+
+//POINTER #70 @ $CF0FC4 - STRING #70 @ $CEF732
+
+#W24($CF0FC4)
+//Music for serious scenes.<End>
+
+//POINTER #71 @ $CF0FC8 - STRING #71 @ $CEF762
+
+#W24($CF0FC8)
+//BGM played when you're in<line>
+//a pinch… Whoa!<End>
+
+//POINTER #72 @ $CF0FCC - STRING #72 @ $CEF7AC
+
+#W24($CF0FCC)
+//Ursula's theme.<End>
+
+//POINTER #73 @ $CF0FD0 - STRING #73 @ $CEF7CA
+
+#W24($CF0FD0)
+//The theme of Hector,<line>
+//one of the Magi.<End>
+
+//POINTER #74 @ $CF0FD4 - STRING #74 @ $CEF80E
+
+#W24($CF0FD4)
+//The theme of the Grim Angels.<End>
+
+//POINTER #75 @ $CF0FD8 - STRING #75 @ $CEF844
+
+#W24($CF0FD8)
+//The BGM played during<line>
+//the credits.<End>
+
+//POINTER #76 @ $CF0FDC - STRING #76 @ $CEF884
+
+#W24($CF0FDC)
+//The music played during<line>
+//the epilogue.<End>
+
+//POINTER #77 @ $CF0FE0 - STRING #77 @ $CEF8CA
+
+#W24($CF0FE0)
+//The song that plays at<line>
+//the end of Riviera.<End>
+
+//POINTER #78 @ $CF0FE4 - STRING #78 @ $CEF917
+
+#W24($CF0FE4)
+//The BGM for the AT screens💧<End>
+
+//POINTER #79 @ $CF0FE8 - STRING #79 @ $CEF949
+
+#W24($CF0FE8)
+//The save/load BGM.<End>
+
+//POINTER #80 @ $CF0FEC - STRING #80 @ $CEF96C
+
+#W24($CF0FEC)
+//The BGM for the battle<line>
+//against me, Hades…<End>
+
+//POINTER #81 @ $CF0FF0 - STRING #81 @ $CEF9B8
+
+#W24($CF0FF0)
+//Hi, I'm Ein.<End>
+
+//POINTER #82 @ $CF0FF4 - STRING #82 @ $CEF9CF
+
+#W24($CF0FF4)
+//Alright, everyone!<line>
+//Let's get going!<End>
+
+//POINTER #83 @ $CF0FF8 - STRING #83 @ $CEFA12
+
+#W24($CF0FF8)
+//To Riviera!<End>
+
+//POINTER #84 @ $CF0FFC - STRING #84 @ $CEFA28
+
+#W24($CF0FFC)
+//Stop picking on me,<line>
+//Rose…<End>
+
+//POINTER #85 @ $CF1000 - STRING #85 @ $CEFA57
+
+#W24($CF1000)
+//What was that!?<End>
+
+//POINTER #86 @ $CF1004 - STRING #86 @ $CEFA72
+
+#W24($CF1004)
+//It was all thanks to you.<End>
+
+//POINTER #87 @ $CF1008 - STRING #87 @ $CEFAA0
+
+#W24($CF1008)
+//Give me strength!<End>
+
+//POINTER #88 @ $CF100C - STRING #88 @ $CEFAC1
+
+#W24($CF100C)
+//Uggggh…<End>
+
+//POINTER #89 @ $CF1010 - STRING #89 @ $CEFAD0
+
+#W24($CF1010)
+//This is my destiny.<End>
+
+//POINTER #90 @ $CF1014 - STRING #90 @ $CEFAF4
+
+#W24($CF1014)
+//Oh, you need my help?<End>
+
+//POINTER #91 @ $CF1018 - STRING #91 @ $CEFB1B
+
+#W24($CF1018)
+//Gateau! You're alright!<End>
+
+//POINTER #92 @ $CF101C - STRING #92 @ $CEFB48
+
+#W24($CF101C)
+//That's going too far!<End>
+
+//POINTER #93 @ $CF1020 - STRING #93 @ $CEFB70
+
+#W24($CF1020)
+//Poor Gateau…<End>
+
+//POINTER #94 @ $CF1024 - STRING #94 @ $CEFB88
+
+#W24($CF1024)
+//Me? I'm Cierra.<End>
+
+//POINTER #95 @ $CF1028 - STRING #95 @ $CEFBA5
+
+#W24($CF1028)
+//That was quite a blunder…<End>
+
+//POINTER #96 @ $CF102C - STRING #96 @ $CEFBD4
+
+#W24($CF102C)
+//I'll burn you to ashes!<End>
+
+//POINTER #97 @ $CF1030 - STRING #97 @ $CEFBFF
+
+#W24($CF1030)
+//(I'm going on a diet…)<End>
+
+//POINTER #98 @ $CF1034 - STRING #98 @ $CEFC28
+
+#W24($CF1034)
+//I tried to help…<End>
+
+//POINTER #99 @ $CF1038 - STRING #99 @ $CEFC46
+
+#W24($CF1038)
+//I hope she's alright…<End>
+
+//POINTER #100 @ $CF103C - STRING #100 @ $CEFC6E
+
+#W24($CF103C)
+//Spirits of earth,<line>
+//give me power!<End>
+
+//POINTER #101 @ $CF1040 - STRING #101 @ $CEFCAA
+
+#W24($CF1040)
+//I should've studied<line>
+//barrier magic.<End>
+
+//POINTER #102 @ $CF1044 - STRING #102 @ $CEFCEB
+
+#W24($CF1044)
+//It smells so good.<End>
+
+//POINTER #103 @ $CF1048 - STRING #103 @ $CEFD0D
+
+#W24($CF1048)
+//Don't look…<End>
+
+//POINTER #104 @ $CF104C - STRING #104 @ $CEFD23
+
+#W24($CF104C)
+//I think something's up.<End>
+
+//POINTER #105 @ $CF1050 - STRING #105 @ $CEFD4F
+
+#W24($CF1050)
+//Serene, here.<End>
+
+//POINTER #106 @ $CF1054 - STRING #106 @ $CEFD69
+
+#W24($CF1054)
+//Look out, demons!<End>
+
+//POINTER #107 @ $CF1058 - STRING #107 @ $CEFD8A
+
+#W24($CF1058)
+//If their souls don't<line>
+//return…<End>
+
+//POINTER #108 @ $CF105C - STRING #108 @ $CEFDBF
+
+#W24($CF105C)
+//Whoa! That's dangerous!<End>
+
+//POINTER #109 @ $CF1060 - STRING #109 @ $CEFDEC
+
+#W24($CF1060)
+//You did that for me…?<End>
+
+//POINTER #110 @ $CF1064 - STRING #110 @ $CEFE13
+
+#W24($CF1064)
+//How dare you!!<End>
+
+//POINTER #111 @ $CF1068 - STRING #111 @ $CEFE2C
+
+#W24($CF1068)
+//There's no talking your<line>
+//way outta this one.<End>
+
+//POINTER #112 @ $CF106C - STRING #112 @ $CEFE7C
+
+#W24($CF106C)
+//My wings! Why you…!<End>
+
+//POINTER #113 @ $CF1070 - STRING #113 @ $CEFEA0
+
+#W24($CF1070)
+//I was bored,<line>
+//so I beat some demons.<End>
+
+//POINTER #114 @ $CF1074 - STRING #114 @ $CEFEE0
+
+#W24($CF1074)
+//How about something simple?<End>
+
+//POINTER #115 @ $CF1078 - STRING #115 @ $CEFF14
+
+#W24($CF1078)
+//It's nice to have friends…<End>
+
+//POINTER #116 @ $CF107C - STRING #116 @ $CEFF45
+
+#W24($CF107C)
+//Feels so good♪<End>
+
+//POINTER #117 @ $CF1080 - STRING #117 @ $CEFF60
+
+#W24($CF1080)
+//Ein, you pervert.<End>
+
+//POINTER #118 @ $CF1084 - STRING #118 @ $CEFF81
+
+#W24($CF1084)
+//You came to help us, right?<End>
+
+//POINTER #119 @ $CF1088 - STRING #119 @ $CEFFB3
+
+#W24($CF1088)
+//I'm Lina!<End>
+
+//POINTER #120 @ $CF108C - STRING #120 @ $CEFFC5
+
+#W24($CF108C)
+//That's not right!<End>
+
+//POINTER #121 @ $CF1090 - STRING #121 @ $CEFFE6
+
+#W24($CF1090)
+//Really…?<End>
+
+//POINTER #122 @ $CF1094 - STRING #122 @ $CEFFF7
+
+#W24($CF1094)
+//Look out!<End>
+
+//POINTER #123 @ $CF1098 - STRING #123 @ $CF0009
+
+#W24($CF1098)
+//…Hahaha…<line>
+//I already opened it…💧<End>
+
+//POINTER #124 @ $CF109C - STRING #124 @ $CF0042
+
+#W24($CF109C)
+//Ultra Pretty Shot!<End>
+
+//POINTER #125 @ $CF10A0 - STRING #125 @ $CF0065
+
+#W24($CF10A0)
+//I wish I could fly.<End>
+
+//POINTER #126 @ $CF10A4 - STRING #126 @ $CF0088
+
+#W24($CF10A4)
+//Lina hates icky things!!<End>
+
+//POINTER #127 @ $CF10A8 - STRING #127 @ $CF00B4
+
+#W24($CF10A8)
+//Ouchie…<End>
+
+//POINTER #128 @ $CF10AC - STRING #128 @ $CF00C3
+
+#W24($CF10AC)
+//It's no use trying to<line>
+//stop me!<End>
+
+//POINTER #129 @ $CF10B0 - STRING #129 @ $CF00FA
+
+#W24($CF10B0)
+//Lina wants some fruit.<End>
+
+//POINTER #130 @ $CF10B4 - STRING #130 @ $CF0124
+
+#W24($CF10B4)
+//The water's freezing.<End>
+
+//POINTER #131 @ $CF10B8 - STRING #131 @ $CF014D
+
+#W24($CF10B8)
+//Ein's a pervert!<End>
+
+//POINTER #132 @ $CF10BC - STRING #132 @ $CF016C
+
+#W24($CF10BC)
+//My name is Fia.<End>
+
+//POINTER #133 @ $CF10C0 - STRING #133 @ $CF0188
+
+#W24($CF10C0)
+//It's all thanks to you.<End>
+
+//POINTER #134 @ $CF10C4 - STRING #134 @ $CF01B3
+
+#W24($CF10C4)
+//I'm disappointed in you.<End>
+
+//POINTER #135 @ $CF10C8 - STRING #135 @ $CF01E1
+
+#W24($CF10C8)
+//I must apologize…<End>
+
+//POINTER #136 @ $CF10CC - STRING #136 @ $CF0202
+
+#W24($CF10CC)
+//I can't believe it…<End>
+
+//POINTER #137 @ $CF10D0 - STRING #137 @ $CF0226
+
+#W24($CF10D0)
+//I didn't see anything!<End>
+
+//POINTER #138 @ $CF10D4 - STRING #138 @ $CF0250
+
+#W24($CF10D4)
+//We have no choice but<line>
+//to fight!<End>
+
+//POINTER #139 @ $CF10D8 - STRING #139 @ $CF0289
+
+#W24($CF10D8)
+//E—Ein. What are you doing?<End>
+
+//POINTER #140 @ $CF10DC - STRING #140 @ $CF02BA
+
+#W24($CF10DC)
+//I used too much power…<End>
+
+//POINTER #141 @ $CF10E0 - STRING #141 @ $CF02E3
+
+#W24($CF10E0)
+//Whew…<End>
+
+//POINTER #142 @ $CF10E4 - STRING #142 @ $CF02EE
+
+#W24($CF10E4)
+//Um… I just heard<line>
+//a branch snap…<End>
+
+//POINTER #143 @ $CF10E8 - STRING #143 @ $CF0327
+
+#W24($CF10E8)
+//You can trust us…<End>
+
+//POINTER #144 @ $CF10EC - STRING #144 @ $CF0347
+
+#W24($CF10EC)
+//※giggle※ Stop that, Lina.<End>
+
+//POINTER #145 @ $CF10F0 - STRING #145 @ $CF0377
+
+#W24($CF10F0)
+//Ahh! Ein!<End>
+
+//POINTER #146 @ $CF10F4 - STRING #146 @ $CF0389
+
+#W24($CF10F4)
+//Everything will eventually<line>
+//turn to dust…<End>
+
+//POINTER #147 @ $CF10F8 - STRING #147 @ $CF03D5
+
+#W24($CF10F8)
+//So, this is Riviera…<End>
+
+//POINTER #148 @ $CF10FC - STRING #148 @ $CF03FB
+
+#W24($CF10FC)
+//What's going on!?<End>
+
+//POINTER #149 @ $CF1100 - STRING #149 @ $CF041A
+
+#W24($CF1100)
+//There's no time to waste!<End>
+
+//POINTER #150 @ $CF1104 - STRING #150 @ $CF0449
+
+#W24($CF1104)
+//Of course.<line>
+//I'm your Familiar.<End>
+
+//POINTER #151 @ $CF1108 - STRING #151 @ $CF0480
+
+#W24($CF1108)
+//I'd rather be napping.<End>
+
+//POINTER #152 @ $CF110C - STRING #152 @ $CF04AA
+
+#W24($CF110C)
+//Ein!!!!<End>
+
+//POINTER #153 @ $CF1110 - STRING #153 @ $CF04B5
+
+#W24($CF1110)
+//Finally!<End>
+
+//POINTER #154 @ $CF1114 - STRING #154 @ $CF0524
+
+#W24($CF1114)
+//Do you really think you can<line>
+//escape?<End>
+
+//POINTER #155 @ $CF1118 - STRING #155 @ $CF0565
+
+#W24($CF1118)
+//That's good. Anger, hate!<End>
+
+//POINTER #156 @ $CF111C - STRING #156 @ $CF0595
+
+#W24($CF111C)
+//Give it up!<line>
+//I'll hunt you down!<End>
+
+//POINTER #157 @ $CF1120 - STRING #157 @ $CF05CE
+
+#W24($CF1120)
+//It can't be…<End>
+
+//POINTER #158 @ $CF1124 - STRING #158 @ $CF05E5
+
+#W24($CF1124)
+//May the gods protect you.<End>
+
+//POINTER #159 @ $CF1128 - STRING #159 @ $CF0614
+
+#W24($CF1128)
+//I must protect Riviera!<End>
+
+//POINTER #160 @ $CF112C - STRING #160 @ $CF0640
+
+#W24($CF112C)
+//I entrust you with<line>
+//the future of Riviera…<End>
+
+//POINTER #161 @ $CF1130 - STRING #161 @ $CF068C
+
+#W24($CF1130)
+//The Retribution must not<line>
+//come to pass…<End>
+
+//POINTER #162 @ $CF1134 - STRING #162 @ $CF06D3
+
+#W24($CF1134)
+//PoWEr… I waNt pOwer…<End>
+
+//POINTER #163 @ $CF1138 - STRING #163 @ $CF06F9
+
+#W24($CF1138)
+//…Ah……!<End>
+
+//POINTER #164 @ $CF113C - STRING #164 @ $CF0706
+
+#W24($CF113C)
+//Pass judgment on them…<End>
+
+//POINTER #165 @ $CF1140 - STRING #165 @ $CF0730
+
+#W24($CF1140)
+//…E…i……n…<End>
+
+//POINTER #166 @ $CF1144 - STRING #166 @ $CF0741
+
+#W24($CF1144)
+//The winds are changing.<End>
+
+//POINTER #167 @ $CF1148 - STRING #167 @ $CF076D
+
+#W24($CF1148)
+//I don't know anything.<End>
+
+//POINTER #168 @ $CF114C - STRING #168 @ $CF0797
+
+#W24($CF114C)
+//Picked up like a stray?<line>
+//Oh well.<End>
+
+//POINTER #169 @ $CF1150 - STRING #169 @ $CF07D2
+
+#W24($CF1150)
+//※sigh※ Are there any good<line>
+//magic books?<End>
+
+//POINTER #170 @ $CF1154 - STRING #170 @ $CF0819
+
+#W24($CF1154)
+//I'm finally done<line>
+//translating.<End>
+
+//POINTER #171 @ $CF1158 - STRING #171 @ $CF0851
+
+#W24($CF1158)
+//I've never seen a crystal<line>
+//like this before.<End>
+
+//POINTER #172 @ $CF115C - STRING #172 @ $CF08A1
+
+#W24($CF115C)
+//I'll protect the Elder.<End>
+
+//POINTER #173 @ $CF1160 - STRING #173 @ $CF08CD
+
+#W24($CF1160)
+//You're not normal,<line>
+//are you?<End>
+
+//POINTER #174 @ $CF1164 - STRING #174 @ $CF0900
+
+#W24($CF1164)
+//This is a great place<line>
+//to live.<End>
+
+//POINTER #175 @ $CF1168 - STRING #175 @ $CF0937
+
+#W24($CF1168)
+//It's nice to have somewhere<line>
+//to go home to.<End>
+
+//POINTER #176 @ $CF116C - STRING #176 @ $CF0984
+
+#W24($CF116C)
+//I'll protect Elendia!!<End>
+
+//POINTER #177 @ $CF1170 - STRING #177 @ $CF09AD
+
+#W24($CF1170)
+//You're so cool…<End>
+
+//POINTER #178 @ $CF1174 - STRING #178 @ $CF09CA
+
+#W24($CF1174)
+//So, you're an angel…<End>
+
+//POINTER #179 @ $CF1178 - STRING #179 @ $CF09F0
+
+#W24($CF1178)
+//※chuckle※<line>
+//What a nice sensation…<End>
+
+//POINTER #180 @ $CF117C - STRING #180 @ $CF0A2D
+
+#W24($CF117C)
+//Us blacksmiths are always<line>
+//low on cash!<End>
+
+//POINTER #181 @ $CF1180 - STRING #181 @ $CF0A74
+
+#W24($CF1180)
+//?????<End>

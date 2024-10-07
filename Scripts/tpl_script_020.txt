@@ -1,0 +1,105 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($D49F48,$D4A603)
+
+//GAME NAME:		
+
+//BLOCK #020 NAME:		PART (020)
+
+//POINTER #0 @ $D4A604 - STRING #0 @ $D49F48
+
+#W24($D4A604)
+//A cliff on the <line>
+//eastern island of<line>
+//Riviera. Migrating<line>
+//birds enjoy the<line>
+//warm weather there.<End>
+
+//POINTER #1 @ $D4A608 - STRING #1 @ $D49FEA
+
+#W24($D4A608)
+//A stone bridge<line>
+//leading to the castle.<line>
+//The moonlight creates<line>
+//a mysterious shadow<line>
+//on the water.<End>
+
+//POINTER #2 @ $D4A60C - STRING #2 @ $D4A096
+
+#W24($D4A60C)
+//In the castle's<line>
+//courtyard, stone<line>
+//pillars and small<line>
+//shrubs line<line>
+//a garden path.<End>
+
+//POINTER #3 @ $D4A610 - STRING #3 @ $D4A125
+
+#W24($D4A610)
+//A tower located<line>
+//in a corner of<line>
+//the Moonlit Garden.<line>
+//The spiral stairs<line>
+//lead to the top.<End>
+
+//POINTER #4 @ $D4A614 - STRING #4 @ $D4A1C0
+
+#W24($D4A614)
+//A walkway high above<line>
+//the ground which<line>
+//connects two towers.<line>
+//It was reserved for<line>
+//emergency use only.<End>
+
+//POINTER #5 @ $D4A618 - STRING #5 @ $D4A275
+
+#W24($D4A618)
+//Blue—white flames<line>
+//light the dark<line>
+//chambers. Strange<line>
+//statues of knights<line>
+//line the halls.<End>
+
+//POINTER #6 @ $D4A61C - STRING #6 @ $D4A314
+
+#W24($D4A61C)
+//A well—maintained<line>
+//courtyard, complete<line>
+//with a fountain.<line>
+//Beyond here lies<line>
+//the Sealed Tower.<End>
+
+//POINTER #7 @ $D4A620 - STRING #7 @ $D4A3BB
+
+#W24($D4A620)
+//A tower located<line>
+//deep within the<line>
+//castle. A demonic<line>
+//god is said to be<line>
+//sealed away here.<End>
+
+//POINTER #8 @ $D4A624 - STRING #8 @ $D4A456
+
+#W24($D4A624)
+//A humungous prison<line>
+//beneath the castle.<line>
+//Giant chains are<line>
+//a remnant of the<line>
+//beasts held here.<End>
+
+//POINTER #9 @ $D4A628 - STRING #9 @ $D4A4FC
+
+#W24($D4A628)
+//→ from heaven<line>
+//fill thyself with ↓<line>
+//and like A hunting ↑<line>
+//correct what is B…<End>
+
+//POINTER #10 @ $D4A62C - STRING #10 @ $D4A580
+
+#W24($D4A62C)
+//→ From heaven<line>
+//Fill thyself with ↓<line>
+//And like A hunting ↑<line>
+//Correct what is B…<End>

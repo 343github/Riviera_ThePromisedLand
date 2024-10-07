@@ -1,0 +1,94 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($D33524,$D33B33)
+
+//GAME NAME:		
+
+//BLOCK #017 NAME:		PART (017)
+
+//POINTER #0 @ $D33B34 - STRING #0 @ $D33524
+
+#W24($D33B34)
+//The resting place of<line>
+//the Grim Angels that<line>
+//lost their lives in<line>
+//Ragnarok. Entry is<line>
+//now prohibited.<End>
+
+//POINTER #1 @ $D33B38 - STRING #1 @ $D335D5
+
+#W24($D33B38)
+//A walkway at Heaven's<line>
+//Gate made of floating<line>
+//rocks, leading to<line>
+//a cavern.<End>
+
+//POINTER #2 @ $D33B3C - STRING #2 @ $D33658
+
+#W24($D33B3C)
+//The stone stairway<line>
+//where fallen angels<line>
+//were tried.<line>
+//It spirals up to<line>
+//a cavern.<End>
+
+//POINTER #3 @ $D33B40 - STRING #3 @ $D336E6
+
+#W24($D33B40)
+//The stone steps<line>
+//eventually lead<line>
+//into a cavern.<line>
+//Light gently seeps<line>
+//through the cracks.<End>
+
+//POINTER #4 @ $D33B44 - STRING #4 @ $D33784
+
+#W24($D33B44)
+//Where judgment used<line>
+//to be passed on fallen<line>
+//angels. Giant boulders<line>
+//hang in the sky by<line>
+//chains.<End>
+
+//POINTER #5 @ $D33B48 - STRING #5 @ $D3382D
+
+#W24($D33B48)
+//A path made of rocks<line>
+//chained together.<line>
+//The footing is shaky,<line>
+//but they are seen all<line>
+//over Heaven's Gate.<End>
+
+//POINTER #6 @ $D33B4C - STRING #6 @ $D338E8
+
+#W24($D33B4C)
+//A nameless temple<line>
+//in the southernmost<line>
+//area of Heaven's Gate.<line>
+//Its floor has cracked<line>
+//over time.<End>
+
+//POINTER #7 @ $D33B50 - STRING #7 @ $D33994
+
+#W24($D33B50)
+//The southernmost<line>
+//gate of Heaven's<line>
+//Gate. A barrier<line>
+//prevents anyone<line>
+//from passing.<End>
+
+//POINTER #8 @ $D33B54 - STRING #8 @ $D33A28
+
+#W24($D33B54)
+//Servants of Asgard, turn back.<line>
+//Return from whence you came.<End>
+
+//POINTER #9 @ $D33B58 - STRING #9 @ $D33A96
+
+#W24($D33B58)
+//Ruins of a palace that<line>
+//once held sacred<line>
+//treasures, but was<line>
+//destroyed during<line>
+//Ragnarok.<End>

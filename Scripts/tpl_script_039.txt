@@ -1,0 +1,240 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($DA4FA8,$DA5746)
+
+//GAME NAME:		
+
+//BLOCK #039 NAME:		PART (039)
+
+//POINTER #0 @ $DA57D8 - STRING #0 @ $DA4FA8
+
+#W24($DA57D8)
+// Game Design<line>
+//  & Direction<End>
+
+//POINTER #1 @ $DA57DC - STRING #1 @ $DA4FD7
+
+#W24($DA57DC)
+//  Shinichi Ito<End>
+
+//POINTER #2 @ $DA57E0 - STRING #2 @ $DA4FF1
+
+#W24($DA57E0)
+// Program<End>
+
+//POINTER #3 @ $DA57E4 - STRING #3 @ $DA5001
+
+#W24($DA57E4)
+//  Kazumasa Shimaoka<line>
+//  Ken Yoshida<line>
+//  Masanori Ishikawa<line>
+//  Toshiaki Kimura<line>
+//  Kenjiro Hira<line>
+//  Mitsugi Tanaka<End>
+
+//POINTER #4 @ $DA57E8 - STRING #4 @ $DA50B9
+
+#W24($DA57E8)
+// Scenario<End>
+
+//POINTER #5 @ $DA57EC - STRING #5 @ $DA50CB
+
+#W24($DA57EC)
+//  Yoshifumi Hashimoto<line>
+//  Ikki Yamanobe<line>
+//  Yujiro Tabata<line>
+//  Takahiro Hasebe<line>
+// <End>
+
+//POINTER #6 @ $DA57F0 - STRING #6 @ $DA514D
+
+#W24($DA57F0)
+// Script<End>
+
+//POINTER #7 @ $DA57F4 - STRING #7 @ $DA515B
+
+#W24($DA57F4)
+//  Masahiro Kobayashi<line>
+//  Chikashi Nishimura<End>
+
+//POINTER #8 @ $DA57F8 - STRING #8 @ $DA51A7
+
+#W24($DA57F8)
+// Character<line>
+// Design<End>
+
+//POINTER #9 @ $DA57FC - STRING #9 @ $DA51C9
+
+#W24($DA57FC)
+//  Sunaho Tobe<line>
+//  Kaoru Hagiya<line>
+//  Yukio Takatsu<line>
+//  Yoshinori Iwanaga<End>
+
+//POINTER #10 @ $DA5800 - STRING #10 @ $DA523B
+
+#W24($DA5800)
+// Graphic<End>
+
+//POINTER #11 @ $DA5804 - STRING #11 @ $DA524B
+
+#W24($DA5804)
+//  Norio Takeuchi<line>
+//  Natuko Tada<line>
+//  Eriko Kawaguchi<line>
+//  Akihito Kuroda<line>
+//  JaJa<End>
+
+//POINTER #12 @ $DA5808 - STRING #12 @ $DA52CA
+
+#W24($DA5808)
+// Sound<End>
+
+//POINTER #13 @ $DA580C - STRING #13 @ $DA52D6
+
+#W24($DA580C)
+//  Minako Adachi<line>
+//  Hitoshi Okamoto<line>
+//  Shigeki Hayashi<line>
+//  Kiyotaka Sato<line>
+//  Sintaro Hirakawa<line>
+//  Kiyohiro Sada<line>
+//  Takuya Yokota<line>
+//  Kouhei Matsuoka<End>
+
+//POINTER #14 @ $DA5810 - STRING #14 @ $DA53C8
+
+#W24($DA5810)
+// Special<line>
+// Thanks<End>
+
+//POINTER #15 @ $DA5814 - STRING #15 @ $DA53E6
+
+#W24($DA5814)
+//  Takeo Isogai<line>
+//  Toshiaki Sakoda<line>
+//  Kanji Uemura<line>
+//  Nobuko Ono<line>
+//  Yasue Santo<End>
+
+//POINTER #16 @ $DA5818 - STRING #16 @ $DA5468
+
+#W24($DA5818)
+// Production<End>
+
+//POINTER #17 @ $DA581C - STRING #17 @ $DA547E
+
+#W24($DA581C)
+//  Takeshi Santo<End>
+
+//POINTER #18 @ $DA5820 - STRING #18 @ $DA549A
+
+#W24($DA5820)
+// Translator<End>
+
+//POINTER #19 @ $DA5824 - STRING #19 @ $DA54B0
+
+#W24($DA5824)
+//  James Kuroki<line>
+// <End>
+
+//POINTER #20 @ $DA5828 - STRING #20 @ $DA54CC
+
+#W24($DA5828)
+// Editor<End>
+
+//POINTER #21 @ $DA582C - STRING #21 @ $DA54DA
+
+#W24($DA582C)
+//  Bill Alexander<line>
+// <End>
+
+//POINTER #22 @ $DA5830 - STRING #22 @ $DA54FA
+
+#W24($DA5830)
+// Assistant Editor<End>
+
+//POINTER #23 @ $DA5834 - STRING #23 @ $DA551B
+
+#W24($DA5834)
+//  Tomm Hulett<End>
+
+//POINTER #24 @ $DA5838 - STRING #24 @ $DA5533
+
+#W24($DA5838)
+// Voice Recording<End>
+
+//POINTER #25 @ $DA583C - STRING #25 @ $DA5552
+
+#W24($DA583C)
+//  Elastic Media Corp.<line>
+// <End>
+
+//POINTER #26 @ $DA5840 - STRING #26 @ $DA557B
+
+#W24($DA5840)
+// Quality Assurance<End>
+
+//POINTER #27 @ $DA5844 - STRING #27 @ $DA559E
+
+#W24($DA5844)
+//  Wayne Carter<line>
+//  Erik Chan<line>
+//  Carl Chen<line>
+//  Michael Manzanares<End>
+
+//POINTER #28 @ $DA5848 - STRING #28 @ $DA5606
+
+#W24($DA5848)
+// Marketing Manager<End>
+
+//POINTER #29 @ $DA584C - STRING #29 @ $DA5629
+
+#W24($DA584C)
+//  Gail Salamanca<line>
+// <End>
+
+//POINTER #30 @ $DA5850 - STRING #30 @ $DA5649
+
+#W24($DA5850)
+// Project Coordinator<End>
+
+//POINTER #31 @ $DA5854 - STRING #31 @ $DA5670
+
+#W24($DA5854)
+//  Hiroyuki Tanaka<line>
+// <End>
+
+//POINTER #32 @ $DA5858 - STRING #32 @ $DA5692
+
+#W24($DA5858)
+// Project Lead<End>
+
+//POINTER #33 @ $DA585C - STRING #33 @ $DA56AB
+
+#W24($DA585C)
+//  Akibo Shieh<line>
+// <End>
+
+//POINTER #34 @ $DA5860 - STRING #34 @ $DA56C5
+
+#W24($DA5860)
+// Project Manager<End>
+
+//POINTER #35 @ $DA5864 - STRING #35 @ $DA56E4
+
+#W24($DA5864)
+//  Sonoko Saito<line>
+// <End>
+
+//POINTER #36 @ $DA5868 - STRING #36 @ $DA5700
+
+#W24($DA5868)
+// Executive Producer<End>
+
+//POINTER #37 @ $DA586C - STRING #37 @ $DA5725
+
+#W24($DA586C)
+//  Shinichi Suzuki<line>
+// <End>

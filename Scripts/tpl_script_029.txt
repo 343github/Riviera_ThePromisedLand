@@ -1,0 +1,273 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($D87398,$D88740)
+
+//GAME NAME:		
+
+//BLOCK #029 NAME:		PART (029)
+
+//POINTER #0 @ $D88744 - STRING #0 @ $D87398
+
+#W24($D88744)
+//A ghost town in<line>
+//northeastern Riviera.<line>
+//An underground<line>
+//catacomb lies<line>
+//beneath it.<End>
+
+//POINTER #1 @ $D88748 - STRING #1 @ $D8742A
+
+#W24($D88748)
+//A dark path leading<line>
+//toward the cemetery's<line>
+//underground caverns.<line>
+//Torches illuminate<line>
+//the path.<End>
+
+//POINTER #2 @ $D8874C - STRING #2 @ $D874D5
+
+#W24($D8874C)
+//The Pilgrimage Way<line>
+//leads to this ivy<line>
+//infested area. There<line>
+//are two entrances:<line>
+//north and south.<End>
+
+//POINTER #3 @ $D88750 - STRING #3 @ $D87581
+
+#W24($D88750)
+//The names of the<line>
+//Six Great Priests<line>
+//of Mireno are eternally<line>
+//engraved in the Ankhs.<Next>
+
+//Their hands opened<line>
+//the Holy Land;<line>
+//their names sealed<line>
+//off the path.<Next>
+
+//Until the Six Priests<line>
+//meet again…<End>
+
+//POINTER #4 @ $D88754 - STRING #4 @ $D876D0
+
+#W24($D88754)
+//A large lake of<line>
+//collected rain water.<line>
+//The clarity makes it<line>
+//appear shallow, but<line>
+//it's actually quite deep.<End>
+
+//POINTER #5 @ $D88758 - STRING #5 @ $D87790
+
+#W24($D88758)
+//Xenon, Lokin<line>
+//and Askus rest<line>
+//in this section<line>
+//of the catacombs.<End>
+
+//POINTER #6 @ $D8875C - STRING #6 @ $D87801
+
+#W24($D8875C)
+//Askus…<line>
+//the priest of birth;<line>
+//above Teula in fire,<line>
+//above Xenon in lightning,<line>
+//above Yumel in ice.<Next>
+
+//Do you seek my power?<line>
+//So be it…<line>
+//You must overcome my trial.<End>
+
+//POINTER #7 @ $D88760 - STRING #7 @ $D8791A
+
+#W24($D88760)
+//Askus…<line>
+//the priest of birth;<line>
+//above Teula in fire,<line>
+//above Xenon in lightning,<line>
+//above Yumel in ice.<End>
+
+//POINTER #8 @ $D88764 - STRING #8 @ $D879C7
+
+#W24($D88764)
+//Iduna…<line>
+//the priest of rebirth;<line>
+//below Xenon in fire,<line>
+//above Yumel in lightning,<line>
+//above Xenon in ice.<Next>
+
+//Do you seek my power?<line>
+//So be it…<line>
+//You must overcome my trial.<End>
+
+//POINTER #9 @ $D88768 - STRING #9 @ $D87AE4
+
+#W24($D88768)
+//Iduna…<line>
+//the priest of rebirth;<line>
+//below Xenon in fire,<line>
+//above Yumel in lightning,<line>
+//above Xenon in ice.<End>
+
+//POINTER #10 @ $D8876C - STRING #10 @ $D87B95
+
+#W24($D8876C)
+//Lokin…<line>
+//the priest of chaos;<line>
+//above Xenon in fire,<line>
+//below Xenon in lightning,<line>
+//below Iduna in ice.<Next>
+
+//Do you seek my power?<line>
+//So be it…<line>
+//You must overcome my trial.<End>
+
+//POINTER #11 @ $D88770 - STRING #11 @ $D87CAE
+
+#W24($D88770)
+//Lokin…<line>
+//the priest of chaos;<line>
+//above Xenon in fire,<line>
+//below Xenon in lightning,<line>
+//below Iduna in ice.<End>
+
+//POINTER #12 @ $D88774 - STRING #12 @ $D87D5B
+
+#W24($D88774)
+//Teula…<line>
+//the priest of courage;<line>
+//below Iduna in fire,<line>
+//above Iduna in lightning,<line>
+//above Iduna in ice.<Next>
+
+//Do you seek my power?<line>
+//So be it…<line>
+//You must overcome my trial.<End>
+
+//POINTER #13 @ $D88778 - STRING #13 @ $D87E78
+
+#W24($D88778)
+//Teula…<line>
+//the priest of courage;<line>
+//below Iduna in fire,<line>
+//above Iduna in lightning,<line>
+//above Iduna in ice.<End>
+
+//POINTER #14 @ $D8877C - STRING #14 @ $D87F29
+
+#W24($D8877C)
+//Xenon…<line>
+//the priest of death;<line>
+//above Askus in fire,<line>
+//below Iduna in lightning,<line>
+//below Lokin in ice.<Next>
+
+//Do you seek my power?<line>
+//So be it…<line>
+//You must overcome my trial.<End>
+
+//POINTER #15 @ $D88780 - STRING #15 @ $D88042
+
+#W24($D88780)
+//Xenon…<line>
+//the priest of death;<line>
+//above Askus in fire,<line>
+//below Iduna in lightning,<line>
+//below Lokin in ice.<End>
+
+//POINTER #16 @ $D88784 - STRING #16 @ $D880EF
+
+#W24($D88784)
+//Yumel…<line>
+//the priest of creation;<line>
+//below Teula in fire,<line>
+//above Askus in lightning,<line>
+//above Teula in ice.<Next>
+
+//Do you seek my power?<line>
+//So be it…<line>
+//You must overcome my trial.<End>
+
+//POINTER #17 @ $D88788 - STRING #17 @ $D8820E
+
+#W24($D88788)
+//Yumel…<line>
+//the priest of creation;<line>
+//below Teula in fire,<line>
+//above Askus in lightning,<line>
+//above Teula in ice.<End>
+
+//POINTER #18 @ $D8878C - STRING #18 @ $D882C1
+
+#W24($D8878C)
+//Yumel, Iduna<line>
+//and Teula rest<line>
+//in this part of<line>
+//the catacombs.<End>
+
+//POINTER #19 @ $D88790 - STRING #19 @ $D8832C
+
+#W24($D88790)
+//Giant crystals stand<line>
+//within each sacred<line>
+//shrine, silently<line>
+//illuminating the<line>
+//darkness.<End>
+
+//POINTER #20 @ $D88794 - STRING #20 @ $D883C9
+
+#W24($D88794)
+//The Red Shrine…<line>
+//     <line>
+//Dost thou seek new paths?<line>
+//     <line>
+//Then name for me…<line>
+//     <line>
+//…the priest of fire!<End>
+
+//POINTER #21 @ $D88798 - STRING #21 @ $D8846D
+
+#W24($D88798)
+//The Blue Shrine…<line>
+//     <line>
+//Dost thou seek new paths?<line>
+//     <line>
+//Then name for me…<line>
+//     <line>
+//…the priest of ice!<End>
+
+//POINTER #22 @ $D8879C - STRING #22 @ $D88511
+
+#W24($D8879C)
+//The Yellow Shrine…<line>
+//     <line>
+//Dost thou seek new paths?<line>
+//     <line>
+//Then name for me…<line>
+//     <line>
+//…the priest of lightning!<End>
+
+//POINTER #23 @ $D887A0 - STRING #23 @ $D885C5
+
+#W24($D887A0)
+//The holy land of death<line>
+//that lies beyond the<line>
+//lake. Poisonous air<line>
+//leads visitors to their<line>
+//untimely deaths.<End>
+
+//POINTER #24 @ $D887A4 - STRING #24 @ $D88685
+
+#W24($D887A4)
+//A dungeon deep below<line>
+//the ground, unknown<line>
+//to man. What secrets<line>
+//does this forsaken<line>
+//maze hide?<End>
+
+//POINTER #25 @ $D887A8 - STRING #25 @ $D8872D
+
+#W24($D887A8)
+//Turn back…<End>

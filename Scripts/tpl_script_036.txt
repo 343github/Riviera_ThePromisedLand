@@ -1,0 +1,53 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($DA4884,$DA493F)
+
+//GAME NAME:		
+
+//BLOCK #036 NAME:		PART (036)
+
+//POINTER #0 @ $DA4940 - STRING #0 @ $DA4884
+
+#W24($DA4940)
+//Land of Judgment<End>
+
+//POINTER #1 @ $DA4944 - STRING #1 @ $DA48A3
+
+#W24($DA4944)
+//Fight<End>
+
+//POINTER #2 @ $DA4948 - STRING #2 @ $DA48AE
+
+#W24($DA4948)
+//Darkness I<End>
+
+//POINTER #3 @ $DA494C - STRING #3 @ $DA48C2
+
+#W24($DA494C)
+//Darkness II<End>
+
+//POINTER #4 @ $DA4950 - STRING #4 @ $DA48D8
+
+#W24($DA4950)
+//Darkness III<End>
+
+//POINTER #5 @ $DA4954 - STRING #5 @ $DA48F0
+
+#W24($DA4954)
+//Darkness IV<End>
+
+//POINTER #6 @ $DA4958 - STRING #6 @ $DA4906
+
+#W24($DA4958)
+//Darkness V<End>
+
+//POINTER #7 @ $DA495C - STRING #7 @ $DA491A
+
+#W24($DA495C)
+//Darkness VI<End>
+
+//POINTER #8 @ $DA4960 - STRING #8 @ $DA4930
+
+#W24($DA4960)
+//Not Used<End>

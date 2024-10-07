@@ -1,0 +1,1643 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($D625EC,$D63388)
+
+//GAME NAME:		
+
+//BLOCK #024 NAME:		PART (024)
+
+//POINTER #0 @ $D6338C - STRING #0 @ $D625EC
+
+#W24($D6338C)
+//Lake Cavern<End>
+
+//POINTER #1 @ $D63390 - STRING #1 @ $D62602
+
+#W24($D63390)
+//Surroundings<End>
+
+//POINTER #2 @ $D63394 - STRING #2 @ $D6261B
+
+#W24($D63394)
+//Broken Planks<End>
+
+//POINTER #3 @ $D63398 - STRING #3 @ $D62635
+
+#W24($D63398)
+//Ground<End>
+
+//POINTER #4 @ $D6339C - STRING #4 @ $D62642
+
+#W24($D6339C)
+//Catch<End>
+
+//POINTER #5 @ $D633A0 - STRING #5 @ $D6264D
+
+#W24($D633A0)
+//Grab<End>
+
+//POINTER #6 @ $D633A4 - STRING #6 @ $D62656
+
+#W24($D633A4)
+//Grasshopper Acquired!<End>
+
+//POINTER #7 @ $D633A8 - STRING #7 @ $D62680
+
+#W24($D633A8)
+//Leave<End>
+
+//POINTER #8 @ $D633AC - STRING #8 @ $D6268B
+
+#W24($D633AC)
+//Ceiling<End>
+
+//POINTER #9 @ $D633B0 - STRING #9 @ $D6269A
+
+#W24($D633B0)
+//Dripping Ceiling<End>
+
+//POINTER #10 @ $D633B4 - STRING #10 @ $D626BA
+
+#W24($D633B4)
+//Sinking Island<End>
+
+//POINTER #11 @ $D633B8 - STRING #11 @ $D626D6
+
+#W24($D633B8)
+//Rocks<End>
+
+//POINTER #12 @ $D633BC - STRING #12 @ $D626E1
+
+#W24($D633BC)
+//Mossy Rocks<End>
+
+//POINTER #13 @ $D633C0 - STRING #13 @ $D626F7
+
+#W24($D633C0)
+//Water<End>
+
+//POINTER #14 @ $D633C4 - STRING #14 @ $D62702
+
+#W24($D633C4)
+//Fishing Point<End>
+
+//POINTER #15 @ $D633C8 - STRING #15 @ $D6271C
+
+#W24($D633C8)
+//Fish<End>
+
+//POINTER #16 @ $D633CC - STRING #16 @ $D62725
+
+#W24($D633CC)
+//Fished a Statue!<End>
+
+//POINTER #17 @ $D633D0 - STRING #17 @ $D62744
+
+#W24($D633D0)
+//Fish!<End>
+
+//POINTER #18 @ $D633D4 - STRING #18 @ $D6274F
+
+#W24($D633D4)
+//Free It<End>
+
+//POINTER #19 @ $D633D8 - STRING #19 @ $D6275D
+
+#W24($D633D8)
+//Caught a Fish!<End>
+
+//POINTER #20 @ $D633DC - STRING #20 @ $D62778
+
+#W24($D633DC)
+//Leave It<End>
+
+//POINTER #21 @ $D633E0 - STRING #21 @ $D6275D
+
+#W24($D633E0)
+//Caught a Fish!<End>
+
+//POINTER #22 @ $D633E4 - STRING #22 @ $D62680
+
+#W24($D633E4)
+//Leave<End>
+
+//POINTER #23 @ $D633E8 - STRING #23 @ $D626F7
+
+#W24($D633E8)
+//Water<End>
+
+//POINTER #24 @ $D633EC - STRING #24 @ $D626D6
+
+#W24($D633EC)
+//Rocks<End>
+
+//POINTER #25 @ $D633F0 - STRING #25 @ $D62788
+
+#W24($D633F0)
+//Take<End>
+
+//POINTER #26 @ $D633F4 - STRING #26 @ $D62791
+
+#W24($D633F4)
+//Rock Acquired♪<End>
+
+//POINTER #27 @ $D633F8 - STRING #27 @ $D627AD
+
+#W24($D633F8)
+//Don't Take<End>
+
+//POINTER #28 @ $D633FC - STRING #28 @ $D627C1
+
+#W24($D633FC)
+//Chest<End>
+
+//POINTER #29 @ $D63400 - STRING #29 @ $D627CC
+
+#W24($D63400)
+//Open<End>
+
+//POINTER #30 @ $D63404 - STRING #30 @ $D627D5
+
+#W24($D63404)
+//Don't Open<End>
+
+//POINTER #31 @ $D63408 - STRING #31 @ $D627CC
+
+#W24($D63408)
+//Open<End>
+
+//POINTER #32 @ $D6340C - STRING #32 @ $D627E9
+
+#W24($D6340C)
+//Throw<End>
+
+//POINTER #33 @ $D63410 - STRING #33 @ $D627F4
+
+#W24($D63410)
+//Threw the Snake!<End>
+
+//POINTER #34 @ $D63414 - STRING #34 @ $D627D5
+
+#W24($D63414)
+//Don't Open<End>
+
+//POINTER #35 @ $D63418 - STRING #35 @ $D62813
+
+#W24($D63418)
+//Open Chest<End>
+
+//POINTER #36 @ $D6341C - STRING #36 @ $D62827
+
+#W24($D6341C)
+//Chest Remains<End>
+
+//POINTER #37 @ $D63420 - STRING #37 @ $D62841
+
+#W24($D63420)
+//Rusty Key Acquired<End>
+
+//POINTER #38 @ $D63424 - STRING #38 @ $D62864
+
+#W24($D63424)
+//Carnea District<End>
+
+//POINTER #39 @ $D63428 - STRING #39 @ $D62882
+
+#W24($D63428)
+//Floating Object<End>
+
+//POINTER #40 @ $D6342C - STRING #40 @ $D628A0
+
+#W24($D6342C)
+//Pick Up<End>
+
+//POINTER #41 @ $D63430 - STRING #41 @ $D628AE
+
+#W24($D63430)
+//Floating Book Acquired<End>
+
+//POINTER #42 @ $D63434 - STRING #42 @ $D628D9
+
+#W24($D63434)
+//Don't Pick Up<End>
+
+//POINTER #43 @ $D63438 - STRING #43 @ $D628F2
+
+#W24($D63438)
+//Rippling Surface<End>
+
+//POINTER #44 @ $D6343C - STRING #44 @ $D62912
+
+#W24($D6343C)
+//Go Back<End>
+
+//POINTER #45 @ $D63440 - STRING #45 @ $D62920
+
+#W24($D63440)
+//Old Door<End>
+
+//POINTER #46 @ $D63444 - STRING #46 @ $D62930
+
+#W24($D63444)
+//Climb Roof<End>
+
+//POINTER #47 @ $D63448 - STRING #47 @ $D627C1
+
+#W24($D63448)
+//Chest<End>
+
+//POINTER #48 @ $D6344C - STRING #48 @ $D627CC
+
+#W24($D6344C)
+//Open<End>
+
+//POINTER #49 @ $D63450 - STRING #49 @ $D627D5
+
+#W24($D63450)
+//Don't Open<End>
+
+//POINTER #50 @ $D63454 - STRING #50 @ $D62813
+
+#W24($D63454)
+//Open Chest<End>
+
+//POINTER #51 @ $D63458 - STRING #51 @ $D62912
+
+#W24($D63458)
+//Go Back<End>
+
+//POINTER #52 @ $D6345C - STRING #52 @ $D627C1
+
+#W24($D6345C)
+//Chest<End>
+
+//POINTER #53 @ $D63460 - STRING #53 @ $D627CC
+
+#W24($D63460)
+//Open<End>
+
+//POINTER #54 @ $D63464 - STRING #54 @ $D627D5
+
+#W24($D63464)
+//Don't Open<End>
+
+//POINTER #55 @ $D63468 - STRING #55 @ $D62813
+
+#W24($D63468)
+//Open Chest<End>
+
+//POINTER #56 @ $D6346C - STRING #56 @ $D62944
+
+#W24($D6346C)
+//Door<End>
+
+//POINTER #57 @ $D63470 - STRING #57 @ $D6294D
+
+#W24($D63470)
+//Climb Stairs<End>
+
+//POINTER #58 @ $D63474 - STRING #58 @ $D62965
+
+#W24($D63474)
+//Dodge<End>
+
+//POINTER #59 @ $D63478 - STRING #59 @ $D62970
+
+#W24($D63478)
+//Arrows Dodged!<End>
+
+//POINTER #60 @ $D6347C - STRING #60 @ $D6298C
+
+#W24($D6347C)
+//Shimmering Water<End>
+
+//POINTER #61 @ $D63480 - STRING #61 @ $D629AC
+
+#W24($D63480)
+//Search<End>
+
+//POINTER #62 @ $D63484 - STRING #62 @ $D629B9
+
+#W24($D63484)
+//For<End>
+
+//POINTER #63 @ $D63488 - STRING #63 @ $D629C0
+
+#W24($D63488)
+//Against<End>
+
+//POINTER #64 @ $D6348C - STRING #64 @ $D62680
+
+#W24($D6348C)
+//Leave<End>
+
+//POINTER #65 @ $D63490 - STRING #65 @ $D629CF
+
+#W24($D63490)
+//Dark Window<End>
+
+//POINTER #66 @ $D63494 - STRING #66 @ $D629E5
+
+#W24($D63494)
+//Heavy Door<End>
+
+//POINTER #67 @ $D63498 - STRING #67 @ $D629F9
+
+#W24($D63498)
+//Anbisium Door<End>
+
+//POINTER #68 @ $D6349C - STRING #68 @ $D62A13
+
+#W24($D6349C)
+//Floor<End>
+
+//POINTER #69 @ $D634A0 - STRING #69 @ $D62A1E
+
+#W24($D634A0)
+//Panel<End>
+
+//POINTER #70 @ $D634A4 - STRING #70 @ $D62A29
+
+#W24($D634A4)
+//I don't know.<End>
+
+//POINTER #71 @ $D634A8 - STRING #71 @ $D62A42
+
+#W24($D634A8)
+//Cierra.<End>
+
+//POINTER #72 @ $D634AC - STRING #72 @ $D62A51
+
+#W24($D634AC)
+//Fia.<End>
+
+//POINTER #73 @ $D634B0 - STRING #73 @ $D62A5A
+
+#W24($D634B0)
+//Serene.<End>
+
+//POINTER #74 @ $D634B4 - STRING #74 @ $D62A69
+
+#W24($D634B4)
+//Lina.<End>
+
+//POINTER #75 @ $D634B8 - STRING #75 @ $D62A74
+
+#W24($D634B8)
+//Rose.<End>
+
+//POINTER #76 @ $D634BC - STRING #76 @ $D62642
+
+#W24($D634BC)
+//Catch<End>
+
+//POINTER #77 @ $D634C0 - STRING #77 @ $D62A7F
+
+#W24($D634C0)
+//Nice Catch!<End>
+
+//POINTER #78 @ $D634C4 - STRING #78 @ $D62A95
+
+#W24($D634C4)
+//Darkness<End>
+
+//POINTER #79 @ $D634C8 - STRING #79 @ $D62AA6
+
+#W24($D634C8)
+//Crystal Key Acquired!<End>
+
+//POINTER #80 @ $D634CC - STRING #80 @ $D62ACF
+
+#W24($D634CC)
+//Storage Room<End>
+
+//POINTER #81 @ $D634D0 - STRING #81 @ $D627C1
+
+#W24($D634D0)
+//Chest<End>
+
+//POINTER #82 @ $D634D4 - STRING #82 @ $D627CC
+
+#W24($D634D4)
+//Open<End>
+
+//POINTER #83 @ $D634D8 - STRING #83 @ $D627D5
+
+#W24($D634D8)
+//Don't Open<End>
+
+//POINTER #84 @ $D634DC - STRING #84 @ $D62813
+
+#W24($D634DC)
+//Open Chest<End>
+
+//POINTER #85 @ $D634E0 - STRING #85 @ $D627C1
+
+#W24($D634E0)
+//Chest<End>
+
+//POINTER #86 @ $D634E4 - STRING #86 @ $D627CC
+
+#W24($D634E4)
+//Open<End>
+
+//POINTER #87 @ $D634E8 - STRING #87 @ $D627D5
+
+#W24($D634E8)
+//Don't Open<End>
+
+//POINTER #88 @ $D634EC - STRING #88 @ $D62813
+
+#W24($D634EC)
+//Open Chest<End>
+
+//POINTER #89 @ $D634F0 - STRING #89 @ $D627C1
+
+#W24($D634F0)
+//Chest<End>
+
+//POINTER #90 @ $D634F4 - STRING #90 @ $D627CC
+
+#W24($D634F4)
+//Open<End>
+
+//POINTER #91 @ $D634F8 - STRING #91 @ $D627D5
+
+#W24($D634F8)
+//Don't Open<End>
+
+//POINTER #92 @ $D634FC - STRING #92 @ $D62813
+
+#W24($D634FC)
+//Open Chest<End>
+
+//POINTER #93 @ $D63500 - STRING #93 @ $D62AE7
+
+#W24($D63500)
+//Save<End>
+
+//POINTER #94 @ $D63504 - STRING #94 @ $D62AF0
+
+#W24($D63504)
+//Ignore<End>
+
+//POINTER #95 @ $D63508 - STRING #95 @ $D627CC
+
+#W24($D63508)
+//Open<End>
+
+//POINTER #96 @ $D6350C - STRING #96 @ $D627D5
+
+#W24($D6350C)
+//Don't Open<End>
+
+//POINTER #97 @ $D63510 - STRING #97 @ $D62A42
+
+#W24($D63510)
+//Cierra.<End>
+
+//POINTER #98 @ $D63514 - STRING #98 @ $D62A51
+
+#W24($D63514)
+//Fia.<End>
+
+//POINTER #99 @ $D63518 - STRING #99 @ $D62A5A
+
+#W24($D63518)
+//Serene.<End>
+
+//POINTER #100 @ $D6351C - STRING #100 @ $D62A42
+
+#W24($D6351C)
+//Cierra.<End>
+
+//POINTER #101 @ $D63520 - STRING #101 @ $D62A51
+
+#W24($D63520)
+//Fia.<End>
+
+//POINTER #102 @ $D63524 - STRING #102 @ $D62A5A
+
+#W24($D63524)
+//Serene.<End>
+
+//POINTER #103 @ $D63528 - STRING #103 @ $D62A69
+
+#W24($D63528)
+//Lina.<End>
+
+//POINTER #104 @ $D6352C - STRING #104 @ $D62A42
+
+#W24($D6352C)
+//Cierra.<End>
+
+//POINTER #105 @ $D63530 - STRING #105 @ $D62A51
+
+#W24($D63530)
+//Fia.<End>
+
+//POINTER #106 @ $D63534 - STRING #106 @ $D62A5A
+
+#W24($D63534)
+//Serene.<End>
+
+//POINTER #107 @ $D63538 - STRING #107 @ $D62A74
+
+#W24($D63538)
+//Rose.<End>
+
+//POINTER #108 @ $D6353C - STRING #108 @ $D62A42
+
+#W24($D6353C)
+//Cierra.<End>
+
+//POINTER #109 @ $D63540 - STRING #109 @ $D62A51
+
+#W24($D63540)
+//Fia.<End>
+
+//POINTER #110 @ $D63544 - STRING #110 @ $D62A5A
+
+#W24($D63544)
+//Serene.<End>
+
+//POINTER #111 @ $D63548 - STRING #111 @ $D62A69
+
+#W24($D63548)
+//Lina.<End>
+
+//POINTER #112 @ $D6354C - STRING #112 @ $D62A74
+
+#W24($D6354C)
+//Rose.<End>
+
+//POINTER #113 @ $D63550 - STRING #113 @ $D62AFD
+
+#W24($D63550)
+//Found Mana Wisp!<End>
+
+//POINTER #114 @ $D63554 - STRING #114 @ $D62841
+
+#W24($D63554)
+//Rusty Key Acquired<End>
+
+//POINTER #115 @ $D63558 - STRING #115 @ $D62B1C
+
+#W24($D63558)
+//Colosseo<End>
+
+//POINTER #116 @ $D6355C - STRING #116 @ $D62B2D
+
+#W24($D6355C)
+//Buildings<End>
+
+//POINTER #117 @ $D63560 - STRING #117 @ $D627C1
+
+#W24($D63560)
+//Chest<End>
+
+//POINTER #118 @ $D63564 - STRING #118 @ $D62813
+
+#W24($D63564)
+//Open Chest<End>
+
+//POINTER #119 @ $D63568 - STRING #119 @ $D62B40
+
+#W24($D63568)
+//Locked Chest<End>
+
+//POINTER #120 @ $D6356C - STRING #120 @ $D62827
+
+#W24($D6356C)
+//Chest Remains<End>
+
+//POINTER #121 @ $D63570 - STRING #121 @ $D62B58
+
+#W24($D63570)
+//Hanging Ropes<End>
+
+//POINTER #122 @ $D63574 - STRING #122 @ $D62B72
+
+#W24($D63574)
+//Right<End>
+
+//POINTER #123 @ $D63578 - STRING #123 @ $D62B7D
+
+#W24($D63578)
+//Middle<End>
+
+//POINTER #124 @ $D6357C - STRING #124 @ $D62B8A
+
+#W24($D6357C)
+//Left<End>
+
+//POINTER #125 @ $D63580 - STRING #125 @ $D62B93
+
+#W24($D63580)
+//Run!<End>
+
+//POINTER #126 @ $D63584 - STRING #126 @ $D62B9C
+
+#W24($D63584)
+//Bees Evaded!<End>
+
+//POINTER #127 @ $D63588 - STRING #127 @ $D62BB4
+
+#W24($D63588)
+//None<End>
+
+//POINTER #128 @ $D6358C - STRING #128 @ $D62BBD
+
+#W24($D6358C)
+//Rope<End>
+
+//POINTER #129 @ $D63590 - STRING #129 @ $D628A0
+
+#W24($D63590)
+//Pick Up<End>
+
+//POINTER #130 @ $D63594 - STRING #130 @ $D62BC6
+
+#W24($D63594)
+//Rope Acquired<End>
+
+//POINTER #131 @ $D63598 - STRING #131 @ $D628D9
+
+#W24($D63598)
+//Don't Pick Up<End>
+
+//POINTER #132 @ $D6359C - STRING #132 @ $D62BE0
+
+#W24($D6359C)
+//Where Rope Was<End>
+
+//POINTER #133 @ $D635A0 - STRING #133 @ $D62BFB
+
+#W24($D635A0)
+//Memo<End>
+
+//POINTER #134 @ $D635A4 - STRING #134 @ $D62C04
+
+#W24($D635A4)
+//Killer Beehive<End>
+
+//POINTER #135 @ $D635A8 - STRING #135 @ $D62788
+
+#W24($D635A8)
+//Take<End>
+
+//POINTER #136 @ $D635AC - STRING #136 @ $D62C20
+
+#W24($D635AC)
+//Burn<End>
+
+//POINTER #137 @ $D635B0 - STRING #137 @ $D62C29
+
+#W24($D635B0)
+//Beehive Burned<End>
+
+//POINTER #138 @ $D635B4 - STRING #138 @ $D62680
+
+#W24($D635B4)
+//Leave<End>
+
+//POINTER #139 @ $D635B8 - STRING #139 @ $D62C45
+
+#W24($D635B8)
+//Fight<End>
+
+//POINTER #140 @ $D635BC - STRING #140 @ $D62C50
+
+#W24($D635BC)
+//Statue<End>
+
+//POINTER #141 @ $D635C0 - STRING #141 @ $D62C5D
+
+#W24($D635C0)
+//Put Hand In<End>
+
+//POINTER #142 @ $D635C4 - STRING #142 @ $D62C72
+
+#W24($D635C4)
+//Blessed!!<End>
+
+//POINTER #143 @ $D635C8 - STRING #143 @ $D62C83
+
+#W24($D635C8)
+//Put Rose In<End>
+
+//POINTER #144 @ $D635CC - STRING #144 @ $D62AF0
+
+#W24($D635CC)
+//Ignore<End>
+
+//POINTER #145 @ $D635D0 - STRING #145 @ $D62C98
+
+#W24($D635D0)
+//Lion Statue<End>
+
+//POINTER #146 @ $D635D4 - STRING #146 @ $D62CAE
+
+#W24($D635D4)
+//Up the Stairs<End>
+
+//POINTER #147 @ $D635D8 - STRING #147 @ $D62CC7
+
+#W24($D635D8)
+//Barrel<End>
+
+//POINTER #148 @ $D635DC - STRING #148 @ $D62CD4
+
+#W24($D635DC)
+//Yes<End>
+
+//POINTER #149 @ $D635E0 - STRING #149 @ $D62CDB
+
+#W24($D635E0)
+//No<End>
+
+//POINTER #150 @ $D635E4 - STRING #150 @ $D62CC7
+
+#W24($D635E4)
+//Barrel<End>
+
+//POINTER #151 @ $D635E8 - STRING #151 @ $D62CE0
+
+#W24($D635E8)
+//Barrel Remains<End>
+
+//POINTER #152 @ $D635EC - STRING #152 @ $D62912
+
+#W24($D635EC)
+//Go Back<End>
+
+//POINTER #153 @ $D635F0 - STRING #153 @ $D62CFC
+
+#W24($D635F0)
+//Outside<End>
+
+//POINTER #154 @ $D635F4 - STRING #154 @ $D62CC7
+
+#W24($D635F4)
+//Barrel<End>
+
+//POINTER #155 @ $D635F8 - STRING #155 @ $D62CD4
+
+#W24($D635F8)
+//Yes<End>
+
+//POINTER #156 @ $D635FC - STRING #156 @ $D62CDB
+
+#W24($D635FC)
+//No<End>
+
+//POINTER #157 @ $D63600 - STRING #157 @ $D62CC7
+
+#W24($D63600)
+//Barrel<End>
+
+//POINTER #158 @ $D63604 - STRING #158 @ $D62CE0
+
+#W24($D63604)
+//Barrel Remains<End>
+
+//POINTER #159 @ $D63608 - STRING #159 @ $D62D0B
+
+#W24($D63608)
+//Chained Sword<End>
+
+//POINTER #160 @ $D6360C - STRING #160 @ $D62D25
+
+#W24($D6360C)
+//Take it<End>
+
+//POINTER #161 @ $D63610 - STRING #161 @ $D62D33
+
+#W24($D63610)
+//Pull<End>
+
+//POINTER #162 @ $D63614 - STRING #162 @ $D62D3C
+
+#W24($D63614)
+//Ask Fia<End>
+
+//POINTER #163 @ $D63618 - STRING #163 @ $D62D4A
+
+#W24($D63618)
+//Uncurse<End>
+
+//POINTER #164 @ $D6361C - STRING #164 @ $D62680
+
+#W24($D6361C)
+//Leave<End>
+
+//POINTER #165 @ $D63620 - STRING #165 @ $D62D0B
+
+#W24($D63620)
+//Chained Sword<End>
+
+//POINTER #166 @ $D63624 - STRING #166 @ $D62D59
+
+#W24($D63624)
+//Torn Chains<End>
+
+//POINTER #167 @ $D63628 - STRING #167 @ $D62D6F
+
+#W24($D63628)
+//Memo Acquired<End>
+
+//POINTER #168 @ $D6362C - STRING #168 @ $D62D6F
+
+#W24($D6362C)
+//Memo Acquired<End>
+
+//POINTER #169 @ $D63630 - STRING #169 @ $D62D6F
+
+#W24($D63630)
+//Memo Acquired<End>
+
+//POINTER #170 @ $D63634 - STRING #170 @ $D627CC
+
+#W24($D63634)
+//Open<End>
+
+//POINTER #171 @ $D63638 - STRING #171 @ $D627D5
+
+#W24($D63638)
+//Don't Open<End>
+
+//POINTER #172 @ $D6363C - STRING #172 @ $D62D89
+
+#W24($D6363C)
+//Stop the Lock<End>
+
+//POINTER #173 @ $D63640 - STRING #173 @ $D62DA2
+
+#W24($D63640)
+//Stop the Bomb<End>
+
+//POINTER #174 @ $D63644 - STRING #174 @ $D62DBB
+
+#W24($D63644)
+//Aura Plateaus<End>
+
+//POINTER #175 @ $D63648 - STRING #175 @ $D62DD5
+
+#W24($D63648)
+//Step on O<End>
+
+//POINTER #176 @ $D6364C - STRING #176 @ $D62DE6
+
+#W24($D6364C)
+//Step on X<End>
+
+//POINTER #177 @ $D63650 - STRING #177 @ $D62AF0
+
+#W24($D63650)
+//Ignore<End>
+
+//POINTER #178 @ $D63654 - STRING #178 @ $D62DF7
+
+#W24($D63654)
+//Sign<End>
+
+//POINTER #179 @ $D63658 - STRING #179 @ $D62E00
+
+#W24($D63658)
+//Paper<End>
+
+//POINTER #180 @ $D6365C - STRING #180 @ $D62635
+
+#W24($D6365C)
+//Ground<End>
+
+//POINTER #181 @ $D63660 - STRING #181 @ $D628A0
+
+#W24($D63660)
+//Pick Up<End>
+
+//POINTER #182 @ $D63664 - STRING #182 @ $D62E0B
+
+#W24($D63664)
+//Mithril Acquired<End>
+
+//POINTER #183 @ $D63668 - STRING #183 @ $D628D9
+
+#W24($D63668)
+//Don't Pick Up<End>
+
+//POINTER #184 @ $D6366C - STRING #184 @ $D62E2B
+
+#W24($D6366C)
+//Mint<End>
+
+//POINTER #185 @ $D63670 - STRING #185 @ $D62788
+
+#W24($D63670)
+//Take<End>
+
+//POINTER #186 @ $D63674 - STRING #186 @ $D62E34
+
+#W24($D63674)
+//Mint Acquired<End>
+
+//POINTER #187 @ $D63678 - STRING #187 @ $D627AD
+
+#W24($D63678)
+//Don't Take<End>
+
+//POINTER #188 @ $D6367C - STRING #188 @ $D62E4E
+
+#W24($D6367C)
+//Bat<End>
+
+//POINTER #189 @ $D63680 - STRING #189 @ $D62E55
+
+#W24($D63680)
+//Bat Acquired<End>
+
+//POINTER #190 @ $D63684 - STRING #190 @ $D62E6D
+
+#W24($D63684)
+//Slash<End>
+
+//POINTER #191 @ $D63688 - STRING #191 @ $D62E6D
+
+#W24($D63688)
+//Slash<End>
+
+//POINTER #192 @ $D6368C - STRING #192 @ $D62E78
+
+#W24($D6368C)
+//Killed the Bat!<End>
+
+//POINTER #193 @ $D63690 - STRING #193 @ $D62AF0
+
+#W24($D63690)
+//Ignore<End>
+
+//POINTER #194 @ $D63694 - STRING #194 @ $D62E95
+
+#W24($D63694)
+//Bat Wings<End>
+
+//POINTER #195 @ $D63698 - STRING #195 @ $D62788
+
+#W24($D63698)
+//Take<End>
+
+//POINTER #196 @ $D6369C - STRING #196 @ $D62EA7
+
+#W24($D6369C)
+//Bat Wings Acquired<End>
+
+//POINTER #197 @ $D636A0 - STRING #197 @ $D627AD
+
+#W24($D636A0)
+//Don't Take<End>
+
+//POINTER #198 @ $D636A4 - STRING #198 @ $D62E95
+
+#W24($D636A4)
+//Bat Wings<End>
+
+//POINTER #199 @ $D636A8 - STRING #199 @ $D62788
+
+#W24($D636A8)
+//Take<End>
+
+//POINTER #200 @ $D636AC - STRING #200 @ $D62EA7
+
+#W24($D636AC)
+//Bat Wings Acquired<End>
+
+//POINTER #201 @ $D636B0 - STRING #201 @ $D627AD
+
+#W24($D636B0)
+//Don't Take<End>
+
+//POINTER #202 @ $D636B4 - STRING #202 @ $D629CF
+
+#W24($D636B4)
+//Dark Window<End>
+
+//POINTER #203 @ $D636B8 - STRING #203 @ $D62ECA
+
+#W24($D636B8)
+//Ask Serene<End>
+
+//POINTER #204 @ $D636BC - STRING #204 @ $D62EDE
+
+#W24($D636BC)
+//Throw a Rock<End>
+
+//POINTER #205 @ $D636C0 - STRING #205 @ $D62EF5
+
+#W24($D636C0)
+//Nice Control!<End>
+
+//POINTER #206 @ $D636C4 - STRING #206 @ $D62AF0
+
+#W24($D636C4)
+//Ignore<End>
+
+//POINTER #207 @ $D636C8 - STRING #207 @ $D62ECA
+
+#W24($D636C8)
+//Ask Serene<End>
+
+//POINTER #208 @ $D636CC - STRING #208 @ $D62AF0
+
+#W24($D636CC)
+//Ignore<End>
+
+//POINTER #209 @ $D636D0 - STRING #209 @ $D62D6F
+
+#W24($D636D0)
+//Memo Acquired<End>
+
+//POINTER #210 @ $D636D4 - STRING #210 @ $D62D6F
+
+#W24($D636D4)
+//Memo Acquired<End>
+
+//POINTER #211 @ $D636D8 - STRING #211 @ $D62D6F
+
+#W24($D636D8)
+//Memo Acquired<End>
+
+//POINTER #212 @ $D636DC - STRING #212 @ $D62F0F
+
+#W24($D636DC)
+//St. Claremonts<End>
+
+//POINTER #213 @ $D636E0 - STRING #213 @ $D62602
+
+#W24($D636E0)
+//Surroundings<End>
+
+//POINTER #214 @ $D636E4 - STRING #214 @ $D627C1
+
+#W24($D636E4)
+//Chest<End>
+
+//POINTER #215 @ $D636E8 - STRING #215 @ $D62813
+
+#W24($D636E8)
+//Open Chest<End>
+
+//POINTER #216 @ $D636EC - STRING #216 @ $D62B40
+
+#W24($D636EC)
+//Locked Chest<End>
+
+//POINTER #217 @ $D636F0 - STRING #217 @ $D62827
+
+#W24($D636F0)
+//Chest Remains<End>
+
+//POINTER #218 @ $D636F4 - STRING #218 @ $D62912
+
+#W24($D636F4)
+//Go Back<End>
+
+//POINTER #219 @ $D636F8 - STRING #219 @ $D62602
+
+#W24($D636F8)
+//Surroundings<End>
+
+//POINTER #220 @ $D636FC - STRING #220 @ $D62F2B
+
+#W24($D636FC)
+//Golden Door<End>
+
+//POINTER #221 @ $D63700 - STRING #221 @ $D62F41
+
+#W24($D63700)
+//High Ground<End>
+
+//POINTER #222 @ $D63704 - STRING #222 @ $D62F57
+
+#W24($D63704)
+//Low Ground<End>
+
+//POINTER #223 @ $D63708 - STRING #223 @ $D62F6B
+
+#W24($D63708)
+//Bottle<End>
+
+//POINTER #224 @ $D6370C - STRING #224 @ $D628A0
+
+#W24($D6370C)
+//Pick Up<End>
+
+//POINTER #225 @ $D63710 - STRING #225 @ $D62F78
+
+#W24($D63710)
+//Bottle Acquired<End>
+
+//POINTER #226 @ $D63714 - STRING #226 @ $D627CC
+
+#W24($D63714)
+//Open<End>
+
+//POINTER #227 @ $D63718 - STRING #227 @ $D62F96
+
+#W24($D63718)
+//Music Sheet Acquired!<End>
+
+//POINTER #228 @ $D6371C - STRING #228 @ $D627D5
+
+#W24($D6371C)
+//Don't Open<End>
+
+//POINTER #229 @ $D63720 - STRING #229 @ $D62AF0
+
+#W24($D63720)
+//Ignore<End>
+
+//POINTER #230 @ $D63724 - STRING #230 @ $D62F6B
+
+#W24($D63724)
+//Bottle<End>
+
+//POINTER #231 @ $D63728 - STRING #231 @ $D628F2
+
+#W24($D63728)
+//Rippling Surface<End>
+
+//POINTER #232 @ $D6372C - STRING #232 @ $D628F2
+
+#W24($D6372C)
+//Rippling Surface<End>
+
+//POINTER #233 @ $D63730 - STRING #233 @ $D628F2
+
+#W24($D63730)
+//Rippling Surface<End>
+
+//POINTER #234 @ $D63734 - STRING #234 @ $D62912
+
+#W24($D63734)
+//Go Back<End>
+
+//POINTER #235 @ $D63738 - STRING #235 @ $D627C1
+
+#W24($D63738)
+//Chest<End>
+
+//POINTER #236 @ $D6373C - STRING #236 @ $D62FBF
+
+#W24($D6373C)
+//Holy Grail Acquired!<End>
+
+//POINTER #237 @ $D63740 - STRING #237 @ $D627C1
+
+#W24($D63740)
+//Chest<End>
+
+//POINTER #238 @ $D63744 - STRING #238 @ $D62FE6
+
+#W24($D63744)
+//Look at Chest<End>
+
+//POINTER #239 @ $D63748 - STRING #239 @ $D62FFF
+
+#W24($D63748)
+//Climb the Roof<End>
+
+//POINTER #240 @ $D6374C - STRING #240 @ $D6301A
+
+#W24($D6374C)
+//Hop Roofs<End>
+
+//POINTER #241 @ $D63750 - STRING #241 @ $D62912
+
+#W24($D63750)
+//Go Back<End>
+
+//POINTER #242 @ $D63754 - STRING #242 @ $D627C1
+
+#W24($D63754)
+//Chest<End>
+
+//POINTER #243 @ $D63758 - STRING #243 @ $D6302C
+
+#W24($D63758)
+//Golden Key Acquired!<End>
+
+//POINTER #244 @ $D6375C - STRING #244 @ $D627C1
+
+#W24($D6375C)
+//Chest<End>
+
+//POINTER #245 @ $D63760 - STRING #245 @ $D62FE6
+
+#W24($D63760)
+//Look at Chest<End>
+
+//POINTER #246 @ $D63764 - STRING #246 @ $D63053
+
+#W24($D63764)
+//Enter Code<End>
+
+//POINTER #247 @ $D63768 - STRING #247 @ $D63067
+
+#W24($D63768)
+//Code<End>
+
+//POINTER #248 @ $D6376C - STRING #248 @ $D62C45
+
+#W24($D6376C)
+//Fight<End>
+
+//POINTER #249 @ $D63770 - STRING #249 @ $D62E00
+
+#W24($D63770)
+//Paper<End>
+
+//POINTER #250 @ $D63774 - STRING #250 @ $D63053
+
+#W24($D63774)
+//Enter Code<End>
+
+//POINTER #251 @ $D63778 - STRING #251 @ $D63067
+
+#W24($D63778)
+//Code<End>
+
+//POINTER #252 @ $D6377C - STRING #252 @ $D62C45
+
+#W24($D6377C)
+//Fight<End>
+
+//POINTER #253 @ $D63780 - STRING #253 @ $D63070
+
+#W24($D63780)
+//Run<End>
+
+//POINTER #254 @ $D63784 - STRING #254 @ $D62D6F
+
+#W24($D63784)
+//Memo Acquired<End>
+
+//POINTER #255 @ $D63788 - STRING #255 @ $D62D6F
+
+#W24($D63788)
+//Memo Acquired<End>
+
+//POINTER #256 @ $D6378C - STRING #256 @ $D62D6F
+
+#W24($D6378C)
+//Memo Acquired<End>
+
+//POINTER #257 @ $D63790 - STRING #257 @ $D627CC
+
+#W24($D63790)
+//Open<End>
+
+//POINTER #258 @ $D63794 - STRING #258 @ $D627D5
+
+#W24($D63794)
+//Don't Open<End>
+
+//POINTER #259 @ $D63798 - STRING #259 @ $D62DA2
+
+#W24($D63798)
+//Stop the Bomb<End>
+
+//POINTER #260 @ $D6379C - STRING #260 @ $D63077
+
+#W24($D6379C)
+//Mizel Bridge<End>
+
+//POINTER #261 @ $D637A0 - STRING #261 @ $D627C1
+
+#W24($D637A0)
+//Chest<End>
+
+//POINTER #262 @ $D637A4 - STRING #262 @ $D62813
+
+#W24($D637A4)
+//Open Chest<End>
+
+//POINTER #263 @ $D637A8 - STRING #263 @ $D62B40
+
+#W24($D637A8)
+//Locked Chest<End>
+
+//POINTER #264 @ $D637AC - STRING #264 @ $D62827
+
+#W24($D637AC)
+//Chest Remains<End>
+
+//POINTER #265 @ $D637B0 - STRING #265 @ $D6308F
+
+#W24($D637B0)
+//Of course.<End>
+
+//POINTER #266 @ $D637B4 - STRING #266 @ $D630A3
+
+#W24($D637B4)
+//Reformed Demons!<End>
+
+//POINTER #267 @ $D637B8 - STRING #267 @ $D630C3
+
+#W24($D637B8)
+//I can't.<End>
+
+//POINTER #268 @ $D637BC - STRING #268 @ $D630D3
+
+#W24($D637BC)
+//Judgment Passed!<End>
+
+//POINTER #269 @ $D637C0 - STRING #269 @ $D627CC
+
+#W24($D637C0)
+//Open<End>
+
+//POINTER #270 @ $D637C4 - STRING #270 @ $D627D5
+
+#W24($D637C4)
+//Don't Open<End>
+
+//POINTER #271 @ $D637C8 - STRING #271 @ $D62DA2
+
+#W24($D637C8)
+//Stop the Bomb<End>
+
+//POINTER #272 @ $D637CC - STRING #272 @ $D630F3
+
+#W24($D637CC)
+//Flaybell Cathedral<End>
+
+//POINTER #273 @ $D637D0 - STRING #273 @ $D627C1
+
+#W24($D637D0)
+//Chest<End>
+
+//POINTER #274 @ $D637D4 - STRING #274 @ $D62813
+
+#W24($D637D4)
+//Open Chest<End>
+
+//POINTER #275 @ $D637D8 - STRING #275 @ $D63117
+
+#W24($D637D8)
+//Statues<End>
+
+//POINTER #276 @ $D637DC - STRING #276 @ $D63126
+
+#W24($D637DC)
+//Angel Statues<End>
+
+//POINTER #277 @ $D637E0 - STRING #277 @ $D63140
+
+#W24($D637E0)
+//Jump<End>
+
+//POINTER #278 @ $D637E4 - STRING #278 @ $D63140
+
+#W24($D637E4)
+//Jump<End>
+
+//POINTER #279 @ $D637E8 - STRING #279 @ $D63149
+
+#W24($D637E8)
+//Don't Jump<End>
+
+//POINTER #280 @ $D637EC - STRING #280 @ $D63117
+
+#W24($D637EC)
+//Statues<End>
+
+//POINTER #281 @ $D637F0 - STRING #281 @ $D63126
+
+#W24($D637F0)
+//Angel Statues<End>
+
+//POINTER #282 @ $D637F4 - STRING #282 @ $D62841
+
+#W24($D637F4)
+//Rusty Key Acquired<End>
+
+//POINTER #283 @ $D637F8 - STRING #283 @ $D6315D
+
+#W24($D637F8)
+//Cathedral Library<End>
+
+//POINTER #284 @ $D637FC - STRING #284 @ $D6317F
+
+#W24($D637FC)
+//Climb Down<End>
+
+//POINTER #285 @ $D63800 - STRING #285 @ $D63193
+
+#W24($D63800)
+//Angel Statue<End>
+
+//POINTER #286 @ $D63804 - STRING #286 @ $D631AB
+
+#W24($D63804)
+//Take It<End>
+
+//POINTER #287 @ $D63808 - STRING #287 @ $D631B9
+
+#W24($D63808)
+//Angel Gem Acquired!<End>
+
+//POINTER #288 @ $D6380C - STRING #288 @ $D631DE
+
+#W24($D6380C)
+//Give to Cierra<End>
+
+//POINTER #289 @ $D63810 - STRING #289 @ $D631F9
+
+#W24($D63810)
+//Give to Serene<End>
+
+//POINTER #290 @ $D63814 - STRING #290 @ $D63214
+
+#W24($D63814)
+//Give to Lina<End>
+
+//POINTER #291 @ $D63818 - STRING #291 @ $D6322B
+
+#W24($D63818)
+//Give to Fia<End>
+
+//POINTER #292 @ $D6381C - STRING #292 @ $D63240
+
+#W24($D6381C)
+//Give to Rose<End>
+
+//POINTER #293 @ $D63820 - STRING #293 @ $D63257
+
+#W24($D63820)
+//Keep<End>
+
+//POINTER #294 @ $D63824 - STRING #294 @ $D62778
+
+#W24($D63824)
+//Leave It<End>
+
+//POINTER #295 @ $D63828 - STRING #295 @ $D63193
+
+#W24($D63828)
+//Angel Statue<End>
+
+//POINTER #296 @ $D6382C - STRING #296 @ $D63260
+
+#W24($D6382C)
+//Climb Up<End>
+
+//POINTER #297 @ $D63830 - STRING #297 @ $D6317F
+
+#W24($D63830)
+//Climb Down<End>
+
+//POINTER #298 @ $D63834 - STRING #298 @ $D63193
+
+#W24($D63834)
+//Angel Statue<End>
+
+//POINTER #299 @ $D63838 - STRING #299 @ $D63193
+
+#W24($D63838)
+//Angel Statue<End>
+
+//POINTER #300 @ $D6383C - STRING #300 @ $D63270
+
+#W24($D6383C)
+//Land<End>
+
+//POINTER #301 @ $D63840 - STRING #301 @ $D63260
+
+#W24($D63840)
+//Climb Up<End>
+
+//POINTER #302 @ $D63844 - STRING #302 @ $D63193
+
+#W24($D63844)
+//Angel Statue<End>
+
+//POINTER #303 @ $D63848 - STRING #303 @ $D63193
+
+#W24($D63848)
+//Angel Statue<End>
+
+//POINTER #304 @ $D6384C - STRING #304 @ $D63279
+
+#W24($D6384C)
+//Giant Book<End>
+
+//POINTER #305 @ $D63850 - STRING #305 @ $D6328D
+
+#W24($D63850)
+//Lina's<End>
+
+//POINTER #306 @ $D63854 - STRING #306 @ $D6329A
+
+#W24($D63854)
+//Fia's<End>
+
+//POINTER #307 @ $D63858 - STRING #307 @ $D632A5
+
+#W24($D63858)
+//Cierra's<End>
+
+//POINTER #308 @ $D6385C - STRING #308 @ $D632B6
+
+#W24($D6385C)
+//Serene's<End>
+
+//POINTER #309 @ $D63860 - STRING #309 @ $D632C7
+
+#W24($D63860)
+//Ein's<End>
+
+//POINTER #310 @ $D63864 - STRING #310 @ $D632D2
+
+#W24($D63864)
+//No one's<End>
+
+//POINTER #311 @ $D63868 - STRING #311 @ $D63279
+
+#W24($D63868)
+//Giant Book<End>
+
+//POINTER #312 @ $D6386C - STRING #312 @ $D632E2
+
+#W24($D6386C)
+//Large Object<End>
+
+//POINTER #313 @ $D63870 - STRING #313 @ $D63279
+
+#W24($D63870)
+//Giant Book<End>
+
+//POINTER #314 @ $D63874 - STRING #314 @ $D632FA
+
+#W24($D63874)
+//Exit<End>
+
+//POINTER #315 @ $D63878 - STRING #315 @ $D632E2
+
+#W24($D63878)
+//Large Object<End>
+
+//POINTER #316 @ $D6387C - STRING #316 @ $D63303
+
+#W24($D6387C)
+//Giant Shelf<End>
+
+//POINTER #317 @ $D63880 - STRING #317 @ $D62788
+
+#W24($D63880)
+//Take<End>
+
+//POINTER #318 @ $D63884 - STRING #318 @ $D63319
+
+#W24($D63884)
+//Valdes Scripture Acquired!<End>
+
+//POINTER #319 @ $D63888 - STRING #319 @ $D627AD
+
+#W24($D63888)
+//Don't Take<End>
+
+//POINTER #320 @ $D6388C - STRING #320 @ $D63149
+
+#W24($D6388C)
+//Don't Jump<End>
+
+//POINTER #321 @ $D63890 - STRING #321 @ $D6334C
+
+#W24($D63890)
+//Page Ripped<End>
+
+//POINTER #322 @ $D63894 - STRING #322 @ $D627CC
+
+#W24($D63894)
+//Open<End>
+
+//POINTER #323 @ $D63898 - STRING #323 @ $D627D5
+
+#W24($D63898)
+//Don't Open<End>
+
+//POINTER #324 @ $D6389C - STRING #324 @ $D63362
+
+#W24($D6389C)
+//Evade<End>
+
+//POINTER #325 @ $D638A0 - STRING #325 @ $D6336D
+
+#W24($D638A0)
+//Prevent<End>
+
+//POINTER #326 @ $D638A4 - STRING #326 @ $D6337C
+
+#W24($D638A4)
+//Disarm<End>

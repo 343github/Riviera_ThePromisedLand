@@ -1,0 +1,48 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($CFB134,$CFB1CC)
+
+//GAME NAME:		
+
+//BLOCK #006 NAME:		PART (006)
+
+//POINTER #0 @ $CFB1D0 - STRING #0 @ $CFB134
+
+#W24($CFB1D0)
+//Leave it to Cierra<End>
+
+//POINTER #1 @ $CFB1D4 - STRING #1 @ $CFB156
+
+#W24($CFB1D4)
+//Think about it<End>
+
+//POINTER #2 @ $CFB1D8 - STRING #2 @ $CFB171
+
+#W24($CFB1D8)
+//Leave it to Serene<End>
+
+//POINTER #3 @ $CFB1DC - STRING #3 @ $CFB156
+
+#W24($CFB1DC)
+//Think about it<End>
+
+//POINTER #4 @ $CFB1E0 - STRING #4 @ $CFB193
+
+#W24($CFB1E0)
+//Leave it to Lina<End>
+
+//POINTER #5 @ $CFB1E4 - STRING #5 @ $CFB156
+
+#W24($CFB1E4)
+//Think about it<End>
+
+//POINTER #6 @ $CFB1E8 - STRING #6 @ $CFB1B1
+
+#W24($CFB1E8)
+//Leave it to Fia<End>
+
+//POINTER #7 @ $CFB1EC - STRING #7 @ $CFB156
+
+#W24($CFB1EC)
+//Think about it<End>

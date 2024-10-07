@@ -1,0 +1,88 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($D6202C,$D625C7)
+
+//GAME NAME:		
+
+//BLOCK #023 NAME:		PART (023)
+
+//POINTER #0 @ $D625C8 - STRING #0 @ $D6202C
+
+#W24($D625C8)
+//A forest located<line>
+//south of Elendia.<line>
+//The fertile land is<line>
+//home to numerous<line>
+//rare plants.<End>
+
+//POINTER #1 @ $D625CC - STRING #1 @ $D620C7
+
+#W24($D625CC)
+//A massive tree grew<line>
+//over ancient ruins,<line>
+//eventually forming<line>
+//a towering edifice.<End>
+
+//POINTER #2 @ $D625D0 - STRING #2 @ $D62159
+
+#W24($D625D0)
+//A giant tree trunk<line>
+//extends through<line>
+//the ceiling, and<line>
+//the floor has been <line>
+//weakened by rain.<End>
+
+//POINTER #3 @ $D625D4 - STRING #3 @ $D621FC
+
+#W24($D625D4)
+//Pelgas, dangerous<line>
+//monster—like birds,<line>
+//build nests such as<line>
+//these in the branches<line>
+//of trees.<End>
+
+//POINTER #4 @ $D625D8 - STRING #4 @ $D622A2
+
+#W24($D625D8)
+//A hollow which formed<line>
+//naturally as the wood<line>
+//decayed. The damp air<line>
+//inside allows fungi<line>
+//to grow.<End>
+
+//POINTER #5 @ $D625DC - STRING #5 @ $D6234F
+
+#W24($D625DC)
+//Platforms built with<line>
+//timber from the tree<line>
+//itself. Still sturdy<line>
+//after hundreds of<line>
+//years.<End>
+
+//POINTER #6 @ $D625E0 - STRING #6 @ $D623F1
+
+#W24($D625E0)
+//The remains of a wyrm<line>
+//colony. In ancient<line>
+//times, colonies like<line>
+//this one were found<line>
+//everywhere.<End>
+
+//POINTER #7 @ $D625E4 - STRING #7 @ $D6249D
+
+#W24($D625E4)
+//The highest level of<line>
+//the ancient ruins.<line>
+//The largest of all<line>
+//wyrms reigned from<line>
+//here.<End>
+
+//POINTER #8 @ $D625E8 - STRING #8 @ $D62536
+
+#W24($D625E8)
+//Tomb of the royal<line>
+//family of Binon.<line>
+//It is hidden deep<line>
+//within the forest<line>
+//of Nelde.<End>

@@ -1,0 +1,84 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($D250C4,$D2560A)
+
+//GAME NAME:		
+
+//BLOCK #014 NAME:		PART (014)
+
+//POINTER #0 @ $D2560C - STRING #0 @ $D250C4
+
+#W24($D2560C)
+//Beyond the curving<line>
+//pathway lined with<line>
+//trees lies Elendia,<line>
+//the town where<line>
+//Sprites live.<End>
+
+//POINTER #1 @ $D25610 - STRING #1 @ $D25164
+
+#W24($D25610)
+//A pathway surrounded<line>
+//by trees. The soft<line>
+//rays of light that<line>
+//seep through bring<line>
+//peace of mind to all.<End>
+
+//POINTER #2 @ $D25614 - STRING #2 @ $D25219
+
+#W24($D25614)
+//Located deep in the<line>
+//forest by Elendia,<line>
+//it is always filled<line>
+//with fresh water.<End>
+
+//POINTER #3 @ $D25618 - STRING #3 @ $D252A5
+
+#W24($D25618)
+//A beautiful cavern<line>
+//lined with crystals.<line>
+//The Magic Guild in<line>
+//the back has a whole<line>
+//array of books.<End>
+
+//POINTER #4 @ $D2561C - STRING #4 @ $D25353
+
+#W24($D2561C)
+//Treasure Room<line>
+//Explanation<End>
+
+//POINTER #5 @ $D25620 - STRING #5 @ $D25384
+
+#W24($D25620)
+//Chappi the Hobbit's<line>
+//smithery workshop.<line>
+//His family treasure<line>
+//Thor Hammer,forges<line>
+//many weapons.<End>
+
+//POINTER #6 @ $D25624 - STRING #6 @ $D25430
+
+#W24($D25624)
+//Kyle, the Pixia who<line>
+//likes fishing,<line>
+//and his wife Mylene<line>
+//live here with<line>
+//their children.<End>
+
+//POINTER #7 @ $D25628 - STRING #7 @ $D254CD
+
+#W24($D25628)
+//The living quarters<line>
+//of the Elder, Graham.<line>
+//It is located at the<line>
+//center of Elendia.<End>
+
+//POINTER #8 @ $D2562C - STRING #8 @ $D25562
+
+#W24($D2562C)
+//Located on a hill,<line>
+//the entire town can<line>
+//be seen from here.<line>
+//Lina's room is on<line>
+//the second floor.<End>

@@ -1,0 +1,2143 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($D4A630,$D5BF06)
+
+//GAME NAME:		
+
+//BLOCK #021 NAME:		PART (021)
+
+//POINTER #0 @ $D4C2BC - STRING #0 @ $D4A630
+
+#W24($D4C2BC)
+//Wiese Forest<End>
+
+//POINTER #1 @ $D4C2C0 - STRING #1 @ $D4A648
+
+#W24($D4C2C0)
+//Sign<End>
+
+//POINTER #2 @ $D4C2C4 - STRING #2 @ $D4A648
+
+#W24($D4C2C4)
+//Sign<End>
+
+//POINTER #3 @ $D4C2C8 - STRING #3 @ $D4A651
+
+#W24($D4C2C8)
+//It is?<End>
+
+//POINTER #4 @ $D4C2CC - STRING #4 @ $D4A65D
+
+#W24($D4C2CC)
+//That's a squirrel?<End>
+
+//POINTER #5 @ $D4C2D0 - STRING #5 @ $D4A680
+
+#W24($D4C2D0)
+//Not as cute as you, Lina.<End>
+
+//POINTER #6 @ $D4C2D4 - STRING #6 @ $D4A6AE
+
+#W24($D4C2D4)
+//Forest<End>
+
+//POINTER #7 @ $D4C2D8 - STRING #7 @ $D4A6BB
+
+#W24($D4C2D8)
+//Mushroom<End>
+
+//POINTER #8 @ $D4C2DC - STRING #8 @ $D4A6BB
+
+#W24($D4C2DC)
+//Mushroom<End>
+
+//POINTER #9 @ $D4C2E0 - STRING #9 @ $D4A6CC
+
+#W24($D4C2E0)
+//Big Flower<End>
+
+//POINTER #10 @ $D4C2E4 - STRING #10 @ $D4A6E0
+
+#W24($D4C2E4)
+//Look<End>
+
+//POINTER #11 @ $D4C2E8 - STRING #11 @ $D4A6E9
+
+#W24($D4C2E8)
+//Don't Look<End>
+
+//POINTER #12 @ $D4C2EC - STRING #12 @ $D4A6FD
+
+#W24($D4C2EC)
+//Go Back<End>
+
+//POINTER #13 @ $D4C2F0 - STRING #13 @ $D4A70B
+
+#W24($D4C2F0)
+//Chest<End>
+
+//POINTER #14 @ $D4C2F4 - STRING #14 @ $D4A716
+
+#W24($D4C2F4)
+//Struggle<End>
+
+//POINTER #15 @ $D4C2F8 - STRING #15 @ $D4A727
+
+#W24($D4C2F8)
+//Escaped the Swamp!<End>
+
+//POINTER #16 @ $D4C2FC - STRING #16 @ $D4A74A
+
+#W24($D4C2FC)
+//It's nature's trap.<End>
+
+//POINTER #17 @ $D4C300 - STRING #17 @ $D4A76F
+
+#W24($D4C300)
+//That was good exercise.<End>
+
+//POINTER #18 @ $D4C304 - STRING #18 @ $D4A79B
+
+#W24($D4C304)
+//It's not a swamp.<End>
+
+//POINTER #19 @ $D4C308 - STRING #19 @ $D4A70B
+
+#W24($D4C308)
+//Chest<End>
+
+//POINTER #20 @ $D4C30C - STRING #20 @ $D4A7BB
+
+#W24($D4C30C)
+//Have Lina Go<End>
+
+//POINTER #21 @ $D4C310 - STRING #21 @ $D4D2EB
+
+#W24($D4C310)
+//Sorry…<End>
+
+//POINTER #22 @ $D4C314 - STRING #22 @ $D4A7D2
+
+#W24($D4C314)
+//Did you gain weight?<End>
+
+//POINTER #23 @ $D4C318 - STRING #23 @ $D4A7F8
+
+#W24($D4C318)
+//There's mud on you.<End>
+
+//POINTER #24 @ $D4C31C - STRING #24 @ $D4A81C
+
+#W24($D4C31C)
+//Have Serene Go<End>
+
+//POINTER #25 @ $D4C320 - STRING #25 @ $D4A837
+
+#W24($D4C320)
+//Thanks.<End>
+
+//POINTER #26 @ $D4C324 - STRING #26 @ $D4A846
+
+#W24($D4C324)
+//Next, can you…?<End>
+
+//POINTER #27 @ $D4C328 - STRING #27 @ $D4A863
+
+#W24($D4C328)
+//Wings come in handy.<End>
+
+//POINTER #28 @ $D4C32C - STRING #28 @ $D4A889
+
+#W24($D4C32C)
+//Leave It<End>
+
+//POINTER #29 @ $D4C330 - STRING #29 @ $D4A899
+
+#W24($D4C330)
+//Sunken Chest<End>
+
+//POINTER #30 @ $D4C334 - STRING #30 @ $D4A8B1
+
+#W24($D4C334)
+//Swamp<End>
+
+//POINTER #31 @ $D4C338 - STRING #31 @ $D4A8BC
+
+#W24($D4C338)
+//Beyond the Trees<End>
+
+//POINTER #32 @ $D4C33C - STRING #32 @ $D4A8DB
+
+#W24($D4C33C)
+//Go Through the Swamp<End>
+
+//POINTER #33 @ $D4C340 - STRING #33 @ $D4A6BB
+
+#W24($D4C340)
+//Mushroom<End>
+
+//POINTER #34 @ $D4C344 - STRING #34 @ $D4A70B
+
+#W24($D4C344)
+//Chest<End>
+
+//POINTER #35 @ $D4C348 - STRING #35 @ $D4A901
+
+#W24($D4C348)
+//Open Chest<End>
+
+//POINTER #36 @ $D4C34C - STRING #36 @ $D4A915
+
+#W24($D4C34C)
+//Locked Chest<End>
+
+//POINTER #37 @ $D4C350 - STRING #37 @ $D4A92D
+
+#W24($D4C350)
+//Chest Remains<End>
+
+//POINTER #38 @ $D4C354 - STRING #38 @ $D4A6FD
+
+#W24($D4C354)
+//Go Back<End>
+
+//POINTER #39 @ $D4C358 - STRING #39 @ $D4A947
+
+#W24($D4C358)
+//Big Mushroom<End>
+
+//POINTER #40 @ $D4C35C - STRING #40 @ $D4A95F
+
+#W24($D4C35C)
+//You better not.<End>
+
+//POINTER #41 @ $D4C360 - STRING #41 @ $D4A97C
+
+#W24($D4C360)
+//Just a small piece.<End>
+
+//POINTER #42 @ $D4C364 - STRING #42 @ $D4A947
+
+#W24($D4C364)
+//Big Mushroom<End>
+
+//POINTER #43 @ $D4C368 - STRING #43 @ $D4A95F
+
+#W24($D4C368)
+//You better not.<End>
+
+//POINTER #44 @ $D4C36C - STRING #44 @ $D4A97C
+
+#W24($D4C36C)
+//Just a small piece.<End>
+
+//POINTER #45 @ $D4C370 - STRING #45 @ $D4A947
+
+#W24($D4C370)
+//Big Mushroom<End>
+
+//POINTER #46 @ $D4C374 - STRING #46 @ $D4A947
+
+#W24($D4C374)
+//Big Mushroom<End>
+
+//POINTER #47 @ $D4C378 - STRING #47 @ $D4A947
+
+#W24($D4C378)
+//Big Mushroom<End>
+
+//POINTER #48 @ $D4C37C - STRING #48 @ $D4A947
+
+#W24($D4C37C)
+//Big Mushroom<End>
+
+//POINTER #49 @ $D4C380 - STRING #49 @ $D4A70B
+
+#W24($D4C380)
+//Chest<End>
+
+//POINTER #50 @ $D4C384 - STRING #50 @ $D4A901
+
+#W24($D4C384)
+//Open Chest<End>
+
+//POINTER #51 @ $D4C388 - STRING #51 @ $D4A648
+
+#W24($D4C388)
+//Sign<End>
+
+//POINTER #52 @ $D4C38C - STRING #52 @ $D4A9A0
+
+#W24($D4C38C)
+//Escaped the Lost Forest!!<End>
+
+//POINTER #53 @ $D4C390 - STRING #53 @ $D4A9A0
+
+#W24($D4C390)
+//Escaped the Lost Forest!!<End>
+
+//POINTER #54 @ $D4C394 - STRING #54 @ $D4A9CE
+
+#W24($D4C394)
+//Entrance<End>
+
+//POINTER #55 @ $D4C398 - STRING #55 @ $D4A9DF
+
+#W24($D4C398)
+//Jump<End>
+
+//POINTER #56 @ $D4C39C - STRING #56 @ $D4A9E8
+
+#W24($D4C39C)
+//Entrance Passed<End>
+
+//POINTER #57 @ $D4C3A0 - STRING #57 @ $D4AA06
+
+#W24($D4C3A0)
+//Serene, you shouldn't cheat.<End>
+
+//POINTER #58 @ $D4C3A4 - STRING #58 @ $D4AA3C
+
+#W24($D4C3A4)
+//How 'bout I carry you.<End>
+
+//POINTER #59 @ $D4C3A8 - STRING #59 @ $D4AA65
+
+#W24($D4C3A8)
+//Who cares? We made it.<End>
+
+//POINTER #60 @ $D4C3AC - STRING #60 @ $D4A648
+
+#W24($D4C3AC)
+//Sign<End>
+
+//POINTER #61 @ $D4C3B0 - STRING #61 @ $D4A901
+
+#W24($D4C3B0)
+//Open Chest<End>
+
+//POINTER #62 @ $D4C3B4 - STRING #62 @ $D4AA8E
+
+#W24($D4C3B4)
+//Discard<End>
+
+//POINTER #63 @ $D4C3B8 - STRING #63 @ $D4AA9D
+
+#W24($D4C3B8)
+//Keep<End>
+
+//POINTER #64 @ $D4C3BC - STRING #64 @ $D4AAA6
+
+#W24($D4C3BC)
+//Eat<End>
+
+//POINTER #65 @ $D4C3C0 - STRING #65 @ $D4AAAD
+
+#W24($D4C3C0)
+//I'm fine.<End>
+
+//POINTER #66 @ $D4C3C4 - STRING #66 @ $D4AABF
+
+#W24($D4C3C4)
+//I still feel dizzy…<End>
+
+//POINTER #67 @ $D4C3C8 - STRING #67 @ $D4AAE3
+
+#W24($D4C3C8)
+//Who are you?<End>
+
+//POINTER #68 @ $D4C3CC - STRING #68 @ $D4AAFA
+
+#W24($D4C3CC)
+//I'm fine now…<End>
+
+//POINTER #69 @ $D4C3D0 - STRING #69 @ $D4AB13
+
+#W24($D4C3D0)
+//That hurt…<End>
+
+//POINTER #70 @ $D4C3D4 - STRING #70 @ $D4CD63
+
+#W24($D4C3D4)
+//…………<End>
+
+//POINTER #71 @ $D4C3D8 - STRING #71 @ $D4AB27
+
+#W24($D4C3D8)
+//Take<End>
+
+//POINTER #72 @ $D4C3DC - STRING #72 @ $D4AB30
+
+#W24($D4C3DC)
+//Leave<End>
+
+//POINTER #73 @ $D4C3E0 - STRING #73 @ $D4AB3B
+
+#W24($D4C3E0)
+//Lina, will you eat it?<End>
+
+//POINTER #74 @ $D4C3E4 - STRING #74 @ $D4AB64
+
+#W24($D4C3E4)
+//How 'bout a bite, Fia?<End>
+
+//POINTER #75 @ $D4C3E8 - STRING #75 @ $D4AB8D
+
+#W24($D4C3E8)
+//Here you go, Serene.<End>
+
+//POINTER #76 @ $D4C3EC - STRING #76 @ $D4AAA6
+
+#W24($D4C3EC)
+//Eat<End>
+
+//POINTER #77 @ $D4C3F0 - STRING #77 @ $D4AB27
+
+#W24($D4C3F0)
+//Take<End>
+
+//POINTER #78 @ $D4C3F4 - STRING #78 @ $D4AB30
+
+#W24($D4C3F4)
+//Leave<End>
+
+//POINTER #79 @ $D4C3F8 - STRING #79 @ $D4AB27
+
+#W24($D4C3F8)
+//Take<End>
+
+//POINTER #80 @ $D4C3FC - STRING #80 @ $D4AB30
+
+#W24($D4C3FC)
+//Leave<End>
+
+//POINTER #81 @ $D4C400 - STRING #81 @ $D4ABB3
+
+#W24($D4C400)
+//Your snack.<End>
+
+//POINTER #82 @ $D4C404 - STRING #82 @ $D4ABC9
+
+#W24($D4C404)
+//Medicine.<End>
+
+//POINTER #83 @ $D4C408 - STRING #83 @ $D4ABDC
+
+#W24($D4C408)
+//A weapon.<End>
+
+//POINTER #84 @ $D4C40C - STRING #84 @ $D4ABEE
+
+#W24($D4C40C)
+//Dizzyshroom Acquired!<End>
+
+//POINTER #85 @ $D4C410 - STRING #85 @ $D4D44E
+
+#W24($D4C410)
+//I don't like mushrooms.<End>
+
+//POINTER #86 @ $D4C414 - STRING #86 @ $D4AC18
+
+#W24($D4C414)
+//It's for good luck.<End>
+
+//POINTER #87 @ $D4C418 - STRING #87 @ $D4AC3C
+
+#W24($D4C418)
+//I'm full right now.<End>
+
+//POINTER #88 @ $D4C41C - STRING #88 @ $D4AC60
+
+#W24($D4C41C)
+//Powershroom Acquired!<End>
+
+//POINTER #89 @ $D4C420 - STRING #89 @ $D4AC8A
+
+#W24($D4C420)
+//To cheer someone up.<End>
+
+//POINTER #90 @ $D4C424 - STRING #90 @ $D4ACB0
+
+#W24($D4C424)
+//Magic experiments.<End>
+
+//POINTER #91 @ $D4C428 - STRING #91 @ $D4ACD4
+
+#W24($D4C428)
+//Tonight's dinner.<End>
+
+//POINTER #92 @ $D4C42C - STRING #92 @ $D4ACF6
+
+#W24($D4C42C)
+//Laughshroom Acquired!<End>
+
+//POINTER #93 @ $D4C430 - STRING #93 @ $D4AD20
+
+#W24($D4C430)
+//Unknown Mushroom Acquired<End>
+
+//POINTER #94 @ $D4C434 - STRING #94 @ $D4AD51
+
+#W24($D4C434)
+//Golden Egg Acquired<End>
+
+//POINTER #95 @ $D4C438 - STRING #95 @ $D4AD76
+
+#W24($D4C438)
+//Open<End>
+
+//POINTER #96 @ $D4C43C - STRING #96 @ $D4AD7F
+
+#W24($D4C43C)
+//Don't Open<End>
+
+//POINTER #97 @ $D4C440 - STRING #97 @ $D4AD93
+
+#W24($D4C440)
+//Evade<End>
+
+//POINTER #98 @ $D4C444 - STRING #98 @ $D4AD9E
+
+#W24($D4C444)
+//Dodge<End>
+
+//POINTER #99 @ $D4C448 - STRING #99 @ $D4ADA9
+
+#W24($D4C448)
+//Prevent<End>
+
+//POINTER #100 @ $D4C44C - STRING #100 @ $D4ADB8
+
+#W24($D4C44C)
+//Disarm<End>
+
+//POINTER #101 @ $D4C450 - STRING #101 @ $D4ADC5
+
+#W24($D4C450)
+//Tree Ruins<End>
+
+//POINTER #102 @ $D4C454 - STRING #102 @ $D4ADD9
+
+#W24($D4C454)
+//…tired; let's rest.<End>
+
+//POINTER #103 @ $D4C458 - STRING #103 @ $D4ADFE
+
+#W24($D4C458)
+//…clumsy, like Lina.<End>
+
+//POINTER #104 @ $D4C45C - STRING #104 @ $D4AE23
+
+#W24($D4C45C)
+//…getting old.<End>
+
+//POINTER #105 @ $D4C460 - STRING #105 @ $D4A70B
+
+#W24($D4C460)
+//Chest<End>
+
+//POINTER #106 @ $D4C464 - STRING #106 @ $D4A901
+
+#W24($D4C464)
+//Open Chest<End>
+
+//POINTER #107 @ $D4C468 - STRING #107 @ $D4A915
+
+#W24($D4C468)
+//Locked Chest<End>
+
+//POINTER #108 @ $D4C46C - STRING #108 @ $D4A92D
+
+#W24($D4C46C)
+//Chest Remains<End>
+
+//POINTER #109 @ $D4C470 - STRING #109 @ $D4AE3D
+
+#W24($D4C470)
+//Roots<End>
+
+//POINTER #110 @ $D4C474 - STRING #110 @ $D4AE48
+
+#W24($D4C474)
+//Sleeping Beast<End>
+
+//POINTER #111 @ $D4C478 - STRING #111 @ $D4AE64
+
+#W24($D4C478)
+//Let's do it.<End>
+
+//POINTER #112 @ $D4C47C - STRING #112 @ $D4AE7B
+
+#W24($D4C47C)
+//Let's sneak past.<End>
+
+//POINTER #113 @ $D4C480 - STRING #113 @ $D4AE9C
+
+#W24($D4C480)
+//Watch your step, Serene.<End>
+
+//POINTER #114 @ $D4C484 - STRING #114 @ $D4AECA
+
+#W24($D4C484)
+//Serene, you klutz!<End>
+
+//POINTER #115 @ $D4C488 - STRING #115 @ $D4AEED
+
+#W24($D4C488)
+//Look out, Fia.<End>
+
+//POINTER #116 @ $D4C48C - STRING #116 @ $D4AE3D
+
+#W24($D4C48C)
+//Roots<End>
+
+//POINTER #117 @ $D4C490 - STRING #117 @ $D4AF08
+
+#W24($D4C490)
+//Rubble<End>
+
+//POINTER #118 @ $D4C494 - STRING #118 @ $D4AF15
+
+#W24($D4C494)
+//Ask Fia to Search<End>
+
+//POINTER #119 @ $D4C498 - STRING #119 @ $D4AF35
+
+#W24($D4C498)
+//Thunder Onyx Acquired<End>
+
+//POINTER #120 @ $D4C49C - STRING #120 @ $D4AF5E
+
+#W24($D4C49C)
+//Search<End>
+
+//POINTER #121 @ $D4C4A0 - STRING #121 @ $D4AF6B
+
+#W24($D4C4A0)
+//Rock Acquired♪<End>
+
+//POINTER #122 @ $D4C4A4 - STRING #122 @ $D4AE3D
+
+#W24($D4C4A4)
+//Roots<End>
+
+//POINTER #123 @ $D4C4A8 - STRING #123 @ $D4AD51
+
+#W24($D4C4A8)
+//Golden Egg Acquired<End>
+
+//POINTER #124 @ $D4C4AC - STRING #124 @ $D4AD76
+
+#W24($D4C4AC)
+//Open<End>
+
+//POINTER #125 @ $D4C4B0 - STRING #125 @ $D4AD7F
+
+#W24($D4C4B0)
+//Don't Open<End>
+
+//POINTER #126 @ $D4C4B4 - STRING #126 @ $D4ADB8
+
+#W24($D4C4B4)
+//Disarm<End>
+
+//POINTER #127 @ $D4C4B8 - STRING #127 @ $D4AF87
+
+#W24($D4C4B8)
+//Treetop Ruins<End>
+
+//POINTER #128 @ $D4C4BC - STRING #128 @ $D4AFA1
+
+#W24($D4C4BC)
+//Hammer Acquired<End>
+
+//POINTER #129 @ $D4C4C0 - STRING #129 @ $D4AFBF
+
+#W24($D4C4C0)
+//Save Him<End>
+
+//POINTER #130 @ $D4C4C4 - STRING #130 @ $D4AFCF
+
+#W24($D4C4C4)
+//Watch<End>
+
+//POINTER #131 @ $D4C4C8 - STRING #131 @ $D4AFDA
+
+#W24($D4C4C8)
+//Root<End>
+
+//POINTER #132 @ $D4C4CC - STRING #132 @ $D4AFE3
+
+#W24($D4C4CC)
+//Pull<End>
+
+//POINTER #133 @ $D4C4D0 - STRING #133 @ $D4AFEC
+
+#W24($D4C4D0)
+//Don't Pull<End>
+
+//POINTER #134 @ $D4C4D4 - STRING #134 @ $D4A70B
+
+#W24($D4C4D4)
+//Chest<End>
+
+//POINTER #135 @ $D4C4D8 - STRING #135 @ $D4AD76
+
+#W24($D4C4D8)
+//Open<End>
+
+//POINTER #136 @ $D4C4DC - STRING #136 @ $D4AD7F
+
+#W24($D4C4DC)
+//Don't Open<End>
+
+//POINTER #137 @ $D4C4E0 - STRING #137 @ $D4B000
+
+#W24($D4C4E0)
+//Sealed Chest<End>
+
+//POINTER #138 @ $D4C4E4 - STRING #138 @ $D4AD76
+
+#W24($D4C4E4)
+//Open<End>
+
+//POINTER #139 @ $D4C4E8 - STRING #139 @ $D4B018
+
+#W24($D4C4E8)
+//You could be a thief!<End>
+
+//POINTER #140 @ $D4C4EC - STRING #140 @ $D4B03F
+
+#W24($D4C4EC)
+//That's incredible!<End>
+
+//POINTER #141 @ $D4C4F0 - STRING #141 @ $D4B063
+
+#W24($D4C4F0)
+//Can you teach me?<End>
+
+//POINTER #142 @ $D4C4F4 - STRING #142 @ $D4AD7F
+
+#W24($D4C4F4)
+//Don't Open<End>
+
+//POINTER #143 @ $D4C4F8 - STRING #143 @ $D4A70B
+
+#W24($D4C4F8)
+//Chest<End>
+
+//POINTER #144 @ $D4C4FC - STRING #144 @ $D4AD76
+
+#W24($D4C4FC)
+//Open<End>
+
+//POINTER #145 @ $D4C500 - STRING #145 @ $D4AD7F
+
+#W24($D4C500)
+//Don't Open<End>
+
+//POINTER #146 @ $D4C504 - STRING #146 @ $D4B083
+
+#W24($D4C504)
+//Serene, you open it.<End>
+
+//POINTER #147 @ $D4C508 - STRING #147 @ $D4A901
+
+#W24($D4C508)
+//Open Chest<End>
+
+//POINTER #148 @ $D4C50C - STRING #148 @ $D4A6FD
+
+#W24($D4C50C)
+//Go Back<End>
+
+//POINTER #149 @ $D4C510 - STRING #149 @ $D4B0A9
+
+#W24($D4C510)
+//Shiny Object<End>
+
+//POINTER #150 @ $D4C514 - STRING #150 @ $D4B0C1
+
+#W24($D4C514)
+//Get<End>
+
+//POINTER #151 @ $D4C518 - STRING #151 @ $D4B0C8
+
+#W24($D4C518)
+//Balance<End>
+
+//POINTER #152 @ $D4C51C - STRING #152 @ $D4B0D7
+
+#W24($D4C51C)
+//Pendant Acquired<End>
+
+//POINTER #153 @ $D4C520 - STRING #153 @ $D4B0F7
+
+#W24($D4C520)
+//Give to Cierra<End>
+
+//POINTER #154 @ $D4C524 - STRING #154 @ $D4B112
+
+#W24($D4C524)
+//Return to Serene<End>
+
+//POINTER #155 @ $D4C528 - STRING #155 @ $D4B131
+
+#W24($D4C528)
+//It's your treasure.<End>
+
+//POINTER #156 @ $D4C52C - STRING #156 @ $D4B156
+
+#W24($D4C52C)
+//It was luck.<End>
+
+//POINTER #157 @ $D4C530 - STRING #157 @ $D4B16D
+
+#W24($D4C530)
+//Can I have it?<End>
+
+//POINTER #158 @ $D4C534 - STRING #158 @ $D4B187
+
+#W24($D4C534)
+//Give to Lina<End>
+
+//POINTER #159 @ $D4C538 - STRING #159 @ $D4B19E
+
+#W24($D4C538)
+//Give to Fia<End>
+
+//POINTER #160 @ $D4C53C - STRING #160 @ $D4AAAD
+
+#W24($D4C53C)
+//I'm fine.<End>
+
+//POINTER #161 @ $D4C540 - STRING #161 @ $D4B1B3
+
+#W24($D4C540)
+//Not really.<End>
+
+//POINTER #162 @ $D4C544 - STRING #162 @ $D55AC5
+
+#W24($D4C544)
+//Thanks, Fia.<End>
+
+//POINTER #163 @ $D4C548 - STRING #163 @ $D4B1C9
+
+#W24($D4C548)
+//Serene, could you…?<End>
+
+//POINTER #164 @ $D4C54C - STRING #164 @ $D4B1EE
+
+#W24($D4C54C)
+//Ignore<End>
+
+//POINTER #165 @ $D4C550 - STRING #165 @ $D4B1FB
+
+#W24($D4C550)
+//Where is Gateau?<End>
+
+//POINTER #166 @ $D4C554 - STRING #166 @ $D4B21A
+
+#W24($D4C554)
+//Sounds delicious.<End>
+
+//POINTER #167 @ $D4C558 - STRING #167 @ $D4B23C
+
+#W24($D4C558)
+//Is Gateau cute?<End>
+
+//POINTER #168 @ $D4C55C - STRING #168 @ $D4B0A9
+
+#W24($D4C55C)
+//Shiny Object<End>
+
+//POINTER #169 @ $D4C560 - STRING #169 @ $D4B259
+
+#W24($D4C560)
+//Exactly.<End>
+
+//POINTER #170 @ $D4C564 - STRING #170 @ $D4B26A
+
+#W24($D4C564)
+//I feel like having eggs.<End>
+
+//POINTER #171 @ $D4C568 - STRING #171 @ $D4B297
+
+#W24($D4C568)
+//What type of egg was it?<End>
+
+//POINTER #172 @ $D4C56C - STRING #172 @ $D4B2C3
+
+#W24($D4C56C)
+//Let's apologize.<End>
+
+//POINTER #173 @ $D4C570 - STRING #173 @ $D4B2E3
+
+#W24($D4C570)
+//Walk on the Branch<End>
+
+//POINTER #174 @ $D4C574 - STRING #174 @ $D4B305
+
+#W24($D4C574)
+//Feather<End>
+
+//POINTER #175 @ $D4C578 - STRING #175 @ $D4B305
+
+#W24($D4C578)
+//Feather<End>
+
+//POINTER #176 @ $D4C57C - STRING #176 @ $D4B305
+
+#W24($D4C57C)
+//Feather<End>
+
+//POINTER #177 @ $D4C580 - STRING #177 @ $D4B314
+
+#W24($D4C580)
+//Door<End>
+
+//POINTER #178 @ $D4C584 - STRING #178 @ $D4B31D
+
+#W24($D4C584)
+//Egg<End>
+
+//POINTER #179 @ $D4C588 - STRING #179 @ $D4AB27
+
+#W24($D4C588)
+//Take<End>
+
+//POINTER #180 @ $D4C58C - STRING #180 @ $D4B324
+
+#W24($D4C58C)
+//Break<End>
+
+//POINTER #181 @ $D4C590 - STRING #181 @ $D4B324
+
+#W24($D4C590)
+//Break<End>
+
+//POINTER #182 @ $D4C594 - STRING #182 @ $D4B32F
+
+#W24($D4C594)
+//Egg Cracked!<End>
+
+//POINTER #183 @ $D4C598 - STRING #183 @ $D4AB30
+
+#W24($D4C598)
+//Leave<End>
+
+//POINTER #184 @ $D4C59C - STRING #184 @ $D4B347
+
+#W24($D4C59C)
+//Nest<End>
+
+//POINTER #185 @ $D4C5A0 - STRING #185 @ $D4B31D
+
+#W24($D4C5A0)
+//Egg<End>
+
+//POINTER #186 @ $D4C5A4 - STRING #186 @ $D4B350
+
+#W24($D4C5A4)
+//Attack<End>
+
+//POINTER #187 @ $D4C5A8 - STRING #187 @ $D4B35D
+
+#W24($D4C5A8)
+//Spare<End>
+
+//POINTER #188 @ $D4C5AC - STRING #188 @ $D4B368
+
+#W24($D4C5AC)
+//I accept.<End>
+
+//POINTER #189 @ $D4C5B0 - STRING #189 @ $D4B37A
+
+#W24($D4C5B0)
+//I can't accept it.<End>
+
+//POINTER #190 @ $D4C5B4 - STRING #190 @ $D4B39C
+
+#W24($D4C5B4)
+//Get outta here, demon!<End>
+
+//POINTER #191 @ $D4C5B8 - STRING #191 @ $D4B3C6
+
+#W24($D4C5B8)
+//We'd rather have food.<End>
+
+//POINTER #192 @ $D4C5BC - STRING #192 @ $D4B3F0
+
+#W24($D4C5BC)
+//I think Cierra's right.<End>
+
+//POINTER #193 @ $D4C5C0 - STRING #193 @ $D4B41C
+
+#W24($D4C5C0)
+//Injured Harpie<End>
+
+//POINTER #194 @ $D4C5C4 - STRING #194 @ $D4A70B
+
+#W24($D4C5C4)
+//Chest<End>
+
+//POINTER #195 @ $D4C5C8 - STRING #195 @ $D4A901
+
+#W24($D4C5C8)
+//Open Chest<End>
+
+//POINTER #196 @ $D4C5CC - STRING #196 @ $D4A915
+
+#W24($D4C5CC)
+//Locked Chest<End>
+
+//POINTER #197 @ $D4C5D0 - STRING #197 @ $D4A92D
+
+#W24($D4C5D0)
+//Chest Remains<End>
+
+//POINTER #198 @ $D4C5D4 - STRING #198 @ $D4B438
+
+#W24($D4C5D4)
+//Floor<End>
+
+//POINTER #199 @ $D4C5D8 - STRING #199 @ $D4B438
+
+#W24($D4C5D8)
+//Floor<End>
+
+//POINTER #200 @ $D4C5DC - STRING #200 @ $D4B443
+
+#W24($D4C5DC)
+//Jump Off<End>
+
+//POINTER #201 @ $D4C5E0 - STRING #201 @ $D4B453
+
+#W24($D4C5E0)
+//Collapse Avoided!<End>
+
+//POINTER #202 @ $D4C5E4 - STRING #202 @ $D4B475
+
+#W24($D4C5E4)
+//Five, maybe?<End>
+
+//POINTER #203 @ $D4C5E8 - STRING #203 @ $D4B48D
+
+#W24($D4C5E8)
+//Are you hungry AGAIN?<End>
+
+//POINTER #204 @ $D4C5EC - STRING #204 @ $D4B4B5
+
+#W24($D4C5EC)
+//Is it even edible?<End>
+
+//POINTER #205 @ $D4C5F0 - STRING #205 @ $D4B4D7
+
+#W24($D4C5F0)
+//Close the Chest!<End>
+
+//POINTER #206 @ $D4C5F4 - STRING #206 @ $D4B4F6
+
+#W24($D4C5F4)
+//It's just a hunch.<End>
+
+//POINTER #207 @ $D4C5F8 - STRING #207 @ $D4B518
+
+#W24($D4C5F8)
+//Something smells funny.<End>
+
+//POINTER #208 @ $D4C5FC - STRING #208 @ $D4B1B3
+
+#W24($D4C5FC)
+//Not really.<End>
+
+//POINTER #209 @ $D4C600 - STRING #209 @ $D4B475
+
+#W24($D4C600)
+//Five, maybe?<End>
+
+//POINTER #210 @ $D4C604 - STRING #210 @ $D4B48D
+
+#W24($D4C604)
+//Are you hungry AGAIN?<End>
+
+//POINTER #211 @ $D4C608 - STRING #211 @ $D4B4B5
+
+#W24($D4C608)
+//Is it even edible?<End>
+
+//POINTER #212 @ $D4C60C - STRING #212 @ $D4AD51
+
+#W24($D4C60C)
+//Golden Egg Acquired<End>
+
+//POINTER #213 @ $D4C610 - STRING #213 @ $D4AD76
+
+#W24($D4C610)
+//Open<End>
+
+//POINTER #214 @ $D4C614 - STRING #214 @ $D4AD7F
+
+#W24($D4C614)
+//Don't Open<End>
+
+//POINTER #215 @ $D4C618 - STRING #215 @ $D4ADB8
+
+#W24($D4C618)
+//Disarm<End>
+
+//POINTER #216 @ $D4C61C - STRING #216 @ $D4B545
+
+#W24($D4C61C)
+//Pelga Nests<End>
+
+//POINTER #217 @ $D4C620 - STRING #217 @ $D4B55B
+
+#W24($D4C620)
+//Don't worry, you're soft.<End>
+
+//POINTER #218 @ $D4C624 - STRING #218 @ $D4B58B
+
+#W24($D4C624)
+//Ow, that hurt.<End>
+
+//POINTER #219 @ $D4C628 - STRING #219 @ $D4B5A6
+
+#W24($D4C628)
+//Tree Hollow<End>
+
+//POINTER #220 @ $D4C62C - STRING #220 @ $D4B5BC
+
+#W24($D4C62C)
+//Tree<End>
+
+//POINTER #221 @ $D4C630 - STRING #221 @ $D4B5C5
+
+#W24($D4C630)
+//What kind is it?<End>
+
+//POINTER #222 @ $D4C634 - STRING #222 @ $D4B5E3
+
+#W24($D4C634)
+//Good eyes.<End>
+
+//POINTER #223 @ $D4C638 - STRING #223 @ $D4B5F7
+
+#W24($D4C638)
+//I don't see it.<End>
+
+//POINTER #224 @ $D4C63C - STRING #224 @ $D4B613
+
+#W24($D4C63C)
+//Lina<End>
+
+//POINTER #225 @ $D4C640 - STRING #225 @ $D4B61C
+
+#W24($D4C640)
+//Aim<End>
+
+//POINTER #226 @ $D4C644 - STRING #226 @ $D4B623
+
+#W24($D4C644)
+//Nice Shot★<End>
+
+//POINTER #227 @ $D4C648 - STRING #227 @ $D4B637
+
+#W24($D4C648)
+//Serene<End>
+
+//POINTER #228 @ $D4C64C - STRING #228 @ $D50BDF
+
+#W24($D4C64C)
+//Are you alright?<End>
+
+//POINTER #229 @ $D4C650 - STRING #229 @ $D4B644
+
+#W24($D4C650)
+//Where's the fruit?<End>
+
+//POINTER #230 @ $D4C654 - STRING #230 @ $D4B667
+
+#W24($D4C654)
+//How's your butt?<End>
+
+//POINTER #231 @ $D4C658 - STRING #231 @ $D4B686
+
+#W24($D4C658)
+//An enemy was hiding…<End>
+
+//POINTER #232 @ $D4C65C - STRING #232 @ $D4B6AC
+
+#W24($D4C65C)
+//No One<End>
+
+//POINTER #233 @ $D4C660 - STRING #233 @ $D4B31D
+
+#W24($D4C660)
+//Egg<End>
+
+//POINTER #234 @ $D4C664 - STRING #234 @ $D4AB27
+
+#W24($D4C664)
+//Take<End>
+
+//POINTER #235 @ $D4C668 - STRING #235 @ $D4B6B8
+
+#W24($D4C668)
+//Don't Take<End>
+
+//POINTER #236 @ $D4C66C - STRING #236 @ $D4AB27
+
+#W24($D4C66C)
+//Take<End>
+
+//POINTER #237 @ $D4C670 - STRING #237 @ $D4B6CC
+
+#W24($D4C670)
+//Crack Open<End>
+
+//POINTER #238 @ $D4C674 - STRING #238 @ $D4B32F
+
+#W24($D4C674)
+//Egg Cracked!<End>
+
+//POINTER #239 @ $D4C678 - STRING #239 @ $D4B6E0
+
+#W24($D4C678)
+//I'm trying to break it…<End>
+
+//POINTER #240 @ $D4C67C - STRING #240 @ $D4B70B
+
+#W24($D4C67C)
+//Making a wish.<End>
+
+//POINTER #241 @ $D4C680 - STRING #241 @ $D4B726
+
+#W24($D4C680)
+//Strength.<End>
+
+//POINTER #242 @ $D4C684 - STRING #242 @ $D4B739
+
+#W24($D4C684)
+//Knowledge.<End>
+
+//POINTER #243 @ $D4C688 - STRING #243 @ $D4B74E
+
+#W24($D4C688)
+//Serene's sake.<End>
+
+//POINTER #244 @ $D4C68C - STRING #244 @ $D4B76A
+
+#W24($D4C68C)
+//To find Gateau.<End>
+
+//POINTER #245 @ $D4C690 - STRING #245 @ $D4B787
+
+#W24($D4C690)
+//To fly.<End>
+
+//POINTER #246 @ $D4C694 - STRING #246 @ $D4B795
+
+#W24($D4C694)
+//Oh, nothing.<End>
+
+//POINTER #247 @ $D4C698 - STRING #247 @ $D4AB30
+
+#W24($D4C698)
+//Leave<End>
+
+//POINTER #248 @ $D4C69C - STRING #248 @ $D4B347
+
+#W24($D4C69C)
+//Nest<End>
+
+//POINTER #249 @ $D4C6A0 - STRING #249 @ $D4B347
+
+#W24($D4C6A0)
+//Nest<End>
+
+//POINTER #250 @ $D4C6A4 - STRING #250 @ $D4B31D
+
+#W24($D4C6A4)
+//Egg<End>
+
+//POINTER #251 @ $D4C6A8 - STRING #251 @ $D4B7AD
+
+#W24($D4C6A8)
+//Hypha Floor<End>
+
+//POINTER #252 @ $D4C6AC - STRING #252 @ $D4B7C3
+
+#W24($D4C6AC)
+//Sticky Floor<End>
+
+//POINTER #253 @ $D4C6B0 - STRING #253 @ $D4B7AD
+
+#W24($D4C6B0)
+//Hypha Floor<End>
+
+//POINTER #254 @ $D4C6B4 - STRING #254 @ $D4B7DB
+
+#W24($D4C6B4)
+//Through the Hole<End>
+
+//POINTER #255 @ $D4C6B8 - STRING #255 @ $D4B7FA
+
+#W24($D4C6B8)
+//Crack in the Wall<End>
+
+//POINTER #256 @ $D4C6BC - STRING #256 @ $D4AF08
+
+#W24($D4C6BC)
+//Rubble<End>
+
+//POINTER #257 @ $D4C6C0 - STRING #257 @ $D4A70B
+
+#W24($D4C6C0)
+//Chest<End>
+
+//POINTER #258 @ $D4C6C4 - STRING #258 @ $D4AD76
+
+#W24($D4C6C4)
+//Open<End>
+
+//POINTER #259 @ $D4C6C8 - STRING #259 @ $D4AD7F
+
+#W24($D4C6C8)
+//Don't Open<End>
+
+//POINTER #260 @ $D4C6CC - STRING #260 @ $D4A901
+
+#W24($D4C6CC)
+//Open Chest<End>
+
+//POINTER #261 @ $D4C6D0 - STRING #261 @ $D4B81A
+
+#W24($D4C6D0)
+//Hanging Object<End>
+
+//POINTER #262 @ $D4C6D4 - STRING #262 @ $D4B836
+
+#W24($D4C6D4)
+//Run!<End>
+
+//POINTER #263 @ $D4C6D8 - STRING #263 @ $D4B83F
+
+#W24($D4C6D8)
+//Bees Evaded!<End>
+
+//POINTER #264 @ $D4C6DC - STRING #264 @ $D4B857
+
+#W24($D4C6DC)
+//Beehive<End>
+
+//POINTER #265 @ $D4C6E0 - STRING #265 @ $D4AB27
+
+#W24($D4C6E0)
+//Take<End>
+
+//POINTER #266 @ $D4C6E4 - STRING #266 @ $D4B866
+
+#W24($D4C6E4)
+//Burn<End>
+
+//POINTER #267 @ $D4C6E8 - STRING #267 @ $D4B86F
+
+#W24($D4C6E8)
+//Beehive Destroyed<End>
+
+//POINTER #268 @ $D4C6EC - STRING #268 @ $D4AB30
+
+#W24($D4C6EC)
+//Leave<End>
+
+//POINTER #269 @ $D4C6F0 - STRING #269 @ $D4B857
+
+#W24($D4C6F0)
+//Beehive<End>
+
+//POINTER #270 @ $D4C6F4 - STRING #270 @ $D4B7C3
+
+#W24($D4C6F4)
+//Sticky Floor<End>
+
+//POINTER #271 @ $D4C6F8 - STRING #271 @ $D4B7AD
+
+#W24($D4C6F8)
+//Hypha Floor<End>
+
+//POINTER #272 @ $D4C6FC - STRING #272 @ $D4B891
+
+#W24($D4C6FC)
+//Tap the B Button<End>
+
+//POINTER #273 @ $D4C700 - STRING #273 @ $D4B8AF
+
+#W24($D4C700)
+//Wall Destroyed!<End>
+
+//POINTER #274 @ $D4C704 - STRING #274 @ $D4B8CD
+
+#W24($D4C704)
+//Fungi filaments.<End>
+
+//POINTER #275 @ $D4C708 - STRING #275 @ $D4B8ED
+
+#W24($D4C708)
+//Hold on, kiddo.<End>
+
+//POINTER #276 @ $D4C70C - STRING #276 @ $D4B90A
+
+#W24($D4C70C)
+//It's sweet!<End>
+
+//POINTER #277 @ $D4C710 - STRING #277 @ $D4B920
+
+#W24($D4C710)
+//Don't ask me.<End>
+
+//POINTER #278 @ $D4C714 - STRING #278 @ $D4AD51
+
+#W24($D4C714)
+//Golden Egg Acquired<End>
+
+//POINTER #279 @ $D4C718 - STRING #279 @ $D4B475
+
+#W24($D4C718)
+//Five, maybe?<End>
+
+//POINTER #280 @ $D4C71C - STRING #280 @ $D4B939
+
+#W24($D4C71C)
+//You really like food, huh?<End>
+
+//POINTER #281 @ $D4C720 - STRING #281 @ $D4B4B5
+
+#W24($D4C720)
+//Is it even edible?<End>
+
+//POINTER #282 @ $D4C724 - STRING #282 @ $D4B96A
+
+#W24($D4C724)
+//Wooden Platforms<End>
+
+//POINTER #283 @ $D4C728 - STRING #283 @ $D4B98A
+
+#W24($D4C728)
+//Grab<End>
+
+//POINTER #284 @ $D4C72C - STRING #284 @ $D4B993
+
+#W24($D4C72C)
+//Squirrel<End>
+
+//POINTER #285 @ $D4C730 - STRING #285 @ $D4B9A4
+
+#W24($D4C730)
+//It is cute, isn't it.<End>
+
+//POINTER #286 @ $D4C734 - STRING #286 @ $D4B9CB
+
+#W24($D4C734)
+//Not as cute as Lina.<End>
+
+//POINTER #287 @ $D4C738 - STRING #287 @ $D4B9F0
+
+#W24($D4C738)
+//Not as cute as Fia.<End>
+
+//POINTER #288 @ $D4C73C - STRING #288 @ $D4BA13
+
+#W24($D4C73C)
+//A squirrel?<End>
+
+//POINTER #289 @ $D4C740 - STRING #289 @ $D4BA29
+
+#W24($D4C740)
+//A demon!?<End>
+
+//POINTER #290 @ $D4C744 - STRING #290 @ $D4BA39
+
+#W24($D4C744)
+//Catch<End>
+
+//POINTER #291 @ $D4C748 - STRING #291 @ $D4BA44
+
+#W24($D4C748)
+//Catch the Squirrel!<End>
+
+//POINTER #292 @ $D4C74C - STRING #292 @ $D4BA69
+
+#W24($D4C74C)
+//Squirrel Captured<End>
+
+//POINTER #293 @ $D4C750 - STRING #293 @ $D4B0F7
+
+#W24($D4C750)
+//Give to Cierra<End>
+
+//POINTER #294 @ $D4C754 - STRING #294 @ $D4BA8B
+
+#W24($D4C754)
+//Give to Serene<End>
+
+//POINTER #295 @ $D4C758 - STRING #295 @ $D4B187
+
+#W24($D4C758)
+//Give to Lina<End>
+
+//POINTER #296 @ $D4C75C - STRING #296 @ $D4B19E
+
+#W24($D4C75C)
+//Give to Fia<End>
+
+//POINTER #297 @ $D4C760 - STRING #297 @ $D4BAA6
+
+#W24($D4C760)
+//Release<End>
+
+//POINTER #298 @ $D4C764 - STRING #298 @ $D4AB30
+
+#W24($D4C764)
+//Leave<End>
+
+//POINTER #299 @ $D4C768 - STRING #299 @ $D4BAB5
+
+#W24($D4C768)
+//Shining Branch<End>
+
+//POINTER #300 @ $D4C76C - STRING #300 @ $D4BAD1
+
+#W24($D4C76C)
+//Ask Cierra<End>
+
+//POINTER #301 @ $D4C770 - STRING #301 @ $D4BAE5
+
+#W24($D4C770)
+//Ask Serene<End>
+
+//POINTER #302 @ $D4C774 - STRING #302 @ $D4BAF9
+
+#W24($D4C774)
+//Ask Lina<End>
+
+//POINTER #303 @ $D4C778 - STRING #303 @ $D4BB09
+
+#W24($D4C778)
+//Ask Fia<End>
+
+//POINTER #304 @ $D4C77C - STRING #304 @ $D4A889
+
+#W24($D4C77C)
+//Leave It<End>
+
+//POINTER #305 @ $D4C780 - STRING #305 @ $D4BB17
+
+#W24($D4C780)
+//Branch<End>
+
+//POINTER #306 @ $D4C784 - STRING #306 @ $D4BB24
+
+#W24($D4C784)
+//Saved Cierra<End>
+
+//POINTER #307 @ $D4C788 - STRING #307 @ $D4BB3C
+
+#W24($D4C788)
+//That's not fair.<End>
+
+//POINTER #308 @ $D4C78C - STRING #308 @ $D4BB5B
+
+#W24($D4C78C)
+//Be careful, everyone.<End>
+
+//POINTER #309 @ $D4C790 - STRING #309 @ $D4BB84
+
+#W24($D4C790)
+//Found Mana Wisp!<End>
+
+//POINTER #310 @ $D4C794 - STRING #310 @ $D4BBA3
+
+#W24($D4C794)
+//Colony Remains<End>
+
+//POINTER #311 @ $D4C798 - STRING #311 @ $D4BBBF
+
+#W24($D4C798)
+//Ivy<End>
+
+//POINTER #312 @ $D4C79C - STRING #312 @ $D57F03
+
+#W24($D4C79C)
+//Are you sure?<End>
+
+//POINTER #313 @ $D4C7A0 - STRING #313 @ $D4BBC6
+
+#W24($D4C7A0)
+//You're really smart.<End>
+
+//POINTER #314 @ $D4C7A4 - STRING #314 @ $D4AFE3
+
+#W24($D4C7A4)
+//Pull<End>
+
+//POINTER #315 @ $D4C7A8 - STRING #315 @ $D4BBED
+
+#W24($D4C7A8)
+//Rip the Ivy Out<End>
+
+//POINTER #316 @ $D4C7AC - STRING #316 @ $D4BC09
+
+#W24($D4C7AC)
+//Ivy Removed<End>
+
+//POINTER #317 @ $D4C7B0 - STRING #317 @ $D4AFEC
+
+#W24($D4C7B0)
+//Don't Pull<End>
+
+//POINTER #318 @ $D4C7B4 - STRING #318 @ $D4BC1F
+
+#W24($D4C7B4)
+//Ivy Shoot<End>
+
+//POINTER #319 @ $D4C7B8 - STRING #319 @ $D4BBBF
+
+#W24($D4C7B8)
+//Ivy<End>
+
+//POINTER #320 @ $D4C7BC - STRING #320 @ $D4BC31
+
+#W24($D4C7BC)
+//Oh, really?<End>
+
+//POINTER #321 @ $D4C7C0 - STRING #321 @ $D4BC47
+
+#W24($D4C7C0)
+//How old are you?<End>
+
+//POINTER #322 @ $D4C7C4 - STRING #322 @ $D4BC65
+
+#W24($D4C7C4)
+//Yeah, yeah…<End>
+
+//POINTER #323 @ $D4C7C8 - STRING #323 @ $D4BC7B
+
+#W24($D4C7C8)
+//I'm sorry.<End>
+
+//POINTER #324 @ $D4C7CC - STRING #324 @ $D4BC8F
+
+#W24($D4C7CC)
+//Empty Shell<End>
+
+//POINTER #325 @ $D4C7D0 - STRING #325 @ $D4BCA5
+
+#W24($D4C7D0)
+//Wyrm Egg<End>
+
+//POINTER #326 @ $D4C7D4 - STRING #326 @ $D4BCA5
+
+#W24($D4C7D4)
+//Wyrm Egg<End>
+
+//POINTER #327 @ $D4C7D8 - STRING #327 @ $D4A6FD
+
+#W24($D4C7D8)
+//Go Back<End>
+
+//POINTER #328 @ $D4C7DC - STRING #328 @ $D4A70B
+
+#W24($D4C7DC)
+//Chest<End>
+
+//POINTER #329 @ $D4C7E0 - STRING #329 @ $D4A901
+
+#W24($D4C7E0)
+//Open Chest<End>
+
+//POINTER #330 @ $D4C7E4 - STRING #330 @ $D4A915
+
+#W24($D4C7E4)
+//Locked Chest<End>
+
+//POINTER #331 @ $D4C7E8 - STRING #331 @ $D4A92D
+
+#W24($D4C7E8)
+//Chest Remains<End>
+
+//POINTER #332 @ $D4C7EC - STRING #332 @ $D4BC8F
+
+#W24($D4C7EC)
+//Empty Shell<End>
+
+//POINTER #333 @ $D4C7F0 - STRING #333 @ $D4BCA5
+
+#W24($D4C7F0)
+//Wyrm Egg<End>
+
+//POINTER #334 @ $D4C7F4 - STRING #334 @ $D4BCA5
+
+#W24($D4C7F4)
+//Wyrm Egg<End>
+
+//POINTER #335 @ $D4C7F8 - STRING #335 @ $D4BCB5
+
+#W24($D4C7F8)
+//Proceed<End>
+
+//POINTER #336 @ $D4C7FC - STRING #336 @ $D4BC8F
+
+#W24($D4C7FC)
+//Empty Shell<End>
+
+//POINTER #337 @ $D4C800 - STRING #337 @ $D4BCA5
+
+#W24($D4C800)
+//Wyrm Egg<End>
+
+//POINTER #338 @ $D4C804 - STRING #338 @ $D4BCA5
+
+#W24($D4C804)
+//Wyrm Egg<End>
+
+//POINTER #339 @ $D4C808 - STRING #339 @ $D4BCC4
+
+#W24($D4C808)
+//What's that?<End>
+
+//POINTER #340 @ $D4C80C - STRING #340 @ $D4BCDC
+
+#W24($D4C80C)
+//It's still here…<End>
+
+//POINTER #341 @ $D4C810 - STRING #341 @ $D4BCFB
+
+#W24($D4C810)
+//It's really big…<End>
+
+//POINTER #342 @ $D4C814 - STRING #342 @ $D4BD1A
+
+#W24($D4C814)
+//Yeah, they are.<End>
+
+//POINTER #343 @ $D4C818 - STRING #343 @ $D4BD37
+
+#W24($D4C818)
+//Are they?<End>
+
+//POINTER #344 @ $D4C81C - STRING #344 @ $D4BD49
+
+#W24($D4C81C)
+//It's a famous song.<End>
+
+//POINTER #345 @ $D4C820 - STRING #345 @ $D4BD6D
+
+#W24($D4C820)
+//Look Inside<End>
+
+//POINTER #346 @ $D4C824 - STRING #346 @ $D4A6E9
+
+#W24($D4C824)
+//Don't Look<End>
+
+//POINTER #347 @ $D4C828 - STRING #347 @ $D4BD6D
+
+#W24($D4C828)
+//Look Inside<End>
+
+//POINTER #348 @ $D4C82C - STRING #348 @ $D4A6E9
+
+#W24($D4C82C)
+//Don't Look<End>
+
+//POINTER #349 @ $D4C830 - STRING #349 @ $D4BD6D
+
+#W24($D4C830)
+//Look Inside<End>
+
+//POINTER #350 @ $D4C834 - STRING #350 @ $D4A6E9
+
+#W24($D4C834)
+//Don't Look<End>
+
+//POINTER #351 @ $D4C838 - STRING #351 @ $D4AD51
+
+#W24($D4C838)
+//Golden Egg Acquired<End>
+
+//POINTER #352 @ $D4C83C - STRING #352 @ $D4AD76
+
+#W24($D4C83C)
+//Open<End>
+
+//POINTER #353 @ $D4C840 - STRING #353 @ $D4AD7F
+
+#W24($D4C840)
+//Don't Open<End>
+
+//POINTER #354 @ $D4C844 - STRING #354 @ $D4ADB8
+
+#W24($D4C844)
+//Disarm<End>
+
+//POINTER #355 @ $D4C848 - STRING #355 @ $D4BD83
+
+#W24($D4C848)
+//The Apex<End>
+
+//POINTER #356 @ $D4C84C - STRING #356 @ $D4A6FD
+
+#W24($D4C84C)
+//Go Back<End>
+
+//POINTER #357 @ $D4C850 - STRING #357 @ $D4BD93
+
+#W24($D4C850)
+//To the Apex<End>
+
+//POINTER #358 @ $D4C854 - STRING #358 @ $D4A6FD
+
+#W24($D4C854)
+//Go Back<End>
+
+//POINTER #359 @ $D4C858 - STRING #359 @ $D4BDA8
+
+#W24($D4C858)
+//Paradise Plume Acquired!<End>
+
+//POINTER #360 @ $D4C85C - STRING #360 @ $D4BDD7
+
+#W24($D4C85C)
+//Climb the Ruins<End>
+
+//POINTER #361 @ $D4C860 - STRING #361 @ $D4BDF4
+
+#W24($D4C860)
+//Drop Down<End>
+
+//POINTER #362 @ $D4C864 - STRING #362 @ $D4BE06
+
+#W24($D4C864)
+//Beautiful Feather<End>
+
+//POINTER #363 @ $D4C868 - STRING #363 @ $D4BE28
+
+#W24($D4C868)
+//Ask Lina and Fia<End>
+
+//POINTER #364 @ $D4C86C - STRING #364 @ $D4BE46
+
+#W24($D4C86C)
+//Pick Up<End>
+
+//POINTER #365 @ $D4C870 - STRING #365 @ $D4AB30
+
+#W24($D4C870)
+//Leave<End>
+
+//POINTER #366 @ $D4C874 - STRING #366 @ $D4BE54
+
+#W24($D4C874)
+//Where the Feather Was<End>
+
+//POINTER #367 @ $D4C878 - STRING #367 @ $D4BE7C
+
+#W24($D4C878)
+//Royal Tomb<End>
+
+//POINTER #368 @ $D4C87C - STRING #368 @ $D4BDF4
+
+#W24($D4C87C)
+//Drop Down<End>
+
+//POINTER #369 @ $D4C880 - STRING #369 @ $D4BE90
+
+#W24($D4C880)
+//Golden Egg<End>
+
+//POINTER #370 @ $D4C884 - STRING #370 @ $D4BEA4
+
+#W24($D4C884)
+//Yeah, maybe.<End>
+
+//POINTER #371 @ $D4C888 - STRING #371 @ $D4BEBC
+
+#W24($D4C888)
+//I wonder…<End>
+
+//POINTER #372 @ $D4C88C - STRING #372 @ $D4BECE
+
+#W24($D4C88C)
+//I'll try to crack it.<End>
+
+//POINTER #373 @ $D4C890 - STRING #373 @ $D4BEF5
+
+#W24($D4C890)
+//What do you think, Fia?<End>
+
+//POINTER #374 @ $D4C894 - STRING #374 @ $D4BF20
+
+#W24($D4C894)
+//Can we still eat it?<End>
+
+//POINTER #375 @ $D4C898 - STRING #375 @ $D4AB27
+
+#W24($D4C898)
+//Take<End>
+
+//POINTER #376 @ $D4C89C - STRING #376 @ $D4B6B8
+
+#W24($D4C89C)
+//Don't Take<End>
+
+//POINTER #377 @ $D4C8A0 - STRING #377 @ $D4BE90
+
+#W24($D4C8A0)
+//Golden Egg<End>
+
+//POINTER #378 @ $D4C8A4 - STRING #378 @ $D4BF45
+
+#W24($D4C8A4)
+//Is it really an egg?<End>
+
+//POINTER #379 @ $D4C8A8 - STRING #379 @ $D4BF6A
+
+#W24($D4C8A8)
+//It's beautiful.<End>
+
+//POINTER #380 @ $D4C8AC - STRING #380 @ $D4BF88
+
+#W24($D4C8AC)
+//It looks delicious…<End>
+
+//POINTER #381 @ $D4C8B0 - STRING #381 @ $D4B347
+
+#W24($D4C8B0)
+//Nest<End>
+
+//POINTER #382 @ $D4C8B4 - STRING #382 @ $D4A70B
+
+#W24($D4C8B4)
+//Chest<End>
+
+//POINTER #383 @ $D4C8B8 - STRING #383 @ $D4A901
+
+#W24($D4C8B8)
+//Open Chest<End>
+
+//POINTER #384 @ $D4C8BC - STRING #384 @ $D4A915
+
+#W24($D4C8BC)
+//Locked Chest<End>
+
+//POINTER #385 @ $D4C8C0 - STRING #385 @ $D4A92D
+
+#W24($D4C8C0)
+//Chest Remains<End>
+
+//POINTER #386 @ $D4C8C4 - STRING #386 @ $D4BFAD
+
+#W24($D4C8C4)
+//It's your fault, Serene.<End>
+
+//POINTER #387 @ $D4C8C8 - STRING #387 @ $D5BEF1
+
+#W24($D4C8C8)
+//Good point…<End>
+
+//POINTER #388 @ $D4C8CC - STRING #388 @ $D594D6
+
+#W24($D4C8CC)
+//It's not important.<End>
+
+//POINTER #389 @ $D4C8D0 - STRING #389 @ $D4BFDB
+
+#W24($D4C8D0)
+//White Things<End>
+
+//POINTER #390 @ $D4C8D4 - STRING #390 @ $D4AF5E
+
+#W24($D4C8D4)
+//Search<End>
+
+//POINTER #391 @ $D4C8D8 - STRING #391 @ $D4BFF3
+
+#W24($D4C8D8)
+//Serene! Lina!<End>
+
+//POINTER #392 @ $D4C8DC - STRING #392 @ $D4C00D
+
+#W24($D4C8DC)
+//Where are they going?<End>
+
+//POINTER #393 @ $D4C8E0 - STRING #393 @ $D4C035
+
+#W24($D4C8E0)
+//Did something happen?<End>
+
+//POINTER #394 @ $D4C8E4 - STRING #394 @ $D4BA39
+
+#W24($D4C8E4)
+//Catch<End>
+
+//POINTER #395 @ $D4C8E8 - STRING #395 @ $D4C05E
+
+#W24($D4C8E8)
+//Actually, I was.<End>
+
+//POINTER #396 @ $D4C8EC - STRING #396 @ $D4C07D
+
+#W24($D4C8EC)
+//I want to take one home.<End>
+
+//POINTER #397 @ $D4C8F0 - STRING #397 @ $D4C0A9
+
+#W24($D4C8F0)
+//I just feel like it.<End>
+
+//POINTER #398 @ $D4C8F4 - STRING #398 @ $D4C0CE
+
+#W24($D4C8F4)
+//Catch the Butterflies!<End>
+
+//POINTER #399 @ $D4C8F8 - STRING #399 @ $D4C0F9
+
+#W24($D4C8F8)
+//White Butterflies Acquired!<End>
+
+//POINTER #400 @ $D4C8FC - STRING #400 @ $D4C12E
+
+#W24($D4C8FC)
+//It comes naturally.<End>
+
+//POINTER #401 @ $D4C900 - STRING #401 @ $D4C153
+
+#W24($D4C900)
+//I eat my spinach.<End>
+
+//POINTER #402 @ $D4C904 - STRING #402 @ $D4C173
+
+#W24($D4C904)
+//It was just luck.<End>
+
+//POINTER #403 @ $D4C908 - STRING #403 @ $D4C193
+
+#W24($D4C908)
+//I concentrated hard.<End>
+
+//POINTER #404 @ $D4C90C - STRING #404 @ $D4AB30
+
+#W24($D4C90C)
+//Leave<End>
+
+//POINTER #405 @ $D4C910 - STRING #405 @ $D4C1BA
+
+#W24($D4C910)
+//White Butterflies<End>
+
+//POINTER #406 @ $D4C914 - STRING #406 @ $D4C1DC
+
+#W24($D4C914)
+//Book<End>
+
+//POINTER #407 @ $D4C918 - STRING #407 @ $D4C1E5
+
+#W24($D4C918)
+//Statue<End>
+
+//POINTER #408 @ $D4C91C - STRING #408 @ $D4C1F2
+
+#W24($D4C91C)
+//Examine<End>
+
+//POINTER #409 @ $D4C920 - STRING #409 @ $D4C201
+
+#W24($D4C920)
+//Too late…<End>
+
+//POINTER #410 @ $D4C924 - STRING #410 @ $D4C213
+
+#W24($D4C924)
+//I doubt it.<End>
+
+//POINTER #411 @ $D4C928 - STRING #411 @ $D4C228
+
+#W24($D4C928)
+//Get away from there!<End>
+
+//POINTER #412 @ $D4C92C - STRING #412 @ $D4AB30
+
+#W24($D4C92C)
+//Leave<End>
+
+//POINTER #413 @ $D4C930 - STRING #413 @ $D4C24E
+
+#W24($D4C930)
+//Stone Entrance<End>
+
+//POINTER #414 @ $D4C934 - STRING #414 @ $D4C26A
+
+#W24($D4C934)
+//You, Lina.<End>
+
+//POINTER #415 @ $D4C938 - STRING #415 @ $D4C27E
+
+#W24($D4C938)
+//She means Cierra.<End>
+
+//POINTER #416 @ $D4C93C - STRING #416 @ $D4C29F
+
+#W24($D4C93C)
+//I'm not a kid.<End>
+
+//POINTER #417 @ $D4C940 - STRING #417 @ $D4AD76
+
+#W24($D4C940)
+//Open<End>
+
+//POINTER #418 @ $D4C944 - STRING #418 @ $D4AD7F
+
+#W24($D4C944)
+//Don't Open<End>
+
+//POINTER #419 @ $D4C948 - STRING #419 @ $D4ADB8
+
+#W24($D4C948)
+//Disarm<End>
+
+//POINTER #420 @ $D4C94C - STRING #420 @ $D4AD51
+
+#W24($D4C94C)
+//Golden Egg Acquired<End>
+
+//POINTER #421 @ $D4C950 - STRING #421 @ $D4B475
+
+#W24($D4C950)
+//Five, maybe?<End>
+
+//POINTER #422 @ $D4C954 - STRING #422 @ $D4B939
+
+#W24($D4C954)
+//You really like food, huh?<End>
+
+//POINTER #423 @ $D4C958 - STRING #423 @ $D4B4B5
+
+#W24($D4C958)
+//Is it even edible?<End>
+
+//POINTER #424 @ $D4C95C - STRING #424 @ $D4B475
+
+#W24($D4C95C)
+//Five, maybe?<End>
+
+//POINTER #425 @ $D4C960 - STRING #425 @ $D4B939
+
+#W24($D4C960)
+//You really like food, huh?<End>
+
+//POINTER #426 @ $D4C964 - STRING #426 @ $D4B4B5
+
+#W24($D4C964)
+//Is it even edible?<End>

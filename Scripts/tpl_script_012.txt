@@ -1,0 +1,2083 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($D0F6EC,$D126EB)
+
+//GAME NAME:		
+
+//BLOCK #012 NAME:		PART (012)
+
+//POINTER #0 @ $D0FF74 - STRING #0 @ $D0F6EC
+
+#W24($D0FF74)
+//Entrance to Elendia<End>
+
+//POINTER #1 @ $D0FF78 - STRING #1 @ $D0F711
+
+#W24($D0FF78)
+//Fairy<End>
+
+//POINTER #2 @ $D0FF7C - STRING #2 @ $D0F71C
+
+#W24($D0FF7C)
+//Grove of Repose<End>
+
+//POINTER #3 @ $D0FF80 - STRING #3 @ $D0F711
+
+#W24($D0FF80)
+//Fairy<End>
+
+//POINTER #4 @ $D0FF84 - STRING #4 @ $D0F739
+
+#W24($D0FF84)
+//Serene<End>
+
+//POINTER #5 @ $D0FF88 - STRING #5 @ $D0F739
+
+#W24($D0FF88)
+//Serene<End>
+
+//POINTER #6 @ $D0FF8C - STRING #6 @ $D0F739
+
+#W24($D0FF8C)
+//Serene<End>
+
+//POINTER #7 @ $D0FF90 - STRING #7 @ $D0F739
+
+#W24($D0FF90)
+//Serene<End>
+
+//POINTER #8 @ $D0FF94 - STRING #8 @ $D0F739
+
+#W24($D0FF94)
+//Serene<End>
+
+//POINTER #9 @ $D0FF98 - STRING #9 @ $D0F739
+
+#W24($D0FF98)
+//Serene<End>
+
+//POINTER #10 @ $D0FF9C - STRING #10 @ $D0F746
+
+#W24($D0FF9C)
+//Applecot<End>
+
+//POINTER #11 @ $D0FFA0 - STRING #11 @ $D0F757
+
+#W24($D0FFA0)
+//Pick Up<End>
+
+//POINTER #12 @ $D0FFA4 - STRING #12 @ $D0F765
+
+#W24($D0FFA4)
+//Leave<End>
+
+//POINTER #13 @ $D0FFA8 - STRING #13 @ $D0F770
+
+#W24($D0FFA8)
+//Harpuia<End>
+
+//POINTER #14 @ $D0FFAC - STRING #14 @ $D0F77F
+
+#W24($D0FFAC)
+//Rebecca<End>
+
+//POINTER #15 @ $D0FFB0 - STRING #15 @ $D0F770
+
+#W24($D0FFB0)
+//Harpuia<End>
+
+//POINTER #16 @ $D0FFB4 - STRING #16 @ $D0F77F
+
+#W24($D0FFB4)
+//Rebecca<End>
+
+//POINTER #17 @ $D0FFB8 - STRING #17 @ $D0F77F
+
+#W24($D0FFB8)
+//Rebecca<End>
+
+//POINTER #18 @ $D0FFBC - STRING #18 @ $D0F78E
+
+#W24($D0FFBC)
+//Werecat<End>
+
+//POINTER #19 @ $D0FFC0 - STRING #19 @ $D0F79D
+
+#W24($D0FFC0)
+//Mursya<End>
+
+//POINTER #20 @ $D0FFC4 - STRING #20 @ $D0F7AA
+
+#W24($D0FFC4)
+//Sylph<End>
+
+//POINTER #21 @ $D0FFC8 - STRING #21 @ $D0F7B5
+
+#W24($D0FFC8)
+//Reiche<End>
+
+//POINTER #22 @ $D0FFCC - STRING #22 @ $D0F7C2
+
+#W24($D0FFCC)
+//Elder's House<End>
+
+//POINTER #23 @ $D0FFD0 - STRING #23 @ $D0F7DC
+
+#W24($D0FFD0)
+//Pixia Residence<End>
+
+//POINTER #24 @ $D0FFD4 - STRING #24 @ $D0F7FA
+
+#W24($D0FFD4)
+//Hobbit Smithy<End>
+
+//POINTER #25 @ $D0FFD8 - STRING #25 @ $D0F814
+
+#W24($D0FFD8)
+//Crystal Caverns<End>
+
+//POINTER #26 @ $D0FFDC - STRING #26 @ $D0F832
+
+#W24($D0FFDC)
+//Undine Spring<End>
+
+//POINTER #27 @ $D0FFE0 - STRING #27 @ $D0F84C
+
+#W24($D0FFE0)
+//Stay here<End>
+
+//POINTER #28 @ $D0FFE4 - STRING #28 @ $D0F7C2
+
+#W24($D0FFE4)
+//Elder's House<End>
+
+//POINTER #29 @ $D0FFE8 - STRING #29 @ $D0F7DC
+
+#W24($D0FFE8)
+//Pixia Residence<End>
+
+//POINTER #30 @ $D0FFEC - STRING #30 @ $D0F7FA
+
+#W24($D0FFEC)
+//Hobbit Smithy<End>
+
+//POINTER #31 @ $D0FFF0 - STRING #31 @ $D0F814
+
+#W24($D0FFF0)
+//Crystal Caverns<End>
+
+//POINTER #32 @ $D0FFF4 - STRING #32 @ $D0F832
+
+#W24($D0FFF4)
+//Undine Spring<End>
+
+//POINTER #33 @ $D0FFF8 - STRING #33 @ $D0F84C
+
+#W24($D0FFF8)
+//Stay here<End>
+
+//POINTER #34 @ $D0FFFC - STRING #34 @ $D0F7DC
+
+#W24($D0FFFC)
+//Pixia Residence<End>
+
+//POINTER #35 @ $D10000 - STRING #35 @ $D0F7FA
+
+#W24($D10000)
+//Hobbit Smithy<End>
+
+//POINTER #36 @ $D10004 - STRING #36 @ $D0F814
+
+#W24($D10004)
+//Crystal Caverns<End>
+
+//POINTER #37 @ $D10008 - STRING #37 @ $D0F832
+
+#W24($D10008)
+//Undine Spring<End>
+
+//POINTER #38 @ $D1000C - STRING #38 @ $D0F84C
+
+#W24($D1000C)
+//Stay here<End>
+
+//POINTER #39 @ $D10010 - STRING #39 @ $D0F85E
+
+#W24($D10010)
+//Lina and Fia's Place<End>
+
+//POINTER #40 @ $D10014 - STRING #40 @ $D0F7DC
+
+#W24($D10014)
+//Pixia Residence<End>
+
+//POINTER #41 @ $D10018 - STRING #41 @ $D0F7FA
+
+#W24($D10018)
+//Hobbit Smithy<End>
+
+//POINTER #42 @ $D1001C - STRING #42 @ $D0F814
+
+#W24($D1001C)
+//Crystal Caverns<End>
+
+//POINTER #43 @ $D10020 - STRING #43 @ $D0F832
+
+#W24($D10020)
+//Undine Spring<End>
+
+//POINTER #44 @ $D10024 - STRING #44 @ $D0F84C
+
+#W24($D10024)
+//Stay here<End>
+
+//POINTER #45 @ $D10028 - STRING #45 @ $D0F85E
+
+#W24($D10028)
+//Lina and Fia's Place<End>
+
+//POINTER #46 @ $D1002C - STRING #46 @ $D0F7C2
+
+#W24($D1002C)
+//Elder's House<End>
+
+//POINTER #47 @ $D10030 - STRING #47 @ $D0F7FA
+
+#W24($D10030)
+//Hobbit Smithy<End>
+
+//POINTER #48 @ $D10034 - STRING #48 @ $D0F814
+
+#W24($D10034)
+//Crystal Caverns<End>
+
+//POINTER #49 @ $D10038 - STRING #49 @ $D0F832
+
+#W24($D10038)
+//Undine Spring<End>
+
+//POINTER #50 @ $D1003C - STRING #50 @ $D0F84C
+
+#W24($D1003C)
+//Stay here<End>
+
+//POINTER #51 @ $D10040 - STRING #51 @ $D0F85E
+
+#W24($D10040)
+//Lina and Fia's Place<End>
+
+//POINTER #52 @ $D10044 - STRING #52 @ $D0F7C2
+
+#W24($D10044)
+//Elder's House<End>
+
+//POINTER #53 @ $D10048 - STRING #53 @ $D0F7FA
+
+#W24($D10048)
+//Hobbit Smithy<End>
+
+//POINTER #54 @ $D1004C - STRING #54 @ $D0F814
+
+#W24($D1004C)
+//Crystal Caverns<End>
+
+//POINTER #55 @ $D10050 - STRING #55 @ $D0F832
+
+#W24($D10050)
+//Undine Spring<End>
+
+//POINTER #56 @ $D10054 - STRING #56 @ $D0F84C
+
+#W24($D10054)
+//Stay here<End>
+
+//POINTER #57 @ $D10058 - STRING #57 @ $D0F85E
+
+#W24($D10058)
+//Lina and Fia's Place<End>
+
+//POINTER #58 @ $D1005C - STRING #58 @ $D0F7FA
+
+#W24($D1005C)
+//Hobbit Smithy<End>
+
+//POINTER #59 @ $D10060 - STRING #59 @ $D0F814
+
+#W24($D10060)
+//Crystal Caverns<End>
+
+//POINTER #60 @ $D10064 - STRING #60 @ $D0F832
+
+#W24($D10064)
+//Undine Spring<End>
+
+//POINTER #61 @ $D10068 - STRING #61 @ $D0F84C
+
+#W24($D10068)
+//Stay here<End>
+
+//POINTER #62 @ $D1006C - STRING #62 @ $D0F85E
+
+#W24($D1006C)
+//Lina and Fia's Place<End>
+
+//POINTER #63 @ $D10070 - STRING #63 @ $D0F7C2
+
+#W24($D10070)
+//Elder's House<End>
+
+//POINTER #64 @ $D10074 - STRING #64 @ $D0F7DC
+
+#W24($D10074)
+//Pixia Residence<End>
+
+//POINTER #65 @ $D10078 - STRING #65 @ $D0F814
+
+#W24($D10078)
+//Crystal Caverns<End>
+
+//POINTER #66 @ $D1007C - STRING #66 @ $D0F832
+
+#W24($D1007C)
+//Undine Spring<End>
+
+//POINTER #67 @ $D10080 - STRING #67 @ $D0F84C
+
+#W24($D10080)
+//Stay here<End>
+
+//POINTER #68 @ $D10084 - STRING #68 @ $D0F85E
+
+#W24($D10084)
+//Lina and Fia's Place<End>
+
+//POINTER #69 @ $D10088 - STRING #69 @ $D0F7C2
+
+#W24($D10088)
+//Elder's House<End>
+
+//POINTER #70 @ $D1008C - STRING #70 @ $D0F7DC
+
+#W24($D1008C)
+//Pixia Residence<End>
+
+//POINTER #71 @ $D10090 - STRING #71 @ $D0F814
+
+#W24($D10090)
+//Crystal Caverns<End>
+
+//POINTER #72 @ $D10094 - STRING #72 @ $D0F832
+
+#W24($D10094)
+//Undine Spring<End>
+
+//POINTER #73 @ $D10098 - STRING #73 @ $D0F84C
+
+#W24($D10098)
+//Stay here<End>
+
+//POINTER #74 @ $D1009C - STRING #74 @ $D0F85E
+
+#W24($D1009C)
+//Lina and Fia's Place<End>
+
+//POINTER #75 @ $D100A0 - STRING #75 @ $D0F7DC
+
+#W24($D100A0)
+//Pixia Residence<End>
+
+//POINTER #76 @ $D100A4 - STRING #76 @ $D0F814
+
+#W24($D100A4)
+//Crystal Caverns<End>
+
+//POINTER #77 @ $D100A8 - STRING #77 @ $D0F832
+
+#W24($D100A8)
+//Undine Spring<End>
+
+//POINTER #78 @ $D100AC - STRING #78 @ $D0F84C
+
+#W24($D100AC)
+//Stay here<End>
+
+//POINTER #79 @ $D100B0 - STRING #79 @ $D0F85E
+
+#W24($D100B0)
+//Lina and Fia's Place<End>
+
+//POINTER #80 @ $D100B4 - STRING #80 @ $D0F7C2
+
+#W24($D100B4)
+//Elder's House<End>
+
+//POINTER #81 @ $D100B8 - STRING #81 @ $D0F7DC
+
+#W24($D100B8)
+//Pixia Residence<End>
+
+//POINTER #82 @ $D100BC - STRING #82 @ $D0F7FA
+
+#W24($D100BC)
+//Hobbit Smithy<End>
+
+//POINTER #83 @ $D100C0 - STRING #83 @ $D0F832
+
+#W24($D100C0)
+//Undine Spring<End>
+
+//POINTER #84 @ $D100C4 - STRING #84 @ $D0F84C
+
+#W24($D100C4)
+//Stay here<End>
+
+//POINTER #85 @ $D100C8 - STRING #85 @ $D0F85E
+
+#W24($D100C8)
+//Lina and Fia's Place<End>
+
+//POINTER #86 @ $D100CC - STRING #86 @ $D0F7C2
+
+#W24($D100CC)
+//Elder's House<End>
+
+//POINTER #87 @ $D100D0 - STRING #87 @ $D0F7DC
+
+#W24($D100D0)
+//Pixia Residence<End>
+
+//POINTER #88 @ $D100D4 - STRING #88 @ $D0F7FA
+
+#W24($D100D4)
+//Hobbit Smithy<End>
+
+//POINTER #89 @ $D100D8 - STRING #89 @ $D0F832
+
+#W24($D100D8)
+//Undine Spring<End>
+
+//POINTER #90 @ $D100DC - STRING #90 @ $D0F84C
+
+#W24($D100DC)
+//Stay here<End>
+
+//POINTER #91 @ $D100E0 - STRING #91 @ $D0F85E
+
+#W24($D100E0)
+//Lina and Fia's Place<End>
+
+//POINTER #92 @ $D100E4 - STRING #92 @ $D0F7DC
+
+#W24($D100E4)
+//Pixia Residence<End>
+
+//POINTER #93 @ $D100E8 - STRING #93 @ $D0F7FA
+
+#W24($D100E8)
+//Hobbit Smithy<End>
+
+//POINTER #94 @ $D100EC - STRING #94 @ $D0F832
+
+#W24($D100EC)
+//Undine Spring<End>
+
+//POINTER #95 @ $D100F0 - STRING #95 @ $D0F84C
+
+#W24($D100F0)
+//Stay here<End>
+
+//POINTER #96 @ $D100F4 - STRING #96 @ $D0F85E
+
+#W24($D100F4)
+//Lina and Fia's Place<End>
+
+//POINTER #97 @ $D100F8 - STRING #97 @ $D0F7C2
+
+#W24($D100F8)
+//Elder's House<End>
+
+//POINTER #98 @ $D100FC - STRING #98 @ $D0F7DC
+
+#W24($D100FC)
+//Pixia Residence<End>
+
+//POINTER #99 @ $D10100 - STRING #99 @ $D0F7FA
+
+#W24($D10100)
+//Hobbit Smithy<End>
+
+//POINTER #100 @ $D10104 - STRING #100 @ $D0F814
+
+#W24($D10104)
+//Crystal Caverns<End>
+
+//POINTER #101 @ $D10108 - STRING #101 @ $D0F84C
+
+#W24($D10108)
+//Stay here<End>
+
+//POINTER #102 @ $D1010C - STRING #102 @ $D0F85E
+
+#W24($D1010C)
+//Lina and Fia's Place<End>
+
+//POINTER #103 @ $D10110 - STRING #103 @ $D0F7C2
+
+#W24($D10110)
+//Elder's House<End>
+
+//POINTER #104 @ $D10114 - STRING #104 @ $D0F7DC
+
+#W24($D10114)
+//Pixia Residence<End>
+
+//POINTER #105 @ $D10118 - STRING #105 @ $D0F7FA
+
+#W24($D10118)
+//Hobbit Smithy<End>
+
+//POINTER #106 @ $D1011C - STRING #106 @ $D0F814
+
+#W24($D1011C)
+//Crystal Caverns<End>
+
+//POINTER #107 @ $D10120 - STRING #107 @ $D0F84C
+
+#W24($D10120)
+//Stay here<End>
+
+//POINTER #108 @ $D10124 - STRING #108 @ $D0F85E
+
+#W24($D10124)
+//Lina and Fia's Place<End>
+
+//POINTER #109 @ $D10128 - STRING #109 @ $D0F7DC
+
+#W24($D10128)
+//Pixia Residence<End>
+
+//POINTER #110 @ $D1012C - STRING #110 @ $D0F7FA
+
+#W24($D1012C)
+//Hobbit Smithy<End>
+
+//POINTER #111 @ $D10130 - STRING #111 @ $D0F814
+
+#W24($D10130)
+//Crystal Caverns<End>
+
+//POINTER #112 @ $D10134 - STRING #112 @ $D0F84C
+
+#W24($D10134)
+//Stay here<End>
+
+//POINTER #113 @ $D10138 - STRING #113 @ $D0F85E
+
+#W24($D10138)
+//Lina and Fia's Place<End>
+
+//POINTER #114 @ $D1013C - STRING #114 @ $D0F7C2
+
+#W24($D1013C)
+//Elder's House<End>
+
+//POINTER #115 @ $D10140 - STRING #115 @ $D0F7DC
+
+#W24($D10140)
+//Pixia Residence<End>
+
+//POINTER #116 @ $D10144 - STRING #116 @ $D0F7FA
+
+#W24($D10144)
+//Hobbit Smithy<End>
+
+//POINTER #117 @ $D10148 - STRING #117 @ $D0F814
+
+#W24($D10148)
+//Crystal Caverns<End>
+
+//POINTER #118 @ $D1014C - STRING #118 @ $D0F832
+
+#W24($D1014C)
+//Undine Spring<End>
+
+//POINTER #119 @ $D10150 - STRING #119 @ $D0F84C
+
+#W24($D10150)
+//Stay here<End>
+
+//POINTER #120 @ $D10154 - STRING #120 @ $D0F85E
+
+#W24($D10154)
+//Lina and Fia's Place<End>
+
+//POINTER #121 @ $D10158 - STRING #121 @ $D0F7C2
+
+#W24($D10158)
+//Elder's House<End>
+
+//POINTER #122 @ $D1015C - STRING #122 @ $D0F7DC
+
+#W24($D1015C)
+//Pixia Residence<End>
+
+//POINTER #123 @ $D10160 - STRING #123 @ $D0F7FA
+
+#W24($D10160)
+//Hobbit Smithy<End>
+
+//POINTER #124 @ $D10164 - STRING #124 @ $D0F814
+
+#W24($D10164)
+//Crystal Caverns<End>
+
+//POINTER #125 @ $D10168 - STRING #125 @ $D0F832
+
+#W24($D10168)
+//Undine Spring<End>
+
+//POINTER #126 @ $D1016C - STRING #126 @ $D0F84C
+
+#W24($D1016C)
+//Stay here<End>
+
+//POINTER #127 @ $D10170 - STRING #127 @ $D0F85E
+
+#W24($D10170)
+//Lina and Fia's Place<End>
+
+//POINTER #128 @ $D10174 - STRING #128 @ $D0F7DC
+
+#W24($D10174)
+//Pixia Residence<End>
+
+//POINTER #129 @ $D10178 - STRING #129 @ $D0F7FA
+
+#W24($D10178)
+//Hobbit Smithy<End>
+
+//POINTER #130 @ $D1017C - STRING #130 @ $D0F814
+
+#W24($D1017C)
+//Crystal Caverns<End>
+
+//POINTER #131 @ $D10180 - STRING #131 @ $D0F832
+
+#W24($D10180)
+//Undine Spring<End>
+
+//POINTER #132 @ $D10184 - STRING #132 @ $D0F84C
+
+#W24($D10184)
+//Stay here<End>
+
+//POINTER #133 @ $D10188 - STRING #133 @ $D0F884
+
+#W24($D10188)
+//Beth<End>
+
+//POINTER #134 @ $D1018C - STRING #134 @ $D0F88D
+
+#W24($D1018C)
+//Regina<End>
+
+//POINTER #135 @ $D10190 - STRING #135 @ $D0F77F
+
+#W24($D10190)
+//Rebecca<End>
+
+//POINTER #136 @ $D10194 - STRING #136 @ $D0F89A
+
+#W24($D10194)
+//Yeah, it is.<End>
+
+//POINTER #137 @ $D10198 - STRING #137 @ $D0F8B1
+
+#W24($D10198)
+//Is it?<End>
+
+//POINTER #138 @ $D1019C - STRING #138 @ $D0F8BD
+
+#W24($D1019C)
+//How about Rosalina?<End>
+
+//POINTER #139 @ $D101A0 - STRING #139 @ $D0F8E2
+
+#W24($D101A0)
+//Give<End>
+
+//POINTER #140 @ $D101A4 - STRING #140 @ $D0F8EB
+
+#W24($D101A4)
+//Don't Give<End>
+
+//POINTER #141 @ $D101A8 - STRING #141 @ $D0F8E2
+
+#W24($D101A8)
+//Give<End>
+
+//POINTER #142 @ $D101AC - STRING #142 @ $D0F8EB
+
+#W24($D101AC)
+//Don't Give<End>
+
+//POINTER #143 @ $D101B0 - STRING #143 @ $D0F8E2
+
+#W24($D101B0)
+//Give<End>
+
+//POINTER #144 @ $D101B4 - STRING #144 @ $D0F8EB
+
+#W24($D101B4)
+//Don't Give<End>
+
+//POINTER #145 @ $D101B8 - STRING #145 @ $D0F8E2
+
+#W24($D101B8)
+//Give<End>
+
+//POINTER #146 @ $D101BC - STRING #146 @ $D0F8EB
+
+#W24($D101BC)
+//Don't Give<End>
+
+//POINTER #147 @ $D101C0 - STRING #147 @ $D0F8E2
+
+#W24($D101C0)
+//Give<End>
+
+//POINTER #148 @ $D101C4 - STRING #148 @ $D0F8EB
+
+#W24($D101C4)
+//Don't Give<End>
+
+//POINTER #149 @ $D101C8 - STRING #149 @ $D0F8E2
+
+#W24($D101C8)
+//Give<End>
+
+//POINTER #150 @ $D101CC - STRING #150 @ $D0F8EB
+
+#W24($D101CC)
+//Don't Give<End>
+
+//POINTER #151 @ $D101D0 - STRING #151 @ $D0F8E2
+
+#W24($D101D0)
+//Give<End>
+
+//POINTER #152 @ $D101D4 - STRING #152 @ $D0F8EB
+
+#W24($D101D4)
+//Don't Give<End>
+
+//POINTER #153 @ $D101D8 - STRING #153 @ $D0F8E2
+
+#W24($D101D8)
+//Give<End>
+
+//POINTER #154 @ $D101DC - STRING #154 @ $D0F8EB
+
+#W24($D101DC)
+//Don't Give<End>
+
+//POINTER #155 @ $D101E0 - STRING #155 @ $D0F8E2
+
+#W24($D101E0)
+//Give<End>
+
+//POINTER #156 @ $D101E4 - STRING #156 @ $D0F8EB
+
+#W24($D101E4)
+//Don't Give<End>
+
+//POINTER #157 @ $D101E8 - STRING #157 @ $D0F8E2
+
+#W24($D101E8)
+//Give<End>
+
+//POINTER #158 @ $D101EC - STRING #158 @ $D0F8EB
+
+#W24($D101EC)
+//Don't Give<End>
+
+//POINTER #159 @ $D101F0 - STRING #159 @ $D0F8E2
+
+#W24($D101F0)
+//Give<End>
+
+//POINTER #160 @ $D101F4 - STRING #160 @ $D0F8EB
+
+#W24($D101F4)
+//Don't Give<End>
+
+//POINTER #161 @ $D101F8 - STRING #161 @ $D0F8E2
+
+#W24($D101F8)
+//Give<End>
+
+//POINTER #162 @ $D101FC - STRING #162 @ $D0F8EB
+
+#W24($D101FC)
+//Don't Give<End>
+
+//POINTER #163 @ $D10200 - STRING #163 @ $D0F8E2
+
+#W24($D10200)
+//Give<End>
+
+//POINTER #164 @ $D10204 - STRING #164 @ $D0F8EB
+
+#W24($D10204)
+//Don't Give<End>
+
+//POINTER #165 @ $D10208 - STRING #165 @ $D0F832
+
+#W24($D10208)
+//Undine Spring<End>
+
+//POINTER #166 @ $D1020C - STRING #166 @ $D0F8FF
+
+#W24($D1020C)
+//Beat<End>
+
+//POINTER #167 @ $D10210 - STRING #167 @ $D0F8FF
+
+#W24($D10210)
+//Beat<End>
+
+//POINTER #168 @ $D10214 - STRING #168 @ $D0F908
+
+#W24($D10214)
+//Give Up<End>
+
+//POINTER #169 @ $D10218 - STRING #169 @ $D0F711
+
+#W24($D10218)
+//Fairy<End>
+
+//POINTER #170 @ $D1021C - STRING #170 @ $D0F916
+
+#W24($D1021C)
+//NoNo<End>
+
+//POINTER #171 @ $D10220 - STRING #171 @ $D0F916
+
+#W24($D10220)
+//NoNo<End>
+
+//POINTER #172 @ $D10224 - STRING #172 @ $D0F916
+
+#W24($D10224)
+//NoNo<End>
+
+//POINTER #173 @ $D10228 - STRING #173 @ $D0F916
+
+#W24($D10228)
+//NoNo<End>
+
+//POINTER #174 @ $D1022C - STRING #174 @ $D0F916
+
+#W24($D1022C)
+//NoNo<End>
+
+//POINTER #175 @ $D10230 - STRING #175 @ $D0F91F
+
+#W24($D10230)
+//Ground<End>
+
+//POINTER #176 @ $D10234 - STRING #176 @ $D0F711
+
+#W24($D10234)
+//Fairy<End>
+
+//POINTER #177 @ $D10238 - STRING #177 @ $D0F92C
+
+#W24($D10238)
+//Undine<End>
+
+//POINTER #178 @ $D1023C - STRING #178 @ $D0F92C
+
+#W24($D1023C)
+//Undine<End>
+
+//POINTER #179 @ $D10240 - STRING #179 @ $D0F939
+
+#W24($D10240)
+//Meute<End>
+
+//POINTER #180 @ $D10244 - STRING #180 @ $D0F939
+
+#W24($D10244)
+//Meute<End>
+
+//POINTER #181 @ $D10248 - STRING #181 @ $D0F944
+
+#W24($D10248)
+//Spring Water<End>
+
+//POINTER #182 @ $D1024C - STRING #182 @ $D0F95C
+
+#W24($D1024C)
+//Fill Holy Grail<End>
+
+//POINTER #183 @ $D10250 - STRING #183 @ $D0F979
+
+#W24($D10250)
+//Nothing<End>
+
+//POINTER #184 @ $D10254 - STRING #184 @ $D0F711
+
+#W24($D10254)
+//Fairy<End>
+
+//POINTER #185 @ $D10258 - STRING #185 @ $D0F988
+
+#W24($D10258)
+//LuLu<End>
+
+//POINTER #186 @ $D1025C - STRING #186 @ $D0F8E2
+
+#W24($D1025C)
+//Give<End>
+
+//POINTER #187 @ $D10260 - STRING #187 @ $D0F8EB
+
+#W24($D10260)
+//Don't Give<End>
+
+//POINTER #188 @ $D10264 - STRING #188 @ $D0F991
+
+#W24($D10264)
+//Dig<End>
+
+//POINTER #189 @ $D10268 - STRING #189 @ $D0F998
+
+#W24($D10268)
+//Don't Dig<End>
+
+//POINTER #190 @ $D1026C - STRING #190 @ $D0F991
+
+#W24($D1026C)
+//Dig<End>
+
+//POINTER #191 @ $D10270 - STRING #191 @ $D0F998
+
+#W24($D10270)
+//Don't Dig<End>
+
+//POINTER #192 @ $D10274 - STRING #192 @ $D0F85E
+
+#W24($D10274)
+//Lina and Fia's Place<End>
+
+//POINTER #193 @ $D10278 - STRING #193 @ $D0F9AA
+
+#W24($D10278)
+//The Elder's House<End>
+
+//POINTER #194 @ $D1027C - STRING #194 @ $D0F7DC
+
+#W24($D1027C)
+//Pixia Residence<End>
+
+//POINTER #195 @ $D10280 - STRING #195 @ $D0F7FA
+
+#W24($D10280)
+//Hobbit Smithy<End>
+
+//POINTER #196 @ $D10284 - STRING #196 @ $D0F814
+
+#W24($D10284)
+//Crystal Caverns<End>
+
+//POINTER #197 @ $D10288 - STRING #197 @ $D0F9CB
+
+#W24($D10288)
+//Stay Here<End>
+
+//POINTER #198 @ $D1028C - STRING #198 @ $D0F85E
+
+#W24($D1028C)
+//Lina and Fia's Place<End>
+
+//POINTER #199 @ $D10290 - STRING #199 @ $D0F7C2
+
+#W24($D10290)
+//Elder's House<End>
+
+//POINTER #200 @ $D10294 - STRING #200 @ $D0F7DC
+
+#W24($D10294)
+//Pixia Residence<End>
+
+//POINTER #201 @ $D10298 - STRING #201 @ $D0F7FA
+
+#W24($D10298)
+//Hobbit Smithy<End>
+
+//POINTER #202 @ $D1029C - STRING #202 @ $D0F814
+
+#W24($D1029C)
+//Crystal Caverns<End>
+
+//POINTER #203 @ $D102A0 - STRING #203 @ $D0F9CB
+
+#W24($D102A0)
+//Stay Here<End>
+
+//POINTER #204 @ $D102A4 - STRING #204 @ $D0F85E
+
+#W24($D102A4)
+//Lina and Fia's Place<End>
+
+//POINTER #205 @ $D102A8 - STRING #205 @ $D0F7DC
+
+#W24($D102A8)
+//Pixia Residence<End>
+
+//POINTER #206 @ $D102AC - STRING #206 @ $D0F7FA
+
+#W24($D102AC)
+//Hobbit Smithy<End>
+
+//POINTER #207 @ $D102B0 - STRING #207 @ $D0F814
+
+#W24($D102B0)
+//Crystal Caverns<End>
+
+//POINTER #208 @ $D102B4 - STRING #208 @ $D0F9CB
+
+#W24($D102B4)
+//Stay Here<End>
+
+//POINTER #209 @ $D102B8 - STRING #209 @ $D0F814
+
+#W24($D102B8)
+//Crystal Caverns<End>
+
+//POINTER #210 @ $D102BC - STRING #210 @ $D0F9DD
+
+#W24($D102BC)
+//Enter the Cavern<End>
+
+//POINTER #211 @ $D102C0 - STRING #211 @ $D0F711
+
+#W24($D102C0)
+//Fairy<End>
+
+//POINTER #212 @ $D102C4 - STRING #212 @ $D0F9FC
+
+#W24($D102C4)
+//To the Back Room<End>
+
+//POINTER #213 @ $D102C8 - STRING #213 @ $D0FA1A
+
+#W24($D102C8)
+//Leave the Guild<End>
+
+//POINTER #214 @ $D102CC - STRING #214 @ $D0FA37
+
+#W24($D102CC)
+//Cierra<End>
+
+//POINTER #215 @ $D102D0 - STRING #215 @ $D0FA37
+
+#W24($D102D0)
+//Cierra<End>
+
+//POINTER #216 @ $D102D4 - STRING #216 @ $D0FA37
+
+#W24($D102D4)
+//Cierra<End>
+
+//POINTER #217 @ $D102D8 - STRING #217 @ $D0FA37
+
+#W24($D102D8)
+//Cierra<End>
+
+//POINTER #218 @ $D102DC - STRING #218 @ $D0FA44
+
+#W24($D102DC)
+//Dryad<End>
+
+//POINTER #219 @ $D102E0 - STRING #219 @ $D0FA4F
+
+#W24($D102E0)
+//Claude<End>
+
+//POINTER #220 @ $D102E4 - STRING #220 @ $D0FA5C
+
+#W24($D102E4)
+//Enter the Letters<End>
+
+//POINTER #221 @ $D102E8 - STRING #221 @ $D0F8E2
+
+#W24($D102E8)
+//Give<End>
+
+//POINTER #222 @ $D102EC - STRING #222 @ $D0F8EB
+
+#W24($D102EC)
+//Don't Give<End>
+
+//POINTER #223 @ $D102F0 - STRING #223 @ $D0F8E2
+
+#W24($D102F0)
+//Give<End>
+
+//POINTER #224 @ $D102F4 - STRING #224 @ $D0F8EB
+
+#W24($D102F4)
+//Don't Give<End>
+
+//POINTER #225 @ $D102F8 - STRING #225 @ $D0F8E2
+
+#W24($D102F8)
+//Give<End>
+
+//POINTER #226 @ $D102FC - STRING #226 @ $D0F8EB
+
+#W24($D102FC)
+//Don't Give<End>
+
+//POINTER #227 @ $D10300 - STRING #227 @ $D0F8E2
+
+#W24($D10300)
+//Give<End>
+
+//POINTER #228 @ $D10304 - STRING #228 @ $D0F8EB
+
+#W24($D10304)
+//Don't Give<End>
+
+//POINTER #229 @ $D10308 - STRING #229 @ $D0F8E2
+
+#W24($D10308)
+//Give<End>
+
+//POINTER #230 @ $D1030C - STRING #230 @ $D0F8EB
+
+#W24($D1030C)
+//Don't Give<End>
+
+//POINTER #231 @ $D10310 - STRING #231 @ $D0FA7D
+
+#W24($D10310)
+//To the Magic Guild<End>
+
+//POINTER #232 @ $D10314 - STRING #232 @ $D0FA9F
+
+#W24($D10314)
+//Gnome<End>
+
+//POINTER #233 @ $D10318 - STRING #233 @ $D0FAAA
+
+#W24($D10318)
+//Ritz<End>
+
+//POINTER #234 @ $D1031C - STRING #234 @ $D0FAB3
+
+#W24($D1031C)
+//Butterfly Spot<End>
+
+//POINTER #235 @ $D10320 - STRING #235 @ $D0FACF
+
+#W24($D10320)
+//Examine<End>
+
+//POINTER #236 @ $D10324 - STRING #236 @ $D0F765
+
+#W24($D10324)
+//Leave<End>
+
+//POINTER #237 @ $D10328 - STRING #237 @ $D0FADE
+
+#W24($D10328)
+//Back to the Front Room<End>
+
+//POINTER #238 @ $D1032C - STRING #238 @ $D0FB07
+
+#W24($D1032C)
+//Bookshelf<End>
+
+//POINTER #239 @ $D10330 - STRING #239 @ $D0FB1A
+
+#W24($D10330)
+//Witch<End>
+
+//POINTER #240 @ $D10334 - STRING #240 @ $D0FB25
+
+#W24($D10334)
+//Soala<End>
+
+//POINTER #241 @ $D10338 - STRING #241 @ $D0FB30
+
+#W24($D10338)
+//Yes.<End>
+
+//POINTER #242 @ $D1033C - STRING #242 @ $D0FB39
+
+#W24($D1033C)
+//No.<End>
+
+//POINTER #243 @ $D10340 - STRING #243 @ $D0FB30
+
+#W24($D10340)
+//Yes.<End>
+
+//POINTER #244 @ $D10344 - STRING #244 @ $D0FB39
+
+#W24($D10344)
+//No.<End>
+
+//POINTER #245 @ $D10348 - STRING #245 @ $D0F8E2
+
+#W24($D10348)
+//Give<End>
+
+//POINTER #246 @ $D1034C - STRING #246 @ $D0F8EB
+
+#W24($D1034C)
+//Don't Give<End>
+
+//POINTER #247 @ $D10350 - STRING #247 @ $D0F8E2
+
+#W24($D10350)
+//Give<End>
+
+//POINTER #248 @ $D10354 - STRING #248 @ $D0F8EB
+
+#W24($D10354)
+//Don't Give<End>
+
+//POINTER #249 @ $D10358 - STRING #249 @ $D0F8E2
+
+#W24($D10358)
+//Give<End>
+
+//POINTER #250 @ $D1035C - STRING #250 @ $D0F8EB
+
+#W24($D1035C)
+//Don't Give<End>
+
+//POINTER #251 @ $D10360 - STRING #251 @ $D0F8E2
+
+#W24($D10360)
+//Give<End>
+
+//POINTER #252 @ $D10364 - STRING #252 @ $D0F8EB
+
+#W24($D10364)
+//Don't Give<End>
+
+//POINTER #253 @ $D10368 - STRING #253 @ $D0F711
+
+#W24($D10368)
+//Fairy<End>
+
+//POINTER #254 @ $D1036C - STRING #254 @ $D0FB40
+
+#W24($D1036C)
+//NaNa<End>
+
+//POINTER #255 @ $D10370 - STRING #255 @ $D0F8E2
+
+#W24($D10370)
+//Give<End>
+
+//POINTER #256 @ $D10374 - STRING #256 @ $D0F8EB
+
+#W24($D10374)
+//Don't Give<End>
+
+//POINTER #257 @ $D10378 - STRING #257 @ $D0F8E2
+
+#W24($D10378)
+//Give<End>
+
+//POINTER #258 @ $D1037C - STRING #258 @ $D0F8EB
+
+#W24($D1037C)
+//Don't Give<End>
+
+//POINTER #259 @ $D10380 - STRING #259 @ $D0FB49
+
+#W24($D10380)
+//Help<End>
+
+//POINTER #260 @ $D10384 - STRING #260 @ $D0FB52
+
+#W24($D10384)
+//Sweep<End>
+
+//POINTER #261 @ $D10388 - STRING #261 @ $D0FB5D
+
+#W24($D10388)
+//Don't Help<End>
+
+//POINTER #262 @ $D1038C - STRING #262 @ $D0FB71
+
+#W24($D1038C)
+//Bat<End>
+
+//POINTER #263 @ $D10390 - STRING #263 @ $D0FB78
+
+#W24($D10390)
+//Catch<End>
+
+//POINTER #264 @ $D10394 - STRING #264 @ $D0FB78
+
+#W24($D10394)
+//Catch<End>
+
+//POINTER #265 @ $D10398 - STRING #265 @ $D0FB83
+
+#W24($D10398)
+//Don't catch<End>
+
+//POINTER #266 @ $D1039C - STRING #266 @ $D0FB99
+
+#W24($D1039C)
+//Wanna study together?<End>
+
+//POINTER #267 @ $D103A0 - STRING #267 @ $D0FBC2
+
+#W24($D103A0)
+//Is magic fun?<End>
+
+//POINTER #268 @ $D103A4 - STRING #268 @ $D0FBDB
+
+#W24($D103A4)
+//Whatever…<End>
+
+//POINTER #269 @ $D103A8 - STRING #269 @ $D0F85E
+
+#W24($D103A8)
+//Lina and Fia's Place<End>
+
+//POINTER #270 @ $D103AC - STRING #270 @ $D0F7C2
+
+#W24($D103AC)
+//Elder's House<End>
+
+//POINTER #271 @ $D103B0 - STRING #271 @ $D0F7DC
+
+#W24($D103B0)
+//Pixia Residence<End>
+
+//POINTER #272 @ $D103B4 - STRING #272 @ $D0F7FA
+
+#W24($D103B4)
+//Hobbit Smithy<End>
+
+//POINTER #273 @ $D103B8 - STRING #273 @ $D0F84C
+
+#W24($D103B8)
+//Stay here<End>
+
+//POINTER #274 @ $D103BC - STRING #274 @ $D0F85E
+
+#W24($D103BC)
+//Lina and Fia's Place<End>
+
+//POINTER #275 @ $D103C0 - STRING #275 @ $D0F7C2
+
+#W24($D103C0)
+//Elder's House<End>
+
+//POINTER #276 @ $D103C4 - STRING #276 @ $D0F7DC
+
+#W24($D103C4)
+//Pixia Residence<End>
+
+//POINTER #277 @ $D103C8 - STRING #277 @ $D0F7FA
+
+#W24($D103C8)
+//Hobbit Smithy<End>
+
+//POINTER #278 @ $D103CC - STRING #278 @ $D0F84C
+
+#W24($D103CC)
+//Stay here<End>
+
+//POINTER #279 @ $D103D0 - STRING #279 @ $D0F85E
+
+#W24($D103D0)
+//Lina and Fia's Place<End>
+
+//POINTER #280 @ $D103D4 - STRING #280 @ $D0F7DC
+
+#W24($D103D4)
+//Pixia Residence<End>
+
+//POINTER #281 @ $D103D8 - STRING #281 @ $D0F7FA
+
+#W24($D103D8)
+//Hobbit Smithy<End>
+
+//POINTER #282 @ $D103DC - STRING #282 @ $D0F84C
+
+#W24($D103DC)
+//Stay here<End>
+
+//POINTER #283 @ $D103E0 - STRING #283 @ $D0FBEE
+
+#W24($D103E0)
+//Treasure Room<End>
+
+//POINTER #284 @ $D103E4 - STRING #284 @ $D0F765
+
+#W24($D103E4)
+//Leave<End>
+
+//POINTER #285 @ $D103E8 - STRING #285 @ $D0F7FA
+
+#W24($D103E8)
+//Hobbit Smithy<End>
+
+//POINTER #286 @ $D103EC - STRING #286 @ $D0FC08
+
+#W24($D103EC)
+//Into the House<End>
+
+//POINTER #287 @ $D103F0 - STRING #287 @ $D0F711
+
+#W24($D103F0)
+//Fairy<End>
+
+//POINTER #288 @ $D103F4 - STRING #288 @ $D0F765
+
+#W24($D103F4)
+//Leave<End>
+
+//POINTER #289 @ $D103F8 - STRING #289 @ $D0FC23
+
+#W24($D103F8)
+//Hobbit<End>
+
+//POINTER #290 @ $D103FC - STRING #290 @ $D0FC30
+
+#W24($D103FC)
+//Chappi<End>
+
+//POINTER #291 @ $D10400 - STRING #291 @ $D0F8E2
+
+#W24($D10400)
+//Give<End>
+
+//POINTER #292 @ $D10404 - STRING #292 @ $D0F8EB
+
+#W24($D10404)
+//Don't Give<End>
+
+//POINTER #293 @ $D10408 - STRING #293 @ $D0F8E2
+
+#W24($D10408)
+//Give<End>
+
+//POINTER #294 @ $D1040C - STRING #294 @ $D0F8EB
+
+#W24($D1040C)
+//Don't Give<End>
+
+//POINTER #295 @ $D10410 - STRING #295 @ $D0F8E2
+
+#W24($D10410)
+//Give<End>
+
+//POINTER #296 @ $D10414 - STRING #296 @ $D0F8EB
+
+#W24($D10414)
+//Don't Give<End>
+
+//POINTER #297 @ $D10418 - STRING #297 @ $D0F8E2
+
+#W24($D10418)
+//Give<End>
+
+//POINTER #298 @ $D1041C - STRING #298 @ $D0F8EB
+
+#W24($D1041C)
+//Don't Give<End>
+
+//POINTER #299 @ $D10420 - STRING #299 @ $D0FC3D
+
+#W24($D10420)
+//Give him your swords<End>
+
+//POINTER #300 @ $D10424 - STRING #300 @ $D0FC63
+
+#W24($D10424)
+//Give him your rapiers<End>
+
+//POINTER #301 @ $D10428 - STRING #301 @ $D0F8EB
+
+#W24($D10428)
+//Don't Give<End>
+
+//POINTER #302 @ $D1042C - STRING #302 @ $D0FC3D
+
+#W24($D1042C)
+//Give him your swords<End>
+
+//POINTER #303 @ $D10430 - STRING #303 @ $D0F8EB
+
+#W24($D10430)
+//Don't Give<End>
+
+//POINTER #304 @ $D10434 - STRING #304 @ $D0FC63
+
+#W24($D10434)
+//Give him your rapiers<End>
+
+//POINTER #305 @ $D10438 - STRING #305 @ $D0F8EB
+
+#W24($D10438)
+//Don't Give<End>
+
+//POINTER #306 @ $D1043C - STRING #306 @ $D0F8E2
+
+#W24($D1043C)
+//Give<End>
+
+//POINTER #307 @ $D10440 - STRING #307 @ $D0F8EB
+
+#W24($D10440)
+//Don't Give<End>
+
+//POINTER #308 @ $D10444 - STRING #308 @ $D0F8E2
+
+#W24($D10444)
+//Give<End>
+
+//POINTER #309 @ $D10448 - STRING #309 @ $D0F8EB
+
+#W24($D10448)
+//Don't Give<End>
+
+//POINTER #310 @ $D1044C - STRING #310 @ $D0F85E
+
+#W24($D1044C)
+//Lina and Fia's Place<End>
+
+//POINTER #311 @ $D10450 - STRING #311 @ $D0F7C2
+
+#W24($D10450)
+//Elder's House<End>
+
+//POINTER #312 @ $D10454 - STRING #312 @ $D0F7DC
+
+#W24($D10454)
+//Pixia Residence<End>
+
+//POINTER #313 @ $D10458 - STRING #313 @ $D0F84C
+
+#W24($D10458)
+//Stay here<End>
+
+//POINTER #314 @ $D1045C - STRING #314 @ $D0F85E
+
+#W24($D1045C)
+//Lina and Fia's Place<End>
+
+//POINTER #315 @ $D10460 - STRING #315 @ $D0F7C2
+
+#W24($D10460)
+//Elder's House<End>
+
+//POINTER #316 @ $D10464 - STRING #316 @ $D0F7DC
+
+#W24($D10464)
+//Pixia Residence<End>
+
+//POINTER #317 @ $D10468 - STRING #317 @ $D0F84C
+
+#W24($D10468)
+//Stay here<End>
+
+//POINTER #318 @ $D1046C - STRING #318 @ $D0F85E
+
+#W24($D1046C)
+//Lina and Fia's Place<End>
+
+//POINTER #319 @ $D10470 - STRING #319 @ $D0F7DC
+
+#W24($D10470)
+//Pixia Residence<End>
+
+//POINTER #320 @ $D10474 - STRING #320 @ $D0F84C
+
+#W24($D10474)
+//Stay here<End>
+
+//POINTER #321 @ $D10478 - STRING #321 @ $D0F7DC
+
+#W24($D10478)
+//Pixia Residence<End>
+
+//POINTER #322 @ $D1047C - STRING #322 @ $D0FC08
+
+#W24($D1047C)
+//Into the House<End>
+
+//POINTER #323 @ $D10480 - STRING #323 @ $D0FC8B
+
+#W24($D10480)
+//Shade<End>
+
+//POINTER #324 @ $D10484 - STRING #324 @ $D0FC96
+
+#W24($D10484)
+//Something in the Shade<End>
+
+//POINTER #325 @ $D10488 - STRING #325 @ $D0F711
+
+#W24($D10488)
+//Fairy<End>
+
+//POINTER #326 @ $D1048C - STRING #326 @ $D0FCC0
+
+#W24($D1048C)
+//Lina<End>
+
+//POINTER #327 @ $D10490 - STRING #327 @ $D0FCC0
+
+#W24($D10490)
+//Lina<End>
+
+//POINTER #328 @ $D10494 - STRING #328 @ $D0FCC0
+
+#W24($D10494)
+//Lina<End>
+
+//POINTER #329 @ $D10498 - STRING #329 @ $D0FCC0
+
+#W24($D10498)
+//Lina<End>
+
+//POINTER #330 @ $D1049C - STRING #330 @ $D0FCC0
+
+#W24($D1049C)
+//Lina<End>
+
+//POINTER #331 @ $D104A0 - STRING #331 @ $D0FCC9
+
+#W24($D104A0)
+//Pixia Boy<End>
+
+//POINTER #332 @ $D104A4 - STRING #332 @ $D0FCDB
+
+#W24($D104A4)
+//Gill<End>
+
+//POINTER #333 @ $D104A8 - STRING #333 @ $D0FCE4
+
+#W24($D104A8)
+//Take the Stick<End>
+
+//POINTER #334 @ $D104AC - STRING #334 @ $D0FCFF
+
+#W24($D104AC)
+//Don't Take<End>
+
+//POINTER #335 @ $D104B0 - STRING #335 @ $D0FD13
+
+#W24($D104B0)
+//Pixia Girl<End>
+
+//POINTER #336 @ $D104B4 - STRING #336 @ $D0FD27
+
+#W24($D104B4)
+//Molan<End>
+
+//POINTER #337 @ $D104B8 - STRING #337 @ $D0FD13
+
+#W24($D104B8)
+//Pixia Girl<End>
+
+//POINTER #338 @ $D104BC - STRING #338 @ $D0FD27
+
+#W24($D104BC)
+//Molan<End>
+
+//POINTER #339 @ $D104C0 - STRING #339 @ $D0F765
+
+#W24($D104C0)
+//Leave<End>
+
+//POINTER #340 @ $D104C4 - STRING #340 @ $D0FD32
+
+#W24($D104C4)
+//Pixia Man<End>
+
+//POINTER #341 @ $D104C8 - STRING #341 @ $D0FD44
+
+#W24($D104C8)
+//Kyle<End>
+
+//POINTER #342 @ $D104CC - STRING #342 @ $D0FB30
+
+#W24($D104CC)
+//Yes.<End>
+
+//POINTER #343 @ $D104D0 - STRING #343 @ $D0FB39
+
+#W24($D104D0)
+//No.<End>
+
+//POINTER #344 @ $D104D4 - STRING #344 @ $D0FD4D
+
+#W24($D104D4)
+//Pixia Woman<End>
+
+//POINTER #345 @ $D104D8 - STRING #345 @ $D0FD63
+
+#W24($D104D8)
+//Mylene<End>
+
+//POINTER #346 @ $D104DC - STRING #346 @ $D0FD70
+
+#W24($D104DC)
+//Give the Aran Doll<End>
+
+//POINTER #347 @ $D104E0 - STRING #347 @ $D0F8EB
+
+#W24($D104E0)
+//Don't Give<End>
+
+//POINTER #348 @ $D104E4 - STRING #348 @ $D0FD92
+
+#W24($D104E4)
+//I'm still dizzy…<End>
+
+//POINTER #349 @ $D104E8 - STRING #349 @ $D0FDB1
+
+#W24($D104E8)
+//Yes, thanks for asking.<End>
+
+//POINTER #350 @ $D104EC - STRING #350 @ $D0FDDD
+
+#W24($D104EC)
+//Where's the other girl?<End>
+
+//POINTER #351 @ $D104F0 - STRING #351 @ $D0F85E
+
+#W24($D104F0)
+//Lina and Fia's Place<End>
+
+//POINTER #352 @ $D104F4 - STRING #352 @ $D0F7C2
+
+#W24($D104F4)
+//Elder's House<End>
+
+//POINTER #353 @ $D104F8 - STRING #353 @ $D0F84C
+
+#W24($D104F8)
+//Stay here<End>
+
+//POINTER #354 @ $D104FC - STRING #354 @ $D0F85E
+
+#W24($D104FC)
+//Lina and Fia's Place<End>
+
+//POINTER #355 @ $D10500 - STRING #355 @ $D0F7C2
+
+#W24($D10500)
+//Elder's House<End>
+
+//POINTER #356 @ $D10504 - STRING #356 @ $D0F84C
+
+#W24($D10504)
+//Stay here<End>
+
+//POINTER #357 @ $D10508 - STRING #357 @ $D0F85E
+
+#W24($D10508)
+//Lina and Fia's Place<End>
+
+//POINTER #358 @ $D1050C - STRING #358 @ $D0F84C
+
+#W24($D1050C)
+//Stay here<End>
+
+//POINTER #359 @ $D10510 - STRING #359 @ $D0F7C2
+
+#W24($D10510)
+//Elder's House<End>
+
+//POINTER #360 @ $D10514 - STRING #360 @ $D0FC08
+
+#W24($D10514)
+//Into the House<End>
+
+//POINTER #361 @ $D10518 - STRING #361 @ $D0FE09
+
+#W24($D10518)
+//Yeah, I am.<End>
+
+//POINTER #362 @ $D1051C - STRING #362 @ $D0FE1E
+
+#W24($D1051C)
+//No, not yet.<End>
+
+//POINTER #363 @ $D10520 - STRING #363 @ $D0FB30
+
+#W24($D10520)
+//Yes.<End>
+
+//POINTER #364 @ $D10524 - STRING #364 @ $D0FE35
+
+#W24($D10524)
+//Not yet.<End>
+
+//POINTER #365 @ $D10528 - STRING #365 @ $D0FB30
+
+#W24($D10528)
+//Yes.<End>
+
+//POINTER #366 @ $D1052C - STRING #366 @ $D0FE35
+
+#W24($D1052C)
+//Not yet.<End>
+
+//POINTER #367 @ $D10530 - STRING #367 @ $D0FB30
+
+#W24($D10530)
+//Yes.<End>
+
+//POINTER #368 @ $D10534 - STRING #368 @ $D0FE35
+
+#W24($D10534)
+//Not yet.<End>
+
+//POINTER #369 @ $D10538 - STRING #369 @ $D0FB30
+
+#W24($D10538)
+//Yes.<End>
+
+//POINTER #370 @ $D1053C - STRING #370 @ $D0FE35
+
+#W24($D1053C)
+//Not yet.<End>
+
+//POINTER #371 @ $D10540 - STRING #371 @ $D0F711
+
+#W24($D10540)
+//Fairy<End>
+
+//POINTER #372 @ $D10544 - STRING #372 @ $D0FE45
+
+#W24($D10544)
+//Ladie<End>
+
+//POINTER #373 @ $D10548 - STRING #373 @ $D0F765
+
+#W24($D10548)
+//Leave<End>
+
+//POINTER #374 @ $D1054C - STRING #374 @ $D0FE50
+
+#W24($D1054C)
+//Graham<End>
+
+//POINTER #375 @ $D10550 - STRING #375 @ $D0FE5D
+
+#W24($D10550)
+//Valkyrie<End>
+
+//POINTER #376 @ $D10554 - STRING #376 @ $D0FE5D
+
+#W24($D10554)
+//Valkyrie<End>
+
+//POINTER #377 @ $D10558 - STRING #377 @ $D0FE45
+
+#W24($D10558)
+//Ladie<End>
+
+//POINTER #378 @ $D1055C - STRING #378 @ $D0FE45
+
+#W24($D1055C)
+//Ladie<End>
+
+//POINTER #379 @ $D10560 - STRING #379 @ $D0F85E
+
+#W24($D10560)
+//Lina and Fia's Place<End>
+
+//POINTER #380 @ $D10564 - STRING #380 @ $D0F84C
+
+#W24($D10564)
+//Stay here<End>
+
+//POINTER #381 @ $D10568 - STRING #381 @ $D0F85E
+
+#W24($D10568)
+//Lina and Fia's Place<End>
+
+//POINTER #382 @ $D1056C - STRING #382 @ $D0FE6E
+
+#W24($D1056C)
+//Inside the House<End>
+
+//POINTER #383 @ $D10570 - STRING #383 @ $D0F711
+
+#W24($D10570)
+//Fairy<End>
+
+//POINTER #384 @ $D10574 - STRING #384 @ $D0FE8D
+
+#W24($D10574)
+//To Fia's Room (1F)<End>
+
+//POINTER #385 @ $D10578 - STRING #385 @ $D0FEAF
+
+#W24($D10578)
+//Book<End>
+
+//POINTER #386 @ $D1057C - STRING #386 @ $D0FEAF
+
+#W24($D1057C)
+//Book<End>
+
+//POINTER #387 @ $D10580 - STRING #387 @ $D0FEB8
+
+#W24($D10580)
+//Book of Memories<End>
+
+//POINTER #388 @ $D10584 - STRING #388 @ $D0F711
+
+#W24($D10584)
+//Fairy<End>
+
+//POINTER #389 @ $D10588 - STRING #389 @ $D0FED7
+
+#W24($D10588)
+//CoCo<End>
+
+//POINTER #390 @ $D1058C - STRING #390 @ $D0FCC0
+
+#W24($D1058C)
+//Lina<End>
+
+//POINTER #391 @ $D10590 - STRING #391 @ $D0FD92
+
+#W24($D10590)
+//I'm still dizzy…<End>
+
+//POINTER #392 @ $D10594 - STRING #392 @ $D0FDB1
+
+#W24($D10594)
+//Yes, thanks for asking.<End>
+
+//POINTER #393 @ $D10598 - STRING #393 @ $D0FDDD
+
+#W24($D10598)
+//Where's the other girl?<End>
+
+//POINTER #394 @ $D1059C - STRING #394 @ $D0FCC0
+
+#W24($D1059C)
+//Lina<End>
+
+//POINTER #395 @ $D105A0 - STRING #395 @ $D0FCC0
+
+#W24($D105A0)
+//Lina<End>
+
+//POINTER #396 @ $D105A4 - STRING #396 @ $D0FCC0
+
+#W24($D105A4)
+//Lina<End>
+
+//POINTER #397 @ $D105A8 - STRING #397 @ $D0FEE0
+
+#W24($D105A8)
+//To Lina's Room (2F)<End>
+
+//POINTER #398 @ $D105AC - STRING #398 @ $D0F765
+
+#W24($D105AC)
+//Leave<End>
+
+//POINTER #399 @ $D105B0 - STRING #399 @ $D126E5
+
+#W24($D105B0)
+//???<End>
+
+//POINTER #400 @ $D105B4 - STRING #400 @ $D0FF04
+
+#W24($D105B4)
+//Hey, Fia.<End>
+
+//POINTER #401 @ $D105B8 - STRING #401 @ $D0FF16
+
+#W24($D105B8)
+//Hey, Chia.<End>
+
+//POINTER #402 @ $D105BC - STRING #402 @ $D0FF2A
+
+#W24($D105BC)
+//What was your name?<End>
+
+//POINTER #403 @ $D105C0 - STRING #403 @ $D0FF4E
+
+#W24($D105C0)
+//Fia<End>
+
+//POINTER #404 @ $D105C4 - STRING #404 @ $D0FF4E
+
+#W24($D105C4)
+//Fia<End>
+
+//POINTER #405 @ $D105C8 - STRING #405 @ $D0FF4E
+
+#W24($D105C8)
+//Fia<End>
+
+//POINTER #406 @ $D105CC - STRING #406 @ $D0FF4E
+
+#W24($D105CC)
+//Fia<End>
+
+//POINTER #407 @ $D105D0 - STRING #407 @ $D0FF4E
+
+#W24($D105D0)
+//Fia<End>
+
+//POINTER #408 @ $D105D4 - STRING #408 @ $D0FF55
+
+#W24($D105D4)
+//Table<End>
+
+//POINTER #409 @ $D105D8 - STRING #409 @ $D0FF60
+
+#W24($D105D8)
+//Bread<End>
+
+//POINTER #410 @ $D105DC - STRING #410 @ $D0FF6B
+
+#W24($D105DC)
+//Take<End>
+
+//POINTER #411 @ $D105E0 - STRING #411 @ $D0FCFF
+
+#W24($D105E0)
+//Don't Take<End>
+
+//POINTER #412 @ $D105E4 - STRING #412 @ $D0F9CB
+
+#W24($D105E4)
+//Stay Here<End>
+
+//POINTER #413 @ $D105E8 - STRING #413 @ $D0F9CB
+
+#W24($D105E8)
+//Stay Here<End>
+
+//POINTER #414 @ $D105EC - STRING #414 @ $D0F9CB
+
+#W24($D105EC)
+//Stay Here<End>

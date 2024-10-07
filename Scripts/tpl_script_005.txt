@@ -1,0 +1,231 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($CF9350,$CFB0F2)
+
+//GAME NAME:		
+
+//BLOCK #005 NAME:		PART (005)
+
+//POINTER #0 @ $CFB0F4 - STRING #0 @ $CF9350
+
+#W24($CFB0F4)
+//<$6C><$8F><$7D><$85><$81><$A1><$63><$1C><End>
+
+//POINTER #1 @ $CFB0F8 - STRING #1 @ $CF9359
+
+#W24($CFB0F8)
+//Ursula, the mysterious woman<line>
+//who appeared at Heaven's Gate,<line>
+//used the Sacred Tongue to summon<line>
+//the holy beast Aghart.<line>
+//<line>
+//The Grim Angels succeeded in defeating<line>
+//Aghart, but in the midst of battle,<line>
+//Ein disappeared.<line>
+//<line>
+//Meanwhile, Ledah crossed Heaven's Gate<line>
+//and finally set foot on Riviera's soil.<End>
+
+//POINTER #2 @ $CFB0FC - STRING #2 @ $CF956B
+
+#W24($CFB0FC)
+//Ein awakened in Elendia, a village<line>
+//in Riviera, only to discover that<line>
+//his memories were gone.<line>
+//<line>
+//The Sprites of Elendia, fearful of<line>
+//the invading demons, have taken no action,<line>
+//even though they have lost contact with<line>
+//the Arcs, the guardians of Lacrima Castle.<line>
+//<line>
+//Fia and Lina, two Sprites who can't<line>
+//bear to stand by and wait any longer,<line>
+//use the village's magic circle without<line>
+//permission to go and investigate Lacrima<line>
+//Castle, taking Ein with them.<End>
+
+//POINTER #3 @ $CFB100 - STRING #3 @ $CF988E
+
+#W24($CFB100)
+//The party discovered that, as was feared,<line>
+//the Arcs have been annihilated.<line>
+//The lone survivor of the genocide<line>
+//was Serene, who joined the party.<line>
+//Also, Ursula, the mysterious woman,<line>
+//reappeared before them.<line>
+//<line>
+//Now, Riviera is threatened by both<line>
+//the Accursed and the demon who hunts<line>
+//Sprites…<line>
+//<line>
+//The wheels of fate have begun to turn,<line>
+//ever so slowly.<End>
+
+//POINTER #4 @ $CFB104 - STRING #4 @ $CF9AFB
+
+#W24($CFB104)
+//The shadow of the Accursed spreads…<line>
+//<line>
+//Realizing the grave danger,<line>
+//Ein and company leave Elendia and head<line>
+//for the ancient ruins of Nelde.<line>
+//<line>
+//It is rumored that Nelde, an aged place,<line>
+//is still riddled with magic traps.<line>
+//<line>
+//Ein, accompanied by Fia, Lina and Serene,<line>
+//sets foot in Wiese Forest in search of<line>
+//the entrance to the ruins.<line>
+//Within the ruins, he hopes to find<line>
+//the source of their trouble, the Accursed…<End>
+
+//POINTER #5 @ $CFB108 - STRING #5 @ $CF9DD1
+
+#W24($CFB108)
+//At the ruins of Nelde, Ein's party<line>
+//encountered the witch Cierra.<line>
+//With her help, they were able to<line>
+//navigate through the ruins and<line>
+//seal away the Accursed.<line>
+//<line>
+//After sealing away the Accursed,<line>
+//Ein was reunited with his Familiar,<line>
+//Rose, but still lacks the means to<line>
+//contact either Hector or his former<line>
+//companion, Ledah.<End>
+
+//POINTER #6 @ $CFB10C - STRING #6 @ $CFA00B
+
+#W24($CFB10C)
+//Ein's party departs from Elendia after<line>
+//learning the whereabouts of another<line>
+//Accursed. They must journey next to<line>
+//the sunken city of Tetyth.<line>
+//<line>
+//Legend has it that Tetyth was submerged<line>
+//beneath the sea because its inhabitants<line>
+//angered the gods.<line>
+//<line>
+//As a representative of Asgard,<line>
+//Ein approaches the city with<line>
+//heavy footsteps and a heavy heart…<End>
+
+//POINTER #7 @ $CFB110 - STRING #7 @ $CFA26D
+
+#W24($CFB110)
+//A fateful reunion with Ledah<line>
+//only reminds Ein of his duty<line>
+//as a Grim Angel.<line>
+//But, things have changed since<line>
+//their time in Asgard.<line>
+//<line>
+//As his mind races back and forth,<line>
+//Ein begins the long journey back<line>
+//to Elendia.<End>
+
+//POINTER #8 @ $CFB114 - STRING #8 @ $CFA3E5
+
+#W24($CFB114)
+//Ein and company set out for<line>
+//the fallen city of Mireno,<line>
+//seeking the final Accursed.<line>
+//<line>
+//It is rumored that there is a secret<line>
+//entrance leading deep underground,<line>
+//where ghouls supposedly lurk.<line>
+//<line>
+//With apprehension, Ein's party prepares<line>
+//to search the subterranean cemetery and<line>
+//seal the Accursed…<End>
+
+//POINTER #9 @ $CFB118 - STRING #9 @ $CFA5F2
+
+#W24($CFB118)
+//Unraveling the secret of the ankhs,<line>
+//Ein and company made their way<line>
+//through Mireno and sealed the last<line>
+//of the Accursed.<line>
+//<line>
+//Finally, all of the Accursed have<line>
+//been sealed.<line>
+//Ein, believing that Riviera has been<line>
+//saved, hurries back to Elendia in<line>
+//high spirits.<End>
+
+//POINTER #10 @ $CFB11C - STRING #10 @ $CFA7BE
+
+#W24($CFB11C)
+//Ein and his companions journey to<line>
+//the holy domain of Yggdrasil,<line>
+//and in an effort to stop Ledah,<line>
+//the party steps inside the tree<line>
+//of light.<line>
+//<line>
+//While Ledah aims to actuate<line>
+//the Retribution, Ein struggles<line>
+//desperately to prevent it…<line>
+//<line>
+//The two angels continue to walk their<line>
+//own paths, although those paths appear<line>
+//to diverge even further…<End>
+
+//POINTER #11 @ $CFB120 - STRING #11 @ $CFAA14
+
+#W24($CFB120)
+//Ein witnessed the death of Ledah<line>
+//and the emergence of a third<line>
+//Grim Angel, Malice.<line>
+//The revival of Ursula's counterpart,<line>
+//Seth, who holds the key to<line>
+//the Retribution, was also unveiled…<line>
+//<line>
+//With the destruction of<line>
+//the Aquariums, Yggdrasil is now<line>
+//vulnerable.<line>
+//<line>
+//What will be the fate of those who<line>
+//can alter Riviera's future…?<End>
+
+//POINTER #12 @ $CFB124 - STRING #12 @ $CFAC55
+
+#W24($CFB124)
+//The advent of the Retribution draws near…<line>
+//<line>
+//The Maze of Shadows floating in Riviera's<line>
+//shrouded skies is an ominous reminder of<line>
+//the devastation to come.<line>
+//<line>
+//Many powerful forces await Ein:<line>
+//the Grim Angel, Malice; Hector, one of<line>
+//the Seven Magi; and the destructive Seth.<line>
+//<line>
+//In order to pass judgment on Hector<line>
+//and protect the future of Riviera,<line>
+//Ein once again enters Heaven's Gate,<line>
+//the now—tainted realm where it all began.<End>
+
+//POINTER #13 @ $CFB128 - STRING #13 @ $CFAF4C
+
+#W24($CFB128)
+//From the Maze of Shadows to Elendia…<End>
+
+//POINTER #14 @ $CFB12C - STRING #14 @ $CFAF8F
+
+#W24($CFB12C)
+//Unknown to all lies a realm of chaos<line>
+//far beneath Riviera: Hell.<line>
+//<line>
+//The gate that leads there is said<line>
+//to exist in Parveeju Temple…<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//What awaits Ein's party there…?<End>
+
+//POINTER #15 @ $CFB130 - STRING #15 @ $CFB0B6
+
+#W24($CFB130)
+//From Parveeju Temple to Elendia…<End>

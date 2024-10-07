@@ -1,0 +1,1099 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($CFB1F0,$CFD8F4)
+
+//GAME NAME:		
+
+//BLOCK #007 NAME:		PART (007)
+
+//POINTER #0 @ $CFD8F8 - STRING #0 @ $CFB1F0
+
+#W24($CFD8F8)
+//Riviera should be just<line>
+//beyond Heaven's Gate.<End>
+
+//POINTER #1 @ $CFD8FC - STRING #1 @ $CFB243
+
+#W24($CFD8FC)
+//Riviera…<End>
+
+//POINTER #2 @ $CFD900 - STRING #2 @ $CFB254
+
+#W24($CFD900)
+//The gods' wisdom, the<line>
+//Retribution, lies there…<End>
+
+//POINTER #3 @ $CFD904 - STRING #3 @ $CFB2AB
+
+#W24($CFD904)
+//The Retribution…?<End>
+
+//POINTER #4 @ $CFD908 - STRING #4 @ $CFB2CD
+
+#W24($CFD908)
+//To actuate the Retribution<line>
+//and judge the demons…<Next>
+
+//As Grim Angels,<line>
+//that is our duty…<End>
+
+//POINTER #5 @ $CFD90C - STRING #5 @ $CFB365
+
+#W24($CFD90C)
+//The Retribution…<Next>
+
+//It's powerful enough<line>
+//to destroy Riviera…<End>
+
+//POINTER #6 @ $CFD910 - STRING #6 @ $CFB3D2
+
+#W24($CFD910)
+//…………<End>
+
+//POINTER #7 @ $CFD914 - STRING #7 @ $CFB3DB
+
+#W24($CFD914)
+//Isn't there a way to save<line>
+//both Asgard and Riviera?<End>
+
+//POINTER #8 @ $CFD918 - STRING #8 @ $CFB437
+
+#W24($CFD918)
+//That is not necessary.<line>
+//We need only follow orders.<End>
+
+//POINTER #9 @ $CFD91C - STRING #9 @ $CFB494
+
+#W24($CFD91C)
+//Our only duty is to<line>
+//protect Asgard…<Next>
+
+//That is the fate of all<line>
+//Grim Angels…<End>
+
+//POINTER #10 @ $CFD920 - STRING #10 @ $CFB518
+
+#W24($CFD920)
+//………Ugh………<line>
+//…Huh? Where am I?<End>
+
+//POINTER #11 @ $CFD924 - STRING #11 @ $CFB54B
+
+#W24($CFD924)
+//Oh, you're awake!<line>
+//I was worried…<End>
+
+//POINTER #12 @ $CFD928 - STRING #12 @ $CFB587
+
+#W24($CFD928)
+//What… happened?<End>
+
+//POINTER #13 @ $CFD92C - STRING #13 @ $CFB5A5
+
+#W24($CFD92C)
+//Well, I was in the forest,<line>
+//and you fell from the sky.<End>
+
+//POINTER #14 @ $CFD930 - STRING #14 @ $CFB605
+
+#W24($CFD930)
+//Huh? Could this be…<End>
+
+//POINTER #15 @ $CFD934 - STRING #15 @ $CFB629
+
+#W24($CFD934)
+//What's wrong, Fia?<End>
+
+//POINTER #16 @ $CFD938 - STRING #16 @ $CFB64C
+
+#W24($CFD938)
+//There are medicinal<line>
+//herbs growing here.<End>
+
+//POINTER #17 @ $CFD93C - STRING #17 @ $CFB696
+
+#W24($CFD93C)
+//Herbs…<End>
+
+//POINTER #18 @ $CFD940 - STRING #18 @ $CFB6A3
+
+#W24($CFD940)
+//Considering the danger<line>
+//we'll be facing…<Next>
+
+//we should probably<line>
+//take some.<End>
+
+//POINTER #19 @ $CFD944 - STRING #19 @ $CFB725
+
+#W24($CFD944)
+//Are you okay?<End>
+
+//POINTER #20 @ $CFD948 - STRING #20 @ $CFB73E
+
+#W24($CFD948)
+//※huff※ ※huff※<line>
+//Who're you…?<End>
+
+//POINTER #21 @ $CFD94C - STRING #21 @ $CFB770
+
+#W24($CFD94C)
+//We're not your enemy…<End>
+
+//POINTER #22 @ $CFD950 - STRING #22 @ $CFB798
+
+#W24($CFD950)
+//Black wings…<End>
+
+//POINTER #23 @ $CFD954 - STRING #23 @ $CFB7B0
+
+#W24($CFD954)
+//She's an Arc!<End>
+
+//POINTER #24 @ $CFD958 - STRING #24 @ $CFB3D2
+
+#W24($CFD958)
+//…………<End>
+
+//POINTER #25 @ $CFD95C - STRING #25 @ $CFB7C9
+
+#W24($CFD95C)
+//Are you guys alright?<End>
+
+//POINTER #26 @ $CFD960 - STRING #26 @ $CFB7F1
+
+#W24($CFD960)
+//※sigh※ I'm sorry…<Next>
+
+//I sure messed that<line>
+//up, didn't I?<End>
+
+//POINTER #27 @ $CFD964 - STRING #27 @ $CFB84E
+
+#W24($CFD964)
+//Who are you…?<End>
+
+//POINTER #28 @ $CFD968 - STRING #28 @ $CFB867
+
+#W24($CFD968)
+//I'm Cierra.<End>
+
+//POINTER #29 @ $CFD96C - STRING #29 @ $CFB87D
+
+#W24($CFD96C)
+//I was looking for ingredients.<line>
+//What about you?<End>
+
+//POINTER #30 @ $CFD970 - STRING #30 @ $CFB8D3
+
+#W24($CFD970)
+//Th—The water's…<End>
+
+//POINTER #31 @ $CFD974 - STRING #31 @ $CFB8F1
+
+#W24($CFD974)
+//I… I can't breathe…<End>
+
+//POINTER #32 @ $CFD978 - STRING #32 @ $CFB915
+
+#W24($CFD978)
+//He…lp……<End>
+
+//POINTER #33 @ $CFD97C - STRING #33 @ $CFB924
+
+#W24($CFD97C)
+//Meeow!<line>
+//(We have <XX> turns left!)<End>
+
+//POINTER #34 @ $CFD980 - STRING #34 @ $CFB95C
+
+#W24($CFD980)
+//You don't have enough TP.<End>
+
+//POINTER #35 @ $CFD984 - STRING #35 @ $CFB98B
+
+#W24($CFD984)
+//Meow meow meow.<line>
+//(You don't have enough TP.)<End>
+
+//POINTER #36 @ $CFD988 - STRING #36 @ $CFB9DB
+
+#W24($CFD988)
+//Looks like battle time.<End>
+
+//POINTER #37 @ $CFD98C - STRING #37 @ $CFBA07
+
+#W24($CFD98C)
+//I'll do my best.<End>
+
+//POINTER #38 @ $CFD990 - STRING #38 @ $CFBA25
+
+#W24($CFD990)
+//That's too bad.<End>
+
+//POINTER #39 @ $CFD994 - STRING #39 @ $CFBA42
+
+#W24($CFD994)
+//Time to fight!<End>
+
+//POINTER #40 @ $CFD998 - STRING #40 @ $CFBA07
+
+#W24($CFD998)
+//I'll do my best.<End>
+
+//POINTER #41 @ $CFD99C - STRING #41 @ $CFBA25
+
+#W24($CFD99C)
+//That's too bad.<End>
+
+//POINTER #42 @ $CFD9A0 - STRING #42 @ $CFBA42
+
+#W24($CFD9A0)
+//Time to fight!<End>
+
+//POINTER #43 @ $CFD9A4 - STRING #43 @ $CFBA07
+
+#W24($CFD9A4)
+//I'll do my best.<End>
+
+//POINTER #44 @ $CFD9A8 - STRING #44 @ $CFBA25
+
+#W24($CFD9A8)
+//That's too bad.<End>
+
+//POINTER #45 @ $CFD9AC - STRING #45 @ $CFBA5D
+
+#W24($CFD9AC)
+//I believe it's<line>
+//time to battle.<End>
+
+//POINTER #46 @ $CFD9B0 - STRING #46 @ $CFBA07
+
+#W24($CFD9B0)
+//I'll do my best.<End>
+
+//POINTER #47 @ $CFD9B4 - STRING #47 @ $CFBA25
+
+#W24($CFD9B4)
+//That's too bad.<End>
+
+//POINTER #48 @ $CFD9B8 - STRING #48 @ $CFBA95
+
+#W24($CFD9B8)
+//Thanks for choosing me.<line>
+//I'll do my best.<End>
+
+//POINTER #49 @ $CFD9BC - STRING #49 @ $CFBA25
+
+#W24($CFD9BC)
+//That's too bad.<End>
+
+//POINTER #50 @ $CFD9C0 - STRING #50 @ $CFBADF
+
+#W24($CFD9C0)
+//Woo! You rock!<line>
+//I'll do my best.<End>
+
+//POINTER #51 @ $CFD9C4 - STRING #51 @ $CFBA25
+
+#W24($CFD9C4)
+//That's too bad.<End>
+
+//POINTER #52 @ $CFD9C8 - STRING #52 @ $CFBB18
+
+#W24($CFD9C8)
+//You chose Lina!<line>
+//I'll do my best.<End>
+
+//POINTER #53 @ $CFD9CC - STRING #53 @ $CFBA25
+
+#W24($CFD9CC)
+//That's too bad.<End>
+
+//POINTER #54 @ $CFD9D0 - STRING #54 @ $CFBB53
+
+#W24($CFD9D0)
+//Thank you for choosing me.<line>
+//I'll do my best.<End>
+
+//POINTER #55 @ $CFD9D4 - STRING #55 @ $CFBA25
+
+#W24($CFD9D4)
+//That's too bad.<End>
+
+//POINTER #56 @ $CFD9D8 - STRING #56 @ $CFBBA2
+
+#W24($CFD9D8)
+//I don't have enough TP…<End>
+
+//POINTER #57 @ $CFD9DC - STRING #57 @ $CFBBCD
+
+#W24($CFD9DC)
+//I don't think you have<line>
+//enough TP.<End>
+
+//POINTER #58 @ $CFD9E0 - STRING #58 @ $CFBC0A
+
+#W24($CFD9E0)
+//You don't have enough TP!<End>
+
+//POINTER #59 @ $CFD9E4 - STRING #59 @ $CFBC39
+
+#W24($CFD9E4)
+//There's not enough TP!<End>
+
+//POINTER #60 @ $CFD9E8 - STRING #60 @ $CFBC63
+
+#W24($CFD9E8)
+//You do not have the TP<line>
+//required to do that.<End>
+
+//POINTER #61 @ $CFD9EC - STRING #61 @ $CFBCB1
+
+#W24($CFD9EC)
+//……?<End>
+
+//POINTER #62 @ $CFD9F0 - STRING #62 @ $CFBCB8
+
+#W24($CFD9F0)
+//Fia!<End>
+
+//POINTER #63 @ $CFD9F4 - STRING #63 @ $CFBCC1
+
+#W24($CFD9F4)
+//Lina!<End>
+
+//POINTER #64 @ $CFD9F8 - STRING #64 @ $CFBCCC
+
+#W24($CFD9F8)
+//Serene!<End>
+
+//POINTER #65 @ $CFD9FC - STRING #65 @ $CFBCDB
+
+#W24($CFD9FC)
+//Cierra!<End>
+
+//POINTER #66 @ $CFDA00 - STRING #66 @ $CFBCEA
+
+#W24($CFDA00)
+//Rose!<End>
+
+//POINTER #67 @ $CFDA04 - STRING #67 @ $CFBCF5
+
+#W24($CFDA04)
+//Whew… we're safe.<End>
+
+//POINTER #68 @ $CFDA08 - STRING #68 @ $CFBD16
+
+#W24($CFDA08)
+//…Huh?<line>
+//I'm alive…<End>
+
+//POINTER #69 @ $CFDA0C - STRING #69 @ $CFBD35
+
+#W24($CFDA0C)
+//Where are we…?<End>
+
+//POINTER #70 @ $CFDA10 - STRING #70 @ $CFBD50
+
+#W24($CFDA10)
+//This is Elendia!<End>
+
+//POINTER #71 @ $CFDA14 - STRING #71 @ $CFBD6F
+
+#W24($CFDA14)
+//So… We made it<line>
+//back alive.<End>
+
+//POINTER #72 @ $CFDA18 - STRING #72 @ $CFBD9F
+
+#W24($CFDA18)
+//(Thank goodness!)<End>
+
+//POINTER #73 @ $CFDA1C - STRING #73 @ $CFBDC1
+
+#W24($CFDA1C)
+//It must have been<line>
+//Ursula's blessing.<End>
+
+//POINTER #74 @ $CFDA20 - STRING #74 @ $CFBE05
+
+#W24($CFDA20)
+//You're probably right.<End>
+
+//POINTER #75 @ $CFDA24 - STRING #75 @ $CFBE30
+
+#W24($CFDA24)
+//Riviera's peaceful now!<End>
+
+//POINTER #76 @ $CFDA28 - STRING #76 @ $CFBE5D
+
+#W24($CFDA28)
+//Yeah…<Next>
+
+//No more Seth…<line>
+//No more judgment…<End>
+
+//POINTER #77 @ $CFDA2C - STRING #77 @ $CFBEA3
+
+#W24($CFDA2C)
+//Riviera's a free land,<line>
+//at last!<End>
+
+//POINTER #78 @ $CFDA30 - STRING #78 @ $CFBEDD
+
+#W24($CFDA30)
+//Master Ein!<line>
+//You're safe!<Next>
+
+//You are a true hero.<End>
+
+//POINTER #79 @ $CFDA34 - STRING #79 @ $CFBF31
+
+#W24($CFDA34)
+//Elendia exists today<line>
+//because of you.<Next>
+
+//Thank you, Ein, from<line>
+//the bottom of my heart.<End>
+
+//POINTER #80 @ $CFDA38 - STRING #80 @ $CFBFC7
+
+#W24($CFDA38)
+//You're our hero!<End>
+
+//POINTER #81 @ $CFDA3C - STRING #81 @ $CFBFE6
+
+#W24($CFDA3C)
+//Umm…<line>
+//Thanks, mister.<End>
+
+//POINTER #82 @ $CFDA40 - STRING #82 @ $CFC00D
+
+#W24($CFDA40)
+//I'm glad to know<line>
+//we have a tomorrow.<End>
+
+//POINTER #83 @ $CFDA44 - STRING #83 @ $CFC04F
+
+#W24($CFDA44)
+//We need not fear<line>
+//demons anymore!<End>
+
+//POINTER #84 @ $CFDA48 - STRING #84 @ $CFC08B
+
+#W24($CFDA48)
+//The winds have<line>
+//calmed…<Next>
+
+//We owe it all<line>
+//to you, Ein.<End>
+
+//POINTER #85 @ $CFDA4C - STRING #85 @ $CFC0E5
+
+#W24($CFDA4C)
+//It all started when you<line>
+//were found on the road…<Next>
+
+//I'm so glad we have<line>
+//a happy ending!<End>
+
+//POINTER #86 @ $CFDA50 - STRING #86 @ $CFC17C
+
+#W24($CFDA50)
+//The sun's so nice<line>
+//and warm, nya.<Next>
+
+//Purr… I hope this<line>
+//lasts forever.<End>
+
+//POINTER #87 @ $CFDA54 - STRING #87 @ $CFC1F4
+
+#W24($CFDA54)
+//Oh, Ein❤<Next>
+
+//Beating all those demons…<line>
+//you're so awesome!<End>
+
+//POINTER #88 @ $CFDA58 - STRING #88 @ $CFC258
+
+#W24($CFDA58)
+//Umm… Thank you, Ein.<End>
+
+//POINTER #89 @ $CFDA5C - STRING #89 @ $CFC27E
+
+#W24($CFDA5C)
+//I guess you're<line>
+//not so bad, after all.<Next>
+
+//I may just have to raise<line>
+//my opinion of you… a little.<End>
+
+//POINTER #90 @ $CFDA60 - STRING #90 @ $CFC323
+
+#W24($CFDA60)
+//There's not much I<line>
+//can say… Congratulations.<End>
+
+//POINTER #91 @ $CFDA64 - STRING #91 @ $CFC376
+
+#W24($CFDA64)
+//……… ……, ……!<End>
+
+//POINTER #92 @ $CFDA68 - STRING #92 @ $CFC38B
+
+#W24($CFDA68)
+//Meute says, "Thank you, Ein."<End>
+
+//POINTER #93 @ $CFDA6C - STRING #93 @ $CFC3C2
+
+#W24($CFDA6C)
+//So, Elendia is saved.<Next>
+
+//I was in the mine,<line>
+//cheering you on.<End>
+
+//POINTER #94 @ $CFDA70 - STRING #94 @ $CFC42B
+
+#W24($CFDA70)
+//Knowledge is treasure<line>
+//only after action…<Next>
+
+//Now, tell me everything<line>
+//you saw on your quest.<End>
+
+//POINTER #95 @ $CFDA74 - STRING #95 @ $CFC4CD
+
+#W24($CFDA74)
+//With the demons gone, I can<line>
+//now focus on my experiments.<End>
+
+//POINTER #96 @ $CFDA78 - STRING #96 @ $CFC534
+
+#W24($CFDA78)
+//Now I can go outside to<line>
+//find ingredients★<End>
+
+//POINTER #97 @ $CFDA7C - STRING #97 @ $CFC580
+
+#W24($CFDA7C)
+//In that case, go fetch me<line>
+//three dried bats!<End>
+
+//POINTER #98 @ $CFDA80 - STRING #98 @ $CFC5CF
+
+#W24($CFDA80)
+//I shouldn't have said<line>
+//anything…💧<End>
+
+//POINTER #99 @ $CFDA84 - STRING #99 @ $CFC60C
+
+#W24($CFDA84)
+//I hope you found<line>
+//my weapons useful.<Next>
+
+//If you need anything,<line>
+//※clang※ I'll make it!<End>
+
+//POINTER #100 @ $CFDA88 - STRING #100 @ $CFC69E
+
+#W24($CFDA88)
+//Welcome home, Ein!<End>
+
+//POINTER #101 @ $CFDA8C - STRING #101 @ $CFC6C1
+
+#W24($CFDA8C)
+//You're late!<End>
+
+//POINTER #102 @ $CFDA90 - STRING #102 @ $CFC6D9
+
+#W24($CFDA90)
+//Serene, can you pass me<line>
+//the seasoning?<End>
+
+//POINTER #103 @ $CFDA94 - STRING #103 @ $CFC720
+
+#W24($CFDA94)
+//Okay. This one?<End>
+
+//POINTER #104 @ $CFDA98 - STRING #104 @ $CFC73D
+
+#W24($CFDA98)
+//This is it: a cake of<line>
+//Elendia's best fruits.<End>
+
+//POINTER #105 @ $CFDA9C - STRING #105 @ $CFC78E
+
+#W24($CFDA9C)
+//Yummy!<Next>
+
+//It looks so good…<line>
+//…Just one bite!<End>
+
+//POINTER #106 @ $CFDAA0 - STRING #106 @ $CFC7D9
+
+#W24($CFDAA0)
+//Oh no, you don't!<Next>
+
+//Ein gets the first bite…<Next>
+
+//That is my decision.<End>
+
+//POINTER #107 @ $CFDAA4 - STRING #107 @ $CFC84E
+
+#W24($CFDAA4)
+//Why?<End>
+
+//POINTER #108 @ $CFDAA8 - STRING #108 @ $CFC857
+
+#W24($CFDAA8)
+//W—Well… Because…<End>
+
+//POINTER #109 @ $CFDAAC - STRING #109 @ $CFC877
+
+#W24($CFDAAC)
+//Because why?<End>
+
+//POINTER #110 @ $CFDAB0 - STRING #110 @ $CFC88F
+
+#W24($CFDAB0)
+//Uh… No reason.<End>
+
+//POINTER #111 @ $CFDAB4 - STRING #111 @ $CFC8AA
+
+#W24($CFDAB4)
+//Oh wow, the cake's<line>
+//already done?<Next>
+
+//I should probably finish<line>
+//my paella, then.<End>
+
+//POINTER #112 @ $CFDAB8 - STRING #112 @ $CFC934
+
+#W24($CFDAB8)
+//I need more heat.<line>
+//Fire!!<End>
+
+//POINTER #113 @ $CFDABC - STRING #113 @ $CFC95F
+
+#W24($CFDABC)
+//Cierra! The fire…<line>
+//The fire's burning!<End>
+
+//POINTER #114 @ $CFDAC0 - STRING #114 @ $CFC9A5
+
+#W24($CFDAC0)
+//Oops… Now what?<line>
+//How'd the flood spell go…?<End>
+
+//POINTER #115 @ $CFDAC4 - STRING #115 @ $CFC9F3
+
+#W24($CFDAC4)
+//It's going to<line>
+//ruin our house!<End>
+
+//POINTER #116 @ $CFDAC8 - STRING #116 @ $CFCA29
+
+#W24($CFDAC8)
+//Oh dear…<End>
+
+//POINTER #117 @ $CFDACC - STRING #117 @ $CFCA39
+
+#W24($CFDACC)
+//Stop talking until we<line>
+//put the fire out…<Next>
+
+//The whole house is<line>
+//going to burn down!<End>
+
+//POINTER #118 @ $CFDAD0 - STRING #118 @ $CFCAC8
+
+#W24($CFDAD0)
+//(It's already been<line>
+//a whole month…)<Next>
+
+//(It all seems<line>
+//so surreal.)<Next>
+
+//(…I can't believe we<line>
+//made it through alive.)<End>
+
+//POINTER #119 @ $CFDAD4 - STRING #119 @ $CFCB8D
+
+#W24($CFDAD4)
+//I know what you mean.<End>
+
+//POINTER #120 @ $CFDAD8 - STRING #120 @ $CFCBB4
+
+#W24($CFDAD8)
+//(Still…)<End>
+
+//POINTER #121 @ $CFDADC - STRING #121 @ $CFCBC5
+
+#W24($CFDADC)
+//(My voice still hasn't<line>
+//returned!)<End>
+
+//POINTER #122 @ $CFDAE0 - STRING #122 @ $CFB3D2
+
+#W24($CFDAE0)
+//…………<End>
+
+//POINTER #123 @ $CFDAE4 - STRING #123 @ $CFCC04
+
+#W24($CFDAE4)
+//(So…)<Next>
+
+//(What are your plans?)<Next>
+
+//(You gonna head back<line>
+//to Asgard, or…?)<End>
+
+//POINTER #124 @ $CFDAE8 - STRING #124 @ $CFCC80
+
+#W24($CFDAE8)
+//Me? Well…<End>
+
+//POINTER #125 @ $CFDAEC - STRING #125 @ $CFCC92
+
+#W24($CFDAEC)
+//Ein! Come over here!<Next>
+
+//The treasure's this way!<End>
+
+//POINTER #126 @ $CFDAF0 - STRING #126 @ $CFCCE7
+
+#W24($CFDAF0)
+//Be careful, Lina…!<End>
+
+//POINTER #127 @ $CFDAF4 - STRING #127 @ $CFCD0A
+
+#W24($CFDAF4)
+//Stop worrying!<End>
+
+//POINTER #128 @ $CFDAF8 - STRING #128 @ $CFBCC1
+
+#W24($CFDAF8)
+//Lina!<End>
+
+//POINTER #129 @ $CFDAFC - STRING #129 @ $CFCD26
+
+#W24($CFDAFC)
+//Hee hee…<line>
+//Oopsie♪<End>
+
+//POINTER #130 @ $CFDB00 - STRING #130 @ $CFCD45
+
+#W24($CFDB00)
+//Ancient spirits who bind Riviera<line>
+//together, protect our land…<End>
+
+//POINTER #131 @ $CFDB04 - STRING #131 @ $CFCDB6
+
+#W24($CFDB04)
+//Ein!<End>
+
+//POINTER #132 @ $CFDB08 - STRING #132 @ $CFCDBF
+
+#W24($CFDB08)
+//You did a good job.<Next>
+
+//I haven't seen a single<line>
+//demon in this area.<End>
+
+//POINTER #133 @ $CFDB0C - STRING #133 @ $CFCE32
+
+#W24($CFDB0C)
+//No…<End>
+
+//POINTER #134 @ $CFDB10 - STRING #134 @ $CFCE39
+
+#W24($CFDB10)
+//This is all thanks<line>
+//to you, Ein.<End>
+
+//POINTER #135 @ $CFDB14 - STRING #135 @ $CFCE72
+
+#W24($CFDB14)
+//I didn't do anything.<line>
+//It was your mana…<End>
+
+//POINTER #136 @ $CFDB18 - STRING #136 @ $CFCEBA
+
+#W24($CFDB18)
+//I just pray that<line>
+//this peace will last.<End>
+
+//POINTER #137 @ $CFDB1C - STRING #137 @ $CFCF00
+
+#W24($CFDB1C)
+//It will, as long as<line>
+//we keep trying hard.<End>
+
+//POINTER #138 @ $CFDB20 - STRING #138 @ $CFCF49
+
+#W24($CFDB20)
+//Yes… You're right.<End>
+
+//POINTER #139 @ $CFDB24 - STRING #139 @ $CFCF6C
+
+#W24($CFDB24)
+//I've never seen<line>
+//this herb before…<Next>
+
+//I bet I could use it<line>
+//to develop new spells.<End>
+
+//POINTER #140 @ $CFDB28 - STRING #140 @ $CFCFF9
+
+#W24($CFDB28)
+//Ein, I found something<line>
+//incredible!<End>
+
+//POINTER #141 @ $CFDB2C - STRING #141 @ $CFD03A
+
+#W24($CFDB2C)
+//An herb?<End>
+
+//POINTER #142 @ $CFDB30 - STRING #142 @ $CFD04A
+
+#W24($CFDB30)
+//…With this, magic would<line>
+//advance 10 years.<End>
+
+//POINTER #143 @ $CFDB34 - STRING #143 @ $CFD097
+
+#W24($CFDB34)
+//Really?<End>
+
+//POINTER #144 @ $CFDB38 - STRING #144 @ $CFD0A6
+
+#W24($CFDB38)
+//I just need to test it…<End>
+
+//POINTER #145 @ $CFDB3C - STRING #145 @ $CFD0D0
+
+#W24($CFDB3C)
+//Huh?<End>
+
+//POINTER #146 @ $CFDB40 - STRING #146 @ $CFD0D9
+
+#W24($CFDB40)
+//※cough※ So…<line>
+//Did it work? ※cough※<End>
+
+//POINTER #147 @ $CFDB44 - STRING #147 @ $CFD115
+
+#W24($CFDB44)
+//Huh!? I don't know<line>
+//what the problem is…<End>
+
+//POINTER #148 @ $CFDB48 - STRING #148 @ $CFD15B
+
+#W24($CFDB48)
+//Take this, punk!<End>
+
+//POINTER #149 @ $CFDB4C - STRING #149 @ $CFCDB6
+
+#W24($CFDB4C)
+//Ein!<End>
+
+//POINTER #150 @ $CFDB50 - STRING #150 @ $CFD17A
+
+#W24($CFDB50)
+//Was that the last<line>
+//of them, Serene?<End>
+
+//POINTER #151 @ $CFDB54 - STRING #151 @ $CFD1B9
+
+#W24($CFDB54)
+//I think so…<End>
+
+//POINTER #152 @ $CFDB58 - STRING #152 @ $CFD1CE
+
+#W24($CFDB58)
+//Now the nearby towns<line>
+//can live in peace.<End>
+
+//POINTER #153 @ $CFDB5C - STRING #153 @ $CFD216
+
+#W24($CFDB5C)
+//There are still many<line>
+//demons in Riviera.<Next>
+
+//But one day…<End>
+
+//POINTER #154 @ $CFDB60 - STRING #154 @ $CFD277
+
+#W24($CFDB60)
+//…We'll wipe them<line>
+//out completely.<End>
+
+//POINTER #155 @ $CFDB64 - STRING #155 @ $CFD2B4
+
+#W24($CFDB64)
+//You're darn right<line>
+//we will!<End>
+
+//POINTER #156 @ $CFDB68 - STRING #156 @ $CFD2E5
+
+#W24($CFDB68)
+//Huh…<End>
+
+//POINTER #157 @ $CFDB6C - STRING #157 @ $CFD2EE
+
+#W24($CFDB6C)
+//Are you done cleaning yet?<line>
+//Let's take five.<End>
+
+//POINTER #158 @ $CFDB70 - STRING #158 @ $CFD33E
+
+#W24($CFDB70)
+//That sounds good.<End>
+
+//POINTER #159 @ $CFDB74 - STRING #159 @ $CFD35F
+
+#W24($CFDB74)
+//Hm?<line>
+//What's that bottle, Ein?<End>
+
+//POINTER #160 @ $CFDB78 - STRING #160 @ $CFD394
+
+#W24($CFDB78)
+//Cierra gave it to me<line>
+//when we left.<Next>
+
+//It's a magical perfume<line>
+//that grants a single wish.<End>
+
+//POINTER #161 @ $CFDB7C - STRING #161 @ $CFD42E
+
+#W24($CFDB7C)
+//Sounds like trouble…<End>
+
+//POINTER #162 @ $CFDB80 - STRING #162 @ $CFD455
+
+#W24($CFDB80)
+//You think so?<Next>
+
+//Not that it matters…<line>
+//I don't have any wishes.<End>
+
+//POINTER #163 @ $CFDB84 - STRING #163 @ $CFD4C2
+
+#W24($CFDB84)
+//Really? You don't have<line>
+//a secret desire?<End>
+
+//POINTER #164 @ $CFDB88 - STRING #164 @ $CFD50B
+
+#W24($CFDB88)
+//Well, do you?<End>
+
+//POINTER #165 @ $CFDB8C - STRING #165 @ $CFD524
+
+#W24($CFDB8C)
+//…I might, I guess.<End>
+
+//POINTER #166 @ $CFDB90 - STRING #166 @ $CFD546
+
+#W24($CFDB90)
+//Then it's yours…<End>
+
+//POINTER #167 @ $CFDB94 - STRING #167 @ $CFD565
+
+#W24($CFDB94)
+//Here, I'll just<line>
+//spray you with this.<End>
+
+//POINTER #168 @ $CFDB98 - STRING #168 @ $CFD5A8
+
+#W24($CFDB98)
+//Wha!? Hey!<line>
+//No, Ein! Wai——<End>
+
+//POINTER #169 @ $CFDB9C - STRING #169 @ $CFD0D0
+
+#W24($CFDB9C)
+//Huh?<End>
+
+//POINTER #170 @ $CFDBA0 - STRING #170 @ $CFD5D5
+
+#W24($CFDBA0)
+//Oh wow, I'm cute♪<End>
+
+//POINTER #171 @ $CFDBA4 - STRING #171 @ $CFB3D2
+
+#W24($CFDBA4)
+//…………<End>
+
+//POINTER #172 @ $CFDBA8 - STRING #172 @ $CFD5F5
+
+#W24($CFDBA8)
+//Shucks… So much<line>
+//for my wings…<Next>
+
+//Now I'm normal<line>
+//like you.<End>
+
+//POINTER #173 @ $CFDBAC - STRING #173 @ $CFD659
+
+#W24($CFDBAC)
+//Uhh… Rose…?<line>
+//You were a girl!?<End>
+
+//POINTER #174 @ $CFDBB0 - STRING #174 @ $CFD68D
+
+#W24($CFDBB0)
+//Uh——yeah?<line>
+//Why, what'd you think?<End>
+
+//POINTER #175 @ $CFDBB4 - STRING #175 @ $CFD6CA
+
+#W24($CFDBB4)
+//…………<line>
+//I never thought about it.<End>
+
+//POINTER #176 @ $CFDBB8 - STRING #176 @ $CFD702
+
+#W24($CFDBB8)
+//Ein, there's been another<line>
+//demon sighting in Riviera.<End>
+
+//POINTER #177 @ $CFDBBC - STRING #177 @ $CFD764
+
+#W24($CFDBBC)
+//Alright, it's time to<line>
+//use my Einherjar——<End>
+
+//POINTER #178 @ $CFDBC0 - STRING #178 @ $CFD7AF
+
+#W24($CFDBC0)
+//Ein, it's okay. Let<line>
+//the Sprites handle it.<End>
+
+//POINTER #179 @ $CFDBC4 - STRING #179 @ $CFD7FD
+
+#W24($CFDBC4)
+//Oh, r—right…<End>
+
+//POINTER #180 @ $CFDBC8 - STRING #180 @ $CFD815
+
+#W24($CFDBC8)
+//Now, hurry it up!<line>
+//Your report's due today.<End>
+
+//POINTER #181 @ $CFDBCC - STRING #181 @ $CFD863
+
+#W24($CFDBCC)
+//Okay.<Next>
+
+//We should do<line>
+//what we can.<End>
+
+//POINTER #182 @ $CFDBD0 - STRING #182 @ $CFD89D
+
+#W24($CFDBD0)
+//Don't worry, Riviera<line>
+//is the Sprites' land, now.<End>

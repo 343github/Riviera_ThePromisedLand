@@ -1,0 +1,10803 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($CE329C,$CE7757)
+
+//GAME NAME:		
+
+//BLOCK #000 NAME:		PART (000)
+
+//POINTER #0 @ $CE7758 - STRING #0 @ $CE329C
+
+#W24($CE7758)
+//Ein<End>
+
+//POINTER #1 @ $CE775C - STRING #1 @ $CE32A3
+
+#W24($CE775C)
+//Cierra<End>
+
+//POINTER #2 @ $CE7760 - STRING #2 @ $CE32B0
+
+#W24($CE7760)
+//Serene<End>
+
+//POINTER #3 @ $CE7764 - STRING #3 @ $CE32BD
+
+#W24($CE7764)
+//Lina<End>
+
+//POINTER #4 @ $CE7768 - STRING #4 @ $CE32C6
+
+#W24($CE7768)
+//Fia<End>
+
+//POINTER #5 @ $CE776C - STRING #5 @ $CE32CD
+
+#W24($CE776C)
+//Ledah<End>
+
+//POINTER #6 @ $CE7770 - STRING #6 @ $CE32D8
+
+#W24($CE7770)
+//Gladiator<End>
+
+//POINTER #7 @ $CE7774 - STRING #7 @ $CE32EB
+
+#W24($CE7774)
+//Strong Guard<End>
+
+//POINTER #8 @ $CE7778 - STRING #8 @ $CE3303
+
+#W24($CE7778)
+//Black Knight<End>
+
+//POINTER #9 @ $CE777C - STRING #9 @ $CE331B
+
+#W24($CE777C)
+//Demon Lord<End>
+
+//POINTER #10 @ $CE7780 - STRING #10 @ $CE332F
+
+#W24($CE7780)
+//Rogue<End>
+
+//POINTER #11 @ $CE7784 - STRING #11 @ $CE333A
+
+#W24($CE7784)
+//Savage Ogre<End>
+
+//POINTER #12 @ $CE7788 - STRING #12 @ $CE3350
+
+#W24($CE7788)
+//Berserker<End>
+
+//POINTER #13 @ $CE778C - STRING #13 @ $CE3363
+
+#W24($CE778C)
+//Tyrant<End>
+
+//POINTER #14 @ $CE7790 - STRING #14 @ $CE3370
+
+#W24($CE7790)
+//Evil Mage<End>
+
+//POINTER #15 @ $CE7794 - STRING #15 @ $CE3382
+
+#W24($CE7794)
+//Heretic<End>
+
+//POINTER #16 @ $CE7798 - STRING #16 @ $CE3391
+
+#W24($CE7798)
+//Necromancer<End>
+
+//POINTER #17 @ $CE779C - STRING #17 @ $CE33A8
+
+#W24($CE779C)
+//Lich<End>
+
+//POINTER #18 @ $CE77A0 - STRING #18 @ $CE33B1
+
+#W24($CE77A0)
+//Banshee<End>
+
+//POINTER #19 @ $CE77A4 - STRING #19 @ $CE33C0
+
+#W24($CE77A4)
+//Mean Witch<End>
+
+//POINTER #20 @ $CE77A8 - STRING #20 @ $CE33D4
+
+#W24($CE77A8)
+//Lunatic Maiden<End>
+
+//POINTER #21 @ $CE77AC - STRING #21 @ $CE33F0
+
+#W24($CE77AC)
+//Valkyrie<End>
+
+//POINTER #22 @ $CE77B0 - STRING #22 @ $CE3401
+
+#W24($CE77B0)
+//Amazon<End>
+
+//POINTER #23 @ $CE77B4 - STRING #23 @ $CE340E
+
+#W24($CE77B4)
+//Amazon<End>
+
+//POINTER #24 @ $CE77B8 - STRING #24 @ $CE341B
+
+#W24($CE77B8)
+//Dark Elf<End>
+
+//POINTER #25 @ $CE77BC - STRING #25 @ $CE342B
+
+#W24($CE77BC)
+//Diana's Vassal<End>
+
+//POINTER #26 @ $CE77C0 - STRING #26 @ $CE3447
+
+#W24($CE77C0)
+//Tiny Thief<End>
+
+//POINTER #27 @ $CE77C4 - STRING #27 @ $CE345B
+
+#W24($CE77C4)
+//Hobgoblin<End>
+
+//POINTER #28 @ $CE77C8 - STRING #28 @ $CE346E
+
+#W24($CE77C8)
+//Gremlin<End>
+
+//POINTER #29 @ $CE77CC - STRING #29 @ $CE347D
+
+#W24($CE77CC)
+//Mael<End>
+
+//POINTER #30 @ $CE77D0 - STRING #30 @ $CE3486
+
+#W24($CE77D0)
+//Bomber Kid<End>
+
+//POINTER #31 @ $CE77D4 - STRING #31 @ $CE349A
+
+#W24($CE77D4)
+//Misery<End>
+
+//POINTER #32 @ $CE77D8 - STRING #32 @ $CE34A7
+
+#W24($CE77D8)
+//Pyrallis<End>
+
+//POINTER #33 @ $CE77DC - STRING #33 @ $CE34B8
+
+#W24($CE77DC)
+//Devil Imp<End>
+
+//POINTER #34 @ $CE77E0 - STRING #34 @ $CE34CA
+
+#W24($CE77E0)
+//Pazuzu<End>
+
+//POINTER #35 @ $CE77E4 - STRING #35 @ $CE34D7
+
+#W24($CE77E4)
+//Skeleton<End>
+
+//POINTER #36 @ $CE77E8 - STRING #36 @ $CE34E8
+
+#W24($CE77E8)
+//Cardinal Bone<End>
+
+//POINTER #37 @ $CE77EC - STRING #37 @ $CE3502
+
+#W24($CE77EC)
+//Skull Fencer<End>
+
+//POINTER #38 @ $CE77F0 - STRING #38 @ $CE351A
+
+#W24($CE77F0)
+//Hell Curse<End>
+
+//POINTER #39 @ $CE77F4 - STRING #39 @ $CE352E
+
+#W24($CE77F4)
+//Murmur<End>
+
+//POINTER #40 @ $CE77F8 - STRING #40 @ $CE353B
+
+#W24($CE77F8)
+//Gust<End>
+
+//POINTER #41 @ $CE77FC - STRING #41 @ $CE3544
+
+#W24($CE77FC)
+//Flare Phantom<End>
+
+//POINTER #42 @ $CE7800 - STRING #42 @ $CE355E
+
+#W24($CE7800)
+//Geist<End>
+
+//POINTER #43 @ $CE7804 - STRING #43 @ $CE3569
+
+#W24($CE7804)
+//Luna Vampire<End>
+
+//POINTER #44 @ $CE7808 - STRING #44 @ $CE3581
+
+#W24($CE7808)
+//Balrog<End>
+
+//POINTER #45 @ $CE780C - STRING #45 @ $CE358E
+
+#W24($CE780C)
+//Lilith<End>
+
+//POINTER #46 @ $CE7810 - STRING #46 @ $CE359B
+
+#W24($CE7810)
+//Belial Queen<End>
+
+//POINTER #47 @ $CE7814 - STRING #47 @ $CE35B3
+
+#W24($CE7814)
+//Harpuia<End>
+
+//POINTER #48 @ $CE7818 - STRING #48 @ $CE35C2
+
+#W24($CE7818)
+//Violet Down<End>
+
+//POINTER #49 @ $CE781C - STRING #49 @ $CE35D8
+
+#W24($CE781C)
+//Siren<End>
+
+//POINTER #50 @ $CE7820 - STRING #50 @ $CE35E3
+
+#W24($CE7820)
+//Obinick<End>
+
+//POINTER #51 @ $CE7824 - STRING #51 @ $CE35F2
+
+#W24($CE7824)
+//Harpie<End>
+
+//POINTER #52 @ $CE7828 - STRING #52 @ $CE35FF
+
+#W24($CE7828)
+//Viper Rachet<End>
+
+//POINTER #53 @ $CE782C - STRING #53 @ $CE3617
+
+#W24($CE782C)
+//Saber Wolf<End>
+
+//POINTER #54 @ $CE7830 - STRING #54 @ $CE362B
+
+#W24($CE7830)
+//Hell Hound<End>
+
+//POINTER #55 @ $CE7834 - STRING #55 @ $CE363F
+
+#W24($CE7834)
+//Cerberus<End>
+
+//POINTER #56 @ $CE7838 - STRING #56 @ $CE3650
+
+#W24($CE7838)
+//Aeon Ape<End>
+
+//POINTER #57 @ $CE783C - STRING #57 @ $CE3660
+
+#W24($CE783C)
+//Baboon<End>
+
+//POINTER #58 @ $CE7840 - STRING #58 @ $CE366D
+
+#W24($CE7840)
+//Rabid Beast<End>
+
+//POINTER #59 @ $CE7844 - STRING #59 @ $CE3683
+
+#W24($CE7844)
+//Ogre Eater<End>
+
+//POINTER #60 @ $CE7848 - STRING #60 @ $CE3697
+
+#W24($CE7848)
+//Pelga<End>
+
+//POINTER #61 @ $CE784C - STRING #61 @ $CE36A2
+
+#W24($CE784C)
+//Vile Raven<End>
+
+//POINTER #62 @ $CE7850 - STRING #62 @ $CE36B6
+
+#W24($CE7850)
+//Griffon<End>
+
+//POINTER #63 @ $CE7854 - STRING #63 @ $CE36C5
+
+#W24($CE7854)
+//Simurgh<End>
+
+//POINTER #64 @ $CE7858 - STRING #64 @ $CE36D4
+
+#W24($CE7858)
+//Hedge Spider<End>
+
+//POINTER #65 @ $CE785C - STRING #65 @ $CE36EC
+
+#W24($CE785C)
+//Tarantula<End>
+
+//POINTER #66 @ $CE7860 - STRING #66 @ $CE36FF
+
+#W24($CE7860)
+//Carnage Sect<End>
+
+//POINTER #67 @ $CE7864 - STRING #67 @ $CE3717
+
+#W24($CE7864)
+//Arachne<End>
+
+//POINTER #68 @ $CE7868 - STRING #68 @ $CE3726
+
+#W24($CE7868)
+//Giant Beetle<End>
+
+//POINTER #69 @ $CE786C - STRING #69 @ $CE373E
+
+#W24($CE786C)
+//Chariot<End>
+
+//POINTER #70 @ $CE7870 - STRING #70 @ $CE374D
+
+#W24($CE7870)
+//Lethal Insect<End>
+
+//POINTER #71 @ $CE7874 - STRING #71 @ $CE3767
+
+#W24($CE7874)
+//Larva<End>
+
+//POINTER #72 @ $CE7878 - STRING #72 @ $CE3772
+
+#W24($CE7878)
+//Triffid<End>
+
+//POINTER #73 @ $CE787C - STRING #73 @ $CE3781
+
+#W24($CE787C)
+//Mantrap<End>
+
+//POINTER #74 @ $CE7880 - STRING #74 @ $CE3790
+
+#W24($CE7880)
+//Carnivine<End>
+
+//POINTER #75 @ $CE7884 - STRING #75 @ $CE37A3
+
+#W24($CE7884)
+//Blood Rose<End>
+
+//POINTER #76 @ $CE7888 - STRING #76 @ $CE37B7
+
+#W24($CE7888)
+//Bogie<End>
+
+//POINTER #77 @ $CE788C - STRING #77 @ $CE37C2
+
+#W24($CE788C)
+//Kobold<End>
+
+//POINTER #78 @ $CE7890 - STRING #78 @ $CE37CF
+
+#W24($CE7890)
+//Big Bear<End>
+
+//POINTER #79 @ $CE7894 - STRING #79 @ $CE37DF
+
+#W24($CE7894)
+//Minotaur<End>
+
+//POINTER #80 @ $CE7898 - STRING #80 @ $CE37F0
+
+#W24($CE7898)
+//Firbolg<End>
+
+//POINTER #81 @ $CE789C - STRING #81 @ $CE37FF
+
+#W24($CE789C)
+//Golem<End>
+
+//POINTER #82 @ $CE78A0 - STRING #82 @ $CE380A
+
+#W24($CE78A0)
+//Talos<End>
+
+//POINTER #83 @ $CE78A4 - STRING #83 @ $CE3815
+
+#W24($CE78A4)
+//Titan<End>
+
+//POINTER #84 @ $CE78A8 - STRING #84 @ $CE3820
+
+#W24($CE78A8)
+//Green Slime<End>
+
+//POINTER #85 @ $CE78AC - STRING #85 @ $CE3836
+
+#W24($CE78AC)
+//Acid Jelly<End>
+
+//POINTER #86 @ $CE78B0 - STRING #86 @ $CE384A
+
+#W24($CE78B0)
+//Mercury Ooze<End>
+
+//POINTER #87 @ $CE78B4 - STRING #87 @ $CE3862
+
+#W24($CE78B4)
+//Unknown Material<End>
+
+//POINTER #88 @ $CE78B8 - STRING #88 @ $CE3882
+
+#W24($CE78B8)
+//S.Elemental<End>
+
+//POINTER #89 @ $CE78BC - STRING #89 @ $CE3899
+
+#W24($CE78BC)
+//S.Salamander<End>
+
+//POINTER #90 @ $CE78C0 - STRING #90 @ $CE38B2
+
+#W24($CE78C0)
+//S.Diamond Dust<End>
+
+//POINTER #91 @ $CE78C4 - STRING #91 @ $CE38CE
+
+#W24($CE78C4)
+//S.Thor Wisp<End>
+
+//POINTER #92 @ $CE78C8 - STRING #92 @ $CE38E4
+
+#W24($CE78C8)
+//S.Seramental<End>
+
+//POINTER #93 @ $CE78CC - STRING #93 @ $CE38FD
+
+#W24($CE78CC)
+//S.Nightmare<End>
+
+//POINTER #94 @ $CE78D0 - STRING #94 @ $CE3914
+
+#W24($CE78D0)
+//Elemental<End>
+
+//POINTER #95 @ $CE78D4 - STRING #95 @ $CE3927
+
+#W24($CE78D4)
+//Salamander<End>
+
+//POINTER #96 @ $CE78D8 - STRING #96 @ $CE393C
+
+#W24($CE78D8)
+//Diamond Dust<End>
+
+//POINTER #97 @ $CE78DC - STRING #97 @ $CE3954
+
+#W24($CE78DC)
+//Thor Wisp<End>
+
+//POINTER #98 @ $CE78E0 - STRING #98 @ $CE3966
+
+#W24($CE78E0)
+//Seramental<End>
+
+//POINTER #99 @ $CE78E4 - STRING #99 @ $CE397B
+
+#W24($CE78E4)
+//Nightmare<End>
+
+//POINTER #100 @ $CE78E8 - STRING #100 @ $CE398E
+
+#W24($CE78E8)
+//L.Elemental<End>
+
+//POINTER #101 @ $CE78EC - STRING #101 @ $CE39A5
+
+#W24($CE78EC)
+//L.Salamander<End>
+
+//POINTER #102 @ $CE78F0 - STRING #102 @ $CE39BE
+
+#W24($CE78F0)
+//L.Diamond Dust<End>
+
+//POINTER #103 @ $CE78F4 - STRING #103 @ $CE39DA
+
+#W24($CE78F4)
+//L.Thor Wisp<End>
+
+//POINTER #104 @ $CE78F8 - STRING #104 @ $CE39F0
+
+#W24($CE78F8)
+//L.Seramental<End>
+
+//POINTER #105 @ $CE78FC - STRING #105 @ $CE3A09
+
+#W24($CE78FC)
+//L.Nightmare<End>
+
+//POINTER #106 @ $CE7900 - STRING #106 @ $CE3A20
+
+#W24($CE7900)
+//Lizardman<End>
+
+//POINTER #107 @ $CE7904 - STRING #107 @ $CE3A33
+
+#W24($CE7904)
+//Dragonewt<End>
+
+//POINTER #108 @ $CE7908 - STRING #108 @ $CE3A46
+
+#W24($CE7908)
+//Barbaric Drake<End>
+
+//POINTER #109 @ $CE790C - STRING #109 @ $CE3A62
+
+#W24($CE790C)
+//Dragoon<End>
+
+//POINTER #110 @ $CE7910 - STRING #110 @ $CE3A71
+
+#W24($CE7910)
+//Serpent<End>
+
+//POINTER #111 @ $CE7914 - STRING #111 @ $CE3A80
+
+#W24($CE7914)
+//Wyvern<End>
+
+//POINTER #112 @ $CE7918 - STRING #112 @ $CE3A8D
+
+#W24($CE7918)
+//Naga<End>
+
+//POINTER #113 @ $CE791C - STRING #113 @ $CE3A96
+
+#W24($CE791C)
+//Quetzalcoatl<End>
+
+//POINTER #114 @ $CE7920 - STRING #114 @ $CE3AAF
+
+#W24($CE7920)
+//Black Wyrm<End>
+
+//POINTER #115 @ $CE7924 - STRING #115 @ $CE3AC3
+
+#W24($CE7924)
+//Elder Wyrm<End>
+
+//POINTER #116 @ $CE7928 - STRING #116 @ $CE3AD7
+
+#W24($CE7928)
+//White Wyrm<End>
+
+//POINTER #117 @ $CE792C - STRING #117 @ $CE3AEB
+
+#W24($CE792C)
+//Basilisk<End>
+
+//POINTER #118 @ $CE7930 - STRING #118 @ $CE3AFC
+
+#W24($CE7930)
+//Red Dragon<End>
+
+//POINTER #119 @ $CE7934 - STRING #119 @ $CE3B10
+
+#W24($CE7934)
+//Bahamut<End>
+
+//POINTER #120 @ $CE7938 - STRING #120 @ $CE3B1F
+
+#W24($CE7938)
+//Tiamat<End>
+
+//POINTER #121 @ $CE793C - STRING #121 @ $CE3B2C
+
+#W24($CE793C)
+//Aghart<End>
+
+//POINTER #122 @ $CE7940 - STRING #122 @ $CE3B39
+
+#W24($CE7940)
+//Dark Aghart<End>
+
+//POINTER #123 @ $CE7944 - STRING #123 @ $CE3B4F
+
+#W24($CE7944)
+//Isher<End>
+
+//POINTER #124 @ $CE7948 - STRING #124 @ $CE3B4F
+
+#W24($CE7948)
+//Isher<End>
+
+//POINTER #125 @ $CE794C - STRING #125 @ $CE3B5A
+
+#W24($CE794C)
+//Dark Isher<End>
+
+//POINTER #126 @ $CE7950 - STRING #126 @ $CE3B6E
+
+#W24($CE7950)
+//Lindwurm<End>
+
+//POINTER #127 @ $CE7954 - STRING #127 @ $CE3B7F
+
+#W24($CE7954)
+//Dark Lindwurm<End>
+
+//POINTER #128 @ $CE7958 - STRING #128 @ $CE3B99
+
+#W24($CE7958)
+//Death<End>
+
+//POINTER #129 @ $CE795C - STRING #129 @ $CE3B99
+
+#W24($CE795C)
+//Death<End>
+
+//POINTER #130 @ $CE7960 - STRING #130 @ $CE3BA4
+
+#W24($CE7960)
+//Dark Death<End>
+
+//POINTER #131 @ $CE7964 - STRING #131 @ $CE3BB8
+
+#W24($CE7964)
+//Archangel<End>
+
+//POINTER #132 @ $CE7968 - STRING #132 @ $CE3BCB
+
+#W24($CE7968)
+//Darkangel<End>
+
+//POINTER #133 @ $CE796C - STRING #133 @ $CE3BDE
+
+#W24($CE796C)
+//Zombie Dragon<End>
+
+//POINTER #134 @ $CE7970 - STRING #134 @ $CE3BF8
+
+#W24($CE7970)
+//Hades<End>
+
+//POINTER #135 @ $CE7974 - STRING #135 @ $CE3C03
+
+#W24($CE7974)
+//Fool<End>
+
+//POINTER #136 @ $CE7978 - STRING #136 @ $CE3C0C
+
+#W24($CE7978)
+//Sage<End>
+
+//POINTER #137 @ $CE797C - STRING #137 @ $CE3C15
+
+#W24($CE797C)
+//Hector<End>
+
+//POINTER #138 @ $CE7980 - STRING #138 @ $CE3C15
+
+#W24($CE7980)
+//Hector<End>
+
+//POINTER #139 @ $CE7984 - STRING #139 @ $CE3C15
+
+#W24($CE7984)
+//Hector<End>
+
+//POINTER #140 @ $CE7988 - STRING #140 @ $CE3C15
+
+#W24($CE7988)
+//Hector<End>
+
+//POINTER #141 @ $CE798C - STRING #141 @ $CE3C22
+
+#W24($CE798C)
+//Ledah<End>
+
+//POINTER #142 @ $CE7990 - STRING #142 @ $CE3C22
+
+#W24($CE7990)
+//Ledah<End>
+
+//POINTER #143 @ $CE7994 - STRING #143 @ $CE3C2D
+
+#W24($CE7994)
+//Seth—Rah<End>
+
+//POINTER #144 @ $CE7998 - STRING #144 @ $CE3C2D
+
+#W24($CE7998)
+//Seth—Rah<End>
+
+//POINTER #145 @ $CE799C - STRING #145 @ $CE3C3E
+
+#W24($CE799C)
+//?????<End>
+
+//POINTER #146 @ $CE79A0 - STRING #146 @ $CE3C49
+
+#W24($CE79A0)
+//Malice<End>
+
+//POINTER #147 @ $CE79A4 - STRING #147 @ $CE3C49
+
+#W24($CE79A4)
+//Malice<End>
+
+//POINTER #148 @ $CE79A8 - STRING #148 @ $CE3C49
+
+#W24($CE79A8)
+//Malice<End>
+
+//POINTER #149 @ $CE79AC - STRING #149 @ $CE3C3E
+
+#W24($CE79AC)
+//?????<End>
+
+//POINTER #150 @ $CE79B0 - STRING #150 @ $CE3DA5
+
+#W24($CE79B0)
+//Einherjar<End>
+
+//POINTER #151 @ $CE79B4 - STRING #151 @ $CE3DA5
+
+#W24($CE79B4)
+//Einherjar<End>
+
+//POINTER #152 @ $CE79B8 - STRING #152 @ $CE3DA5
+
+#W24($CE79B8)
+//Einherjar<End>
+
+//POINTER #153 @ $CE79BC - STRING #153 @ $CE3DA5
+
+#W24($CE79BC)
+//Einherjar<End>
+
+//POINTER #154 @ $CE79C0 - STRING #154 @ $CE3DA5
+
+#W24($CE79C0)
+//Einherjar<End>
+
+//POINTER #155 @ $CE79C4 - STRING #155 @ $CE3DA5
+
+#W24($CE79C4)
+//Einherjar<End>
+
+//POINTER #156 @ $CE79C8 - STRING #156 @ $CE3DA5
+
+#W24($CE79C8)
+//Einherjar<End>
+
+//POINTER #157 @ $CE79CC - STRING #157 @ $CE3DA5
+
+#W24($CE79CC)
+//Einherjar<End>
+
+//POINTER #158 @ $CE79D0 - STRING #158 @ $CE3DB8
+
+#W24($CE79D0)
+//Lorelei<End>
+
+//POINTER #159 @ $CE79D4 - STRING #159 @ $CE3DB8
+
+#W24($CE79D4)
+//Lorelei<End>
+
+//POINTER #160 @ $CE79D8 - STRING #160 @ $CE3DC7
+
+#W24($CE79D8)
+//Skadi<End>
+
+//POINTER #161 @ $CE79DC - STRING #161 @ $CE3DD2
+
+#W24($CE79DC)
+//Iron Sword<End>
+
+//POINTER #162 @ $CE79E0 - STRING #162 @ $CE3DE6
+
+#W24($CE79E0)
+//Flamberg<End>
+
+//POINTER #163 @ $CE79E4 - STRING #163 @ $CE3DF7
+
+#W24($CE79E4)
+//Thunder Blade<End>
+
+//POINTER #164 @ $CE79E8 - STRING #164 @ $CE3E11
+
+#W24($CE79E8)
+//Mithril Sword<End>
+
+//POINTER #165 @ $CE79EC - STRING #165 @ $CE3E2B
+
+#W24($CE79EC)
+//Zephyr<End>
+
+//POINTER #166 @ $CE79F0 - STRING #166 @ $CE3E38
+
+#W24($CE79F0)
+//Gran Sabre<End>
+
+//POINTER #167 @ $CE79F4 - STRING #167 @ $CE3E4C
+
+#W24($CE79F4)
+//Rapier<End>
+
+//POINTER #168 @ $CE79F8 - STRING #168 @ $CE3E59
+
+#W24($CE79F8)
+//Silver Rapier<End>
+
+//POINTER #169 @ $CE79FC - STRING #169 @ $CE3E73
+
+#W24($CE79FC)
+//Estoc<End>
+
+//POINTER #170 @ $CE7A00 - STRING #170 @ $CE3E7E
+
+#W24($CE7A00)
+//Holy Sabre<End>
+
+//POINTER #171 @ $CE7A04 - STRING #171 @ $CE3E92
+
+#W24($CE7A04)
+//Blue Stinger<End>
+
+//POINTER #172 @ $CE7A08 - STRING #172 @ $CE3EAA
+
+#W24($CE7A08)
+//Rosier<End>
+
+//POINTER #173 @ $CE7A0C - STRING #173 @ $CE3EB7
+
+#W24($CE7A0C)
+//Longbow<End>
+
+//POINTER #174 @ $CE7A10 - STRING #174 @ $CE3EC6
+
+#W24($CE7A10)
+//Lightning Bow<End>
+
+//POINTER #175 @ $CE7A14 - STRING #175 @ $CE3EE0
+
+#W24($CE7A14)
+//Elfin Bow<End>
+
+//POINTER #176 @ $CE7A18 - STRING #176 @ $CE3EF2
+
+#W24($CE7A18)
+//Iria's Bow<End>
+
+//POINTER #177 @ $CE7A1C - STRING #177 @ $CE3F06
+
+#W24($CE7A1C)
+//Spiral Arch<End>
+
+//POINTER #178 @ $CE7A20 - STRING #178 @ $CE3F1C
+
+#W24($CE7A20)
+//Diana's Bow<End>
+
+//POINTER #179 @ $CE7A24 - STRING #179 @ $CE3F32
+
+#W24($CE7A24)
+//Hell Scythe<End>
+
+//POINTER #180 @ $CE7A28 - STRING #180 @ $CE3F48
+
+#W24($CE7A28)
+//Ogre Blade<End>
+
+//POINTER #181 @ $CE7A2C - STRING #181 @ $CE3F5C
+
+#W24($CE7A2C)
+//Burning Sun<End>
+
+//POINTER #182 @ $CE7A30 - STRING #182 @ $CE3F72
+
+#W24($CE7A30)
+//Black Scythe<End>
+
+//POINTER #183 @ $CE7A34 - STRING #183 @ $CE3F8A
+
+#W24($CE7A34)
+//Silver Moon<End>
+
+//POINTER #184 @ $CE7A38 - STRING #184 @ $CE3FA0
+
+#W24($CE7A38)
+//Infinite Arc<End>
+
+//POINTER #185 @ $CE7A3C - STRING #185 @ $CE3FB8
+
+#W24($CE7A3C)
+//Coral Staff<End>
+
+//POINTER #186 @ $CE7A40 - STRING #186 @ $CE3FCE
+
+#W24($CE7A40)
+//Ruby Staff<End>
+
+//POINTER #187 @ $CE7A44 - STRING #187 @ $CE3FE2
+
+#W24($CE7A44)
+//Moon Wand<End>
+
+//POINTER #188 @ $CE7A48 - STRING #188 @ $CE3FF4
+
+#W24($CE7A48)
+//Salamander Rod<End>
+
+//POINTER #189 @ $CE7A4C - STRING #189 @ $CE4010
+
+#W24($CE7A4C)
+//Phoenix Wand<End>
+
+//POINTER #190 @ $CE7A50 - STRING #190 @ $CE4028
+
+#W24($CE7A50)
+//Southern Cross<End>
+
+//POINTER #191 @ $CE7A54 - STRING #191 @ $CE4044
+
+#W24($CE7A54)
+//Gae Bolg<End>
+
+//POINTER #192 @ $CE7A58 - STRING #192 @ $CE4054
+
+#W24($CE7A58)
+//Ice Javelin<End>
+
+//POINTER #193 @ $CE7A5C - STRING #193 @ $CE406A
+
+#W24($CE7A5C)
+//Cross Lance<End>
+
+//POINTER #194 @ $CE7A60 - STRING #194 @ $CE4080
+
+#W24($CE7A60)
+//Crystal Lance<End>
+
+//POINTER #195 @ $CE7A64 - STRING #195 @ $CE409A
+
+#W24($CE7A64)
+//Silvia<End>
+
+//POINTER #196 @ $CE7A68 - STRING #196 @ $CE40A7
+
+#W24($CE7A68)
+//Rose Whip<End>
+
+//POINTER #197 @ $CE7A6C - STRING #197 @ $CE40B9
+
+#W24($CE7A6C)
+//Flame Whip<End>
+
+//POINTER #198 @ $CE7A70 - STRING #198 @ $CE40CD
+
+#W24($CE7A70)
+//Thunder Chain<End>
+
+//POINTER #199 @ $CE7A74 - STRING #199 @ $CE40E7
+
+#W24($CE7A74)
+//Viper Whip<End>
+
+//POINTER #200 @ $CE7A78 - STRING #200 @ $CE40FB
+
+#W24($CE7A78)
+//Harpie Talon<End>
+
+//POINTER #201 @ $CE7A7C - STRING #201 @ $CE4113
+
+#W24($CE7A7C)
+//Blood Fang<End>
+
+//POINTER #202 @ $CE7A80 - STRING #202 @ $CE4127
+
+#W24($CE7A80)
+//Wyvernzem<End>
+
+//POINTER #203 @ $CE7A84 - STRING #203 @ $CE413A
+
+#W24($CE7A84)
+//Leyte Claw<End>
+
+//POINTER #204 @ $CE7A88 - STRING #204 @ $CE414E
+
+#W24($CE7A88)
+//Book of Laura<End>
+
+//POINTER #205 @ $CE7A8C - STRING #205 @ $CE4167
+
+#W24($CE7A8C)
+//Book of Nanai<End>
+
+//POINTER #206 @ $CE7A90 - STRING #206 @ $CE4180
+
+#W24($CE7A90)
+//Book of Gelt<End>
+
+//POINTER #207 @ $CE7A94 - STRING #207 @ $CE4197
+
+#W24($CE7A94)
+//Book of Kirie<End>
+
+//POINTER #208 @ $CE7A98 - STRING #208 @ $CE41B0
+
+#W24($CE7A98)
+//Ignis Spear<End>
+
+//POINTER #209 @ $CE7A9C - STRING #209 @ $CE41C6
+
+#W24($CE7A9C)
+//Excalibur<End>
+
+//POINTER #210 @ $CE7AA0 - STRING #210 @ $CE41D9
+
+#W24($CE7AA0)
+//Tempest Bow<End>
+
+//POINTER #211 @ $CE7AA4 - STRING #211 @ $CE41EF
+
+#W24($CE7AA4)
+//Night Scythe<End>
+
+//POINTER #212 @ $CE7AA8 - STRING #212 @ $CE4207
+
+#W24($CE7AA8)
+//Saint Scepter<End>
+
+//POINTER #213 @ $CE7AAC - STRING #213 @ $CE4221
+
+#W24($CE7AAC)
+//Blue Bomber<End>
+
+//POINTER #214 @ $CE7AB0 - STRING #214 @ $CE4237
+
+#W24($CE7AB0)
+//Red Viper<End>
+
+//POINTER #215 @ $CE7AB4 - STRING #215 @ $CE4249
+
+#W24($CE7AB4)
+//Tentacle Rod<End>
+
+//POINTER #216 @ $CE7AB8 - STRING #216 @ $CE4261
+
+#W24($CE7AB8)
+//Longinus<End>
+
+//POINTER #217 @ $CE7ABC - STRING #217 @ $CE4272
+
+#W24($CE7ABC)
+//Fanelia<End>
+
+//POINTER #218 @ $CE7AC0 - STRING #218 @ $CE4281
+
+#W24($CE7AC0)
+//Nost Lenne<End>
+
+//POINTER #219 @ $CE7AC4 - STRING #219 @ $CE4295
+
+#W24($CE7AC4)
+//Ceneca Qui<End>
+
+//POINTER #220 @ $CE7AC8 - STRING #220 @ $CE42A9
+
+#W24($CE7AC8)
+//Clene Met<End>
+
+//POINTER #221 @ $CE7ACC - STRING #221 @ $CE42BB
+
+#W24($CE7ACC)
+//Zantetsu<End>
+
+//POINTER #222 @ $CE7AD0 - STRING #222 @ $CE42CC
+
+#W24($CE7AD0)
+//Kiku—Ichimonji<End>
+
+//POINTER #223 @ $CE7AD4 - STRING #223 @ $CE42E9
+
+#W24($CE7AD4)
+//Naga Fang<End>
+
+//POINTER #224 @ $CE7AD8 - STRING #224 @ $CE42FB
+
+#W24($CE7AD8)
+//Dragon Killer<End>
+
+//POINTER #225 @ $CE7ADC - STRING #225 @ $CE4315
+
+#W24($CE7ADC)
+//Dragon Buster<End>
+
+//POINTER #226 @ $CE7AE0 - STRING #226 @ $CE432F
+
+#W24($CE7AE0)
+//Dragon Eraser<End>
+
+//POINTER #227 @ $CE7AE4 - STRING #227 @ $CE4349
+
+#W24($CE7AE4)
+//Dragon Slayer<End>
+
+//POINTER #228 @ $CE7AE8 - STRING #228 @ $CE4363
+
+#W24($CE7AE8)
+//Canine Fang<End>
+
+//POINTER #229 @ $CE7AEC - STRING #229 @ $CE4379
+
+#W24($CE7AEC)
+//Wolf Fang<End>
+
+//POINTER #230 @ $CE7AF0 - STRING #230 @ $CE438B
+
+#W24($CE7AF0)
+//Beast Fang<End>
+
+//POINTER #231 @ $CE7AF4 - STRING #231 @ $CE439F
+
+#W24($CE7AF4)
+//Manalith Dagger<End>
+
+//POINTER #232 @ $CE7AF8 - STRING #232 @ $CE43BD
+
+#W24($CE7AF8)
+//Silver Dagger<End>
+
+//POINTER #233 @ $CE7AFC - STRING #233 @ $CE43D7
+
+#W24($CE7AFC)
+//Iron Bowgun<End>
+
+//POINTER #234 @ $CE7B00 - STRING #234 @ $CE43ED
+
+#W24($CE7B00)
+//Arbalest<End>
+
+//POINTER #235 @ $CE7B04 - STRING #235 @ $CE43FE
+
+#W24($CE7B04)
+//Wind Bowgun<End>
+
+//POINTER #236 @ $CE7B08 - STRING #236 @ $CE4414
+
+#W24($CE7B08)
+//Tri—Shot<End>
+
+//POINTER #237 @ $CE7B0C - STRING #237 @ $CE4425
+
+#W24($CE7B0C)
+//Mr. Bat<End>
+
+//POINTER #238 @ $CE7B10 - STRING #238 @ $CE4433
+
+#W24($CE7B10)
+//Bat Jr.<End>
+
+//POINTER #239 @ $CE7B14 - STRING #239 @ $CE4441
+
+#W24($CE7B14)
+//Mr. Bat III<End>
+
+//POINTER #240 @ $CE7B18 - STRING #240 @ $CE4452
+
+#W24($CE7B18)
+//Spiked Hammer<End>
+
+//POINTER #241 @ $CE7B1C - STRING #241 @ $CE446C
+
+#W24($CE7B1C)
+//Slumber Ivy<End>
+
+//POINTER #242 @ $CE7B20 - STRING #242 @ $CE4482
+
+#W24($CE7B20)
+//Cheer Bell<End>
+
+//POINTER #243 @ $CE7B24 - STRING #243 @ $CE4496
+
+#W24($CE7B24)
+//Beehive<End>
+
+//POINTER #244 @ $CE7B28 - STRING #244 @ $CE44A5
+
+#W24($CE7B28)
+//Killer Beehive<End>
+
+//POINTER #245 @ $CE7B2C - STRING #245 @ $CE44C1
+
+#W24($CE7B2C)
+//Tarot<End>
+
+//POINTER #246 @ $CE7B30 - STRING #246 @ $CE44CC
+
+#W24($CE7B30)
+//Magna Rock<End>
+
+//POINTER #247 @ $CE7B34 - STRING #247 @ $CE44E0
+
+#W24($CE7B34)
+//Happy Plume<End>
+
+//POINTER #248 @ $CE7B38 - STRING #248 @ $CE44F6
+
+#W24($CE7B38)
+//Wet Book<End>
+
+//POINTER #249 @ $CE7B3C - STRING #249 @ $CE4506
+
+#W24($CE7B3C)
+//Wyvern Wing<End>
+
+//POINTER #250 @ $CE7B40 - STRING #250 @ $CE451C
+
+#W24($CE7B40)
+//Spider Web<End>
+
+//POINTER #251 @ $CE7B44 - STRING #251 @ $CE4530
+
+#W24($CE7B44)
+//Slime Ball<End>
+
+//POINTER #252 @ $CE7B48 - STRING #252 @ $CE4544
+
+#W24($CE7B48)
+//Harpie Plume<End>
+
+//POINTER #253 @ $CE7B4C - STRING #253 @ $CE455C
+
+#W24($CE7B4C)
+//Fallen Fan<End>
+
+//POINTER #254 @ $CE7B50 - STRING #254 @ $CE4570
+
+#W24($CE7B50)
+//Dud<End>
+
+//POINTER #255 @ $CE7B54 - STRING #255 @ $CE4577
+
+#W24($CE7B54)
+//Bomb<End>
+
+//POINTER #256 @ $CE7B58 - STRING #256 @ $CE4580
+
+#W24($CE7B58)
+//Wyrm Wing<End>
+
+//POINTER #257 @ $CE7B5C - STRING #257 @ $CE4592
+
+#W24($CE7B5C)
+//Power Wrist<End>
+
+//POINTER #258 @ $CE7B60 - STRING #258 @ $CE45A8
+
+#W24($CE7B60)
+//Mage Ring<End>
+
+//POINTER #259 @ $CE7B64 - STRING #259 @ $CE45BA
+
+#W24($CE7B64)
+//Mage Armor<End>
+
+//POINTER #260 @ $CE7B68 - STRING #260 @ $CE45CE
+
+#W24($CE7B68)
+//Cape<End>
+
+//POINTER #261 @ $CE7B6C - STRING #261 @ $CE45D7
+
+#W24($CE7B6C)
+//Shield<End>
+
+//POINTER #262 @ $CE7B70 - STRING #262 @ $CE45E4
+
+#W24($CE7B70)
+//Pendant<End>
+
+//POINTER #263 @ $CE7B74 - STRING #263 @ $CE45F3
+
+#W24($CE7B74)
+//Amulet<End>
+
+//POINTER #264 @ $CE7B78 - STRING #264 @ $CE4600
+
+#W24($CE7B78)
+//Fire Orb<End>
+
+//POINTER #265 @ $CE7B7C - STRING #265 @ $CE4610
+
+#W24($CE7B7C)
+//Fire Crest<End>
+
+//POINTER #266 @ $CE7B80 - STRING #266 @ $CE4624
+
+#W24($CE7B80)
+//Fire Emblem<End>
+
+//POINTER #267 @ $CE7B84 - STRING #267 @ $CE463A
+
+#W24($CE7B84)
+//Ice Orb<End>
+
+//POINTER #268 @ $CE7B88 - STRING #268 @ $CE4648
+
+#W24($CE7B88)
+//Ice Crest<End>
+
+//POINTER #269 @ $CE7B8C - STRING #269 @ $CE465A
+
+#W24($CE7B8C)
+//Ice Emblem<End>
+
+//POINTER #270 @ $CE7B90 - STRING #270 @ $CE466E
+
+#W24($CE7B90)
+//Lightning Orb<End>
+
+//POINTER #271 @ $CE7B94 - STRING #271 @ $CE4688
+
+#W24($CE7B94)
+//Lightning Crest<End>
+
+//POINTER #272 @ $CE7B98 - STRING #272 @ $CE46A6
+
+#W24($CE7B98)
+//Lightning Emblem<End>
+
+//POINTER #273 @ $CE7B9C - STRING #273 @ $CE46C6
+
+#W24($CE7B9C)
+//Holy Orb<End>
+
+//POINTER #274 @ $CE7BA0 - STRING #274 @ $CE46D6
+
+#W24($CE7BA0)
+//Holy Crest<End>
+
+//POINTER #275 @ $CE7BA4 - STRING #275 @ $CE46EA
+
+#W24($CE7BA4)
+//Holy Emblem<End>
+
+//POINTER #276 @ $CE7BA8 - STRING #276 @ $CE4700
+
+#W24($CE7BA8)
+//Banango<End>
+
+//POINTER #277 @ $CE7BAC - STRING #277 @ $CE470F
+
+#W24($CE7BAC)
+//Applecot<End>
+
+//POINTER #278 @ $CE7BB0 - STRING #278 @ $CE4720
+
+#W24($CE7BB0)
+//Holy Water<End>
+
+//POINTER #279 @ $CE7BB4 - STRING #279 @ $CE4734
+
+#W24($CE7BB4)
+//Healing Herb<End>
+
+//POINTER #280 @ $CE7BB8 - STRING #280 @ $CE474C
+
+#W24($CE7BB8)
+//Potion<End>
+
+//POINTER #281 @ $CE7BBC - STRING #281 @ $CE4759
+
+#W24($CE7BBC)
+//Heilkraut<End>
+
+//POINTER #282 @ $CE7BC0 - STRING #282 @ $CE476C
+
+#W24($CE7BC0)
+//Elixir<End>
+
+//POINTER #283 @ $CE7BC4 - STRING #283 @ $CE4779
+
+#W24($CE7BC4)
+//Meat<End>
+
+//POINTER #284 @ $CE7BC8 - STRING #284 @ $CE4782
+
+#W24($CE7BC8)
+//Steak<End>
+
+//POINTER #285 @ $CE7BCC - STRING #285 @ $CE478D
+
+#W24($CE7BCC)
+//Rotten Meat<End>
+
+//POINTER #286 @ $CE7BD0 - STRING #286 @ $CE47A3
+
+#W24($CE7BD0)
+//Burnt Meat<End>
+
+//POINTER #287 @ $CE7BD4 - STRING #287 @ $CE47B7
+
+#W24($CE7BD4)
+//Egg<End>
+
+//POINTER #288 @ $CE7BD8 - STRING #288 @ $CE47BE
+
+#W24($CE7BD8)
+//Over—Easy<End>
+
+//POINTER #289 @ $CE7BDC - STRING #289 @ $CE47D1
+
+#W24($CE7BDC)
+//Bread<End>
+
+//POINTER #290 @ $CE7BE0 - STRING #290 @ $CE47DC
+
+#W24($CE7BE0)
+//Wet Bread<End>
+
+//POINTER #291 @ $CE7BE4 - STRING #291 @ $CE47EE
+
+#W24($CE7BE4)
+//Moldy Bread<End>
+
+//POINTER #292 @ $CE7BE8 - STRING #292 @ $CE4804
+
+#W24($CE7BE8)
+//Burnt Bread<End>
+
+//POINTER #293 @ $CE7BEC - STRING #293 @ $CE481A
+
+#W24($CE7BEC)
+//Dragon Meat<End>
+
+//POINTER #294 @ $CE7BF0 - STRING #294 @ $CE4830
+
+#W24($CE7BF0)
+//Dragon Steak<End>
+
+//POINTER #295 @ $CE7BF4 - STRING #295 @ $CE4848
+
+#W24($CE7BF4)
+//Earrings<End>
+
+//POINTER #296 @ $CE7BF8 - STRING #296 @ $CE4859
+
+#W24($CE7BF8)
+//Ribbon<End>
+
+//POINTER #297 @ $CE7BFC - STRING #297 @ $CE4866
+
+#W24($CE7BFC)
+//Rosary<End>
+
+//POINTER #298 @ $CE7C00 - STRING #298 @ $CE4873
+
+#W24($CE7C00)
+//Flag<End>
+
+//POINTER #299 @ $CE7C04 - STRING #299 @ $CE487C
+
+#W24($CE7C04)
+//Hourglass<End>
+
+//POINTER #300 @ $CE7C08 - STRING #300 @ $CE488F
+
+#W24($CE7C08)
+//Witch Broom<End>
+
+//POINTER #301 @ $CE7C0C - STRING #301 @ $CE48A5
+
+#W24($CE7C0C)
+//Black Earring<End>
+
+//POINTER #302 @ $CE7C10 - STRING #302 @ $CE48BF
+
+#W24($CE7C10)
+//Black Choker<End>
+
+//POINTER #303 @ $CE7C14 - STRING #303 @ $CE48D7
+
+#W24($CE7C14)
+//Hair Ornament<End>
+
+//POINTER #304 @ $CE7C18 - STRING #304 @ $CE48F1
+
+#W24($CE7C18)
+//Battle Pixies<End>
+
+//POINTER #305 @ $CE7C1C - STRING #305 @ $CE490B
+
+#W24($CE7C1C)
+//Slash<End>
+
+//POINTER #306 @ $CE7C20 - STRING #306 @ $CE490B
+
+#W24($CE7C20)
+//Slash<End>
+
+//POINTER #307 @ $CE7C24 - STRING #307 @ $CE4916
+
+#W24($CE7C24)
+//Double Slash<End>
+
+//POINTER #308 @ $CE7C28 - STRING #308 @ $CE490B
+
+#W24($CE7C28)
+//Slash<End>
+
+//POINTER #309 @ $CE7C2C - STRING #309 @ $CE492E
+
+#W24($CE7C2C)
+//Throw<End>
+
+//POINTER #310 @ $CE7C30 - STRING #310 @ $CE492E
+
+#W24($CE7C30)
+//Throw<End>
+
+//POINTER #311 @ $CE7C34 - STRING #311 @ $CE492E
+
+#W24($CE7C34)
+//Throw<End>
+
+//POINTER #312 @ $CE7C38 - STRING #312 @ $CE492E
+
+#W24($CE7C38)
+//Throw<End>
+
+//POINTER #313 @ $CE7C3C - STRING #313 @ $CE490B
+
+#W24($CE7C3C)
+//Slash<End>
+
+//POINTER #314 @ $CE7C40 - STRING #314 @ $CE4939
+
+#W24($CE7C40)
+//Disaresta<End>
+
+//POINTER #315 @ $CE7C44 - STRING #315 @ $CE492E
+
+#W24($CE7C44)
+//Throw<End>
+
+//POINTER #316 @ $CE7C48 - STRING #316 @ $CE492E
+
+#W24($CE7C48)
+//Throw<End>
+
+//POINTER #317 @ $CE7C4C - STRING #317 @ $CE492E
+
+#W24($CE7C4C)
+//Throw<End>
+
+//POINTER #318 @ $CE7C50 - STRING #318 @ $CE492E
+
+#W24($CE7C50)
+//Throw<End>
+
+//POINTER #319 @ $CE7C54 - STRING #319 @ $CE490B
+
+#W24($CE7C54)
+//Slash<End>
+
+//POINTER #320 @ $CE7C58 - STRING #320 @ $CE4939
+
+#W24($CE7C58)
+//Disaresta<End>
+
+//POINTER #321 @ $CE7C5C - STRING #321 @ $CE492E
+
+#W24($CE7C5C)
+//Throw<End>
+
+//POINTER #322 @ $CE7C60 - STRING #322 @ $CE492E
+
+#W24($CE7C60)
+//Throw<End>
+
+//POINTER #323 @ $CE7C64 - STRING #323 @ $CE492E
+
+#W24($CE7C64)
+//Throw<End>
+
+//POINTER #324 @ $CE7C68 - STRING #324 @ $CE492E
+
+#W24($CE7C68)
+//Throw<End>
+
+//POINTER #325 @ $CE7C6C - STRING #325 @ $CE490B
+
+#W24($CE7C6C)
+//Slash<End>
+
+//POINTER #326 @ $CE7C70 - STRING #326 @ $CE4939
+
+#W24($CE7C70)
+//Disaresta<End>
+
+//POINTER #327 @ $CE7C74 - STRING #327 @ $CE492E
+
+#W24($CE7C74)
+//Throw<End>
+
+//POINTER #328 @ $CE7C78 - STRING #328 @ $CE492E
+
+#W24($CE7C78)
+//Throw<End>
+
+//POINTER #329 @ $CE7C7C - STRING #329 @ $CE492E
+
+#W24($CE7C7C)
+//Throw<End>
+
+//POINTER #330 @ $CE7C80 - STRING #330 @ $CE492E
+
+#W24($CE7C80)
+//Throw<End>
+
+//POINTER #331 @ $CE7C84 - STRING #331 @ $CE490B
+
+#W24($CE7C84)
+//Slash<End>
+
+//POINTER #332 @ $CE7C88 - STRING #332 @ $CE4939
+
+#W24($CE7C88)
+//Disaresta<End>
+
+//POINTER #333 @ $CE7C8C - STRING #333 @ $CE492E
+
+#W24($CE7C8C)
+//Throw<End>
+
+//POINTER #334 @ $CE7C90 - STRING #334 @ $CE492E
+
+#W24($CE7C90)
+//Throw<End>
+
+//POINTER #335 @ $CE7C94 - STRING #335 @ $CE492E
+
+#W24($CE7C94)
+//Throw<End>
+
+//POINTER #336 @ $CE7C98 - STRING #336 @ $CE492E
+
+#W24($CE7C98)
+//Throw<End>
+
+//POINTER #337 @ $CE7C9C - STRING #337 @ $CE490B
+
+#W24($CE7C9C)
+//Slash<End>
+
+//POINTER #338 @ $CE7CA0 - STRING #338 @ $CE4939
+
+#W24($CE7CA0)
+//Disaresta<End>
+
+//POINTER #339 @ $CE7CA4 - STRING #339 @ $CE492E
+
+#W24($CE7CA4)
+//Throw<End>
+
+//POINTER #340 @ $CE7CA8 - STRING #340 @ $CE492E
+
+#W24($CE7CA8)
+//Throw<End>
+
+//POINTER #341 @ $CE7CAC - STRING #341 @ $CE492E
+
+#W24($CE7CAC)
+//Throw<End>
+
+//POINTER #342 @ $CE7CB0 - STRING #342 @ $CE492E
+
+#W24($CE7CB0)
+//Throw<End>
+
+//POINTER #343 @ $CE7CB4 - STRING #343 @ $CE494C
+
+#W24($CE7CB4)
+//Fire<End>
+
+//POINTER #344 @ $CE7CB8 - STRING #344 @ $CE4955
+
+#W24($CE7CB8)
+//Divide<End>
+
+//POINTER #345 @ $CE7CBC - STRING #345 @ $CE4962
+
+#W24($CE7CBC)
+//Lost Seraph<End>
+
+//POINTER #346 @ $CE7CC0 - STRING #346 @ $CE4978
+
+#W24($CE7CC0)
+//Shining Flare<End>
+
+//POINTER #347 @ $CE7CC4 - STRING #347 @ $CE492E
+
+#W24($CE7CC4)
+//Throw<End>
+
+//POINTER #348 @ $CE7CC8 - STRING #348 @ $CE492E
+
+#W24($CE7CC8)
+//Throw<End>
+
+//POINTER #349 @ $CE7CCC - STRING #349 @ $CE492E
+
+#W24($CE7CCC)
+//Throw<End>
+
+//POINTER #350 @ $CE7CD0 - STRING #350 @ $CE492E
+
+#W24($CE7CD0)
+//Throw<End>
+
+//POINTER #351 @ $CE7CD4 - STRING #351 @ $CE4992
+
+#W24($CE7CD4)
+//Misty Mist<End>
+
+//POINTER #352 @ $CE7CD8 - STRING #352 @ $CE492E
+
+#W24($CE7CD8)
+//Throw<End>
+
+//POINTER #353 @ $CE7CDC - STRING #353 @ $CE492E
+
+#W24($CE7CDC)
+//Throw<End>
+
+//POINTER #354 @ $CE7CE0 - STRING #354 @ $CE492E
+
+#W24($CE7CE0)
+//Throw<End>
+
+//POINTER #355 @ $CE7CE4 - STRING #355 @ $CE492E
+
+#W24($CE7CE4)
+//Throw<End>
+
+//POINTER #356 @ $CE7CE8 - STRING #356 @ $CE49A6
+
+#W24($CE7CE8)
+//Slash<End>
+
+//POINTER #357 @ $CE7CEC - STRING #357 @ $CE49B1
+
+#W24($CE7CEC)
+//Sword Blitz<End>
+
+//POINTER #358 @ $CE7CF0 - STRING #358 @ $CE49C7
+
+#W24($CE7CF0)
+//Magic Blade<End>
+
+//POINTER #359 @ $CE7CF4 - STRING #359 @ $CE49DD
+
+#W24($CE7CF4)
+//Blade Shot<End>
+
+//POINTER #360 @ $CE7CF8 - STRING #360 @ $CE49F1
+
+#W24($CE7CF8)
+//Mage Slash<End>
+
+//POINTER #361 @ $CE7CFC - STRING #361 @ $CE4A05
+
+#W24($CE7CFC)
+//Mage Stream<End>
+
+//POINTER #362 @ $CE7D00 - STRING #362 @ $CE492E
+
+#W24($CE7D00)
+//Throw<End>
+
+//POINTER #363 @ $CE7D04 - STRING #363 @ $CE4A1B
+
+#W24($CE7D04)
+//Slash Upward<End>
+
+//POINTER #364 @ $CE7D08 - STRING #364 @ $CE4A33
+
+#W24($CE7D08)
+//Critical Edge<End>
+
+//POINTER #365 @ $CE7D0C - STRING #365 @ $CE49A6
+
+#W24($CE7D0C)
+//Slash<End>
+
+//POINTER #366 @ $CE7D10 - STRING #366 @ $CE4A4D
+
+#W24($CE7D10)
+//Flame Slash<End>
+
+//POINTER #367 @ $CE7D14 - STRING #367 @ $CE49C7
+
+#W24($CE7D14)
+//Magic Blade<End>
+
+//POINTER #368 @ $CE7D18 - STRING #368 @ $CE4A63
+
+#W24($CE7D18)
+//Fire Blade<End>
+
+//POINTER #369 @ $CE7D1C - STRING #369 @ $CE49F1
+
+#W24($CE7D1C)
+//Mage Slash<End>
+
+//POINTER #370 @ $CE7D20 - STRING #370 @ $CE4A77
+
+#W24($CE7D20)
+//Volcano Strike<End>
+
+//POINTER #371 @ $CE7D24 - STRING #371 @ $CE492E
+
+#W24($CE7D24)
+//Throw<End>
+
+//POINTER #372 @ $CE7D28 - STRING #372 @ $CE4A1B
+
+#W24($CE7D28)
+//Slash Upward<End>
+
+//POINTER #373 @ $CE7D2C - STRING #373 @ $CE4A93
+
+#W24($CE7D2C)
+//Vertical Flare<End>
+
+//POINTER #374 @ $CE7D30 - STRING #374 @ $CE49A6
+
+#W24($CE7D30)
+//Slash<End>
+
+//POINTER #375 @ $CE7D34 - STRING #375 @ $CE4AAF
+
+#W24($CE7D34)
+//Lightning Strike<End>
+
+//POINTER #376 @ $CE7D38 - STRING #376 @ $CE49C7
+
+#W24($CE7D38)
+//Magic Blade<End>
+
+//POINTER #377 @ $CE7D3C - STRING #377 @ $CE4ACF
+
+#W24($CE7D3C)
+//Thunder Blade<End>
+
+//POINTER #378 @ $CE7D40 - STRING #378 @ $CE49F1
+
+#W24($CE7D40)
+//Mage Slash<End>
+
+//POINTER #379 @ $CE7D44 - STRING #379 @ $CE4AE9
+
+#W24($CE7D44)
+//High Voltage<End>
+
+//POINTER #380 @ $CE7D48 - STRING #380 @ $CE492E
+
+#W24($CE7D48)
+//Throw<End>
+
+//POINTER #381 @ $CE7D4C - STRING #381 @ $CE4A1B
+
+#W24($CE7D4C)
+//Slash Upward<End>
+
+//POINTER #382 @ $CE7D50 - STRING #382 @ $CE4B01
+
+#W24($CE7D50)
+//Spark Edge<End>
+
+//POINTER #383 @ $CE7D54 - STRING #383 @ $CE49A6
+
+#W24($CE7D54)
+//Slash<End>
+
+//POINTER #384 @ $CE7D58 - STRING #384 @ $CE4B15
+
+#W24($CE7D58)
+//Earth Shaker<End>
+
+//POINTER #385 @ $CE7D5C - STRING #385 @ $CE49C7
+
+#W24($CE7D5C)
+//Magic Blade<End>
+
+//POINTER #386 @ $CE7D60 - STRING #386 @ $CE4B2D
+
+#W24($CE7D60)
+//Mithril Blade<End>
+
+//POINTER #387 @ $CE7D64 - STRING #387 @ $CE49F1
+
+#W24($CE7D64)
+//Mage Slash<End>
+
+//POINTER #388 @ $CE7D68 - STRING #388 @ $CE4B47
+
+#W24($CE7D68)
+//Bone Breaker<End>
+
+//POINTER #389 @ $CE7D6C - STRING #389 @ $CE492E
+
+#W24($CE7D6C)
+//Throw<End>
+
+//POINTER #390 @ $CE7D70 - STRING #390 @ $CE4A1B
+
+#W24($CE7D70)
+//Slash Upward<End>
+
+//POINTER #391 @ $CE7D74 - STRING #391 @ $CE4B5F
+
+#W24($CE7D74)
+//Rising Edge<End>
+
+//POINTER #392 @ $CE7D78 - STRING #392 @ $CE49A6
+
+#W24($CE7D78)
+//Slash<End>
+
+//POINTER #393 @ $CE7D7C - STRING #393 @ $CE4B75
+
+#W24($CE7D7C)
+//Mimic Ray<End>
+
+//POINTER #394 @ $CE7D80 - STRING #394 @ $CE49C7
+
+#W24($CE7D80)
+//Magic Blade<End>
+
+//POINTER #395 @ $CE7D84 - STRING #395 @ $CE4B87
+
+#W24($CE7D84)
+//Plasma Blade<End>
+
+//POINTER #396 @ $CE7D88 - STRING #396 @ $CE49F1
+
+#W24($CE7D88)
+//Mage Slash<End>
+
+//POINTER #397 @ $CE7D8C - STRING #397 @ $CE4B9F
+
+#W24($CE7D8C)
+//Voltek Wave<End>
+
+//POINTER #398 @ $CE7D90 - STRING #398 @ $CE492E
+
+#W24($CE7D90)
+//Throw<End>
+
+//POINTER #399 @ $CE7D94 - STRING #399 @ $CE4A1B
+
+#W24($CE7D94)
+//Slash Upward<End>
+
+//POINTER #400 @ $CE7D98 - STRING #400 @ $CE4BB5
+
+#W24($CE7D98)
+//Ether Edge<End>
+
+//POINTER #401 @ $CE7D9C - STRING #401 @ $CE49A6
+
+#W24($CE7D9C)
+//Slash<End>
+
+//POINTER #402 @ $CE7DA0 - STRING #402 @ $CE4BC9
+
+#W24($CE7DA0)
+//Divine Ascension<End>
+
+//POINTER #403 @ $CE7DA4 - STRING #403 @ $CE49C7
+
+#W24($CE7DA4)
+//Magic Blade<End>
+
+//POINTER #404 @ $CE7DA8 - STRING #404 @ $CE4BE9
+
+#W24($CE7DA8)
+//Hyper Blade<End>
+
+//POINTER #405 @ $CE7DAC - STRING #405 @ $CE49F1
+
+#W24($CE7DAC)
+//Mage Slash<End>
+
+//POINTER #406 @ $CE7DB0 - STRING #406 @ $CE4BFF
+
+#W24($CE7DB0)
+//Sonic Spear<End>
+
+//POINTER #407 @ $CE7DB4 - STRING #407 @ $CE492E
+
+#W24($CE7DB4)
+//Throw<End>
+
+//POINTER #408 @ $CE7DB8 - STRING #408 @ $CE4A1B
+
+#W24($CE7DB8)
+//Slash Upward<End>
+
+//POINTER #409 @ $CE7DBC - STRING #409 @ $CE4C15
+
+#W24($CE7DBC)
+//Riot Edge<End>
+
+//POINTER #410 @ $CE7DC0 - STRING #410 @ $CE4C27
+
+#W24($CE7DC0)
+//Stab<End>
+
+//POINTER #411 @ $CE7DC4 - STRING #411 @ $CE4C30
+
+#W24($CE7DC4)
+//Un Deux<End>
+
+//POINTER #412 @ $CE7DC8 - STRING #412 @ $CE4C3E
+
+#W24($CE7DC8)
+//Magic Shot<End>
+
+//POINTER #413 @ $CE7DCC - STRING #413 @ $CE4C52
+
+#W24($CE7DCC)
+//Huge Spike<End>
+
+//POINTER #414 @ $CE7DD0 - STRING #414 @ $CE4C27
+
+#W24($CE7DD0)
+//Stab<End>
+
+//POINTER #415 @ $CE7DD4 - STRING #415 @ $CE4C66
+
+#W24($CE7DD4)
+//Stinger<End>
+
+//POINTER #416 @ $CE7DD8 - STRING #416 @ $CE492E
+
+#W24($CE7DD8)
+//Throw<End>
+
+//POINTER #417 @ $CE7DDC - STRING #417 @ $CE4C75
+
+#W24($CE7DDC)
+//Touche<End>
+
+//POINTER #418 @ $CE7DE0 - STRING #418 @ $CE4C82
+
+#W24($CE7DE0)
+//Risoluto<End>
+
+//POINTER #419 @ $CE7DE4 - STRING #419 @ $CE4C27
+
+#W24($CE7DE4)
+//Stab<End>
+
+//POINTER #420 @ $CE7DE8 - STRING #420 @ $CE4C93
+
+#W24($CE7DE8)
+//Balestra<End>
+
+//POINTER #421 @ $CE7DEC - STRING #421 @ $CE4C3E
+
+#W24($CE7DEC)
+//Magic Shot<End>
+
+//POINTER #422 @ $CE7DF0 - STRING #422 @ $CE4CA4
+
+#W24($CE7DF0)
+//Holy Needle<End>
+
+//POINTER #423 @ $CE7DF4 - STRING #423 @ $CE4C27
+
+#W24($CE7DF4)
+//Stab<End>
+
+//POINTER #424 @ $CE7DF8 - STRING #424 @ $CE4CBA
+
+#W24($CE7DF8)
+//Straight Slash<End>
+
+//POINTER #425 @ $CE7DFC - STRING #425 @ $CE492E
+
+#W24($CE7DFC)
+//Throw<End>
+
+//POINTER #426 @ $CE7E00 - STRING #426 @ $CE4C75
+
+#W24($CE7E00)
+//Touche<End>
+
+//POINTER #427 @ $CE7E04 - STRING #427 @ $CE4CD6
+
+#W24($CE7E04)
+//Brillante<End>
+
+//POINTER #428 @ $CE7E08 - STRING #428 @ $CE4C27
+
+#W24($CE7E08)
+//Stab<End>
+
+//POINTER #429 @ $CE7E0C - STRING #429 @ $CE4CE9
+
+#W24($CE7E0C)
+//Un Trois<End>
+
+//POINTER #430 @ $CE7E10 - STRING #430 @ $CE4C3E
+
+#W24($CE7E10)
+//Magic Shot<End>
+
+//POINTER #431 @ $CE7E14 - STRING #431 @ $CE4CF9
+
+#W24($CE7E14)
+//Punish<End>
+
+//POINTER #432 @ $CE7E18 - STRING #432 @ $CE4C27
+
+#W24($CE7E18)
+//Stab<End>
+
+//POINTER #433 @ $CE7E1C - STRING #433 @ $CE4D06
+
+#W24($CE7E1C)
+//Hell Stinger<End>
+
+//POINTER #434 @ $CE7E20 - STRING #434 @ $CE492E
+
+#W24($CE7E20)
+//Throw<End>
+
+//POINTER #435 @ $CE7E24 - STRING #435 @ $CE4C75
+
+#W24($CE7E24)
+//Touche<End>
+
+//POINTER #436 @ $CE7E28 - STRING #436 @ $CE4D1E
+
+#W24($CE7E28)
+//Presto<End>
+
+//POINTER #437 @ $CE7E2C - STRING #437 @ $CE4C27
+
+#W24($CE7E2C)
+//Stab<End>
+
+//POINTER #438 @ $CE7E30 - STRING #438 @ $CE4D2B
+
+#W24($CE7E30)
+//Ascend<End>
+
+//POINTER #439 @ $CE7E34 - STRING #439 @ $CE4C3E
+
+#W24($CE7E34)
+//Magic Shot<End>
+
+//POINTER #440 @ $CE7E38 - STRING #440 @ $CE4D38
+
+#W24($CE7E38)
+//Fatality<End>
+
+//POINTER #441 @ $CE7E3C - STRING #441 @ $CE4C27
+
+#W24($CE7E3C)
+//Stab<End>
+
+//POINTER #442 @ $CE7E40 - STRING #442 @ $CE4D49
+
+#W24($CE7E40)
+//Evil Break<End>
+
+//POINTER #443 @ $CE7E44 - STRING #443 @ $CE492E
+
+#W24($CE7E44)
+//Throw<End>
+
+//POINTER #444 @ $CE7E48 - STRING #444 @ $CE4C75
+
+#W24($CE7E48)
+//Touche<End>
+
+//POINTER #445 @ $CE7E4C - STRING #445 @ $CE4D5D
+
+#W24($CE7E4C)
+//Vivace<End>
+
+//POINTER #446 @ $CE7E50 - STRING #446 @ $CE4C27
+
+#W24($CE7E50)
+//Stab<End>
+
+//POINTER #447 @ $CE7E54 - STRING #447 @ $CE4D6A
+
+#W24($CE7E54)
+//Un Quatre<End>
+
+//POINTER #448 @ $CE7E58 - STRING #448 @ $CE4C3E
+
+#W24($CE7E58)
+//Magic Shot<End>
+
+//POINTER #449 @ $CE7E5C - STRING #449 @ $CE4D7C
+
+#W24($CE7E5C)
+//Freezing Matter<End>
+
+//POINTER #450 @ $CE7E60 - STRING #450 @ $CE4C27
+
+#W24($CE7E60)
+//Stab<End>
+
+//POINTER #451 @ $CE7E64 - STRING #451 @ $CE4D9A
+
+#W24($CE7E64)
+//Ice Stinger<End>
+
+//POINTER #452 @ $CE7E68 - STRING #452 @ $CE492E
+
+#W24($CE7E68)
+//Throw<End>
+
+//POINTER #453 @ $CE7E6C - STRING #453 @ $CE4C75
+
+#W24($CE7E6C)
+//Touche<End>
+
+//POINTER #454 @ $CE7E70 - STRING #454 @ $CE4DB0
+
+#W24($CE7E70)
+//Appassionato<End>
+
+//POINTER #455 @ $CE7E74 - STRING #455 @ $CE4C27
+
+#W24($CE7E74)
+//Stab<End>
+
+//POINTER #456 @ $CE7E78 - STRING #456 @ $CE4DC9
+
+#W24($CE7E78)
+//Terre Promise<End>
+
+//POINTER #457 @ $CE7E7C - STRING #457 @ $CE4C3E
+
+#W24($CE7E7C)
+//Magic Shot<End>
+
+//POINTER #458 @ $CE7E80 - STRING #458 @ $CE4DE3
+
+#W24($CE7E80)
+//Holy Blight<End>
+
+//POINTER #459 @ $CE7E84 - STRING #459 @ $CE4C27
+
+#W24($CE7E84)
+//Stab<End>
+
+//POINTER #460 @ $CE7E88 - STRING #460 @ $CE4DF9
+
+#W24($CE7E88)
+//Judgment<End>
+
+//POINTER #461 @ $CE7E8C - STRING #461 @ $CE492E
+
+#W24($CE7E8C)
+//Throw<End>
+
+//POINTER #462 @ $CE7E90 - STRING #462 @ $CE4C75
+
+#W24($CE7E90)
+//Touche<End>
+
+//POINTER #463 @ $CE7E94 - STRING #463 @ $CE4E0A
+
+#W24($CE7E94)
+//Cadenza<End>
+
+//POINTER #464 @ $CE7E98 - STRING #464 @ $CE4E19
+
+#W24($CE7E98)
+//Shoot<End>
+
+//POINTER #465 @ $CE7E9C - STRING #465 @ $CE4E24
+
+#W24($CE7E9C)
+//Berserk Arrow<End>
+
+//POINTER #466 @ $CE7EA0 - STRING #466 @ $CE4E3E
+
+#W24($CE7EA0)
+//Try and Shoot<End>
+
+//POINTER #467 @ $CE7EA4 - STRING #467 @ $CE4E57
+
+#W24($CE7EA4)
+//Magic Arrow<End>
+
+//POINTER #468 @ $CE7EA8 - STRING #468 @ $CE492E
+
+#W24($CE7EA8)
+//Throw<End>
+
+//POINTER #469 @ $CE7EAC - STRING #469 @ $CE4E19
+
+#W24($CE7EAC)
+//Shoot<End>
+
+//POINTER #470 @ $CE7EB0 - STRING #470 @ $CE4E6D
+
+#W24($CE7EB0)
+//Arrow Rain<End>
+
+//POINTER #471 @ $CE7EB4 - STRING #471 @ $CE4E19
+
+#W24($CE7EB4)
+//Shoot<End>
+
+//POINTER #472 @ $CE7EB8 - STRING #472 @ $CE4E81
+
+#W24($CE7EB8)
+//Cleave Arrow<End>
+
+//POINTER #473 @ $CE7EBC - STRING #473 @ $CE4E19
+
+#W24($CE7EBC)
+//Shoot<End>
+
+//POINTER #474 @ $CE7EC0 - STRING #474 @ $CE4E99
+
+#W24($CE7EC0)
+//Lightning Arrow<End>
+
+//POINTER #475 @ $CE7EC4 - STRING #475 @ $CE4E3E
+
+#W24($CE7EC4)
+//Try and Shoot<End>
+
+//POINTER #476 @ $CE7EC8 - STRING #476 @ $CE4EB7
+
+#W24($CE7EC8)
+//Twinkle Shot<End>
+
+//POINTER #477 @ $CE7ECC - STRING #477 @ $CE492E
+
+#W24($CE7ECC)
+//Throw<End>
+
+//POINTER #478 @ $CE7ED0 - STRING #478 @ $CE4E19
+
+#W24($CE7ED0)
+//Shoot<End>
+
+//POINTER #479 @ $CE7ED4 - STRING #479 @ $CE4ECF
+
+#W24($CE7ED4)
+//Trinity Spark<End>
+
+//POINTER #480 @ $CE7ED8 - STRING #480 @ $CE4E19
+
+#W24($CE7ED8)
+//Shoot<End>
+
+//POINTER #481 @ $CE7EDC - STRING #481 @ $CE4EE9
+
+#W24($CE7EDC)
+//Bore Arrow<End>
+
+//POINTER #482 @ $CE7EE0 - STRING #482 @ $CE4E19
+
+#W24($CE7EE0)
+//Shoot<End>
+
+//POINTER #483 @ $CE7EE4 - STRING #483 @ $CE4EFD
+
+#W24($CE7EE4)
+//Rising Shot<End>
+
+//POINTER #484 @ $CE7EE8 - STRING #484 @ $CE4E3E
+
+#W24($CE7EE8)
+//Try and Shoot<End>
+
+//POINTER #485 @ $CE7EEC - STRING #485 @ $CE4F13
+
+#W24($CE7EEC)
+//Thunder Arrow<End>
+
+//POINTER #486 @ $CE7EF0 - STRING #486 @ $CE492E
+
+#W24($CE7EF0)
+//Throw<End>
+
+//POINTER #487 @ $CE7EF4 - STRING #487 @ $CE4E19
+
+#W24($CE7EF4)
+//Shoot<End>
+
+//POINTER #488 @ $CE7EF8 - STRING #488 @ $CE4F2D
+
+#W24($CE7EF8)
+//Voltage Raid<End>
+
+//POINTER #489 @ $CE7EFC - STRING #489 @ $CE4E19
+
+#W24($CE7EFC)
+//Shoot<End>
+
+//POINTER #490 @ $CE7F00 - STRING #490 @ $CE4F45
+
+#W24($CE7F00)
+//Piercing Arrow<End>
+
+//POINTER #491 @ $CE7F04 - STRING #491 @ $CE4E19
+
+#W24($CE7F04)
+//Shoot<End>
+
+//POINTER #492 @ $CE7F08 - STRING #492 @ $CE4F61
+
+#W24($CE7F08)
+//Buster Shot<End>
+
+//POINTER #493 @ $CE7F0C - STRING #493 @ $CE4E3E
+
+#W24($CE7F0C)
+//Try and Shoot<End>
+
+//POINTER #494 @ $CE7F10 - STRING #494 @ $CE4F77
+
+#W24($CE7F10)
+//Holy Arrow<End>
+
+//POINTER #495 @ $CE7F14 - STRING #495 @ $CE492E
+
+#W24($CE7F14)
+//Throw<End>
+
+//POINTER #496 @ $CE7F18 - STRING #496 @ $CE4E19
+
+#W24($CE7F18)
+//Shoot<End>
+
+//POINTER #497 @ $CE7F1C - STRING #497 @ $CE4F8B
+
+#W24($CE7F1C)
+//Barrage<End>
+
+//POINTER #498 @ $CE7F20 - STRING #498 @ $CE4E19
+
+#W24($CE7F20)
+//Shoot<End>
+
+//POINTER #499 @ $CE7F24 - STRING #499 @ $CE4F9A
+
+#W24($CE7F24)
+//Purity Arrow<End>
+
+//POINTER #500 @ $CE7F28 - STRING #500 @ $CE4E19
+
+#W24($CE7F28)
+//Shoot<End>
+
+//POINTER #501 @ $CE7F2C - STRING #501 @ $CE4FB2
+
+#W24($CE7F2C)
+//Spiral Shot<End>
+
+//POINTER #502 @ $CE7F30 - STRING #502 @ $CE4E3E
+
+#W24($CE7F30)
+//Try and Shoot<End>
+
+//POINTER #503 @ $CE7F34 - STRING #503 @ $CE4FC8
+
+#W24($CE7F34)
+//Tri—Shot<End>
+
+//POINTER #504 @ $CE7F38 - STRING #504 @ $CE492E
+
+#W24($CE7F38)
+//Throw<End>
+
+//POINTER #505 @ $CE7F3C - STRING #505 @ $CE4E19
+
+#W24($CE7F3C)
+//Shoot<End>
+
+//POINTER #506 @ $CE7F40 - STRING #506 @ $CE4FD9
+
+#W24($CE7F40)
+//Divine Wind<End>
+
+//POINTER #507 @ $CE7F44 - STRING #507 @ $CE4E19
+
+#W24($CE7F44)
+//Shoot<End>
+
+//POINTER #508 @ $CE7F48 - STRING #508 @ $CE4FEF
+
+#W24($CE7F48)
+//Slayer Arrow<End>
+
+//POINTER #509 @ $CE7F4C - STRING #509 @ $CE4E19
+
+#W24($CE7F4C)
+//Shoot<End>
+
+//POINTER #510 @ $CE7F50 - STRING #510 @ $CE5007
+
+#W24($CE7F50)
+//Glint Arrow<End>
+
+//POINTER #511 @ $CE7F54 - STRING #511 @ $CE4E3E
+
+#W24($CE7F54)
+//Try and Shoot<End>
+
+//POINTER #512 @ $CE7F58 - STRING #512 @ $CE501D
+
+#W24($CE7F58)
+//Plasma Shot<End>
+
+//POINTER #513 @ $CE7F5C - STRING #513 @ $CE492E
+
+#W24($CE7F5C)
+//Throw<End>
+
+//POINTER #514 @ $CE7F60 - STRING #514 @ $CE4E19
+
+#W24($CE7F60)
+//Shoot<End>
+
+//POINTER #515 @ $CE7F64 - STRING #515 @ $CE5033
+
+#W24($CE7F64)
+//Stardust<End>
+
+//POINTER #516 @ $CE7F68 - STRING #516 @ $CE4E19
+
+#W24($CE7F68)
+//Shoot<End>
+
+//POINTER #517 @ $CE7F6C - STRING #517 @ $CE5044
+
+#W24($CE7F6C)
+//Radiant Arrow<End>
+
+//POINTER #518 @ $CE7F70 - STRING #518 @ $CE505E
+
+#W24($CE7F70)
+//Mow<End>
+
+//POINTER #519 @ $CE7F74 - STRING #519 @ $CE5065
+
+#W24($CE7F74)
+//Dragon Flash<End>
+
+//POINTER #520 @ $CE7F78 - STRING #520 @ $CE492E
+
+#W24($CE7F78)
+//Throw<End>
+
+//POINTER #521 @ $CE7F7C - STRING #521 @ $CE507D
+
+#W24($CE7F7C)
+//Reap<End>
+
+//POINTER #522 @ $CE7F80 - STRING #522 @ $CE5086
+
+#W24($CE7F80)
+//Serene Combo<End>
+
+//POINTER #523 @ $CE7F84 - STRING #523 @ $CE509E
+
+#W24($CE7F84)
+//Swing Around<End>
+
+//POINTER #524 @ $CE7F88 - STRING #524 @ $CE50B6
+
+#W24($CE7F88)
+//Terror Swing<End>
+
+//POINTER #525 @ $CE7F8C - STRING #525 @ $CE492E
+
+#W24($CE7F8C)
+//Throw<End>
+
+//POINTER #526 @ $CE7F90 - STRING #526 @ $CE505E
+
+#W24($CE7F90)
+//Mow<End>
+
+//POINTER #527 @ $CE7F94 - STRING #527 @ $CE50CE
+
+#W24($CE7F94)
+//Demon Flash<End>
+
+//POINTER #528 @ $CE7F98 - STRING #528 @ $CE492E
+
+#W24($CE7F98)
+//Throw<End>
+
+//POINTER #529 @ $CE7F9C - STRING #529 @ $CE507D
+
+#W24($CE7F9C)
+//Reap<End>
+
+//POINTER #530 @ $CE7FA0 - STRING #530 @ $CE50E4
+
+#W24($CE7FA0)
+//Serene Blast<End>
+
+//POINTER #531 @ $CE7FA4 - STRING #531 @ $CE509E
+
+#W24($CE7FA4)
+//Swing Around<End>
+
+//POINTER #532 @ $CE7FA8 - STRING #532 @ $CE50FC
+
+#W24($CE7FA8)
+//Ogre Impulse<End>
+
+//POINTER #533 @ $CE7FAC - STRING #533 @ $CE492E
+
+#W24($CE7FAC)
+//Throw<End>
+
+//POINTER #534 @ $CE7FB0 - STRING #534 @ $CE505E
+
+#W24($CE7FB0)
+//Mow<End>
+
+//POINTER #535 @ $CE7FB4 - STRING #535 @ $CE5114
+
+#W24($CE7FB4)
+//Quake Flash<End>
+
+//POINTER #536 @ $CE7FB8 - STRING #536 @ $CE492E
+
+#W24($CE7FB8)
+//Throw<End>
+
+//POINTER #537 @ $CE7FBC - STRING #537 @ $CE507D
+
+#W24($CE7FBC)
+//Reap<End>
+
+//POINTER #538 @ $CE7FC0 - STRING #538 @ $CE512A
+
+#W24($CE7FC0)
+//Serene Inferno<End>
+
+//POINTER #539 @ $CE7FC4 - STRING #539 @ $CE509E
+
+#W24($CE7FC4)
+//Swing Around<End>
+
+//POINTER #540 @ $CE7FC8 - STRING #540 @ $CE5146
+
+#W24($CE7FC8)
+//Chaotic Flare<End>
+
+//POINTER #541 @ $CE7FCC - STRING #541 @ $CE492E
+
+#W24($CE7FCC)
+//Throw<End>
+
+//POINTER #542 @ $CE7FD0 - STRING #542 @ $CE505E
+
+#W24($CE7FD0)
+//Mow<End>
+
+//POINTER #543 @ $CE7FD4 - STRING #543 @ $CE5160
+
+#W24($CE7FD4)
+//Schwarz Flash<End>
+
+//POINTER #544 @ $CE7FD8 - STRING #544 @ $CE492E
+
+#W24($CE7FD8)
+//Throw<End>
+
+//POINTER #545 @ $CE7FDC - STRING #545 @ $CE507D
+
+#W24($CE7FDC)
+//Reap<End>
+
+//POINTER #546 @ $CE7FE0 - STRING #546 @ $CE517A
+
+#W24($CE7FE0)
+//Serene Nightmare<End>
+
+//POINTER #547 @ $CE7FE4 - STRING #547 @ $CE509E
+
+#W24($CE7FE4)
+//Swing Around<End>
+
+//POINTER #548 @ $CE7FE8 - STRING #548 @ $CE519A
+
+#W24($CE7FE8)
+//Deity Bane<End>
+
+//POINTER #549 @ $CE7FEC - STRING #549 @ $CE492E
+
+#W24($CE7FEC)
+//Throw<End>
+
+//POINTER #550 @ $CE7FF0 - STRING #550 @ $CE505E
+
+#W24($CE7FF0)
+//Mow<End>
+
+//POINTER #551 @ $CE7FF4 - STRING #551 @ $CE51AE
+
+#W24($CE7FF4)
+//Freeze Flash<End>
+
+//POINTER #552 @ $CE7FF8 - STRING #552 @ $CE492E
+
+#W24($CE7FF8)
+//Throw<End>
+
+//POINTER #553 @ $CE7FFC - STRING #553 @ $CE507D
+
+#W24($CE7FFC)
+//Reap<End>
+
+//POINTER #554 @ $CE8000 - STRING #554 @ $CE51C6
+
+#W24($CE8000)
+//Serene Almighty<End>
+
+//POINTER #555 @ $CE8004 - STRING #555 @ $CE509E
+
+#W24($CE8004)
+//Swing Around<End>
+
+//POINTER #556 @ $CE8008 - STRING #556 @ $CE51E4
+
+#W24($CE8008)
+//Refrigerate<End>
+
+//POINTER #557 @ $CE800C - STRING #557 @ $CE492E
+
+#W24($CE800C)
+//Throw<End>
+
+//POINTER #558 @ $CE8010 - STRING #558 @ $CE505E
+
+#W24($CE8010)
+//Mow<End>
+
+//POINTER #559 @ $CE8014 - STRING #559 @ $CE51FB
+
+#W24($CE8014)
+//Rainbow Flash<End>
+
+//POINTER #560 @ $CE8018 - STRING #560 @ $CE492E
+
+#W24($CE8018)
+//Throw<End>
+
+//POINTER #561 @ $CE801C - STRING #561 @ $CE507D
+
+#W24($CE801C)
+//Reap<End>
+
+//POINTER #562 @ $CE8020 - STRING #562 @ $CE5215
+
+#W24($CE8020)
+//Serene Absolute<End>
+
+//POINTER #563 @ $CE8024 - STRING #563 @ $CE509E
+
+#W24($CE8024)
+//Swing Around<End>
+
+//POINTER #564 @ $CE8028 - STRING #564 @ $CE5233
+
+#W24($CE8028)
+//Misty Arc<End>
+
+//POINTER #565 @ $CE802C - STRING #565 @ $CE492E
+
+#W24($CE802C)
+//Throw<End>
+
+//POINTER #566 @ $CE8030 - STRING #566 @ $CE5245
+
+#W24($CE8030)
+//Strike<End>
+
+//POINTER #567 @ $CE8034 - STRING #567 @ $CE5252
+
+#W24($CE8034)
+//Force Impact<End>
+
+//POINTER #568 @ $CE8038 - STRING #568 @ $CE526A
+
+#W24($CE8038)
+//Magical Shot<End>
+
+//POINTER #569 @ $CE803C - STRING #569 @ $CE5282
+
+#W24($CE803C)
+//Magic Burst<End>
+
+//POINTER #570 @ $CE8040 - STRING #570 @ $CE492E
+
+#W24($CE8040)
+//Throw<End>
+
+//POINTER #571 @ $CE8044 - STRING #571 @ $CE492E
+
+#W24($CE8044)
+//Throw<End>
+
+//POINTER #572 @ $CE8048 - STRING #572 @ $CE5298
+
+#W24($CE8048)
+//Healing<End>
+
+//POINTER #573 @ $CE804C - STRING #573 @ $CE52A7
+
+#W24($CE804C)
+//White Wave<End>
+
+//POINTER #574 @ $CE8050 - STRING #574 @ $CE5245
+
+#W24($CE8050)
+//Strike<End>
+
+//POINTER #575 @ $CE8054 - STRING #575 @ $CE52BB
+
+#W24($CE8054)
+//Flame Toss<End>
+
+//POINTER #576 @ $CE8058 - STRING #576 @ $CE526A
+
+#W24($CE8058)
+//Magical Shot<End>
+
+//POINTER #577 @ $CE805C - STRING #577 @ $CE52CF
+
+#W24($CE805C)
+//Cinder Squall<End>
+
+//POINTER #578 @ $CE8060 - STRING #578 @ $CE492E
+
+#W24($CE8060)
+//Throw<End>
+
+//POINTER #579 @ $CE8064 - STRING #579 @ $CE492E
+
+#W24($CE8064)
+//Throw<End>
+
+//POINTER #580 @ $CE8068 - STRING #580 @ $CE5298
+
+#W24($CE8068)
+//Healing<End>
+
+//POINTER #581 @ $CE806C - STRING #581 @ $CE52E9
+
+#W24($CE806C)
+//Red Regulator<End>
+
+//POINTER #582 @ $CE8070 - STRING #582 @ $CE5245
+
+#W24($CE8070)
+//Strike<End>
+
+//POINTER #583 @ $CE8074 - STRING #583 @ $CE5303
+
+#W24($CE8074)
+//Holy Magic<End>
+
+//POINTER #584 @ $CE8078 - STRING #584 @ $CE526A
+
+#W24($CE8078)
+//Magical Shot<End>
+
+//POINTER #585 @ $CE807C - STRING #585 @ $CE5317
+
+#W24($CE807C)
+//Holy Blast<End>
+
+//POINTER #586 @ $CE8080 - STRING #586 @ $CE492E
+
+#W24($CE8080)
+//Throw<End>
+
+//POINTER #587 @ $CE8084 - STRING #587 @ $CE492E
+
+#W24($CE8084)
+//Throw<End>
+
+//POINTER #588 @ $CE8088 - STRING #588 @ $CE5298
+
+#W24($CE8088)
+//Healing<End>
+
+//POINTER #589 @ $CE808C - STRING #589 @ $CE532B
+
+#W24($CE808C)
+//Silver Syphon<End>
+
+//POINTER #590 @ $CE8090 - STRING #590 @ $CE5245
+
+#W24($CE8090)
+//Strike<End>
+
+//POINTER #591 @ $CE8094 - STRING #591 @ $CE5345
+
+#W24($CE8094)
+//Fire Blast<End>
+
+//POINTER #592 @ $CE8098 - STRING #592 @ $CE526A
+
+#W24($CE8098)
+//Magical Shot<End>
+
+//POINTER #593 @ $CE809C - STRING #593 @ $CE5359
+
+#W24($CE809C)
+//Firestorm<End>
+
+//POINTER #594 @ $CE80A0 - STRING #594 @ $CE492E
+
+#W24($CE80A0)
+//Throw<End>
+
+//POINTER #595 @ $CE80A4 - STRING #595 @ $CE492E
+
+#W24($CE80A4)
+//Throw<End>
+
+//POINTER #596 @ $CE80A8 - STRING #596 @ $CE5298
+
+#W24($CE80A8)
+//Healing<End>
+
+//POINTER #597 @ $CE80AC - STRING #597 @ $CE536C
+
+#W24($CE80AC)
+//Scarlet Screen<End>
+
+//POINTER #598 @ $CE80B0 - STRING #598 @ $CE5245
+
+#W24($CE80B0)
+//Strike<End>
+
+//POINTER #599 @ $CE80B4 - STRING #599 @ $CE5388
+
+#W24($CE80B4)
+//Flame Bind<End>
+
+//POINTER #600 @ $CE80B8 - STRING #600 @ $CE526A
+
+#W24($CE80B8)
+//Magical Shot<End>
+
+//POINTER #601 @ $CE80BC - STRING #601 @ $CE539C
+
+#W24($CE80BC)
+//Prominence<End>
+
+//POINTER #602 @ $CE80C0 - STRING #602 @ $CE492E
+
+#W24($CE80C0)
+//Throw<End>
+
+//POINTER #603 @ $CE80C4 - STRING #603 @ $CE492E
+
+#W24($CE80C4)
+//Throw<End>
+
+//POINTER #604 @ $CE80C8 - STRING #604 @ $CE5298
+
+#W24($CE80C8)
+//Healing<End>
+
+//POINTER #605 @ $CE80CC - STRING #605 @ $CE53B1
+
+#W24($CE80CC)
+//Carmine Cutlass<End>
+
+//POINTER #606 @ $CE80D0 - STRING #606 @ $CE5245
+
+#W24($CE80D0)
+//Strike<End>
+
+//POINTER #607 @ $CE80D4 - STRING #607 @ $CE53E7
+
+#W24($CE80D4)
+//Burn Bullet<End>
+
+//POINTER #608 @ $CE80D8 - STRING #608 @ $CE526A
+
+#W24($CE80D8)
+//Magical Shot<End>
+
+//POINTER #609 @ $CE80DC - STRING #609 @ $CE53FD
+
+#W24($CE80DC)
+//Calamity Flare<End>
+
+//POINTER #610 @ $CE80E0 - STRING #610 @ $CE492E
+
+#W24($CE80E0)
+//Throw<End>
+
+//POINTER #611 @ $CE80E4 - STRING #611 @ $CE492E
+
+#W24($CE80E4)
+//Throw<End>
+
+//POINTER #612 @ $CE80E8 - STRING #612 @ $CE5298
+
+#W24($CE80E8)
+//Healing<End>
+
+//POINTER #613 @ $CE80EC - STRING #613 @ $CE5419
+
+#W24($CE80EC)
+//Magenta Missile<End>
+
+//POINTER #614 @ $CE80F0 - STRING #614 @ $CE49A6
+
+#W24($CE80F0)
+//Slash<End>
+
+//POINTER #615 @ $CE80F4 - STRING #615 @ $CE5437
+
+#W24($CE80F4)
+//Demonic Spear<End>
+
+//POINTER #616 @ $CE80F8 - STRING #616 @ $CE492E
+
+#W24($CE80F8)
+//Throw<End>
+
+//POINTER #617 @ $CE80FC - STRING #617 @ $CE505E
+
+#W24($CE80FC)
+//Mow<End>
+
+//POINTER #618 @ $CE8100 - STRING #618 @ $CE5451
+
+#W24($CE8100)
+//Illuminance<End>
+
+//POINTER #619 @ $CE8104 - STRING #619 @ $CE5468
+
+#W24($CE8104)
+//Throw In<End>
+
+//POINTER #620 @ $CE8108 - STRING #620 @ $CE5478
+
+#W24($CE8108)
+//Lancer<End>
+
+//POINTER #621 @ $CE810C - STRING #621 @ $CE5485
+
+#W24($CE810C)
+//Vacuum Blade<End>
+
+//POINTER #622 @ $CE8110 - STRING #622 @ $CE54B1
+
+#W24($CE8110)
+//Air Edge<End>
+
+//POINTER #623 @ $CE8114 - STRING #623 @ $CE49A6
+
+#W24($CE8114)
+//Slash<End>
+
+//POINTER #624 @ $CE8118 - STRING #624 @ $CE54C1
+
+#W24($CE8118)
+//Triple Blue<End>
+
+//POINTER #625 @ $CE811C - STRING #625 @ $CE492E
+
+#W24($CE811C)
+//Throw<End>
+
+//POINTER #626 @ $CE8120 - STRING #626 @ $CE505E
+
+#W24($CE8120)
+//Mow<End>
+
+//POINTER #627 @ $CE8124 - STRING #627 @ $CE54D7
+
+#W24($CE8124)
+//Serpent<End>
+
+//POINTER #628 @ $CE8128 - STRING #628 @ $CE5468
+
+#W24($CE8128)
+//Throw In<End>
+
+//POINTER #629 @ $CE812C - STRING #629 @ $CE54E6
+
+#W24($CE812C)
+//Icicle Edge<End>
+
+//POINTER #630 @ $CE8130 - STRING #630 @ $CE5485
+
+#W24($CE8130)
+//Vacuum Blade<End>
+
+//POINTER #631 @ $CE8134 - STRING #631 @ $CE54FC
+
+#W24($CE8134)
+//Freeze Edge<End>
+
+//POINTER #632 @ $CE8138 - STRING #632 @ $CE49A6
+
+#W24($CE8138)
+//Slash<End>
+
+//POINTER #633 @ $CE813C - STRING #633 @ $CE5512
+
+#W24($CE813C)
+//Trinity Strike<End>
+
+//POINTER #634 @ $CE8140 - STRING #634 @ $CE492E
+
+#W24($CE8140)
+//Throw<End>
+
+//POINTER #635 @ $CE8144 - STRING #635 @ $CE505E
+
+#W24($CE8144)
+//Mow<End>
+
+//POINTER #636 @ $CE8148 - STRING #636 @ $CE552E
+
+#W24($CE8148)
+//White Flash<End>
+
+//POINTER #637 @ $CE814C - STRING #637 @ $CE5468
+
+#W24($CE814C)
+//Throw In<End>
+
+//POINTER #638 @ $CE8150 - STRING #638 @ $CE5544
+
+#W24($CE8150)
+//Milky Way<End>
+
+//POINTER #639 @ $CE8154 - STRING #639 @ $CE5485
+
+#W24($CE8154)
+//Vacuum Blade<End>
+
+//POINTER #640 @ $CE8158 - STRING #640 @ $CE5556
+
+#W24($CE8158)
+//Holy Edge<End>
+
+//POINTER #641 @ $CE815C - STRING #641 @ $CE49A6
+
+#W24($CE815C)
+//Slash<End>
+
+//POINTER #642 @ $CE8160 - STRING #642 @ $CE5568
+
+#W24($CE8160)
+//Crystal Dance<End>
+
+//POINTER #643 @ $CE8164 - STRING #643 @ $CE492E
+
+#W24($CE8164)
+//Throw<End>
+
+//POINTER #644 @ $CE8168 - STRING #644 @ $CE505E
+
+#W24($CE8168)
+//Mow<End>
+
+//POINTER #645 @ $CE816C - STRING #645 @ $CE5582
+
+#W24($CE816C)
+//Blue Gleam<End>
+
+//POINTER #646 @ $CE8170 - STRING #646 @ $CE5468
+
+#W24($CE8170)
+//Throw In<End>
+
+//POINTER #647 @ $CE8174 - STRING #647 @ $CE5596
+
+#W24($CE8174)
+//Falling Star<End>
+
+//POINTER #648 @ $CE8178 - STRING #648 @ $CE5485
+
+#W24($CE8178)
+//Vacuum Blade<End>
+
+//POINTER #649 @ $CE817C - STRING #649 @ $CE55AE
+
+#W24($CE817C)
+//Diamond Edge<End>
+
+//POINTER #650 @ $CE8180 - STRING #650 @ $CE49A6
+
+#W24($CE8180)
+//Slash<End>
+
+//POINTER #651 @ $CE8184 - STRING #651 @ $CE55C6
+
+#W24($CE8184)
+//Frigid Shame<End>
+
+//POINTER #652 @ $CE8188 - STRING #652 @ $CE492E
+
+#W24($CE8188)
+//Throw<End>
+
+//POINTER #653 @ $CE818C - STRING #653 @ $CE505E
+
+#W24($CE818C)
+//Mow<End>
+
+//POINTER #654 @ $CE8190 - STRING #654 @ $CE55DE
+
+#W24($CE8190)
+//Crystia Cannon<End>
+
+//POINTER #655 @ $CE8194 - STRING #655 @ $CE5468
+
+#W24($CE8194)
+//Throw In<End>
+
+//POINTER #656 @ $CE8198 - STRING #656 @ $CE55FA
+
+#W24($CE8198)
+//Twinkle Tear<End>
+
+//POINTER #657 @ $CE819C - STRING #657 @ $CE5485
+
+#W24($CE819C)
+//Vacuum Blade<End>
+
+//POINTER #658 @ $CE81A0 - STRING #658 @ $CE5612
+
+#W24($CE81A0)
+//Tragic Edge<End>
+
+//POINTER #659 @ $CE81A4 - STRING #659 @ $CE492E
+
+#W24($CE81A4)
+//Throw<End>
+
+//POINTER #660 @ $CE81A8 - STRING #660 @ $CE5628
+
+#W24($CE81A8)
+//Whip<End>
+
+//POINTER #661 @ $CE81AC - STRING #661 @ $CE5631
+
+#W24($CE81AC)
+//Snapping Rose<End>
+
+//POINTER #662 @ $CE81B0 - STRING #662 @ $CE564B
+
+#W24($CE81B0)
+//Swing<End>
+
+//POINTER #663 @ $CE81B4 - STRING #663 @ $CE5656
+
+#W24($CE81B4)
+//Rumble Smash<End>
+
+//POINTER #664 @ $CE81B8 - STRING #664 @ $CE564B
+
+#W24($CE81B8)
+//Swing<End>
+
+//POINTER #665 @ $CE81BC - STRING #665 @ $CE566E
+
+#W24($CE81BC)
+//Rosy Roll<End>
+
+//POINTER #666 @ $CE81C0 - STRING #666 @ $CE492E
+
+#W24($CE81C0)
+//Throw<End>
+
+//POINTER #667 @ $CE81C4 - STRING #667 @ $CE492E
+
+#W24($CE81C4)
+//Throw<End>
+
+//POINTER #668 @ $CE81C8 - STRING #668 @ $CE5628
+
+#W24($CE81C8)
+//Whip<End>
+
+//POINTER #669 @ $CE81CC - STRING #669 @ $CE5680
+
+#W24($CE81CC)
+//Burning Lash<End>
+
+//POINTER #670 @ $CE81D0 - STRING #670 @ $CE564B
+
+#W24($CE81D0)
+//Swing<End>
+
+//POINTER #671 @ $CE81D4 - STRING #671 @ $CE5698
+
+#W24($CE81D4)
+//Flare Burst<End>
+
+//POINTER #672 @ $CE81D8 - STRING #672 @ $CE564B
+
+#W24($CE81D8)
+//Swing<End>
+
+//POINTER #673 @ $CE81DC - STRING #673 @ $CE56AE
+
+#W24($CE81DC)
+//Red Cyclone<End>
+
+//POINTER #674 @ $CE81E0 - STRING #674 @ $CE492E
+
+#W24($CE81E0)
+//Throw<End>
+
+//POINTER #675 @ $CE81E4 - STRING #675 @ $CE492E
+
+#W24($CE81E4)
+//Throw<End>
+
+//POINTER #676 @ $CE81E8 - STRING #676 @ $CE5628
+
+#W24($CE81E8)
+//Whip<End>
+
+//POINTER #677 @ $CE81EC - STRING #677 @ $CE56C4
+
+#W24($CE81EC)
+//Thunder Beat<End>
+
+//POINTER #678 @ $CE81F0 - STRING #678 @ $CE564B
+
+#W24($CE81F0)
+//Swing<End>
+
+//POINTER #679 @ $CE81F4 - STRING #679 @ $CE56DC
+
+#W24($CE81F4)
+//Bolt Gash<End>
+
+//POINTER #680 @ $CE81F8 - STRING #680 @ $CE564B
+
+#W24($CE81F8)
+//Swing<End>
+
+//POINTER #681 @ $CE81FC - STRING #681 @ $CE56EE
+
+#W24($CE81FC)
+//Plasma Spin<End>
+
+//POINTER #682 @ $CE8200 - STRING #682 @ $CE492E
+
+#W24($CE8200)
+//Throw<End>
+
+//POINTER #683 @ $CE8204 - STRING #683 @ $CE492E
+
+#W24($CE8204)
+//Throw<End>
+
+//POINTER #684 @ $CE8208 - STRING #684 @ $CE5628
+
+#W24($CE8208)
+//Whip<End>
+
+//POINTER #685 @ $CE820C - STRING #685 @ $CE5704
+
+#W24($CE820C)
+//Snake Bite<End>
+
+//POINTER #686 @ $CE8210 - STRING #686 @ $CE564B
+
+#W24($CE8210)
+//Swing<End>
+
+//POINTER #687 @ $CE8214 - STRING #687 @ $CE5718
+
+#W24($CE8214)
+//Detonator<End>
+
+//POINTER #688 @ $CE8218 - STRING #688 @ $CE564B
+
+#W24($CE8218)
+//Swing<End>
+
+//POINTER #689 @ $CE821C - STRING #689 @ $CE572B
+
+#W24($CE821C)
+//Constrictor<End>
+
+//POINTER #690 @ $CE8220 - STRING #690 @ $CE492E
+
+#W24($CE8220)
+//Throw<End>
+
+//POINTER #691 @ $CE8224 - STRING #691 @ $CE492E
+
+#W24($CE8224)
+//Throw<End>
+
+//POINTER #692 @ $CE8228 - STRING #692 @ $CE492E
+
+#W24($CE8228)
+//Throw<End>
+
+//POINTER #693 @ $CE822C - STRING #693 @ $CE5742
+
+#W24($CE822C)
+//Scratch<End>
+
+//POINTER #694 @ $CE8230 - STRING #694 @ $CE5751
+
+#W24($CE8230)
+//Wild Tear<End>
+
+//POINTER #695 @ $CE8234 - STRING #695 @ $CE5742
+
+#W24($CE8234)
+//Scratch<End>
+
+//POINTER #696 @ $CE8238 - STRING #696 @ $CE5763
+
+#W24($CE8238)
+//High Claw<End>
+
+//POINTER #697 @ $CE823C - STRING #697 @ $CE492E
+
+#W24($CE823C)
+//Throw<End>
+
+//POINTER #698 @ $CE8240 - STRING #698 @ $CE492E
+
+#W24($CE8240)
+//Throw<End>
+
+//POINTER #699 @ $CE8244 - STRING #699 @ $CE492E
+
+#W24($CE8244)
+//Throw<End>
+
+//POINTER #700 @ $CE8248 - STRING #700 @ $CE5742
+
+#W24($CE8248)
+//Scratch<End>
+
+//POINTER #701 @ $CE824C - STRING #701 @ $CE5775
+
+#W24($CE824C)
+//Blood Rave<End>
+
+//POINTER #702 @ $CE8250 - STRING #702 @ $CE5742
+
+#W24($CE8250)
+//Scratch<End>
+
+//POINTER #703 @ $CE8254 - STRING #703 @ $CE5789
+
+#W24($CE8254)
+//Buster Claw<End>
+
+//POINTER #704 @ $CE8258 - STRING #704 @ $CE492E
+
+#W24($CE8258)
+//Throw<End>
+
+//POINTER #705 @ $CE825C - STRING #705 @ $CE492E
+
+#W24($CE825C)
+//Throw<End>
+
+//POINTER #706 @ $CE8260 - STRING #706 @ $CE492E
+
+#W24($CE8260)
+//Throw<End>
+
+//POINTER #707 @ $CE8264 - STRING #707 @ $CE5742
+
+#W24($CE8264)
+//Scratch<End>
+
+//POINTER #708 @ $CE8268 - STRING #708 @ $CE579F
+
+#W24($CE8268)
+//Fenrir Attack<End>
+
+//POINTER #709 @ $CE826C - STRING #709 @ $CE5742
+
+#W24($CE826C)
+//Scratch<End>
+
+//POINTER #710 @ $CE8270 - STRING #710 @ $CE57B9
+
+#W24($CE8270)
+//Passion Claw<End>
+
+//POINTER #711 @ $CE8274 - STRING #711 @ $CE492E
+
+#W24($CE8274)
+//Throw<End>
+
+//POINTER #712 @ $CE8278 - STRING #712 @ $CE492E
+
+#W24($CE8278)
+//Throw<End>
+
+//POINTER #713 @ $CE827C - STRING #713 @ $CE492E
+
+#W24($CE827C)
+//Throw<End>
+
+//POINTER #714 @ $CE8280 - STRING #714 @ $CE5742
+
+#W24($CE8280)
+//Scratch<End>
+
+//POINTER #715 @ $CE8284 - STRING #715 @ $CE57D1
+
+#W24($CE8284)
+//No Mercy<End>
+
+//POINTER #716 @ $CE8288 - STRING #716 @ $CE5742
+
+#W24($CE8288)
+//Scratch<End>
+
+//POINTER #717 @ $CE828C - STRING #717 @ $CE57E1
+
+#W24($CE828C)
+//Rising Claw<End>
+
+//POINTER #718 @ $CE8290 - STRING #718 @ $CE492E
+
+#W24($CE8290)
+//Throw<End>
+
+//POINTER #719 @ $CE8294 - STRING #719 @ $CE492E
+
+#W24($CE8294)
+//Throw<End>
+
+//POINTER #720 @ $CE8298 - STRING #720 @ $CE57F7
+
+#W24($CE8298)
+//Flame of Laura<End>
+
+//POINTER #721 @ $CE829C - STRING #721 @ $CE5812
+
+#W24($CE829C)
+//Disaster<End>
+
+//POINTER #722 @ $CE82A0 - STRING #722 @ $CE492E
+
+#W24($CE82A0)
+//Throw<End>
+
+//POINTER #723 @ $CE82A4 - STRING #723 @ $CE5823
+
+#W24($CE82A4)
+//Book Toss<End>
+
+//POINTER #724 @ $CE82A8 - STRING #724 @ $CE5835
+
+#W24($CE82A8)
+//Wild Flames<End>
+
+//POINTER #725 @ $CE82AC - STRING #725 @ $CE584B
+
+#W24($CE82AC)
+//Restoration<End>
+
+//POINTER #726 @ $CE82B0 - STRING #726 @ $CE5862
+
+#W24($CE82B0)
+//Feuer Rune<End>
+
+//POINTER #727 @ $CE82B4 - STRING #727 @ $CE492E
+
+#W24($CE82B4)
+//Throw<End>
+
+//POINTER #728 @ $CE82B8 - STRING #728 @ $CE5876
+
+#W24($CE82B8)
+//Nanai's Snow<End>
+
+//POINTER #729 @ $CE82BC - STRING #729 @ $CE588E
+
+#W24($CE82BC)
+//Frigid Zone<End>
+
+//POINTER #730 @ $CE82C0 - STRING #730 @ $CE492E
+
+#W24($CE82C0)
+//Throw<End>
+
+//POINTER #731 @ $CE82C4 - STRING #731 @ $CE5823
+
+#W24($CE82C4)
+//Book Toss<End>
+
+//POINTER #732 @ $CE82C8 - STRING #732 @ $CE58A4
+
+#W24($CE82C8)
+//Violent Blizzard<End>
+
+//POINTER #733 @ $CE82CC - STRING #733 @ $CE584B
+
+#W24($CE82CC)
+//Restoration<End>
+
+//POINTER #734 @ $CE82D0 - STRING #734 @ $CE58C4
+
+#W24($CE82D0)
+//Eis Rune<End>
+
+//POINTER #735 @ $CE82D4 - STRING #735 @ $CE492E
+
+#W24($CE82D4)
+//Throw<End>
+
+//POINTER #736 @ $CE82D8 - STRING #736 @ $CE58D4
+
+#W24($CE82D8)
+//Gelt's Lightning<End>
+
+//POINTER #737 @ $CE82DC - STRING #737 @ $CE58F4
+
+#W24($CE82DC)
+//Thunder Storm<End>
+
+//POINTER #738 @ $CE82E0 - STRING #738 @ $CE492E
+
+#W24($CE82E0)
+//Throw<End>
+
+//POINTER #739 @ $CE82E4 - STRING #739 @ $CE5823
+
+#W24($CE82E4)
+//Book Toss<End>
+
+//POINTER #740 @ $CE82E8 - STRING #740 @ $CE590E
+
+#W24($CE82E8)
+//Electric Thunder<End>
+
+//POINTER #741 @ $CE82EC - STRING #741 @ $CE584B
+
+#W24($CE82EC)
+//Restoration<End>
+
+//POINTER #742 @ $CE82F0 - STRING #742 @ $CE592E
+
+#W24($CE82F0)
+//Blitz Rune<End>
+
+//POINTER #743 @ $CE82F4 - STRING #743 @ $CE492E
+
+#W24($CE82F4)
+//Throw<End>
+
+//POINTER #744 @ $CE82F8 - STRING #744 @ $CE5942
+
+#W24($CE82F8)
+//Light of Kirie<End>
+
+//POINTER #745 @ $CE82FC - STRING #745 @ $CE595D
+
+#W24($CE82FC)
+//Innocent Sphere<End>
+
+//POINTER #746 @ $CE8300 - STRING #746 @ $CE492E
+
+#W24($CE8300)
+//Throw<End>
+
+//POINTER #747 @ $CE8304 - STRING #747 @ $CE5823
+
+#W24($CE8304)
+//Book Toss<End>
+
+//POINTER #748 @ $CE8308 - STRING #748 @ $CE597B
+
+#W24($CE8308)
+//Blazing Light<End>
+
+//POINTER #749 @ $CE830C - STRING #749 @ $CE584B
+
+#W24($CE830C)
+//Restoration<End>
+
+//POINTER #750 @ $CE8310 - STRING #750 @ $CE5995
+
+#W24($CE8310)
+//Heilig Rune<End>
+
+//POINTER #751 @ $CE8314 - STRING #751 @ $CE492E
+
+#W24($CE8314)
+//Throw<End>
+
+//POINTER #752 @ $CE8318 - STRING #752 @ $CE492E
+
+#W24($CE8318)
+//Throw<End>
+
+//POINTER #753 @ $CE831C - STRING #753 @ $CE59AB
+
+#W24($CE831C)
+//Phoenix Dance<End>
+
+//POINTER #754 @ $CE8320 - STRING #754 @ $CE59C5
+
+#W24($CE8320)
+//Ifrit Fling<End>
+
+//POINTER #755 @ $CE8324 - STRING #755 @ $CE492E
+
+#W24($CE8324)
+//Throw<End>
+
+//POINTER #756 @ $CE8328 - STRING #756 @ $CE59DB
+
+#W24($CE8328)
+//Xanadu<End>
+
+//POINTER #757 @ $CE832C - STRING #757 @ $CE492E
+
+#W24($CE832C)
+//Throw<End>
+
+//POINTER #758 @ $CE8330 - STRING #758 @ $CE492E
+
+#W24($CE8330)
+//Throw<End>
+
+//POINTER #759 @ $CE8334 - STRING #759 @ $CE492E
+
+#W24($CE8334)
+//Throw<End>
+
+//POINTER #760 @ $CE8338 - STRING #760 @ $CE59E8
+
+#W24($CE8338)
+//Astral Glitter<End>
+
+//POINTER #761 @ $CE833C - STRING #761 @ $CE492E
+
+#W24($CE833C)
+//Throw<End>
+
+//POINTER #762 @ $CE8340 - STRING #762 @ $CE492E
+
+#W24($CE8340)
+//Throw<End>
+
+//POINTER #763 @ $CE8344 - STRING #763 @ $CE492E
+
+#W24($CE8344)
+//Throw<End>
+
+//POINTER #764 @ $CE8348 - STRING #764 @ $CE5A04
+
+#W24($CE8348)
+//Gigantic Bolt<End>
+
+//POINTER #765 @ $CE834C - STRING #765 @ $CE5A1E
+
+#W24($CE834C)
+//Giga Drive<End>
+
+//POINTER #766 @ $CE8350 - STRING #766 @ $CE492E
+
+#W24($CE8350)
+//Throw<End>
+
+//POINTER #767 @ $CE8354 - STRING #767 @ $CE492E
+
+#W24($CE8354)
+//Throw<End>
+
+//POINTER #768 @ $CE8358 - STRING #768 @ $CE5A32
+
+#W24($CE8358)
+//Nightmare Chill<End>
+
+//POINTER #769 @ $CE835C - STRING #769 @ $CE5A50
+
+#W24($CE835C)
+//Glacial Shadow<End>
+
+//POINTER #770 @ $CE8360 - STRING #770 @ $CE492E
+
+#W24($CE8360)
+//Throw<End>
+
+//POINTER #771 @ $CE8364 - STRING #771 @ $CE492E
+
+#W24($CE8364)
+//Throw<End>
+
+//POINTER #772 @ $CE8368 - STRING #772 @ $CE5A6C
+
+#W24($CE8368)
+//Sacrament<End>
+
+//POINTER #773 @ $CE836C - STRING #773 @ $CE492E
+
+#W24($CE836C)
+//Throw<End>
+
+//POINTER #774 @ $CE8370 - STRING #774 @ $CE492E
+
+#W24($CE8370)
+//Throw<End>
+
+//POINTER #775 @ $CE8374 - STRING #775 @ $CE5A7F
+
+#W24($CE8374)
+//Angel Cure<End>
+
+//POINTER #776 @ $CE8378 - STRING #776 @ $CE5A93
+
+#W24($CE8378)
+//Toss<End>
+
+//POINTER #777 @ $CE837C - STRING #777 @ $CE5A9C
+
+#W24($CE837C)
+//Blue Layer<End>
+
+//POINTER #778 @ $CE8380 - STRING #778 @ $CE5A93
+
+#W24($CE8380)
+//Toss<End>
+
+//POINTER #779 @ $CE8384 - STRING #779 @ $CE5AB0
+
+#W24($CE8384)
+//Critical Hit<End>
+
+//POINTER #780 @ $CE8388 - STRING #780 @ $CE5A93
+
+#W24($CE8388)
+//Toss<End>
+
+//POINTER #781 @ $CE838C - STRING #781 @ $CE5A93
+
+#W24($CE838C)
+//Toss<End>
+
+//POINTER #782 @ $CE8390 - STRING #782 @ $CE5AC8
+
+#W24($CE8390)
+//Red Surface<End>
+
+//POINTER #783 @ $CE8394 - STRING #783 @ $CE5A93
+
+#W24($CE8394)
+//Toss<End>
+
+//POINTER #784 @ $CE8398 - STRING #784 @ $CE5AB0
+
+#W24($CE8398)
+//Critical Hit<End>
+
+//POINTER #785 @ $CE839C - STRING #785 @ $CE5A93
+
+#W24($CE839C)
+//Toss<End>
+
+//POINTER #786 @ $CE83A0 - STRING #786 @ $CE492E
+
+#W24($CE83A0)
+//Throw<End>
+
+//POINTER #787 @ $CE83A4 - STRING #787 @ $CE5ADE
+
+#W24($CE83A4)
+//Gravity Nova<End>
+
+//POINTER #788 @ $CE83A8 - STRING #788 @ $CE492E
+
+#W24($CE83A8)
+//Throw<End>
+
+//POINTER #789 @ $CE83AC - STRING #789 @ $CE492E
+
+#W24($CE83AC)
+//Throw<End>
+
+//POINTER #790 @ $CE83B0 - STRING #790 @ $CE492E
+
+#W24($CE83B0)
+//Throw<End>
+
+//POINTER #791 @ $CE83B4 - STRING #791 @ $CE5AF6
+
+#W24($CE83B4)
+//Null Lance<End>
+
+//POINTER #792 @ $CE83B8 - STRING #792 @ $CE492E
+
+#W24($CE83B8)
+//Throw<End>
+
+//POINTER #793 @ $CE83BC - STRING #793 @ $CE492E
+
+#W24($CE83BC)
+//Throw<End>
+
+//POINTER #794 @ $CE83C0 - STRING #794 @ $CE492E
+
+#W24($CE83C0)
+//Throw<End>
+
+//POINTER #795 @ $CE83C4 - STRING #795 @ $CE492E
+
+#W24($CE83C4)
+//Throw<End>
+
+//POINTER #796 @ $CE83C8 - STRING #796 @ $CE5B0A
+
+#W24($CE83C8)
+//Fanelia Beam<End>
+
+//POINTER #797 @ $CE83CC - STRING #797 @ $CE492E
+
+#W24($CE83CC)
+//Throw<End>
+
+//POINTER #798 @ $CE83D0 - STRING #798 @ $CE492E
+
+#W24($CE83D0)
+//Throw<End>
+
+//POINTER #799 @ $CE83D4 - STRING #799 @ $CE492E
+
+#W24($CE83D4)
+//Throw<End>
+
+//POINTER #800 @ $CE83D8 - STRING #800 @ $CE492E
+
+#W24($CE83D8)
+//Throw<End>
+
+//POINTER #801 @ $CE83DC - STRING #801 @ $CE492E
+
+#W24($CE83DC)
+//Throw<End>
+
+//POINTER #802 @ $CE83E0 - STRING #802 @ $CE5B22
+
+#W24($CE83E0)
+//Nost Lenne<End>
+
+//POINTER #803 @ $CE83E4 - STRING #803 @ $CE492E
+
+#W24($CE83E4)
+//Throw<End>
+
+//POINTER #804 @ $CE83E8 - STRING #804 @ $CE492E
+
+#W24($CE83E8)
+//Throw<End>
+
+//POINTER #805 @ $CE83EC - STRING #805 @ $CE5B36
+
+#W24($CE83EC)
+//Magic Trance<End>
+
+//POINTER #806 @ $CE83F0 - STRING #806 @ $CE492E
+
+#W24($CE83F0)
+//Throw<End>
+
+//POINTER #807 @ $CE83F4 - STRING #807 @ $CE5B4E
+
+#W24($CE83F4)
+//Ceneca Qui<End>
+
+//POINTER #808 @ $CE83F8 - STRING #808 @ $CE492E
+
+#W24($CE83F8)
+//Throw<End>
+
+//POINTER #809 @ $CE83FC - STRING #809 @ $CE492E
+
+#W24($CE83FC)
+//Throw<End>
+
+//POINTER #810 @ $CE8400 - STRING #810 @ $CE5B62
+
+#W24($CE8400)
+//Strength Trance<End>
+
+//POINTER #811 @ $CE8404 - STRING #811 @ $CE492E
+
+#W24($CE8404)
+//Throw<End>
+
+//POINTER #812 @ $CE8408 - STRING #812 @ $CE5B80
+
+#W24($CE8408)
+//Clene Met<End>
+
+//POINTER #813 @ $CE840C - STRING #813 @ $CE492E
+
+#W24($CE840C)
+//Throw<End>
+
+//POINTER #814 @ $CE8410 - STRING #814 @ $CE492E
+
+#W24($CE8410)
+//Throw<End>
+
+//POINTER #815 @ $CE8414 - STRING #815 @ $CE5B92
+
+#W24($CE8414)
+//Agility Trance<End>
+
+//POINTER #816 @ $CE8418 - STRING #816 @ $CE492E
+
+#W24($CE8418)
+//Throw<End>
+
+//POINTER #817 @ $CE841C - STRING #817 @ $CE492E
+
+#W24($CE841C)
+//Throw<End>
+
+//POINTER #818 @ $CE8420 - STRING #818 @ $CE492E
+
+#W24($CE8420)
+//Throw<End>
+
+//POINTER #819 @ $CE8424 - STRING #819 @ $CE492E
+
+#W24($CE8424)
+//Throw<End>
+
+//POINTER #820 @ $CE8428 - STRING #820 @ $CE5BAE
+
+#W24($CE8428)
+//Ama—Tsubame<End>
+
+//POINTER #821 @ $CE842C - STRING #821 @ $CE492E
+
+#W24($CE842C)
+//Throw<End>
+
+//POINTER #822 @ $CE8430 - STRING #822 @ $CE492E
+
+#W24($CE8430)
+//Throw<End>
+
+//POINTER #823 @ $CE8434 - STRING #823 @ $CE492E
+
+#W24($CE8434)
+//Throw<End>
+
+//POINTER #824 @ $CE8438 - STRING #824 @ $CE492E
+
+#W24($CE8438)
+//Throw<End>
+
+//POINTER #825 @ $CE843C - STRING #825 @ $CE5BC5
+
+#W24($CE843C)
+//Oboro—Garasu<End>
+
+//POINTER #826 @ $CE8440 - STRING #826 @ $CE5BDE
+
+#W24($CE8440)
+//Boomerang<End>
+
+//POINTER #827 @ $CE8444 - STRING #827 @ $CE5BF1
+
+#W24($CE8444)
+//Lightning Call<End>
+
+//POINTER #828 @ $CE8448 - STRING #828 @ $CE492E
+
+#W24($CE8448)
+//Throw<End>
+
+//POINTER #829 @ $CE844C - STRING #829 @ $CE492E
+
+#W24($CE844C)
+//Throw<End>
+
+//POINTER #830 @ $CE8450 - STRING #830 @ $CE5C0D
+
+#W24($CE8450)
+//Giga Thunder<End>
+
+//POINTER #831 @ $CE8454 - STRING #831 @ $CE492E
+
+#W24($CE8454)
+//Throw<End>
+
+//POINTER #832 @ $CE8458 - STRING #832 @ $CE5C25
+
+#W24($CE8458)
+//Dragon Slay<End>
+
+//POINTER #833 @ $CE845C - STRING #833 @ $CE492E
+
+#W24($CE845C)
+//Throw<End>
+
+//POINTER #834 @ $CE8460 - STRING #834 @ $CE492E
+
+#W24($CE8460)
+//Throw<End>
+
+//POINTER #835 @ $CE8464 - STRING #835 @ $CE492E
+
+#W24($CE8464)
+//Throw<End>
+
+//POINTER #836 @ $CE8468 - STRING #836 @ $CE492E
+
+#W24($CE8468)
+//Throw<End>
+
+//POINTER #837 @ $CE846C - STRING #837 @ $CE5C25
+
+#W24($CE846C)
+//Dragon Slay<End>
+
+//POINTER #838 @ $CE8470 - STRING #838 @ $CE492E
+
+#W24($CE8470)
+//Throw<End>
+
+//POINTER #839 @ $CE8474 - STRING #839 @ $CE492E
+
+#W24($CE8474)
+//Throw<End>
+
+//POINTER #840 @ $CE8478 - STRING #840 @ $CE492E
+
+#W24($CE8478)
+//Throw<End>
+
+//POINTER #841 @ $CE847C - STRING #841 @ $CE492E
+
+#W24($CE847C)
+//Throw<End>
+
+//POINTER #842 @ $CE8480 - STRING #842 @ $CE5C25
+
+#W24($CE8480)
+//Dragon Slay<End>
+
+//POINTER #843 @ $CE8484 - STRING #843 @ $CE492E
+
+#W24($CE8484)
+//Throw<End>
+
+//POINTER #844 @ $CE8488 - STRING #844 @ $CE492E
+
+#W24($CE8488)
+//Throw<End>
+
+//POINTER #845 @ $CE848C - STRING #845 @ $CE492E
+
+#W24($CE848C)
+//Throw<End>
+
+//POINTER #846 @ $CE8490 - STRING #846 @ $CE492E
+
+#W24($CE8490)
+//Throw<End>
+
+//POINTER #847 @ $CE8494 - STRING #847 @ $CE5C25
+
+#W24($CE8494)
+//Dragon Slay<End>
+
+//POINTER #848 @ $CE8498 - STRING #848 @ $CE492E
+
+#W24($CE8498)
+//Throw<End>
+
+//POINTER #849 @ $CE849C - STRING #849 @ $CE492E
+
+#W24($CE849C)
+//Throw<End>
+
+//POINTER #850 @ $CE84A0 - STRING #850 @ $CE492E
+
+#W24($CE84A0)
+//Throw<End>
+
+//POINTER #851 @ $CE84A4 - STRING #851 @ $CE492E
+
+#W24($CE84A4)
+//Throw<End>
+
+//POINTER #852 @ $CE84A8 - STRING #852 @ $CE5C3B
+
+#W24($CE84A8)
+//Revenge Fang<End>
+
+//POINTER #853 @ $CE84AC - STRING #853 @ $CE492E
+
+#W24($CE84AC)
+//Throw<End>
+
+//POINTER #854 @ $CE84B0 - STRING #854 @ $CE492E
+
+#W24($CE84B0)
+//Throw<End>
+
+//POINTER #855 @ $CE84B4 - STRING #855 @ $CE5C53
+
+#W24($CE84B4)
+//Hunting Throw<End>
+
+//POINTER #856 @ $CE84B8 - STRING #856 @ $CE492E
+
+#W24($CE84B8)
+//Throw<End>
+
+//POINTER #857 @ $CE84BC - STRING #857 @ $CE5C3B
+
+#W24($CE84BC)
+//Revenge Fang<End>
+
+//POINTER #858 @ $CE84C0 - STRING #858 @ $CE492E
+
+#W24($CE84C0)
+//Throw<End>
+
+//POINTER #859 @ $CE84C4 - STRING #859 @ $CE492E
+
+#W24($CE84C4)
+//Throw<End>
+
+//POINTER #860 @ $CE84C8 - STRING #860 @ $CE5C53
+
+#W24($CE84C8)
+//Hunting Throw<End>
+
+//POINTER #861 @ $CE84CC - STRING #861 @ $CE492E
+
+#W24($CE84CC)
+//Throw<End>
+
+//POINTER #862 @ $CE84D0 - STRING #862 @ $CE5C3B
+
+#W24($CE84D0)
+//Revenge Fang<End>
+
+//POINTER #863 @ $CE84D4 - STRING #863 @ $CE492E
+
+#W24($CE84D4)
+//Throw<End>
+
+//POINTER #864 @ $CE84D8 - STRING #864 @ $CE492E
+
+#W24($CE84D8)
+//Throw<End>
+
+//POINTER #865 @ $CE84DC - STRING #865 @ $CE5C53
+
+#W24($CE84DC)
+//Hunting Throw<End>
+
+//POINTER #866 @ $CE84E0 - STRING #866 @ $CE492E
+
+#W24($CE84E0)
+//Throw<End>
+
+//POINTER #867 @ $CE84E4 - STRING #867 @ $CE492E
+
+#W24($CE84E4)
+//Throw<End>
+
+//POINTER #868 @ $CE84E8 - STRING #868 @ $CE492E
+
+#W24($CE84E8)
+//Throw<End>
+
+//POINTER #869 @ $CE84EC - STRING #869 @ $CE492E
+
+#W24($CE84EC)
+//Throw<End>
+
+//POINTER #870 @ $CE84F0 - STRING #870 @ $CE5C6D
+
+#W24($CE84F0)
+//Kill Shot<End>
+
+//POINTER #871 @ $CE84F4 - STRING #871 @ $CE5C7F
+
+#W24($CE84F4)
+//Stun Edge<End>
+
+//POINTER #872 @ $CE84F8 - STRING #872 @ $CE492E
+
+#W24($CE84F8)
+//Throw<End>
+
+//POINTER #873 @ $CE84FC - STRING #873 @ $CE492E
+
+#W24($CE84FC)
+//Throw<End>
+
+//POINTER #874 @ $CE8500 - STRING #874 @ $CE492E
+
+#W24($CE8500)
+//Throw<End>
+
+//POINTER #875 @ $CE8504 - STRING #875 @ $CE5C6D
+
+#W24($CE8504)
+//Kill Shot<End>
+
+//POINTER #876 @ $CE8508 - STRING #876 @ $CE5C7F
+
+#W24($CE8508)
+//Stun Edge<End>
+
+//POINTER #877 @ $CE850C - STRING #877 @ $CE492E
+
+#W24($CE850C)
+//Throw<End>
+
+//POINTER #878 @ $CE8510 - STRING #878 @ $CE492E
+
+#W24($CE8510)
+//Throw<End>
+
+//POINTER #879 @ $CE8514 - STRING #879 @ $CE492E
+
+#W24($CE8514)
+//Throw<End>
+
+//POINTER #880 @ $CE8518 - STRING #880 @ $CE5C91
+
+#W24($CE8518)
+//Gale Arrow<End>
+
+//POINTER #881 @ $CE851C - STRING #881 @ $CE492E
+
+#W24($CE851C)
+//Throw<End>
+
+//POINTER #882 @ $CE8520 - STRING #882 @ $CE492E
+
+#W24($CE8520)
+//Throw<End>
+
+//POINTER #883 @ $CE8524 - STRING #883 @ $CE492E
+
+#W24($CE8524)
+//Throw<End>
+
+//POINTER #884 @ $CE8528 - STRING #884 @ $CE492E
+
+#W24($CE8528)
+//Throw<End>
+
+//POINTER #885 @ $CE852C - STRING #885 @ $CE5CA5
+
+#W24($CE852C)
+//Fallen Arrow<End>
+
+//POINTER #886 @ $CE8530 - STRING #886 @ $CE492E
+
+#W24($CE8530)
+//Throw<End>
+
+//POINTER #887 @ $CE8534 - STRING #887 @ $CE492E
+
+#W24($CE8534)
+//Throw<End>
+
+//POINTER #888 @ $CE8538 - STRING #888 @ $CE492E
+
+#W24($CE8538)
+//Throw<End>
+
+//POINTER #889 @ $CE853C - STRING #889 @ $CE492E
+
+#W24($CE853C)
+//Throw<End>
+
+//POINTER #890 @ $CE8540 - STRING #890 @ $CE5CBD
+
+#W24($CE8540)
+//Phoenix Arrow<End>
+
+//POINTER #891 @ $CE8544 - STRING #891 @ $CE492E
+
+#W24($CE8544)
+//Throw<End>
+
+//POINTER #892 @ $CE8548 - STRING #892 @ $CE492E
+
+#W24($CE8548)
+//Throw<End>
+
+//POINTER #893 @ $CE854C - STRING #893 @ $CE492E
+
+#W24($CE854C)
+//Throw<End>
+
+//POINTER #894 @ $CE8550 - STRING #894 @ $CE492E
+
+#W24($CE8550)
+//Throw<End>
+
+//POINTER #895 @ $CE8554 - STRING #895 @ $CE5CD7
+
+#W24($CE8554)
+//Dragon Arrow<End>
+
+//POINTER #896 @ $CE8558 - STRING #896 @ $CE492E
+
+#W24($CE8558)
+//Throw<End>
+
+//POINTER #897 @ $CE855C - STRING #897 @ $CE5CEF
+
+#W24($CE855C)
+//Sic'em<End>
+
+//POINTER #898 @ $CE8560 - STRING #898 @ $CE5CEF
+
+#W24($CE8560)
+//Sic'em<End>
+
+//POINTER #899 @ $CE8564 - STRING #899 @ $CE5CFC
+
+#W24($CE8564)
+//Vampire Night<End>
+
+//POINTER #900 @ $CE8568 - STRING #900 @ $CE5CEF
+
+#W24($CE8568)
+//Sic'em<End>
+
+//POINTER #901 @ $CE856C - STRING #901 @ $CE5CEF
+
+#W24($CE856C)
+//Sic'em<End>
+
+//POINTER #902 @ $CE8570 - STRING #902 @ $CE5CEF
+
+#W24($CE8570)
+//Sic'em<End>
+
+//POINTER #903 @ $CE8574 - STRING #903 @ $CE5CEF
+
+#W24($CE8574)
+//Sic'em<End>
+
+//POINTER #904 @ $CE8578 - STRING #904 @ $CE5CFC
+
+#W24($CE8578)
+//Vampire Night<End>
+
+//POINTER #905 @ $CE857C - STRING #905 @ $CE5CEF
+
+#W24($CE857C)
+//Sic'em<End>
+
+//POINTER #906 @ $CE8580 - STRING #906 @ $CE5CEF
+
+#W24($CE8580)
+//Sic'em<End>
+
+//POINTER #907 @ $CE8584 - STRING #907 @ $CE5CEF
+
+#W24($CE8584)
+//Sic'em<End>
+
+//POINTER #908 @ $CE8588 - STRING #908 @ $CE5CEF
+
+#W24($CE8588)
+//Sic'em<End>
+
+//POINTER #909 @ $CE858C - STRING #909 @ $CE5CFC
+
+#W24($CE858C)
+//Vampire Night<End>
+
+//POINTER #910 @ $CE8590 - STRING #910 @ $CE5CEF
+
+#W24($CE8590)
+//Sic'em<End>
+
+//POINTER #911 @ $CE8594 - STRING #911 @ $CE5CEF
+
+#W24($CE8594)
+//Sic'em<End>
+
+//POINTER #912 @ $CE8598 - STRING #912 @ $CE5D16
+
+#W24($CE8598)
+//Sling<End>
+
+//POINTER #913 @ $CE859C - STRING #913 @ $CE5D16
+
+#W24($CE859C)
+//Sling<End>
+
+//POINTER #914 @ $CE85A0 - STRING #914 @ $CE5D16
+
+#W24($CE85A0)
+//Sling<End>
+
+//POINTER #915 @ $CE85A4 - STRING #915 @ $CE5A93
+
+#W24($CE85A4)
+//Toss<End>
+
+//POINTER #916 @ $CE85A8 - STRING #916 @ $CE5D16
+
+#W24($CE85A8)
+//Sling<End>
+
+//POINTER #917 @ $CE85AC - STRING #917 @ $CE492E
+
+#W24($CE85AC)
+//Throw<End>
+
+//POINTER #918 @ $CE85B0 - STRING #918 @ $CE5D21
+
+#W24($CE85B0)
+//Lullaby Whip<End>
+
+//POINTER #919 @ $CE85B4 - STRING #919 @ $CE492E
+
+#W24($CE85B4)
+//Throw<End>
+
+//POINTER #920 @ $CE85B8 - STRING #920 @ $CE492E
+
+#W24($CE85B8)
+//Throw<End>
+
+//POINTER #921 @ $CE85BC - STRING #921 @ $CE492E
+
+#W24($CE85BC)
+//Throw<End>
+
+//POINTER #922 @ $CE85C0 - STRING #922 @ $CE5D39
+
+#W24($CE85C0)
+//Ring<End>
+
+//POINTER #923 @ $CE85C4 - STRING #923 @ $CE5D39
+
+#W24($CE85C4)
+//Ring<End>
+
+//POINTER #924 @ $CE85C8 - STRING #924 @ $CE5D39
+
+#W24($CE85C8)
+//Ring<End>
+
+//POINTER #925 @ $CE85CC - STRING #925 @ $CE5D39
+
+#W24($CE85CC)
+//Ring<End>
+
+//POINTER #926 @ $CE85D0 - STRING #926 @ $CE5D39
+
+#W24($CE85D0)
+//Ring<End>
+
+//POINTER #927 @ $CE85D4 - STRING #927 @ $CE5D42
+
+#W24($CE85D4)
+//Bee Assault<End>
+
+//POINTER #928 @ $CE85D8 - STRING #928 @ $CE5D42
+
+#W24($CE85D8)
+//Bee Assault<End>
+
+//POINTER #929 @ $CE85DC - STRING #929 @ $CE5D42
+
+#W24($CE85DC)
+//Bee Assault<End>
+
+//POINTER #930 @ $CE85E0 - STRING #930 @ $CE5D42
+
+#W24($CE85E0)
+//Bee Assault<End>
+
+//POINTER #931 @ $CE85E4 - STRING #931 @ $CE5D42
+
+#W24($CE85E4)
+//Bee Assault<End>
+
+//POINTER #932 @ $CE85E8 - STRING #932 @ $CE5D58
+
+#W24($CE85E8)
+//Bee Cannon<End>
+
+//POINTER #933 @ $CE85EC - STRING #933 @ $CE5D58
+
+#W24($CE85EC)
+//Bee Cannon<End>
+
+//POINTER #934 @ $CE85F0 - STRING #934 @ $CE5D58
+
+#W24($CE85F0)
+//Bee Cannon<End>
+
+//POINTER #935 @ $CE85F4 - STRING #935 @ $CE5D58
+
+#W24($CE85F4)
+//Bee Cannon<End>
+
+//POINTER #936 @ $CE85F8 - STRING #936 @ $CE5D58
+
+#W24($CE85F8)
+//Bee Cannon<End>
+
+//POINTER #937 @ $CE85FC - STRING #937 @ $CE5D6C
+
+#W24($CE85FC)
+//Hermit<End>
+
+//POINTER #938 @ $CE8600 - STRING #938 @ $CE5D79
+
+#W24($CE8600)
+//Magician<End>
+
+//POINTER #939 @ $CE8604 - STRING #939 @ $CE5D8A
+
+#W24($CE8604)
+//Devil<End>
+
+//POINTER #940 @ $CE8608 - STRING #940 @ $CE5D95
+
+#W24($CE8608)
+//Fortune's Wheel<End>
+
+//POINTER #941 @ $CE860C - STRING #941 @ $CE5DB3
+
+#W24($CE860C)
+//Justice<End>
+
+//POINTER #942 @ $CE8610 - STRING #942 @ $CE492E
+
+#W24($CE8610)
+//Throw<End>
+
+//POINTER #943 @ $CE8614 - STRING #943 @ $CE492E
+
+#W24($CE8614)
+//Throw<End>
+
+//POINTER #944 @ $CE8618 - STRING #944 @ $CE492E
+
+#W24($CE8618)
+//Throw<End>
+
+//POINTER #945 @ $CE861C - STRING #945 @ $CE492E
+
+#W24($CE861C)
+//Throw<End>
+
+//POINTER #946 @ $CE8620 - STRING #946 @ $CE492E
+
+#W24($CE8620)
+//Throw<End>
+
+//POINTER #947 @ $CE8624 - STRING #947 @ $CE5DC2
+
+#W24($CE8624)
+//Summon Happy<End>
+
+//POINTER #948 @ $CE8628 - STRING #948 @ $CE5DDA
+
+#W24($CE8628)
+//Tickle<End>
+
+//POINTER #949 @ $CE862C - STRING #949 @ $CE5DDA
+
+#W24($CE862C)
+//Tickle<End>
+
+//POINTER #950 @ $CE8630 - STRING #950 @ $CE5DDA
+
+#W24($CE8630)
+//Tickle<End>
+
+//POINTER #951 @ $CE8634 - STRING #951 @ $CE5DDA
+
+#W24($CE8634)
+//Tickle<End>
+
+//POINTER #952 @ $CE8638 - STRING #952 @ $CE5DE7
+
+#W24($CE8638)
+//Decipher<End>
+
+//POINTER #953 @ $CE863C - STRING #953 @ $CE5DE7
+
+#W24($CE863C)
+//Decipher<End>
+
+//POINTER #954 @ $CE8640 - STRING #954 @ $CE5DE7
+
+#W24($CE8640)
+//Decipher<End>
+
+//POINTER #955 @ $CE8644 - STRING #955 @ $CE5DE7
+
+#W24($CE8644)
+//Decipher<End>
+
+//POINTER #956 @ $CE8648 - STRING #956 @ $CE5DE7
+
+#W24($CE8648)
+//Decipher<End>
+
+//POINTER #957 @ $CE864C - STRING #957 @ $CE5DF8
+
+#W24($CE864C)
+//Blow Away<End>
+
+//POINTER #958 @ $CE8650 - STRING #958 @ $CE5DF8
+
+#W24($CE8650)
+//Blow Away<End>
+
+//POINTER #959 @ $CE8654 - STRING #959 @ $CE5DF8
+
+#W24($CE8654)
+//Blow Away<End>
+
+//POINTER #960 @ $CE8658 - STRING #960 @ $CE5E0A
+
+#W24($CE8658)
+//Wind Cutter<End>
+
+//POINTER #961 @ $CE865C - STRING #961 @ $CE5DF8
+
+#W24($CE865C)
+//Blow Away<End>
+
+//POINTER #962 @ $CE8660 - STRING #962 @ $CE5DF8
+
+#W24($CE8660)
+//Blow Away<End>
+
+//POINTER #963 @ $CE8664 - STRING #963 @ $CE5E20
+
+#W24($CE8664)
+//Entangle<End>
+
+//POINTER #964 @ $CE8668 - STRING #964 @ $CE5E20
+
+#W24($CE8668)
+//Entangle<End>
+
+//POINTER #965 @ $CE866C - STRING #965 @ $CE5E20
+
+#W24($CE866C)
+//Entangle<End>
+
+//POINTER #966 @ $CE8670 - STRING #966 @ $CE5E20
+
+#W24($CE8670)
+//Entangle<End>
+
+//POINTER #967 @ $CE8674 - STRING #967 @ $CE5E20
+
+#W24($CE8674)
+//Entangle<End>
+
+//POINTER #968 @ $CE8678 - STRING #968 @ $CE5E31
+
+#W24($CE8678)
+//Toss<End>
+
+//POINTER #969 @ $CE867C - STRING #969 @ $CE5E31
+
+#W24($CE867C)
+//Toss<End>
+
+//POINTER #970 @ $CE8680 - STRING #970 @ $CE5E31
+
+#W24($CE8680)
+//Toss<End>
+
+//POINTER #971 @ $CE8684 - STRING #971 @ $CE5E31
+
+#W24($CE8684)
+//Toss<End>
+
+//POINTER #972 @ $CE8688 - STRING #972 @ $CE5E31
+
+#W24($CE8688)
+//Toss<End>
+
+//POINTER #973 @ $CE868C - STRING #973 @ $CE5DDA
+
+#W24($CE868C)
+//Tickle<End>
+
+//POINTER #974 @ $CE8690 - STRING #974 @ $CE5DDA
+
+#W24($CE8690)
+//Tickle<End>
+
+//POINTER #975 @ $CE8694 - STRING #975 @ $CE5DDA
+
+#W24($CE8694)
+//Tickle<End>
+
+//POINTER #976 @ $CE8698 - STRING #976 @ $CE5DDA
+
+#W24($CE8698)
+//Tickle<End>
+
+//POINTER #977 @ $CE869C - STRING #977 @ $CE5DDA
+
+#W24($CE869C)
+//Tickle<End>
+
+//POINTER #978 @ $CE86A0 - STRING #978 @ $CE492E
+
+#W24($CE86A0)
+//Throw<End>
+
+//POINTER #979 @ $CE86A4 - STRING #979 @ $CE5E3A
+
+#W24($CE86A4)
+//Dark Fire<End>
+
+//POINTER #980 @ $CE86A8 - STRING #980 @ $CE5E4C
+
+#W24($CE86A8)
+//Dark Heal<End>
+
+//POINTER #981 @ $CE86AC - STRING #981 @ $CE5E5E
+
+#W24($CE86AC)
+//Fan<End>
+
+//POINTER #982 @ $CE86B0 - STRING #982 @ $CE5E65
+
+#W24($CE86B0)
+//Black Tornado<End>
+
+//POINTER #983 @ $CE86B4 - STRING #983 @ $CE5E7F
+
+#W24($CE86B4)
+//Mad Raven<End>
+
+//POINTER #984 @ $CE86B8 - STRING #984 @ $CE5E91
+
+#W24($CE86B8)
+//Dark Dance<End>
+
+//POINTER #985 @ $CE86BC - STRING #985 @ $CE5D16
+
+#W24($CE86BC)
+//Sling<End>
+
+//POINTER #986 @ $CE86C0 - STRING #986 @ $CE5D16
+
+#W24($CE86C0)
+//Sling<End>
+
+//POINTER #987 @ $CE86C4 - STRING #987 @ $CE5D16
+
+#W24($CE86C4)
+//Sling<End>
+
+//POINTER #988 @ $CE86C8 - STRING #988 @ $CE5D16
+
+#W24($CE86C8)
+//Sling<End>
+
+//POINTER #989 @ $CE86CC - STRING #989 @ $CE5D16
+
+#W24($CE86CC)
+//Sling<End>
+
+//POINTER #990 @ $CE86D0 - STRING #990 @ $CE5EA5
+
+#W24($CE86D0)
+//Smart Bomb<End>
+
+//POINTER #991 @ $CE86D4 - STRING #991 @ $CE5EA5
+
+#W24($CE86D4)
+//Smart Bomb<End>
+
+//POINTER #992 @ $CE86D8 - STRING #992 @ $CE5EA5
+
+#W24($CE86D8)
+//Smart Bomb<End>
+
+//POINTER #993 @ $CE86DC - STRING #993 @ $CE5EA5
+
+#W24($CE86DC)
+//Smart Bomb<End>
+
+//POINTER #994 @ $CE86E0 - STRING #994 @ $CE5EA5
+
+#W24($CE86E0)
+//Smart Bomb<End>
+
+//POINTER #995 @ $CE86E4 - STRING #995 @ $CE5EB9
+
+#W24($CE86E4)
+//Gale Wing<End>
+
+//POINTER #996 @ $CE86E8 - STRING #996 @ $CE5EB9
+
+#W24($CE86E8)
+//Gale Wing<End>
+
+//POINTER #997 @ $CE86EC - STRING #997 @ $CE5EB9
+
+#W24($CE86EC)
+//Gale Wing<End>
+
+//POINTER #998 @ $CE86F0 - STRING #998 @ $CE5ECB
+
+#W24($CE86F0)
+//Wind Hazard<End>
+
+//POINTER #999 @ $CE86F4 - STRING #999 @ $CE5EB9
+
+#W24($CE86F4)
+//Gale Wing<End>
+
+//POINTER #1000 @ $CE86F8 - STRING #1000 @ $CE5EB9
+
+#W24($CE86F8)
+//Gale Wing<End>
+
+//POINTER #1001 @ $CE86FC - STRING #1001 @ $CE5EE1
+
+#W24($CE86FC)
+//Equip<End>
+
+//POINTER #1002 @ $CE8700 - STRING #1002 @ $CE5EEC
+
+#W24($CE8700)
+//Strong Blast<End>
+
+//POINTER #1003 @ $CE8704 - STRING #1003 @ $CE5EE1
+
+#W24($CE8704)
+//Equip<End>
+
+//POINTER #1004 @ $CE8708 - STRING #1004 @ $CE5EE1
+
+#W24($CE8708)
+//Equip<End>
+
+//POINTER #1005 @ $CE870C - STRING #1005 @ $CE5F04
+
+#W24($CE870C)
+//High Tension<End>
+
+//POINTER #1006 @ $CE8710 - STRING #1006 @ $CE5EE1
+
+#W24($CE8710)
+//Equip<End>
+
+//POINTER #1007 @ $CE8714 - STRING #1007 @ $CE5EE1
+
+#W24($CE8714)
+//Equip<End>
+
+//POINTER #1008 @ $CE8718 - STRING #1008 @ $CE5EE1
+
+#W24($CE8718)
+//Equip<End>
+
+//POINTER #1009 @ $CE871C - STRING #1009 @ $CE5EE1
+
+#W24($CE871C)
+//Equip<End>
+
+//POINTER #1010 @ $CE8720 - STRING #1010 @ $CE5F1C
+
+#W24($CE8720)
+//Magic Blast<End>
+
+//POINTER #1011 @ $CE8724 - STRING #1011 @ $CE5EE1
+
+#W24($CE8724)
+//Equip<End>
+
+//POINTER #1012 @ $CE8728 - STRING #1012 @ $CE5EE1
+
+#W24($CE8728)
+//Equip<End>
+
+//POINTER #1013 @ $CE872C - STRING #1013 @ $CE5EE1
+
+#W24($CE872C)
+//Equip<End>
+
+//POINTER #1014 @ $CE8730 - STRING #1014 @ $CE5F32
+
+#W24($CE8730)
+//Magic Heal<End>
+
+//POINTER #1015 @ $CE8734 - STRING #1015 @ $CE5EE1
+
+#W24($CE8734)
+//Equip<End>
+
+//POINTER #1016 @ $CE8738 - STRING #1016 @ $CE5F46
+
+#W24($CE8738)
+//Armored<End>
+
+//POINTER #1017 @ $CE873C - STRING #1017 @ $CE492E
+
+#W24($CE873C)
+//Throw<End>
+
+//POINTER #1018 @ $CE8740 - STRING #1018 @ $CE492E
+
+#W24($CE8740)
+//Throw<End>
+
+//POINTER #1019 @ $CE8744 - STRING #1019 @ $CE492E
+
+#W24($CE8744)
+//Throw<End>
+
+//POINTER #1020 @ $CE8748 - STRING #1020 @ $CE5EE1
+
+#W24($CE8748)
+//Equip<End>
+
+//POINTER #1021 @ $CE874C - STRING #1021 @ $CE5EE1
+
+#W24($CE874C)
+//Equip<End>
+
+//POINTER #1022 @ $CE8750 - STRING #1022 @ $CE5EE1
+
+#W24($CE8750)
+//Equip<End>
+
+//POINTER #1023 @ $CE8754 - STRING #1023 @ $CE492E
+
+#W24($CE8754)
+//Throw<End>
+
+//POINTER #1024 @ $CE8758 - STRING #1024 @ $CE5EE1
+
+#W24($CE8758)
+//Equip<End>
+
+//POINTER #1025 @ $CE875C - STRING #1025 @ $CE5F55
+
+#W24($CE875C)
+//Cape Magic<End>
+
+//POINTER #1026 @ $CE8760 - STRING #1026 @ $CE5EE1
+
+#W24($CE8760)
+//Equip<End>
+
+//POINTER #1027 @ $CE8764 - STRING #1027 @ $CE5EE1
+
+#W24($CE8764)
+//Equip<End>
+
+//POINTER #1028 @ $CE8768 - STRING #1028 @ $CE5F69
+
+#W24($CE8768)
+//Shield Barrier<End>
+
+//POINTER #1029 @ $CE876C - STRING #1029 @ $CE492E
+
+#W24($CE876C)
+//Throw<End>
+
+//POINTER #1030 @ $CE8770 - STRING #1030 @ $CE492E
+
+#W24($CE8770)
+//Throw<End>
+
+//POINTER #1031 @ $CE8774 - STRING #1031 @ $CE5EE1
+
+#W24($CE8774)
+//Equip<End>
+
+//POINTER #1032 @ $CE8778 - STRING #1032 @ $CE5F85
+
+#W24($CE8778)
+//Shield Slugger<End>
+
+//POINTER #1033 @ $CE877C - STRING #1033 @ $CE5EE1
+
+#W24($CE877C)
+//Equip<End>
+
+//POINTER #1034 @ $CE8780 - STRING #1034 @ $CE5FA1
+
+#W24($CE8780)
+//Force<End>
+
+//POINTER #1035 @ $CE8784 - STRING #1035 @ $CE5EE1
+
+#W24($CE8784)
+//Equip<End>
+
+//POINTER #1036 @ $CE8788 - STRING #1036 @ $CE5EE1
+
+#W24($CE8788)
+//Equip<End>
+
+//POINTER #1037 @ $CE878C - STRING #1037 @ $CE5FAC
+
+#W24($CE878C)
+//Etherlight<End>
+
+//POINTER #1038 @ $CE8790 - STRING #1038 @ $CE5EE1
+
+#W24($CE8790)
+//Equip<End>
+
+//POINTER #1039 @ $CE8794 - STRING #1039 @ $CE5FC1
+
+#W24($CE8794)
+//Shining Star<End>
+
+//POINTER #1040 @ $CE8798 - STRING #1040 @ $CE5EE1
+
+#W24($CE8798)
+//Equip<End>
+
+//POINTER #1041 @ $CE879C - STRING #1041 @ $CE5EE1
+
+#W24($CE879C)
+//Equip<End>
+
+//POINTER #1042 @ $CE87A0 - STRING #1042 @ $CE5EE1
+
+#W24($CE87A0)
+//Equip<End>
+
+//POINTER #1043 @ $CE87A4 - STRING #1043 @ $CE5FD9
+
+#W24($CE87A4)
+//Iron Wall<End>
+
+//POINTER #1044 @ $CE87A8 - STRING #1044 @ $CE5EE1
+
+#W24($CE87A8)
+//Equip<End>
+
+//POINTER #1045 @ $CE87AC - STRING #1045 @ $CE5EE1
+
+#W24($CE87AC)
+//Equip<End>
+
+//POINTER #1046 @ $CE87B0 - STRING #1046 @ $CE5EE1
+
+#W24($CE87B0)
+//Equip<End>
+
+//POINTER #1047 @ $CE87B4 - STRING #1047 @ $CE5EE1
+
+#W24($CE87B4)
+//Equip<End>
+
+//POINTER #1048 @ $CE87B8 - STRING #1048 @ $CE5FEB
+
+#W24($CE87B8)
+//Raise<End>
+
+//POINTER #1049 @ $CE87BC - STRING #1049 @ $CE5FF6
+
+#W24($CE87BC)
+//Katon—no—Jutsu<End>
+
+//POINTER #1050 @ $CE87C0 - STRING #1050 @ $CE5FEB
+
+#W24($CE87C0)
+//Raise<End>
+
+//POINTER #1051 @ $CE87C4 - STRING #1051 @ $CE6013
+
+#W24($CE87C4)
+//Fire Resist<End>
+
+//POINTER #1052 @ $CE87C8 - STRING #1052 @ $CE5FEB
+
+#W24($CE87C8)
+//Raise<End>
+
+//POINTER #1053 @ $CE87CC - STRING #1053 @ $CE6029
+
+#W24($CE87CC)
+//CI—Grenade<End>
+
+//POINTER #1054 @ $CE87D0 - STRING #1054 @ $CE5FEB
+
+#W24($CE87D0)
+//Raise<End>
+
+//POINTER #1055 @ $CE87D4 - STRING #1055 @ $CE5FEB
+
+#W24($CE87D4)
+//Raise<End>
+
+//POINTER #1056 @ $CE87D8 - STRING #1056 @ $CE5FF6
+
+#W24($CE87D8)
+//Katon—no—Jutsu<End>
+
+//POINTER #1057 @ $CE87DC - STRING #1057 @ $CE5FEB
+
+#W24($CE87DC)
+//Raise<End>
+
+//POINTER #1058 @ $CE87E0 - STRING #1058 @ $CE6013
+
+#W24($CE87E0)
+//Fire Resist<End>
+
+//POINTER #1059 @ $CE87E4 - STRING #1059 @ $CE5FEB
+
+#W24($CE87E4)
+//Raise<End>
+
+//POINTER #1060 @ $CE87E8 - STRING #1060 @ $CE603E
+
+#W24($CE87E8)
+//CII—Grenade<End>
+
+//POINTER #1061 @ $CE87EC - STRING #1061 @ $CE5FEB
+
+#W24($CE87EC)
+//Raise<End>
+
+//POINTER #1062 @ $CE87F0 - STRING #1062 @ $CE5FEB
+
+#W24($CE87F0)
+//Raise<End>
+
+//POINTER #1063 @ $CE87F4 - STRING #1063 @ $CE6053
+
+#W24($CE87F4)
+//Blazing Rose<End>
+
+//POINTER #1064 @ $CE87F8 - STRING #1064 @ $CE5FEB
+
+#W24($CE87F8)
+//Raise<End>
+
+//POINTER #1065 @ $CE87FC - STRING #1065 @ $CE6013
+
+#W24($CE87FC)
+//Fire Resist<End>
+
+//POINTER #1066 @ $CE8800 - STRING #1066 @ $CE5FEB
+
+#W24($CE8800)
+//Raise<End>
+
+//POINTER #1067 @ $CE8804 - STRING #1067 @ $CE606B
+
+#W24($CE8804)
+//CC—Grenade<End>
+
+//POINTER #1068 @ $CE8808 - STRING #1068 @ $CE5FEB
+
+#W24($CE8808)
+//Raise<End>
+
+//POINTER #1069 @ $CE880C - STRING #1069 @ $CE5FEB
+
+#W24($CE880C)
+//Raise<End>
+
+//POINTER #1070 @ $CE8810 - STRING #1070 @ $CE5FEB
+
+#W24($CE8810)
+//Raise<End>
+
+//POINTER #1071 @ $CE8814 - STRING #1071 @ $CE6080
+
+#W24($CE8814)
+//Blizzard<End>
+
+//POINTER #1072 @ $CE8818 - STRING #1072 @ $CE5FEB
+
+#W24($CE8818)
+//Raise<End>
+
+//POINTER #1073 @ $CE881C - STRING #1073 @ $CE6091
+
+#W24($CE881C)
+//Ice Resist<End>
+
+//POINTER #1074 @ $CE8820 - STRING #1074 @ $CE6029
+
+#W24($CE8820)
+//CI—Grenade<End>
+
+//POINTER #1075 @ $CE8824 - STRING #1075 @ $CE5FEB
+
+#W24($CE8824)
+//Raise<End>
+
+//POINTER #1076 @ $CE8828 - STRING #1076 @ $CE5FEB
+
+#W24($CE8828)
+//Raise<End>
+
+//POINTER #1077 @ $CE882C - STRING #1077 @ $CE5FEB
+
+#W24($CE882C)
+//Raise<End>
+
+//POINTER #1078 @ $CE8830 - STRING #1078 @ $CE6080
+
+#W24($CE8830)
+//Blizzard<End>
+
+//POINTER #1079 @ $CE8834 - STRING #1079 @ $CE5FEB
+
+#W24($CE8834)
+//Raise<End>
+
+//POINTER #1080 @ $CE8838 - STRING #1080 @ $CE6091
+
+#W24($CE8838)
+//Ice Resist<End>
+
+//POINTER #1081 @ $CE883C - STRING #1081 @ $CE603E
+
+#W24($CE883C)
+//CII—Grenade<End>
+
+//POINTER #1082 @ $CE8840 - STRING #1082 @ $CE5FEB
+
+#W24($CE8840)
+//Raise<End>
+
+//POINTER #1083 @ $CE8844 - STRING #1083 @ $CE5FEB
+
+#W24($CE8844)
+//Raise<End>
+
+//POINTER #1084 @ $CE8848 - STRING #1084 @ $CE5FEB
+
+#W24($CE8848)
+//Raise<End>
+
+//POINTER #1085 @ $CE884C - STRING #1085 @ $CE6080
+
+#W24($CE884C)
+//Blizzard<End>
+
+//POINTER #1086 @ $CE8850 - STRING #1086 @ $CE5FEB
+
+#W24($CE8850)
+//Raise<End>
+
+//POINTER #1087 @ $CE8854 - STRING #1087 @ $CE6091
+
+#W24($CE8854)
+//Ice Resist<End>
+
+//POINTER #1088 @ $CE8858 - STRING #1088 @ $CE606B
+
+#W24($CE8858)
+//CC—Grenade<End>
+
+//POINTER #1089 @ $CE885C - STRING #1089 @ $CE5FEB
+
+#W24($CE885C)
+//Raise<End>
+
+//POINTER #1090 @ $CE8860 - STRING #1090 @ $CE5FEB
+
+#W24($CE8860)
+//Raise<End>
+
+//POINTER #1091 @ $CE8864 - STRING #1091 @ $CE5FEB
+
+#W24($CE8864)
+//Raise<End>
+
+//POINTER #1092 @ $CE8868 - STRING #1092 @ $CE60A5
+
+#W24($CE8868)
+//Lightning<End>
+
+//POINTER #1093 @ $CE886C - STRING #1093 @ $CE5FEB
+
+#W24($CE886C)
+//Raise<End>
+
+//POINTER #1094 @ $CE8870 - STRING #1094 @ $CE6029
+
+#W24($CE8870)
+//CI—Grenade<End>
+
+//POINTER #1095 @ $CE8874 - STRING #1095 @ $CE60B8
+
+#W24($CE8874)
+//Thunder Resist<End>
+
+//POINTER #1096 @ $CE8878 - STRING #1096 @ $CE5FEB
+
+#W24($CE8878)
+//Raise<End>
+
+//POINTER #1097 @ $CE887C - STRING #1097 @ $CE5FEB
+
+#W24($CE887C)
+//Raise<End>
+
+//POINTER #1098 @ $CE8880 - STRING #1098 @ $CE5FEB
+
+#W24($CE8880)
+//Raise<End>
+
+//POINTER #1099 @ $CE8884 - STRING #1099 @ $CE60A5
+
+#W24($CE8884)
+//Lightning<End>
+
+//POINTER #1100 @ $CE8888 - STRING #1100 @ $CE5FEB
+
+#W24($CE8888)
+//Raise<End>
+
+//POINTER #1101 @ $CE888C - STRING #1101 @ $CE603E
+
+#W24($CE888C)
+//CII—Grenade<End>
+
+//POINTER #1102 @ $CE8890 - STRING #1102 @ $CE60B8
+
+#W24($CE8890)
+//Thunder Resist<End>
+
+//POINTER #1103 @ $CE8894 - STRING #1103 @ $CE5FEB
+
+#W24($CE8894)
+//Raise<End>
+
+//POINTER #1104 @ $CE8898 - STRING #1104 @ $CE5FEB
+
+#W24($CE8898)
+//Raise<End>
+
+//POINTER #1105 @ $CE889C - STRING #1105 @ $CE5FEB
+
+#W24($CE889C)
+//Raise<End>
+
+//POINTER #1106 @ $CE88A0 - STRING #1106 @ $CE60A5
+
+#W24($CE88A0)
+//Lightning<End>
+
+//POINTER #1107 @ $CE88A4 - STRING #1107 @ $CE5FEB
+
+#W24($CE88A4)
+//Raise<End>
+
+//POINTER #1108 @ $CE88A8 - STRING #1108 @ $CE606B
+
+#W24($CE88A8)
+//CC—Grenade<End>
+
+//POINTER #1109 @ $CE88AC - STRING #1109 @ $CE60B8
+
+#W24($CE88AC)
+//Thunder Resist<End>
+
+//POINTER #1110 @ $CE88B0 - STRING #1110 @ $CE5FEB
+
+#W24($CE88B0)
+//Raise<End>
+
+//POINTER #1111 @ $CE88B4 - STRING #1111 @ $CE5FEB
+
+#W24($CE88B4)
+//Raise<End>
+
+//POINTER #1112 @ $CE88B8 - STRING #1112 @ $CE5FEB
+
+#W24($CE88B8)
+//Raise<End>
+
+//POINTER #1113 @ $CE88BC - STRING #1113 @ $CE60D4
+
+#W24($CE88BC)
+//Holy<End>
+
+//POINTER #1114 @ $CE88C0 - STRING #1114 @ $CE5FEB
+
+#W24($CE88C0)
+//Raise<End>
+
+//POINTER #1115 @ $CE88C4 - STRING #1115 @ $CE6029
+
+#W24($CE88C4)
+//CI—Grenade<End>
+
+//POINTER #1116 @ $CE88C8 - STRING #1116 @ $CE5FEB
+
+#W24($CE88C8)
+//Raise<End>
+
+//POINTER #1117 @ $CE88CC - STRING #1117 @ $CE60DD
+
+#W24($CE88CC)
+//Dark Resist<End>
+
+//POINTER #1118 @ $CE88D0 - STRING #1118 @ $CE5FEB
+
+#W24($CE88D0)
+//Raise<End>
+
+//POINTER #1119 @ $CE88D4 - STRING #1119 @ $CE5FEB
+
+#W24($CE88D4)
+//Raise<End>
+
+//POINTER #1120 @ $CE88D8 - STRING #1120 @ $CE60D4
+
+#W24($CE88D8)
+//Holy<End>
+
+//POINTER #1121 @ $CE88DC - STRING #1121 @ $CE5FEB
+
+#W24($CE88DC)
+//Raise<End>
+
+//POINTER #1122 @ $CE88E0 - STRING #1122 @ $CE603E
+
+#W24($CE88E0)
+//CII—Grenade<End>
+
+//POINTER #1123 @ $CE88E4 - STRING #1123 @ $CE5FEB
+
+#W24($CE88E4)
+//Raise<End>
+
+//POINTER #1124 @ $CE88E8 - STRING #1124 @ $CE60DD
+
+#W24($CE88E8)
+//Dark Resist<End>
+
+//POINTER #1125 @ $CE88EC - STRING #1125 @ $CE5FEB
+
+#W24($CE88EC)
+//Raise<End>
+
+//POINTER #1126 @ $CE88F0 - STRING #1126 @ $CE5FEB
+
+#W24($CE88F0)
+//Raise<End>
+
+//POINTER #1127 @ $CE88F4 - STRING #1127 @ $CE60D4
+
+#W24($CE88F4)
+//Holy<End>
+
+//POINTER #1128 @ $CE88F8 - STRING #1128 @ $CE5FEB
+
+#W24($CE88F8)
+//Raise<End>
+
+//POINTER #1129 @ $CE88FC - STRING #1129 @ $CE606B
+
+#W24($CE88FC)
+//CC—Grenade<End>
+
+//POINTER #1130 @ $CE8900 - STRING #1130 @ $CE5FEB
+
+#W24($CE8900)
+//Raise<End>
+
+//POINTER #1131 @ $CE8904 - STRING #1131 @ $CE60DD
+
+#W24($CE8904)
+//Dark Resist<End>
+
+//POINTER #1132 @ $CE8908 - STRING #1132 @ $CE60F3
+
+#W24($CE8908)
+//Eat<End>
+
+//POINTER #1133 @ $CE890C - STRING #1133 @ $CE60F3
+
+#W24($CE890C)
+//Eat<End>
+
+//POINTER #1134 @ $CE8910 - STRING #1134 @ $CE60F3
+
+#W24($CE8910)
+//Eat<End>
+
+//POINTER #1135 @ $CE8914 - STRING #1135 @ $CE60F3
+
+#W24($CE8914)
+//Eat<End>
+
+//POINTER #1136 @ $CE8918 - STRING #1136 @ $CE60FA
+
+#W24($CE8918)
+//Banana Slugger<End>
+
+//POINTER #1137 @ $CE891C - STRING #1137 @ $CE60F3
+
+#W24($CE891C)
+//Eat<End>
+
+//POINTER #1138 @ $CE8920 - STRING #1138 @ $CE6116
+
+#W24($CE8920)
+//Nibble<End>
+
+//POINTER #1139 @ $CE8924 - STRING #1139 @ $CE6116
+
+#W24($CE8924)
+//Nibble<End>
+
+//POINTER #1140 @ $CE8928 - STRING #1140 @ $CE6116
+
+#W24($CE8928)
+//Nibble<End>
+
+//POINTER #1141 @ $CE892C - STRING #1141 @ $CE6116
+
+#W24($CE892C)
+//Nibble<End>
+
+//POINTER #1142 @ $CE8930 - STRING #1142 @ $CE6123
+
+#W24($CE8930)
+//Applecot Spiral<End>
+
+//POINTER #1143 @ $CE8934 - STRING #1143 @ $CE6116
+
+#W24($CE8934)
+//Nibble<End>
+
+//POINTER #1144 @ $CE8938 - STRING #1144 @ $CE492E
+
+#W24($CE8938)
+//Throw<End>
+
+//POINTER #1145 @ $CE893C - STRING #1145 @ $CE492E
+
+#W24($CE893C)
+//Throw<End>
+
+//POINTER #1146 @ $CE8940 - STRING #1146 @ $CE492E
+
+#W24($CE8940)
+//Throw<End>
+
+//POINTER #1147 @ $CE8944 - STRING #1147 @ $CE6141
+
+#W24($CE8944)
+//Air Spray<End>
+
+//POINTER #1148 @ $CE8948 - STRING #1148 @ $CE492E
+
+#W24($CE8948)
+//Throw<End>
+
+//POINTER #1149 @ $CE894C - STRING #1149 @ $CE6153
+
+#W24($CE894C)
+//Sprinkle<End>
+
+//POINTER #1150 @ $CE8950 - STRING #1150 @ $CE6164
+
+#W24($CE8950)
+//Sacred Heal<End>
+
+//POINTER #1151 @ $CE8954 - STRING #1151 @ $CE617A
+
+#W24($CE8954)
+//Sniff<End>
+
+//POINTER #1152 @ $CE8958 - STRING #1152 @ $CE617A
+
+#W24($CE8958)
+//Sniff<End>
+
+//POINTER #1153 @ $CE895C - STRING #1153 @ $CE617A
+
+#W24($CE895C)
+//Sniff<End>
+
+//POINTER #1154 @ $CE8960 - STRING #1154 @ $CE617A
+
+#W24($CE8960)
+//Sniff<End>
+
+//POINTER #1155 @ $CE8964 - STRING #1155 @ $CE6185
+
+#W24($CE8964)
+//Practice Mix<End>
+
+//POINTER #1156 @ $CE8968 - STRING #1156 @ $CE619D
+
+#W24($CE8968)
+//Mix Potion<End>
+
+//POINTER #1157 @ $CE896C - STRING #1157 @ $CE61B1
+
+#W24($CE896C)
+//Drink<End>
+
+//POINTER #1158 @ $CE8970 - STRING #1158 @ $CE61B1
+
+#W24($CE8970)
+//Drink<End>
+
+//POINTER #1159 @ $CE8974 - STRING #1159 @ $CE61B1
+
+#W24($CE8974)
+//Drink<End>
+
+//POINTER #1160 @ $CE8978 - STRING #1160 @ $CE61B1
+
+#W24($CE8978)
+//Drink<End>
+
+//POINTER #1161 @ $CE897C - STRING #1161 @ $CE61B1
+
+#W24($CE897C)
+//Drink<End>
+
+//POINTER #1162 @ $CE8980 - STRING #1162 @ $CE617A
+
+#W24($CE8980)
+//Sniff<End>
+
+//POINTER #1163 @ $CE8984 - STRING #1163 @ $CE617A
+
+#W24($CE8984)
+//Sniff<End>
+
+//POINTER #1164 @ $CE8988 - STRING #1164 @ $CE617A
+
+#W24($CE8988)
+//Sniff<End>
+
+//POINTER #1165 @ $CE898C - STRING #1165 @ $CE617A
+
+#W24($CE898C)
+//Sniff<End>
+
+//POINTER #1166 @ $CE8990 - STRING #1166 @ $CE6185
+
+#W24($CE8990)
+//Practice Mix<End>
+
+//POINTER #1167 @ $CE8994 - STRING #1167 @ $CE61BC
+
+#W24($CE8994)
+//Mix Elixir<End>
+
+//POINTER #1168 @ $CE8998 - STRING #1168 @ $CE61B1
+
+#W24($CE8998)
+//Drink<End>
+
+//POINTER #1169 @ $CE899C - STRING #1169 @ $CE61B1
+
+#W24($CE899C)
+//Drink<End>
+
+//POINTER #1170 @ $CE89A0 - STRING #1170 @ $CE61B1
+
+#W24($CE89A0)
+//Drink<End>
+
+//POINTER #1171 @ $CE89A4 - STRING #1171 @ $CE61B1
+
+#W24($CE89A4)
+//Drink<End>
+
+//POINTER #1172 @ $CE89A8 - STRING #1172 @ $CE61B1
+
+#W24($CE89A8)
+//Drink<End>
+
+//POINTER #1173 @ $CE89AC - STRING #1173 @ $CE61D0
+
+#W24($CE89AC)
+//Eat Anyway<End>
+
+//POINTER #1174 @ $CE89B0 - STRING #1174 @ $CE61E4
+
+#W24($CE89B0)
+//Practice Cooking<End>
+
+//POINTER #1175 @ $CE89B4 - STRING #1175 @ $CE6204
+
+#W24($CE89B4)
+//Magical Cooking<End>
+
+//POINTER #1176 @ $CE89B8 - STRING #1176 @ $CE61D0
+
+#W24($CE89B8)
+//Eat Anyway<End>
+
+//POINTER #1177 @ $CE89BC - STRING #1177 @ $CE61D0
+
+#W24($CE89BC)
+//Eat Anyway<End>
+
+//POINTER #1178 @ $CE89C0 - STRING #1178 @ $CE492E
+
+#W24($CE89C0)
+//Throw<End>
+
+//POINTER #1179 @ $CE89C4 - STRING #1179 @ $CE60F3
+
+#W24($CE89C4)
+//Eat<End>
+
+//POINTER #1180 @ $CE89C8 - STRING #1180 @ $CE60F3
+
+#W24($CE89C8)
+//Eat<End>
+
+//POINTER #1181 @ $CE89CC - STRING #1181 @ $CE60F3
+
+#W24($CE89CC)
+//Eat<End>
+
+//POINTER #1182 @ $CE89D0 - STRING #1182 @ $CE60F3
+
+#W24($CE89D0)
+//Eat<End>
+
+//POINTER #1183 @ $CE89D4 - STRING #1183 @ $CE6222
+
+#W24($CE89D4)
+//Can't Eat…<End>
+
+//POINTER #1184 @ $CE89D8 - STRING #1184 @ $CE6236
+
+#W24($CE89D8)
+//Force it Down<End>
+
+//POINTER #1185 @ $CE89DC - STRING #1185 @ $CE61E4
+
+#W24($CE89DC)
+//Practice Cooking<End>
+
+//POINTER #1186 @ $CE89E0 - STRING #1186 @ $CE624F
+
+#W24($CE89E0)
+//Sterilize<End>
+
+//POINTER #1187 @ $CE89E4 - STRING #1187 @ $CE6236
+
+#W24($CE89E4)
+//Force it Down<End>
+
+//POINTER #1188 @ $CE89E8 - STRING #1188 @ $CE6236
+
+#W24($CE89E8)
+//Force it Down<End>
+
+//POINTER #1189 @ $CE89EC - STRING #1189 @ $CE492E
+
+#W24($CE89EC)
+//Throw<End>
+
+//POINTER #1190 @ $CE89F0 - STRING #1190 @ $CE61D0
+
+#W24($CE89F0)
+//Eat Anyway<End>
+
+//POINTER #1191 @ $CE89F4 - STRING #1191 @ $CE61D0
+
+#W24($CE89F4)
+//Eat Anyway<End>
+
+//POINTER #1192 @ $CE89F8 - STRING #1192 @ $CE61D0
+
+#W24($CE89F8)
+//Eat Anyway<End>
+
+//POINTER #1193 @ $CE89FC - STRING #1193 @ $CE61D0
+
+#W24($CE89FC)
+//Eat Anyway<End>
+
+//POINTER #1194 @ $CE8A00 - STRING #1194 @ $CE6222
+
+#W24($CE8A00)
+//Can't Eat…<End>
+
+//POINTER #1195 @ $CE8A04 - STRING #1195 @ $CE492E
+
+#W24($CE8A04)
+//Throw<End>
+
+//POINTER #1196 @ $CE8A08 - STRING #1196 @ $CE61E4
+
+#W24($CE8A08)
+//Practice Cooking<End>
+
+//POINTER #1197 @ $CE8A0C - STRING #1197 @ $CE6204
+
+#W24($CE8A0C)
+//Magical Cooking<End>
+
+//POINTER #1198 @ $CE8A10 - STRING #1198 @ $CE492E
+
+#W24($CE8A10)
+//Throw<End>
+
+//POINTER #1199 @ $CE8A14 - STRING #1199 @ $CE492E
+
+#W24($CE8A14)
+//Throw<End>
+
+//POINTER #1200 @ $CE8A18 - STRING #1200 @ $CE6262
+
+#W24($CE8A18)
+//Egg Shot<End>
+
+//POINTER #1201 @ $CE8A1C - STRING #1201 @ $CE492E
+
+#W24($CE8A1C)
+//Throw<End>
+
+//POINTER #1202 @ $CE8A20 - STRING #1202 @ $CE60F3
+
+#W24($CE8A20)
+//Eat<End>
+
+//POINTER #1203 @ $CE8A24 - STRING #1203 @ $CE60F3
+
+#W24($CE8A24)
+//Eat<End>
+
+//POINTER #1204 @ $CE8A28 - STRING #1204 @ $CE60F3
+
+#W24($CE8A28)
+//Eat<End>
+
+//POINTER #1205 @ $CE8A2C - STRING #1205 @ $CE60F3
+
+#W24($CE8A2C)
+//Eat<End>
+
+//POINTER #1206 @ $CE8A30 - STRING #1206 @ $CE60F3
+
+#W24($CE8A30)
+//Eat<End>
+
+//POINTER #1207 @ $CE8A34 - STRING #1207 @ $CE60F3
+
+#W24($CE8A34)
+//Eat<End>
+
+//POINTER #1208 @ $CE8A38 - STRING #1208 @ $CE60F3
+
+#W24($CE8A38)
+//Eat<End>
+
+//POINTER #1209 @ $CE8A3C - STRING #1209 @ $CE60F3
+
+#W24($CE8A3C)
+//Eat<End>
+
+//POINTER #1210 @ $CE8A40 - STRING #1210 @ $CE60F3
+
+#W24($CE8A40)
+//Eat<End>
+
+//POINTER #1211 @ $CE8A44 - STRING #1211 @ $CE60F3
+
+#W24($CE8A44)
+//Eat<End>
+
+//POINTER #1212 @ $CE8A48 - STRING #1212 @ $CE61D0
+
+#W24($CE8A48)
+//Eat Anyway<End>
+
+//POINTER #1213 @ $CE8A4C - STRING #1213 @ $CE61D0
+
+#W24($CE8A4C)
+//Eat Anyway<End>
+
+//POINTER #1214 @ $CE8A50 - STRING #1214 @ $CE61D0
+
+#W24($CE8A50)
+//Eat Anyway<End>
+
+//POINTER #1215 @ $CE8A54 - STRING #1215 @ $CE61D0
+
+#W24($CE8A54)
+//Eat Anyway<End>
+
+//POINTER #1216 @ $CE8A58 - STRING #1216 @ $CE61D0
+
+#W24($CE8A58)
+//Eat Anyway<End>
+
+//POINTER #1217 @ $CE8A5C - STRING #1217 @ $CE6236
+
+#W24($CE8A5C)
+//Force it Down<End>
+
+//POINTER #1218 @ $CE8A60 - STRING #1218 @ $CE61E4
+
+#W24($CE8A60)
+//Practice Cooking<End>
+
+//POINTER #1219 @ $CE8A64 - STRING #1219 @ $CE624F
+
+#W24($CE8A64)
+//Sterilize<End>
+
+//POINTER #1220 @ $CE8A68 - STRING #1220 @ $CE6236
+
+#W24($CE8A68)
+//Force it Down<End>
+
+//POINTER #1221 @ $CE8A6C - STRING #1221 @ $CE6236
+
+#W24($CE8A6C)
+//Force it Down<End>
+
+//POINTER #1222 @ $CE8A70 - STRING #1222 @ $CE6236
+
+#W24($CE8A70)
+//Force it Down<End>
+
+//POINTER #1223 @ $CE8A74 - STRING #1223 @ $CE61D0
+
+#W24($CE8A74)
+//Eat Anyway<End>
+
+//POINTER #1224 @ $CE8A78 - STRING #1224 @ $CE61D0
+
+#W24($CE8A78)
+//Eat Anyway<End>
+
+//POINTER #1225 @ $CE8A7C - STRING #1225 @ $CE61D0
+
+#W24($CE8A7C)
+//Eat Anyway<End>
+
+//POINTER #1226 @ $CE8A80 - STRING #1226 @ $CE61D0
+
+#W24($CE8A80)
+//Eat Anyway<End>
+
+//POINTER #1227 @ $CE8A84 - STRING #1227 @ $CE61D0
+
+#W24($CE8A84)
+//Eat Anyway<End>
+
+//POINTER #1228 @ $CE8A88 - STRING #1228 @ $CE61D0
+
+#W24($CE8A88)
+//Eat Anyway<End>
+
+//POINTER #1229 @ $CE8A8C - STRING #1229 @ $CE61E4
+
+#W24($CE8A8C)
+//Practice Cooking<End>
+
+//POINTER #1230 @ $CE8A90 - STRING #1230 @ $CE6204
+
+#W24($CE8A90)
+//Magical Cooking<End>
+
+//POINTER #1231 @ $CE8A94 - STRING #1231 @ $CE61D0
+
+#W24($CE8A94)
+//Eat Anyway<End>
+
+//POINTER #1232 @ $CE8A98 - STRING #1232 @ $CE61D0
+
+#W24($CE8A98)
+//Eat Anyway<End>
+
+//POINTER #1233 @ $CE8A9C - STRING #1233 @ $CE492E
+
+#W24($CE8A9C)
+//Throw<End>
+
+//POINTER #1234 @ $CE8AA0 - STRING #1234 @ $CE60F3
+
+#W24($CE8AA0)
+//Eat<End>
+
+//POINTER #1235 @ $CE8AA4 - STRING #1235 @ $CE60F3
+
+#W24($CE8AA4)
+//Eat<End>
+
+//POINTER #1236 @ $CE8AA8 - STRING #1236 @ $CE60F3
+
+#W24($CE8AA8)
+//Eat<End>
+
+//POINTER #1237 @ $CE8AAC - STRING #1237 @ $CE60F3
+
+#W24($CE8AAC)
+//Eat<End>
+
+//POINTER #1238 @ $CE8AB0 - STRING #1238 @ $CE6222
+
+#W24($CE8AB0)
+//Can't Eat…<End>
+
+//POINTER #1239 @ $CE8AB4 - STRING #1239 @ $CE492E
+
+#W24($CE8AB4)
+//Throw<End>
+
+//POINTER #1240 @ $CE8AB8 - STRING #1240 @ $CE6272
+
+#W24($CE8AB8)
+//Wear<End>
+
+//POINTER #1241 @ $CE8ABC - STRING #1241 @ $CE6272
+
+#W24($CE8ABC)
+//Wear<End>
+
+//POINTER #1242 @ $CE8AC0 - STRING #1242 @ $CE6272
+
+#W24($CE8AC0)
+//Wear<End>
+
+//POINTER #1243 @ $CE8AC4 - STRING #1243 @ $CE6272
+
+#W24($CE8AC4)
+//Wear<End>
+
+//POINTER #1244 @ $CE8AC8 - STRING #1244 @ $CE627B
+
+#W24($CE8AC8)
+//Wear!?<End>
+
+//POINTER #1245 @ $CE8ACC - STRING #1245 @ $CE6272
+
+#W24($CE8ACC)
+//Wear<End>
+
+//POINTER #1246 @ $CE8AD0 - STRING #1246 @ $CE6272
+
+#W24($CE8AD0)
+//Wear<End>
+
+//POINTER #1247 @ $CE8AD4 - STRING #1247 @ $CE6272
+
+#W24($CE8AD4)
+//Wear<End>
+
+//POINTER #1248 @ $CE8AD8 - STRING #1248 @ $CE6286
+
+#W24($CE8AD8)
+//Pretty Dance<End>
+
+//POINTER #1249 @ $CE8ADC - STRING #1249 @ $CE6272
+
+#W24($CE8ADC)
+//Wear<End>
+
+//POINTER #1250 @ $CE8AE0 - STRING #1250 @ $CE629E
+
+#W24($CE8AE0)
+//Raise to Heaven<End>
+
+//POINTER #1251 @ $CE8AE4 - STRING #1251 @ $CE629E
+
+#W24($CE8AE4)
+//Raise to Heaven<End>
+
+//POINTER #1252 @ $CE8AE8 - STRING #1252 @ $CE629E
+
+#W24($CE8AE8)
+//Raise to Heaven<End>
+
+//POINTER #1253 @ $CE8AEC - STRING #1253 @ $CE629E
+
+#W24($CE8AEC)
+//Raise to Heaven<End>
+
+//POINTER #1254 @ $CE8AF0 - STRING #1254 @ $CE62BB
+
+#W24($CE8AF0)
+//Cross Boomerang<End>
+
+//POINTER #1255 @ $CE8AF4 - STRING #1255 @ $CE629E
+
+#W24($CE8AF4)
+//Raise to Heaven<End>
+
+//POINTER #1256 @ $CE8AF8 - STRING #1256 @ $CE62D9
+
+#W24($CE8AF8)
+//Banishment<End>
+
+//POINTER #1257 @ $CE8AFC - STRING #1257 @ $CE62EE
+
+#W24($CE8AFC)
+//Root<End>
+
+//POINTER #1258 @ $CE8B00 - STRING #1258 @ $CE62F7
+
+#W24($CE8B00)
+//Cheer<End>
+
+//POINTER #1259 @ $CE8B04 - STRING #1259 @ $CE62F7
+
+#W24($CE8B04)
+//Cheer<End>
+
+//POINTER #1260 @ $CE8B08 - STRING #1260 @ $CE62F7
+
+#W24($CE8B08)
+//Cheer<End>
+
+//POINTER #1261 @ $CE8B0C - STRING #1261 @ $CE62F7
+
+#W24($CE8B0C)
+//Cheer<End>
+
+//POINTER #1262 @ $CE8B10 - STRING #1262 @ $CE6302
+
+#W24($CE8B10)
+//Flip<End>
+
+//POINTER #1263 @ $CE8B14 - STRING #1263 @ $CE6302
+
+#W24($CE8B14)
+//Flip<End>
+
+//POINTER #1264 @ $CE8B18 - STRING #1264 @ $CE6302
+
+#W24($CE8B18)
+//Flip<End>
+
+//POINTER #1265 @ $CE8B1C - STRING #1265 @ $CE6302
+
+#W24($CE8B1C)
+//Flip<End>
+
+//POINTER #1266 @ $CE8B20 - STRING #1266 @ $CE6302
+
+#W24($CE8B20)
+//Flip<End>
+
+//POINTER #1267 @ $CE8B24 - STRING #1267 @ $CE509E
+
+#W24($CE8B24)
+//Swing Around<End>
+
+//POINTER #1268 @ $CE8B28 - STRING #1268 @ $CE630B
+
+#W24($CE8B28)
+//Memento<End>
+
+//POINTER #1269 @ $CE8B2C - STRING #1269 @ $CE631A
+
+#W24($CE8B2C)
+//Witch Wish<End>
+
+//POINTER #1270 @ $CE8B30 - STRING #1270 @ $CE509E
+
+#W24($CE8B30)
+//Swing Around<End>
+
+//POINTER #1271 @ $CE8B34 - STRING #1271 @ $CE632E
+
+#W24($CE8B34)
+//Star Duster<End>
+
+//POINTER #1272 @ $CE8B38 - STRING #1272 @ $CE6344
+
+#W24($CE8B38)
+//Sweep<End>
+
+//POINTER #1273 @ $CE8B3C - STRING #1273 @ $CE492E
+
+#W24($CE8B3C)
+//Throw<End>
+
+//POINTER #1274 @ $CE8B40 - STRING #1274 @ $CE6272
+
+#W24($CE8B40)
+//Wear<End>
+
+//POINTER #1275 @ $CE8B44 - STRING #1275 @ $CE6272
+
+#W24($CE8B44)
+//Wear<End>
+
+//POINTER #1276 @ $CE8B48 - STRING #1276 @ $CE6272
+
+#W24($CE8B48)
+//Wear<End>
+
+//POINTER #1277 @ $CE8B4C - STRING #1277 @ $CE6272
+
+#W24($CE8B4C)
+//Wear<End>
+
+//POINTER #1278 @ $CE8B50 - STRING #1278 @ $CE492E
+
+#W24($CE8B50)
+//Throw<End>
+
+//POINTER #1279 @ $CE8B54 - STRING #1279 @ $CE6272
+
+#W24($CE8B54)
+//Wear<End>
+
+//POINTER #1280 @ $CE8B58 - STRING #1280 @ $CE6272
+
+#W24($CE8B58)
+//Wear<End>
+
+//POINTER #1281 @ $CE8B5C - STRING #1281 @ $CE6272
+
+#W24($CE8B5C)
+//Wear<End>
+
+//POINTER #1282 @ $CE8B60 - STRING #1282 @ $CE6272
+
+#W24($CE8B60)
+//Wear<End>
+
+//POINTER #1283 @ $CE8B64 - STRING #1283 @ $CE492E
+
+#W24($CE8B64)
+//Throw<End>
+
+//POINTER #1284 @ $CE8B68 - STRING #1284 @ $CE6272
+
+#W24($CE8B68)
+//Wear<End>
+
+//POINTER #1285 @ $CE8B6C - STRING #1285 @ $CE6272
+
+#W24($CE8B6C)
+//Wear<End>
+
+//POINTER #1286 @ $CE8B70 - STRING #1286 @ $CE634F
+
+#W24($CE8B70)
+//Crescent Ring<End>
+
+//POINTER #1287 @ $CE8B74 - STRING #1287 @ $CE6272
+
+#W24($CE8B74)
+//Wear<End>
+
+//POINTER #1288 @ $CE8B78 - STRING #1288 @ $CE6369
+
+#W24($CE8B78)
+//Delta Formation<End>
+
+//POINTER #1289 @ $CE8B7C - STRING #1289 @ $CE6369
+
+#W24($CE8B7C)
+//Delta Formation<End>
+
+//POINTER #1290 @ $CE8B80 - STRING #1290 @ $CE6369
+
+#W24($CE8B80)
+//Delta Formation<End>
+
+//POINTER #1291 @ $CE8B84 - STRING #1291 @ $CE6369
+
+#W24($CE8B84)
+//Delta Formation<End>
+
+//POINTER #1292 @ $CE8B88 - STRING #1292 @ $CE6369
+
+#W24($CE8B88)
+//Delta Formation<End>
+
+//POINTER #1293 @ $CE8B8C - STRING #1293 @ $CE6387
+
+#W24($CE8B8C)
+//No Skill<End>
+
+//POINTER #1294 @ $CE8B90 - STRING #1294 @ $CE49A6
+
+#W24($CE8B90)
+//Slash<End>
+
+//POINTER #1295 @ $CE8B94 - STRING #1295 @ $CE6397
+
+#W24($CE8B94)
+//Trick Blade<End>
+
+//POINTER #1296 @ $CE8B98 - STRING #1296 @ $CE45D7
+
+#W24($CE8B98)
+//Shield<End>
+
+//POINTER #1297 @ $CE8B9C - STRING #1297 @ $CE63AD
+
+#W24($CE8B9C)
+//Stun Bolt<End>
+
+//POINTER #1298 @ $CE8BA0 - STRING #1298 @ $CE63BF
+
+#W24($CE8BA0)
+//Dancing Saber<End>
+
+//POINTER #1299 @ $CE8BA4 - STRING #1299 @ $CE63D9
+
+#W24($CE8BA4)
+//Sword Glitter<End>
+
+//POINTER #1300 @ $CE8BA8 - STRING #1300 @ $CE49A6
+
+#W24($CE8BA8)
+//Slash<End>
+
+//POINTER #1301 @ $CE8BAC - STRING #1301 @ $CE6397
+
+#W24($CE8BAC)
+//Trick Blade<End>
+
+//POINTER #1302 @ $CE8BB0 - STRING #1302 @ $CE45D7
+
+#W24($CE8BB0)
+//Shield<End>
+
+//POINTER #1303 @ $CE8BB4 - STRING #1303 @ $CE63AD
+
+#W24($CE8BB4)
+//Stun Bolt<End>
+
+//POINTER #1304 @ $CE8BB8 - STRING #1304 @ $CE63BF
+
+#W24($CE8BB8)
+//Dancing Saber<End>
+
+//POINTER #1305 @ $CE8BBC - STRING #1305 @ $CE63D9
+
+#W24($CE8BBC)
+//Sword Glitter<End>
+
+//POINTER #1306 @ $CE8BC0 - STRING #1306 @ $CE49A6
+
+#W24($CE8BC0)
+//Slash<End>
+
+//POINTER #1307 @ $CE8BC4 - STRING #1307 @ $CE6397
+
+#W24($CE8BC4)
+//Trick Blade<End>
+
+//POINTER #1308 @ $CE8BC8 - STRING #1308 @ $CE45D7
+
+#W24($CE8BC8)
+//Shield<End>
+
+//POINTER #1309 @ $CE8BCC - STRING #1309 @ $CE63AD
+
+#W24($CE8BCC)
+//Stun Bolt<End>
+
+//POINTER #1310 @ $CE8BD0 - STRING #1310 @ $CE63BF
+
+#W24($CE8BD0)
+//Dancing Saber<End>
+
+//POINTER #1311 @ $CE8BD4 - STRING #1311 @ $CE63D9
+
+#W24($CE8BD4)
+//Sword Glitter<End>
+
+//POINTER #1312 @ $CE8BD8 - STRING #1312 @ $CE49A6
+
+#W24($CE8BD8)
+//Slash<End>
+
+//POINTER #1313 @ $CE8BDC - STRING #1313 @ $CE6397
+
+#W24($CE8BDC)
+//Trick Blade<End>
+
+//POINTER #1314 @ $CE8BE0 - STRING #1314 @ $CE45D7
+
+#W24($CE8BE0)
+//Shield<End>
+
+//POINTER #1315 @ $CE8BE4 - STRING #1315 @ $CE63AD
+
+#W24($CE8BE4)
+//Stun Bolt<End>
+
+//POINTER #1316 @ $CE8BE8 - STRING #1316 @ $CE63BF
+
+#W24($CE8BE8)
+//Dancing Saber<End>
+
+//POINTER #1317 @ $CE8BEC - STRING #1317 @ $CE63D9
+
+#W24($CE8BEC)
+//Sword Glitter<End>
+
+//POINTER #1318 @ $CE8BF0 - STRING #1318 @ $CE63F3
+
+#W24($CE8BF0)
+//Smash<End>
+
+//POINTER #1319 @ $CE8BF4 - STRING #1319 @ $CE63FE
+
+#W24($CE8BF4)
+//Wild Axe<End>
+
+//POINTER #1320 @ $CE8BF8 - STRING #1320 @ $CE640E
+
+#W24($CE8BF8)
+//Berserk<End>
+
+//POINTER #1321 @ $CE8BFC - STRING #1321 @ $CE641D
+
+#W24($CE8BFC)
+//Tomahawk<End>
+
+//POINTER #1322 @ $CE8C00 - STRING #1322 @ $CE642E
+
+#W24($CE8C00)
+//Carnage Drive<End>
+
+//POINTER #1323 @ $CE8C04 - STRING #1323 @ $CE6448
+
+#W24($CE8C04)
+//Throw<End>
+
+//POINTER #1324 @ $CE8C08 - STRING #1324 @ $CE63F3
+
+#W24($CE8C08)
+//Smash<End>
+
+//POINTER #1325 @ $CE8C0C - STRING #1325 @ $CE63FE
+
+#W24($CE8C0C)
+//Wild Axe<End>
+
+//POINTER #1326 @ $CE8C10 - STRING #1326 @ $CE640E
+
+#W24($CE8C10)
+//Berserk<End>
+
+//POINTER #1327 @ $CE8C14 - STRING #1327 @ $CE641D
+
+#W24($CE8C14)
+//Tomahawk<End>
+
+//POINTER #1328 @ $CE8C18 - STRING #1328 @ $CE642E
+
+#W24($CE8C18)
+//Carnage Drive<End>
+
+//POINTER #1329 @ $CE8C1C - STRING #1329 @ $CE6448
+
+#W24($CE8C1C)
+//Throw<End>
+
+//POINTER #1330 @ $CE8C20 - STRING #1330 @ $CE63F3
+
+#W24($CE8C20)
+//Smash<End>
+
+//POINTER #1331 @ $CE8C24 - STRING #1331 @ $CE63FE
+
+#W24($CE8C24)
+//Wild Axe<End>
+
+//POINTER #1332 @ $CE8C28 - STRING #1332 @ $CE640E
+
+#W24($CE8C28)
+//Berserk<End>
+
+//POINTER #1333 @ $CE8C2C - STRING #1333 @ $CE641D
+
+#W24($CE8C2C)
+//Tomahawk<End>
+
+//POINTER #1334 @ $CE8C30 - STRING #1334 @ $CE642E
+
+#W24($CE8C30)
+//Carnage Drive<End>
+
+//POINTER #1335 @ $CE8C34 - STRING #1335 @ $CE6448
+
+#W24($CE8C34)
+//Throw<End>
+
+//POINTER #1336 @ $CE8C38 - STRING #1336 @ $CE63F3
+
+#W24($CE8C38)
+//Smash<End>
+
+//POINTER #1337 @ $CE8C3C - STRING #1337 @ $CE63FE
+
+#W24($CE8C3C)
+//Wild Axe<End>
+
+//POINTER #1338 @ $CE8C40 - STRING #1338 @ $CE640E
+
+#W24($CE8C40)
+//Berserk<End>
+
+//POINTER #1339 @ $CE8C44 - STRING #1339 @ $CE641D
+
+#W24($CE8C44)
+//Tomahawk<End>
+
+//POINTER #1340 @ $CE8C48 - STRING #1340 @ $CE642E
+
+#W24($CE8C48)
+//Carnage Drive<End>
+
+//POINTER #1341 @ $CE8C4C - STRING #1341 @ $CE6448
+
+#W24($CE8C4C)
+//Throw<End>
+
+//POINTER #1342 @ $CE8C50 - STRING #1342 @ $CE6453
+
+#W24($CE8C50)
+//Book Toss<End>
+
+//POINTER #1343 @ $CE8C54 - STRING #1343 @ $CE6465
+
+#W24($CE8C54)
+//Throw Combo<End>
+
+//POINTER #1344 @ $CE8C58 - STRING #1344 @ $CE647B
+
+#W24($CE8C58)
+//Cast Magic<End>
+
+//POINTER #1345 @ $CE8C5C - STRING #1345 @ $CE648F
+
+#W24($CE8C5C)
+//Freezer<End>
+
+//POINTER #1346 @ $CE8C60 - STRING #1346 @ $CE649E
+
+#W24($CE8C60)
+//Biting Frost<End>
+
+//POINTER #1347 @ $CE8C64 - STRING #1347 @ $CE64B6
+
+#W24($CE8C64)
+//Necro Gate<End>
+
+//POINTER #1348 @ $CE8C68 - STRING #1348 @ $CE6453
+
+#W24($CE8C68)
+//Book Toss<End>
+
+//POINTER #1349 @ $CE8C6C - STRING #1349 @ $CE6465
+
+#W24($CE8C6C)
+//Throw Combo<End>
+
+//POINTER #1350 @ $CE8C70 - STRING #1350 @ $CE647B
+
+#W24($CE8C70)
+//Cast Magic<End>
+
+//POINTER #1351 @ $CE8C74 - STRING #1351 @ $CE648F
+
+#W24($CE8C74)
+//Freezer<End>
+
+//POINTER #1352 @ $CE8C78 - STRING #1352 @ $CE649E
+
+#W24($CE8C78)
+//Biting Frost<End>
+
+//POINTER #1353 @ $CE8C7C - STRING #1353 @ $CE64B6
+
+#W24($CE8C7C)
+//Necro Gate<End>
+
+//POINTER #1354 @ $CE8C80 - STRING #1354 @ $CE6453
+
+#W24($CE8C80)
+//Book Toss<End>
+
+//POINTER #1355 @ $CE8C84 - STRING #1355 @ $CE6465
+
+#W24($CE8C84)
+//Throw Combo<End>
+
+//POINTER #1356 @ $CE8C88 - STRING #1356 @ $CE647B
+
+#W24($CE8C88)
+//Cast Magic<End>
+
+//POINTER #1357 @ $CE8C8C - STRING #1357 @ $CE648F
+
+#W24($CE8C8C)
+//Freezer<End>
+
+//POINTER #1358 @ $CE8C90 - STRING #1358 @ $CE649E
+
+#W24($CE8C90)
+//Biting Frost<End>
+
+//POINTER #1359 @ $CE8C94 - STRING #1359 @ $CE64B6
+
+#W24($CE8C94)
+//Necro Gate<End>
+
+//POINTER #1360 @ $CE8C98 - STRING #1360 @ $CE6453
+
+#W24($CE8C98)
+//Book Toss<End>
+
+//POINTER #1361 @ $CE8C9C - STRING #1361 @ $CE6465
+
+#W24($CE8C9C)
+//Throw Combo<End>
+
+//POINTER #1362 @ $CE8CA0 - STRING #1362 @ $CE647B
+
+#W24($CE8CA0)
+//Cast Magic<End>
+
+//POINTER #1363 @ $CE8CA4 - STRING #1363 @ $CE648F
+
+#W24($CE8CA4)
+//Freezer<End>
+
+//POINTER #1364 @ $CE8CA8 - STRING #1364 @ $CE649E
+
+#W24($CE8CA8)
+//Biting Frost<End>
+
+//POINTER #1365 @ $CE8CAC - STRING #1365 @ $CE64B6
+
+#W24($CE8CAC)
+//Necro Gate<End>
+
+//POINTER #1366 @ $CE8CB0 - STRING #1366 @ $CE64CA
+
+#W24($CE8CB0)
+//Staff Swing<End>
+
+//POINTER #1367 @ $CE8CB4 - STRING #1367 @ $CE64E0
+
+#W24($CE8CB4)
+//Hard Staff<End>
+
+//POINTER #1368 @ $CE8CB8 - STRING #1368 @ $CE64F4
+
+#W24($CE8CB8)
+//Raise Staff<End>
+
+//POINTER #1369 @ $CE8CBC - STRING #1369 @ $CE650A
+
+#W24($CE8CBC)
+//Burn<End>
+
+//POINTER #1370 @ $CE8CC0 - STRING #1370 @ $CE6513
+
+#W24($CE8CC0)
+//Heat Wave<End>
+
+//POINTER #1371 @ $CE8CC4 - STRING #1371 @ $CE5298
+
+#W24($CE8CC4)
+//Healing<End>
+
+//POINTER #1372 @ $CE8CC8 - STRING #1372 @ $CE64CA
+
+#W24($CE8CC8)
+//Staff Swing<End>
+
+//POINTER #1373 @ $CE8CCC - STRING #1373 @ $CE64E0
+
+#W24($CE8CCC)
+//Hard Staff<End>
+
+//POINTER #1374 @ $CE8CD0 - STRING #1374 @ $CE64F4
+
+#W24($CE8CD0)
+//Raise Staff<End>
+
+//POINTER #1375 @ $CE8CD4 - STRING #1375 @ $CE650A
+
+#W24($CE8CD4)
+//Burn<End>
+
+//POINTER #1376 @ $CE8CD8 - STRING #1376 @ $CE6513
+
+#W24($CE8CD8)
+//Heat Wave<End>
+
+//POINTER #1377 @ $CE8CDC - STRING #1377 @ $CE5298
+
+#W24($CE8CDC)
+//Healing<End>
+
+//POINTER #1378 @ $CE8CE0 - STRING #1378 @ $CE64CA
+
+#W24($CE8CE0)
+//Staff Swing<End>
+
+//POINTER #1379 @ $CE8CE4 - STRING #1379 @ $CE64E0
+
+#W24($CE8CE4)
+//Hard Staff<End>
+
+//POINTER #1380 @ $CE8CE8 - STRING #1380 @ $CE64F4
+
+#W24($CE8CE8)
+//Raise Staff<End>
+
+//POINTER #1381 @ $CE8CEC - STRING #1381 @ $CE650A
+
+#W24($CE8CEC)
+//Burn<End>
+
+//POINTER #1382 @ $CE8CF0 - STRING #1382 @ $CE6513
+
+#W24($CE8CF0)
+//Heat Wave<End>
+
+//POINTER #1383 @ $CE8CF4 - STRING #1383 @ $CE5298
+
+#W24($CE8CF4)
+//Healing<End>
+
+//POINTER #1384 @ $CE8CF8 - STRING #1384 @ $CE64CA
+
+#W24($CE8CF8)
+//Staff Swing<End>
+
+//POINTER #1385 @ $CE8CFC - STRING #1385 @ $CE64E0
+
+#W24($CE8CFC)
+//Hard Staff<End>
+
+//POINTER #1386 @ $CE8D00 - STRING #1386 @ $CE64F4
+
+#W24($CE8D00)
+//Raise Staff<End>
+
+//POINTER #1387 @ $CE8D04 - STRING #1387 @ $CE650A
+
+#W24($CE8D04)
+//Burn<End>
+
+//POINTER #1388 @ $CE8D08 - STRING #1388 @ $CE6513
+
+#W24($CE8D08)
+//Heat Wave<End>
+
+//POINTER #1389 @ $CE8D0C - STRING #1389 @ $CE5298
+
+#W24($CE8D0C)
+//Healing<End>
+
+//POINTER #1390 @ $CE8D10 - STRING #1390 @ $CE4E19
+
+#W24($CE8D10)
+//Shoot<End>
+
+//POINTER #1391 @ $CE8D14 - STRING #1391 @ $CE4E57
+
+#W24($CE8D14)
+//Magic Arrow<End>
+
+//POINTER #1392 @ $CE8D18 - STRING #1392 @ $CE6525
+
+#W24($CE8D18)
+//Shoot Arrow<End>
+
+//POINTER #1393 @ $CE8D1C - STRING #1393 @ $CE653B
+
+#W24($CE8D1C)
+//Twin Shot<End>
+
+//POINTER #1394 @ $CE8D20 - STRING #1394 @ $CE654D
+
+#W24($CE8D20)
+//Shooting Stars<End>
+
+//POINTER #1395 @ $CE8D24 - STRING #1395 @ $CE6569
+
+#W24($CE8D24)
+//Meditate<End>
+
+//POINTER #1396 @ $CE8D28 - STRING #1396 @ $CE4E19
+
+#W24($CE8D28)
+//Shoot<End>
+
+//POINTER #1397 @ $CE8D2C - STRING #1397 @ $CE4E57
+
+#W24($CE8D2C)
+//Magic Arrow<End>
+
+//POINTER #1398 @ $CE8D30 - STRING #1398 @ $CE6525
+
+#W24($CE8D30)
+//Shoot Arrow<End>
+
+//POINTER #1399 @ $CE8D34 - STRING #1399 @ $CE653B
+
+#W24($CE8D34)
+//Twin Shot<End>
+
+//POINTER #1400 @ $CE8D38 - STRING #1400 @ $CE654D
+
+#W24($CE8D38)
+//Shooting Stars<End>
+
+//POINTER #1401 @ $CE8D3C - STRING #1401 @ $CE6569
+
+#W24($CE8D3C)
+//Meditate<End>
+
+//POINTER #1402 @ $CE8D40 - STRING #1402 @ $CE4E19
+
+#W24($CE8D40)
+//Shoot<End>
+
+//POINTER #1403 @ $CE8D44 - STRING #1403 @ $CE4E57
+
+#W24($CE8D44)
+//Magic Arrow<End>
+
+//POINTER #1404 @ $CE8D48 - STRING #1404 @ $CE6525
+
+#W24($CE8D48)
+//Shoot Arrow<End>
+
+//POINTER #1405 @ $CE8D4C - STRING #1405 @ $CE653B
+
+#W24($CE8D4C)
+//Twin Shot<End>
+
+//POINTER #1406 @ $CE8D50 - STRING #1406 @ $CE654D
+
+#W24($CE8D50)
+//Shooting Stars<End>
+
+//POINTER #1407 @ $CE8D54 - STRING #1407 @ $CE6569
+
+#W24($CE8D54)
+//Meditate<End>
+
+//POINTER #1408 @ $CE8D58 - STRING #1408 @ $CE4E19
+
+#W24($CE8D58)
+//Shoot<End>
+
+//POINTER #1409 @ $CE8D5C - STRING #1409 @ $CE4E57
+
+#W24($CE8D5C)
+//Magic Arrow<End>
+
+//POINTER #1410 @ $CE8D60 - STRING #1410 @ $CE6525
+
+#W24($CE8D60)
+//Shoot Arrow<End>
+
+//POINTER #1411 @ $CE8D64 - STRING #1411 @ $CE653B
+
+#W24($CE8D64)
+//Twin Shot<End>
+
+//POINTER #1412 @ $CE8D68 - STRING #1412 @ $CE654D
+
+#W24($CE8D68)
+//Shooting Stars<End>
+
+//POINTER #1413 @ $CE8D6C - STRING #1413 @ $CE6569
+
+#W24($CE8D6C)
+//Meditate<End>
+
+//POINTER #1414 @ $CE8D70 - STRING #1414 @ $CE657A
+
+#W24($CE8D70)
+//Hammer Hit<End>
+
+//POINTER #1415 @ $CE8D74 - STRING #1415 @ $CE658E
+
+#W24($CE8D74)
+//Slam<End>
+
+//POINTER #1416 @ $CE8D78 - STRING #1416 @ $CE6597
+
+#W24($CE8D78)
+//Charm<End>
+
+//POINTER #1417 @ $CE8D7C - STRING #1417 @ $CE65A2
+
+#W24($CE8D7C)
+//Grenade<End>
+
+//POINTER #1418 @ $CE8D80 - STRING #1418 @ $CE65B1
+
+#W24($CE8D80)
+//Devastator<End>
+
+//POINTER #1419 @ $CE8D84 - STRING #1419 @ $CE65C6
+
+#W24($CE8D84)
+//Run Away<End>
+
+//POINTER #1420 @ $CE8D88 - STRING #1420 @ $CE65D6
+
+#W24($CE8D88)
+//Refresh<End>
+
+//POINTER #1421 @ $CE8D8C - STRING #1421 @ $CE65E5
+
+#W24($CE8D8C)
+//Hammer Throw<End>
+
+//POINTER #1422 @ $CE8D90 - STRING #1422 @ $CE657A
+
+#W24($CE8D90)
+//Hammer Hit<End>
+
+//POINTER #1423 @ $CE8D94 - STRING #1423 @ $CE658E
+
+#W24($CE8D94)
+//Slam<End>
+
+//POINTER #1424 @ $CE8D98 - STRING #1424 @ $CE6597
+
+#W24($CE8D98)
+//Charm<End>
+
+//POINTER #1425 @ $CE8D9C - STRING #1425 @ $CE65A2
+
+#W24($CE8D9C)
+//Grenade<End>
+
+//POINTER #1426 @ $CE8DA0 - STRING #1426 @ $CE65B1
+
+#W24($CE8DA0)
+//Devastator<End>
+
+//POINTER #1427 @ $CE8DA4 - STRING #1427 @ $CE65C6
+
+#W24($CE8DA4)
+//Run Away<End>
+
+//POINTER #1428 @ $CE8DA8 - STRING #1428 @ $CE65D6
+
+#W24($CE8DA8)
+//Refresh<End>
+
+//POINTER #1429 @ $CE8DAC - STRING #1429 @ $CE65E5
+
+#W24($CE8DAC)
+//Hammer Throw<End>
+
+//POINTER #1430 @ $CE8DB0 - STRING #1430 @ $CE657A
+
+#W24($CE8DB0)
+//Hammer Hit<End>
+
+//POINTER #1431 @ $CE8DB4 - STRING #1431 @ $CE658E
+
+#W24($CE8DB4)
+//Slam<End>
+
+//POINTER #1432 @ $CE8DB8 - STRING #1432 @ $CE6597
+
+#W24($CE8DB8)
+//Charm<End>
+
+//POINTER #1433 @ $CE8DBC - STRING #1433 @ $CE65A2
+
+#W24($CE8DBC)
+//Grenade<End>
+
+//POINTER #1434 @ $CE8DC0 - STRING #1434 @ $CE65B1
+
+#W24($CE8DC0)
+//Devastator<End>
+
+//POINTER #1435 @ $CE8DC4 - STRING #1435 @ $CE65C6
+
+#W24($CE8DC4)
+//Run Away<End>
+
+//POINTER #1436 @ $CE8DC8 - STRING #1436 @ $CE65D6
+
+#W24($CE8DC8)
+//Refresh<End>
+
+//POINTER #1437 @ $CE8DCC - STRING #1437 @ $CE65E5
+
+#W24($CE8DCC)
+//Hammer Throw<End>
+
+//POINTER #1438 @ $CE8DD0 - STRING #1438 @ $CE657A
+
+#W24($CE8DD0)
+//Hammer Hit<End>
+
+//POINTER #1439 @ $CE8DD4 - STRING #1439 @ $CE658E
+
+#W24($CE8DD4)
+//Slam<End>
+
+//POINTER #1440 @ $CE8DD8 - STRING #1440 @ $CE6597
+
+#W24($CE8DD8)
+//Charm<End>
+
+//POINTER #1441 @ $CE8DDC - STRING #1441 @ $CE65A2
+
+#W24($CE8DDC)
+//Grenade<End>
+
+//POINTER #1442 @ $CE8DE0 - STRING #1442 @ $CE65B1
+
+#W24($CE8DE0)
+//Devastator<End>
+
+//POINTER #1443 @ $CE8DE4 - STRING #1443 @ $CE65C6
+
+#W24($CE8DE4)
+//Run Away<End>
+
+//POINTER #1444 @ $CE8DE8 - STRING #1444 @ $CE65D6
+
+#W24($CE8DE8)
+//Refresh<End>
+
+//POINTER #1445 @ $CE8DEC - STRING #1445 @ $CE65E5
+
+#W24($CE8DEC)
+//Hammer Throw<End>
+
+//POINTER #1446 @ $CE8DF0 - STRING #1446 @ $CE65FD
+
+#W24($CE8DF0)
+//Bomb Slam<End>
+
+//POINTER #1447 @ $CE8DF4 - STRING #1447 @ $CE660F
+
+#W24($CE8DF4)
+//Smack<End>
+
+//POINTER #1448 @ $CE8DF8 - STRING #1448 @ $CE661A
+
+#W24($CE8DF8)
+//Dud Disposal<End>
+
+//POINTER #1449 @ $CE8DFC - STRING #1449 @ $CE6632
+
+#W24($CE8DFC)
+//Mass Disposal<End>
+
+//POINTER #1450 @ $CE8E00 - STRING #1450 @ $CE664C
+
+#W24($CE8E00)
+//Atomic Bomb<End>
+
+//POINTER #1451 @ $CE8E04 - STRING #1451 @ $CE65C6
+
+#W24($CE8E04)
+//Run Away<End>
+
+//POINTER #1452 @ $CE8E08 - STRING #1452 @ $CE6662
+
+#W24($CE8E08)
+//Wand Conk<End>
+
+//POINTER #1453 @ $CE8E0C - STRING #1453 @ $CE6674
+
+#W24($CE8E0C)
+//Paradox<End>
+
+//POINTER #1454 @ $CE8E10 - STRING #1454 @ $CE6683
+
+#W24($CE8E10)
+//Quick<End>
+
+//POINTER #1455 @ $CE8E14 - STRING #1455 @ $CE60A5
+
+#W24($CE8E14)
+//Lightning<End>
+
+//POINTER #1456 @ $CE8E18 - STRING #1456 @ $CE668E
+
+#W24($CE8E18)
+//Bolt Dance<End>
+
+//POINTER #1457 @ $CE8E1C - STRING #1457 @ $CE66A2
+
+#W24($CE8E1C)
+//Moonlight<End>
+
+//POINTER #1458 @ $CE8E20 - STRING #1458 @ $CE66B5
+
+#W24($CE8E20)
+//Zap<End>
+
+//POINTER #1459 @ $CE8E24 - STRING #1459 @ $CE6662
+
+#W24($CE8E24)
+//Wand Conk<End>
+
+//POINTER #1460 @ $CE8E28 - STRING #1460 @ $CE6674
+
+#W24($CE8E28)
+//Paradox<End>
+
+//POINTER #1461 @ $CE8E2C - STRING #1461 @ $CE6683
+
+#W24($CE8E2C)
+//Quick<End>
+
+//POINTER #1462 @ $CE8E30 - STRING #1462 @ $CE60A5
+
+#W24($CE8E30)
+//Lightning<End>
+
+//POINTER #1463 @ $CE8E34 - STRING #1463 @ $CE668E
+
+#W24($CE8E34)
+//Bolt Dance<End>
+
+//POINTER #1464 @ $CE8E38 - STRING #1464 @ $CE66A2
+
+#W24($CE8E38)
+//Moonlight<End>
+
+//POINTER #1465 @ $CE8E3C - STRING #1465 @ $CE66B5
+
+#W24($CE8E3C)
+//Zap<End>
+
+//POINTER #1466 @ $CE8E40 - STRING #1466 @ $CE6662
+
+#W24($CE8E40)
+//Wand Conk<End>
+
+//POINTER #1467 @ $CE8E44 - STRING #1467 @ $CE6674
+
+#W24($CE8E44)
+//Paradox<End>
+
+//POINTER #1468 @ $CE8E48 - STRING #1468 @ $CE6683
+
+#W24($CE8E48)
+//Quick<End>
+
+//POINTER #1469 @ $CE8E4C - STRING #1469 @ $CE60A5
+
+#W24($CE8E4C)
+//Lightning<End>
+
+//POINTER #1470 @ $CE8E50 - STRING #1470 @ $CE668E
+
+#W24($CE8E50)
+//Bolt Dance<End>
+
+//POINTER #1471 @ $CE8E54 - STRING #1471 @ $CE66A2
+
+#W24($CE8E54)
+//Moonlight<End>
+
+//POINTER #1472 @ $CE8E58 - STRING #1472 @ $CE66B5
+
+#W24($CE8E58)
+//Zap<End>
+
+//POINTER #1473 @ $CE8E5C - STRING #1473 @ $CE6662
+
+#W24($CE8E5C)
+//Wand Conk<End>
+
+//POINTER #1474 @ $CE8E60 - STRING #1474 @ $CE6674
+
+#W24($CE8E60)
+//Paradox<End>
+
+//POINTER #1475 @ $CE8E64 - STRING #1475 @ $CE6683
+
+#W24($CE8E64)
+//Quick<End>
+
+//POINTER #1476 @ $CE8E68 - STRING #1476 @ $CE60A5
+
+#W24($CE8E68)
+//Lightning<End>
+
+//POINTER #1477 @ $CE8E6C - STRING #1477 @ $CE668E
+
+#W24($CE8E6C)
+//Bolt Dance<End>
+
+//POINTER #1478 @ $CE8E70 - STRING #1478 @ $CE66A2
+
+#W24($CE8E70)
+//Moonlight<End>
+
+//POINTER #1479 @ $CE8E74 - STRING #1479 @ $CE66B5
+
+#W24($CE8E74)
+//Zap<End>
+
+//POINTER #1480 @ $CE8E78 - STRING #1480 @ $CE66BC
+
+#W24($CE8E78)
+//Poison Stab<End>
+
+//POINTER #1481 @ $CE8E7C - STRING #1481 @ $CE66D2
+
+#W24($CE8E7C)
+//Necro Slash<End>
+
+//POINTER #1482 @ $CE8E80 - STRING #1482 @ $CE66E8
+
+#W24($CE8E80)
+//Dark Charm<End>
+
+//POINTER #1483 @ $CE8E84 - STRING #1483 @ $CE66FC
+
+#W24($CE8E84)
+//Head Hunter<End>
+
+//POINTER #1484 @ $CE8E88 - STRING #1484 @ $CE6712
+
+#W24($CE8E88)
+//Mortem Dance<End>
+
+//POINTER #1485 @ $CE8E8C - STRING #1485 @ $CE672A
+
+#W24($CE8E8C)
+//Dark Sweep<End>
+
+//POINTER #1486 @ $CE8E90 - STRING #1486 @ $CE66BC
+
+#W24($CE8E90)
+//Poison Stab<End>
+
+//POINTER #1487 @ $CE8E94 - STRING #1487 @ $CE66D2
+
+#W24($CE8E94)
+//Necro Slash<End>
+
+//POINTER #1488 @ $CE8E98 - STRING #1488 @ $CE66E8
+
+#W24($CE8E98)
+//Dark Charm<End>
+
+//POINTER #1489 @ $CE8E9C - STRING #1489 @ $CE66FC
+
+#W24($CE8E9C)
+//Head Hunter<End>
+
+//POINTER #1490 @ $CE8EA0 - STRING #1490 @ $CE6712
+
+#W24($CE8EA0)
+//Mortem Dance<End>
+
+//POINTER #1491 @ $CE8EA4 - STRING #1491 @ $CE672A
+
+#W24($CE8EA4)
+//Dark Sweep<End>
+
+//POINTER #1492 @ $CE8EA8 - STRING #1492 @ $CE66BC
+
+#W24($CE8EA8)
+//Poison Stab<End>
+
+//POINTER #1493 @ $CE8EAC - STRING #1493 @ $CE66D2
+
+#W24($CE8EAC)
+//Necro Slash<End>
+
+//POINTER #1494 @ $CE8EB0 - STRING #1494 @ $CE66E8
+
+#W24($CE8EB0)
+//Dark Charm<End>
+
+//POINTER #1495 @ $CE8EB4 - STRING #1495 @ $CE66FC
+
+#W24($CE8EB4)
+//Head Hunter<End>
+
+//POINTER #1496 @ $CE8EB8 - STRING #1496 @ $CE6712
+
+#W24($CE8EB8)
+//Mortem Dance<End>
+
+//POINTER #1497 @ $CE8EBC - STRING #1497 @ $CE672A
+
+#W24($CE8EBC)
+//Dark Sweep<End>
+
+//POINTER #1498 @ $CE8EC0 - STRING #1498 @ $CE66BC
+
+#W24($CE8EC0)
+//Poison Stab<End>
+
+//POINTER #1499 @ $CE8EC4 - STRING #1499 @ $CE66D2
+
+#W24($CE8EC4)
+//Necro Slash<End>
+
+//POINTER #1500 @ $CE8EC8 - STRING #1500 @ $CE66E8
+
+#W24($CE8EC8)
+//Dark Charm<End>
+
+//POINTER #1501 @ $CE8ECC - STRING #1501 @ $CE66FC
+
+#W24($CE8ECC)
+//Head Hunter<End>
+
+//POINTER #1502 @ $CE8ED0 - STRING #1502 @ $CE6712
+
+#W24($CE8ED0)
+//Mortem Dance<End>
+
+//POINTER #1503 @ $CE8ED4 - STRING #1503 @ $CE672A
+
+#W24($CE8ED4)
+//Dark Sweep<End>
+
+//POINTER #1504 @ $CE8ED8 - STRING #1504 @ $CE673E
+
+#W24($CE8ED8)
+//Lickety—Lick<End>
+
+//POINTER #1505 @ $CE8EDC - STRING #1505 @ $CE6757
+
+#W24($CE8EDC)
+//Mystery Fire<End>
+
+//POINTER #1506 @ $CE8EE0 - STRING #1506 @ $CE676F
+
+#W24($CE8EE0)
+//Spell Up<End>
+
+//POINTER #1507 @ $CE8EE4 - STRING #1507 @ $CE677F
+
+#W24($CE8EE4)
+//Nightmare<End>
+
+//POINTER #1508 @ $CE8EE8 - STRING #1508 @ $CE6792
+
+#W24($CE8EE8)
+//Explosion<End>
+
+//POINTER #1509 @ $CE8EEC - STRING #1509 @ $CE67A5
+
+#W24($CE8EEC)
+//Snatch<End>
+
+//POINTER #1510 @ $CE8EF0 - STRING #1510 @ $CE67B2
+
+#W24($CE8EF0)
+//Possess<End>
+
+//POINTER #1511 @ $CE8EF4 - STRING #1511 @ $CE67C1
+
+#W24($CE8EF4)
+//Cling<End>
+
+//POINTER #1512 @ $CE8EF8 - STRING #1512 @ $CE673E
+
+#W24($CE8EF8)
+//Lickety—Lick<End>
+
+//POINTER #1513 @ $CE8EFC - STRING #1513 @ $CE6757
+
+#W24($CE8EFC)
+//Mystery Fire<End>
+
+//POINTER #1514 @ $CE8F00 - STRING #1514 @ $CE676F
+
+#W24($CE8F00)
+//Spell Up<End>
+
+//POINTER #1515 @ $CE8F04 - STRING #1515 @ $CE677F
+
+#W24($CE8F04)
+//Nightmare<End>
+
+//POINTER #1516 @ $CE8F08 - STRING #1516 @ $CE6792
+
+#W24($CE8F08)
+//Explosion<End>
+
+//POINTER #1517 @ $CE8F0C - STRING #1517 @ $CE67A5
+
+#W24($CE8F0C)
+//Snatch<End>
+
+//POINTER #1518 @ $CE8F10 - STRING #1518 @ $CE67B2
+
+#W24($CE8F10)
+//Possess<End>
+
+//POINTER #1519 @ $CE8F14 - STRING #1519 @ $CE67C1
+
+#W24($CE8F14)
+//Cling<End>
+
+//POINTER #1520 @ $CE8F18 - STRING #1520 @ $CE673E
+
+#W24($CE8F18)
+//Lickety—Lick<End>
+
+//POINTER #1521 @ $CE8F1C - STRING #1521 @ $CE6757
+
+#W24($CE8F1C)
+//Mystery Fire<End>
+
+//POINTER #1522 @ $CE8F20 - STRING #1522 @ $CE676F
+
+#W24($CE8F20)
+//Spell Up<End>
+
+//POINTER #1523 @ $CE8F24 - STRING #1523 @ $CE677F
+
+#W24($CE8F24)
+//Nightmare<End>
+
+//POINTER #1524 @ $CE8F28 - STRING #1524 @ $CE6792
+
+#W24($CE8F28)
+//Explosion<End>
+
+//POINTER #1525 @ $CE8F2C - STRING #1525 @ $CE67A5
+
+#W24($CE8F2C)
+//Snatch<End>
+
+//POINTER #1526 @ $CE8F30 - STRING #1526 @ $CE67B2
+
+#W24($CE8F30)
+//Possess<End>
+
+//POINTER #1527 @ $CE8F34 - STRING #1527 @ $CE67C1
+
+#W24($CE8F34)
+//Cling<End>
+
+//POINTER #1528 @ $CE8F38 - STRING #1528 @ $CE673E
+
+#W24($CE8F38)
+//Lickety—Lick<End>
+
+//POINTER #1529 @ $CE8F3C - STRING #1529 @ $CE6757
+
+#W24($CE8F3C)
+//Mystery Fire<End>
+
+//POINTER #1530 @ $CE8F40 - STRING #1530 @ $CE676F
+
+#W24($CE8F40)
+//Spell Up<End>
+
+//POINTER #1531 @ $CE8F44 - STRING #1531 @ $CE677F
+
+#W24($CE8F44)
+//Nightmare<End>
+
+//POINTER #1532 @ $CE8F48 - STRING #1532 @ $CE6792
+
+#W24($CE8F48)
+//Explosion<End>
+
+//POINTER #1533 @ $CE8F4C - STRING #1533 @ $CE67A5
+
+#W24($CE8F4C)
+//Snatch<End>
+
+//POINTER #1534 @ $CE8F50 - STRING #1534 @ $CE67B2
+
+#W24($CE8F50)
+//Possess<End>
+
+//POINTER #1535 @ $CE8F54 - STRING #1535 @ $CE67C1
+
+#W24($CE8F54)
+//Cling<End>
+
+//POINTER #1536 @ $CE8F58 - STRING #1536 @ $CE67CC
+
+#W24($CE8F58)
+//Swing Scythe<End>
+
+//POINTER #1537 @ $CE8F5C - STRING #1537 @ $CE67E4
+
+#W24($CE8F5C)
+//Prism Cutter<End>
+
+//POINTER #1538 @ $CE8F60 - STRING #1538 @ $CE67FC
+
+#W24($CE8F60)
+//Magic Aid<End>
+
+//POINTER #1539 @ $CE8F64 - STRING #1539 @ $CE680E
+
+#W24($CE8F64)
+//Energy Drain<End>
+
+//POINTER #1540 @ $CE8F68 - STRING #1540 @ $CE6826
+
+#W24($CE8F68)
+//Dark Grip<End>
+
+//POINTER #1541 @ $CE8F6C - STRING #1541 @ $CE6838
+
+#W24($CE8F6C)
+//Summon Familiar<End>
+
+//POINTER #1542 @ $CE8F70 - STRING #1542 @ $CE6856
+
+#W24($CE8F70)
+//Secret Technique<End>
+
+//POINTER #1543 @ $CE8F74 - STRING #1543 @ $CE67CC
+
+#W24($CE8F74)
+//Swing Scythe<End>
+
+//POINTER #1544 @ $CE8F78 - STRING #1544 @ $CE67E4
+
+#W24($CE8F78)
+//Prism Cutter<End>
+
+//POINTER #1545 @ $CE8F7C - STRING #1545 @ $CE67FC
+
+#W24($CE8F7C)
+//Magic Aid<End>
+
+//POINTER #1546 @ $CE8F80 - STRING #1546 @ $CE680E
+
+#W24($CE8F80)
+//Energy Drain<End>
+
+//POINTER #1547 @ $CE8F84 - STRING #1547 @ $CE6826
+
+#W24($CE8F84)
+//Dark Grip<End>
+
+//POINTER #1548 @ $CE8F88 - STRING #1548 @ $CE6838
+
+#W24($CE8F88)
+//Summon Familiar<End>
+
+//POINTER #1549 @ $CE8F8C - STRING #1549 @ $CE6856
+
+#W24($CE8F8C)
+//Secret Technique<End>
+
+//POINTER #1550 @ $CE8F90 - STRING #1550 @ $CE67CC
+
+#W24($CE8F90)
+//Swing Scythe<End>
+
+//POINTER #1551 @ $CE8F94 - STRING #1551 @ $CE67E4
+
+#W24($CE8F94)
+//Prism Cutter<End>
+
+//POINTER #1552 @ $CE8F98 - STRING #1552 @ $CE67FC
+
+#W24($CE8F98)
+//Magic Aid<End>
+
+//POINTER #1553 @ $CE8F9C - STRING #1553 @ $CE680E
+
+#W24($CE8F9C)
+//Energy Drain<End>
+
+//POINTER #1554 @ $CE8FA0 - STRING #1554 @ $CE6826
+
+#W24($CE8FA0)
+//Dark Grip<End>
+
+//POINTER #1555 @ $CE8FA4 - STRING #1555 @ $CE6838
+
+#W24($CE8FA4)
+//Summon Familiar<End>
+
+//POINTER #1556 @ $CE8FA8 - STRING #1556 @ $CE6856
+
+#W24($CE8FA8)
+//Secret Technique<End>
+
+//POINTER #1557 @ $CE8FAC - STRING #1557 @ $CE67CC
+
+#W24($CE8FAC)
+//Swing Scythe<End>
+
+//POINTER #1558 @ $CE8FB0 - STRING #1558 @ $CE67E4
+
+#W24($CE8FB0)
+//Prism Cutter<End>
+
+//POINTER #1559 @ $CE8FB4 - STRING #1559 @ $CE67FC
+
+#W24($CE8FB4)
+//Magic Aid<End>
+
+//POINTER #1560 @ $CE8FB8 - STRING #1560 @ $CE680E
+
+#W24($CE8FB8)
+//Energy Drain<End>
+
+//POINTER #1561 @ $CE8FBC - STRING #1561 @ $CE6826
+
+#W24($CE8FBC)
+//Dark Grip<End>
+
+//POINTER #1562 @ $CE8FC0 - STRING #1562 @ $CE6838
+
+#W24($CE8FC0)
+//Summon Familiar<End>
+
+//POINTER #1563 @ $CE8FC4 - STRING #1563 @ $CE6856
+
+#W24($CE8FC4)
+//Secret Technique<End>
+
+//POINTER #1564 @ $CE8FC8 - STRING #1564 @ $CE5742
+
+#W24($CE8FC8)
+//Scratch<End>
+
+//POINTER #1565 @ $CE8FCC - STRING #1565 @ $CE6876
+
+#W24($CE8FCC)
+//Wind Shot<End>
+
+//POINTER #1566 @ $CE8FD0 - STRING #1566 @ $CE6888
+
+#W24($CE8FD0)
+//Cheer<End>
+
+//POINTER #1567 @ $CE8FD4 - STRING #1567 @ $CE6893
+
+#W24($CE8FD4)
+//Air Raid<End>
+
+//POINTER #1568 @ $CE8FD8 - STRING #1568 @ $CE68A3
+
+#W24($CE8FD8)
+//Air Assault<End>
+
+//POINTER #1569 @ $CE8FDC - STRING #1569 @ $CE68B9
+
+#W24($CE8FDC)
+//Lullaby<End>
+
+//POINTER #1570 @ $CE8FE0 - STRING #1570 @ $CE68C8
+
+#W24($CE8FE0)
+//Vertigo<End>
+
+//POINTER #1571 @ $CE8FE4 - STRING #1571 @ $CE5742
+
+#W24($CE8FE4)
+//Scratch<End>
+
+//POINTER #1572 @ $CE8FE8 - STRING #1572 @ $CE6876
+
+#W24($CE8FE8)
+//Wind Shot<End>
+
+//POINTER #1573 @ $CE8FEC - STRING #1573 @ $CE6888
+
+#W24($CE8FEC)
+//Cheer<End>
+
+//POINTER #1574 @ $CE8FF0 - STRING #1574 @ $CE6893
+
+#W24($CE8FF0)
+//Air Raid<End>
+
+//POINTER #1575 @ $CE8FF4 - STRING #1575 @ $CE68A3
+
+#W24($CE8FF4)
+//Air Assault<End>
+
+//POINTER #1576 @ $CE8FF8 - STRING #1576 @ $CE68B9
+
+#W24($CE8FF8)
+//Lullaby<End>
+
+//POINTER #1577 @ $CE8FFC - STRING #1577 @ $CE68C8
+
+#W24($CE8FFC)
+//Vertigo<End>
+
+//POINTER #1578 @ $CE9000 - STRING #1578 @ $CE5742
+
+#W24($CE9000)
+//Scratch<End>
+
+//POINTER #1579 @ $CE9004 - STRING #1579 @ $CE6876
+
+#W24($CE9004)
+//Wind Shot<End>
+
+//POINTER #1580 @ $CE9008 - STRING #1580 @ $CE6888
+
+#W24($CE9008)
+//Cheer<End>
+
+//POINTER #1581 @ $CE900C - STRING #1581 @ $CE6893
+
+#W24($CE900C)
+//Air Raid<End>
+
+//POINTER #1582 @ $CE9010 - STRING #1582 @ $CE68A3
+
+#W24($CE9010)
+//Air Assault<End>
+
+//POINTER #1583 @ $CE9014 - STRING #1583 @ $CE68B9
+
+#W24($CE9014)
+//Lullaby<End>
+
+//POINTER #1584 @ $CE9018 - STRING #1584 @ $CE68C8
+
+#W24($CE9018)
+//Vertigo<End>
+
+//POINTER #1585 @ $CE901C - STRING #1585 @ $CE5742
+
+#W24($CE901C)
+//Scratch<End>
+
+//POINTER #1586 @ $CE9020 - STRING #1586 @ $CE6876
+
+#W24($CE9020)
+//Wind Shot<End>
+
+//POINTER #1587 @ $CE9024 - STRING #1587 @ $CE6888
+
+#W24($CE9024)
+//Cheer<End>
+
+//POINTER #1588 @ $CE9028 - STRING #1588 @ $CE6893
+
+#W24($CE9028)
+//Air Raid<End>
+
+//POINTER #1589 @ $CE902C - STRING #1589 @ $CE68A3
+
+#W24($CE902C)
+//Air Assault<End>
+
+//POINTER #1590 @ $CE9030 - STRING #1590 @ $CE68B9
+
+#W24($CE9030)
+//Lullaby<End>
+
+//POINTER #1591 @ $CE9034 - STRING #1591 @ $CE68C8
+
+#W24($CE9034)
+//Vertigo<End>
+
+//POINTER #1592 @ $CE9038 - STRING #1592 @ $CE5742
+
+#W24($CE9038)
+//Scratch<End>
+
+//POINTER #1593 @ $CE903C - STRING #1593 @ $CE68D7
+
+#W24($CE903C)
+//Talon Drop<End>
+
+//POINTER #1594 @ $CE9040 - STRING #1594 @ $CE68EB
+
+#W24($CE9040)
+//Happy Hurricane<End>
+
+//POINTER #1595 @ $CE9044 - STRING #1595 @ $CE6909
+
+#W24($CE9044)
+//Bite<End>
+
+//POINTER #1596 @ $CE9048 - STRING #1596 @ $CE6912
+
+#W24($CE9048)
+//Revenge Bite<End>
+
+//POINTER #1597 @ $CE904C - STRING #1597 @ $CE692A
+
+#W24($CE904C)
+//Howl<End>
+
+//POINTER #1598 @ $CE9050 - STRING #1598 @ $CE6933
+
+#W24($CE9050)
+//Howling Blue<End>
+
+//POINTER #1599 @ $CE9054 - STRING #1599 @ $CE694B
+
+#W24($CE9054)
+//Bullet Dive<End>
+
+//POINTER #1600 @ $CE9058 - STRING #1600 @ $CE6961
+
+#W24($CE9058)
+//Lick Wounds<End>
+
+//POINTER #1601 @ $CE905C - STRING #1601 @ $CE6909
+
+#W24($CE905C)
+//Bite<End>
+
+//POINTER #1602 @ $CE9060 - STRING #1602 @ $CE6912
+
+#W24($CE9060)
+//Revenge Bite<End>
+
+//POINTER #1603 @ $CE9064 - STRING #1603 @ $CE692A
+
+#W24($CE9064)
+//Howl<End>
+
+//POINTER #1604 @ $CE9068 - STRING #1604 @ $CE6933
+
+#W24($CE9068)
+//Howling Blue<End>
+
+//POINTER #1605 @ $CE906C - STRING #1605 @ $CE694B
+
+#W24($CE906C)
+//Bullet Dive<End>
+
+//POINTER #1606 @ $CE9070 - STRING #1606 @ $CE6961
+
+#W24($CE9070)
+//Lick Wounds<End>
+
+//POINTER #1607 @ $CE9074 - STRING #1607 @ $CE6909
+
+#W24($CE9074)
+//Bite<End>
+
+//POINTER #1608 @ $CE9078 - STRING #1608 @ $CE6912
+
+#W24($CE9078)
+//Revenge Bite<End>
+
+//POINTER #1609 @ $CE907C - STRING #1609 @ $CE692A
+
+#W24($CE907C)
+//Howl<End>
+
+//POINTER #1610 @ $CE9080 - STRING #1610 @ $CE6933
+
+#W24($CE9080)
+//Howling Blue<End>
+
+//POINTER #1611 @ $CE9084 - STRING #1611 @ $CE694B
+
+#W24($CE9084)
+//Bullet Dive<End>
+
+//POINTER #1612 @ $CE9088 - STRING #1612 @ $CE6961
+
+#W24($CE9088)
+//Lick Wounds<End>
+
+//POINTER #1613 @ $CE908C - STRING #1613 @ $CE6909
+
+#W24($CE908C)
+//Bite<End>
+
+//POINTER #1614 @ $CE9090 - STRING #1614 @ $CE6912
+
+#W24($CE9090)
+//Revenge Bite<End>
+
+//POINTER #1615 @ $CE9094 - STRING #1615 @ $CE692A
+
+#W24($CE9094)
+//Howl<End>
+
+//POINTER #1616 @ $CE9098 - STRING #1616 @ $CE6933
+
+#W24($CE9098)
+//Howling Blue<End>
+
+//POINTER #1617 @ $CE909C - STRING #1617 @ $CE694B
+
+#W24($CE909C)
+//Bullet Dive<End>
+
+//POINTER #1618 @ $CE90A0 - STRING #1618 @ $CE6961
+
+#W24($CE90A0)
+//Lick Wounds<End>
+
+//POINTER #1619 @ $CE90A4 - STRING #1619 @ $CE6977
+
+#W24($CE90A4)
+//Punch<End>
+
+//POINTER #1620 @ $CE90A8 - STRING #1620 @ $CE6982
+
+#W24($CE90A8)
+//Angry Fist<End>
+
+//POINTER #1621 @ $CE90AC - STRING #1621 @ $CE6996
+
+#W24($CE90AC)
+//War Cry<End>
+
+//POINTER #1622 @ $CE90B0 - STRING #1622 @ $CE69A4
+
+#W24($CE90B0)
+//Giga Strike<End>
+
+//POINTER #1623 @ $CE90B4 - STRING #1623 @ $CE53CF
+
+#W24($CE90B4)
+//Meteo Impact<End>
+
+//POINTER #1624 @ $CE90B8 - STRING #1624 @ $CE69BA
+
+#W24($CE90B8)
+//Boulder Dash<End>
+
+//POINTER #1625 @ $CE90BC - STRING #1625 @ $CE6977
+
+#W24($CE90BC)
+//Punch<End>
+
+//POINTER #1626 @ $CE90C0 - STRING #1626 @ $CE6982
+
+#W24($CE90C0)
+//Angry Fist<End>
+
+//POINTER #1627 @ $CE90C4 - STRING #1627 @ $CE6996
+
+#W24($CE90C4)
+//War Cry<End>
+
+//POINTER #1628 @ $CE90C8 - STRING #1628 @ $CE69A4
+
+#W24($CE90C8)
+//Giga Strike<End>
+
+//POINTER #1629 @ $CE90CC - STRING #1629 @ $CE53CF
+
+#W24($CE90CC)
+//Meteo Impact<End>
+
+//POINTER #1630 @ $CE90D0 - STRING #1630 @ $CE69BA
+
+#W24($CE90D0)
+//Boulder Dash<End>
+
+//POINTER #1631 @ $CE90D4 - STRING #1631 @ $CE6977
+
+#W24($CE90D4)
+//Punch<End>
+
+//POINTER #1632 @ $CE90D8 - STRING #1632 @ $CE6982
+
+#W24($CE90D8)
+//Angry Fist<End>
+
+//POINTER #1633 @ $CE90DC - STRING #1633 @ $CE6996
+
+#W24($CE90DC)
+//War Cry<End>
+
+//POINTER #1634 @ $CE90E0 - STRING #1634 @ $CE69A4
+
+#W24($CE90E0)
+//Giga Strike<End>
+
+//POINTER #1635 @ $CE90E4 - STRING #1635 @ $CE53CF
+
+#W24($CE90E4)
+//Meteo Impact<End>
+
+//POINTER #1636 @ $CE90E8 - STRING #1636 @ $CE69BA
+
+#W24($CE90E8)
+//Boulder Dash<End>
+
+//POINTER #1637 @ $CE90EC - STRING #1637 @ $CE6977
+
+#W24($CE90EC)
+//Punch<End>
+
+//POINTER #1638 @ $CE90F0 - STRING #1638 @ $CE6982
+
+#W24($CE90F0)
+//Angry Fist<End>
+
+//POINTER #1639 @ $CE90F4 - STRING #1639 @ $CE6996
+
+#W24($CE90F4)
+//War Cry<End>
+
+//POINTER #1640 @ $CE90F8 - STRING #1640 @ $CE69A4
+
+#W24($CE90F8)
+//Giga Strike<End>
+
+//POINTER #1641 @ $CE90FC - STRING #1641 @ $CE53CF
+
+#W24($CE90FC)
+//Meteo Impact<End>
+
+//POINTER #1642 @ $CE9100 - STRING #1642 @ $CE69BA
+
+#W24($CE9100)
+//Boulder Dash<End>
+
+//POINTER #1643 @ $CE9104 - STRING #1643 @ $CE69D2
+
+#W24($CE9104)
+//Peck<End>
+
+//POINTER #1644 @ $CE9108 - STRING #1644 @ $CE69DB
+
+#W24($CE9108)
+//Sonic Wave<End>
+
+//POINTER #1645 @ $CE910C - STRING #1645 @ $CE69EF
+
+#W24($CE910C)
+//Feather Knuckle<End>
+
+//POINTER #1646 @ $CE9110 - STRING #1646 @ $CE6A0D
+
+#W24($CE9110)
+//Fossilize<End>
+
+//POINTER #1647 @ $CE9114 - STRING #1647 @ $CE6A20
+
+#W24($CE9114)
+//Cyclone Fury<End>
+
+//POINTER #1648 @ $CE9118 - STRING #1648 @ $CE6A38
+
+#W24($CE9118)
+//Beak Barrage<End>
+
+//POINTER #1649 @ $CE911C - STRING #1649 @ $CE6A50
+
+#W24($CE911C)
+//Evil Eye<End>
+
+//POINTER #1650 @ $CE9120 - STRING #1650 @ $CE69D2
+
+#W24($CE9120)
+//Peck<End>
+
+//POINTER #1651 @ $CE9124 - STRING #1651 @ $CE69DB
+
+#W24($CE9124)
+//Sonic Wave<End>
+
+//POINTER #1652 @ $CE9128 - STRING #1652 @ $CE69EF
+
+#W24($CE9128)
+//Feather Knuckle<End>
+
+//POINTER #1653 @ $CE912C - STRING #1653 @ $CE6A0D
+
+#W24($CE912C)
+//Fossilize<End>
+
+//POINTER #1654 @ $CE9130 - STRING #1654 @ $CE6A20
+
+#W24($CE9130)
+//Cyclone Fury<End>
+
+//POINTER #1655 @ $CE9134 - STRING #1655 @ $CE6A38
+
+#W24($CE9134)
+//Beak Barrage<End>
+
+//POINTER #1656 @ $CE9138 - STRING #1656 @ $CE6A50
+
+#W24($CE9138)
+//Evil Eye<End>
+
+//POINTER #1657 @ $CE913C - STRING #1657 @ $CE69D2
+
+#W24($CE913C)
+//Peck<End>
+
+//POINTER #1658 @ $CE9140 - STRING #1658 @ $CE69DB
+
+#W24($CE9140)
+//Sonic Wave<End>
+
+//POINTER #1659 @ $CE9144 - STRING #1659 @ $CE69EF
+
+#W24($CE9144)
+//Feather Knuckle<End>
+
+//POINTER #1660 @ $CE9148 - STRING #1660 @ $CE6A0D
+
+#W24($CE9148)
+//Fossilize<End>
+
+//POINTER #1661 @ $CE914C - STRING #1661 @ $CE6A20
+
+#W24($CE914C)
+//Cyclone Fury<End>
+
+//POINTER #1662 @ $CE9150 - STRING #1662 @ $CE6A38
+
+#W24($CE9150)
+//Beak Barrage<End>
+
+//POINTER #1663 @ $CE9154 - STRING #1663 @ $CE6A50
+
+#W24($CE9154)
+//Evil Eye<End>
+
+//POINTER #1664 @ $CE9158 - STRING #1664 @ $CE69D2
+
+#W24($CE9158)
+//Peck<End>
+
+//POINTER #1665 @ $CE915C - STRING #1665 @ $CE69DB
+
+#W24($CE915C)
+//Sonic Wave<End>
+
+//POINTER #1666 @ $CE9160 - STRING #1666 @ $CE69EF
+
+#W24($CE9160)
+//Feather Knuckle<End>
+
+//POINTER #1667 @ $CE9164 - STRING #1667 @ $CE6A0D
+
+#W24($CE9164)
+//Fossilize<End>
+
+//POINTER #1668 @ $CE9168 - STRING #1668 @ $CE6A20
+
+#W24($CE9168)
+//Cyclone Fury<End>
+
+//POINTER #1669 @ $CE916C - STRING #1669 @ $CE6A38
+
+#W24($CE916C)
+//Beak Barrage<End>
+
+//POINTER #1670 @ $CE9170 - STRING #1670 @ $CE6A50
+
+#W24($CE9170)
+//Evil Eye<End>
+
+//POINTER #1671 @ $CE9174 - STRING #1671 @ $CE6A60
+
+#W24($CE9174)
+//Charge<End>
+
+//POINTER #1672 @ $CE9178 - STRING #1672 @ $CE6A6D
+
+#W24($CE9178)
+//Hard Tackle<End>
+
+//POINTER #1673 @ $CE917C - STRING #1673 @ $CE6A83
+
+#W24($CE917C)
+//Web Barrier<End>
+
+//POINTER #1674 @ $CE9180 - STRING #1674 @ $CE6A99
+
+#W24($CE9180)
+//Magic Web<End>
+
+//POINTER #1675 @ $CE9184 - STRING #1675 @ $CE6AAB
+
+#W24($CE9184)
+//Mirage Web<End>
+
+//POINTER #1676 @ $CE9188 - STRING #1676 @ $CE65C6
+
+#W24($CE9188)
+//Run Away<End>
+
+//POINTER #1677 @ $CE918C - STRING #1677 @ $CE6ABF
+
+#W24($CE918C)
+//Shoot Webbing<End>
+
+//POINTER #1678 @ $CE9190 - STRING #1678 @ $CE6A60
+
+#W24($CE9190)
+//Charge<End>
+
+//POINTER #1679 @ $CE9194 - STRING #1679 @ $CE6A6D
+
+#W24($CE9194)
+//Hard Tackle<End>
+
+//POINTER #1680 @ $CE9198 - STRING #1680 @ $CE6A83
+
+#W24($CE9198)
+//Web Barrier<End>
+
+//POINTER #1681 @ $CE919C - STRING #1681 @ $CE6A99
+
+#W24($CE919C)
+//Magic Web<End>
+
+//POINTER #1682 @ $CE91A0 - STRING #1682 @ $CE6AAB
+
+#W24($CE91A0)
+//Mirage Web<End>
+
+//POINTER #1683 @ $CE91A4 - STRING #1683 @ $CE65C6
+
+#W24($CE91A4)
+//Run Away<End>
+
+//POINTER #1684 @ $CE91A8 - STRING #1684 @ $CE6ABF
+
+#W24($CE91A8)
+//Shoot Webbing<End>
+
+//POINTER #1685 @ $CE91AC - STRING #1685 @ $CE6A60
+
+#W24($CE91AC)
+//Charge<End>
+
+//POINTER #1686 @ $CE91B0 - STRING #1686 @ $CE6A6D
+
+#W24($CE91B0)
+//Hard Tackle<End>
+
+//POINTER #1687 @ $CE91B4 - STRING #1687 @ $CE6A83
+
+#W24($CE91B4)
+//Web Barrier<End>
+
+//POINTER #1688 @ $CE91B8 - STRING #1688 @ $CE6A99
+
+#W24($CE91B8)
+//Magic Web<End>
+
+//POINTER #1689 @ $CE91BC - STRING #1689 @ $CE6AAB
+
+#W24($CE91BC)
+//Mirage Web<End>
+
+//POINTER #1690 @ $CE91C0 - STRING #1690 @ $CE65C6
+
+#W24($CE91C0)
+//Run Away<End>
+
+//POINTER #1691 @ $CE91C4 - STRING #1691 @ $CE6ABF
+
+#W24($CE91C4)
+//Shoot Webbing<End>
+
+//POINTER #1692 @ $CE91C8 - STRING #1692 @ $CE6A60
+
+#W24($CE91C8)
+//Charge<End>
+
+//POINTER #1693 @ $CE91CC - STRING #1693 @ $CE6A6D
+
+#W24($CE91CC)
+//Hard Tackle<End>
+
+//POINTER #1694 @ $CE91D0 - STRING #1694 @ $CE6A83
+
+#W24($CE91D0)
+//Web Barrier<End>
+
+//POINTER #1695 @ $CE91D4 - STRING #1695 @ $CE6A99
+
+#W24($CE91D4)
+//Magic Web<End>
+
+//POINTER #1696 @ $CE91D8 - STRING #1696 @ $CE6AAB
+
+#W24($CE91D8)
+//Mirage Web<End>
+
+//POINTER #1697 @ $CE91DC - STRING #1697 @ $CE65C6
+
+#W24($CE91DC)
+//Run Away<End>
+
+//POINTER #1698 @ $CE91E0 - STRING #1698 @ $CE6ABF
+
+#W24($CE91E0)
+//Shoot Webbing<End>
+
+//POINTER #1699 @ $CE91E4 - STRING #1699 @ $CE6AD9
+
+#W24($CE91E4)
+//Front Attack<End>
+
+//POINTER #1700 @ $CE91E8 - STRING #1700 @ $CE6AF1
+
+#W24($CE91E8)
+//Rolling Attack<End>
+
+//POINTER #1701 @ $CE91EC - STRING #1701 @ $CE6B0D
+
+#W24($CE91EC)
+//Defender<End>
+
+//POINTER #1702 @ $CE91F0 - STRING #1702 @ $CE6B1E
+
+#W24($CE91F0)
+//Stone Beam<End>
+
+//POINTER #1703 @ $CE91F4 - STRING #1703 @ $CE6B32
+
+#W24($CE91F4)
+//Icicle Shower<End>
+
+//POINTER #1704 @ $CE91F8 - STRING #1704 @ $CE6B4C
+
+#W24($CE91F8)
+//Alien Beam<End>
+
+//POINTER #1705 @ $CE91FC - STRING #1705 @ $CE6AD9
+
+#W24($CE91FC)
+//Front Attack<End>
+
+//POINTER #1706 @ $CE9200 - STRING #1706 @ $CE6AF1
+
+#W24($CE9200)
+//Rolling Attack<End>
+
+//POINTER #1707 @ $CE9204 - STRING #1707 @ $CE6B0D
+
+#W24($CE9204)
+//Defender<End>
+
+//POINTER #1708 @ $CE9208 - STRING #1708 @ $CE6B1E
+
+#W24($CE9208)
+//Stone Beam<End>
+
+//POINTER #1709 @ $CE920C - STRING #1709 @ $CE6B32
+
+#W24($CE920C)
+//Icicle Shower<End>
+
+//POINTER #1710 @ $CE9210 - STRING #1710 @ $CE6B4C
+
+#W24($CE9210)
+//Alien Beam<End>
+
+//POINTER #1711 @ $CE9214 - STRING #1711 @ $CE6AD9
+
+#W24($CE9214)
+//Front Attack<End>
+
+//POINTER #1712 @ $CE9218 - STRING #1712 @ $CE6AF1
+
+#W24($CE9218)
+//Rolling Attack<End>
+
+//POINTER #1713 @ $CE921C - STRING #1713 @ $CE6B0D
+
+#W24($CE921C)
+//Defender<End>
+
+//POINTER #1714 @ $CE9220 - STRING #1714 @ $CE6B1E
+
+#W24($CE9220)
+//Stone Beam<End>
+
+//POINTER #1715 @ $CE9224 - STRING #1715 @ $CE6B32
+
+#W24($CE9224)
+//Icicle Shower<End>
+
+//POINTER #1716 @ $CE9228 - STRING #1716 @ $CE6B4C
+
+#W24($CE9228)
+//Alien Beam<End>
+
+//POINTER #1717 @ $CE922C - STRING #1717 @ $CE6AD9
+
+#W24($CE922C)
+//Front Attack<End>
+
+//POINTER #1718 @ $CE9230 - STRING #1718 @ $CE6AF1
+
+#W24($CE9230)
+//Rolling Attack<End>
+
+//POINTER #1719 @ $CE9234 - STRING #1719 @ $CE6B0D
+
+#W24($CE9234)
+//Defender<End>
+
+//POINTER #1720 @ $CE9238 - STRING #1720 @ $CE6B1E
+
+#W24($CE9238)
+//Stone Beam<End>
+
+//POINTER #1721 @ $CE923C - STRING #1721 @ $CE6B32
+
+#W24($CE923C)
+//Icicle Shower<End>
+
+//POINTER #1722 @ $CE9240 - STRING #1722 @ $CE6B4C
+
+#W24($CE9240)
+//Alien Beam<End>
+
+//POINTER #1723 @ $CE9244 - STRING #1723 @ $CE6B60
+
+#W24($CE9244)
+//Tentacle Attack<End>
+
+//POINTER #1724 @ $CE9248 - STRING #1724 @ $CE6B7E
+
+#W24($CE9248)
+//Triple Whip<End>
+
+//POINTER #1725 @ $CE924C - STRING #1725 @ $CE6B94
+
+#W24($CE924C)
+//Aroma Therapy<End>
+
+//POINTER #1726 @ $CE9250 - STRING #1726 @ $CE6BAE
+
+#W24($CE9250)
+//Sleep Pollen<End>
+
+//POINTER #1727 @ $CE9254 - STRING #1727 @ $CE6BC6
+
+#W24($CE9254)
+//Leaf Rush<End>
+
+//POINTER #1728 @ $CE9258 - STRING #1728 @ $CE6BD8
+
+#W24($CE9258)
+//Healing Pollen<End>
+
+//POINTER #1729 @ $CE925C - STRING #1729 @ $CE6BF4
+
+#W24($CE925C)
+//Pollen Spray<End>
+
+//POINTER #1730 @ $CE9260 - STRING #1730 @ $CE6B60
+
+#W24($CE9260)
+//Tentacle Attack<End>
+
+//POINTER #1731 @ $CE9264 - STRING #1731 @ $CE6B7E
+
+#W24($CE9264)
+//Triple Whip<End>
+
+//POINTER #1732 @ $CE9268 - STRING #1732 @ $CE6B94
+
+#W24($CE9268)
+//Aroma Therapy<End>
+
+//POINTER #1733 @ $CE926C - STRING #1733 @ $CE6BAE
+
+#W24($CE926C)
+//Sleep Pollen<End>
+
+//POINTER #1734 @ $CE9270 - STRING #1734 @ $CE6BC6
+
+#W24($CE9270)
+//Leaf Rush<End>
+
+//POINTER #1735 @ $CE9274 - STRING #1735 @ $CE6BD8
+
+#W24($CE9274)
+//Healing Pollen<End>
+
+//POINTER #1736 @ $CE9278 - STRING #1736 @ $CE6BF4
+
+#W24($CE9278)
+//Pollen Spray<End>
+
+//POINTER #1737 @ $CE927C - STRING #1737 @ $CE6B60
+
+#W24($CE927C)
+//Tentacle Attack<End>
+
+//POINTER #1738 @ $CE9280 - STRING #1738 @ $CE6B7E
+
+#W24($CE9280)
+//Triple Whip<End>
+
+//POINTER #1739 @ $CE9284 - STRING #1739 @ $CE6B94
+
+#W24($CE9284)
+//Aroma Therapy<End>
+
+//POINTER #1740 @ $CE9288 - STRING #1740 @ $CE6BAE
+
+#W24($CE9288)
+//Sleep Pollen<End>
+
+//POINTER #1741 @ $CE928C - STRING #1741 @ $CE6BC6
+
+#W24($CE928C)
+//Leaf Rush<End>
+
+//POINTER #1742 @ $CE9290 - STRING #1742 @ $CE6BD8
+
+#W24($CE9290)
+//Healing Pollen<End>
+
+//POINTER #1743 @ $CE9294 - STRING #1743 @ $CE6BF4
+
+#W24($CE9294)
+//Pollen Spray<End>
+
+//POINTER #1744 @ $CE9298 - STRING #1744 @ $CE6B60
+
+#W24($CE9298)
+//Tentacle Attack<End>
+
+//POINTER #1745 @ $CE929C - STRING #1745 @ $CE6B7E
+
+#W24($CE929C)
+//Triple Whip<End>
+
+//POINTER #1746 @ $CE92A0 - STRING #1746 @ $CE6B94
+
+#W24($CE92A0)
+//Aroma Therapy<End>
+
+//POINTER #1747 @ $CE92A4 - STRING #1747 @ $CE6BAE
+
+#W24($CE92A4)
+//Sleep Pollen<End>
+
+//POINTER #1748 @ $CE92A8 - STRING #1748 @ $CE6BC6
+
+#W24($CE92A8)
+//Leaf Rush<End>
+
+//POINTER #1749 @ $CE92AC - STRING #1749 @ $CE6BD8
+
+#W24($CE92AC)
+//Healing Pollen<End>
+
+//POINTER #1750 @ $CE92B0 - STRING #1750 @ $CE6BF4
+
+#W24($CE92B0)
+//Pollen Spray<End>
+
+//POINTER #1751 @ $CE92B4 - STRING #1751 @ $CE6C0C
+
+#W24($CE92B4)
+//Hack<End>
+
+//POINTER #1752 @ $CE92B8 - STRING #1752 @ $CE6C15
+
+#W24($CE92B8)
+//Power Charge<End>
+
+//POINTER #1753 @ $CE92BC - STRING #1753 @ $CE6C2D
+
+#W24($CE92BC)
+//Power Lift<End>
+
+//POINTER #1754 @ $CE92C0 - STRING #1754 @ $CE6C41
+
+#W24($CE92C0)
+//Sonic Boom<End>
+
+//POINTER #1755 @ $CE92C4 - STRING #1755 @ $CE6C55
+
+#W24($CE92C4)
+//Brutal Onslaught<End>
+
+//POINTER #1756 @ $CE92C8 - STRING #1756 @ $CE6C75
+
+#W24($CE92C8)
+//Jump Slash<End>
+
+//POINTER #1757 @ $CE92CC - STRING #1757 @ $CE549D
+
+#W24($CE92CC)
+//Wind Blade<End>
+
+//POINTER #1758 @ $CE92D0 - STRING #1758 @ $CE6C0C
+
+#W24($CE92D0)
+//Hack<End>
+
+//POINTER #1759 @ $CE92D4 - STRING #1759 @ $CE6C15
+
+#W24($CE92D4)
+//Power Charge<End>
+
+//POINTER #1760 @ $CE92D8 - STRING #1760 @ $CE6C2D
+
+#W24($CE92D8)
+//Power Lift<End>
+
+//POINTER #1761 @ $CE92DC - STRING #1761 @ $CE6C41
+
+#W24($CE92DC)
+//Sonic Boom<End>
+
+//POINTER #1762 @ $CE92E0 - STRING #1762 @ $CE6C55
+
+#W24($CE92E0)
+//Brutal Onslaught<End>
+
+//POINTER #1763 @ $CE92E4 - STRING #1763 @ $CE6C75
+
+#W24($CE92E4)
+//Jump Slash<End>
+
+//POINTER #1764 @ $CE92E8 - STRING #1764 @ $CE549D
+
+#W24($CE92E8)
+//Wind Blade<End>
+
+//POINTER #1765 @ $CE92EC - STRING #1765 @ $CE6C0C
+
+#W24($CE92EC)
+//Hack<End>
+
+//POINTER #1766 @ $CE92F0 - STRING #1766 @ $CE6C15
+
+#W24($CE92F0)
+//Power Charge<End>
+
+//POINTER #1767 @ $CE92F4 - STRING #1767 @ $CE6C2D
+
+#W24($CE92F4)
+//Power Lift<End>
+
+//POINTER #1768 @ $CE92F8 - STRING #1768 @ $CE6C41
+
+#W24($CE92F8)
+//Sonic Boom<End>
+
+//POINTER #1769 @ $CE92FC - STRING #1769 @ $CE6C55
+
+#W24($CE92FC)
+//Brutal Onslaught<End>
+
+//POINTER #1770 @ $CE9300 - STRING #1770 @ $CE6C75
+
+#W24($CE9300)
+//Jump Slash<End>
+
+//POINTER #1771 @ $CE9304 - STRING #1771 @ $CE549D
+
+#W24($CE9304)
+//Wind Blade<End>
+
+//POINTER #1772 @ $CE9308 - STRING #1772 @ $CE6C0C
+
+#W24($CE9308)
+//Hack<End>
+
+//POINTER #1773 @ $CE930C - STRING #1773 @ $CE6C15
+
+#W24($CE930C)
+//Power Charge<End>
+
+//POINTER #1774 @ $CE9310 - STRING #1774 @ $CE6C2D
+
+#W24($CE9310)
+//Power Lift<End>
+
+//POINTER #1775 @ $CE9314 - STRING #1775 @ $CE6C41
+
+#W24($CE9314)
+//Sonic Boom<End>
+
+//POINTER #1776 @ $CE9318 - STRING #1776 @ $CE6C55
+
+#W24($CE9318)
+//Brutal Onslaught<End>
+
+//POINTER #1777 @ $CE931C - STRING #1777 @ $CE6C75
+
+#W24($CE931C)
+//Jump Slash<End>
+
+//POINTER #1778 @ $CE9320 - STRING #1778 @ $CE549D
+
+#W24($CE9320)
+//Wind Blade<End>
+
+//POINTER #1779 @ $CE9324 - STRING #1779 @ $CE6C89
+
+#W24($CE9324)
+//Downward Slash<End>
+
+//POINTER #1780 @ $CE9328 - STRING #1780 @ $CE6CA5
+
+#W24($CE9328)
+//Conk Buster<End>
+
+//POINTER #1781 @ $CE932C - STRING #1781 @ $CE6CBB
+
+#W24($CE932C)
+//Iron Defense<End>
+
+//POINTER #1782 @ $CE9330 - STRING #1782 @ $CE6CD3
+
+#W24($CE9330)
+//Quake Shot<End>
+
+//POINTER #1783 @ $CE9334 - STRING #1783 @ $CE6CE7
+
+#W24($CE9334)
+//Earthquake<End>
+
+//POINTER #1784 @ $CE9338 - STRING #1784 @ $CE6CFC
+
+#W24($CE9338)
+//Stand Still<End>
+
+//POINTER #1785 @ $CE933C - STRING #1785 @ $CE6D12
+
+#W24($CE933C)
+//Jump Around<End>
+
+//POINTER #1786 @ $CE9340 - STRING #1786 @ $CE6C89
+
+#W24($CE9340)
+//Downward Slash<End>
+
+//POINTER #1787 @ $CE9344 - STRING #1787 @ $CE6CA5
+
+#W24($CE9344)
+//Conk Buster<End>
+
+//POINTER #1788 @ $CE9348 - STRING #1788 @ $CE6CBB
+
+#W24($CE9348)
+//Iron Defense<End>
+
+//POINTER #1789 @ $CE934C - STRING #1789 @ $CE6CD3
+
+#W24($CE934C)
+//Quake Shot<End>
+
+//POINTER #1790 @ $CE9350 - STRING #1790 @ $CE6CE7
+
+#W24($CE9350)
+//Earthquake<End>
+
+//POINTER #1791 @ $CE9354 - STRING #1791 @ $CE6CFC
+
+#W24($CE9354)
+//Stand Still<End>
+
+//POINTER #1792 @ $CE9358 - STRING #1792 @ $CE6D12
+
+#W24($CE9358)
+//Jump Around<End>
+
+//POINTER #1793 @ $CE935C - STRING #1793 @ $CE6C89
+
+#W24($CE935C)
+//Downward Slash<End>
+
+//POINTER #1794 @ $CE9360 - STRING #1794 @ $CE6CA5
+
+#W24($CE9360)
+//Conk Buster<End>
+
+//POINTER #1795 @ $CE9364 - STRING #1795 @ $CE6CBB
+
+#W24($CE9364)
+//Iron Defense<End>
+
+//POINTER #1796 @ $CE9368 - STRING #1796 @ $CE6CD3
+
+#W24($CE9368)
+//Quake Shot<End>
+
+//POINTER #1797 @ $CE936C - STRING #1797 @ $CE6CE7
+
+#W24($CE936C)
+//Earthquake<End>
+
+//POINTER #1798 @ $CE9370 - STRING #1798 @ $CE6CFC
+
+#W24($CE9370)
+//Stand Still<End>
+
+//POINTER #1799 @ $CE9374 - STRING #1799 @ $CE6D12
+
+#W24($CE9374)
+//Jump Around<End>
+
+//POINTER #1800 @ $CE9378 - STRING #1800 @ $CE6C89
+
+#W24($CE9378)
+//Downward Slash<End>
+
+//POINTER #1801 @ $CE937C - STRING #1801 @ $CE6CA5
+
+#W24($CE937C)
+//Conk Buster<End>
+
+//POINTER #1802 @ $CE9380 - STRING #1802 @ $CE6CBB
+
+#W24($CE9380)
+//Iron Defense<End>
+
+//POINTER #1803 @ $CE9384 - STRING #1803 @ $CE6CD3
+
+#W24($CE9384)
+//Quake Shot<End>
+
+//POINTER #1804 @ $CE9388 - STRING #1804 @ $CE6CE7
+
+#W24($CE9388)
+//Earthquake<End>
+
+//POINTER #1805 @ $CE938C - STRING #1805 @ $CE6CFC
+
+#W24($CE938C)
+//Stand Still<End>
+
+//POINTER #1806 @ $CE9390 - STRING #1806 @ $CE6D12
+
+#W24($CE9390)
+//Jump Around<End>
+
+//POINTER #1807 @ $CE9394 - STRING #1807 @ $CE6D28
+
+#W24($CE9394)
+//Pounce On<End>
+
+//POINTER #1808 @ $CE9398 - STRING #1808 @ $CE6D3A
+
+#W24($CE9398)
+//Acidic Solution<End>
+
+//POINTER #1809 @ $CE939C - STRING #1809 @ $CE6D58
+
+#W24($CE939C)
+//Vitality Up<End>
+
+//POINTER #1810 @ $CE93A0 - STRING #1810 @ $CE6D6E
+
+#W24($CE93A0)
+//Acid Gas<End>
+
+//POINTER #1811 @ $CE93A4 - STRING #1811 @ $CE6D7E
+
+#W24($CE93A4)
+//Splatter Bomb<End>
+
+//POINTER #1812 @ $CE93A8 - STRING #1812 @ $CE6D98
+
+#W24($CE93A8)
+//Fission<End>
+
+//POINTER #1813 @ $CE93AC - STRING #1813 @ $CE6DA7
+
+#W24($CE93AC)
+//Bane<End>
+
+//POINTER #1814 @ $CE93B0 - STRING #1814 @ $CE6D28
+
+#W24($CE93B0)
+//Pounce On<End>
+
+//POINTER #1815 @ $CE93B4 - STRING #1815 @ $CE6D3A
+
+#W24($CE93B4)
+//Acidic Solution<End>
+
+//POINTER #1816 @ $CE93B8 - STRING #1816 @ $CE6D58
+
+#W24($CE93B8)
+//Vitality Up<End>
+
+//POINTER #1817 @ $CE93BC - STRING #1817 @ $CE6D6E
+
+#W24($CE93BC)
+//Acid Gas<End>
+
+//POINTER #1818 @ $CE93C0 - STRING #1818 @ $CE6D7E
+
+#W24($CE93C0)
+//Splatter Bomb<End>
+
+//POINTER #1819 @ $CE93C4 - STRING #1819 @ $CE6D98
+
+#W24($CE93C4)
+//Fission<End>
+
+//POINTER #1820 @ $CE93C8 - STRING #1820 @ $CE6DA7
+
+#W24($CE93C8)
+//Bane<End>
+
+//POINTER #1821 @ $CE93CC - STRING #1821 @ $CE6D28
+
+#W24($CE93CC)
+//Pounce On<End>
+
+//POINTER #1822 @ $CE93D0 - STRING #1822 @ $CE6D3A
+
+#W24($CE93D0)
+//Acidic Solution<End>
+
+//POINTER #1823 @ $CE93D4 - STRING #1823 @ $CE6D58
+
+#W24($CE93D4)
+//Vitality Up<End>
+
+//POINTER #1824 @ $CE93D8 - STRING #1824 @ $CE6D6E
+
+#W24($CE93D8)
+//Acid Gas<End>
+
+//POINTER #1825 @ $CE93DC - STRING #1825 @ $CE6D7E
+
+#W24($CE93DC)
+//Splatter Bomb<End>
+
+//POINTER #1826 @ $CE93E0 - STRING #1826 @ $CE6D98
+
+#W24($CE93E0)
+//Fission<End>
+
+//POINTER #1827 @ $CE93E4 - STRING #1827 @ $CE6DA7
+
+#W24($CE93E4)
+//Bane<End>
+
+//POINTER #1828 @ $CE93E8 - STRING #1828 @ $CE6D28
+
+#W24($CE93E8)
+//Pounce On<End>
+
+//POINTER #1829 @ $CE93EC - STRING #1829 @ $CE6D3A
+
+#W24($CE93EC)
+//Acidic Solution<End>
+
+//POINTER #1830 @ $CE93F0 - STRING #1830 @ $CE6D58
+
+#W24($CE93F0)
+//Vitality Up<End>
+
+//POINTER #1831 @ $CE93F4 - STRING #1831 @ $CE6D6E
+
+#W24($CE93F4)
+//Acid Gas<End>
+
+//POINTER #1832 @ $CE93F8 - STRING #1832 @ $CE6D7E
+
+#W24($CE93F8)
+//Splatter Bomb<End>
+
+//POINTER #1833 @ $CE93FC - STRING #1833 @ $CE6D98
+
+#W24($CE93FC)
+//Fission<End>
+
+//POINTER #1834 @ $CE9400 - STRING #1834 @ $CE6DA7
+
+#W24($CE9400)
+//Bane<End>
+
+//POINTER #1835 @ $CE9404 - STRING #1835 @ $CE6DB0
+
+#W24($CE9404)
+//Magic Rock<End>
+
+//POINTER #1836 @ $CE9408 - STRING #1836 @ $CE6DC4
+
+#W24($CE9408)
+//Fragment<End>
+
+//POINTER #1837 @ $CE940C - STRING #1837 @ $CE6DD5
+
+#W24($CE940C)
+//Float Around<End>
+
+//POINTER #1838 @ $CE9410 - STRING #1838 @ $CE6DED
+
+#W24($CE9410)
+//Flicker<End>
+
+//POINTER #1839 @ $CE9414 - STRING #1839 @ $CE6DFC
+
+#W24($CE9414)
+//Phantom<End>
+
+//POINTER #1840 @ $CE9418 - STRING #1840 @ $CE6E0B
+
+#W24($CE9418)
+//Change<End>
+
+//POINTER #1841 @ $CE941C - STRING #1841 @ $CE6E18
+
+#W24($CE941C)
+//Spell<End>
+
+//POINTER #1842 @ $CE9420 - STRING #1842 @ $CE6E23
+
+#W24($CE9420)
+//Flame Rock<End>
+
+//POINTER #1843 @ $CE9424 - STRING #1843 @ $CE6E37
+
+#W24($CE9424)
+//Fire Fragment<End>
+
+//POINTER #1844 @ $CE9428 - STRING #1844 @ $CE6E51
+
+#W24($CE9428)
+//Flare Sphere<End>
+
+//POINTER #1845 @ $CE942C - STRING #1845 @ $CE6E69
+
+#W24($CE942C)
+//Red Flicker<End>
+
+//POINTER #1846 @ $CE9430 - STRING #1846 @ $CE3544
+
+#W24($CE9430)
+//Flare Phantom<End>
+
+//POINTER #1847 @ $CE9434 - STRING #1847 @ $CE6E0B
+
+#W24($CE9434)
+//Change<End>
+
+//POINTER #1848 @ $CE9438 - STRING #1848 @ $CE6E7F
+
+#W24($CE9438)
+//Fire Spell<End>
+
+//POINTER #1849 @ $CE943C - STRING #1849 @ $CE6E93
+
+#W24($CE943C)
+//Ice Rock<End>
+
+//POINTER #1850 @ $CE9440 - STRING #1850 @ $CE6EA3
+
+#W24($CE9440)
+//Ice Fragment<End>
+
+//POINTER #1851 @ $CE9444 - STRING #1851 @ $CE6EBB
+
+#W24($CE9444)
+//Ice Sphere<End>
+
+//POINTER #1852 @ $CE9448 - STRING #1852 @ $CE6ECF
+
+#W24($CE9448)
+//Blue Flicker<End>
+
+//POINTER #1853 @ $CE944C - STRING #1853 @ $CE6EE7
+
+#W24($CE944C)
+//Ice Phantom<End>
+
+//POINTER #1854 @ $CE9450 - STRING #1854 @ $CE6E0B
+
+#W24($CE9450)
+//Change<End>
+
+//POINTER #1855 @ $CE9454 - STRING #1855 @ $CE6EFD
+
+#W24($CE9454)
+//Ice Spell<End>
+
+//POINTER #1856 @ $CE9458 - STRING #1856 @ $CE6F0F
+
+#W24($CE9458)
+//Lightning Rock<End>
+
+//POINTER #1857 @ $CE945C - STRING #1857 @ $CE6F2B
+
+#W24($CE945C)
+//Thunder Fragment<End>
+
+//POINTER #1858 @ $CE9460 - STRING #1858 @ $CE6F4B
+
+#W24($CE9460)
+//Thor Sphere<End>
+
+//POINTER #1859 @ $CE9464 - STRING #1859 @ $CE6F61
+
+#W24($CE9464)
+//Bolt Flicker<End>
+
+//POINTER #1860 @ $CE9468 - STRING #1860 @ $CE6F79
+
+#W24($CE9468)
+//Thor Phantom<End>
+
+//POINTER #1861 @ $CE946C - STRING #1861 @ $CE6E0B
+
+#W24($CE946C)
+//Change<End>
+
+//POINTER #1862 @ $CE9470 - STRING #1862 @ $CE6F91
+
+#W24($CE9470)
+//Lightning Spell<End>
+
+//POINTER #1863 @ $CE9474 - STRING #1863 @ $CE6FAF
+
+#W24($CE9474)
+//Light Rock<End>
+
+//POINTER #1864 @ $CE9478 - STRING #1864 @ $CE6FC3
+
+#W24($CE9478)
+//Light Fragment<End>
+
+//POINTER #1865 @ $CE947C - STRING #1865 @ $CE6FDF
+
+#W24($CE947C)
+//Saint Sphere<End>
+
+//POINTER #1866 @ $CE9480 - STRING #1866 @ $CE6FF7
+
+#W24($CE9480)
+//Heal Flash<End>
+
+//POINTER #1867 @ $CE9484 - STRING #1867 @ $CE700B
+
+#W24($CE9484)
+//Saint Phantom<End>
+
+//POINTER #1868 @ $CE9488 - STRING #1868 @ $CE6E0B
+
+#W24($CE9488)
+//Change<End>
+
+//POINTER #1869 @ $CE948C - STRING #1869 @ $CE7025
+
+#W24($CE948C)
+//Heal Light<End>
+
+//POINTER #1870 @ $CE9490 - STRING #1870 @ $CE7039
+
+#W24($CE9490)
+//Dark Rock<End>
+
+//POINTER #1871 @ $CE9494 - STRING #1871 @ $CE704B
+
+#W24($CE9494)
+//Dark Fragment<End>
+
+//POINTER #1872 @ $CE9498 - STRING #1872 @ $CE7065
+
+#W24($CE9498)
+//Subliminal<End>
+
+//POINTER #1873 @ $CE949C - STRING #1873 @ $CE707A
+
+#W24($CE949C)
+//Nocturnal Flicker<End>
+
+//POINTER #1874 @ $CE94A0 - STRING #1874 @ $CE709C
+
+#W24($CE94A0)
+//Dark Phantom<End>
+
+//POINTER #1875 @ $CE94A4 - STRING #1875 @ $CE6E0B
+
+#W24($CE94A4)
+//Change<End>
+
+//POINTER #1876 @ $CE94A8 - STRING #1876 @ $CE70B4
+
+#W24($CE94A8)
+//Dark Spell<End>
+
+//POINTER #1877 @ $CE94AC - STRING #1877 @ $CE6DB0
+
+#W24($CE94AC)
+//Magic Rock<End>
+
+//POINTER #1878 @ $CE94B0 - STRING #1878 @ $CE6DC4
+
+#W24($CE94B0)
+//Fragment<End>
+
+//POINTER #1879 @ $CE94B4 - STRING #1879 @ $CE6DD5
+
+#W24($CE94B4)
+//Float Around<End>
+
+//POINTER #1880 @ $CE94B8 - STRING #1880 @ $CE6DED
+
+#W24($CE94B8)
+//Flicker<End>
+
+//POINTER #1881 @ $CE94BC - STRING #1881 @ $CE6DFC
+
+#W24($CE94BC)
+//Phantom<End>
+
+//POINTER #1882 @ $CE94C0 - STRING #1882 @ $CE6E0B
+
+#W24($CE94C0)
+//Change<End>
+
+//POINTER #1883 @ $CE94C4 - STRING #1883 @ $CE6E18
+
+#W24($CE94C4)
+//Spell<End>
+
+//POINTER #1884 @ $CE94C8 - STRING #1884 @ $CE6E23
+
+#W24($CE94C8)
+//Flame Rock<End>
+
+//POINTER #1885 @ $CE94CC - STRING #1885 @ $CE6E37
+
+#W24($CE94CC)
+//Fire Fragment<End>
+
+//POINTER #1886 @ $CE94D0 - STRING #1886 @ $CE6E51
+
+#W24($CE94D0)
+//Flare Sphere<End>
+
+//POINTER #1887 @ $CE94D4 - STRING #1887 @ $CE6E69
+
+#W24($CE94D4)
+//Red Flicker<End>
+
+//POINTER #1888 @ $CE94D8 - STRING #1888 @ $CE3544
+
+#W24($CE94D8)
+//Flare Phantom<End>
+
+//POINTER #1889 @ $CE94DC - STRING #1889 @ $CE6E0B
+
+#W24($CE94DC)
+//Change<End>
+
+//POINTER #1890 @ $CE94E0 - STRING #1890 @ $CE6E7F
+
+#W24($CE94E0)
+//Fire Spell<End>
+
+//POINTER #1891 @ $CE94E4 - STRING #1891 @ $CE6E93
+
+#W24($CE94E4)
+//Ice Rock<End>
+
+//POINTER #1892 @ $CE94E8 - STRING #1892 @ $CE6EA3
+
+#W24($CE94E8)
+//Ice Fragment<End>
+
+//POINTER #1893 @ $CE94EC - STRING #1893 @ $CE6EBB
+
+#W24($CE94EC)
+//Ice Sphere<End>
+
+//POINTER #1894 @ $CE94F0 - STRING #1894 @ $CE6ECF
+
+#W24($CE94F0)
+//Blue Flicker<End>
+
+//POINTER #1895 @ $CE94F4 - STRING #1895 @ $CE6EE7
+
+#W24($CE94F4)
+//Ice Phantom<End>
+
+//POINTER #1896 @ $CE94F8 - STRING #1896 @ $CE6E0B
+
+#W24($CE94F8)
+//Change<End>
+
+//POINTER #1897 @ $CE94FC - STRING #1897 @ $CE6EFD
+
+#W24($CE94FC)
+//Ice Spell<End>
+
+//POINTER #1898 @ $CE9500 - STRING #1898 @ $CE6F0F
+
+#W24($CE9500)
+//Lightning Rock<End>
+
+//POINTER #1899 @ $CE9504 - STRING #1899 @ $CE6F2B
+
+#W24($CE9504)
+//Thunder Fragment<End>
+
+//POINTER #1900 @ $CE9508 - STRING #1900 @ $CE6F4B
+
+#W24($CE9508)
+//Thor Sphere<End>
+
+//POINTER #1901 @ $CE950C - STRING #1901 @ $CE6F61
+
+#W24($CE950C)
+//Bolt Flicker<End>
+
+//POINTER #1902 @ $CE9510 - STRING #1902 @ $CE6F79
+
+#W24($CE9510)
+//Thor Phantom<End>
+
+//POINTER #1903 @ $CE9514 - STRING #1903 @ $CE6E0B
+
+#W24($CE9514)
+//Change<End>
+
+//POINTER #1904 @ $CE9518 - STRING #1904 @ $CE6F91
+
+#W24($CE9518)
+//Lightning Spell<End>
+
+//POINTER #1905 @ $CE951C - STRING #1905 @ $CE6FAF
+
+#W24($CE951C)
+//Light Rock<End>
+
+//POINTER #1906 @ $CE9520 - STRING #1906 @ $CE6FC3
+
+#W24($CE9520)
+//Light Fragment<End>
+
+//POINTER #1907 @ $CE9524 - STRING #1907 @ $CE6FDF
+
+#W24($CE9524)
+//Saint Sphere<End>
+
+//POINTER #1908 @ $CE9528 - STRING #1908 @ $CE6FF7
+
+#W24($CE9528)
+//Heal Flash<End>
+
+//POINTER #1909 @ $CE952C - STRING #1909 @ $CE700B
+
+#W24($CE952C)
+//Saint Phantom<End>
+
+//POINTER #1910 @ $CE9530 - STRING #1910 @ $CE6E0B
+
+#W24($CE9530)
+//Change<End>
+
+//POINTER #1911 @ $CE9534 - STRING #1911 @ $CE7025
+
+#W24($CE9534)
+//Heal Light<End>
+
+//POINTER #1912 @ $CE9538 - STRING #1912 @ $CE7039
+
+#W24($CE9538)
+//Dark Rock<End>
+
+//POINTER #1913 @ $CE953C - STRING #1913 @ $CE704B
+
+#W24($CE953C)
+//Dark Fragment<End>
+
+//POINTER #1914 @ $CE9540 - STRING #1914 @ $CE7065
+
+#W24($CE9540)
+//Subliminal<End>
+
+//POINTER #1915 @ $CE9544 - STRING #1915 @ $CE707A
+
+#W24($CE9544)
+//Nocturnal Flicker<End>
+
+//POINTER #1916 @ $CE9548 - STRING #1916 @ $CE709C
+
+#W24($CE9548)
+//Dark Phantom<End>
+
+//POINTER #1917 @ $CE954C - STRING #1917 @ $CE6E0B
+
+#W24($CE954C)
+//Change<End>
+
+//POINTER #1918 @ $CE9550 - STRING #1918 @ $CE70B4
+
+#W24($CE9550)
+//Dark Spell<End>
+
+//POINTER #1919 @ $CE9554 - STRING #1919 @ $CE6DB0
+
+#W24($CE9554)
+//Magic Rock<End>
+
+//POINTER #1920 @ $CE9558 - STRING #1920 @ $CE6DC4
+
+#W24($CE9558)
+//Fragment<End>
+
+//POINTER #1921 @ $CE955C - STRING #1921 @ $CE6DD5
+
+#W24($CE955C)
+//Float Around<End>
+
+//POINTER #1922 @ $CE9560 - STRING #1922 @ $CE6DED
+
+#W24($CE9560)
+//Flicker<End>
+
+//POINTER #1923 @ $CE9564 - STRING #1923 @ $CE6DFC
+
+#W24($CE9564)
+//Phantom<End>
+
+//POINTER #1924 @ $CE9568 - STRING #1924 @ $CE6E0B
+
+#W24($CE9568)
+//Change<End>
+
+//POINTER #1925 @ $CE956C - STRING #1925 @ $CE6E18
+
+#W24($CE956C)
+//Spell<End>
+
+//POINTER #1926 @ $CE9570 - STRING #1926 @ $CE6E23
+
+#W24($CE9570)
+//Flame Rock<End>
+
+//POINTER #1927 @ $CE9574 - STRING #1927 @ $CE6E37
+
+#W24($CE9574)
+//Fire Fragment<End>
+
+//POINTER #1928 @ $CE9578 - STRING #1928 @ $CE6E51
+
+#W24($CE9578)
+//Flare Sphere<End>
+
+//POINTER #1929 @ $CE957C - STRING #1929 @ $CE6E69
+
+#W24($CE957C)
+//Red Flicker<End>
+
+//POINTER #1930 @ $CE9580 - STRING #1930 @ $CE3544
+
+#W24($CE9580)
+//Flare Phantom<End>
+
+//POINTER #1931 @ $CE9584 - STRING #1931 @ $CE6E0B
+
+#W24($CE9584)
+//Change<End>
+
+//POINTER #1932 @ $CE9588 - STRING #1932 @ $CE6E7F
+
+#W24($CE9588)
+//Fire Spell<End>
+
+//POINTER #1933 @ $CE958C - STRING #1933 @ $CE6E93
+
+#W24($CE958C)
+//Ice Rock<End>
+
+//POINTER #1934 @ $CE9590 - STRING #1934 @ $CE6EA3
+
+#W24($CE9590)
+//Ice Fragment<End>
+
+//POINTER #1935 @ $CE9594 - STRING #1935 @ $CE6EBB
+
+#W24($CE9594)
+//Ice Sphere<End>
+
+//POINTER #1936 @ $CE9598 - STRING #1936 @ $CE6ECF
+
+#W24($CE9598)
+//Blue Flicker<End>
+
+//POINTER #1937 @ $CE959C - STRING #1937 @ $CE6EE7
+
+#W24($CE959C)
+//Ice Phantom<End>
+
+//POINTER #1938 @ $CE95A0 - STRING #1938 @ $CE6E0B
+
+#W24($CE95A0)
+//Change<End>
+
+//POINTER #1939 @ $CE95A4 - STRING #1939 @ $CE6EFD
+
+#W24($CE95A4)
+//Ice Spell<End>
+
+//POINTER #1940 @ $CE95A8 - STRING #1940 @ $CE6F0F
+
+#W24($CE95A8)
+//Lightning Rock<End>
+
+//POINTER #1941 @ $CE95AC - STRING #1941 @ $CE6F2B
+
+#W24($CE95AC)
+//Thunder Fragment<End>
+
+//POINTER #1942 @ $CE95B0 - STRING #1942 @ $CE6F4B
+
+#W24($CE95B0)
+//Thor Sphere<End>
+
+//POINTER #1943 @ $CE95B4 - STRING #1943 @ $CE6F61
+
+#W24($CE95B4)
+//Bolt Flicker<End>
+
+//POINTER #1944 @ $CE95B8 - STRING #1944 @ $CE6F79
+
+#W24($CE95B8)
+//Thor Phantom<End>
+
+//POINTER #1945 @ $CE95BC - STRING #1945 @ $CE6E0B
+
+#W24($CE95BC)
+//Change<End>
+
+//POINTER #1946 @ $CE95C0 - STRING #1946 @ $CE6F91
+
+#W24($CE95C0)
+//Lightning Spell<End>
+
+//POINTER #1947 @ $CE95C4 - STRING #1947 @ $CE6FAF
+
+#W24($CE95C4)
+//Light Rock<End>
+
+//POINTER #1948 @ $CE95C8 - STRING #1948 @ $CE6FC3
+
+#W24($CE95C8)
+//Light Fragment<End>
+
+//POINTER #1949 @ $CE95CC - STRING #1949 @ $CE6FDF
+
+#W24($CE95CC)
+//Saint Sphere<End>
+
+//POINTER #1950 @ $CE95D0 - STRING #1950 @ $CE6FF7
+
+#W24($CE95D0)
+//Heal Flash<End>
+
+//POINTER #1951 @ $CE95D4 - STRING #1951 @ $CE700B
+
+#W24($CE95D4)
+//Saint Phantom<End>
+
+//POINTER #1952 @ $CE95D8 - STRING #1952 @ $CE6E0B
+
+#W24($CE95D8)
+//Change<End>
+
+//POINTER #1953 @ $CE95DC - STRING #1953 @ $CE7025
+
+#W24($CE95DC)
+//Heal Light<End>
+
+//POINTER #1954 @ $CE95E0 - STRING #1954 @ $CE7039
+
+#W24($CE95E0)
+//Dark Rock<End>
+
+//POINTER #1955 @ $CE95E4 - STRING #1955 @ $CE704B
+
+#W24($CE95E4)
+//Dark Fragment<End>
+
+//POINTER #1956 @ $CE95E8 - STRING #1956 @ $CE7065
+
+#W24($CE95E8)
+//Subliminal<End>
+
+//POINTER #1957 @ $CE95EC - STRING #1957 @ $CE707A
+
+#W24($CE95EC)
+//Nocturnal Flicker<End>
+
+//POINTER #1958 @ $CE95F0 - STRING #1958 @ $CE709C
+
+#W24($CE95F0)
+//Dark Phantom<End>
+
+//POINTER #1959 @ $CE95F4 - STRING #1959 @ $CE6E0B
+
+#W24($CE95F4)
+//Change<End>
+
+//POINTER #1960 @ $CE95F8 - STRING #1960 @ $CE70B4
+
+#W24($CE95F8)
+//Dark Spell<End>
+
+//POINTER #1961 @ $CE95FC - STRING #1961 @ $CE70C8
+
+#W24($CE95FC)
+//Spear<End>
+
+//POINTER #1962 @ $CE9600 - STRING #1962 @ $CE70D3
+
+#W24($CE9600)
+//Flame Spear<End>
+
+//POINTER #1963 @ $CE9604 - STRING #1963 @ $CE70E9
+
+#W24($CE9604)
+//Encourage<End>
+
+//POINTER #1964 @ $CE9608 - STRING #1964 @ $CE70FC
+
+#W24($CE9608)
+//Phalanx<End>
+
+//POINTER #1965 @ $CE960C - STRING #1965 @ $CE710B
+
+#W24($CE960C)
+//Comet Lancer<End>
+
+//POINTER #1966 @ $CE9610 - STRING #1966 @ $CE7123
+
+#W24($CE9610)
+//Javelin Throw<End>
+
+//POINTER #1967 @ $CE9614 - STRING #1967 @ $CE70C8
+
+#W24($CE9614)
+//Spear<End>
+
+//POINTER #1968 @ $CE9618 - STRING #1968 @ $CE70D3
+
+#W24($CE9618)
+//Flame Spear<End>
+
+//POINTER #1969 @ $CE961C - STRING #1969 @ $CE70E9
+
+#W24($CE961C)
+//Encourage<End>
+
+//POINTER #1970 @ $CE9620 - STRING #1970 @ $CE70FC
+
+#W24($CE9620)
+//Phalanx<End>
+
+//POINTER #1971 @ $CE9624 - STRING #1971 @ $CE710B
+
+#W24($CE9624)
+//Comet Lancer<End>
+
+//POINTER #1972 @ $CE9628 - STRING #1972 @ $CE7123
+
+#W24($CE9628)
+//Javelin Throw<End>
+
+//POINTER #1973 @ $CE962C - STRING #1973 @ $CE70C8
+
+#W24($CE962C)
+//Spear<End>
+
+//POINTER #1974 @ $CE9630 - STRING #1974 @ $CE70D3
+
+#W24($CE9630)
+//Flame Spear<End>
+
+//POINTER #1975 @ $CE9634 - STRING #1975 @ $CE70E9
+
+#W24($CE9634)
+//Encourage<End>
+
+//POINTER #1976 @ $CE9638 - STRING #1976 @ $CE70FC
+
+#W24($CE9638)
+//Phalanx<End>
+
+//POINTER #1977 @ $CE963C - STRING #1977 @ $CE710B
+
+#W24($CE963C)
+//Comet Lancer<End>
+
+//POINTER #1978 @ $CE9640 - STRING #1978 @ $CE7123
+
+#W24($CE9640)
+//Javelin Throw<End>
+
+//POINTER #1979 @ $CE9644 - STRING #1979 @ $CE70C8
+
+#W24($CE9644)
+//Spear<End>
+
+//POINTER #1980 @ $CE9648 - STRING #1980 @ $CE70D3
+
+#W24($CE9648)
+//Flame Spear<End>
+
+//POINTER #1981 @ $CE964C - STRING #1981 @ $CE70E9
+
+#W24($CE964C)
+//Encourage<End>
+
+//POINTER #1982 @ $CE9650 - STRING #1982 @ $CE70FC
+
+#W24($CE9650)
+//Phalanx<End>
+
+//POINTER #1983 @ $CE9654 - STRING #1983 @ $CE710B
+
+#W24($CE9654)
+//Comet Lancer<End>
+
+//POINTER #1984 @ $CE9658 - STRING #1984 @ $CE7123
+
+#W24($CE9658)
+//Javelin Throw<End>
+
+//POINTER #1985 @ $CE965C - STRING #1985 @ $CE713D
+
+#W24($CE965C)
+//Tail Whip<End>
+
+//POINTER #1986 @ $CE9660 - STRING #1986 @ $CE714F
+
+#W24($CE9660)
+//Thunder Tail<End>
+
+//POINTER #1987 @ $CE9664 - STRING #1987 @ $CE7167
+
+#W24($CE9664)
+//Thundercloud<End>
+
+//POINTER #1988 @ $CE9668 - STRING #1988 @ $CE7180
+
+#W24($CE9668)
+//Ice Blast<End>
+
+//POINTER #1989 @ $CE966C - STRING #1989 @ $CE7192
+
+#W24($CE966C)
+//Stormbringer<End>
+
+//POINTER #1990 @ $CE9670 - STRING #1990 @ $CE71AB
+
+#W24($CE9670)
+//Frost Breath<End>
+
+//POINTER #1991 @ $CE9674 - STRING #1991 @ $CE713D
+
+#W24($CE9674)
+//Tail Whip<End>
+
+//POINTER #1992 @ $CE9678 - STRING #1992 @ $CE714F
+
+#W24($CE9678)
+//Thunder Tail<End>
+
+//POINTER #1993 @ $CE967C - STRING #1993 @ $CE7167
+
+#W24($CE967C)
+//Thundercloud<End>
+
+//POINTER #1994 @ $CE9680 - STRING #1994 @ $CE7180
+
+#W24($CE9680)
+//Ice Blast<End>
+
+//POINTER #1995 @ $CE9684 - STRING #1995 @ $CE7192
+
+#W24($CE9684)
+//Stormbringer<End>
+
+//POINTER #1996 @ $CE9688 - STRING #1996 @ $CE71AB
+
+#W24($CE9688)
+//Frost Breath<End>
+
+//POINTER #1997 @ $CE968C - STRING #1997 @ $CE713D
+
+#W24($CE968C)
+//Tail Whip<End>
+
+//POINTER #1998 @ $CE9690 - STRING #1998 @ $CE714F
+
+#W24($CE9690)
+//Thunder Tail<End>
+
+//POINTER #1999 @ $CE9694 - STRING #1999 @ $CE7167
+
+#W24($CE9694)
+//Thundercloud<End>
+
+//POINTER #2000 @ $CE9698 - STRING #2000 @ $CE7180
+
+#W24($CE9698)
+//Ice Blast<End>
+
+//POINTER #2001 @ $CE969C - STRING #2001 @ $CE7192
+
+#W24($CE969C)
+//Stormbringer<End>
+
+//POINTER #2002 @ $CE96A0 - STRING #2002 @ $CE71AB
+
+#W24($CE96A0)
+//Frost Breath<End>
+
+//POINTER #2003 @ $CE96A4 - STRING #2003 @ $CE713D
+
+#W24($CE96A4)
+//Tail Whip<End>
+
+//POINTER #2004 @ $CE96A8 - STRING #2004 @ $CE714F
+
+#W24($CE96A8)
+//Thunder Tail<End>
+
+//POINTER #2005 @ $CE96AC - STRING #2005 @ $CE7167
+
+#W24($CE96AC)
+//Thundercloud<End>
+
+//POINTER #2006 @ $CE96B0 - STRING #2006 @ $CE7180
+
+#W24($CE96B0)
+//Ice Blast<End>
+
+//POINTER #2007 @ $CE96B4 - STRING #2007 @ $CE7192
+
+#W24($CE96B4)
+//Stormbringer<End>
+
+//POINTER #2008 @ $CE96B8 - STRING #2008 @ $CE71AB
+
+#W24($CE96B8)
+//Frost Breath<End>
+
+//POINTER #2009 @ $CE96BC - STRING #2009 @ $CE713D
+
+#W24($CE96BC)
+//Tail Whip<End>
+
+//POINTER #2010 @ $CE96C0 - STRING #2010 @ $CE71C3
+
+#W24($CE96C0)
+//Spiral Zone<End>
+
+//POINTER #2011 @ $CE96C4 - STRING #2011 @ $CE5EB9
+
+#W24($CE96C4)
+//Gale Wing<End>
+
+//POINTER #2012 @ $CE96C8 - STRING #2012 @ $CE713D
+
+#W24($CE96C8)
+//Tail Whip<End>
+
+//POINTER #2013 @ $CE96CC - STRING #2013 @ $CE71C3
+
+#W24($CE96CC)
+//Spiral Zone<End>
+
+//POINTER #2014 @ $CE96D0 - STRING #2014 @ $CE5EB9
+
+#W24($CE96D0)
+//Gale Wing<End>
+
+//POINTER #2015 @ $CE96D4 - STRING #2015 @ $CE713D
+
+#W24($CE96D4)
+//Tail Whip<End>
+
+//POINTER #2016 @ $CE96D8 - STRING #2016 @ $CE71C3
+
+#W24($CE96D8)
+//Spiral Zone<End>
+
+//POINTER #2017 @ $CE96DC - STRING #2017 @ $CE5EB9
+
+#W24($CE96DC)
+//Gale Wing<End>
+
+//POINTER #2018 @ $CE96E0 - STRING #2018 @ $CE6909
+
+#W24($CE96E0)
+//Bite<End>
+
+//POINTER #2019 @ $CE96E4 - STRING #2019 @ $CE71D9
+
+#W24($CE96E4)
+//Saberfang<End>
+
+//POINTER #2020 @ $CE96E8 - STRING #2020 @ $CE71EC
+
+#W24($CE96E8)
+//Dragon Scale<End>
+
+//POINTER #2021 @ $CE96EC - STRING #2021 @ $CE7204
+
+#W24($CE96EC)
+//Fire Breath<End>
+
+//POINTER #2022 @ $CE96F0 - STRING #2022 @ $CE721A
+
+#W24($CE96F0)
+//Chaos Rain<End>
+
+//POINTER #2023 @ $CE96F4 - STRING #2023 @ $CE722E
+
+#W24($CE96F4)
+//Shockwave<End>
+
+//POINTER #2024 @ $CE96F8 - STRING #2024 @ $CE6909
+
+#W24($CE96F8)
+//Bite<End>
+
+//POINTER #2025 @ $CE96FC - STRING #2025 @ $CE71D9
+
+#W24($CE96FC)
+//Saberfang<End>
+
+//POINTER #2026 @ $CE9700 - STRING #2026 @ $CE71EC
+
+#W24($CE9700)
+//Dragon Scale<End>
+
+//POINTER #2027 @ $CE9704 - STRING #2027 @ $CE7204
+
+#W24($CE9704)
+//Fire Breath<End>
+
+//POINTER #2028 @ $CE9708 - STRING #2028 @ $CE721A
+
+#W24($CE9708)
+//Chaos Rain<End>
+
+//POINTER #2029 @ $CE970C - STRING #2029 @ $CE722E
+
+#W24($CE970C)
+//Shockwave<End>
+
+//POINTER #2030 @ $CE9710 - STRING #2030 @ $CE6909
+
+#W24($CE9710)
+//Bite<End>
+
+//POINTER #2031 @ $CE9714 - STRING #2031 @ $CE71D9
+
+#W24($CE9714)
+//Saberfang<End>
+
+//POINTER #2032 @ $CE9718 - STRING #2032 @ $CE71EC
+
+#W24($CE9718)
+//Dragon Scale<End>
+
+//POINTER #2033 @ $CE971C - STRING #2033 @ $CE7204
+
+#W24($CE971C)
+//Fire Breath<End>
+
+//POINTER #2034 @ $CE9720 - STRING #2034 @ $CE721A
+
+#W24($CE9720)
+//Chaos Rain<End>
+
+//POINTER #2035 @ $CE9724 - STRING #2035 @ $CE722E
+
+#W24($CE9724)
+//Shockwave<End>
+
+//POINTER #2036 @ $CE9728 - STRING #2036 @ $CE6909
+
+#W24($CE9728)
+//Bite<End>
+
+//POINTER #2037 @ $CE972C - STRING #2037 @ $CE71D9
+
+#W24($CE972C)
+//Saberfang<End>
+
+//POINTER #2038 @ $CE9730 - STRING #2038 @ $CE71EC
+
+#W24($CE9730)
+//Dragon Scale<End>
+
+//POINTER #2039 @ $CE9734 - STRING #2039 @ $CE7204
+
+#W24($CE9734)
+//Fire Breath<End>
+
+//POINTER #2040 @ $CE9738 - STRING #2040 @ $CE721A
+
+#W24($CE9738)
+//Chaos Rain<End>
+
+//POINTER #2041 @ $CE973C - STRING #2041 @ $CE722E
+
+#W24($CE973C)
+//Shockwave<End>
+
+//POINTER #2042 @ $CE9740 - STRING #2042 @ $CE507D
+
+#W24($CE9740)
+//Reap<End>
+
+//POINTER #2043 @ $CE9744 - STRING #2043 @ $CE7241
+
+#W24($CE9744)
+//Raid Burner<End>
+
+//POINTER #2044 @ $CE9748 - STRING #2044 @ $CE7257
+
+#W24($CE9748)
+//Flare Tempest<End>
+
+//POINTER #2045 @ $CE974C - STRING #2045 @ $CE7271
+
+#W24($CE974C)
+//Burn Up<End>
+
+//POINTER #2046 @ $CE9750 - STRING #2046 @ $CE507D
+
+#W24($CE9750)
+//Reap<End>
+
+//POINTER #2047 @ $CE9754 - STRING #2047 @ $CE7241
+
+#W24($CE9754)
+//Raid Burner<End>
+
+//POINTER #2048 @ $CE9758 - STRING #2048 @ $CE7257
+
+#W24($CE9758)
+//Flare Tempest<End>
+
+//POINTER #2049 @ $CE975C - STRING #2049 @ $CE7271
+
+#W24($CE975C)
+//Burn Up<End>
+
+//POINTER #2050 @ $CE9760 - STRING #2050 @ $CE727F
+
+#W24($CE9760)
+//Cleave<End>
+
+//POINTER #2051 @ $CE9764 - STRING #2051 @ $CE728C
+
+#W24($CE9764)
+//Blade Ripper<End>
+
+//POINTER #2052 @ $CE9768 - STRING #2052 @ $CE72A4
+
+#W24($CE9768)
+//Fallen Crest<End>
+
+//POINTER #2053 @ $CE976C - STRING #2053 @ $CE72BC
+
+#W24($CE976C)
+//Force Shield<End>
+
+//POINTER #2054 @ $CE9770 - STRING #2054 @ $CE727F
+
+#W24($CE9770)
+//Cleave<End>
+
+//POINTER #2055 @ $CE9774 - STRING #2055 @ $CE728C
+
+#W24($CE9774)
+//Blade Ripper<End>
+
+//POINTER #2056 @ $CE9778 - STRING #2056 @ $CE72A4
+
+#W24($CE9778)
+//Fallen Crest<End>
+
+//POINTER #2057 @ $CE977C - STRING #2057 @ $CE72BC
+
+#W24($CE977C)
+//Force Shield<End>
+
+//POINTER #2058 @ $CE9780 - STRING #2058 @ $CE727F
+
+#W24($CE9780)
+//Cleave<End>
+
+//POINTER #2059 @ $CE9784 - STRING #2059 @ $CE728C
+
+#W24($CE9784)
+//Blade Ripper<End>
+
+//POINTER #2060 @ $CE9788 - STRING #2060 @ $CE72A4
+
+#W24($CE9788)
+//Fallen Crest<End>
+
+//POINTER #2061 @ $CE978C - STRING #2061 @ $CE72BC
+
+#W24($CE978C)
+//Force Shield<End>
+
+//POINTER #2062 @ $CE9790 - STRING #2062 @ $CE72D4
+
+#W24($CE9790)
+//Tear Up<End>
+
+//POINTER #2063 @ $CE9794 - STRING #2063 @ $CE6080
+
+#W24($CE9794)
+//Blizzard<End>
+
+//POINTER #2064 @ $CE9798 - STRING #2064 @ $CE72E2
+
+#W24($CE9798)
+//Crystal Breath<End>
+
+//POINTER #2065 @ $CE979C - STRING #2065 @ $CE72FE
+
+#W24($CE979C)
+//Poison Wind<End>
+
+//POINTER #2066 @ $CE97A0 - STRING #2066 @ $CE72D4
+
+#W24($CE97A0)
+//Tear Up<End>
+
+//POINTER #2067 @ $CE97A4 - STRING #2067 @ $CE6080
+
+#W24($CE97A4)
+//Blizzard<End>
+
+//POINTER #2068 @ $CE97A8 - STRING #2068 @ $CE72E2
+
+#W24($CE97A8)
+//Crystal Breath<End>
+
+//POINTER #2069 @ $CE97AC - STRING #2069 @ $CE72FE
+
+#W24($CE97AC)
+//Poison Wind<End>
+
+//POINTER #2070 @ $CE97B0 - STRING #2070 @ $CE6C89
+
+#W24($CE97B0)
+//Downward Slash<End>
+
+//POINTER #2071 @ $CE97B4 - STRING #2071 @ $CE7314
+
+#W24($CE97B4)
+//Dark Shockwave<End>
+
+//POINTER #2072 @ $CE97B8 - STRING #2072 @ $CE7330
+
+#W24($CE97B8)
+//Onslaught of Ruin<End>
+
+//POINTER #2073 @ $CE97BC - STRING #2073 @ $CE7351
+
+#W24($CE97BC)
+//Cardinal<End>
+
+//POINTER #2074 @ $CE97C0 - STRING #2074 @ $CE7362
+
+#W24($CE97C0)
+//Ice Cremation<End>
+
+//POINTER #2075 @ $CE97C4 - STRING #2075 @ $CE737C
+
+#W24($CE97C4)
+//Dark Sabre<End>
+
+//POINTER #2076 @ $CE97C8 - STRING #2076 @ $CE7390
+
+#W24($CE97C8)
+//Onslaught of Doom<End>
+
+//POINTER #2077 @ $CE97CC - STRING #2077 @ $CE7362
+
+#W24($CE97CC)
+//Ice Cremation<End>
+
+//POINTER #2078 @ $CE97D0 - STRING #2078 @ $CE737C
+
+#W24($CE97D0)
+//Dark Sabre<End>
+
+//POINTER #2079 @ $CE97D4 - STRING #2079 @ $CE7390
+
+#W24($CE97D4)
+//Onslaught of Doom<End>
+
+//POINTER #2080 @ $CE97D8 - STRING #2080 @ $CE6C89
+
+#W24($CE97D8)
+//Downward Slash<End>
+
+//POINTER #2081 @ $CE97DC - STRING #2081 @ $CE73B1
+
+#W24($CE97DC)
+//Plasma Spark<End>
+
+//POINTER #2082 @ $CE97E0 - STRING #2082 @ $CE73C9
+
+#W24($CE97E0)
+//Angelic Thunder<End>
+
+//POINTER #2083 @ $CE97E4 - STRING #2083 @ $CE73E7
+
+#W24($CE97E4)
+//Mighty Guard<End>
+
+//POINTER #2084 @ $CE97E8 - STRING #2084 @ $CE73FF
+
+#W24($CE97E8)
+//Dispel<End>
+
+//POINTER #2085 @ $CE97EC - STRING #2085 @ $CE6C89
+
+#W24($CE97EC)
+//Downward Slash<End>
+
+//POINTER #2086 @ $CE97F0 - STRING #2086 @ $CE73B1
+
+#W24($CE97F0)
+//Plasma Spark<End>
+
+//POINTER #2087 @ $CE97F4 - STRING #2087 @ $CE73C9
+
+#W24($CE97F4)
+//Angelic Thunder<End>
+
+//POINTER #2088 @ $CE97F8 - STRING #2088 @ $CE73E7
+
+#W24($CE97F8)
+//Mighty Guard<End>
+
+//POINTER #2089 @ $CE97FC - STRING #2089 @ $CE73FF
+
+#W24($CE97FC)
+//Dispel<End>
+
+//POINTER #2090 @ $CE9800 - STRING #2090 @ $CE740C
+
+#W24($CE9800)
+//Wing Attack<End>
+
+//POINTER #2091 @ $CE9804 - STRING #2091 @ $CE7422
+
+#W24($CE9804)
+//Poison Breath<End>
+
+//POINTER #2092 @ $CE9808 - STRING #2092 @ $CE743C
+
+#W24($CE9808)
+//Drake Soul<End>
+
+//POINTER #2093 @ $CE980C - STRING #2093 @ $CE7450
+
+#W24($CE980C)
+//Chaotic Propel<End>
+
+//POINTER #2094 @ $CE9810 - STRING #2094 @ $CE746C
+
+#W24($CE9810)
+//Evil Temperance<End>
+
+//POINTER #2095 @ $CE9814 - STRING #2095 @ $CE740C
+
+#W24($CE9814)
+//Wing Attack<End>
+
+//POINTER #2096 @ $CE9818 - STRING #2096 @ $CE748A
+
+#W24($CE9818)
+//Dark Breath<End>
+
+//POINTER #2097 @ $CE981C - STRING #2097 @ $CE74A0
+
+#W24($CE981C)
+//Curse of Chaos<End>
+
+//POINTER #2098 @ $CE9820 - STRING #2098 @ $CE7450
+
+#W24($CE9820)
+//Chaotic Propel<End>
+
+//POINTER #2099 @ $CE9824 - STRING #2099 @ $CE746C
+
+#W24($CE9824)
+//Evil Temperance<End>
+
+//POINTER #2100 @ $CE9828 - STRING #2100 @ $CE509E
+
+#W24($CE9828)
+//Swing Around<End>
+
+//POINTER #2101 @ $CE982C - STRING #2101 @ $CE74BB
+
+#W24($CE982C)
+//Blue Moon<End>
+
+//POINTER #2102 @ $CE9830 - STRING #2102 @ $CE74CD
+
+#W24($CE9830)
+//Illusion Waltz<End>
+
+//POINTER #2103 @ $CE9834 - STRING #2103 @ $CE74E9
+
+#W24($CE9834)
+//Guard Force<End>
+
+//POINTER #2104 @ $CE9838 - STRING #2104 @ $CE509E
+
+#W24($CE9838)
+//Swing Around<End>
+
+//POINTER #2105 @ $CE983C - STRING #2105 @ $CE74FF
+
+#W24($CE983C)
+//Red Moon<End>
+
+//POINTER #2106 @ $CE9840 - STRING #2106 @ $CE750F
+
+#W24($CE9840)
+//Nightmare Waltz<End>
+
+//POINTER #2107 @ $CE9844 - STRING #2107 @ $CE752D
+
+#W24($CE9844)
+//Recovery Force<End>
+
+//POINTER #2108 @ $CE9848 - STRING #2108 @ $CE7549
+
+#W24($CE9848)
+//Flash<End>
+
+//POINTER #2109 @ $CE984C - STRING #2109 @ $CE7554
+
+#W24($CE984C)
+//Etherion<End>
+
+//POINTER #2110 @ $CE9850 - STRING #2110 @ $CE7565
+
+#W24($CE9850)
+//Ether Burst<End>
+
+//POINTER #2111 @ $CE9854 - STRING #2111 @ $CE757B
+
+#W24($CE9854)
+//Element Transition<End>
+
+//POINTER #2112 @ $CE9858 - STRING #2112 @ $CE759F
+
+#W24($CE9858)
+//Sanctuary<End>
+
+//POINTER #2113 @ $CE985C - STRING #2113 @ $CE7549
+
+#W24($CE985C)
+//Flash<End>
+
+//POINTER #2114 @ $CE9860 - STRING #2114 @ $CE7554
+
+#W24($CE9860)
+//Etherion<End>
+
+//POINTER #2115 @ $CE9864 - STRING #2115 @ $CE7565
+
+#W24($CE9864)
+//Ether Burst<End>
+
+//POINTER #2116 @ $CE9868 - STRING #2116 @ $CE757B
+
+#W24($CE9868)
+//Element Transition<End>
+
+//POINTER #2117 @ $CE986C - STRING #2117 @ $CE759F
+
+#W24($CE986C)
+//Sanctuary<End>
+
+//POINTER #2118 @ $CE9870 - STRING #2118 @ $CE7549
+
+#W24($CE9870)
+//Flash<End>
+
+//POINTER #2119 @ $CE9874 - STRING #2119 @ $CE7554
+
+#W24($CE9874)
+//Etherion<End>
+
+//POINTER #2120 @ $CE9878 - STRING #2120 @ $CE7565
+
+#W24($CE9878)
+//Ether Burst<End>
+
+//POINTER #2121 @ $CE987C - STRING #2121 @ $CE757B
+
+#W24($CE987C)
+//Element Transition<End>
+
+//POINTER #2122 @ $CE9880 - STRING #2122 @ $CE759F
+
+#W24($CE9880)
+//Sanctuary<End>
+
+//POINTER #2123 @ $CE9884 - STRING #2123 @ $CE7549
+
+#W24($CE9884)
+//Flash<End>
+
+//POINTER #2124 @ $CE9888 - STRING #2124 @ $CE7554
+
+#W24($CE9888)
+//Etherion<End>
+
+//POINTER #2125 @ $CE988C - STRING #2125 @ $CE7565
+
+#W24($CE988C)
+//Ether Burst<End>
+
+//POINTER #2126 @ $CE9890 - STRING #2126 @ $CE757B
+
+#W24($CE9890)
+//Element Transition<End>
+
+//POINTER #2127 @ $CE9894 - STRING #2127 @ $CE759F
+
+#W24($CE9894)
+//Sanctuary<End>
+
+//POINTER #2128 @ $CE9898 - STRING #2128 @ $CE4C27
+
+#W24($CE9898)
+//Stab<End>
+
+//POINTER #2129 @ $CE989C - STRING #2129 @ $CE75B2
+
+#W24($CE989C)
+//Burning Galley<End>
+
+//POINTER #2130 @ $CE98A0 - STRING #2130 @ $CE75CE
+
+#W24($CE98A0)
+//Crimson Courreges<End>
+
+//POINTER #2131 @ $CE98A4 - STRING #2131 @ $CE75F0
+
+#W24($CE98A4)
+//Angel Awakening<End>
+
+//POINTER #2132 @ $CE98A8 - STRING #2132 @ $CE760E
+
+#W24($CE98A8)
+//Flame Lance<End>
+
+//POINTER #2133 @ $CE98AC - STRING #2133 @ $CE7624
+
+#W24($CE98AC)
+//Pandemonium<End>
+
+//POINTER #2134 @ $CE98B0 - STRING #2134 @ $CE763B
+
+#W24($CE98B0)
+//Rose Kreuz<End>
+
+//POINTER #2135 @ $CE98B4 - STRING #2135 @ $CE764F
+
+#W24($CE98B4)
+//Tria<End>
+
+//POINTER #2136 @ $CE98B8 - STRING #2136 @ $CE7658
+
+#W24($CE98B8)
+//Pitch Darkness<End>
+
+//POINTER #2137 @ $CE98BC - STRING #2137 @ $CE7674
+
+#W24($CE98BC)
+//Ragnarok<End>
+
+//POINTER #2138 @ $CE98C0 - STRING #2138 @ $CE7685
+
+#W24($CE98C0)
+//Metamorphosis<End>
+
+//POINTER #2139 @ $CE98C4 - STRING #2139 @ $CE76A0
+
+#W24($CE98C4)
+//Dark Trinity<End>
+
+//POINTER #2140 @ $CE98C8 - STRING #2140 @ $CE76B8
+
+#W24($CE98C8)
+//Saint Flare<End>
+
+//POINTER #2141 @ $CE98CC - STRING #2141 @ $CE76CE
+
+#W24($CE98CC)
+//Armageddon<End>
+
+//POINTER #2142 @ $CE98D0 - STRING #2142 @ $CE7685
+
+#W24($CE98D0)
+//Metamorphosis<End>
+
+//POINTER #2143 @ $CE98D4 - STRING #2143 @ $CE505E
+
+#W24($CE98D4)
+//Mow<End>
+
+//POINTER #2144 @ $CE98D8 - STRING #2144 @ $CE76E3
+
+#W24($CE98D8)
+//Guilty Edge<End>
+
+//POINTER #2145 @ $CE98DC - STRING #2145 @ $CE76F9
+
+#W24($CE98DC)
+//Blue Sophia<End>
+
+//POINTER #2146 @ $CE98E0 - STRING #2146 @ $CE505E
+
+#W24($CE98E0)
+//Mow<End>
+
+//POINTER #2147 @ $CE98E4 - STRING #2147 @ $CE76E3
+
+#W24($CE98E4)
+//Guilty Edge<End>
+
+//POINTER #2148 @ $CE98E8 - STRING #2148 @ $CE76F9
+
+#W24($CE98E8)
+//Blue Sophia<End>
+
+//POINTER #2149 @ $CE98EC - STRING #2149 @ $CE75F0
+
+#W24($CE98EC)
+//Angel Awakening<End>
+
+//POINTER #2150 @ $CE98F0 - STRING #2150 @ $CE770F
+
+#W24($CE98F0)
+//Noble Blue Edge<End>
+
+//POINTER #2151 @ $CE98F4 - STRING #2151 @ $CE772C
+
+#W24($CE98F4)
+//Brandish<End>
+
+//POINTER #2152 @ $CE98F8 - STRING #2152 @ $CE773D
+
+#W24($CE98F8)
+//Trie<End>
+
+//POINTER #2153 @ $CE98FC - STRING #2153 @ $CE770F
+
+#W24($CE98FC)
+//Noble Blue Edge<End>
+
+//POINTER #2154 @ $CE9900 - STRING #2154 @ $CE772C
+
+#W24($CE9900)
+//Brandish<End>
+
+//POINTER #2155 @ $CE9904 - STRING #2155 @ $CE7746
+
+#W24($CE9904)
+//Trie Noir<End>
+
+//POINTER #2156 @ $CE9908 - STRING #2156 @ $CE505E
+
+#W24($CE9908)
+//Mow<End>
+
+//POINTER #2157 @ $CE990C - STRING #2157 @ $CE76E3
+
+#W24($CE990C)
+//Guilty Edge<End>
+
+//POINTER #2158 @ $CE9910 - STRING #2158 @ $CE76F9
+
+#W24($CE9910)
+//Blue Sophia<End>

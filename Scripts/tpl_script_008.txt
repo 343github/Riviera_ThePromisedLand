@@ -1,0 +1,290 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($CFDBD4,$CFF4F1)
+
+//GAME NAME:		
+
+//BLOCK #008 NAME:		PART (008)
+
+//POINTER #0 @ $CFF4F4 - STRING #0 @ $CFDBD4
+
+#W24($CFF4F4)
+//Thanks to Ein and his friends,<line>
+//the Accursed were defeated and<line>
+//Riviera was saved.<line>
+//          <line>
+//It is said that Ein never returned<line>
+//to Asgard, but instead lived out<line>
+//his days in the Promised Land<line>
+//with the Sprites…<End>
+
+//POINTER #1 @ $CFF4F8 - STRING #1 @ $CFDD45
+
+#W24($CFF4F8)
+//Thanks to Ein and his friends,<line>
+//the Accursed were defeated and<line>
+//Riviera was saved.<line>
+//          <line>
+//However, Ein was never seen again…<End>
+
+//POINTER #2 @ $CFF4FC - STRING #2 @ $CFDE24
+
+#W24($CFF4FC)
+//Epilogue<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//                     ∼In a Forest<End>
+
+//POINTER #3 @ $CFF500 - STRING #3 @ $CFDE67
+
+#W24($CFF500)
+//Ein remained in Riviera, where he<line>
+//and Lina became treasure hunters,<line>
+//wandering from ruin to ruin.<line>
+//                   <line>
+//Thus began a new adventure…<line>
+//                   <line>
+//The unlikely pair would later make<line>
+//a grand discovery and become known<line>
+//as the Legendary Treasure Hunters.<End>
+
+//POINTER #4 @ $CFF504 - STRING #4 @ $CFE035
+
+#W24($CFF504)
+//Epilogue<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//           ∼At a Temple Near Elendia<End>
+
+//POINTER #5 @ $CFF508 - STRING #5 @ $CFE086
+
+#W24($CFF508)
+//Ein remained in Riviera to help<line>
+//maintain the peace with Fia, who<line>
+//became a valiant warrior.<line>
+//                   <line>
+//Due to their efforts, it is said,<line>
+//the Sprites of Elendia spent an<line>
+//eternity of peace without any<line>
+//suffering.<End>
+
+//POINTER #6 @ $CFF50C - STRING #6 @ $CFE203
+
+#W24($CFF50C)
+//Epilogue<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//                 ∼At the Nelde Ruins<End>
+
+//POINTER #7 @ $CFF510 - STRING #7 @ $CFE24F
+
+#W24($CFF510)
+//Ein remained in Riviera and, along<line>
+//with Cierra, searched the Nelde<line>
+//Ruins for hidden knowledge.<line>
+//                   <line>
+//In fact, all the spells used today<line>
+//in modern Riviera stem from magic<line>
+//those two discovered…<End>
+
+//POINTER #8 @ $CFF514 - STRING #8 @ $CFE3B8
+
+#W24($CFF514)
+//Epilogue<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//               ∼At an Ancient Castle<End>
+
+//POINTER #9 @ $CFF518 - STRING #9 @ $CFE406
+
+#W24($CFF518)
+//Ein remained in Riviera and traveled<line>
+//across the land with Serene to rid<line>
+//the world of demons.<line>
+//                   <line>
+//One day, the pair's unrelenting<line>
+//10—year battle will be passed down<line>
+//from generation to generation<line>
+//in the Annals of Riviera.<End>
+
+//POINTER #10 @ $CFF51C - STRING #10 @ $CFE5A5
+
+#W24($CFF51C)
+//Epilogue<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//<line>
+//             ∼At the Guild at Asgard<End>
+
+//POINTER #11 @ $CFF520 - STRING #11 @ $CFE5F4
+
+#W24($CFF520)
+//Ein was surprised his Familiar<line>
+//was female (and now human), but they<line>
+//remained an inseperable team.<line>
+//                   <line>
+//They kept busy by recording the entire<line>
+//account of the great war, fought<line>
+//by brave Sprites and Angels,<line>
+//in the pages of Riviera's history…<End>
+
+//POINTER #12 @ $CFF524 - STRING #12 @ $CFE7B4
+
+#W24($CFF524)
+//Afterwards, Ein and Rose returned<line>
+//to Asgard and created a study facility.<line>
+//With the Magi's permission, they<line>
+//sought to discover the truth behind<line>
+//the Retribution, legacy of the gods.<line>
+//                   <line>
+//Asgard has already begun to move<line>
+//toward a new era…<End>
+
+//POINTER #13 @ $CFF528 - STRING #13 @ $CFE96F
+
+#W24($CFF528)
+//Thus ends my account of<line>
+//the intertwining histories<line>
+//of Asgard and Riviera.<End>
+
+//POINTER #14 @ $CFF52C - STRING #14 @ $CFE9F7
+
+#W24($CFF52C)
+//I saw, heard, and experienced<line>
+//the events first—hand…<End>
+
+//POINTER #15 @ $CFF530 - STRING #15 @ $CFEA59
+
+#W24($CFF530)
+//Fate is not something<line>
+//forced onto you, nor is<line>
+//it something one yields to.<End>
+
+//POINTER #16 @ $CFF534 - STRING #16 @ $CFEADF
+
+#W24($CFF534)
+//Fate is something to be<line>
+//carved with one's own hands…<End>
+
+//POINTER #17 @ $CFF538 - STRING #17 @ $CFEB3F
+
+#W24($CFF538)
+//If you believe in yourself,<line>
+//you will break free from all<line>
+//that binds you…<End>
+
+//POINTER #18 @ $CFF53C - STRING #18 @ $CFEBC3
+
+#W24($CFF53C)
+//I hope to pass this message<line>
+//on to as many people as I can…<End>
+
+//POINTER #19 @ $CFF540 - STRING #19 @ $CFEC2B
+
+#W24($CFF540)
+//This is dedicated to a certain angel,<line>
+//who was my dearest friend.<End>
+
+//POINTER #20 @ $CFF544 - STRING #20 @ $CFECA1
+
+#W24($CFF544)
+//              Written by<line>
+//              Rose R. Crawford<line>
+//                     Historian<End>
+
+//POINTER #21 @ $CFF548 - STRING #21 @ $CFED18
+
+#W24($CFF548)
+//Asgard, realm of the gods…<line>
+//Utgard, land of the demons…<line>
+//                   <line>
+//Ragnarok——the war between the gods<line>
+//and the demon invaders——cast the<line>
+//world into a state of violent chaos.<End>
+
+//POINTER #22 @ $CFF54C - STRING #22 @ $CFEE51
+
+#W24($CFF54C)
+//Overrun by demons, Asgard teetered<line>
+//on the brink of destruction.<End>
+
+//POINTER #23 @ $CFF550 - STRING #23 @ $CFEEC7
+
+#W24($CFF550)
+//In desperation, the gods broke<line>
+//the ancient covenant and created<line>
+//the black—winged Grim Angels.<line>
+//               <line>
+//Each armed with a Diviner,<line>
+//the angels descended to battle…<End>
+
+//POINTER #24 @ $CFF554 - STRING #24 @ $CFEFF1
+
+#W24($CFF554)
+//The battle raged on, but through<line>
+//their valiant efforts, the angels<line>
+//brought an end to the war.<End>
+
+//POINTER #25 @ $CFF558 - STRING #25 @ $CFF09C
+
+#W24($CFF558)
+//The demons were sealed away,<line>
+//but the gods would soon follow.<line>
+//               <line>
+//Leaving their power behind in the<line>
+//heavenly isle of Riviera, the gods<line>
+//entrusted the land's inhabitants to<line>
+//watch over it until their return…<End>
+
+//POINTER #26 @ $CFF55C - STRING #26 @ $CFF21A
+
+#W24($CFF55C)
+//1000 years passed quietly…<End>
+
+//POINTER #27 @ $CFF560 - STRING #27 @ $CFF24C
+
+#W24($CFF560)
+//Signs of the demons' return were<line>
+//rumored throughout Riviera.<line>
+//               <line>
+//The Seven Magi, proxies of the gods,<line>
+//made a difficult decision for the sake<line>
+//of Asgard's continued existance…<End>
+
+//POINTER #28 @ $CFF564 - STRING #28 @ $CFF395
+
+#W24($CFF564)
+//…To activate the divine power<line>
+//of destruction, "The Retribution."<End>
+
+//POINTER #29 @ $CFF568 - STRING #29 @ $CFF40E
+
+#W24($CFF568)
+//The Magi appointed this task<line>
+//to beings well—suited for the job…<End>
+
+//POINTER #30 @ $CFF56C - STRING #30 @ $CFF483
+
+#W24($CFF56C)
+//Now, two angels shall descend<line>
+//to the sacred soil of Riviera.<End>

@@ -1,0 +1,117 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($D753B8,$D75BE5)
+
+//GAME NAME:		
+
+//BLOCK #026 NAME:		PART (026)
+
+//POINTER #0 @ $D75BE8 - STRING #0 @ $D753B8
+
+#W24($D75BE8)
+//The cavern found<line>
+//beneath Tetyth's<line>
+//lake. Lake water<line>
+//drips from above<line>
+//occasionally.<End>
+
+//POINTER #1 @ $D75BEC - STRING #1 @ $D75450
+
+#W24($D75BEC)
+//The island in the<line>
+//middle of Lake<line>
+//Tetyth. It has been<line>
+//sinking since<line>
+//ancient times…<End>
+
+//POINTER #2 @ $D75BF0 - STRING #2 @ $D754E5
+
+#W24($D75BF0)
+//In the city said<line>
+//to be built by an<line>
+//an angel, Carnea is<line>
+//a low—ground<line>
+//residential district.<End>
+
+//POINTER #3 @ $D75BF4 - STRING #3 @ $D75588
+
+#W24($D75BF4)
+//A battle colosseum<line>
+//outside of Carnea.<line>
+//It was filled with<line>
+//battles between<line>
+//warriors and beasts.<End>
+
+//POINTER #4 @ $D75BF8 - STRING #4 @ $D75635
+
+#W24($D75BF8)
+//Brave warrior…<line>
+//You are a true hero.<line>
+//You shall receive my blessing!<End>
+
+//POINTER #5 @ $D75BFC - STRING #5 @ $D756AF
+
+#W24($D75BFC)
+//Located in the<line>
+//middle of Tetyth, it<line>
+//is often called the<line>
+//White Plateaus due to<line>
+//the white limestone.<End>
+
+//POINTER #6 @ $D75C00 - STRING #6 @ $D75763
+
+#W24($D75C00)
+//The high ground is<line>
+//filled with<line>
+//religious buildings<line>
+//like churches and<line>
+//sanctuaries.<End>
+
+//POINTER #7 @ $D75C04 - STRING #7 @ $D757FB
+
+#W24($D75C04)
+//This holy bridge<line>
+//is where an angel<line>
+//once descended.<line>
+//It leads to the<line>
+//Flaybell Cathedral.<End>
+
+//POINTER #8 @ $D75C08 - STRING #8 @ $D7589A
+
+#W24($D75C08)
+//The spot where the<line>
+//fallen angel has<line>
+//descended. Inside,<line>
+//a giant goddess<line>
+//statue stands.<End>
+
+//POINTER #9 @ $D75C0C - STRING #9 @ $D75938
+
+#W24($D75C0C)
+//Ein and party sealed the Accursed and<line>
+//escaped from Tetyth.<Next>
+
+//The city no longer stood as it once did,<line>
+//but only reflected the empty days that<line>
+//passed by.<Next>
+
+//On the way back to Elendia, Ein would<line>
+//cross paths with Ledah once again…<End>
+
+//POINTER #10 @ $D75C10 - STRING #10 @ $D75ACE
+
+#W24($D75C10)
+//Your oath to Ursula?<line>
+//<line>
+//Must you fulfill such<line>
+//a foolish request?<End>
+
+//POINTER #11 @ $D75C14 - STRING #11 @ $D75B40
+
+#W24($D75C14)
+//The library inside<line>
+//the cathedral. It<line>
+//has many books on<line>
+//the dawn of Riviera<line>
+//and of the gods.<End>

@@ -1,0 +1,145 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($DA4964,$DA4E77)
+
+//GAME NAME:		
+
+//BLOCK #037 NAME:		PART (037)
+
+//POINTER #0 @ $DA4E78 - STRING #0 @ $DA4964
+
+#W24($DA4E78)
+//You are trespassing<line>
+//in the Underworld…<Next>
+
+//Your existence is not<line>
+//permitted here…<End>
+
+//POINTER #1 @ $DA4E7C - STRING #1 @ $DA49F3
+
+#W24($DA4E7C)
+//Ein… What's going on!?<End>
+
+//POINTER #2 @ $DA4E80 - STRING #2 @ $DA4A1B
+
+#W24($DA4E80)
+//…………<End>
+
+//POINTER #3 @ $DA4E84 - STRING #3 @ $DA4A24
+
+#W24($DA4E84)
+//I am Hades.<Next>
+
+//Long have I been sealed<line>
+//away in this dark world.<End>
+
+//POINTER #4 @ $DA4E88 - STRING #4 @ $DA4A92
+
+#W24($DA4E88)
+//Hades…<End>
+
+//POINTER #5 @ $DA4E8C - STRING #5 @ $DA4A9F
+
+#W24($DA4E8C)
+//The sworn enemy of the<line>
+//gods…<End>
+
+//POINTER #6 @ $DA4E90 - STRING #6 @ $DA4AD3
+
+#W24($DA4E90)
+//I shall ensure you<line>
+//regret having been born.<End>
+
+//POINTER #7 @ $DA4E94 - STRING #7 @ $DA4B23
+
+#W24($DA4E94)
+//Here he comes, Ein!!<End>
+
+//POINTER #8 @ $DA4E98 - STRING #8 @ $DA4B47
+
+#W24($DA4E98)
+//We don't have a choice…<line>
+//Get ready to fight!!<End>
+
+//POINTER #9 @ $DA4E9C - STRING #9 @ $DA4B96
+
+#W24($DA4E9C)
+//Arrrrrgh…<End>
+
+//POINTER #10 @ $DA4EA0 - STRING #10 @ $DA4BA9
+
+#W24($DA4EA0)
+//We were able to<line>
+//defeat him…<End>
+
+//POINTER #11 @ $DA4EA4 - STRING #11 @ $DA4BDB
+
+#W24($DA4EA4)
+//What was his deal?<End>
+
+//POINTER #12 @ $DA4EA8 - STRING #12 @ $DA4BFD
+
+#W24($DA4EA8)
+//I've never heard<line>
+//of Hades…<End>
+
+//POINTER #13 @ $DA4EAC - STRING #13 @ $DA4C2E
+
+#W24($DA4EAC)
+//Yeah, me neither.<End>
+
+//POINTER #14 @ $DA4EB0 - STRING #14 @ $DA4C4F
+
+#W24($DA4EB0)
+//Hmm…<End>
+
+//POINTER #15 @ $DA4EB4 - STRING #15 @ $DA4A1B
+
+#W24($DA4EB4)
+//…………<End>
+
+//POINTER #16 @ $DA4EB8 - STRING #16 @ $DA4C58
+
+#W24($DA4EB8)
+//What's up, Ein?<End>
+
+//POINTER #17 @ $DA4EBC - STRING #17 @ $DA4C75
+
+#W24($DA4EBC)
+//Hades is the…<line>
+//King of the Underworld…<End>
+
+//POINTER #18 @ $DA4EC0 - STRING #18 @ $DA4CBA
+
+#W24($DA4EC0)
+//King of the Underworld?<End>
+
+//POINTER #19 @ $DA4EC4 - STRING #19 @ $DA4CE6
+
+#W24($DA4EC4)
+//There aren't official<line>
+//records of it…<Next>
+
+//So, I'm not positive,<line>
+//but I believe he is.<Next>
+
+//He was supposedly sealed<line>
+//deep within Riviera…<End>
+
+//POINTER #20 @ $DA4EC8 - STRING #20 @ $DA4DCE
+
+#W24($DA4EC8)
+//Then we're…!?<End>
+
+//POINTER #21 @ $DA4ECC - STRING #21 @ $DA4DE6
+
+#W24($DA4ECC)
+//Far below Riviera…<line>
+//In the Underworld…<End>
+
+//POINTER #22 @ $DA4ED0 - STRING #22 @ $DA4E2C
+
+#W24($DA4ED0)
+//Wow, this is the center<line>
+//of Riviera, huh…?<End>

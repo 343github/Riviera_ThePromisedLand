@@ -1,0 +1,89 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($DA4224,$DA485C)
+
+//GAME NAME:		
+
+//BLOCK #035 NAME:		PART (035)
+
+//POINTER #0 @ $DA4860 - STRING #0 @ $DA4224
+
+#W24($DA4860)
+//One end of Heaven's<line>
+//Gate which has been<line>
+//tainted by darkness.<line>
+//Large rocks are<line>
+//stacked in layers.<End>
+
+//POINTER #1 @ $DA4864 - STRING #1 @ $DA42D3
+
+#W24($DA4864)
+//A walkway connecting<line>
+//Heaven's Gate to<line>
+//the Isle of Goriate.<line>
+//It's made of rocks<line>
+//chained together.<End>
+
+//POINTER #2 @ $DA4868 - STRING #2 @ $DA4383
+
+#W24($DA4868)
+//The floating island<line>
+//where Hector's castle<line>
+//is situated. A barrier<line>
+//has shrouded the isle<line>
+//in darkness.<End>
+
+//POINTER #3 @ $DA486C - STRING #3 @ $DA443B
+
+#W24($DA486C)
+//A winding path leading<line>
+//to the Maze of Shadows,<line>
+//Hector's castle. The<line>
+//road is much longer<line>
+//than it appears.<End>
+
+//POINTER #4 @ $DA4870 - STRING #4 @ $DA44FA
+
+#W24($DA4870)
+//One of the layers<line>
+//of the Triple Strata<line>
+//in the Maze of<line>
+//Shadows. It's cast<line>
+//in eerie, red light.<End>
+
+//POINTER #5 @ $DA4874 - STRING #5 @ $DA45A3
+
+#W24($DA4874)
+//One of the layers<line>
+//of the Triple Strata<line>
+//in the Maze of<line>
+//Shadows. It's cast<line>
+//in odd, green light.<End>
+
+//POINTER #6 @ $DA4878 - STRING #6 @ $DA464C
+
+#W24($DA4878)
+//A layer of the Triple<line>
+//Strata in the Maze of<line>
+//Shadows. It's cast in<line>
+//mysterious, blue<line>
+//light.<End>
+
+//POINTER #7 @ $DA487C - STRING #7 @ $DA46EF
+
+#W24($DA487C)
+//The fourth layer of<line>
+//the Triple Strata in<line>
+//the Maze of Shadows,<line>
+//located within<line>
+//a dimensional rift.<End>
+
+//POINTER #8 @ $DA4880 - STRING #8 @ $DA47A0
+
+#W24($DA4880)
+//The fort where Hector<line>
+//repelled the demon<line>
+//attack during Ragnarok.<line>
+//It still bears scars<line>
+//from the battle.<End>

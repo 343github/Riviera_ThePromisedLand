@@ -1,0 +1,2058 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($D75C18,$D81566)
+
+//GAME NAME:		
+
+//BLOCK #027 NAME:		PART (027)
+
+//POINTER #0 @ $D77118 - STRING #0 @ $D75C18
+
+#W24($D77118)
+//Ghost Town<End>
+
+//POINTER #1 @ $D7711C - STRING #1 @ $D75C2C
+
+#W24($D7711C)
+//Refuse<End>
+
+//POINTER #2 @ $D77120 - STRING #2 @ $D75C39
+
+#W24($D77120)
+//Thief Defeated<End>
+
+//POINTER #3 @ $D77124 - STRING #3 @ $D75C55
+
+#W24($D77124)
+//Accept<End>
+
+//POINTER #4 @ $D77128 - STRING #4 @ $D75C62
+
+#W24($D77128)
+//Thief Manual Acquired<End>
+
+//POINTER #5 @ $D7712C - STRING #5 @ $D75C8B
+
+#W24($D7712C)
+//That piece of junk?<End>
+
+//POINTER #6 @ $D77130 - STRING #6 @ $D75CAF
+
+#W24($D77130)
+//Building<End>
+
+//POINTER #7 @ $D77134 - STRING #7 @ $D75CC0
+
+#W24($D77134)
+//Investigate<End>
+
+//POINTER #8 @ $D77138 - STRING #8 @ $D75CD7
+
+#W24($D77138)
+//Ignore<End>
+
+//POINTER #9 @ $D7713C - STRING #9 @ $D75CE4
+
+#W24($D7713C)
+//House<End>
+
+//POINTER #10 @ $D77140 - STRING #10 @ $D75CC0
+
+#W24($D77140)
+//Investigate<End>
+
+//POINTER #11 @ $D77144 - STRING #11 @ $D75CD7
+
+#W24($D77144)
+//Ignore<End>
+
+//POINTER #12 @ $D77148 - STRING #12 @ $D75CEF
+
+#W24($D77148)
+//Sign<End>
+
+//POINTER #13 @ $D7714C - STRING #13 @ $D75CEF
+
+#W24($D7714C)
+//Sign<End>
+
+//POINTER #14 @ $D77150 - STRING #14 @ $D75CF8
+
+#W24($D77150)
+//Did you lose it?<End>
+
+//POINTER #15 @ $D77154 - STRING #15 @ $D75D16
+
+#W24($D77154)
+//Did someone steal it?<End>
+
+//POINTER #16 @ $D77158 - STRING #16 @ $D75D3E
+
+#W24($D77158)
+//Give it back, Serene.<End>
+
+//POINTER #17 @ $D7715C - STRING #17 @ $D75D66
+
+#W24($D7715C)
+//Old Sign<End>
+
+//POINTER #18 @ $D77160 - STRING #18 @ $D75CAF
+
+#W24($D77160)
+//Building<End>
+
+//POINTER #19 @ $D77164 - STRING #19 @ $D75D76
+
+#W24($D77164)
+//Open<End>
+
+//POINTER #20 @ $D77168 - STRING #20 @ $D75D7F
+
+#W24($D77168)
+//Don't Open<End>
+
+//POINTER #21 @ $D7716C - STRING #21 @ $D75CE4
+
+#W24($D7716C)
+//House<End>
+
+//POINTER #22 @ $D77170 - STRING #22 @ $D75D76
+
+#W24($D77170)
+//Open<End>
+
+//POINTER #23 @ $D77174 - STRING #23 @ $D75D7F
+
+#W24($D77174)
+//Don't Open<End>
+
+//POINTER #24 @ $D77178 - STRING #24 @ $D75CE4
+
+#W24($D77178)
+//House<End>
+
+//POINTER #25 @ $D7717C - STRING #25 @ $D75D93
+
+#W24($D7717C)
+//Well<End>
+
+//POINTER #26 @ $D77180 - STRING #26 @ $D75D93
+
+#W24($D77180)
+//Well<End>
+
+//POINTER #27 @ $D77184 - STRING #27 @ $D75D93
+
+#W24($D77184)
+//Well<End>
+
+//POINTER #28 @ $D77188 - STRING #28 @ $D75D9C
+
+#W24($D77188)
+//Drop<End>
+
+//POINTER #29 @ $D7718C - STRING #29 @ $D75DA5
+
+#W24($D7718C)
+//Inside the Well<End>
+
+//POINTER #30 @ $D77190 - STRING #30 @ $D75DC2
+
+#W24($D77190)
+//Jump<End>
+
+//POINTER #31 @ $D77194 - STRING #31 @ $D75DCB
+
+#W24($D77194)
+//Grab Serene<End>
+
+//POINTER #32 @ $D77198 - STRING #32 @ $D75DE1
+
+#W24($D77198)
+//Don't Jump<End>
+
+//POINTER #33 @ $D7719C - STRING #33 @ $D75DC2
+
+#W24($D7719C)
+//Jump<End>
+
+//POINTER #34 @ $D771A0 - STRING #34 @ $D75DE1
+
+#W24($D771A0)
+//Don't Jump<End>
+
+//POINTER #35 @ $D771A4 - STRING #35 @ $D75DF5
+
+#W24($D771A4)
+//Secure Rope<End>
+
+//POINTER #36 @ $D771A8 - STRING #36 @ $D75E0B
+
+#W24($D771A8)
+//Jump Rope<End>
+
+//POINTER #37 @ $D771AC - STRING #37 @ $D75E1D
+
+#W24($D771AC)
+//Wait<End>
+
+//POINTER #38 @ $D771B0 - STRING #38 @ $D75DF5
+
+#W24($D771B0)
+//Secure Rope<End>
+
+//POINTER #39 @ $D771B4 - STRING #39 @ $D75E1D
+
+#W24($D771B4)
+//Wait<End>
+
+//POINTER #40 @ $D771B8 - STRING #40 @ $D75CAF
+
+#W24($D771B8)
+//Building<End>
+
+//POINTER #41 @ $D771BC - STRING #41 @ $D75CE4
+
+#W24($D771BC)
+//House<End>
+
+//POINTER #42 @ $D771C0 - STRING #42 @ $D75D93
+
+#W24($D771C0)
+//Well<End>
+
+//POINTER #43 @ $D771C4 - STRING #43 @ $D75E26
+
+#W24($D771C4)
+//Tree<End>
+
+//POINTER #44 @ $D771C8 - STRING #44 @ $D75E2F
+
+#W24($D771C8)
+//Dead Tree<End>
+
+//POINTER #45 @ $D771CC - STRING #45 @ $D75E41
+
+#W24($D771CC)
+//Magic Icicle Acquired<End>
+
+//POINTER #46 @ $D771D0 - STRING #46 @ $D75E6A
+
+#W24($D771D0)
+//Rock Acquired♪<End>
+
+//POINTER #47 @ $D771D4 - STRING #47 @ $D75E86
+
+#W24($D771D4)
+//Yeah, me too.<End>
+
+//POINTER #48 @ $D771D8 - STRING #48 @ $D75E9F
+
+#W24($D771D8)
+//It's just you.<End>
+
+//POINTER #49 @ $D771DC - STRING #49 @ $D75EBA
+
+#W24($D771DC)
+//Oh, you noticed?<End>
+
+//POINTER #50 @ $D771E0 - STRING #50 @ $D75ED9
+
+#W24($D771E0)
+//Pilgrimage Way<End>
+
+//POINTER #51 @ $D771E4 - STRING #51 @ $D75EF5
+
+#W24($D771E4)
+//The rope was too old.<End>
+
+//POINTER #52 @ $D771E8 - STRING #52 @ $D75F1C
+
+#W24($D771E8)
+//Are you okay?<End>
+
+//POINTER #53 @ $D771EC - STRING #53 @ $D75F35
+
+#W24($D771EC)
+//Let's move on.<End>
+
+//POINTER #54 @ $D771F0 - STRING #54 @ $D75F50
+
+#W24($D771F0)
+//Perfect Landing!<End>
+
+//POINTER #55 @ $D771F4 - STRING #55 @ $D75F70
+
+#W24($D771F4)
+//Glowing Rock<End>
+
+//POINTER #56 @ $D771F8 - STRING #56 @ $D75F88
+
+#W24($D771F8)
+//Take<End>
+
+//POINTER #57 @ $D771FC - STRING #57 @ $D75F91
+
+#W24($D771FC)
+//Light Moss Acquired<End>
+
+//POINTER #58 @ $D77200 - STRING #58 @ $D75FB6
+
+#W24($D77200)
+//Eat<End>
+
+//POINTER #59 @ $D77204 - STRING #59 @ $D75FBD
+
+#W24($D77204)
+//Leave<End>
+
+//POINTER #60 @ $D77208 - STRING #60 @ $D75FC8
+
+#W24($D77208)
+//Surroundings<End>
+
+//POINTER #61 @ $D7720C - STRING #61 @ $D75FE1
+
+#W24($D7720C)
+//Open Chest<End>
+
+//POINTER #62 @ $D77210 - STRING #62 @ $D75FC8
+
+#W24($D77210)
+//Surroundings<End>
+
+//POINTER #63 @ $D77214 - STRING #63 @ $D75FF5
+
+#W24($D77214)
+//Serene!<End>
+
+//POINTER #64 @ $D77218 - STRING #64 @ $D76004
+
+#W24($D77218)
+//Hmm…<End>
+
+//POINTER #65 @ $D7721C - STRING #65 @ $D7600D
+
+#W24($D7721C)
+//See anything, Rose?<End>
+
+//POINTER #66 @ $D77220 - STRING #66 @ $D76032
+
+#W24($D77220)
+//Feel Around<End>
+
+//POINTER #67 @ $D77224 - STRING #67 @ $D76048
+
+#W24($D77224)
+//Ask Cierra<End>
+
+//POINTER #68 @ $D77228 - STRING #68 @ $D75FE1
+
+#W24($D77228)
+//Open Chest<End>
+
+//POINTER #69 @ $D7722C - STRING #69 @ $D7605C
+
+#W24($D7722C)
+//Switch Chest<End>
+
+//POINTER #70 @ $D77230 - STRING #70 @ $D76074
+
+#W24($D77230)
+//Only you can do it.<End>
+
+//POINTER #71 @ $D77234 - STRING #71 @ $D76097
+
+#W24($D77234)
+//Okay, Lina then.<End>
+
+//POINTER #72 @ $D77238 - STRING #72 @ $D760B6
+
+#W24($D77238)
+//Chest<End>
+
+//POINTER #73 @ $D7723C - STRING #73 @ $D760C1
+
+#W24($D7723C)
+//Throw<End>
+
+//POINTER #74 @ $D77240 - STRING #74 @ $D760CC
+
+#W24($D77240)
+//Don't Throw<End>
+
+//POINTER #75 @ $D77244 - STRING #75 @ $D760E2
+
+#W24($D77244)
+//Activate Chest<End>
+
+//POINTER #76 @ $D77248 - STRING #76 @ $D760FE
+
+#W24($D77248)
+//Cemetery Entrance<End>
+
+//POINTER #77 @ $D7724C - STRING #77 @ $D76120
+
+#W24($D7724C)
+//Ceiling<End>
+
+//POINTER #78 @ $D77250 - STRING #78 @ $D7612F
+
+#W24($D77250)
+//Rock<End>
+
+//POINTER #79 @ $D77254 - STRING #79 @ $D76138
+
+#W24($D77254)
+//Go Back<End>
+
+//POINTER #80 @ $D77258 - STRING #80 @ $D76146
+
+#W24($D77258)
+//Strange Flower<End>
+
+//POINTER #81 @ $D7725C - STRING #81 @ $D76162
+
+#W24($D7725C)
+//Touch<End>
+
+//POINTER #82 @ $D77260 - STRING #82 @ $D7616D
+
+#W24($D77260)
+//Surprise Attack<End>
+
+//POINTER #83 @ $D77264 - STRING #83 @ $D76048
+
+#W24($D77264)
+//Ask Cierra<End>
+
+//POINTER #84 @ $D77268 - STRING #84 @ $D7618B
+
+#W24($D77268)
+//Fire Magic<End>
+
+//POINTER #85 @ $D7726C - STRING #85 @ $D7619F
+
+#W24($D7726C)
+//Plant Burned!<End>
+
+//POINTER #86 @ $D77270 - STRING #86 @ $D761B9
+
+#W24($D77270)
+//Ask Serene<End>
+
+//POINTER #87 @ $D77274 - STRING #87 @ $D761CD
+
+#W24($D77274)
+//Prune it!<End>
+
+//POINTER #88 @ $D77278 - STRING #88 @ $D761DF
+
+#W24($D77278)
+//Plant Pruned!<End>
+
+//POINTER #89 @ $D7727C - STRING #89 @ $D761F9
+
+#W24($D7727C)
+//Sniff<End>
+
+//POINTER #90 @ $D77280 - STRING #90 @ $D75CD7
+
+#W24($D77280)
+//Ignore<End>
+
+//POINTER #91 @ $D77284 - STRING #91 @ $D75FE1
+
+#W24($D77284)
+//Open Chest<End>
+
+//POINTER #92 @ $D77288 - STRING #92 @ $D76204
+
+#W24($D77288)
+//North Entrance<End>
+
+//POINTER #93 @ $D7728C - STRING #93 @ $D76220
+
+#W24($D7728C)
+//South Entrance<End>
+
+//POINTER #94 @ $D77290 - STRING #94 @ $D7623C
+
+#W24($D77290)
+//Lithograph<End>
+
+//POINTER #95 @ $D77294 - STRING #95 @ $D7623C
+
+#W24($D77294)
+//Lithograph<End>
+
+//POINTER #96 @ $D77298 - STRING #96 @ $D76251
+
+#W24($D77298)
+//Reread<End>
+
+//POINTER #97 @ $D7729C - STRING #97 @ $D7625E
+
+#W24($D7729C)
+//Don't Read<End>
+
+//POINTER #98 @ $D772A0 - STRING #98 @ $D76138
+
+#W24($D772A0)
+//Go Back<End>
+
+//POINTER #99 @ $D772A4 - STRING #99 @ $D76120
+
+#W24($D772A4)
+//Ceiling<End>
+
+//POINTER #100 @ $D772A8 - STRING #100 @ $D76272
+
+#W24($D772A8)
+//Me?<End>
+
+//POINTER #101 @ $D772AC - STRING #101 @ $D7835F
+
+#W24($D772AC)
+//Serene?<End>
+
+//POINTER #102 @ $D772B0 - STRING #102 @ $D76279
+
+#W24($D772B0)
+//Rose?<End>
+
+//POINTER #103 @ $D772B4 - STRING #103 @ $D76284
+
+#W24($D772B4)
+//You tricked us!<End>
+
+//POINTER #104 @ $D772B8 - STRING #104 @ $D762A1
+
+#W24($D772B8)
+//So your wings…<End>
+
+//POINTER #105 @ $D772BC - STRING #105 @ $D762BC
+
+#W24($D772BC)
+//I believe in Serene.<End>
+
+//POINTER #106 @ $D772C0 - STRING #106 @ $D760B6
+
+#W24($D772C0)
+//Chest<End>
+
+//POINTER #107 @ $D772C4 - STRING #107 @ $D75D76
+
+#W24($D772C4)
+//Open<End>
+
+//POINTER #108 @ $D772C8 - STRING #108 @ $D75D7F
+
+#W24($D772C8)
+//Don't Open<End>
+
+//POINTER #109 @ $D772CC - STRING #109 @ $D75FE1
+
+#W24($D772CC)
+//Open Chest<End>
+
+//POINTER #110 @ $D772D0 - STRING #110 @ $D760B6
+
+#W24($D772D0)
+//Chest<End>
+
+//POINTER #111 @ $D772D4 - STRING #111 @ $D75FE1
+
+#W24($D772D4)
+//Open Chest<End>
+
+//POINTER #112 @ $D772D8 - STRING #112 @ $D762E2
+
+#W24($D772D8)
+//Locked Chest<End>
+
+//POINTER #113 @ $D772DC - STRING #113 @ $D762FA
+
+#W24($D772DC)
+//Chest Remains<End>
+
+//POINTER #114 @ $D772E0 - STRING #114 @ $D76120
+
+#W24($D772E0)
+//Ceiling<End>
+
+//POINTER #115 @ $D772E4 - STRING #115 @ $D7612F
+
+#W24($D772E4)
+//Rock<End>
+
+//POINTER #116 @ $D772E8 - STRING #116 @ $D76314
+
+#W24($D772E8)
+//Dodge<End>
+
+//POINTER #117 @ $D772EC - STRING #117 @ $D75E41
+
+#W24($D772EC)
+//Magic Icicle Acquired<End>
+
+//POINTER #118 @ $D772F0 - STRING #118 @ $D75E6A
+
+#W24($D772F0)
+//Rock Acquired♪<End>
+
+//POINTER #119 @ $D772F4 - STRING #119 @ $D75D76
+
+#W24($D772F4)
+//Open<End>
+
+//POINTER #120 @ $D772F8 - STRING #120 @ $D75D7F
+
+#W24($D772F8)
+//Don't Open<End>
+
+//POINTER #121 @ $D772FC - STRING #121 @ $D7631F
+
+#W24($D772FC)
+//Evade<End>
+
+//POINTER #122 @ $D77300 - STRING #122 @ $D7632A
+
+#W24($D77300)
+//Prevent<End>
+
+//POINTER #123 @ $D77304 - STRING #123 @ $D76339
+
+#W24($D77304)
+//Disarm<End>
+
+//POINTER #124 @ $D77308 - STRING #124 @ $D76346
+
+#W24($D77308)
+//Underground Lake<End>
+
+//POINTER #125 @ $D7730C - STRING #125 @ $D76366
+
+#W24($D7730C)
+//Nice!<End>
+
+//POINTER #126 @ $D77310 - STRING #126 @ $D76371
+
+#W24($D77310)
+//Great!<End>
+
+//POINTER #127 @ $D77314 - STRING #127 @ $D7637E
+
+#W24($D77314)
+//Wonderful!<End>
+
+//POINTER #128 @ $D77318 - STRING #128 @ $D76393
+
+#W24($D77318)
+//Excellent!<End>
+
+//POINTER #129 @ $D7731C - STRING #129 @ $D763A8
+
+#W24($D7731C)
+//Perfect!<End>
+
+//POINTER #130 @ $D77320 - STRING #130 @ $D763B9
+
+#W24($D77320)
+//Skip<End>
+
+//POINTER #131 @ $D77324 - STRING #131 @ $D763C2
+
+#W24($D77324)
+//Glowing Pattern<End>
+
+//POINTER #132 @ $D77328 - STRING #132 @ $D763E0
+
+#W24($D77328)
+//To Red Shrine<End>
+
+//POINTER #133 @ $D7732C - STRING #133 @ $D7612F
+
+#W24($D7732C)
+//Rock<End>
+
+//POINTER #134 @ $D77330 - STRING #134 @ $D763F9
+
+#W24($D77330)
+//Below the Water<End>
+
+//POINTER #135 @ $D77334 - STRING #135 @ $D76416
+
+#W24($D77334)
+//Submerged Chest<End>
+
+//POINTER #136 @ $D77338 - STRING #136 @ $D760B6
+
+#W24($D77338)
+//Chest<End>
+
+//POINTER #137 @ $D7733C - STRING #137 @ $D75D76
+
+#W24($D7733C)
+//Open<End>
+
+//POINTER #138 @ $D77340 - STRING #138 @ $D75D7F
+
+#W24($D77340)
+//Don't Open<End>
+
+//POINTER #139 @ $D77344 - STRING #139 @ $D75FE1
+
+#W24($D77344)
+//Open Chest<End>
+
+//POINTER #140 @ $D77348 - STRING #140 @ $D76434
+
+#W24($D77348)
+//Wade<End>
+
+//POINTER #141 @ $D7734C - STRING #141 @ $D7643D
+
+#W24($D7734C)
+//Surface<End>
+
+//POINTER #142 @ $D77350 - STRING #142 @ $D7644C
+
+#W24($D77350)
+//Escaped Drowning!<End>
+
+//POINTER #143 @ $D77354 - STRING #143 @ $D7646E
+
+#W24($D77354)
+//Don't Try It<End>
+
+//POINTER #144 @ $D77358 - STRING #144 @ $D760B6
+
+#W24($D77358)
+//Chest<End>
+
+//POINTER #145 @ $D7735C - STRING #145 @ $D75FE1
+
+#W24($D7735C)
+//Open Chest<End>
+
+//POINTER #146 @ $D77360 - STRING #146 @ $D762E2
+
+#W24($D77360)
+//Locked Chest<End>
+
+//POINTER #147 @ $D77364 - STRING #147 @ $D762FA
+
+#W24($D77364)
+//Chest Remains<End>
+
+//POINTER #148 @ $D77368 - STRING #148 @ $D76485
+
+#W24($D77368)
+//Shining Object<End>
+
+//POINTER #149 @ $D7736C - STRING #149 @ $D764A1
+
+#W24($D7736C)
+//Water<End>
+
+//POINTER #150 @ $D77370 - STRING #150 @ $D764AC
+
+#W24($D77370)
+//Mana Wisp<End>
+
+//POINTER #151 @ $D77374 - STRING #151 @ $D75F88
+
+#W24($D77374)
+//Take<End>
+
+//POINTER #152 @ $D77378 - STRING #152 @ $D764BE
+
+#W24($D77378)
+//Found a Mana Wisp!<End>
+
+//POINTER #153 @ $D7737C - STRING #153 @ $D75FBD
+
+#W24($D7737C)
+//Leave<End>
+
+//POINTER #154 @ $D77380 - STRING #154 @ $D764E0
+
+#W24($D77380)
+//Ground<End>
+
+//POINTER #155 @ $D77384 - STRING #155 @ $D764A1
+
+#W24($D77384)
+//Water<End>
+
+//POINTER #156 @ $D77388 - STRING #156 @ $D764ED
+
+#W24($D77388)
+//Hole<End>
+
+//POINTER #157 @ $D7738C - STRING #157 @ $D764F6
+
+#W24($D7738C)
+//Sword in the Ground<End>
+
+//POINTER #158 @ $D77390 - STRING #158 @ $D7651A
+
+#W24($D77390)
+//Blue Magic Circle<End>
+
+//POINTER #159 @ $D77394 - STRING #159 @ $D7653B
+
+#W24($D77394)
+//Step In<End>
+
+//POINTER #160 @ $D77398 - STRING #160 @ $D76549
+
+#W24($D77398)
+//Don't Go<End>
+
+//POINTER #161 @ $D7739C - STRING #161 @ $D76559
+
+#W24($D7739C)
+//To Blue Shrine<End>
+
+//POINTER #162 @ $D773A0 - STRING #162 @ $D764A1
+
+#W24($D773A0)
+//Water<End>
+
+//POINTER #163 @ $D773A4 - STRING #163 @ $D76574
+
+#W24($D773A4)
+//Boulder<End>
+
+//POINTER #164 @ $D773A8 - STRING #164 @ $D76583
+
+#W24($D773A8)
+//Black Boulder<End>
+
+//POINTER #165 @ $D773AC - STRING #165 @ $D7659D
+
+#W24($D773AC)
+//Move<End>
+
+//POINTER #166 @ $D773B0 - STRING #166 @ $D765A6
+
+#W24($D773B0)
+//Push<End>
+
+//POINTER #167 @ $D773B4 - STRING #167 @ $D765AF
+
+#W24($D773B4)
+//Found Hidden Stairs!<End>
+
+//POINTER #168 @ $D773B8 - STRING #168 @ $D765D6
+
+#W24($D773B8)
+//Enter<End>
+
+//POINTER #169 @ $D773BC - STRING #169 @ $D765E1
+
+#W24($D773BC)
+//Cover<End>
+
+//POINTER #170 @ $D773C0 - STRING #170 @ $D75FBD
+
+#W24($D773C0)
+//Leave<End>
+
+//POINTER #171 @ $D773C4 - STRING #171 @ $D76583
+
+#W24($D773C4)
+//Black Boulder<End>
+
+//POINTER #172 @ $D773C8 - STRING #172 @ $D764A1
+
+#W24($D773C8)
+//Water<End>
+
+//POINTER #173 @ $D773CC - STRING #173 @ $D764E0
+
+#W24($D773CC)
+//Ground<End>
+
+//POINTER #174 @ $D773D0 - STRING #174 @ $D765EC
+
+#W24($D773D0)
+//Yellow Magic Circle<End>
+
+//POINTER #175 @ $D773D4 - STRING #175 @ $D765D6
+
+#W24($D773D4)
+//Enter<End>
+
+//POINTER #176 @ $D773D8 - STRING #176 @ $D76611
+
+#W24($D773D8)
+//Don't Enter<End>
+
+//POINTER #177 @ $D773DC - STRING #177 @ $D76627
+
+#W24($D773DC)
+//To Yellow Shrine<End>
+
+//POINTER #178 @ $D773E0 - STRING #178 @ $D76646
+
+#W24($D773E0)
+//Skipping Stone<End>
+
+//POINTER #179 @ $D773E4 - STRING #179 @ $D764A1
+
+#W24($D773E4)
+//Water<End>
+
+//POINTER #180 @ $D773E8 - STRING #180 @ $D76662
+
+#W24($D773E8)
+//Green Magic Circle<End>
+
+//POINTER #181 @ $D773EC - STRING #181 @ $D760B6
+
+#W24($D773EC)
+//Chest<End>
+
+//POINTER #182 @ $D773F0 - STRING #182 @ $D75D76
+
+#W24($D773F0)
+//Open<End>
+
+//POINTER #183 @ $D773F4 - STRING #183 @ $D75D7F
+
+#W24($D773F4)
+//Don't Open<End>
+
+//POINTER #184 @ $D773F8 - STRING #184 @ $D76685
+
+#W24($D773F8)
+//Sealed Chest<End>
+
+//POINTER #185 @ $D773FC - STRING #185 @ $D7669D
+
+#W24($D773FC)
+//Use the Manual<End>
+
+//POINTER #186 @ $D77400 - STRING #186 @ $D766B8
+
+#W24($D77400)
+//Don't Use It<End>
+
+//POINTER #187 @ $D77404 - STRING #187 @ $D75FE1
+
+#W24($D77404)
+//Open Chest<End>
+
+//POINTER #188 @ $D77408 - STRING #188 @ $D76120
+
+#W24($D77408)
+//Ceiling<End>
+
+//POINTER #189 @ $D7740C - STRING #189 @ $D7612F
+
+#W24($D7740C)
+//Rock<End>
+
+//POINTER #190 @ $D77410 - STRING #190 @ $D765D6
+
+#W24($D77410)
+//Enter<End>
+
+//POINTER #191 @ $D77414 - STRING #191 @ $D76611
+
+#W24($D77414)
+//Don't Enter<End>
+
+//POINTER #192 @ $D77418 - STRING #192 @ $D765D6
+
+#W24($D77418)
+//Enter<End>
+
+//POINTER #193 @ $D7741C - STRING #193 @ $D76611
+
+#W24($D7741C)
+//Don't Enter<End>
+
+//POINTER #194 @ $D77420 - STRING #194 @ $D766CF
+
+#W24($D77420)
+//We aren't thieves.<End>
+
+//POINTER #195 @ $D77424 - STRING #195 @ $D766F2
+
+#W24($D77424)
+//Wasn't Serene a thief?<End>
+
+//POINTER #196 @ $D77428 - STRING #196 @ $D7671C
+
+#W24($D77428)
+//Use<End>
+
+//POINTER #197 @ $D7742C - STRING #197 @ $D76723
+
+#W24($D7742C)
+//Don't Use<End>
+
+//POINTER #198 @ $D77430 - STRING #198 @ $D76735
+
+#W24($D77430)
+//Unlock<End>
+
+//POINTER #199 @ $D77434 - STRING #199 @ $D76742
+
+#W24($D77434)
+//Pull Out<End>
+
+//POINTER #200 @ $D77438 - STRING #200 @ $D76752
+
+#W24($D77438)
+//Pull<End>
+
+//POINTER #201 @ $D7743C - STRING #201 @ $D7675B
+
+#W24($D7743C)
+//Pulled Out the Sword!<End>
+
+//POINTER #202 @ $D77440 - STRING #202 @ $D76783
+
+#W24($D77440)
+//Pulled the Sword!<End>
+
+//POINTER #203 @ $D77444 - STRING #203 @ $D76783
+
+#W24($D77444)
+//Pulled the Sword!<End>
+
+//POINTER #204 @ $D77448 - STRING #204 @ $D767A4
+
+#W24($D77448)
+//Sword Hilt Acquired…<End>
+
+//POINTER #205 @ $D7744C - STRING #205 @ $D75FBD
+
+#W24($D7744C)
+//Leave<End>
+
+//POINTER #206 @ $D77450 - STRING #206 @ $D75E41
+
+#W24($D77450)
+//Magic Icicle Acquired<End>
+
+//POINTER #207 @ $D77454 - STRING #207 @ $D75E6A
+
+#W24($D77454)
+//Rock Acquired♪<End>
+
+//POINTER #208 @ $D77458 - STRING #208 @ $D75D76
+
+#W24($D77458)
+//Open<End>
+
+//POINTER #209 @ $D7745C - STRING #209 @ $D75D7F
+
+#W24($D7745C)
+//Don't Open<End>
+
+//POINTER #210 @ $D77460 - STRING #210 @ $D76339
+
+#W24($D77460)
+//Disarm<End>
+
+//POINTER #211 @ $D77464 - STRING #211 @ $D767CB
+
+#W24($D77464)
+//Northern Catacombs<End>
+
+//POINTER #212 @ $D77468 - STRING #212 @ $D76138
+
+#W24($D77468)
+//Go Back<End>
+
+//POINTER #213 @ $D7746C - STRING #213 @ $D767EF
+
+#W24($D7746C)
+//Chained Sword<End>
+
+//POINTER #214 @ $D77470 - STRING #214 @ $D75F88
+
+#W24($D77470)
+//Take<End>
+
+//POINTER #215 @ $D77474 - STRING #215 @ $D76809
+
+#W24($D77474)
+//Don't Take<End>
+
+//POINTER #216 @ $D77478 - STRING #216 @ $D7681D
+
+#W24($D77478)
+//Old Grave<End>
+
+//POINTER #217 @ $D7747C - STRING #217 @ $D7682F
+
+#W24($D7747C)
+//Tombstone<End>
+
+//POINTER #218 @ $D77480 - STRING #218 @ $D76842
+
+#W24($D77480)
+//Cavern<End>
+
+//POINTER #219 @ $D77484 - STRING #219 @ $D7684F
+
+#W24($D77484)
+//Fang Door<End>
+
+//POINTER #220 @ $D77488 - STRING #220 @ $D76861
+
+#W24($D77488)
+//Fang Seal<End>
+
+//POINTER #221 @ $D7748C - STRING #221 @ $D78D25
+
+#W24($D7748C)
+//Let's go!<End>
+
+//POINTER #222 @ $D77490 - STRING #222 @ $D76873
+
+#W24($D77490)
+//Let's be careful.<End>
+
+//POINTER #223 @ $D77494 - STRING #223 @ $D76894
+
+#W24($D77494)
+//You first, Cierra.<End>
+
+//POINTER #224 @ $D77498 - STRING #224 @ $D76138
+
+#W24($D77498)
+//Go Back<End>
+
+//POINTER #225 @ $D7749C - STRING #225 @ $D760B6
+
+#W24($D7749C)
+//Chest<End>
+
+//POINTER #226 @ $D774A0 - STRING #226 @ $D75FE1
+
+#W24($D774A0)
+//Open Chest<End>
+
+//POINTER #227 @ $D774A4 - STRING #227 @ $D762E2
+
+#W24($D774A4)
+//Locked Chest<End>
+
+//POINTER #228 @ $D774A8 - STRING #228 @ $D762FA
+
+#W24($D774A8)
+//Chest Remains<End>
+
+//POINTER #229 @ $D774AC - STRING #229 @ $D768B7
+
+#W24($D774AC)
+//Climb Up<End>
+
+//POINTER #230 @ $D774B0 - STRING #230 @ $D768C7
+
+#W24($D774B0)
+//Drop Down<End>
+
+//POINTER #231 @ $D774B4 - STRING #231 @ $D768D9
+
+#W24($D774B4)
+//Stake<End>
+
+//POINTER #232 @ $D774B8 - STRING #232 @ $D768E4
+
+#W24($D774B8)
+//Pounded Stake<End>
+
+//POINTER #233 @ $D774BC - STRING #233 @ $D76138
+
+#W24($D774BC)
+//Go Back<End>
+
+//POINTER #234 @ $D774C0 - STRING #234 @ $D75FE1
+
+#W24($D774C0)
+//Open Chest<End>
+
+//POINTER #235 @ $D774C4 - STRING #235 @ $D768FE
+
+#W24($D774C4)
+//Nevermind<End>
+
+//POINTER #236 @ $D774C8 - STRING #236 @ $D76911
+
+#W24($D774C8)
+//Look Anyway<End>
+
+//POINTER #237 @ $D774CC - STRING #237 @ $D760C1
+
+#W24($D774CC)
+//Throw<End>
+
+//POINTER #238 @ $D774D0 - STRING #238 @ $D7682F
+
+#W24($D774D0)
+//Tombstone<End>
+
+//POINTER #239 @ $D774D4 - STRING #239 @ $D76927
+
+#W24($D774D4)
+//Xenon's Grave<End>
+
+//POINTER #240 @ $D774D8 - STRING #240 @ $D768D9
+
+#W24($D774D8)
+//Stake<End>
+
+//POINTER #241 @ $D774DC - STRING #241 @ $D768E4
+
+#W24($D774DC)
+//Pounded Stake<End>
+
+//POINTER #242 @ $D774E0 - STRING #242 @ $D76138
+
+#W24($D774E0)
+//Go Back<End>
+
+//POINTER #243 @ $D774E4 - STRING #243 @ $D7682F
+
+#W24($D774E4)
+//Tombstone<End>
+
+//POINTER #244 @ $D774E8 - STRING #244 @ $D76941
+
+#W24($D774E8)
+//Lokin's Grave<End>
+
+//POINTER #245 @ $D774EC - STRING #245 @ $D7682F
+
+#W24($D774EC)
+//Tombstone<End>
+
+//POINTER #246 @ $D774F0 - STRING #246 @ $D7695B
+
+#W24($D774F0)
+//Askus's Grave<End>
+
+//POINTER #247 @ $D774F4 - STRING #247 @ $D768D9
+
+#W24($D774F4)
+//Stake<End>
+
+//POINTER #248 @ $D774F8 - STRING #248 @ $D768E4
+
+#W24($D774F8)
+//Pounded Stake<End>
+
+//POINTER #249 @ $D774FC - STRING #249 @ $D76975
+
+#W24($D774FC)
+//A Ankh Acquired<End>
+
+//POINTER #250 @ $D77500 - STRING #250 @ $D76992
+
+#W24($D77500)
+//I Ankh Acquired<End>
+
+//POINTER #251 @ $D77504 - STRING #251 @ $D769AF
+
+#W24($D77504)
+//L Ankh Acquired<End>
+
+//POINTER #252 @ $D77508 - STRING #252 @ $D769CC
+
+#W24($D77508)
+//T Ankh Acquired<End>
+
+//POINTER #253 @ $D7750C - STRING #253 @ $D769E9
+
+#W24($D7750C)
+//X Ankh Acquired<End>
+
+//POINTER #254 @ $D77510 - STRING #254 @ $D76A06
+
+#W24($D77510)
+//Y Ankh Acquired<End>
+
+//POINTER #255 @ $D77514 - STRING #255 @ $D76A23
+
+#W24($D77514)
+//No<End>
+
+//POINTER #256 @ $D77518 - STRING #256 @ $D76A28
+
+#W24($D77518)
+//Yes<End>
+
+//POINTER #257 @ $D7751C - STRING #257 @ $D76A2F
+
+#W24($D7751C)
+//Fight<End>
+
+//POINTER #258 @ $D77520 - STRING #258 @ $D76A2F
+
+#W24($D77520)
+//Fight<End>
+
+//POINTER #259 @ $D77524 - STRING #259 @ $D76A2F
+
+#W24($D77524)
+//Fight<End>
+
+//POINTER #260 @ $D77528 - STRING #260 @ $D76A2F
+
+#W24($D77528)
+//Fight<End>
+
+//POINTER #261 @ $D7752C - STRING #261 @ $D76A2F
+
+#W24($D7752C)
+//Fight<End>
+
+//POINTER #262 @ $D77530 - STRING #262 @ $D76A2F
+
+#W24($D77530)
+//Fight<End>
+
+//POINTER #263 @ $D77534 - STRING #263 @ $D76A3A
+
+#W24($D77534)
+//Pound<End>
+
+//POINTER #264 @ $D77538 - STRING #264 @ $D76A3A
+
+#W24($D77538)
+//Pound<End>
+
+//POINTER #265 @ $D7753C - STRING #265 @ $D76A45
+
+#W24($D7753C)
+//Pounded 1st Stake!<End>
+
+//POINTER #266 @ $D77540 - STRING #266 @ $D76A68
+
+#W24($D77540)
+//Pounded 2nd Stake!<End>
+
+//POINTER #267 @ $D77544 - STRING #267 @ $D76A8B
+
+#W24($D77544)
+//Pounded 3rd Stake!<End>
+
+//POINTER #268 @ $D77548 - STRING #268 @ $D75CD7
+
+#W24($D77548)
+//Ignore<End>
+
+//POINTER #269 @ $D7754C - STRING #269 @ $D76AAE
+
+#W24($D7754C)
+//You, Serene.<End>
+
+//POINTER #270 @ $D77550 - STRING #270 @ $D76AC6
+
+#W24($D77550)
+//Flying.<End>
+
+//POINTER #271 @ $D77554 - STRING #271 @ $D76AD5
+
+#W24($D77554)
+//The Accursed.<End>
+
+//POINTER #272 @ $D77558 - STRING #272 @ $D75D76
+
+#W24($D77558)
+//Open<End>
+
+//POINTER #273 @ $D7755C - STRING #273 @ $D75D7F
+
+#W24($D7755C)
+//Don't Open<End>
+
+//POINTER #274 @ $D77560 - STRING #274 @ $D76AEF
+
+#W24($D77560)
+//Southern Catacombs<End>
+
+//POINTER #275 @ $D77564 - STRING #275 @ $D76842
+
+#W24($D77564)
+//Cavern<End>
+
+//POINTER #276 @ $D77568 - STRING #276 @ $D76B13
+
+#W24($D77568)
+//Grave<End>
+
+//POINTER #277 @ $D7756C - STRING #277 @ $D75F88
+
+#W24($D7756C)
+//Take<End>
+
+//POINTER #278 @ $D77570 - STRING #278 @ $D76809
+
+#W24($D77570)
+//Don't Take<End>
+
+//POINTER #279 @ $D77574 - STRING #279 @ $D76B1E
+
+#W24($D77574)
+//He must've liked books.<End>
+
+//POINTER #280 @ $D77578 - STRING #280 @ $D76B4A
+
+#W24($D77578)
+//It's a magic book.<End>
+
+//POINTER #281 @ $D7757C - STRING #281 @ $D76B6C
+
+#W24($D7757C)
+//Maybe it's a dirty book.<End>
+
+//POINTER #282 @ $D77580 - STRING #282 @ $D76138
+
+#W24($D77580)
+//Go Back<End>
+
+//POINTER #283 @ $D77584 - STRING #283 @ $D760B6
+
+#W24($D77584)
+//Chest<End>
+
+//POINTER #284 @ $D77588 - STRING #284 @ $D75D76
+
+#W24($D77588)
+//Open<End>
+
+//POINTER #285 @ $D7758C - STRING #285 @ $D75D7F
+
+#W24($D7758C)
+//Don't Open<End>
+
+//POINTER #286 @ $D77590 - STRING #286 @ $D760B6
+
+#W24($D77590)
+//Chest<End>
+
+//POINTER #287 @ $D77594 - STRING #287 @ $D75FE1
+
+#W24($D77594)
+//Open Chest<End>
+
+//POINTER #288 @ $D77598 - STRING #288 @ $D76138
+
+#W24($D77598)
+//Go Back<End>
+
+//POINTER #289 @ $D7759C - STRING #289 @ $D7682F
+
+#W24($D7759C)
+//Tombstone<End>
+
+//POINTER #290 @ $D775A0 - STRING #290 @ $D76B99
+
+#W24($D775A0)
+//Yumel's Grave<End>
+
+//POINTER #291 @ $D775A4 - STRING #291 @ $D76842
+
+#W24($D775A4)
+//Cavern<End>
+
+//POINTER #292 @ $D775A8 - STRING #292 @ $D7682F
+
+#W24($D775A8)
+//Tombstone<End>
+
+//POINTER #293 @ $D775AC - STRING #293 @ $D76BB3
+
+#W24($D775AC)
+//Iduna's Grave<End>
+
+//POINTER #294 @ $D775B0 - STRING #294 @ $D7682F
+
+#W24($D775B0)
+//Tombstone<End>
+
+//POINTER #295 @ $D775B4 - STRING #295 @ $D76BCD
+
+#W24($D775B4)
+//Teula's Grave<End>
+
+//POINTER #296 @ $D775B8 - STRING #296 @ $D76A45
+
+#W24($D775B8)
+//Pounded 1st Stake!<End>
+
+//POINTER #297 @ $D775BC - STRING #297 @ $D76A68
+
+#W24($D775BC)
+//Pounded 2nd Stake!<End>
+
+//POINTER #298 @ $D775C0 - STRING #298 @ $D76A8B
+
+#W24($D775C0)
+//Pounded 3rd Stake!<End>
+
+//POINTER #299 @ $D775C4 - STRING #299 @ $D75CD7
+
+#W24($D775C4)
+//Ignore<End>
+
+//POINTER #300 @ $D775C8 - STRING #300 @ $D76AAE
+
+#W24($D775C8)
+//You, Serene.<End>
+
+//POINTER #301 @ $D775CC - STRING #301 @ $D76AC6
+
+#W24($D775CC)
+//Flying.<End>
+
+//POINTER #302 @ $D775D0 - STRING #302 @ $D76BE7
+
+#W24($D775D0)
+//The Accursed<End>
+
+//POINTER #303 @ $D775D4 - STRING #303 @ $D76975
+
+#W24($D775D4)
+//A Ankh Acquired<End>
+
+//POINTER #304 @ $D775D8 - STRING #304 @ $D76992
+
+#W24($D775D8)
+//I Ankh Acquired<End>
+
+//POINTER #305 @ $D775DC - STRING #305 @ $D769AF
+
+#W24($D775DC)
+//L Ankh Acquired<End>
+
+//POINTER #306 @ $D775E0 - STRING #306 @ $D769CC
+
+#W24($D775E0)
+//T Ankh Acquired<End>
+
+//POINTER #307 @ $D775E4 - STRING #307 @ $D769E9
+
+#W24($D775E4)
+//X Ankh Acquired<End>
+
+//POINTER #308 @ $D775E8 - STRING #308 @ $D76A06
+
+#W24($D775E8)
+//Y Ankh Acquired<End>
+
+//POINTER #309 @ $D775EC - STRING #309 @ $D76A23
+
+#W24($D775EC)
+//No<End>
+
+//POINTER #310 @ $D775F0 - STRING #310 @ $D76A28
+
+#W24($D775F0)
+//Yes<End>
+
+//POINTER #311 @ $D775F4 - STRING #311 @ $D76A2F
+
+#W24($D775F4)
+//Fight<End>
+
+//POINTER #312 @ $D775F8 - STRING #312 @ $D76A2F
+
+#W24($D775F8)
+//Fight<End>
+
+//POINTER #313 @ $D775FC - STRING #313 @ $D76A2F
+
+#W24($D775FC)
+//Fight<End>
+
+//POINTER #314 @ $D77600 - STRING #314 @ $D76A2F
+
+#W24($D77600)
+//Fight<End>
+
+//POINTER #315 @ $D77604 - STRING #315 @ $D76A2F
+
+#W24($D77604)
+//Fight<End>
+
+//POINTER #316 @ $D77608 - STRING #316 @ $D76A2F
+
+#W24($D77608)
+//Fight<End>
+
+//POINTER #317 @ $D7760C - STRING #317 @ $D76BFF
+
+#W24($D7760C)
+//Crystal Sanctuary<End>
+
+//POINTER #318 @ $D77610 - STRING #318 @ $D76C21
+
+#W24($D77610)
+//Red Altar<End>
+
+//POINTER #319 @ $D77614 - STRING #319 @ $D76C33
+
+#W24($D77614)
+//Blue Altar<End>
+
+//POINTER #320 @ $D77618 - STRING #320 @ $D76C47
+
+#W24($D77618)
+//Yellow Altar<End>
+
+//POINTER #321 @ $D7761C - STRING #321 @ $D76C5F
+
+#W24($D7761C)
+//A Ankh<End>
+
+//POINTER #322 @ $D77620 - STRING #322 @ $D76C6B
+
+#W24($D77620)
+//I Ankh<End>
+
+//POINTER #323 @ $D77624 - STRING #323 @ $D76C77
+
+#W24($D77624)
+//L Ankh<End>
+
+//POINTER #324 @ $D77628 - STRING #324 @ $D76C83
+
+#W24($D77628)
+//T Ankh<End>
+
+//POINTER #325 @ $D7762C - STRING #325 @ $D76C8F
+
+#W24($D7762C)
+//X Ankh<End>
+
+//POINTER #326 @ $D77630 - STRING #326 @ $D76C9B
+
+#W24($D77630)
+//Y Ankh<End>
+
+//POINTER #327 @ $D77634 - STRING #327 @ $D76CA7
+
+#W24($D77634)
+//None<End>
+
+//POINTER #328 @ $D77638 - STRING #328 @ $D76A28
+
+#W24($D77638)
+//Yes<End>
+
+//POINTER #329 @ $D7763C - STRING #329 @ $D76A23
+
+#W24($D7763C)
+//No<End>
+
+//POINTER #330 @ $D77640 - STRING #330 @ $D76A28
+
+#W24($D77640)
+//Yes<End>
+
+//POINTER #331 @ $D77644 - STRING #331 @ $D76A23
+
+#W24($D77644)
+//No<End>
+
+//POINTER #332 @ $D77648 - STRING #332 @ $D76A28
+
+#W24($D77648)
+//Yes<End>
+
+//POINTER #333 @ $D7764C - STRING #333 @ $D76A23
+
+#W24($D7764C)
+//No<End>
+
+//POINTER #334 @ $D77650 - STRING #334 @ $D76A28
+
+#W24($D77650)
+//Yes<End>
+
+//POINTER #335 @ $D77654 - STRING #335 @ $D76A23
+
+#W24($D77654)
+//No<End>
+
+//POINTER #336 @ $D77658 - STRING #336 @ $D76A28
+
+#W24($D77658)
+//Yes<End>
+
+//POINTER #337 @ $D7765C - STRING #337 @ $D76A23
+
+#W24($D7765C)
+//No<End>
+
+//POINTER #338 @ $D77660 - STRING #338 @ $D76A28
+
+#W24($D77660)
+//Yes<End>
+
+//POINTER #339 @ $D77664 - STRING #339 @ $D76A23
+
+#W24($D77664)
+//No<End>
+
+//POINTER #340 @ $D77668 - STRING #340 @ $D76CB0
+
+#W24($D77668)
+//Pieta<End>
+
+//POINTER #341 @ $D7766C - STRING #341 @ $D76CBB
+
+#W24($D7766C)
+//What's Venoma?<End>
+
+//POINTER #342 @ $D77670 - STRING #342 @ $D76CD7
+
+#W24($D77670)
+//We should hurry.<End>
+
+//POINTER #343 @ $D77674 - STRING #343 @ $D76CF6
+
+#W24($D77674)
+//Venoma<End>
+
+//POINTER #344 @ $D77678 - STRING #344 @ $D760B6
+
+#W24($D77678)
+//Chest<End>
+
+//POINTER #345 @ $D7767C - STRING #345 @ $D75FE1
+
+#W24($D7767C)
+//Open Chest<End>
+
+//POINTER #346 @ $D77680 - STRING #346 @ $D762E2
+
+#W24($D77680)
+//Locked Chest<End>
+
+//POINTER #347 @ $D77684 - STRING #347 @ $D762FA
+
+#W24($D77684)
+//Chest Remains<End>
+
+//POINTER #348 @ $D77688 - STRING #348 @ $D76D03
+
+#W24($D77688)
+//You're right.<End>
+
+//POINTER #349 @ $D7768C - STRING #349 @ $D76D1D
+
+#W24($D7768C)
+//I'll help you.<End>
+
+//POINTER #350 @ $D77690 - STRING #350 @ $D76D38
+
+#W24($D77690)
+//Don't do it…<End>
+
+//POINTER #351 @ $D77694 - STRING #351 @ $D76D4F
+
+#W24($D77694)
+//Venoma's Tip<End>
+
+//POINTER #352 @ $D77698 - STRING #352 @ $D76D67
+
+#W24($D77698)
+//Use the Empty Bottle<End>
+
+//POINTER #353 @ $D7769C - STRING #353 @ $D76D8D
+
+#W24($D7769C)
+//Venoma Bud Acquired!<End>
+
+//POINTER #354 @ $D776A0 - STRING #354 @ $D75CD7
+
+#W24($D776A0)
+//Ignore<End>
+
+//POINTER #355 @ $D776A4 - STRING #355 @ $D76DB4
+
+#W24($D776A4)
+//Try it, Cierra!<End>
+
+//POINTER #356 @ $D776A8 - STRING #356 @ $D76DD1
+
+#W24($D776A8)
+//I agree.<End>
+
+//POINTER #357 @ $D776AC - STRING #357 @ $D76DE1
+
+#W24($D776AC)
+//No, you shouldn't…<End>
+
+//POINTER #358 @ $D776B0 - STRING #358 @ $D760B6
+
+#W24($D776B0)
+//Chest<End>
+
+//POINTER #359 @ $D776B4 - STRING #359 @ $D75D76
+
+#W24($D776B4)
+//Open<End>
+
+//POINTER #360 @ $D776B8 - STRING #360 @ $D75D7F
+
+#W24($D776B8)
+//Don't Open<End>
+
+//POINTER #361 @ $D776BC - STRING #361 @ $D75FE1
+
+#W24($D776BC)
+//Open Chest<End>
+
+//POINTER #362 @ $D776C0 - STRING #362 @ $D76E04
+
+#W24($D776C0)
+//Fight!<End>
+
+//POINTER #363 @ $D776C4 - STRING #363 @ $D75D76
+
+#W24($D776C4)
+//Open<End>
+
+//POINTER #364 @ $D776C8 - STRING #364 @ $D75D7F
+
+#W24($D776C8)
+//Don't Open<End>
+
+//POINTER #365 @ $D776CC - STRING #365 @ $D76E11
+
+#W24($D776CC)
+//Gate to Hell<End>
+
+//POINTER #366 @ $D776D0 - STRING #366 @ $D764E0
+
+#W24($D776D0)
+//Ground<End>
+
+//POINTER #367 @ $D776D4 - STRING #367 @ $D76E28
+
+#W24($D776D4)
+//I heard it, too.<End>
+
+//POINTER #368 @ $D776D8 - STRING #368 @ $D76E46
+
+#W24($D776D8)
+//You did?<End>
+
+//POINTER #369 @ $D776DC - STRING #369 @ $D76E56
+
+#W24($D776DC)
+//Well, it wasn't me.<End>
+
+//POINTER #370 @ $D776E0 - STRING #370 @ $D76E7A
+
+#W24($D776E0)
+//Was it Cierra…?<End>
+
+//POINTER #371 @ $D776E4 - STRING #371 @ $D76E97
+
+#W24($D776E4)
+//Icicle<End>
+
+//POINTER #372 @ $D776E8 - STRING #372 @ $D76EA4
+
+#W24($D776E8)
+//Chop<End>
+
+//POINTER #373 @ $D776EC - STRING #373 @ $D76EAD
+
+#W24($D776EC)
+//Cut<End>
+
+//POINTER #374 @ $D776F0 - STRING #374 @ $D76EB4
+
+#W24($D776F0)
+//Icicle Slash!<End>
+
+//POINTER #375 @ $D776F4 - STRING #375 @ $D76162
+
+#W24($D776F4)
+//Touch<End>
+
+//POINTER #376 @ $D776F8 - STRING #376 @ $D75CD7
+
+#W24($D776F8)
+//Ignore<End>
+
+//POINTER #377 @ $D776FC - STRING #377 @ $D76ECE
+
+#W24($D776FC)
+//…Lucky cat.<End>
+
+//POINTER #378 @ $D77700 - STRING #378 @ $D76EE4
+
+#W24($D77700)
+//I'm jealous…<End>
+
+//POINTER #379 @ $D77704 - STRING #379 @ $D76EFC
+
+#W24($D77704)
+//Icicle Piece<End>
+
+//POINTER #380 @ $D77708 - STRING #380 @ $D75F88
+
+#W24($D77708)
+//Take<End>
+
+//POINTER #381 @ $D7770C - STRING #381 @ $D76809
+
+#W24($D7770C)
+//Don't Take<End>
+
+//POINTER #382 @ $D77710 - STRING #382 @ $D76F14
+
+#W24($D77710)
+//Block of Ice<End>
+
+//POINTER #383 @ $D77714 - STRING #383 @ $D8155C
+
+#W24($D77714)
+//Hmmm…<End>
+
+//POINTER #384 @ $D77718 - STRING #384 @ $D7B85A
+
+#W24($D77718)
+//How can you tell?<End>
+
+//POINTER #385 @ $D7771C - STRING #385 @ $D76F2B
+
+#W24($D7771C)
+//Could you make one?<End>
+
+//POINTER #386 @ $D77720 - STRING #386 @ $D76F4F
+
+#W24($D77720)
+//Let's make ice cream!<End>
+
+//POINTER #387 @ $D77724 - STRING #387 @ $D76F77
+
+#W24($D77724)
+//Is it an item?<End>
+
+//POINTER #388 @ $D77728 - STRING #388 @ $D76F91
+
+#W24($D77728)
+//Is it an enemy?<End>
+
+//POINTER #389 @ $D7772C - STRING #389 @ $D76FAD
+
+#W24($D7772C)
+//Is it just more ice?<End>
+
+//POINTER #390 @ $D77730 - STRING #390 @ $D76FD2
+
+#W24($D77730)
+//Crushed Ice<End>
+
+//POINTER #391 @ $D77734 - STRING #391 @ $D76F14
+
+#W24($D77734)
+//Block of Ice<End>
+
+//POINTER #392 @ $D77738 - STRING #392 @ $D76FE8
+
+#W24($D77738)
+//Sword in Ice<End>
+
+//POINTER #393 @ $D7773C - STRING #393 @ $D76FFF
+
+#W24($D7773C)
+//Key to Hell Acquired!<End>
+
+//POINTER #394 @ $D77740 - STRING #394 @ $D77027
+
+#W24($D77740)
+//Leave it to me!<End>
+
+//POINTER #395 @ $D77744 - STRING #395 @ $D77043
+
+#W24($D77744)
+//Destroy<End>
+
+//POINTER #396 @ $D77748 - STRING #396 @ $D77052
+
+#W24($D77748)
+//Melt it, Cierra.<End>
+
+//POINTER #397 @ $D7774C - STRING #397 @ $D77071
+
+#W24($D7774C)
+//Cast<End>
+
+//POINTER #398 @ $D77750 - STRING #398 @ $D7707A
+
+#W24($D77750)
+//Slice it, Serene.<End>
+
+//POINTER #399 @ $D77754 - STRING #399 @ $D7709B
+
+#W24($D77754)
+//Slice<End>
+
+//POINTER #400 @ $D77758 - STRING #400 @ $D770A6
+
+#W24($D77758)
+//Go for it, Lina!<End>
+
+//POINTER #401 @ $D7775C - STRING #401 @ $D770C4
+
+#W24($D7775C)
+//Shoot<End>
+
+//POINTER #402 @ $D77760 - STRING #402 @ $D770CF
+
+#W24($D77760)
+//Purify it, Fia.<End>
+
+//POINTER #403 @ $D77764 - STRING #403 @ $D770EC
+
+#W24($D77764)
+//Pray<End>
+
+//POINTER #404 @ $D77768 - STRING #404 @ $D75CD7
+
+#W24($D77768)
+//Ignore<End>
+
+//POINTER #405 @ $D7776C - STRING #405 @ $D770F5
+
+#W24($D7776C)
+//Destroyed the Ice!<End>
+
+//POINTER #406 @ $D77770 - STRING #406 @ $D75D76
+
+#W24($D77770)
+//Open<End>
+
+//POINTER #407 @ $D77774 - STRING #407 @ $D75D7F
+
+#W24($D77774)
+//Don't Open<End>
+
+//POINTER #408 @ $D77778 - STRING #408 @ $D75E41
+
+#W24($D77778)
+//Magic Icicle Acquired<End>
+
+//POINTER #409 @ $D7777C - STRING #409 @ $D75E6A
+
+#W24($D7777C)
+//Rock Acquired♪<End>

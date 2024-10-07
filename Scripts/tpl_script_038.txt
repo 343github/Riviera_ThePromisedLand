@@ -1,0 +1,22 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($DA4ED4,$DA4F9E)
+
+//GAME NAME:		
+
+//BLOCK #038 NAME:		PART (038)
+
+//POINTER #0 @ $DA4FA0 - STRING #0 @ $DA4ED4
+
+#W24($DA4FA0)
+//The world of chaos,<line>
+//hidden deep beneath<line>
+//Riviera. Here, the King<line>
+//of the Underworld<line>
+//reigns supreme.<End>
+
+//POINTER #1 @ $DA4FA4 - STRING #1 @ $DA4F88
+
+#W24($DA4FA4)
+//Explanation<End>

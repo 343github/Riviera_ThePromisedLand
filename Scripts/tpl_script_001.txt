@@ -1,0 +1,3670 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($CE9914,$CEDC6A)
+
+//GAME NAME:		
+
+//BLOCK #001 NAME:		PART (001)
+
+//POINTER #0 @ $CEDC6C - STRING #0 @ $CE9914
+
+#W24($CEDC6C)
+//T.P.1<End>
+
+//POINTER #1 @ $CEDC70 - STRING #1 @ $CE9919
+
+#W24($CEDC70)
+//Turns Taken<End>
+
+//POINTER #2 @ $CEDC74 - STRING #2 @ $CE992F
+
+#W24($CEDC74)
+//Items Left<End>
+
+//POINTER #3 @ $CEDC78 - STRING #3 @ $CE9943
+
+#W24($CEDC78)
+//Pleased<End>
+
+//POINTER #4 @ $CEDC7C - STRING #4 @ $CE9952
+
+#W24($CEDC7C)
+//Start Practice<End>
+
+//POINTER #5 @ $CEDC80 - STRING #5 @ $CE996E
+
+#W24($CEDC80)
+//Change Enemy<End>
+
+//POINTER #6 @ $CEDC84 - STRING #6 @ $CE9986
+
+#W24($CEDC84)
+//Cancel<End>
+
+//POINTER #7 @ $CEDC88 - STRING #7 @ $CE9993
+
+#W24($CEDC88)
+//Fight<End>
+
+//POINTER #8 @ $CEDC8C - STRING #8 @ $CE999E
+
+#W24($CEDC8C)
+//Run<End>
+
+//POINTER #9 @ $CEDC90 - STRING #9 @ $CE99A5
+
+#W24($CEDC90)
+//Practice<End>
+
+//POINTER #10 @ $CEDC94 - STRING #10 @ $CE99B6
+
+#W24($CEDC94)
+//Fight a quick<line>
+//practice battle.<End>
+
+//POINTER #11 @ $CEDC98 - STRING #11 @ $CE99EF
+
+#W24($CEDC98)
+//Score<End>
+
+//POINTER #12 @ $CEDC9C - STRING #12 @ $CE99FA
+
+#W24($CEDC9C)
+//View the points you've<line>
+//earned so far.<End>
+
+//POINTER #13 @ $CEDCA0 - STRING #13 @ $CE9A3F
+
+#W24($CEDCA0)
+//Item<End>
+
+//POINTER #14 @ $CEDCA4 - STRING #14 @ $CE9A48
+
+#W24($CEDCA4)
+//View the items<line>
+//in your possession.<End>
+
+//POINTER #15 @ $CEDCA8 - STRING #15 @ $CE9A88
+
+#W24($CEDCA8)
+//Battle<End>
+
+//POINTER #16 @ $CEDCAC - STRING #16 @ $CE9A95
+
+#W24($CEDCAC)
+//Items used<line>
+//in battle.<End>
+
+//POINTER #17 @ $CEDCB0 - STRING #17 @ $CE9ABD
+
+#W24($CEDCB0)
+//Event<End>
+
+//POINTER #18 @ $CEDCB4 - STRING #18 @ $CE9AC8
+
+#W24($CEDCB4)
+//Items used<line>
+//for events.<End>
+
+//POINTER #19 @ $CEDCB8 - STRING #19 @ $CE9AF2
+
+#W24($CEDCB8)
+//Status<End>
+
+//POINTER #20 @ $CEDCBC - STRING #20 @ $CE9AFF
+
+#W24($CEDCBC)
+//View a character's<line>
+//stats.<End>
+
+//POINTER #21 @ $CEDCC0 - STRING #21 @ $CE9B2F
+
+#W24($CEDCC0)
+//Suspend<End>
+
+//POINTER #22 @ $CEDCC4 - STRING #22 @ $CE9B3E
+
+#W24($CEDCC4)
+//Save from your<line>
+//current location.<End>
+
+//POINTER #23 @ $CEDCC8 - STRING #23 @ $CE9B7B
+
+#W24($CEDCC8)
+//Position<End>
+
+//POINTER #24 @ $CEDCCC - STRING #24 @ $CE9B8C
+
+#W24($CEDCCC)
+//Change party<line>
+//formation.<End>
+
+//POINTER #25 @ $CEDCD0 - STRING #25 @ $CE999E
+
+#W24($CEDCD0)
+//Run<End>
+
+//POINTER #26 @ $CEDCD4 - STRING #26 @ $CE9BB9
+
+#W24($CEDCD4)
+//Escape from battle.<End>
+
+//POINTER #27 @ $CEDCD8 - STRING #27 @ $CE9A3F
+
+#W24($CEDCD8)
+//Item<End>
+
+//POINTER #28 @ $CEDCDC - STRING #28 @ $CE9A48
+
+#W24($CEDCDC)
+//View the items<line>
+//in your possession.<End>
+
+//POINTER #29 @ $CEDCE0 - STRING #29 @ $CE9BDE
+
+#W24($CEDCE0)
+//Config<End>
+
+//POINTER #30 @ $CEDCE4 - STRING #30 @ $CE9BEB
+
+#W24($CEDCE4)
+//Change various<line>
+//game settings.<End>
+
+//POINTER #31 @ $CEDCE8 - STRING #31 @ $CE9B2F
+
+#W24($CEDCE8)
+//Suspend<End>
+
+//POINTER #32 @ $CEDCEC - STRING #32 @ $CE9B3E
+
+#W24($CEDCEC)
+//Save from your<line>
+//current location.<End>
+
+//POINTER #33 @ $CEDCF0 - STRING #33 @ $CE9C23
+
+#W24($CEDCF0)
+//End<End>
+
+//POINTER #34 @ $CEDCF4 - STRING #34 @ $CE9C2A
+
+#W24($CEDCF4)
+//End the training battle<line>
+//and return to the field.<End>
+
+//POINTER #35 @ $CEDCF8 - STRING #35 @ $CE9C83
+
+#W24($CEDCF8)
+//Rotate Right<End>
+
+//POINTER #36 @ $CEDCFC - STRING #36 @ $CE9C9B
+
+#W24($CEDCFC)
+//Shifts position<line>
+//clockwise.<End>
+
+//POINTER #37 @ $CEDD00 - STRING #37 @ $CE9CCE
+
+#W24($CEDD00)
+//Rotate Left<End>
+
+//POINTER #38 @ $CEDD04 - STRING #38 @ $CE9CE4
+
+#W24($CEDD04)
+//Shifts position<line>
+//counter—clockwise.<End>
+
+//POINTER #39 @ $CEDD08 - STRING #39 @ $CE9D27
+
+#W24($CEDD08)
+//Flip<End>
+
+//POINTER #40 @ $CEDD0C - STRING #40 @ $CE9D30
+
+#W24($CEDD0C)
+//Front and back<line>
+//lines switch.<End>
+
+//POINTER #41 @ $CEDD10 - STRING #41 @ $CE9D65
+
+#W24($CEDD10)
+//Please select your<line>
+//battle formation.<End>
+
+//POINTER #42 @ $CEDD14 - STRING #42 @ $CE9DAA
+
+#W24($CEDD14)
+//Select the characters<line>
+//who will fight.<End>
+
+//POINTER #43 @ $CEDD18 - STRING #43 @ $CE9DF0
+
+#W24($CEDD18)
+//Okay<End>
+
+//POINTER #44 @ $CEDD1C - STRING #44 @ $CE9DF9
+
+#W24($CEDD1C)
+//Redo<End>
+
+//POINTER #45 @ $CEDD20 - STRING #45 @ $CE9E02
+
+#W24($CEDD20)
+//Clear All<End>
+
+//POINTER #46 @ $CEDD24 - STRING #46 @ $CE9E14
+
+#W24($CEDD24)
+//Keep<End>
+
+//POINTER #47 @ $CEDD28 - STRING #47 @ $CE9E1D
+
+#W24($CEDD28)
+//Discard<End>
+
+//POINTER #48 @ $CEDD2C - STRING #48 @ $CE9DF0
+
+#W24($CEDD2C)
+//Okay<End>
+
+//POINTER #49 @ $CEDD30 - STRING #49 @ $CE9E48
+
+#W24($CEDD30)
+//Return<End>
+
+//POINTER #50 @ $CEDD34 - STRING #50 @ $CE9E55
+
+#W24($CEDD34)
+//Retry<End>
+
+//POINTER #51 @ $CEDD38 - STRING #51 @ $CE9E60
+
+#W24($CEDD38)
+//Quit Game<End>
+
+//POINTER #52 @ $CEDD3C - STRING #52 @ $CE9E72
+
+#W24($CEDD3C)
+//Are you sure you want<line>
+//to suspend your game?<End>
+
+//POINTER #53 @ $CEDD40 - STRING #53 @ $CE9DF0
+
+#W24($CEDD40)
+//Okay<End>
+
+//POINTER #54 @ $CEDD44 - STRING #54 @ $CE9EC1
+
+#W24($CEDD44)
+//No<End>
+
+//POINTER #55 @ $CEDD48 - STRING #55 @ $CE9EC6
+
+#W24($CEDD48)
+//Suspend data saved.<line>
+//<line>
+//To load this data, select CONTINUE<line>
+//at the title screen<line>
+//& load the Suspend Data.<End>
+
+//POINTER #56 @ $CEDD4C - STRING #56 @ $CE9F7D
+
+#W24($CEDD4C)
+//You don't have enough<line>
+//Over Drive to use the Skill!<End>
+
+//POINTER #57 @ $CEDD50 - STRING #57 @ $CE9FD9
+
+#W24($CEDD50)
+//Characters other than<line>
+//Ein can't change positions!<End>
+
+//POINTER #58 @ $CEDD54 - STRING #58 @ $CEA036
+
+#W24($CEDD54)
+//Only 1 position shift<line>
+//per turn!<End>
+
+//POINTER #59 @ $CEDD58 - STRING #59 @ $CEA070
+
+#W24($CEDD58)
+//Over Drive bar is shattered!<End>
+
+//POINTER #60 @ $CEDD5C - STRING #60 @ $CEA0A5
+
+#W24($CEDD5C)
+//There is no target<line>
+//for this skill!<End>
+
+//POINTER #61 @ $CEDD60 - STRING #61 @ $CEA0E4
+
+#W24($CEDD60)
+//Inventory full!<line>
+//Select an item to discard.<End>
+
+//POINTER #62 @ $CEDD64 - STRING #62 @ $CEA133
+
+#W24($CEDD64)
+//Ein must participate in battle!<End>
+
+//POINTER #63 @ $CEDD68 - STRING #63 @ $CEA16E
+
+#W24($CEDD68)
+//You can't escape!<End>
+
+//POINTER #64 @ $CEDD6C - STRING #64 @ $CEA18F
+
+#W24($CEDD6C)
+//Over Drive bar must be at<line>
+//LV1 or higher!<End>
+
+//POINTER #65 @ $CEDD70 - STRING #65 @ $CEA1D8
+
+#W24($CEDD70)
+//Over Drive bar must be at<line>
+//LV2 or higher!<End>
+
+//POINTER #66 @ $CEDD74 - STRING #66 @ $CEA221
+
+#W24($CEDD74)
+//Over Drive bar must be at<line>
+//LV3!<End>
+
+//POINTER #67 @ $CEDD78 - STRING #67 @ $CEA258
+
+#W24($CEDD78)
+//Not enough TP!<End>
+
+//POINTER #68 @ $CEDD7C - STRING #68 @ $CEA273
+
+#W24($CEDD7C)
+//Cannot practice!<End>
+
+//POINTER #69 @ $CEDD80 - STRING #69 @ $CEA293
+
+#W24($CEDD80)
+//Enemy/Near<End>
+
+//POINTER #70 @ $CEDD84 - STRING #70 @ $CEA2A8
+
+#W24($CEDD84)
+//Enemy/Far<End>
+
+//POINTER #71 @ $CEDD88 - STRING #71 @ $CEA2BB
+
+#W24($CEDD88)
+//Enemy/Front<End>
+
+//POINTER #72 @ $CEDD8C - STRING #72 @ $CEA2D2
+
+#W24($CEDD8C)
+//Enemy/Back<End>
+
+//POINTER #73 @ $CEDD90 - STRING #73 @ $CEA2E7
+
+#W24($CEDD90)
+//Enemy/Pierce/Near<End>
+
+//POINTER #74 @ $CEDD94 - STRING #74 @ $CEA30A
+
+#W24($CEDD94)
+//All Enemies<End>
+
+//POINTER #75 @ $CEDD98 - STRING #75 @ $CEA320
+
+#W24($CEDD98)
+//Random Enemy/Front<End>
+
+//POINTER #76 @ $CEDD9C - STRING #76 @ $CEA344
+
+#W24($CEDD9C)
+//Random Enemy A<End>
+
+//POINTER #77 @ $CEDDA0 - STRING #77 @ $CEA35F
+
+#W24($CEDDA0)
+//Random Enemy B<End>
+
+//POINTER #78 @ $CEDDA4 - STRING #78 @ $CEA37A
+
+#W24($CEDDA4)
+//Enemy/High HP<End>
+
+//POINTER #79 @ $CEDDA8 - STRING #79 @ $CEA394
+
+#W24($CEDDA8)
+//Enemy/Low HP<End>
+
+//POINTER #80 @ $CEDDAC - STRING #80 @ $CEA3AC
+
+#W24($CEDDAC)
+//Enemy/Low WT<End>
+
+//POINTER #81 @ $CEDDB0 - STRING #81 @ $CEA3C4
+
+#W24($CEDDB0)
+//Enemy/V Shape<End>
+
+//POINTER #82 @ $CEDDB4 - STRING #82 @ $CEA3DE
+
+#W24($CEDDB4)
+//Enemy/A Shape<End>
+
+//POINTER #83 @ $CEDDB8 - STRING #83 @ $CEA3F8
+
+#W24($CEDDB8)
+//Self<End>
+
+//POINTER #84 @ $CEDDBC - STRING #84 @ $CEA401
+
+#W24($CEDDBC)
+//Self/Area Nearby<End>
+
+//POINTER #85 @ $CEDDC0 - STRING #85 @ $CEA421
+
+#W24($CEDDC0)
+//Self/Row<End>
+
+//POINTER #86 @ $CEDDC4 - STRING #86 @ $CEA432
+
+#W24($CEDDC4)
+//Self/Other Row<End>
+
+//POINTER #87 @ $CEDDC8 - STRING #87 @ $CEA44E
+
+#W24($CEDDC8)
+//All Allies<End>
+
+//POINTER #88 @ $CEDDCC - STRING #88 @ $CEA320
+
+#W24($CEDDCC)
+//Random Enemy/Front<End>
+
+//POINTER #89 @ $CEDDD0 - STRING #89 @ $CEA462
+
+#W24($CEDDD0)
+//Random Ally<End>
+
+//POINTER #90 @ $CEDDD4 - STRING #90 @ $CEA478
+
+#W24($CEDDD4)
+//Ally/Low HP<End>
+
+//POINTER #91 @ $CEDDD8 - STRING #91 @ $CEA48E
+
+#W24($CEDDD8)
+//Ally/High WT<End>
+
+//POINTER #92 @ $CEDDDC - STRING #92 @ $CEA478
+
+#W24($CEDDDC)
+//Ally/Low HP<End>
+
+//POINTER #93 @ $CEDDE0 - STRING #93 @ $CEA4A6
+
+#W24($CEDDE0)
+//Ally/High HP<End>
+
+//POINTER #94 @ $CEDDE4 - STRING #94 @ $CEA4BE
+
+#W24($CEDDE4)
+//Over Drive<End>
+
+//POINTER #95 @ $CEDDE8 - STRING #95 @ $CEA4D2
+
+#W24($CEDDE8)
+//Rage Meter<End>
+
+//POINTER #96 @ $CEDDEC - STRING #96 @ $CEA4E6
+
+#W24($CEDDEC)
+//——<End>
+
+//POINTER #97 @ $CEDDF0 - STRING #97 @ $CEA4EB
+
+#W24($CEDDF0)
+//FIR damage<End>
+
+//POINTER #98 @ $CEDDF4 - STRING #98 @ $CEA4FF
+
+#W24($CEDDF4)
+//ICE damage<End>
+
+//POINTER #99 @ $CEDDF8 - STRING #99 @ $CEA513
+
+#W24($CEDDF8)
+//LIT damage<End>
+
+//POINTER #100 @ $CEDDFC - STRING #100 @ $CEA527
+
+#W24($CEDDFC)
+//HLY damage<End>
+
+//POINTER #101 @ $CEDE00 - STRING #101 @ $CEA53B
+
+#W24($CEDE00)
+//FIR damage/1 Row<End>
+
+//POINTER #102 @ $CEDE04 - STRING #102 @ $CEA55A
+
+#W24($CEDE04)
+//ICE damage/1 Row<End>
+
+//POINTER #103 @ $CEDE08 - STRING #103 @ $CEA579
+
+#W24($CEDE08)
+//LIT damage/1 Row<End>
+
+//POINTER #104 @ $CEDE0C - STRING #104 @ $CEA598
+
+#W24($CEDE0C)
+//HLY damage/1 Row<End>
+
+//POINTER #105 @ $CEDE10 - STRING #105 @ $CEA5B7
+
+#W24($CEDE10)
+//Attack with previous property<End>
+
+//POINTER #106 @ $CEDE14 - STRING #106 @ $CEA5EF
+
+#W24($CEDE14)
+//May attack self<End>
+
+//POINTER #107 @ $CEDE18 - STRING #107 @ $CEA60C
+
+#W24($CEDE18)
+//Gain HP from damage dealt<End>
+
+//POINTER #108 @ $CEDE1C - STRING #108 @ $CEA63B
+
+#W24($CEDE1C)
+//All gain HP from damage dealt<End>
+
+//POINTER #109 @ $CEDE20 - STRING #109 @ $CEA671
+
+#W24($CEDE20)
+//Hit additional targets for less damage<End>
+
+//POINTER #110 @ $CEDE24 - STRING #110 @ $CEA6B9
+
+#W24($CEDE24)
+//Lose HP from damage dealt<End>
+
+//POINTER #111 @ $CEDE28 - STRING #111 @ $CEA6E8
+
+#W24($CEDE28)
+//Ignore enemy properties<End>
+
+//POINTER #112 @ $CEDE2C - STRING #112 @ $CEA715
+
+#W24($CEDE2C)
+//Deal more damage at low HP<End>
+
+//POINTER #113 @ $CEDE30 - STRING #113 @ $CEA745
+
+#W24($CEDE30)
+//Deals <XX>HP worth of damage<End>
+
+//POINTER #114 @ $CEDE34 - STRING #114 @ $CEA777
+
+#W24($CEDE34)
+//Variable hit amount (<XX>∼<YY> hits)<End>
+
+//POINTER #115 @ $CEDE38 - STRING #115 @ $CEA7B0
+
+#W24($CEDE38)
+//Unavoidable<End>
+
+//POINTER #116 @ $CEDE3C - STRING #116 @ $CEA7C7
+
+#W24($CEDE3C)
+//Unblockable<End>
+
+//POINTER #117 @ $CEDE40 - STRING #117 @ $CEA7DE
+
+#W24($CEDE40)
+//Unavoidable/unblockable<End>
+
+//POINTER #118 @ $CEDE44 - STRING #118 @ $CEA80D
+
+#W24($CEDE44)
+//<XX>hance enemy will vanish<End>
+
+//POINTER #119 @ $CEDE48 - STRING #119 @ $CEA840
+
+#W24($CEDE48)
+//Low accuracy<End>
+
+//POINTER #120 @ $CEDE4C - STRING #120 @ $CEA858
+
+#W24($CEDE4C)
+//Very low accuracy<End>
+
+//POINTER #121 @ $CEDE50 - STRING #121 @ $CEA879
+
+#W24($CEDE50)
+//Shatters Over Drive bar<End>
+
+//POINTER #122 @ $CEDE54 - STRING #122 @ $CEA8A5
+
+#W24($CEDE54)
+//Lowers item's endurance<End>
+
+//POINTER #123 @ $CEDE58 - STRING #123 @ $CEA8D2
+
+#W24($CEDE58)
+//Resets bonus statuses<End>
+
+//POINTER #124 @ $CEDE5C - STRING #124 @ $CEA8FB
+
+#W24($CEDE5C)
+//Invalid against flying enemies<End>
+
+//POINTER #125 @ $CEDE60 - STRING #125 @ $CEA935
+
+#W24($CEDE60)
+//Invalid against undead enemies<End>
+
+//POINTER #126 @ $CEDE64 - STRING #126 @ $CEA96F
+
+#W24($CEDE64)
+//Effective against flying enemies<End>
+
+//POINTER #127 @ $CEDE68 - STRING #127 @ $CEA9AD
+
+#W24($CEDE68)
+//Effective against undead enemies<End>
+
+//POINTER #128 @ $CEDE6C - STRING #128 @ $CEA9EB
+
+#W24($CEDE6C)
+//Effective against dragons<End>
+
+//POINTER #129 @ $CEDE70 - STRING #129 @ $CEAA1C
+
+#W24($CEDE70)
+//Effective against beasts<End>
+
+//POINTER #130 @ $CEDE74 - STRING #130 @ $CEAA4B
+
+#W24($CEDE74)
+//Effective against humanoids<End>
+
+//POINTER #131 @ $CEDE78 - STRING #131 @ $CEAA80
+
+#W24($CEDE78)
+//Inflicts HEAT status<End>
+
+//POINTER #132 @ $CEDE7C - STRING #132 @ $CEAAA7
+
+#W24($CEDE7C)
+//Inflicts FREEZE status<End>
+
+//POINTER #133 @ $CEDE80 - STRING #133 @ $CEAAD2
+
+#W24($CEDE80)
+//Inflicts DAZZLE status<End>
+
+//POINTER #134 @ $CEDE84 - STRING #134 @ $CEAAFD
+
+#W24($CEDE84)
+//Inflicts POISON status<End>
+
+//POINTER #135 @ $CEDE88 - STRING #135 @ $CEAB28
+
+#W24($CEDE88)
+//Inflicts PURIFY status<End>
+
+//POINTER #136 @ $CEDE8C - STRING #136 @ $CEAB53
+
+#W24($CEDE8C)
+//Inflicts STONE status<End>
+
+//POINTER #137 @ $CEDE90 - STRING #137 @ $CEAB7C
+
+#W24($CEDE90)
+//Inflicts SLEEP status<End>
+
+//POINTER #138 @ $CEDE94 - STRING #138 @ $CEABA5
+
+#W24($CEDE94)
+//Raises PHY RES by <XX> for <YY> counts<End>
+
+//POINTER #139 @ $CEDE98 - STRING #139 @ $CEABDF
+
+#W24($CEDE98)
+//Raises FIR RES by <XX> for <YY> counts<End>
+
+//POINTER #140 @ $CEDE9C - STRING #140 @ $CEAC19
+
+#W24($CEDE9C)
+//Raises ICE RES by <XX> for <YY> counts<End>
+
+//POINTER #141 @ $CEDEA0 - STRING #141 @ $CEAC53
+
+#W24($CEDEA0)
+//Raises LIT RES by <XX> for <YY> counts<End>
+
+//POINTER #142 @ $CEDEA4 - STRING #142 @ $CEAC8D
+
+#W24($CEDEA4)
+//Raises DRK RES by <XX> for <YY> counts<End>
+
+//POINTER #143 @ $CEDEA8 - STRING #143 @ $CEACC7
+
+#W24($CEDEA8)
+//Raises STR by <XX> for <YY> counts<End>
+
+//POINTER #144 @ $CEDEAC - STRING #144 @ $CEACFA
+
+#W24($CEDEAC)
+//Raises MGC by <XX> for <YY> counts<End>
+
+//POINTER #145 @ $CEDEB0 - STRING #145 @ $CEAD2D
+
+#W24($CEDEB0)
+//Raises AGL by <XX> for <YY> counts<End>
+
+//POINTER #146 @ $CEDEB4 - STRING #146 @ $CEAD60
+
+#W24($CEDEB4)
+//Raises VIT by <XX> for <YY> counts<End>
+
+//POINTER #147 @ $CEDEB8 - STRING #147 @ $CEAD93
+
+#W24($CEDEB8)
+//Raises GRD by <XX> for <YY> counts<End>
+
+//POINTER #148 @ $CEDEBC - STRING #148 @ $CEADC6
+
+#W24($CEDEBC)
+//Raises REC by <XX> for <YY> counts<End>
+
+//POINTER #149 @ $CEDEC0 - STRING #149 @ $CEADF9
+
+#W24($CEDEC0)
+//Doubles ACC for <YY> counts<End>
+
+//POINTER #150 @ $CEDEC4 - STRING #150 @ $CEAE26
+
+#W24($CEDEC4)
+//Cures all ailments<End>
+
+//POINTER #151 @ $CEDEC8 - STRING #151 @ $CEAE49
+
+#W24($CEDEC8)
+//Recovers <XX>33262473746f MAX HP<End>
+
+//POINTER #152 @ $CEDECC - STRING #152 @ $CEAE70
+
+#W24($CEDECC)
+//Prevents ailments<End>
+
+//POINTER #153 @ $CEDED0 - STRING #153 @ $CEAE92
+
+#W24($CEDED0)
+//Raises STR in exchange for HP<End>
+
+//POINTER #154 @ $CEDED4 - STRING #154 @ $CEAEC8
+
+#W24($CEDED4)
+//Raises MGC in exchange for HP<End>
+
+//POINTER #155 @ $CEDED8 - STRING #155 @ $CEAEFE
+
+#W24($CEDED8)
+//Raises AGL in exchange for HP<End>
+
+//POINTER #156 @ $CEDEDC - STRING #156 @ $CEAF34
+
+#W24($CEDEDC)
+//Damage is fixed at <XX><End>
+
+//POINTER #157 @ $CEDEE0 - STRING #157 @ $CEAF59
+
+#W24($CEDEE0)
+//Damage is fixed around <XX>∼<YY><End>
+
+//POINTER #158 @ $CEDEE4 - STRING #158 @ $CEAF8A
+
+#W24($CEDEE4)
+//Refills your HP with an ally's HP<End>
+
+//POINTER #159 @ $CEDEE8 - STRING #159 @ $CEAFC7
+
+#W24($CEDEE8)
+//Lowers WAIT by <XX><End>
+
+//POINTER #160 @ $CEDEEC - STRING #160 @ $CEAFE5
+
+#W24($CEDEEC)
+//Increases WAIT by <XX><End>
+
+//POINTER #161 @ $CEDEF0 - STRING #161 @ $CEB009
+
+#W24($CEDEF0)
+//Inverts WAIT bar<End>
+
+//POINTER #162 @ $CEDEF4 - STRING #162 @ $CEB028
+
+#W24($CEDEF4)
+//Fills <XX> level(s) of Over Drive bar<End>
+
+//POINTER #163 @ $CEDEF8 - STRING #163 @ $CEB067
+
+#W24($CEDEF8)
+//Lowers Rage meter by <XX><End>
+
+//POINTER #164 @ $CEDEFC - STRING #164 @ $CEB092
+
+#W24($CEDEFC)
+//Shuffles formation<End>
+
+//POINTER #165 @ $CEDF00 - STRING #165 @ $CEB0B6
+
+#W24($CEDF00)
+//Front and back lines switch place<End>
+
+//POINTER #166 @ $CEDF04 - STRING #166 @ $CEB0F4
+
+#W24($CEDF04)
+//Forced into back line<End>
+
+//POINTER #167 @ $CEDF08 - STRING #167 @ $CEB11C
+
+#W24($CEDF08)
+//Summons a new character<End>
+
+//POINTER #168 @ $CEDF0C - STRING #168 @ $CEB148
+
+#W24($CEDF0C)
+//Splits into 2 characters<End>
+
+//POINTER #169 @ $CEDF10 - STRING #169 @ $CEB176
+
+#W24($CEDF10)
+//Steals 1 item<End>
+
+//POINTER #170 @ $CEDF14 - STRING #170 @ $CEB18F
+
+#W24($CEDF14)
+//Sacrifices self for major damage<End>
+
+//POINTER #171 @ $CEDF18 - STRING #171 @ $CEB1CC
+
+#W24($CEDF18)
+//Charges power<End>
+
+//POINTER #172 @ $CEDF1C - STRING #172 @ $CEB1E6
+
+#W24($CEDF1C)
+//Changes character properties<End>
+
+//POINTER #173 @ $CEDF20 - STRING #173 @ $CEB21D
+
+#W24($CEDF20)
+//Escape from battle<End>
+
+//POINTER #174 @ $CEDF24 - STRING #174 @ $CEB240
+
+#W24($CEDF24)
+//Nothing happens<End>
+
+//POINTER #175 @ $CEDF28 - STRING #175 @ $CEB25E
+
+#W24($CEDF28)
+//Changes battle stats<End>
+
+//POINTER #176 @ $CEDF2C - STRING #176 @ $CEB285
+
+#W24($CEDF2C)
+//Awakens without Grim Angel power<End>
+
+//POINTER #177 @ $CEDF30 - STRING #177 @ $CEB2C2
+
+#W24($CEDF30)
+//Seth—Rah's mode change<End>
+
+//POINTER #178 @ $CEDF34 - STRING #178 @ $CEB2ED
+
+#W24($CEDF34)
+//Item breaks after use<End>
+
+//POINTER #179 @ $CEDF38 - STRING #179 @ $CEB315
+
+#W24($CEDF38)
+//DRK damage<End>
+
+//POINTER #180 @ $CEDF3C - STRING #180 @ $CEB329
+
+#W24($CEDF3C)
+//DRK damage (1 Row)<End>
+
+//POINTER #181 @ $CEDF40 - STRING #181 @ $CEB34B
+
+#W24($CEDF40)
+//Raises HLY RES by <XX><End>
+
+//POINTER #182 @ $CEDF44 - STRING #182 @ $CEB36E
+
+#W24($CEDF44)
+//Raises last property by <XX><End>
+
+//POINTER #183 @ $CEDF48 - STRING #183 @ $CEB39D
+
+#W24($CEDF48)
+//Blows out of battle<End>
+
+//POINTER #184 @ $CEDF4C - STRING #184 @ $CEB3C1
+
+#W24($CEDF4C)
+//Death's mode change<End>
+
+//POINTER #185 @ $CEDF50 - STRING #185 @ $CEB3E6
+
+#W24($CEDF50)
+//Changes to a different item<End>
+
+//POINTER #186 @ $CEDF54 - STRING #186 @ $CEB419
+
+#W24($CEDF54)
+//Last strike hits all<End>
+
+//POINTER #187 @ $CEDF58 - STRING #187 @ $CEB43F
+
+#W24($CEDF58)
+//Last strike hits the area<End>
+
+//POINTER #188 @ $CEDF5C - STRING #188 @ $CEB46E
+
+#W24($CEDF5C)
+//Last strike hits front line<End>
+
+//POINTER #189 @ $CEDF60 - STRING #189 @ $CEB4A1
+
+#W24($CEDF60)
+//Last strike pierces<End>
+
+//POINTER #190 @ $CEDF64 - STRING #190 @ $CEB4C6
+
+#W24($CEDF64)
+//Last 2 strikes hit all<End>
+
+//POINTER #191 @ $CEDF68 - STRING #191 @ $CEB4EF
+
+#W24($CEDF68)
+//Last 2 strikes hit the area<End>
+
+//POINTER #192 @ $CEDF6C - STRING #192 @ $CEB521
+
+#W24($CEDF6C)
+//Last 2 strikes hit front line<End>
+
+//POINTER #193 @ $CEDF70 - STRING #193 @ $CEB557
+
+#W24($CEDF70)
+//Last 2 strikes pierce<End>
+
+//POINTER #194 @ $CEDF74 - STRING #194 @ $CEB57F
+
+#W24($CEDF74)
+//Last 3 strikes hit all<End>
+
+//POINTER #195 @ $CEDF78 - STRING #195 @ $CEB5A8
+
+#W24($CEDF78)
+//Last 3 strikes hit the area<End>
+
+//POINTER #196 @ $CEDF7C - STRING #196 @ $CEB5DA
+
+#W24($CEDF7C)
+//Last 3 strikes hit front line<End>
+
+//POINTER #197 @ $CEDF80 - STRING #197 @ $CEB610
+
+#W24($CEDF80)
+//Last 3 strikes pierce<End>
+
+//POINTER #198 @ $CEDF84 - STRING #198 @ $CEB638
+
+#W24($CEDF84)
+//STONE<End>
+
+//POINTER #199 @ $CEDF88 - STRING #199 @ $CEB643
+
+#W24($CEDF88)
+//SLEEP<End>
+
+//POINTER #200 @ $CEDF8C - STRING #200 @ $CEB64E
+
+#W24($CEDF8C)
+//HEAT<End>
+
+//POINTER #201 @ $CEDF90 - STRING #201 @ $CEB657
+
+#W24($CEDF90)
+//FREEZE<End>
+
+//POINTER #202 @ $CEDF94 - STRING #202 @ $CEB664
+
+#W24($CEDF94)
+//DAZZLE<End>
+
+//POINTER #203 @ $CEDF98 - STRING #203 @ $CEB671
+
+#W24($CEDF98)
+//POISON<End>
+
+//POINTER #204 @ $CEDF9C - STRING #204 @ $CEB67E
+
+#W24($CEDF9C)
+//PURIFY<End>
+
+//POINTER #205 @ $CEDFA0 - STRING #205 @ $CEB68B
+
+#W24($CEDFA0)
+//PHY damage↓<End>
+
+//POINTER #206 @ $CEDFA4 - STRING #206 @ $CEB6A1
+
+#W24($CEDFA4)
+//FIR damage↓<End>
+
+//POINTER #207 @ $CEDFA8 - STRING #207 @ $CEB6B7
+
+#W24($CEDFA8)
+//ICE damage↓<End>
+
+//POINTER #208 @ $CEDFAC - STRING #208 @ $CEB6CD
+
+#W24($CEDFAC)
+//LIT damage↓<End>
+
+//POINTER #209 @ $CEDFB0 - STRING #209 @ $CEB6E3
+
+#W24($CEDFB0)
+//DRK damage↓<End>
+
+//POINTER #210 @ $CEDFB4 - STRING #210 @ $CEB6F9
+
+#W24($CEDFB4)
+//PHY attack↑<End>
+
+//POINTER #211 @ $CEDFB8 - STRING #211 @ $CEB70F
+
+#W24($CEDFB8)
+//MGC attack↑<End>
+
+//POINTER #212 @ $CEDFBC - STRING #212 @ $CEB725
+
+#W24($CEDFBC)
+//AGL↑<End>
+
+//POINTER #213 @ $CEDFC0 - STRING #213 @ $CEB72E
+
+#W24($CEDFC0)
+//VIT↑<End>
+
+//POINTER #214 @ $CEDFC4 - STRING #214 @ $CEB737
+
+#W24($CEDFC4)
+//GRD↑<End>
+
+//POINTER #215 @ $CEDFC8 - STRING #215 @ $CEB740
+
+#W24($CEDFC8)
+//REC↑<End>
+
+//POINTER #216 @ $CEDFCC - STRING #216 @ $CEB749
+
+#W24($CEDFCC)
+//HLY damage↓<End>
+
+//POINTER #217 @ $CEDFD0 - STRING #217 @ $CEB75F
+
+#W24($CEDFD0)
+//was stolen!<End>
+
+//POINTER #218 @ $CEDFD4 - STRING #218 @ $CEB775
+
+#W24($CEDFD4)
+//ran away!<End>
+
+//POINTER #219 @ $CEDFD8 - STRING #219 @ $CEB787
+
+#W24($CEDFD8)
+//Endurance dropped by <XX>!<End>
+
+//POINTER #220 @ $CEDFDC - STRING #220 @ $CEB7B3
+
+#W24($CEDFDC)
+//was summoned!<End>
+
+//POINTER #221 @ $CEDFE0 - STRING #221 @ $CEB7CD
+
+#W24($CEDFE0)
+//didn't appear!<End>
+
+//POINTER #222 @ $CEDFE4 - STRING #222 @ $CEB7E9
+
+#W24($CEDFE4)
+//split!<End>
+
+//POINTER #223 @ $CEDFE8 - STRING #223 @ $CEB7F6
+
+#W24($CEDFE8)
+//failed to split!<End>
+
+//POINTER #224 @ $CEDFEC - STRING #224 @ $CEB815
+
+#W24($CEDFEC)
+//exploded!<End>
+
+//POINTER #225 @ $CEDFF0 - STRING #225 @ $CEB828
+
+#W24($CEDFF0)
+//is standing there…<End>
+
+//POINTER #226 @ $CEDFF4 - STRING #226 @ $CEB84B
+
+#W24($CEDFF4)
+//is gathering power!<End>
+
+//POINTER #227 @ $CEDFF8 - STRING #227 @ $CEB870
+
+#W24($CEDFF8)
+//is affected by HEAT!<End>
+
+//POINTER #228 @ $CEDFFC - STRING #228 @ $CEB896
+
+#W24($CEDFFC)
+//is affected by FREEZE!<End>
+
+//POINTER #229 @ $CEE000 - STRING #229 @ $CEB8C0
+
+#W24($CEE000)
+//is affected by DAZZLE!<End>
+
+//POINTER #230 @ $CEE004 - STRING #230 @ $CEB8EA
+
+#W24($CEE004)
+//is affected by PURIFY!<End>
+
+//POINTER #231 @ $CEE008 - STRING #231 @ $CEB914
+
+#W24($CEE008)
+//is affected by POISON!<End>
+
+//POINTER #232 @ $CEE00C - STRING #232 @ $CEB93E
+
+#W24($CEE00C)
+//is affected by SLEEP!<End>
+
+//POINTER #233 @ $CEE010 - STRING #233 @ $CEB966
+
+#W24($CEE010)
+//is affected by STONE!<End>
+
+//POINTER #234 @ $CEE014 - STRING #234 @ $CEB98E
+
+#W24($CEE014)
+//PHY RES up <XX>!<End>
+
+//POINTER #235 @ $CEE018 - STRING #235 @ $CEB9A6
+
+#W24($CEE018)
+//FIR RES up <XX>!<End>
+
+//POINTER #236 @ $CEE01C - STRING #236 @ $CEB9BE
+
+#W24($CEE01C)
+//ICE RES up <XX>!<End>
+
+//POINTER #237 @ $CEE020 - STRING #237 @ $CEB9D6
+
+#W24($CEE020)
+//LIT RES up <XX>!<End>
+
+//POINTER #238 @ $CEE024 - STRING #238 @ $CEB9EE
+
+#W24($CEE024)
+//DRK RES up <XX>!<End>
+
+//POINTER #239 @ $CEE028 - STRING #239 @ $CEBA06
+
+#W24($CEE028)
+//HLY RES up <XX>!<End>
+
+//POINTER #240 @ $CEE02C - STRING #240 @ $CEBA1E
+
+#W24($CEE02C)
+//STR up <XX>!<End>
+
+//POINTER #241 @ $CEE030 - STRING #241 @ $CEBA2F
+
+#W24($CEE030)
+//MGC up <XX>!<End>
+
+//POINTER #242 @ $CEE034 - STRING #242 @ $CEBA40
+
+#W24($CEE034)
+//AGL up <XX>!<End>
+
+//POINTER #243 @ $CEE038 - STRING #243 @ $CEBA51
+
+#W24($CEE038)
+//VIT up <XX>!<End>
+
+//POINTER #244 @ $CEE03C - STRING #244 @ $CEBA62
+
+#W24($CEE03C)
+//GRD up <XX>!<End>
+
+//POINTER #245 @ $CEE040 - STRING #245 @ $CEBA73
+
+#W24($CEE040)
+//REC up <XX>!<End>
+
+//POINTER #246 @ $CEE044 - STRING #246 @ $CEBA84
+
+#W24($CEE044)
+//PHY RES up <XX>!<End>
+
+//POINTER #247 @ $CEE048 - STRING #247 @ $CEBA9C
+
+#W24($CEE048)
+//FIR RES up <XX>!<End>
+
+//POINTER #248 @ $CEE04C - STRING #248 @ $CEBAB4
+
+#W24($CEE04C)
+//ICE RES up <XX>!<End>
+
+//POINTER #249 @ $CEE050 - STRING #249 @ $CEBACC
+
+#W24($CEE050)
+//LIT RES up <XX>!<End>
+
+//POINTER #250 @ $CEE054 - STRING #250 @ $CEBAE4
+
+#W24($CEE054)
+//DRK RES up <XX>!<End>
+
+//POINTER #251 @ $CEE058 - STRING #251 @ $CEBAFC
+
+#W24($CEE058)
+//HLY RES up <XX>!<End>
+
+//POINTER #252 @ $CEE05C - STRING #252 @ $CEBB14
+
+#W24($CEE05C)
+//STR up <XX>!<End>
+
+//POINTER #253 @ $CEE060 - STRING #253 @ $CEBB25
+
+#W24($CEE060)
+//MGC up <XX>!<End>
+
+//POINTER #254 @ $CEE064 - STRING #254 @ $CEBB36
+
+#W24($CEE064)
+//AGL up <XX>!<End>
+
+//POINTER #255 @ $CEE068 - STRING #255 @ $CEBB47
+
+#W24($CEE068)
+//VIT up <XX>!<End>
+
+//POINTER #256 @ $CEE06C - STRING #256 @ $CEBB58
+
+#W24($CEE06C)
+//GRD up <XX>!<End>
+
+//POINTER #257 @ $CEE070 - STRING #257 @ $CEBB69
+
+#W24($CEE070)
+//REC up <XX>!<End>
+
+//POINTER #258 @ $CEE074 - STRING #258 @ $CEBB7A
+
+#W24($CEE074)
+//ACC is at MAX!<End>
+
+//POINTER #259 @ $CEE078 - STRING #259 @ $CEBB94
+
+#W24($CEE078)
+//Ailment RES is at MAX!<End>
+
+//POINTER #260 @ $CEE07C - STRING #260 @ $CEBBBD
+
+#W24($CEE07C)
+//recovered <XX> HP!<End>
+
+//POINTER #261 @ $CEE080 - STRING #261 @ $CEBBDA
+
+#W24($CEE080)
+//HP absorbed!<End>
+
+//POINTER #262 @ $CEE084 - STRING #262 @ $CEBBF2
+
+#W24($CEE084)
+//Property became PHY!<End>
+
+//POINTER #263 @ $CEE088 - STRING #263 @ $CEBC19
+
+#W24($CEE088)
+//Property became FIR!<End>
+
+//POINTER #264 @ $CEE08C - STRING #264 @ $CEBC40
+
+#W24($CEE08C)
+//Property became ICE!<End>
+
+//POINTER #265 @ $CEE090 - STRING #265 @ $CEBC67
+
+#W24($CEE090)
+//Property became LIT!<End>
+
+//POINTER #266 @ $CEE094 - STRING #266 @ $CEBC8E
+
+#W24($CEE094)
+//Property became DRK!<End>
+
+//POINTER #267 @ $CEE098 - STRING #267 @ $CEBCB5
+
+#W24($CEE098)
+//Property became HLY!<End>
+
+//POINTER #268 @ $CEE09C - STRING #268 @ $CEBCDC
+
+#W24($CEE09C)
+//<line>
+//Effects canceled!<End>
+
+//POINTER #269 @ $CEE0A0 - STRING #269 @ $CEBCFF
+
+#W24($CEE0A0)
+//Ailments were cured!<End>
+
+//POINTER #270 @ $CEE0A4 - STRING #270 @ $CEBD26
+
+#W24($CEE0A4)
+//lost HP and…<End>
+
+//POINTER #271 @ $CEE0A8 - STRING #271 @ $CEBD3D
+
+#W24($CEE0A8)
+//recovered HP!<End>
+
+//POINTER #272 @ $CEE0AC - STRING #272 @ $CEBD57
+
+#W24($CEE0AC)
+//WAIT — <XX>!<End>
+
+//POINTER #273 @ $CEE0B0 - STRING #273 @ $CEBD68
+
+#W24($CEE0B0)
+//WAIT + <XX>!<End>
+
+//POINTER #274 @ $CEE0B4 - STRING #274 @ $CEBD79
+
+#W24($CEE0B4)
+//WAIT inverted!<End>
+
+//POINTER #275 @ $CEE0B8 - STRING #275 @ $CEBD95
+
+#W24($CEE0B8)
+//The Over Drive bar<End>
+
+//POINTER #276 @ $CEE0BC - STRING #276 @ $CEBDB7
+
+#W24($CEE0BC)
+//shattered!<End>
+
+//POINTER #277 @ $CEE0C0 - STRING #277 @ $CEBDCC
+
+#W24($CEE0C0)
+//gained <XX> Lv!<End>
+
+//POINTER #278 @ $CEE0C4 - STRING #278 @ $CEA4D2
+
+#W24($CEE0C4)
+//Rage Meter<End>
+
+//POINTER #279 @ $CEE0C8 - STRING #279 @ $CEBDE3
+
+#W24($CEE0C8)
+//down <XX>!<End>
+
+//POINTER #280 @ $CEE0CC - STRING #280 @ $CEBDF3
+
+#W24($CEE0CC)
+//Formation changed!<End>
+
+//POINTER #281 @ $CEE0D0 - STRING #281 @ $CEBE17
+
+#W24($CEE0D0)
+//Formation switched!<End>
+
+//POINTER #282 @ $CEE0D4 - STRING #282 @ $CEBE3D
+
+#W24($CEE0D4)
+//was knocked back!<End>
+
+//POINTER #283 @ $CEE0D8 - STRING #283 @ $CEBE5E
+
+#W24($CEE0D8)
+//shattered!<End>
+
+//POINTER #284 @ $CEE0DC - STRING #284 @ $CEBE73
+
+#W24($CEE0DC)
+//was defeated!<End>
+
+//POINTER #285 @ $CEE0E0 - STRING #285 @ $CEBE8D
+
+#W24($CEE0E0)
+//fell…<End>
+
+//POINTER #286 @ $CEE0E4 - STRING #286 @ $CEBE98
+
+#W24($CEE0E4)
+//vanished…<End>
+
+//POINTER #287 @ $CEE0E8 - STRING #287 @ $CEBEAB
+
+#W24($CEE0E8)
+//Changed properties!<End>
+
+//POINTER #288 @ $CEE0EC - STRING #288 @ $CEBED1
+
+#W24($CEE0EC)
+//Ledah awakened!<End>
+
+//POINTER #289 @ $CEE0F0 - STRING #289 @ $CEBEEF
+
+#W24($CEE0F0)
+//Malice awakened!<End>
+
+//POINTER #290 @ $CEE0F4 - STRING #290 @ $CEBF0F
+
+#W24($CEE0F4)
+//Seth—Rah shifted modes!<End>
+
+//POINTER #291 @ $CEE0F8 - STRING #291 @ $CEBF3C
+
+#W24($CEE0F8)
+//Death shifted modes!<End>
+
+//POINTER #292 @ $CEE0FC - STRING #292 @ $CEBF63
+
+#W24($CEE0FC)
+//Ein's party was<End>
+
+//POINTER #293 @ $CEE100 - STRING #293 @ $CEBF80
+
+#W24($CEE100)
+//blown away!<End>
+
+//POINTER #294 @ $CEE104 - STRING #294 @ $CEBF96
+
+#W24($CEE104)
+//(changed)<End>
+
+//POINTER #295 @ $CEE108 - STRING #295 @ $CEBFA9
+
+#W24($CEE108)
+//wasn't affected…<End>
+
+//POINTER #296 @ $CEE10C - STRING #296 @ $CE9DF0
+
+#W24($CEE10C)
+//Okay<End>
+
+//POINTER #297 @ $CEE110 - STRING #297 @ $CE9DF9
+
+#W24($CEE110)
+//Redo<End>
+
+//POINTER #298 @ $CEE114 - STRING #298 @ $CEBFC9
+
+#W24($CEE114)
+//View Stats<End>
+
+//POINTER #299 @ $CEE118 - STRING #299 @ $CEBFDD
+
+#W24($CEE118)
+//Retry<End>
+
+//POINTER #300 @ $CEE11C - STRING #300 @ $CEBFE8
+
+#W24($CEE11C)
+//Load<End>
+
+//POINTER #301 @ $CEE120 - STRING #301 @ $CE9E60
+
+#W24($CEE120)
+//Quit Game<End>
+
+//POINTER #302 @ $CEE124 - STRING #302 @ $CEBFF1
+
+#W24($CEE124)
+//End Practice<End>
+
+//POINTER #303 @ $CEE128 - STRING #303 @ $CEC009
+
+#W24($CEE128)
+//Continue Battle<End>
+
+//POINTER #304 @ $CEE12C - STRING #304 @ $CE999E
+
+#W24($CEE12C)
+//Run<End>
+
+//POINTER #305 @ $CEE130 - STRING #305 @ $CEC027
+
+#W24($CEE130)
+//End<End>
+
+//POINTER #306 @ $CEE134 - STRING #306 @ $CE9E14
+
+#W24($CEE134)
+//Keep<End>
+
+//POINTER #307 @ $CEE138 - STRING #307 @ $CE9E1D
+
+#W24($CEE138)
+//Discard<End>
+
+//POINTER #308 @ $CEE13C - STRING #308 @ $CEC02E
+
+#W24($CEE13C)
+//Continue<End>
+
+//POINTER #309 @ $CEE140 - STRING #309 @ $CEC03F
+
+#W24($CEE140)
+//Change Members<End>
+
+//POINTER #310 @ $CEE144 - STRING #310 @ $CE9DF0
+
+#W24($CEE144)
+//Okay<End>
+
+//POINTER #311 @ $CEE148 - STRING #311 @ $CEC05B
+
+#W24($CEE148)
+//Load Save Data<End>
+
+//POINTER #312 @ $CEE14C - STRING #312 @ $CE9DF0
+
+#W24($CEE14C)
+//Okay<End>
+
+//POINTER #313 @ $CEE150 - STRING #313 @ $CE9986
+
+#W24($CEE150)
+//Cancel<End>
+
+//POINTER #314 @ $CEE154 - STRING #314 @ $CEC076
+
+#W24($CEE154)
+//Suspend Data present<End>
+
+//POINTER #315 @ $CEE158 - STRING #315 @ $CEC09D
+
+#W24($CEE158)
+//Load Suspend Data?<End>
+
+//POINTER #316 @ $CEE15C - STRING #316 @ $CEC0C0
+
+#W24($CEE15C)
+//Area:<End>
+
+//POINTER #317 @ $CEE160 - STRING #317 @ $CEC0CB
+
+#W24($CEE160)
+//Battle:<End>
+
+//POINTER #318 @ $CEE164 - STRING #318 @ $CEC0DA
+
+#W24($CEE164)
+//Select the file to load.<End>
+
+//POINTER #319 @ $CEE168 - STRING #319 @ $CEC107
+
+#W24($CEE168)
+//Saved at<End>
+
+//POINTER #320 @ $CEE16C - STRING #320 @ $CEC117
+
+#W24($CEE16C)
+//is corrupted!<End>
+
+//POINTER #321 @ $CEE170 - STRING #321 @ $CEC131
+
+#W24($CEE170)
+//Restoring data…<End>
+
+//POINTER #322 @ $CEE174 - STRING #322 @ $CEC14F
+
+#W24($CEE174)
+//There's no save data!<End>
+
+//POINTER #323 @ $CEE178 - STRING #323 @ $CEC177
+
+#W24($CEE178)
+//Select save location.<End>
+
+//POINTER #324 @ $CEE17C - STRING #324 @ $CEC1A0
+
+#W24($CEE17C)
+//There's already a save file!<End>
+
+//POINTER #325 @ $CEE180 - STRING #325 @ $CEC1D5
+
+#W24($CEE180)
+//Overwrite?<End>
+
+//POINTER #326 @ $CEE184 - STRING #326 @ $CEC1EA
+
+#W24($CEE184)
+//Suspend Data<End>
+
+//POINTER #327 @ $CEE188 - STRING #327 @ $CEC202
+
+#W24($CEE188)
+//Save Data<XX><End>
+
+//POINTER #328 @ $CEE18C - STRING #328 @ $CEC216
+
+#W24($CEE18C)
+//Formatting data...<End>
+
+//POINTER #329 @ $CEE190 - STRING #329 @ $CEC23A
+
+#W24($CEE190)
+//was restored!<End>
+
+//POINTER #330 @ $CEE194 - STRING #330 @ $CEC254
+
+#W24($CEE194)
+//wasn't restored!<End>
+
+//POINTER #331 @ $CEE198 - STRING #331 @ $CEC274
+
+#W24($CEE198)
+//was formatted!<End>
+
+//POINTER #332 @ $CEE19C - STRING #332 @ $CED757
+
+#W24($CEE19C)
+//⇑<End>
+
+//POINTER #333 @ $CEE1A0 - STRING #333 @ $CED75A
+
+#W24($CEE1A0)
+//⇒<End>
+
+//POINTER #334 @ $CEE1A4 - STRING #334 @ $CED75D
+
+#W24($CEE1A4)
+//⇓<End>
+
+//POINTER #335 @ $CEE1A8 - STRING #335 @ $CED760
+
+#W24($CEE1A8)
+//⇐<End>
+
+//POINTER #336 @ $CEE1AC - STRING #336 @ $CED763
+
+#W24($CEE1AC)
+//A<End>
+
+//POINTER #337 @ $CEE1B0 - STRING #337 @ $CED766
+
+#W24($CEE1B0)
+//B<End>
+
+//POINTER #338 @ $CEE1B4 - STRING #338 @ $CED769
+
+#W24($CEE1B4)
+//...<End>
+
+//POINTER #339 @ $CEE1B8 - STRING #339 @ $CED76C
+
+#W24($CEE1B8)
+//?<End>
+
+//POINTER #340 @ $CEE1BC - STRING #340 @ $CEC414
+
+#W24($CEE1BC)
+//Next Area<End>
+
+//POINTER #341 @ $CEE1C0 - STRING #341 @ $CEC426
+
+#W24($CEE1C0)
+//Save<End>
+
+//POINTER #342 @ $CEE1C4 - STRING #342 @ $CEC42F
+
+#W24($CEE1C4)
+//Chapter <XX><End>
+
+//POINTER #343 @ $CEE1C8 - STRING #343 @ $CEC441
+
+#W24($CEE1C8)
+//Heaven's Gate<End>
+
+//POINTER #344 @ $CEE1CC - STRING #344 @ $CEC45B
+
+#W24($CEE1CC)
+//Lacrima Castle<End>
+
+//POINTER #345 @ $CEE1D0 - STRING #345 @ $CEC477
+
+#W24($CEE1D0)
+//Nelde Ruins<End>
+
+//POINTER #346 @ $CEE1D4 - STRING #346 @ $CEC48D
+
+#W24($CEE1D4)
+//Tetyth<End>
+
+//POINTER #347 @ $CEE1D8 - STRING #347 @ $CEC49A
+
+#W24($CEE1D8)
+//Mireno Cemetery<End>
+
+//POINTER #348 @ $CEE1DC - STRING #348 @ $CEC4B8
+
+#W24($CEE1DC)
+//Yggdrasil<End>
+
+//POINTER #349 @ $CEE1E0 - STRING #349 @ $CEC4CB
+
+#W24($CEE1E0)
+//Maze of Shadows<End>
+
+//POINTER #350 @ $CEE1E4 - STRING #350 @ $CEC4E8
+
+#W24($CEE1E4)
+//Parveeju Temple<End>
+
+//POINTER #351 @ $CEE1E8 - STRING #351 @ $CEC506
+
+#W24($CEE1E8)
+//Cleared<End>
+
+//POINTER #352 @ $CEE1EC - STRING #352 @ $CEC515
+
+#W24($CEE1EC)
+//Exploring<End>
+
+//POINTER #353 @ $CEE1F0 - STRING #353 @ $CEC528
+
+#W24($CEE1F0)
+//?????<End>
+
+//POINTER #354 @ $CEE1F4 - STRING #354 @ $CEC533
+
+#W24($CEE1F4)
+//Rose<End>
+
+//POINTER #355 @ $CEE1F8 - STRING #355 @ $CEC53C
+
+#W24($CEE1F8)
+//Malice<End>
+
+//POINTER #356 @ $CEE1FC - STRING #356 @ $CEC549
+
+#W24($CEE1FC)
+//Ursula<End>
+
+//POINTER #357 @ $CEE200 - STRING #357 @ $CEC556
+
+#W24($CEE200)
+//Seth<End>
+
+//POINTER #358 @ $CEE204 - STRING #358 @ $CEC55F
+
+#W24($CEE204)
+//Hector<End>
+
+//POINTER #359 @ $CEE208 - STRING #359 @ $CEC56C
+
+#W24($CEE208)
+//Graham<End>
+
+//POINTER #360 @ $CEE20C - STRING #360 @ $CEC579
+
+#W24($CEE20C)
+//Meute<End>
+
+//POINTER #361 @ $CEE210 - STRING #361 @ $CEC584
+
+#W24($CEE210)
+//Rebecca<End>
+
+//POINTER #362 @ $CEE214 - STRING #362 @ $CEC593
+
+#W24($CEE214)
+//CoCo<End>
+
+//POINTER #363 @ $CEE218 - STRING #363 @ $CEC59C
+
+#W24($CEE218)
+//Reiche<End>
+
+//POINTER #364 @ $CEE21C - STRING #364 @ $CEC5A9
+
+#W24($CEE21C)
+//Soala<End>
+
+//POINTER #365 @ $CEE220 - STRING #365 @ $CEC5B4
+
+#W24($CEE220)
+//Claude<End>
+
+//POINTER #366 @ $CEE224 - STRING #366 @ $CEC5C1
+
+#W24($CEE224)
+//Ritz<End>
+
+//POINTER #367 @ $CEE228 - STRING #367 @ $CEC5CA
+
+#W24($CEE228)
+//Crytia<End>
+
+//POINTER #368 @ $CEE22C - STRING #368 @ $CEC5D7
+
+#W24($CEE22C)
+//Mursya<End>
+
+//POINTER #369 @ $CEE230 - STRING #369 @ $CEC5E4
+
+#W24($CEE230)
+//Kyle<End>
+
+//POINTER #370 @ $CEE234 - STRING #370 @ $CEC5ED
+
+#W24($CEE234)
+//Mylene<End>
+
+//POINTER #371 @ $CEE238 - STRING #371 @ $CEC5FA
+
+#W24($CEE238)
+//Gill<End>
+
+//POINTER #372 @ $CEE23C - STRING #372 @ $CEC603
+
+#W24($CEE23C)
+//Molan<End>
+
+//POINTER #373 @ $CEE240 - STRING #373 @ $CEC60E
+
+#W24($CEE240)
+//Ladie<End>
+
+//POINTER #374 @ $CEE244 - STRING #374 @ $CEC619
+
+#W24($CEE244)
+//LuLu<End>
+
+//POINTER #375 @ $CEE248 - STRING #375 @ $CEC622
+
+#W24($CEE248)
+//NaNa<End>
+
+//POINTER #376 @ $CEE24C - STRING #376 @ $CEC62B
+
+#W24($CEE24C)
+//PiPi<End>
+
+//POINTER #377 @ $CEE250 - STRING #377 @ $CEC634
+
+#W24($CEE250)
+//Chappi<End>
+
+//POINTER #378 @ $CEE254 - STRING #378 @ $CEC641
+
+#W24($CEE254)
+//Kuppi<End>
+
+//POINTER #379 @ $CEE258 - STRING #379 @ $CEC64C
+
+#W24($CEE258)
+//Kuppi<End>
+
+//POINTER #380 @ $CEE25C - STRING #380 @ $CEC657
+
+#W24($CEE25C)
+//Roza<End>
+
+//POINTER #381 @ $CEE260 - STRING #381 @ $CEC660
+
+#W24($CEE260)
+//NoNo<End>
+
+//POINTER #382 @ $CEE264 - STRING #382 @ $CEC669
+
+#W24($CEE264)
+//LiLi<End>
+
+//POINTER #383 @ $CEE268 - STRING #383 @ $CEC672
+
+#W24($CEE268)
+//LoLo<End>
+
+//POINTER #384 @ $CEE26C - STRING #384 @ $CEC67B
+
+#W24($CEE26C)
+//MoMo<End>
+
+//POINTER #385 @ $CEE270 - STRING #385 @ $CEC684
+
+#W24($CEE270)
+//LaLa<End>
+
+//POINTER #386 @ $CEE274 - STRING #386 @ $CEC68D
+
+#W24($CEE274)
+//KiKi<End>
+
+//POINTER #387 @ $CEE278 - STRING #387 @ $CEC696
+
+#W24($CEE278)
+//Iria<End>
+
+//POINTER #388 @ $CEE27C - STRING #388 @ $CEC69F
+
+#W24($CEE27C)
+//Aria<End>
+
+//POINTER #389 @ $CEE280 - STRING #389 @ $CEC6A8
+
+#W24($CEE280)
+//JaJa<End>
+
+//POINTER #390 @ $CEE284 - STRING #390 @ $CEC6B1
+
+#W24($CEE284)
+//Ishi<End>
+
+//POINTER #391 @ $CEE288 - STRING #391 @ $CEC6BA
+
+#W24($CEE288)
+//Koba<End>
+
+//POINTER #392 @ $CEE28C - STRING #392 @ $CEC6C3
+
+#W24($CEE28C)
+//Nishi<End>
+
+//POINTER #393 @ $CEE290 - STRING #393 @ $CEC6CE
+
+#W24($CEE290)
+//Kawa<End>
+
+//POINTER #394 @ $CEE294 - STRING #394 @ $CEC6D7
+
+#W24($CEE294)
+//Hashi<End>
+
+//POINTER #395 @ $CEE298 - STRING #395 @ $CEC6E2
+
+#W24($CEE298)
+//Undine<End>
+
+//POINTER #396 @ $CEE29C - STRING #396 @ $CEC6EF
+
+#W24($CEE29C)
+//Harpuia<End>
+
+//POINTER #397 @ $CEE2A0 - STRING #397 @ $CEC6FE
+
+#W24($CEE2A0)
+//Fairy<End>
+
+//POINTER #398 @ $CEE2A4 - STRING #398 @ $CEC709
+
+#W24($CEE2A4)
+//Sylph<End>
+
+//POINTER #399 @ $CEE2A8 - STRING #399 @ $CEC714
+
+#W24($CEE2A8)
+//Witch<End>
+
+//POINTER #400 @ $CEE2AC - STRING #400 @ $CEC71F
+
+#W24($CEE2AC)
+//Dryad<End>
+
+//POINTER #401 @ $CEE2B0 - STRING #401 @ $CEC72A
+
+#W24($CEE2B0)
+//Gnome<End>
+
+//POINTER #402 @ $CEE2B4 - STRING #402 @ $CEC735
+
+#W24($CEE2B4)
+//Valkyrie<End>
+
+//POINTER #403 @ $CEE2B8 - STRING #403 @ $CEC746
+
+#W24($CEE2B8)
+//Werecat<End>
+
+//POINTER #404 @ $CEE2BC - STRING #404 @ $CEC755
+
+#W24($CEE2BC)
+//Pixia<End>
+
+//POINTER #405 @ $CEE2C0 - STRING #405 @ $CEC755
+
+#W24($CEE2C0)
+//Pixia<End>
+
+//POINTER #406 @ $CEE2C4 - STRING #406 @ $CEC755
+
+#W24($CEE2C4)
+//Pixia<End>
+
+//POINTER #407 @ $CEE2C8 - STRING #407 @ $CEC755
+
+#W24($CEE2C8)
+//Pixia<End>
+
+//POINTER #408 @ $CEE2CC - STRING #408 @ $CEC56C
+
+#W24($CEE2CC)
+//Graham<End>
+
+//POINTER #409 @ $CEE2D0 - STRING #409 @ $CEC760
+
+#W24($CEE2D0)
+//Seth—Rah<End>
+
+//POINTER #410 @ $CEE2D4 - STRING #410 @ $CEC771
+
+#W24($CEE2D4)
+//Hobbit<End>
+
+//POINTER #411 @ $CEE2D8 - STRING #411 @ $CEC528
+
+#W24($CEE2D8)
+//?????<End>
+
+//POINTER #412 @ $CEE2DC - STRING #412 @ $CEC77E
+
+#W24($CEE2DC)
+//ENEMY<End>
+
+//POINTER #413 @ $CEE2E0 - STRING #413 @ $CEC789
+
+#W24($CEE2E0)
+//BOSS<End>
+
+//POINTER #414 @ $CEE2E4 - STRING #414 @ $CEC792
+
+#W24($CEE2E4)
+//Rock<End>
+
+//POINTER #415 @ $CEE2E8 - STRING #415 @ $CEC79B
+
+#W24($CEE2E8)
+//Lamica<End>
+
+//POINTER #416 @ $CEE2EC - STRING #416 @ $CEC7A8
+
+#W24($CEE2EC)
+//Lucie<End>
+
+//POINTER #417 @ $CEE2F0 - STRING #417 @ $CEC7B3
+
+#W24($CEE2F0)
+//Cecil<End>
+
+//POINTER #418 @ $CEE2F4 - STRING #418 @ $CEC7BE
+
+#W24($CEE2F4)
+//Leun<End>
+
+//POINTER #419 @ $CEE2F8 - STRING #419 @ $CEC7C7
+
+#W24($CEE2F8)
+//Lux<End>
+
+//POINTER #420 @ $CEE2FC - STRING #420 @ $CEC7CE
+
+#W24($CEE2FC)
+//Mercedes<End>
+
+//POINTER #421 @ $CEE300 - STRING #421 @ $CEC7DF
+
+#W24($CEE300)
+//Bolio<End>
+
+//POINTER #422 @ $CEE304 - STRING #422 @ $CEC7EA
+
+#W24($CEE304)
+//Laguna<End>
+
+//POINTER #423 @ $CEE308 - STRING #423 @ $CEC7F7
+
+#W24($CEE308)
+//Quiroz<End>
+
+//POINTER #424 @ $CEE30C - STRING #424 @ $CEC804
+
+#W24($CEE30C)
+//Groff<End>
+
+//POINTER #425 @ $CEE310 - STRING #425 @ $CEC80F
+
+#W24($CEE310)
+//Milia<End>
+
+//POINTER #426 @ $CEE314 - STRING #426 @ $CEC81A
+
+#W24($CEE314)
+//Euphaire<End>
+
+//POINTER #427 @ $CEE318 - STRING #427 @ $CEC82B
+
+#W24($CEE318)
+//Chamois<End>
+
+//POINTER #428 @ $CEE31C - STRING #428 @ $CEC83A
+
+#W24($CEE31C)
+//Harvey<End>
+
+//POINTER #429 @ $CEE320 - STRING #429 @ $CEC847
+
+#W24($CEE320)
+//Niche<End>
+
+//POINTER #430 @ $CEE324 - STRING #430 @ $CEC852
+
+#W24($CEE324)
+//Baldr<End>
+
+//POINTER #431 @ $CEE328 - STRING #431 @ $CEC85D
+
+#W24($CEE328)
+//Luca<End>
+
+//POINTER #432 @ $CEE32C - STRING #432 @ $CEC866
+
+#W24($CEE32C)
+//Misty<End>
+
+//POINTER #433 @ $CEE330 - STRING #433 @ $CEC871
+
+#W24($CEE330)
+//Reika<End>
+
+//POINTER #434 @ $CEE334 - STRING #434 @ $CEC87C
+
+#W24($CEE334)
+//ZK—III<End>
+
+//POINTER #435 @ $CEE338 - STRING #435 @ $CEC885
+
+#W24($CEE338)
+//Monica<End>
+
+//POINTER #436 @ $CEE33C - STRING #436 @ $CEC892
+
+#W24($CEE33C)
+//Primm<End>
+
+//POINTER #437 @ $CEE340 - STRING #437 @ $CEC89D
+
+#W24($CEE340)
+//Levine<End>
+
+//POINTER #438 @ $CEE344 - STRING #438 @ $CEC8AA
+
+#W24($CEE344)
+//Ludo<End>
+
+//POINTER #439 @ $CEE348 - STRING #439 @ $CEC8B3
+
+#W24($CEE348)
+//Melissa<End>
+
+//POINTER #440 @ $CEE34C - STRING #440 @ $CEC8C2
+
+#W24($CEE34C)
+//Hyde<End>
+
+//POINTER #441 @ $CEE350 - STRING #441 @ $CEC8CB
+
+#W24($CEE350)
+//Ride<End>
+
+//POINTER #442 @ $CEE354 - STRING #442 @ $CEC8D4
+
+#W24($CEE354)
+//Misel<End>
+
+//POINTER #443 @ $CEE358 - STRING #443 @ $CEC8DF
+
+#W24($CEE358)
+//Lephisto<End>
+
+//POINTER #444 @ $CEE35C - STRING #444 @ $CEC8F0
+
+#W24($CEE35C)
+//Cretier<End>
+
+//POINTER #445 @ $CEE360 - STRING #445 @ $CEC8FF
+
+#W24($CEE360)
+//Kain<End>
+
+//POINTER #446 @ $CEE364 - STRING #446 @ $CEC908
+
+#W24($CEE364)
+//Loki<End>
+
+//POINTER #447 @ $CEE368 - STRING #447 @ $CEC911
+
+#W24($CEE368)
+//Chirpie<End>
+
+//POINTER #448 @ $CEE36C - STRING #448 @ $CEC920
+
+#W24($CEE36C)
+//Charpie<End>
+
+//POINTER #449 @ $CEE370 - STRING #449 @ $CEC92F
+
+#W24($CEE370)
+//Purula<End>
+
+//POINTER #450 @ $CEE374 - STRING #450 @ $CEC93C
+
+#W24($CEE374)
+//Mephi<End>
+
+//POINTER #451 @ $CEE378 - STRING #451 @ $CEC947
+
+#W24($CEE378)
+//Alisha<End>
+
+//POINTER #452 @ $CEE37C - STRING #452 @ $CEC954
+
+#W24($CEE37C)
+//Madion<End>
+
+//POINTER #453 @ $CEE380 - STRING #453 @ $CEC961
+
+#W24($CEE380)
+//Rick<End>
+
+//POINTER #454 @ $CEE384 - STRING #454 @ $CEC96A
+
+#W24($CEE384)
+//Lumina<End>
+
+//POINTER #455 @ $CEE388 - STRING #455 @ $CEC977
+
+#W24($CEE388)
+//Xenon<End>
+
+//POINTER #456 @ $CEE38C - STRING #456 @ $CEC982
+
+#W24($CEE38C)
+//RenRen<End>
+
+//POINTER #457 @ $CEE390 - STRING #457 @ $CEC98F
+
+#W24($CEE390)
+//Panzer<End>
+
+//POINTER #458 @ $CEE394 - STRING #458 @ $CEC99C
+
+#W24($CEE394)
+//Garnitz<End>
+
+//POINTER #459 @ $CEE398 - STRING #459 @ $CEC9AB
+
+#W24($CEE398)
+//Minerva<End>
+
+//POINTER #460 @ $CEE39C - STRING #460 @ $CEC9BA
+
+#W24($CEE39C)
+//Tiros<End>
+
+//POINTER #461 @ $CEE3A0 - STRING #461 @ $CEC9C5
+
+#W24($CEE3A0)
+//Bomber<End>
+
+//POINTER #462 @ $CEE3A4 - STRING #462 @ $CEC9D2
+
+#W24($CEE3A4)
+//Bonzo<End>
+
+//POINTER #463 @ $CEE3A8 - STRING #463 @ $CEC9DD
+
+#W24($CEE3A8)
+//Dyna<End>
+
+//POINTER #464 @ $CEE3AC - STRING #464 @ $CEC9E6
+
+#W24($CEE3AC)
+//Mite<End>
+
+//POINTER #465 @ $CEE3B0 - STRING #465 @ $CEC9EF
+
+#W24($CEE3B0)
+//Raydock<End>
+
+//POINTER #466 @ $CEE3B4 - STRING #466 @ $CEC9FE
+
+#W24($CEE3B4)
+//Vida<End>
+
+//POINTER #467 @ $CEE3B8 - STRING #467 @ $CECA07
+
+#W24($CEE3B8)
+//Zk<End>
+
+//POINTER #468 @ $CEE3BC - STRING #468 @ $CECA0C
+
+#W24($CEE3BC)
+//Als<End>
+
+//POINTER #469 @ $CEE3C0 - STRING #469 @ $CECA13
+
+#W24($CEE3C0)
+//Valido<End>
+
+//POINTER #470 @ $CEE3C4 - STRING #470 @ $CECA20
+
+#W24($CEE3C4)
+//Duran<End>
+
+//POINTER #471 @ $CEE3C8 - STRING #471 @ $CECA2B
+
+#W24($CEE3C8)
+//Xeno<End>
+
+//POINTER #472 @ $CEE3CC - STRING #472 @ $CECA34
+
+#W24($CEE3CC)
+//Randy<End>
+
+//POINTER #473 @ $CEE3D0 - STRING #473 @ $CECA3F
+
+#W24($CEE3D0)
+//Zorg<End>
+
+//POINTER #474 @ $CEE3D4 - STRING #474 @ $CECA48
+
+#W24($CEE3D4)
+//Lydiea<End>
+
+//POINTER #475 @ $CEE3D8 - STRING #475 @ $CECA55
+
+#W24($CEE3D8)
+//Sohia<End>
+
+//POINTER #476 @ $CEE3DC - STRING #476 @ $CECA60
+
+#W24($CEE3DC)
+//Kaluah<End>
+
+//POINTER #477 @ $CEE3E0 - STRING #477 @ $CECA6D
+
+#W24($CEE3E0)
+//Noll<End>
+
+//POINTER #478 @ $CEE3E4 - STRING #478 @ $CECA76
+
+#W24($CEE3E4)
+//Luke<End>
+
+//POINTER #479 @ $CEE3E8 - STRING #479 @ $CECA7F
+
+#W24($CEE3E8)
+//Collin<End>
+
+//POINTER #480 @ $CEE3EC - STRING #480 @ $CECA8C
+
+#W24($CEE3EC)
+//Lad<End>
+
+//POINTER #481 @ $CEE3F0 - STRING #481 @ $CECA93
+
+#W24($CEE3F0)
+//Euro<End>
+
+//POINTER #482 @ $CEE3F4 - STRING #482 @ $CECA9C
+
+#W24($CEE3F4)
+//Celica<End>
+
+//POINTER #483 @ $CEE3F8 - STRING #483 @ $CECAA9
+
+#W24($CEE3F8)
+//Euros<End>
+
+//POINTER #484 @ $CEE3FC - STRING #484 @ $CECAB4
+
+#W24($CEE3FC)
+//Alexandra<End>
+
+//POINTER #485 @ $CEE400 - STRING #485 @ $CECAC7
+
+#W24($CEE400)
+//Arsene<End>
+
+//POINTER #486 @ $CEE404 - STRING #486 @ $CECAD4
+
+#W24($CEE404)
+//Happy<End>
+
+//POINTER #487 @ $CEE408 - STRING #487 @ $CECADF
+
+#W24($CEE408)
+//Gran<End>
+
+//POINTER #488 @ $CEE40C - STRING #488 @ $CECAE8
+
+#W24($CEE40C)
+//Balrosa<End>
+
+//POINTER #489 @ $CEE410 - STRING #489 @ $CECAF7
+
+#W24($CEE410)
+//Gelt<End>
+
+//POINTER #490 @ $CEE414 - STRING #490 @ $CECB00
+
+#W24($CEE414)
+//Beowulf<End>
+
+//POINTER #491 @ $CEE418 - STRING #491 @ $CECB0F
+
+#W24($CEE418)
+//GFX<End>
+
+//POINTER #492 @ $CEE41C - STRING #492 @ $CECB16
+
+#W24($CEE41C)
+//:<End>
+
+//POINTER #493 @ $CEE420 - STRING #493 @ $CECB19
+
+#W24($CEE420)
+//CG Collection<End>
+
+//POINTER #494 @ $CEE424 - STRING #494 @ $CECB33
+
+#W24($CEE424)
+//Item Manual<End>
+
+//POINTER #495 @ $CEE428 - STRING #495 @ $CECB49
+
+#W24($CEE428)
+//Sound Test<End>
+
+//POINTER #496 @ $CEE42C - STRING #496 @ $CECB5D
+
+#W24($CEE42C)
+//High Score<End>
+
+//POINTER #497 @ $CEE430 - STRING #497 @ $CECB71
+
+#W24($CEE430)
+//Face Collection<End>
+
+//POINTER #498 @ $CEE434 - STRING #498 @ $CECB8F
+
+#W24($CEE434)
+//Bonus Chapter<End>
+
+//POINTER #499 @ $CEE438 - STRING #499 @ $CEC528
+
+#W24($CEE438)
+//?????<End>
+
+//POINTER #500 @ $CEE43C - STRING #500 @ $CECC12
+
+#W24($CEE43C)
+//Normal<End>
+
+//POINTER #501 @ $CEE440 - STRING #501 @ $CECC1F
+
+#W24($CEE440)
+//Smiling<End>
+
+//POINTER #502 @ $CEE444 - STRING #502 @ $CECC2E
+
+#W24($CEE444)
+//Serious<End>
+
+//POINTER #503 @ $CEE448 - STRING #503 @ $CECC3D
+
+#W24($CEE448)
+//※sigh※<End>
+
+//POINTER #504 @ $CEE44C - STRING #504 @ $CECC4A
+
+#W24($CEE44C)
+//Surprised<End>
+
+//POINTER #505 @ $CEE450 - STRING #505 @ $CECC5D
+
+#W24($CEE450)
+//Embarrassed<End>
+
+//POINTER #506 @ $CEE454 - STRING #506 @ $CECC74
+
+#W24($CEE454)
+//At the Ready<End>
+
+//POINTER #507 @ $CEE458 - STRING #507 @ $CECC8B
+
+#W24($CEE458)
+//Pain<End>
+
+//POINTER #508 @ $CEE45C - STRING #508 @ $CECC94
+
+#W24($CEE45C)
+//Thinking<End>
+
+//POINTER #509 @ $CEE460 - STRING #509 @ $CECC12
+
+#W24($CEE460)
+//Normal<End>
+
+//POINTER #510 @ $CEE464 - STRING #510 @ $CECC1F
+
+#W24($CEE464)
+//Smiling<End>
+
+//POINTER #511 @ $CEE468 - STRING #511 @ $CECCA5
+
+#W24($CEE468)
+//Angry<End>
+
+//POINTER #512 @ $CEE46C - STRING #512 @ $CECCB0
+
+#W24($CEE46C)
+//Sad<End>
+
+//POINTER #513 @ $CEE470 - STRING #513 @ $CECC4A
+
+#W24($CEE470)
+//Surprised<End>
+
+//POINTER #514 @ $CEE474 - STRING #514 @ $CECC5D
+
+#W24($CEE474)
+//Embarrassed<End>
+
+//POINTER #515 @ $CEE478 - STRING #515 @ $CECC74
+
+#W24($CEE478)
+//At the Ready<End>
+
+//POINTER #516 @ $CEE47C - STRING #516 @ $CECCB7
+
+#W24($CEE47C)
+//Unamused<End>
+
+//POINTER #517 @ $CEE480 - STRING #517 @ $CECCC8
+
+#W24($CEE480)
+//Troubled<End>
+
+//POINTER #518 @ $CEE484 - STRING #518 @ $CECCD9
+
+#W24($CEE484)
+//Arms Folded<End>
+
+//POINTER #519 @ $CEE488 - STRING #519 @ $CECCEF
+
+#W24($CEE488)
+//Chanting<End>
+
+//POINTER #520 @ $CEE48C - STRING #520 @ $CECC3D
+
+#W24($CEE48C)
+//※sigh※<End>
+
+//POINTER #521 @ $CEE490 - STRING #521 @ $CECD00
+
+#W24($CEE490)
+//Bathing<End>
+
+//POINTER #522 @ $CEE494 - STRING #522 @ $CECD0F
+
+#W24($CEE494)
+//Covering<End>
+
+//POINTER #523 @ $CEE498 - STRING #523 @ $CECC12
+
+#W24($CEE498)
+//Normal<End>
+
+//POINTER #524 @ $CEE49C - STRING #524 @ $CECC1F
+
+#W24($CEE49C)
+//Smiling<End>
+
+//POINTER #525 @ $CEE4A0 - STRING #525 @ $CECCA5
+
+#W24($CEE4A0)
+//Angry<End>
+
+//POINTER #526 @ $CEE4A4 - STRING #526 @ $CECC2E
+
+#W24($CEE4A4)
+//Serious<End>
+
+//POINTER #527 @ $CEE4A8 - STRING #527 @ $CECC4A
+
+#W24($CEE4A8)
+//Surprised<End>
+
+//POINTER #528 @ $CEE4AC - STRING #528 @ $CECC5D
+
+#W24($CEE4AC)
+//Embarrassed<End>
+
+//POINTER #529 @ $CEE4B0 - STRING #529 @ $CECC74
+
+#W24($CEE4B0)
+//At the Ready<End>
+
+//POINTER #530 @ $CEE4B4 - STRING #530 @ $CECCB7
+
+#W24($CEE4B4)
+//Unamused<End>
+
+//POINTER #531 @ $CEE4B8 - STRING #531 @ $CECC8B
+
+#W24($CEE4B8)
+//Pain<End>
+
+//POINTER #532 @ $CEE4BC - STRING #532 @ $CECD20
+
+#W24($CEE4BC)
+//Well…<End>
+
+//POINTER #533 @ $CEE4C0 - STRING #533 @ $CECD2B
+
+#W24($CEE4C0)
+//Wink<End>
+
+//POINTER #534 @ $CEE4C4 - STRING #534 @ $CECD34
+
+#W24($CEE4C4)
+//Silly<End>
+
+//POINTER #535 @ $CEE4C8 - STRING #535 @ $CECD00
+
+#W24($CEE4C8)
+//Bathing<End>
+
+//POINTER #536 @ $CEE4CC - STRING #536 @ $CECD0F
+
+#W24($CEE4CC)
+//Covering<End>
+
+//POINTER #537 @ $CEE4D0 - STRING #537 @ $CECC12
+
+#W24($CEE4D0)
+//Normal<End>
+
+//POINTER #538 @ $CEE4D4 - STRING #538 @ $CECC1F
+
+#W24($CEE4D4)
+//Smiling<End>
+
+//POINTER #539 @ $CEE4D8 - STRING #539 @ $CECCA5
+
+#W24($CEE4D8)
+//Angry<End>
+
+//POINTER #540 @ $CEE4DC - STRING #540 @ $CECD3F
+
+#W24($CEE4DC)
+//※sniff※<End>
+
+//POINTER #541 @ $CEE4E0 - STRING #541 @ $CECC4A
+
+#W24($CEE4E0)
+//Surprised<End>
+
+//POINTER #542 @ $CEE4E4 - STRING #542 @ $CECC5D
+
+#W24($CEE4E4)
+//Embarrassed<End>
+
+//POINTER #543 @ $CEE4E8 - STRING #543 @ $CECC74
+
+#W24($CEE4E8)
+//At the Ready<End>
+
+//POINTER #544 @ $CEE4EC - STRING #544 @ $CECCB7
+
+#W24($CEE4EC)
+//Unamused<End>
+
+//POINTER #545 @ $CEE4F0 - STRING #545 @ $CECD4E
+
+#W24($CEE4F0)
+//Crying<End>
+
+//POINTER #546 @ $CEE4F4 - STRING #546 @ $CECC8B
+
+#W24($CEE4F4)
+//Pain<End>
+
+//POINTER #547 @ $CEE4F8 - STRING #547 @ $CECD5B
+
+#W24($CEE4F8)
+//Raspberry<End>
+
+//POINTER #548 @ $CEE4FC - STRING #548 @ $CECD6E
+
+#W24($CEE4FC)
+//Happy<End>
+
+//POINTER #549 @ $CEE500 - STRING #549 @ $CECD00
+
+#W24($CEE500)
+//Bathing<End>
+
+//POINTER #550 @ $CEE504 - STRING #550 @ $CECD0F
+
+#W24($CEE504)
+//Covering<End>
+
+//POINTER #551 @ $CEE508 - STRING #551 @ $CECC12
+
+#W24($CEE508)
+//Normal<End>
+
+//POINTER #552 @ $CEE50C - STRING #552 @ $CECC1F
+
+#W24($CEE50C)
+//Smiling<End>
+
+//POINTER #553 @ $CEE510 - STRING #553 @ $CECCA5
+
+#W24($CEE510)
+//Angry<End>
+
+//POINTER #554 @ $CEE514 - STRING #554 @ $CECCB0
+
+#W24($CEE514)
+//Sad<End>
+
+//POINTER #555 @ $CEE518 - STRING #555 @ $CECC4A
+
+#W24($CEE518)
+//Surprised<End>
+
+//POINTER #556 @ $CEE51C - STRING #556 @ $CECC5D
+
+#W24($CEE51C)
+//Embarrassed<End>
+
+//POINTER #557 @ $CEE520 - STRING #557 @ $CECC74
+
+#W24($CEE520)
+//At the Ready<End>
+
+//POINTER #558 @ $CEE524 - STRING #558 @ $CECCB7
+
+#W24($CEE524)
+//Unamused<End>
+
+//POINTER #559 @ $CEE528 - STRING #559 @ $CECCC8
+
+#W24($CEE528)
+//Troubled<End>
+
+//POINTER #560 @ $CEE52C - STRING #560 @ $CECCEF
+
+#W24($CEE52C)
+//Chanting<End>
+
+//POINTER #561 @ $CEE530 - STRING #561 @ $CECD79
+
+#W24($CEE530)
+//At a Loss<End>
+
+//POINTER #562 @ $CEE534 - STRING #562 @ $CECD4E
+
+#W24($CEE534)
+//Crying<End>
+
+//POINTER #563 @ $CEE538 - STRING #563 @ $CECD00
+
+#W24($CEE538)
+//Bathing<End>
+
+//POINTER #564 @ $CEE53C - STRING #564 @ $CECD0F
+
+#W24($CEE53C)
+//Covering<End>
+
+//POINTER #565 @ $CEE540 - STRING #565 @ $CECC12
+
+#W24($CEE540)
+//Normal<End>
+
+//POINTER #566 @ $CEE544 - STRING #566 @ $CECC1F
+
+#W24($CEE544)
+//Smiling<End>
+
+//POINTER #567 @ $CEE548 - STRING #567 @ $CECC8B
+
+#W24($CEE548)
+//Pain<End>
+
+//POINTER #568 @ $CEE54C - STRING #568 @ $CECC74
+
+#W24($CEE54C)
+//At the Ready<End>
+
+//POINTER #569 @ $CEE550 - STRING #569 @ $CECC12
+
+#W24($CEE550)
+//Normal<End>
+
+//POINTER #570 @ $CEE554 - STRING #570 @ $CECD8A
+
+#W24($CEE554)
+//Yawn<End>
+
+//POINTER #571 @ $CEE558 - STRING #571 @ $CECCA5
+
+#W24($CEE558)
+//Angry<End>
+
+//POINTER #572 @ $CEE55C - STRING #572 @ $CECD6E
+
+#W24($CEE55C)
+//Happy<End>
+
+//POINTER #573 @ $CEE560 - STRING #573 @ $CECC12
+
+#W24($CEE560)
+//Normal<End>
+
+//POINTER #574 @ $CEE564 - STRING #574 @ $CECC1F
+
+#W24($CEE564)
+//Smiling<End>
+
+//POINTER #575 @ $CEE568 - STRING #575 @ $CECC2E
+
+#W24($CEE568)
+//Serious<End>
+
+//POINTER #576 @ $CEE56C - STRING #576 @ $CECC8B
+
+#W24($CEE56C)
+//Pain<End>
+
+//POINTER #577 @ $CEE570 - STRING #577 @ $CECC12
+
+#W24($CEE570)
+//Normal<End>
+
+//POINTER #578 @ $CEE574 - STRING #578 @ $CECCA5
+
+#W24($CEE574)
+//Angry<End>
+
+//POINTER #579 @ $CEE578 - STRING #579 @ $CECCEF
+
+#W24($CEE578)
+//Chanting<End>
+
+//POINTER #580 @ $CEE57C - STRING #580 @ $CECC8B
+
+#W24($CEE57C)
+//Pain<End>
+
+//POINTER #581 @ $CEE580 - STRING #581 @ $CECC12
+
+#W24($CEE580)
+//Normal<End>
+
+//POINTER #582 @ $CEE584 - STRING #582 @ $CECC8B
+
+#W24($CEE584)
+//Pain<End>
+
+//POINTER #583 @ $CEE588 - STRING #583 @ $CECDBD
+
+#W24($CEE588)
+//Overture<End>
+
+//POINTER #584 @ $CEE58C - STRING #584 @ $CECDCE
+
+#W24($CEE58C)
+//The Promised Land<End>
+
+//POINTER #585 @ $CEE590 - STRING #585 @ $CECDEF
+
+#W24($CEE590)
+//Elendia<End>
+
+//POINTER #586 @ $CEE594 - STRING #586 @ $CEC441
+
+#W24($CEE594)
+//Heaven's Gate<End>
+
+//POINTER #587 @ $CEE598 - STRING #587 @ $CEC45B
+
+#W24($CEE598)
+//Lacrima Castle<End>
+
+//POINTER #588 @ $CEE59C - STRING #588 @ $CEC477
+
+#W24($CEE59C)
+//Nelde Ruins<End>
+
+//POINTER #589 @ $CEE5A0 - STRING #589 @ $CEC49A
+
+#W24($CEE5A0)
+//Mireno Cemetery<End>
+
+//POINTER #590 @ $CEE5A4 - STRING #590 @ $CEC48D
+
+#W24($CEE5A4)
+//Tetyth<End>
+
+//POINTER #591 @ $CEE5A8 - STRING #591 @ $CEC4B8
+
+#W24($CEE5A8)
+//Yggdrasil<End>
+
+//POINTER #592 @ $CEE5AC - STRING #592 @ $CECDFE
+
+#W24($CEE5AC)
+//Dark Gate<End>
+
+//POINTER #593 @ $CEE5B0 - STRING #593 @ $CEC4CB
+
+#W24($CEE5B0)
+//Maze of Shadows<End>
+
+//POINTER #594 @ $CEE5B4 - STRING #594 @ $CECE10
+
+#W24($CEE5B4)
+//King of Chaos<End>
+
+//POINTER #595 @ $CEE5B8 - STRING #595 @ $CECE29
+
+#W24($CEE5B8)
+//Dark Sphere<End>
+
+//POINTER #596 @ $CEE5BC - STRING #596 @ $CECE3F
+
+#W24($CEE5BC)
+//Awakening<End>
+
+//POINTER #597 @ $CEE5C0 - STRING #597 @ $CECE52
+
+#W24($CEE5C0)
+//Battle Against Demons<End>
+
+//POINTER #598 @ $CEE5C4 - STRING #598 @ $CECE7B
+
+#W24($CEE5C4)
+//Inescapable!<End>
+
+//POINTER #599 @ $CEE5C8 - STRING #599 @ $CECE94
+
+#W24($CEE5C8)
+//Fierce Clash!<End>
+
+//POINTER #600 @ $CEE5CC - STRING #600 @ $CECEAE
+
+#W24($CEE5CC)
+//Accursed Combat<End>
+
+//POINTER #601 @ $CEE5D0 - STRING #601 @ $CECECC
+
+#W24($CEE5D0)
+//Showdown with Hector<End>
+
+//POINTER #602 @ $CEE5D4 - STRING #602 @ $CECEF3
+
+#W24($CEE5D4)
+//The Final Battle<End>
+
+//POINTER #603 @ $CEE5D8 - STRING #603 @ $CECF12
+
+#W24($CEE5D8)
+//Picnic♪<End>
+
+//POINTER #604 @ $CEE5DC - STRING #604 @ $CECF21
+
+#W24($CEE5DC)
+//Elegant Melody<End>
+
+//POINTER #605 @ $CEE5E0 - STRING #605 @ $CECF3D
+
+#W24($CEE5E0)
+//Trouble!<End>
+
+//POINTER #606 @ $CEE5E4 - STRING #606 @ $CECF4E
+
+#W24($CEE5E4)
+//Soft Prayer<End>
+
+//POINTER #607 @ $CEE5E8 - STRING #607 @ $CECF64
+
+#W24($CEE5E8)
+//Hector's Ambition<End>
+
+//POINTER #608 @ $CEE5EC - STRING #608 @ $CECF86
+
+#W24($CEE5EC)
+//The Grim Angel<End>
+
+//POINTER #609 @ $CEE5F0 - STRING #609 @ $CECFA1
+
+#W24($CEE5F0)
+//Finale<End>
+
+//POINTER #610 @ $CEE5F4 - STRING #610 @ $CECFAE
+
+#W24($CEE5F4)
+//Time Has Past…<End>
+
+//POINTER #611 @ $CEE5F8 - STRING #611 @ $CECFC9
+
+#W24($CEE5F8)
+//The End of an Epic<End>
+
+//POINTER #612 @ $CEE5FC - STRING #612 @ $CECFEA
+
+#W24($CEE5FC)
+//Destiny<End>
+
+//POINTER #613 @ $CEE600 - STRING #613 @ $CECFF9
+
+#W24($CEE600)
+//To a Distant Land<End>
+
+//POINTER #614 @ $CEE604 - STRING #614 @ $CED019
+
+#W24($CEE604)
+//Off to Battle!<End>
+
+//POINTER #615 @ $CEE608 - STRING #615 @ $CED034
+
+#W24($CEE608)
+//Triumph<End>
+
+//POINTER #616 @ $CEE60C - STRING #616 @ $CED043
+
+#W24($CEE60C)
+//Game Over<End>
+
+//POINTER #617 @ $CEE610 - STRING #617 @ $CED055
+
+#W24($CEE610)
+//Turning Point<End>
+
+//POINTER #618 @ $CEE614 - STRING #618 @ $CED06F
+
+#W24($CEE614)
+//Spinning Memories<End>
+
+//POINTER #619 @ $CEE618 - STRING #619 @ $CED0B0
+
+#W24($CEE618)
+//???????<End>
+
+//POINTER #620 @ $CEE61C - STRING #620 @ $CED0BF
+
+#W24($CEE61C)
+//Ragnarok<End>
+
+//POINTER #621 @ $CEE620 - STRING #621 @ $CED0D0
+
+#W24($CEE620)
+//Birth of an Angel<End>
+
+//POINTER #622 @ $CEE624 - STRING #622 @ $CECDCE
+
+#W24($CEE624)
+//The Promised Land<End>
+
+//POINTER #623 @ $CEE628 - STRING #623 @ $CED0F0
+
+#W24($CEE628)
+//The Seven Magi<End>
+
+//POINTER #624 @ $CEE62C - STRING #624 @ $CED10B
+
+#W24($CEE62C)
+//The Grim Angels Revisited<End>
+
+//POINTER #625 @ $CEE630 - STRING #625 @ $CED13B
+
+#W24($CEE630)
+//Ursula's Wish<End>
+
+//POINTER #626 @ $CEE634 - STRING #626 @ $CED155
+
+#W24($CEE634)
+//Awakening from Slumber<End>
+
+//POINTER #627 @ $CEE638 - STRING #627 @ $CED180
+
+#W24($CEE638)
+//In Pursuit of Serene<End>
+
+//POINTER #628 @ $CEE63C - STRING #628 @ $CED1A6
+
+#W24($CEE63C)
+//Diviner Unleashed<End>
+
+//POINTER #629 @ $CEE640 - STRING #629 @ $CED1C8
+
+#W24($CEE640)
+//Meeting with Cierra<End>
+
+//POINTER #630 @ $CEE644 - STRING #630 @ $CED1ED
+
+#W24($CEE644)
+//Through the Branches<End>
+
+//POINTER #631 @ $CEE648 - STRING #631 @ $CED214
+
+#W24($CEE648)
+//Saving Gateau?<End>
+
+//POINTER #632 @ $CEE64C - STRING #632 @ $CED230
+
+#W24($CEE64C)
+//Bathing Scene 1<End>
+
+//POINTER #633 @ $CEE650 - STRING #633 @ $CED24D
+
+#W24($CEE650)
+//Twin Magicians<End>
+
+//POINTER #634 @ $CEE654 - STRING #634 @ $CED269
+
+#W24($CEE654)
+//The Undines<End>
+
+//POINTER #635 @ $CEE658 - STRING #635 @ $CED27F
+
+#W24($CEE658)
+//Ledah and Ein<End>
+
+//POINTER #636 @ $CEE65C - STRING #636 @ $CED298
+
+#W24($CEE65C)
+//Bathing Scene 2<End>
+
+//POINTER #637 @ $CEE660 - STRING #637 @ $CED2B5
+
+#W24($CEE660)
+//Zombie Dragon<End>
+
+//POINTER #638 @ $CEE664 - STRING #638 @ $CED2CF
+
+#W24($CEE664)
+//Elendia at Night<End>
+
+//POINTER #639 @ $CEE668 - STRING #639 @ $CED2EE
+
+#W24($CEE668)
+//To Yggdrasil<End>
+
+//POINTER #640 @ $CEE66C - STRING #640 @ $CED306
+
+#W24($CEE66C)
+//The Lone Grim Angel<End>
+
+//POINTER #641 @ $CEE670 - STRING #641 @ $CED32A
+
+#W24($CEE670)
+//Ledah's Last<End>
+
+//POINTER #642 @ $CEE674 - STRING #642 @ $CED342
+
+#W24($CEE674)
+//The Maze of Shadows<End>
+
+//POINTER #643 @ $CEE678 - STRING #643 @ $CED366
+
+#W24($CEE678)
+//The Showdown with Malice<End>
+
+//POINTER #644 @ $CEE67C - STRING #644 @ $CED394
+
+#W24($CEE67C)
+//Seth in Pain<End>
+
+//POINTER #645 @ $CEE680 - STRING #645 @ $CED3AB
+
+#W24($CEE680)
+//Awakening of Seth—Rah<End>
+
+//POINTER #646 @ $CEE684 - STRING #646 @ $CED3D4
+
+#W24($CEE684)
+//The Crumbling Labyrinth<End>
+
+//POINTER #647 @ $CEE688 - STRING #647 @ $CED401
+
+#W24($CEE688)
+//Happy Ending<End>
+
+//POINTER #648 @ $CEE68C - STRING #648 @ $CED419
+
+#W24($CEE68C)
+//Fin.<End>
+
+//POINTER #649 @ $CEE690 - STRING #649 @ $CED422
+
+#W24($CEE690)
+// <End>
+
+//POINTER #650 @ $CEE694 - STRING #650 @ $CED456
+
+#W24($CEE694)
+//Last Page<End>
+
+//POINTER #651 @ $CEE698 - STRING #651 @ $CED468
+
+#W24($CEE698)
+//Next Page<End>
+
+//POINTER #652 @ $CEE69C - STRING #652 @ $CEC528
+
+#W24($CEE69C)
+//?????<End>
+
+//POINTER #653 @ $CEE6A0 - STRING #653 @ $CED47A
+
+#W24($CEE6A0)
+//0<XX>.<End>
+
+//POINTER #654 @ $CEE6A4 - STRING #654 @ $CED481
+
+#W24($CEE6A4)
+//<XX>.<End>
+
+//POINTER #655 @ $CEE6A8 - STRING #655 @ $CED486
+
+#W24($CEE6A8)
+//Formation Memory<line>
+//Item Memory<line>
+//Skill Memory<line>
+//Icon Display<line>
+//Enemy Window<line>
+//Enemy Cut Scene<line>
+//Voice<End>
+
+//POINTER #656 @ $CEE6AC - STRING #656 @ $CED52C
+
+#W24($CEE6AC)
+//Saves your last selection<line>
+//when setting formation.<End>
+
+//POINTER #657 @ $CEE6B0 - STRING #657 @ $CED589
+
+#W24($CEE6B0)
+//Saves your last selection<line>
+//when choosing items.<End>
+
+//POINTER #658 @ $CEE6B4 - STRING #658 @ $CED5E0
+
+#W24($CEE6B4)
+//Saves your last selection<line>
+//when using skills.<End>
+
+//POINTER #659 @ $CEE6B8 - STRING #659 @ $CED633
+
+#W24($CEE6B8)
+//ST shows status icons<line>
+//WT shows Wait bar.<End>
+
+//POINTER #660 @ $CEE6BC - STRING #660 @ $CED67D
+
+#W24($CEE6BC)
+//Shows the enemy's skill window.<End>
+
+//POINTER #661 @ $CEE6C0 - STRING #661 @ $CED6B8
+
+#W24($CEE6C0)
+//Shows the enemy's MAX move<line>
+//cut scene.<End>
+
+//POINTER #662 @ $CEE6C4 - STRING #662 @ $CED726
+
+#W24($CEE6C4)
+//On<End>
+
+//POINTER #663 @ $CEE6C8 - STRING #663 @ $CED72B
+
+#W24($CEE6C8)
+//Off<End>
+
+//POINTER #664 @ $CEE6CC - STRING #664 @ $CED732
+
+#W24($CEE6CC)
+//WT<End>
+
+//POINTER #665 @ $CEE6D0 - STRING #665 @ $CED737
+
+#W24($CEE6D0)
+//ST<End>
+
+//POINTER #666 @ $CEE6D4 - STRING #666 @ $CED73C
+
+#W24($CEE6D4)
+//Off<End>
+
+//POINTER #667 @ $CEE6D8 - STRING #667 @ $CED743
+
+#W24($CEE6D8)
+//On<End>
+
+//POINTER #668 @ $CEE6DC - STRING #668 @ $CED748
+
+#W24($CEE6DC)
+///<End>
+
+//POINTER #669 @ $CEE6E0 - STRING #669 @ $CED76F
+
+#W24($CEE6E0)
+//<line>
+//Produce<End>
+
+//POINTER #670 @ $CEE6E4 - STRING #670 @ $CED77F
+
+#W24($CEE6E4)
+//   <$A8><$6D><$A8><$6E> <$A4><$0E><$A3><$0A><line>
+//   <$A8><$6F><$A2><$9C> <$A5><$3D><$A7><End>
+
+//POINTER #671 @ $CEE6E8 - STRING #671 @ $CED7A6
+
+#W24($CEE6E8)
+//GameDesign<line>
+//   &Direct<End>
+
+//POINTER #672 @ $CEE6EC - STRING #672 @ $CED7CD
+
+#W24($CEE6EC)
+//   <$A6><$31><$A6><$32> <$A2><$BF><$A2><$D8><line>
+//        <line>
+//        <End>
+
+//POINTER #673 @ $CEE6F0 - STRING #673 @ $CED7EC
+
+#W24($CEE6F0)
+//<line>
+//MainProgram<End>
+
+//POINTER #674 @ $CEE6F4 - STRING #674 @ $CED804
+
+#W24($CEE6F4)
+//   <$A2><$91><$A6><$33> <$A6><$34><$A6><$35><End>
+
+//POINTER #675 @ $CEE6F8 - STRING #675 @ $CED811
+
+#W24($CEE6F8)
+//<line>
+//Program<End>
+
+//POINTER #676 @ $CEE6FC - STRING #676 @ $CED821
+
+#W24($CEE6FC)
+//   <$A3><$4F><$A5><$88> <$A8><$70><$A7><$49><line>
+//   <$A4><$3C> <$A7><$FE><$A3><$6F><$A8><$71><line>
+//   <$A2><$91><$A8><$72> <$A5><$FB><$A5><$A2><End>
+
+//POINTER #677 @ $CEE700 - STRING #677 @ $CED848
+
+#W24($CEE700)
+//<line>
+//Script<End>
+
+//POINTER #678 @ $CEE704 - STRING #678 @ $CED856
+
+#W24($CEE704)
+//   <$A3><$80><$A8><$08> <$A6><$69><$A8><$73><line>
+//    <$A7><$9E><$A5><$88> <$A5><$A2><End>
+
+//POINTER #679 @ $CEE708 - STRING #679 @ $CED86F
+
+#W24($CEE708)
+//<line>
+//Scenario<End>
+
+//POINTER #680 @ $CEE70C - STRING #680 @ $CED881
+
+#W24($CEE70C)
+//   <$A4><$4A><$A2><$F9> <$A8><$74><$A5><$A2><line>
+//  <$A6><$D5><$A5><$38><$A3><$FC> <$A2><$D8><$A3><$60><line>
+//  <$A8><$72><$A8><$75> <$A8><$76><$A6>ü<$A8><$71><line>
+//<$19><$0D><$40> <$0F><$05><$1A><$2A><End>
+
+//POINTER #681 @ $CEE710 - STRING #681 @ $CED8B3
+
+#W24($CEE710)
+//Character<line>
+//   Design<End>
+
+//POINTER #682 @ $CEE714 - STRING #682 @ $CED8D6
+
+#W24($CEE714)
+//   <$A3><$E5><$A8><$77> <$A4><$DE><$A6><$8F><line>
+//   <$A2><$C1><$A4><$D9> <$A8><$78><$A7><$FC><line>
+//        <End>
+
+//POINTER #683 @ $CEE718 - STRING #683 @ $CED8F9
+
+#W24($CEE718)
+//EventBG<line>
+// Design<End>
+
+//POINTER #684 @ $CEE71C - STRING #684 @ $CED916
+
+#W24($CEE71C)
+//   <$A6><$4E><$A5><$88> <$A4><$46><$A2><$D8><End>
+
+//POINTER #685 @ $CEE720 - STRING #685 @ $CED923
+
+#W24($CEE720)
+//<line>
+//Graphic<End>
+
+//POINTER #686 @ $CEE724 - STRING #686 @ $CED933
+
+#W24($CEE724)
+//  <$A3><$22><$A8><$72> <$64><$61><$59><line>
+//  <$A6><$33><$A2><$D3> <$A3><$81><$A8><$7A><$A2><$E9><line>
+//   A—man<line>
+//   <$62><$70><$0F><$0C><$08><line>
+//    <$13><$2D><$10><$26><line>
+//   <$A2><$91><$A2><$D1> <$A5><$A2><$A8><$7B><line>
+//   <$A6><$D5><$A2><$D3> <$A4><$E9><$A2><$E9><line>
+//   <$A2><$B5><$A8><$72> <$A8><$7C><$A3><$3D><line>
+//    JaJa<End>
+
+//POINTER #687 @ $CEE728 - STRING #687 @ $CED9A0
+
+#W24($CEE728)
+//<line>
+//Sound<End>
+
+//POINTER #688 @ $CEE72C - STRING #688 @ $CED9AC
+
+#W24($CEE72C)
+//    <$A8><$7D> <$A8><$51><$A8><$73><line>
+//  <$A3><$71><$A2><$A6> <$A5><$3D><$A8><$79><$A2><$E9><line>
+//   <$A5><$EB><$A8><$72> <$A7><$4E><$A8><$7E><line>
+//   <$A8><$7F><$A8><$80> <$A8><$81><$A4><$3C><End>
+
+//POINTER #689 @ $CEE730 - STRING #689 @ $CED9E0
+
+#W24($CEE730)
+//<line>
+//AssistWork<End>
+
+//POINTER #690 @ $CEE734 - STRING #690 @ $CED9F6
+
+#W24($CEE734)
+//   <$A8><$82><$A8><$83> <$A8><$84><$A8><$85><End>
+
+//POINTER #691 @ $CEE738 - STRING #691 @ $CEDA03
+
+#W24($CEE738)
+//<line>
+//Marketing<End>
+
+//POINTER #692 @ $CEE73C - STRING #692 @ $CEDA17
+
+#W24($CEE73C)
+//  <$A8><$86><$A5><$38><$A4><$80> <$A8><$87><$A2><$7C><line>
+//   <$A3><$94><$A2><$E9> <$A8><$88><$A6><$12><End>
+
+//POINTER #693 @ $CEE740 - STRING #693 @ $CEDA32
+
+#W24($CEE740)
+//<line>
+//Sales<End>
+
+//POINTER #694 @ $CEE744 - STRING #694 @ $CEDA3E
+
+#W24($CEE744)
+//   <$A5><$BA><$A6><$33> <$A8><$81><$A5><$F7><line>
+//   <$A8><$89><$A8><$72> <$A3><$8E><$A5><$F7><line>
+//    <$A2><$A5><$A5><$38> <$A8><$95><End>
+
+//POINTER #695 @ $CEE748 - STRING #695 @ $CEDA64
+
+#W24($CEE748)
+//<line>
+//Tuning<End>
+
+//POINTER #696 @ $CEE74C - STRING #696 @ $CEDA72
+
+#W24($CEE74C)
+//    <$A4><$4A><$A2><$F9> <$A8> <line>
+//    <$A5><$28><$A8><$8B> <$A8><$8C><line>
+//   <$A8><$8D><$A8><$80> <$A5>Ñ<$A8><$8E><line>
+//   <$A2><$7D><$A5><$31> <$A4><$0A><$A8><$7E><line>
+//   <$A6><$33><$A5><$88> <$A3><$90><$A8><$7C><line>
+//   <$A3><$80><$A5><$25><$A8><$77> <$A8><$8F><line>
+//   <$A4><$81><$A8><$72> <$A2><$A5><$A3><$F4><line>
+//    <$A3><$80><$A6><$D5> <$A8><$90><line>
+//   <$A3><$26><$A8><$91> <$A8><$92><$A8><$93><line>
+//   <$A4><$57><$A8><$72> <$A8><$3A><$A8><$7A><End>
+
+//POINTER #697 @ $CEE750 - STRING #697 @ $CEDAF1
+
+#W24($CEE750)
+//Special<line>
+// Thanks<End>
+
+//POINTER #698 @ $CEE754 - STRING #698 @ $CEDB0E
+
+#W24($CEE754)
+//    <$A8><$94><$A8><$83> <$A8><$8F><line>
+//    <$A2><$A5><$A2>¡ <$A8><$95><line>
+//   <$A7><$7E><$A8><$96><$A8><$08> <$A8><$87><line>
+//   <$A4><$4A><$A2><$F9> <$A2><$E6><$A8><$93><line>
+//   <$A2><$D1><$A5><$88> <$A8><$97><$A5><$F7><line>
+//   <$A8><$98><$A8><$72> <$A8><$99><$A5><$A2><line>
+//   <$A8><$9A><$A2><$D2> <$A8><$70><$A2>á<End>
+
+//POINTER #699 @ $CEE758 - STRING #699 @ $CEDAF1
+
+#W24($CEE758)
+//Special<line>
+// Thanks<End>
+
+//POINTER #700 @ $CEE75C - STRING #700 @ $CEDB67
+
+#W24($CEE75C)
+//   <$A3><$80><$A7><$68> <$A8><$9B><$A8><$7E><line>
+//   <$A3><$E5><$A8><$77> <$A6><$12><$A8><$7B><line>
+//   <$A8><$9D><$A8><$72> <$A8><$9E><$A8><$9F><line>
+//   <$A5><$EE><$A5><$88> <$A8><$A0><$A8><$A1><line>
+//  <$A5><$51><$A3><$4F> <$A7><$FE><$A6>ü<$A8><$71><line>
+//  <$A8><$A2><$A6><$32> <$13><$22><$A2><$EE><line>
+//   <$A8><$A3><$A5><$31> <$A5><$3D><$A8><$7B><End>
+
+//POINTER #701 @ $CEE760 - STRING #701 @ $CEDAF1
+
+#W24($CEE760)
+//Special<line>
+// Thanks<End>
+
+//POINTER #702 @ $CEE764 - STRING #702 @ $CEDBC2
+
+#W24($CEE764)
+//   <$A5><$B5><$A5><$88> <$A5><$A0><$A5><$F7><line>
+//   <$A8><$A4><$A2><$F9> <$A8><$A5><$A3><$0A><line>
+//    <$A3><$49><$A4><$80> <$A2>á<line>
+//   <$A6><$2D><$A8><$A6> <$A8><$A7><$A4><$5A><line>
+//   <$A4><$60><$A5><$88> <$A8><$8F><$A3><$3D><line>
+//  <$A5><$51><$A3><$4F> <$A5><$82><$A8><$9E><$A2><$E9><line>
+//   <$A6><$D5><$A6><$32> <$A8><$A8><$A8><line>
+//<End>
+
+//POINTER #703 @ $CEE768 - STRING #703 @ $CEDC1D
+
+#W24($CEE768)
+//<line>
+//<$8B><$90><$7A><$9C><$94><$71><$7D><$63><End>
+
+//POINTER #704 @ $CEE76C - STRING #704 @ $CEDC27
+
+#W24($CEE76C)
+//   STING<line>
+//        <line>
+//        <End>
+
+//POINTER #705 @ $CEE770 - STRING #705 @ $CEDC47
+
+#W24($CEE770)
+//<line>
+//<$60><$9E><$A1><$65><$7D><$80><End>
+
+//POINTER #706 @ $CEE774 - STRING #706 @ $CEDC4F
+
+#W24($CEE774)
+//     <$A8>é<$A5><$6B><$A8>í<End>
+
+//POINTER #707 @ $CEE778 - STRING #707 @ $CEDC5B
+
+#W24($CEE778)
+//<line>
+//<$8B><$8D><$9C><$80><End>
+
+//POINTER #708 @ $CEE77C - STRING #708 @ $CEDC61
+
+#W24($CEE77C)
+//<$5C><$5F><$84><$54><$89><$5C><$5F><$9C><$63><End>

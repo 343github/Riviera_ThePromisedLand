@@ -1,0 +1,89 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($D96F5C,$D9754B)
+
+//GAME NAME:		
+
+//BLOCK #032 NAME:		PART (032)
+
+//POINTER #0 @ $D9754C - STRING #0 @ $D96F5C
+
+#W24($D9754C)
+//The wetlands that<line>
+//extend out at the<line>
+//bottom of Yggdrasil.<line>
+//Gregarious plants<line>
+//grow in the water.<End>
+
+//POINTER #1 @ $D97550 - STRING #1 @ $D97008
+
+#W24($D97550)
+//Stone blocks spiral<line>
+//around the giant<line>
+//pillar that rises<line>
+//from the center of<line>
+//Yggdrasil.<End>
+
+//POINTER #2 @ $D97554 - STRING #2 @ $D970A4
+
+#W24($D97554)
+//A group of floating<line>
+//stones known as<line>
+//Manalith are strung<line>
+//out in a spiral—like<line>
+//fashion.<End>
+
+//POINTER #3 @ $D97558 - STRING #3 @ $D97141
+
+#W24($D97558)
+//Circular gardens float<line>
+//about, encompassing<line>
+//the trees over and<line>
+//over at the center of<line>
+//Yggdrasil.<End>
+
+//POINTER #4 @ $D9755C - STRING #4 @ $D971F0
+
+#W24($D9755C)
+//The main tree that<line>
+//grows in the center<line>
+//of Yggdrasil. It is<line>
+//said that it gives<line>
+//life to all.<End>
+
+//POINTER #5 @ $D97560 - STRING #5 @ $D97293
+
+#W24($D97560)
+//Created by the gods,<line>
+//it protects and<line>
+//controls Yggdrasil.<line>
+//There are three<line>
+//Aquariums total.<End>
+
+//POINTER #6 @ $D97564 - STRING #6 @ $D97339
+
+#W24($D97564)
+//The top area of<line>
+//Yggdrasil. Holy blue<line>
+//light fills the space.<line>
+//Crystal fibers spread<line>
+//out like a maze.<End>
+
+//POINTER #7 @ $D97568 - STRING #7 @ $D973ED
+
+#W24($D97568)
+//The top of Yggdrasil.<line>
+//The manalith holding<line>
+//the wisdom of the gods<line>
+//lies here in the<line>
+//sacred light.<End>
+
+//POINTER #8 @ $D9756C - STRING #8 @ $D9749D
+
+#W24($D9756C)
+//The first Aquarium<line>
+//now lies in ruin.<line>
+//A powerful impact<line>
+//has caused the place<line>
+//to start crumbling.<End>

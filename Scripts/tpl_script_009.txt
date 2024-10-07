@@ -1,0 +1,663 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($CFF570,$D004C4)
+
+//GAME NAME:		
+
+//BLOCK #009 NAME:		PART (009)
+
+//POINTER #0 @ $D004C8 - STRING #0 @ $CFF570
+
+#W24($D004C8)
+//Unleashed Beast<End>
+
+//POINTER #1 @ $D004CC - STRING #1 @ $CFF58E
+
+#W24($D004CC)
+//Snarling Demons<End>
+
+//POINTER #2 @ $D004D0 - STRING #2 @ $CFF5AC
+
+#W24($D004D0)
+//Savage Demon<End>
+
+//POINTER #3 @ $D004D4 - STRING #3 @ $CFF5C4
+
+#W24($D004D4)
+//Dangling Spider<End>
+
+//POINTER #4 @ $D004D8 - STRING #4 @ $CFF5E2
+
+#W24($D004D8)
+//Tiny Magician<End>
+
+//POINTER #5 @ $D004DC - STRING #5 @ $CFF5FC
+
+#W24($D004DC)
+//Soul Hunter<End>
+
+//POINTER #6 @ $D004E0 - STRING #6 @ $CFF612
+
+#W24($D004E0)
+//Boulder Dragon<End>
+
+//POINTER #7 @ $D004E4 - STRING #7 @ $CFF62E
+
+#W24($D004E4)
+//Dark Queens<End>
+
+//POINTER #8 @ $D004E8 - STRING #8 @ $CFF644
+
+#W24($D004E8)
+//Wind Splitter<End>
+
+//POINTER #9 @ $D004EC - STRING #9 @ $CFF65E
+
+#W24($D004EC)
+//Beauty and the Wyvern<End>
+
+//POINTER #10 @ $D004F0 - STRING #10 @ $CFF686
+
+#W24($D004F0)
+//The Holy Beast<End>
+
+//POINTER #11 @ $D004F4 - STRING #11 @ $CFF6A1
+
+#W24($D004F4)
+//Masters of the Palace<End>
+
+//POINTER #12 @ $D004F8 - STRING #12 @ $CFF6C9
+
+#W24($D004F8)
+//Demon Shrub<End>
+
+//POINTER #13 @ $D004FC - STRING #13 @ $CFF6DF
+
+#W24($D004FC)
+//Gatekeepers<End>
+
+//POINTER #14 @ $D00500 - STRING #14 @ $CFF6F6
+
+#W24($D00500)
+//Wandering Beast<End>
+
+//POINTER #15 @ $D00504 - STRING #15 @ $CFF714
+
+#W24($D00504)
+//Mad Magician<End>
+
+//POINTER #16 @ $D00508 - STRING #16 @ $CFF72C
+
+#W24($D00508)
+//Shadow Dwellers<End>
+
+//POINTER #17 @ $D0050C - STRING #17 @ $CFF74A
+
+#W24($D0050C)
+//Midnight Bats<End>
+
+//POINTER #18 @ $D00510 - STRING #18 @ $CFF764
+
+#W24($D00510)
+//Runt Squad<End>
+
+//POINTER #19 @ $D00514 - STRING #19 @ $CFF778
+
+#W24($D00514)
+//Bolio's Necro Team<End>
+
+//POINTER #20 @ $D00518 - STRING #20 @ $CFF79B
+
+#W24($D00518)
+//Courtyard Guard Dog<End>
+
+//POINTER #21 @ $D0051C - STRING #21 @ $CFF7C0
+
+#W24($D0051C)
+//Castle Wanderers<End>
+
+//POINTER #22 @ $D00520 - STRING #22 @ $CFF7E0
+
+#W24($D00520)
+//Accursed<End>
+
+//POINTER #23 @ $D00524 - STRING #23 @ $CFF7F1
+
+#W24($D00524)
+//Patrol Team<End>
+
+//POINTER #24 @ $D00528 - STRING #24 @ $CFF807
+
+#W24($D00528)
+//Voluptuous Vampire<End>
+
+//POINTER #25 @ $D0052C - STRING #25 @ $CFF82B
+
+#W24($D0052C)
+//???<End>
+
+//POINTER #26 @ $D00530 - STRING #26 @ $CFF832
+
+#W24($D00530)
+//Black—Winged Woman<End>
+
+//POINTER #27 @ $D00534 - STRING #27 @ $CFF856
+
+#W24($D00534)
+//The Demon Knight<End>
+
+//POINTER #28 @ $D00538 - STRING #28 @ $CFF875
+
+#W24($D00538)
+//Jet Black Wind<End>
+
+//POINTER #29 @ $D0053C - STRING #29 @ $CFF890
+
+#W24($D0053C)
+//Electric Coffin Spirit<End>
+
+//POINTER #30 @ $D00540 - STRING #30 @ $CFF8BB
+
+#W24($D00540)
+//Ice Coffin Spirit<End>
+
+//POINTER #31 @ $D00544 - STRING #31 @ $CFF8DC
+
+#W24($D00544)
+//Dark Coffin Spirit<End>
+
+//POINTER #32 @ $D00548 - STRING #32 @ $CFF8FF
+
+#W24($D00548)
+//Awakened Vampire<End>
+
+//POINTER #33 @ $D0054C - STRING #33 @ $CFF91F
+
+#W24($D0054C)
+//Bush Slackers<End>
+
+//POINTER #34 @ $D00550 - STRING #34 @ $CFF939
+
+#W24($D00550)
+//Lawless Being<End>
+
+//POINTER #35 @ $D00554 - STRING #35 @ $CFF953
+
+#W24($D00554)
+//Rampant Soul<End>
+
+//POINTER #36 @ $D00558 - STRING #36 @ $CFF96B
+
+#W24($D00558)
+//Lost Bat of Lacrima<End>
+
+//POINTER #37 @ $D0055C - STRING #37 @ $CFF98F
+
+#W24($D0055C)
+//Advancing Flame<End>
+
+//POINTER #38 @ $D00560 - STRING #38 @ $CFF9AD
+
+#W24($D00560)
+//Marsh Haunts<End>
+
+//POINTER #39 @ $D00564 - STRING #39 @ $CFF9C5
+
+#W24($D00564)
+//Flowery Melissa<End>
+
+//POINTER #40 @ $D00568 - STRING #40 @ $CFF9E3
+
+#W24($D00568)
+//Melissa Again<End>
+
+//POINTER #41 @ $D0056C - STRING #41 @ $CFF9FD
+
+#W24($D0056C)
+//Injured Harpie<End>
+
+//POINTER #42 @ $D00570 - STRING #42 @ $CFFA19
+
+#W24($D00570)
+//Harpie Master<End>
+
+//POINTER #43 @ $D00574 - STRING #43 @ $CFFA33
+
+#W24($D00574)
+//Crawling Beasts<End>
+
+//POINTER #44 @ $D00578 - STRING #44 @ $CFFA51
+
+#W24($D00578)
+//Descendants of Nelde<End>
+
+//POINTER #45 @ $D0057C - STRING #45 @ $CFFA78
+
+#W24($D0057C)
+//Beast—Master Ludo<End>
+
+//POINTER #46 @ $D00580 - STRING #46 @ $CFFA9A
+
+#W24($D00580)
+//Air Riders<End>
+
+//POINTER #47 @ $D00584 - STRING #47 @ $CFFAAE
+
+#W24($D00584)
+//The Heavenly Wyvern<End>
+
+//POINTER #48 @ $D00588 - STRING #48 @ $CFFAD3
+
+#W24($D00588)
+//Ambitious Skeleton<End>
+
+//POINTER #49 @ $D0058C - STRING #49 @ $CFFAF7
+
+#W24($D0058C)
+//Intoxicating Plants<End>
+
+//POINTER #50 @ $D00590 - STRING #50 @ $CFFB1D
+
+#W24($D00590)
+//Monster Bird<End>
+
+//POINTER #51 @ $D00594 - STRING #51 @ $CFFB35
+
+#W24($D00594)
+//Perched Raptor<End>
+
+//POINTER #52 @ $D00598 - STRING #52 @ $CFFB51
+
+#W24($D00598)
+//Sticky Crew<End>
+
+//POINTER #53 @ $D0059C - STRING #53 @ $CFFB67
+
+#W24($D0059C)
+//Shell—Dweller<End>
+
+//POINTER #54 @ $D005A0 - STRING #54 @ $CFFB82
+
+#W24($D005A0)
+//Sleeping Ape<End>
+
+//POINTER #55 @ $D005A4 - STRING #55 @ $CFFB9A
+
+#W24($D005A4)
+//Bunch o' Bullies<End>
+
+//POINTER #56 @ $D005A8 - STRING #56 @ $CFFBB9
+
+#W24($D005A8)
+//Squirming Slime<End>
+
+//POINTER #57 @ $D005AC - STRING #57 @ $CFFBD7
+
+#W24($D005AC)
+//Water Bug<End>
+
+//POINTER #58 @ $D005B0 - STRING #58 @ $CFFBE9
+
+#W24($D005B0)
+//Barbarian King<End>
+
+//POINTER #59 @ $D005B4 - STRING #59 @ $CFFC05
+
+#W24($D005B4)
+//Rotten Scoundrels<End>
+
+//POINTER #60 @ $D005B8 - STRING #60 @ $CFFC27
+
+#W24($D005B8)
+//Silver—bell Winds<End>
+
+//POINTER #61 @ $D005BC - STRING #61 @ $CFFC49
+
+#W24($D005BC)
+//The Blue Fool<End>
+
+//POINTER #62 @ $D005C0 - STRING #62 @ $CFFC62
+
+#W24($D005C0)
+//Colossal Warriors<End>
+
+//POINTER #63 @ $D005C4 - STRING #63 @ $CFFC84
+
+#W24($D005C4)
+//White Plateau Wyvern<End>
+
+//POINTER #64 @ $D005C8 - STRING #64 @ $CFFCAB
+
+#W24($D005C8)
+//Golem Operators<End>
+
+//POINTER #65 @ $D005CC - STRING #65 @ $CFFCC9
+
+#W24($D005CC)
+//Tetythian Robbers<End>
+
+//POINTER #66 @ $D005D0 - STRING #66 @ $CFFCEB
+
+#W24($D005D0)
+//Carnean Bandits<End>
+
+//POINTER #67 @ $D005D4 - STRING #67 @ $CFFD09
+
+#W24($D005D4)
+//The Red Sage<End>
+
+//POINTER #68 @ $D005D8 - STRING #68 @ $CFFD20
+
+#W24($D005D8)
+//Elementalist<End>
+
+//POINTER #69 @ $D005DC - STRING #69 @ $CFFD39
+
+#W24($D005DC)
+//The Fallen Angel<End>
+
+//POINTER #70 @ $D005E0 - STRING #70 @ $CFFD58
+
+#W24($D005E0)
+//Birds in a Cage<End>
+
+//POINTER #71 @ $D005E4 - STRING #71 @ $CFFD74
+
+#W24($D005E4)
+//Treasure Hunter Z<End>
+
+//POINTER #72 @ $D005E8 - STRING #72 @ $CFFD95
+
+#W24($D005E8)
+//Devil's Familiars<End>
+
+//POINTER #73 @ $D005EC - STRING #73 @ $CFFDB7
+
+#W24($D005EC)
+//Sniper Squad<End>
+
+//POINTER #74 @ $D005F0 - STRING #74 @ $CFFDCF
+
+#W24($D005F0)
+//Lost Bat of Tetyth<End>
+
+//POINTER #75 @ $D005F4 - STRING #75 @ $CFFDF1
+
+#W24($D005F4)
+//The Sage's Golem<End>
+
+//POINTER #76 @ $D005F8 - STRING #76 @ $CFFE10
+
+#W24($D005F8)
+//Sad Golem Operators<End>
+
+//POINTER #77 @ $D005FC - STRING #77 @ $CFFE35
+
+#W24($D005FC)
+//Soul Returner<End>
+
+//POINTER #78 @ $D00600 - STRING #78 @ $CFFE4F
+
+#W24($D00600)
+//Hungry Hungry Monsters<End>
+
+//POINTER #79 @ $D00604 - STRING #79 @ $CFFE7A
+
+#W24($D00604)
+//Winged Foes<End>
+
+//POINTER #80 @ $D00608 - STRING #80 @ $CFFE90
+
+#W24($D00608)
+//Disciples of Lokin<End>
+
+//POINTER #81 @ $D0060C - STRING #81 @ $CFFEB3
+
+#W24($D0060C)
+//Misel the Fencer<End>
+
+//POINTER #82 @ $D00610 - STRING #82 @ $CFFED2
+
+#W24($D00610)
+//Disciples of Xenon<End>
+
+//POINTER #83 @ $D00614 - STRING #83 @ $CFFEF5
+
+#W24($D00614)
+//Disciples of Askus<End>
+
+//POINTER #84 @ $D00618 - STRING #84 @ $CFFF18
+
+#W24($D00618)
+//Disciples of Yumel<End>
+
+//POINTER #85 @ $D0061C - STRING #85 @ $CFFF3B
+
+#W24($D0061C)
+//Disciples of Iduna<End>
+
+//POINTER #86 @ $D00620 - STRING #86 @ $CFFF5E
+
+#W24($D00620)
+//Disciples of Teula<End>
+
+//POINTER #87 @ $D00624 - STRING #87 @ $CFFF81
+
+#W24($D00624)
+//Toxic Substances<End>
+
+//POINTER #88 @ $D00628 - STRING #88 @ $CFFFA1
+
+#W24($D00628)
+//The Grim Reaper<End>
+
+//POINTER #89 @ $D0062C - STRING #89 @ $CFFFBE
+
+#W24($D0062C)
+//Zombie Dragon<End>
+
+//POINTER #90 @ $D00630 - STRING #90 @ $CFFFD8
+
+#W24($D00630)
+//Abyss Dragon<End>
+
+//POINTER #91 @ $D00634 - STRING #91 @ $CFFFF0
+
+#W24($D00634)
+//Malicious Intent<End>
+
+//POINTER #92 @ $D00638 - STRING #92 @ $D00010
+
+#W24($D00638)
+//Randy the Thief<End>
+
+//POINTER #93 @ $D0063C - STRING #93 @ $D0002D
+
+#W24($D0063C)
+//Man—Eaters<End>
+
+//POINTER #94 @ $D00640 - STRING #94 @ $D00042
+
+#W24($D00640)
+//Cemetery Dwellers<End>
+
+//POINTER #95 @ $D00644 - STRING #95 @ $D00064
+
+#W24($D00644)
+//Those from the Darkness<End>
+
+//POINTER #96 @ $D00648 - STRING #96 @ $D00090
+
+#W24($D00648)
+//Gelt the Hermit<End>
+
+//POINTER #97 @ $D0064C - STRING #97 @ $D000AD
+
+#W24($D0064C)
+//The Undead<End>
+
+//POINTER #98 @ $D00650 - STRING #98 @ $D000C1
+
+#W24($D00650)
+//Hinderance<End>
+
+//POINTER #99 @ $D00654 - STRING #99 @ $D000D6
+
+#W24($D00654)
+//Cretier Mobile Unit<End>
+
+//POINTER #100 @ $D00658 - STRING #100 @ $D000FB
+
+#W24($D00658)
+//Small Cefiro<End>
+
+//POINTER #101 @ $D0065C - STRING #101 @ $D00113
+
+#W24($D0065C)
+//Phantasmic Winds<End>
+
+//POINTER #102 @ $D00660 - STRING #102 @ $D00133
+
+#W24($D00660)
+//Aerial Attackers<End>
+
+//POINTER #103 @ $D00664 - STRING #103 @ $D00153
+
+#W24($D00664)
+//Lumina the Pursuer<End>
+
+//POINTER #104 @ $D00668 - STRING #104 @ $D00176
+
+#W24($D00668)
+//Alisha of the Wind<End>
+
+//POINTER #105 @ $D0066C - STRING #105 @ $D00198
+
+#W24($D0066C)
+//Guardians<End>
+
+//POINTER #106 @ $D00670 - STRING #106 @ $D001AB
+
+#W24($D00670)
+//Aqua Dog<End>
+
+//POINTER #107 @ $D00674 - STRING #107 @ $D001BB
+
+#W24($D00674)
+//The Solitary Angel<End>
+
+//POINTER #108 @ $D00678 - STRING #108 @ $D001DE
+
+#W24($D00678)
+//Purula Air Force<End>
+
+//POINTER #109 @ $D0067C - STRING #109 @ $D001FD
+
+#W24($D0067C)
+//Dragon Master Milia<End>
+
+//POINTER #110 @ $D00680 - STRING #110 @ $D00222
+
+#W24($D00680)
+//The Devilish Angel<End>
+
+//POINTER #111 @ $D00684 - STRING #111 @ $D00245
+
+#W24($D00684)
+//Those Who Know Death<End>
+
+//POINTER #112 @ $D00688 - STRING #112 @ $D0026B
+
+#W24($D00688)
+//Red Berserker Luca<End>
+
+//POINTER #113 @ $D0068C - STRING #113 @ $D0028E
+
+#W24($D0068C)
+//Prideful Wings<End>
+
+//POINTER #114 @ $D00690 - STRING #114 @ $D002AA
+
+#W24($D00690)
+//Minerva Delinquents<End>
+
+//POINTER #115 @ $D00694 - STRING #115 @ $D002D0
+
+#W24($D00694)
+//Giant Fortess<End>
+
+//POINTER #116 @ $D00698 - STRING #116 @ $D002EA
+
+#W24($D00698)
+//The Grim Avenger<End>
+
+//POINTER #117 @ $D0069C - STRING #117 @ $D00309
+
+#W24($D0069C)
+//Dark Progenitor I<End>
+
+//POINTER #118 @ $D006A0 - STRING #118 @ $D0032A
+
+#W24($D006A0)
+//Dark Progenitor IV<End>
+
+//POINTER #119 @ $D006A4 - STRING #119 @ $D0034B
+
+#W24($D006A4)
+//Dark Progenitor II<End>
+
+//POINTER #120 @ $D006A8 - STRING #120 @ $D0036C
+
+#W24($D006A8)
+//Dark Progenitor V<End>
+
+//POINTER #121 @ $D006AC - STRING #121 @ $D0038D
+
+#W24($D006AC)
+//Dark Progenitor III<End>
+
+//POINTER #122 @ $D006B0 - STRING #122 @ $D003AE
+
+#W24($D006B0)
+//The Traitorous Magus<End>
+
+//POINTER #123 @ $D006B4 - STRING #123 @ $D003D5
+
+#W24($D006B4)
+//The Holy Demon<End>
+
+//POINTER #124 @ $D006B8 - STRING #124 @ $D003F0
+
+#W24($D006B8)
+//Assassin from Hell<End>
+
+//POINTER #125 @ $D006BC - STRING #125 @ $D00413
+
+#W24($D006BC)
+//Diabolical Fang<End>
+
+//POINTER #126 @ $D006C0 - STRING #126 @ $D00431
+
+#W24($D006C0)
+//Heaven Howler<End>
+
+//POINTER #127 @ $D006C4 - STRING #127 @ $D0044B
+
+#W24($D006C4)
+//The Destroyer<End>
+
+//POINTER #128 @ $D006C8 - STRING #128 @ $D00465
+
+#W24($D006C8)
+//Bombastic Bunch<End>
+
+//POINTER #129 @ $D006CC - STRING #129 @ $D00483
+
+#W24($D006CC)
+//Pumpkin Bomber<End>
+
+//POINTER #130 @ $D006D0 - STRING #130 @ $D0049F
+
+#W24($D006D0)
+//Hades, Ruler of Hell<End>

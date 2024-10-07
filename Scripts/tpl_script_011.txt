@@ -1,0 +1,925 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($D09380,$D0F4DF)
+
+//GAME NAME:		
+
+//BLOCK #011 NAME:		PART (011)
+
+//POINTER #0 @ $D0F4E0 - STRING #0 @ $D09380
+
+#W24($D0F4E0)
+//The Hell Hound is weak against fire,<line>
+//so Ledah's attacks should come in handy.<line>
+//This battle shouldn't be a problem.<End>
+
+//POINTER #1 @ $D0F4E4 - STRING #1 @ $D09450
+
+#W24($D0F4E4)
+//Devastator, the Gremlin's Max attack,<line>
+//cuts everyone's HP in half. Getting hit<line>
+//early on will make things difficult.<End>
+
+//POINTER #2 @ $D0F4E8 - STRING #2 @ $D09524
+
+#W24($D0F4E8)
+//The Berserker's attacks are not very<line>
+//accurate, but do a great deal of damage.<line>
+//He targets characters from a distance.<End>
+
+//POINTER #3 @ $D0F4EC - STRING #3 @ $D095FA
+
+#W24($D0F4EC)
+//Be careful of the Arachne's web attacks.<line>
+//On top of doing damage, they add counts<line>
+//to your WAIT meter.<End>
+
+//POINTER #4 @ $D0F4F0 - STRING #4 @ $D096B1
+
+#W24($D0F4F0)
+//The Rabid Beast has a lot of HP, but,<line>
+//like most beasts, is weak against fire.<line>
+//Ledah should be able to handle it.<End>
+
+//POINTER #5 @ $D0F4F4 - STRING #5 @ $D0977C
+
+#W24($D0F4F4)
+//Lilith usually strikes only one target,<line>
+//but in Rage Mode her Max attack will hit<line>
+//the entire front line, so watch out!<End>
+
+//POINTER #6 @ $D0F4F8 - STRING #6 @ $D09852
+
+#W24($D0F4F8)
+//High HP and fire resistance make it<line>
+//a troublesome foe. It'd be nice to have<line>
+//a Dragon Killer for this battle.<End>
+
+//POINTER #7 @ $D0F4FC - STRING #7 @ $D09917
+
+#W24($D0F4FC)
+//Lilith's Max attack, Dark Grip, heals<line>
+//her allies while damaging her enemy.<line>
+//It's double the trouble, so be careful.<End>
+
+//POINTER #8 @ $D0F500 - STRING #8 @ $D099EA
+
+#W24($D0F500)
+//What you get after battle depends on your<line>
+//rank and who you defeat last. You'll get<line>
+//a Naga Fang for defeating the Naga.<End>
+
+//POINTER #9 @ $D0F504 - STRING #9 @ $D09AC1
+
+#W24($D0F504)
+//A strong pair, but because they are so<line>
+//close together, Ledah's pierce attacks<line>
+//can damage both at once.<End>
+
+//POINTER #10 @ $D0F508 - STRING #10 @ $D09B7D
+
+#W24($D0F508)
+//Aghart uses primarily fire attacks.<line>
+//If you have one, you should use a Fire<line>
+//Orb to raise your fire resistance.<End>
+
+//POINTER #11 @ $D0F50C - STRING #11 @ $D09C45
+
+#W24($D0F50C)
+//When Big Bear's HP gets low, his Brutal<line>
+//Onslaught becomes more powerful. Don't<line>
+//ever let your guard down!<End>
+
+//POINTER #12 @ $D0F510 - STRING #12 @ $D09D05
+
+#W24($D0F510)
+//The Triffid has high HP but low VIT, so<line>
+//it takes a lot of damage. There's only<line>
+//one, so constantly attacking will work.<End>
+
+//POINTER #13 @ $D0F514 - STRING #13 @ $D09DDC
+
+#W24($D0F514)
+//The Evil Mage summons the Undead<line>
+//sometimes, so defeat him first. Using<line>
+//Slumber Ivy is a nice option.<End>
+
+//POINTER #14 @ $D0F518 - STRING #14 @ $D09E94
+
+#W24($D0F518)
+//The Viper Rachet's Max, Bullet Dive,<line>
+//forces your front and back lines<line>
+//to switch, so be careful!<End>
+
+//POINTER #15 @ $D0F51C - STRING #15 @ $D09F43
+
+#W24($D0F51C)
+//The Gladiator's Shield raises the front<line>
+//row's guard percentage while<line>
+//the Evil Mage attacks with magic.<End>
+
+//POINTER #16 @ $D0F520 - STRING #16 @ $D0A001
+
+#W24($D0F520)
+//The Green Slime's Rage attack, Acidic<line>
+//Solution, is an annoying move that<line>
+//lowers an item's endurance.<End>
+
+//POINTER #17 @ $D0F524 - STRING #17 @ $D0A0BB
+
+#W24($D0F524)
+//The Luna Vampire is the main member<line>
+//of this team. The Misery use Quick to<line>
+//shorten the front line's wait time.<End>
+
+//POINTER #18 @ $D0F528 - STRING #18 @ $D0A182
+
+#W24($D0F528)
+//The Murmur's Max, Explosion, is an<line>
+//ultra—powerful, all—range kamikaze<line>
+//attack.<End>
+
+//POINTER #19 @ $D0F52C - STRING #19 @ $D0A214
+
+#W24($D0F52C)
+//If there's a space, the Evil Mage will<line>
+//summon an Undead demon, so it's a good<line>
+//idea to defeat him first.<End>
+
+//POINTER #20 @ $D0F530 - STRING #20 @ $D0A2CF
+
+#W24($D0F530)
+//The Triffid's Tentacle Attack has the<line>
+//ability to absorb HP. The Bogie's main<line>
+//target is the front row.<End>
+
+//POINTER #21 @ $D0F534 - STRING #21 @ $D0A389
+
+#W24($D0F534)
+//The Bogie in the front attacks nearby<line>
+//while the Tiny Thief attacks far, so<line>
+//the right side is the safest area.<End>
+
+//POINTER #22 @ $D0F538 - STRING #22 @ $D0A450
+
+#W24($D0F538)
+//Protected in a special barrier,<line>
+//all attacks will be voided.<line>
+//What can you do…?<End>
+
+//POINTER #23 @ $D0F53C - STRING #23 @ $D0A4DE
+
+#W24($D0F53C)
+//The Tiny Thief and the Gladiator both<line>
+//attack nearby, so put two people up in<line>
+//the front to draw their attacks.<End>
+
+//POINTER #24 @ $D0F540 - STRING #24 @ $D0A5A5
+
+#W24($D0F540)
+//The Luna Vampire in the back line has<line>
+//a move that deals damage while<line>
+//recovering HP.<End>
+
+//POINTER #25 @ $D0F544 - STRING #25 @ $D0A63D
+
+#W24($D0F544)
+//HP is unknown. She is powerful, but you<line>
+//can deal damage with fire attacks. Ice<line>
+//attacks do no damage whatsoever.<End>
+
+//POINTER #26 @ $D0F548 - STRING #26 @ $D0A63D
+
+#W24($D0F548)
+//HP is unknown. She is powerful, but you<line>
+//can deal damage with fire attacks. Ice<line>
+//attacks do no damage whatsoever.<End>
+
+//POINTER #27 @ $D0F54C - STRING #27 @ $D0A709
+
+#W24($D0F54C)
+//The knight can easily resist all<line>
+//physical attacks. He has low MGC, so<line>
+//magic attacks can deal major damage.<End>
+
+//POINTER #28 @ $D0F550 - STRING #28 @ $D0A7CC
+
+#W24($D0F550)
+//The Black Wyrm's Gale will blow you<line>
+//out of battle and back to the field.<line>
+//Don't let it reach Max mode.<End>
+
+//POINTER #29 @ $D0F554 - STRING #29 @ $D0A883
+
+#W24($D0F554)
+//The S. Thor Wisp is weak against fire<line>
+//attacks, so use the Flamberg to deal<line>
+//major damage.<End>
+
+//POINTER #30 @ $D0F558 - STRING #30 @ $D0A924
+
+#W24($D0F558)
+//The S. Diamond Dust is weak against<line>
+//lightning attacks, so use the Thunder<line>
+//Bow to deal major damage.<End>
+
+//POINTER #31 @ $D0F55C - STRING #31 @ $D0A9DA
+
+#W24($D0F55C)
+//The S. Nightmare is weak against holy<line>
+//attacks, so use the Silver Rapier to<line>
+//deal major damage.<End>
+
+//POINTER #32 @ $D0F560 - STRING #32 @ $D0AA85
+
+#W24($D0F560)
+//The Luna Vampire summons a familiar from<line>
+//time to time, so don't let up. Pummel<line>
+//her with her weakness: holy attacks.<End>
+
+//POINTER #33 @ $D0F564 - STRING #33 @ $D0AB58
+
+#W24($D0F564)
+//The Hedge Spider in the back can add to<line>
+//your WAIT meter, so it is best to defeat<line>
+//it first or put it to sleep.<End>
+
+//POINTER #34 @ $D0F568 - STRING #34 @ $D0AC1B
+
+#W24($D0F568)
+//The Skeleton has several poison moves.<line>
+//When poisoned, your HP will slowly<line>
+//decrease, so pay attention to your HP.<End>
+
+//POINTER #35 @ $D0F56C - STRING #35 @ $D0ACEA
+
+#W24($D0F56C)
+//The S. Nightmare is weak against holy<line>
+//attacks, so attack with moves like<line>
+//the Einherjar's Slash.<End>
+
+//POINTER #36 @ $D0F570 - STRING #36 @ $D0AD9A
+
+#W24($D0F570)
+//It's only one Misery, so you should have<line>
+//no problem winning. Just fight<line>
+//however you're most comfortable.<End>
+
+//POINTER #37 @ $D0F574 - STRING #37 @ $D0ACEA
+
+#W24($D0F574)
+//The S. Nightmare is weak against holy<line>
+//attacks, so attack with moves like<line>
+//the Einherjar's Slash.<End>
+
+//POINTER #38 @ $D0F578 - STRING #38 @ $D0AE5B
+
+#W24($D0F578)
+//The Gust can steal items from you with<line>
+//its skill, Snatch. The stolen item<line>
+//can't be used in battle.<End>
+
+//POINTER #39 @ $D0F57C - STRING #39 @ $D0AF0E
+
+#W24($D0F57C)
+//The Banshee in the back uses fire magic<line>
+//to attack distant characters, so put a<line>
+//character with high MGC in the back.<End>
+
+//POINTER #40 @ $D0F580 - STRING #40 @ $D0AFE0
+
+#W24($D0F580)
+//The enemy team is well—balanced. It's<line>
+//best to utilize the targeting system and<line>
+//focus on defeating one enemy at a time.<End>
+
+//POINTER #41 @ $D0F584 - STRING #41 @ $D0B0B9
+
+#W24($D0F584)
+//Its Rage move, Talon Drop, targets<line>
+//the character with the highest<line>
+//remaining HP and halves it.<End>
+
+//POINTER #42 @ $D0F588 - STRING #42 @ $D0B165
+
+#W24($D0F588)
+//Lina and Fia's Bow Over Skills deal<line>
+//major damage to flying enemies. Check<line>
+//the target and aim for the Harpuia.<End>
+
+//POINTER #43 @ $D0F58C - STRING #43 @ $D0B22D
+
+#W24($D0F58C)
+//The Giant Beetle is strong against<line>
+//physical attacks, so attack with another<line>
+//property, preferrably lightning.<End>
+
+//POINTER #44 @ $D0F590 - STRING #44 @ $D0B2F8
+
+#W24($D0F590)
+//The Wyrm in the back is very strong, and<line>
+//should be attacked with anti—air moves<line>
+//or a Dragon Killer.<End>
+
+//POINTER #45 @ $D0F594 - STRING #45 @ $D0B3AD
+
+#W24($D0F594)
+//The Aeon Ape's Rage move, Angry Fist, gets<line>
+//stronger as he loses HP. On top of that,<line>
+//it scrambles your formation.<End>
+
+//POINTER #46 @ $D0F598 - STRING #46 @ $D0B47A
+
+#W24($D0F598)
+//Use anti—air moves (○AIR), such as Ein<line>
+//and Serene's Rapier Over Skills, to pierce<line>
+//through defenses and fight efficiently.<End>
+
+//POINTER #47 @ $D0F59C - STRING #47 @ $D0B55B
+
+#W24($D0F59C)
+//In Rage mode, it will use a powerful ice<line>
+//or dark attack. Raise resistance<line>
+//to those properties and heal often.<End>
+
+//POINTER #48 @ $D0F5A0 - STRING #48 @ $D0B623
+
+#W24($D0F5A0)
+//Undead enemies have 0 VIT, so weak,<line>
+//multiple—hit attacks are effective.<line>
+//They're also weak against holy attacks.<End>
+
+//POINTER #49 @ $D0F5A4 - STRING #49 @ $D0B6F2
+
+#W24($D0F5A4)
+//The Mantrap's Rage move, Sleep Pollen,<line>
+//has a strong sleep effect, so watch out<line>
+//for that!<End>
+
+//POINTER #50 @ $D0F5A8 - STRING #50 @ $D0B794
+
+#W24($D0F5A8)
+//Anti—air moves are the best choice, but<line>
+//fire and ice attacks can also deal a<line>
+//fair amount of damage.<End>
+
+//POINTER #51 @ $D0F5AC - STRING #51 @ $D0B849
+
+#W24($D0F5AC)
+//The Pelga's Max move, Cyclone Fury,<line>
+//is powerful. But, there's only one, so<line>
+//that shouldn't be a big problem.<End>
+
+//POINTER #52 @ $D0F5B0 - STRING #52 @ $D0B90E
+
+#W24($D0F5B0)
+//Using the Acid Jellies' weakness, ice,<line>
+//defeat them quickly before they lower<line>
+//your items' endurance!<End>
+
+//POINTER #53 @ $D0F5B4 - STRING #53 @ $D0B9C7
+
+#W24($D0F5B4)
+//Fight normally, just be careful of<line>
+//Icicle Shower, its Max move which <line>
+//ignores VIT stats and can freeze you!<End>
+
+//POINTER #54 @ $D0F5B8 - STRING #54 @ $D0BA8B
+
+#W24($D0F5B8)
+//It's only a single Aeon Ape. Just watch<line>
+//for its Rage move, Angry Fist——it<line>
+//reverses your formation.<End>
+
+//POINTER #55 @ $D0F5BC - STRING #55 @ $D0BB40
+
+#W24($D0F5BC)
+//They are actually quite powerful. It is<line>
+//best to plan your attacks and defeat them<line>
+//one by one, slowly but surely.<End>
+
+//POINTER #56 @ $D0F5C0 - STRING #56 @ $D0BC0D
+
+#W24($D0F5C0)
+//Since the Mercury Ooze can lower your<line>
+//items' endurance, it may be wise to take<line>
+//less important items into battle.<End>
+
+//POINTER #57 @ $D0F5C4 - STRING #57 @ $D0BCDB
+
+#W24($D0F5C4)
+//The Chariot's Max attack, Icicle Shower,<line>
+//deals damage regardless of the target's<line>
+//vitality, so be prepared.<End>
+
+//POINTER #58 @ $D0F5C8 - STRING #58 @ $D0BDA1
+
+#W24($D0F5C8)
+//The Vile Raven's Max attack,<line>
+//Cyclone Fury, deals a random number<line>
+//of hits, so be careful.<End>
+
+//POINTER #59 @ $D0F5CC - STRING #59 @ $D0BE43
+
+#W24($D0F5CC)
+//The Chariot's attacks all deal damage<line>
+//regardless of the target's VIT, and its<line>
+//Rage move, Stone Beam, can petrify you.<End>
+
+//POINTER #60 @ $D0F5D0 - STRING #60 @ $D0BF1B
+
+#W24($D0F5D0)
+//The Elder Wyrm's Max attack, Gale Wing,<line>
+//will blow you right out of battle. Be sure<line>
+//to avoid using multiple—hit techniques!<End>
+
+//POINTER #61 @ $D0F5D4 - STRING #61 @ $D0BFFC
+
+#W24($D0F5D4)
+//The Fool normally attacks with physical<line>
+//attacks, but his Rage move is an ice attack,<line>
+//and his Max move is a dark attack.<End>
+
+//POINTER #62 @ $D0F5D8 - STRING #62 @ $D0C0D5
+
+#W24($D0F5D8)
+//The Strong Guard will attack using<line>
+//the same property he is attacked with.<line>
+//Be careful of what attacks you use!<End>
+
+//POINTER #63 @ $D0F5DC - STRING #63 @ $D0C19D
+
+#W24($D0F5DC)
+//A powerful foe, but all its attacks other<line>
+//than its Max attack won't hit the back<line>
+//line, so move the weak to the rear.<End>
+
+//POINTER #64 @ $D0F5E0 - STRING #64 @ $D0C26F
+
+#W24($D0F5E0)
+//The Firbolg is very strong, and tough<line>
+//against physical attacks, so use attacks<line>
+//with elemental properties.<End>
+
+//POINTER #65 @ $D0F5E4 - STRING #65 @ $D0C333
+
+#W24($D0F5E4)
+//This team has no real weaknesses. They<line>
+//tend to focus on a single target, so it<line>
+//may be wise to alter your formation often.<End>
+
+//POINTER #66 @ $D0F5E8 - STRING #66 @ $D0C40F
+
+#W24($D0F5E8)
+//They're not very good with magic, so magic<line>
+//attacks work well. The beast—type enemies<line>
+//in the front line are susceptible to fire.<End>
+
+//POINTER #67 @ $D0F5EC - STRING #67 @ $D0C4F9
+
+#W24($D0F5EC)
+//The Sage normally attacks with physical<line>
+//attacks, but her Rage move is a fire attack,<line>
+//and her Max move is a lightning attack.<End>
+
+//POINTER #68 @ $D0F5F0 - STRING #68 @ $D0C5DC
+
+#W24($D0F5F0)
+//Her elemental attacks are quite<line>
+//powerful, so be aware of your<line>
+//characters' weaknesses.<End>
+
+//POINTER #69 @ $D0F5F4 - STRING #69 @ $D0C67B
+
+#W24($D0F5F4)
+//Although she has high MGC, she has low<line>
+//STR, so physical attacks are effective.<line>
+//Characters susceptible to magic beware!<End>
+
+//POINTER #70 @ $D0F5F8 - STRING #70 @ $D0C756
+
+#W24($D0F5F8)
+//They're not difficult opponents. Just use<line>
+//attacks that are effective against flying<line>
+//enemies, and settle things quickly.<End>
+
+//POINTER #71 @ $D0F5FC - STRING #71 @ $D0C835
+
+#W24($D0F5FC)
+//The Strong Guard can raise the front<line>
+//line's guard percentage using Shield.<line>
+//If you have an unblockable move, use it.<End>
+
+//POINTER #72 @ $D0F600 - STRING #72 @ $D0C909
+
+#W24($D0F600)
+//The Devil Imp is the one to watch out<line>
+//for. It's not very strong, so pound it<line>
+//with physical attacks.<End>
+
+//POINTER #73 @ $D0F604 - STRING #73 @ $D0C9BD
+
+#W24($D0F604)
+//When they are in Rage mode, they target<line>
+//the character with the lowest HP,<line>
+//so keep an eye on your party's health.<End>
+
+//POINTER #74 @ $D0F608 - STRING #74 @ $D0CA89
+
+#W24($D0F608)
+//It's only a single Devil Imp,<line>
+//so you should have no trouble<line>
+//winning this battle.<End>
+
+//POINTER #75 @ $D0F60C - STRING #75 @ $D0CB1C
+
+#W24($D0F60C)
+//The Stone Golem is strong and sturdy.<line>
+//You should put characters with high STR<line>
+//and VIT in the front line.<End>
+
+//POINTER #76 @ $D0F610 - STRING #76 @ $D0CBDA
+
+#W24($D0F610)
+//Without the Firbolg, they are much easier.<line>
+//Just make sure the front line characters<line>
+//have high STR and the back line high MGC.<End>
+
+//POINTER #77 @ $D0F614 - STRING #77 @ $D0CCBF
+
+#W24($D0F614)
+//The Necromancer in the back summons<line>
+//undead enemies, so use long—range<line>
+//attacks to defeat him first.<End>
+
+//POINTER #78 @ $D0F618 - STRING #78 @ $D0CD75
+
+#W24($D0F618)
+//The Unknown Material's Max move,<line>
+//Splatter Bomb, damages everyone<line>
+//regardless of their VIT.<End>
+
+//POINTER #79 @ $D0F61C - STRING #79 @ $D0CE1C
+
+#W24($D0F61C)
+//The Balrog in the front will summon<line>
+//a familiar, and the Pyrallis will use<line>
+//Quick to speed up the others.<End>
+
+//POINTER #80 @ $D0F620 - STRING #80 @ $D0CED8
+
+#W24($D0F620)
+//The Carnage Sect uses webbing to<line>
+//slow you down, while the enemies<line>
+//in the front line attack.<End>
+
+//POINTER #81 @ $D0F624 - STRING #81 @ $D0CF7F
+
+#W24($D0F624)
+//There's only one, but it has incredibly<line>
+//high HP. Keep chipping away at its HP<line>
+//using holy attacks.<End>
+
+//POINTER #82 @ $D0F628 - STRING #82 @ $D0D031
+
+#W24($D0F628)
+//The Stone Golem attacks at close range,<line>
+//while the Pyrallis uses magic to hit the<line>
+//rear. Set your formation accordingly.<End>
+
+//POINTER #83 @ $D0F62C - STRING #83 @ $D0D10B
+
+#W24($D0F62C)
+//The Skull Fencer uses its Max attack,<line>
+//Mortem Dance, to absorb its target's HP.<line>
+//Don't give it the chance!<End>
+
+//POINTER #84 @ $D0F630 - STRING #84 @ $D0D1CA
+
+#W24($D0F630)
+//The Flare Phantom goes after<line>
+//the character with the lowest HP,<line>
+//so be sure to heal often.<End>
+
+//POINTER #85 @ $D0F634 - STRING #85 @ $D0D26B
+
+#W24($D0F634)
+//The Lunatic Maiden and Necromancer both<line>
+//use powerful magic to attack characters<line>
+//in the back line. Be ready!<End>
+
+//POINTER #86 @ $D0F638 - STRING #86 @ $D0D331
+
+#W24($D0F638)
+//Both the Balrog and the Saber Wolf<line>
+//attack the front line when in Rage mode.<line>
+//The 1—2 formation works well.<End>
+
+//POINTER #87 @ $D0F63C - STRING #87 @ $D0D3F1
+
+#W24($D0F63C)
+//All three foes can lower your items'<line>
+//endurance. It's best not to bring any<line>
+//important items into this battle.<End>
+
+//POINTER #88 @ $D0F640 - STRING #88 @ $D0D4B8
+
+#W24($D0F640)
+//Death is strong both physically and<line>
+//magically, so be prepared. Holy attacks<line>
+//will be the most effective against him.<End>
+
+//POINTER #89 @ $D0F644 - STRING #89 @ $D0D58D
+
+#W24($D0F644)
+//It has high STR and MGC, but it is weak<line>
+//against holy attacks. Weapons designed<line>
+//for dragon fighting are also effective.<End>
+
+//POINTER #90 @ $D0F648 - STRING #90 @ $D0D666
+
+#W24($D0F648)
+//The Basilisk has high VIT, so a single,<line>
+//powerful hit is better than several small ones.<line>
+//Use moves that are unaffected by VIT.<End>
+
+//POINTER #91 @ $D0F64C - STRING #91 @ $D0D74B
+
+#W24($D0F64C)
+//When an Elemental uses Change, that's<line>
+//your chance. Try to find its weakness,<line>
+//and attack using that property.<End>
+
+//POINTER #92 @ $D0F650 - STRING #92 @ $D0D813
+
+#W24($D0F650)
+//It's just a Savage Ogre, so there's<line>
+//no excuse for losing. Just fight<line>
+//normally.<End>
+
+//POINTER #93 @ $D0F654 - STRING #93 @ $D0D8A3
+
+#W24($D0F654)
+//The Carnivine has high HP, but is<line>
+//weak against fire, so be aggresive<line>
+//with the fire attacks.<End>
+
+//POINTER #94 @ $D0F658 - STRING #94 @ $D0D94A
+
+#W24($D0F658)
+//Since the Carnage Sect targets<line>
+//characters in the front line,<line>
+//the 1—2 formation may be optimal.<End>
+
+//POINTER #95 @ $D0F65C - STRING #95 @ $D0D9F8
+
+#W24($D0F65C)
+//Note your enemy's attack types.<line>
+//If there's a property a character is<line>
+//weak against, raise his/her resistance.<End>
+
+//POINTER #96 @ $D0F660 - STRING #96 @ $D0DAC1
+
+#W24($D0F660)
+//The Lich's Max attack, Biting Frost,<line>
+//is a powerful magic attack with ice<line>
+//properties that hits everyone.<End>
+
+//POINTER #97 @ $D0F664 - STRING #97 @ $D0DB80
+
+#W24($D0F664)
+//The Skull Fencer has several moves that<line>
+//have the property of darkness, so place<line>
+//those with low resistance in the back.<End>
+
+//POINTER #98 @ $D0F668 - STRING #98 @ $D0DC59
+
+#W24($D0F668)
+//All of the Belial Queen's moves have<line>
+//dark properties. Place characters weak<line>
+//to dark in the back line.<End>
+
+//POINTER #99 @ $D0F66C - STRING #99 @ $D0DD13
+
+#W24($D0F66C)
+//The Dark Elves' bow attacks target the<line>
+//back row. They're physical attacks, so<line>
+//don't put anyone with low STR in the back.<End>
+
+//POINTER #100 @ $D0F670 - STRING #100 @ $D0DDEF
+
+#W24($D0F670)
+//The enemies' attacks aren't centralized,<line>
+//but they have high AGL, so finish<line>
+//them off quickly with multiple—hit moves.<End>
+
+//POINTER #101 @ $D0F674 - STRING #101 @ $D0DEC7
+
+#W24($D0F674)
+//The White Wyrm's Max move, Gale Wing,<line>
+//blows you out of battle, so avoid<line>
+//using multiple—hit skills!<End>
+
+//POINTER #102 @ $D0F678 - STRING #102 @ $D0DF7C
+
+#W24($D0F678)
+//They are a powerful team, but the<line>
+//Griffons in the front have simple attack<line>
+//patterns.<End>
+
+//POINTER #103 @ $D0F67C - STRING #103 @ $D0E017
+
+#W24($D0F67C)
+//The Belial Queen attacks distant targets<line>
+//with dark moves. Make sure nobody in<line>
+//the back row is weak to dark!<End>
+
+//POINTER #104 @ $D0F680 - STRING #104 @ $D0E0DB
+
+#W24($D0F680)
+//The Siren's Lullaby causes you to fall<line>
+//asleep. On top of that, it's unblockable,<line>
+//so be careful.<End>
+
+//POINTER #105 @ $D0F684 - STRING #105 @ $D0E18A
+
+#W24($D0F684)
+//The Talos attacks the front line with<line>
+//a move that lowers HP by percentage,<line>
+//so heal them often.<End>
+
+//POINTER #106 @ $D0F688 - STRING #106 @ $D0E236
+
+#W24($D0F688)
+//Watch out for the Cerberus's Max move,<line>
+//Bullet Dive, as it forces your front and<line>
+//back lines to switch places.<End>
+
+//POINTER #107 @ $D0F68C - STRING #107 @ $D0E2FC
+
+#W24($D0F68C)
+//He attacks with powerful fire moves.<line>
+//Attack with ice while increasing your<line>
+//fire resistance.<End>
+
+//POINTER #108 @ $D0F690 - STRING #108 @ $D0E3A6
+
+#W24($D0F690)
+//The two L. Elementals are the main<line>
+//concern. Characters with low MGC or<line>
+//a corresponding weakness, beware!<End>
+
+//POINTER #109 @ $D0F694 - STRING #109 @ $D0E467
+
+#W24($D0F694)
+//The Bahamut is persistant, but remember<line>
+//the Valkyrie in the back. She has low STR,<line>
+//so physical attacks are effective.<End>
+
+//POINTER #110 @ $D0F698 - STRING #110 @ $D0E53F
+
+#W24($D0F698)
+//She attacks with powerful ice skills.<line>
+//Attack with fire, while increasing your<line>
+//resistance to ice.<End>
+
+//POINTER #111 @ $D0F69C - STRING #111 @ $D0E5F2
+
+#W24($D0F69C)
+//The Lich summons and undead enemy<line>
+//with high HP. Try to defeat the Lich<line>
+//before it has a chance to summon.<End>
+
+//POINTER #112 @ $D0F6A0 - STRING #112 @ $D0E6AF
+
+#W24($D0F6A0)
+//The Simurgh can cause various aliments<line>
+//such as STONE and FREEZE, so stay alert<line>
+//and come prepared.<End>
+
+//POINTER #113 @ $D0F6A4 - STRING #113 @ $D0E762
+
+#W24($D0F6A4)
+//The Obinick's Max move, Air Assault,<line>
+//targets randomly and has low accuracy,<line>
+//but it's powerful when it connects.<End>
+
+//POINTER #114 @ $D0F6A8 - STRING #114 @ $D0E830
+
+#W24($D0F6A8)
+//The Tyrants have powerful attacks and<line>
+//Diana's Vassal will try to finish<line>
+//you off, so be careful.<End>
+
+//POINTER #115 @ $D0F6AC - STRING #115 @ $D0E8DF
+
+#W24($D0F6AC)
+//It's best to use property magic<line>
+//on the Titan. It has high VIT,<line>
+//so use appropriate techniques.<End>
+
+//POINTER #116 @ $D0F6B0 - STRING #116 @ $D0E98A
+
+#W24($D0F6B0)
+//Her ice attacks are incredibly powerful.<line>
+//Ice and holy won't scathe her, so<line>
+//plan around her only weakness: fire.<End>
+
+//POINTER #117 @ $D0F6B4 - STRING #117 @ $D0EA57
+
+#W24($D0F6B4)
+//It has high MGC, so use physical attacks<line>
+//rather than magic. The enemy is flying,<line>
+//so try an anti—air move…<End>
+
+//POINTER #118 @ $D0F6B8 - STRING #118 @ $D0EB17
+
+#W24($D0F6B8)
+//She has high MGC and an ultra—powerful<line>
+//lightning attack, so watch those with<line>
+//low MGC or low lightning resistance.<End>
+
+//POINTER #119 @ $D0F6BC - STRING #119 @ $D0EBE8
+
+#W24($D0F6BC)
+//He has high STR and high physical<line>
+//resistance, so use magic with other<line>
+//properties. He guards sometimes, too.<End>
+
+//POINTER #120 @ $D0F6C0 - STRING #120 @ $D0ECAE
+
+#W24($D0F6C0)
+//Dark Death's Max move, Onslaught of<line>
+//Doom, can absorb HP. Keep dealing<line>
+//damage with holy—property attacks.<End>
+
+//POINTER #121 @ $D0F6C4 - STRING #121 @ $D0ED70
+
+#W24($D0F6C4)
+//Utilize the fact that it's a flying<line>
+//dragon to deal damage efficiently.<line>
+//It's also weak against lightning.<End>
+
+//POINTER #122 @ $D0F6C8 - STRING #122 @ $D0EE31
+
+#W24($D0F6C8)
+//Hector uses Element Transition to change<line>
+//his property. If you attack with the wrong<line>
+//property, he'll regain HP!<End>
+
+//POINTER #123 @ $D0F6CC - STRING #123 @ $D0EEFD
+
+#W24($D0F6CC)
+//Seth—Rah uses Metamorphosis to change<line>
+//her abilities. Her weakness changes as<line>
+//well, so keep your attacks varied.<End>
+
+//POINTER #124 @ $D0F6D0 - STRING #124 @ $D0EFCC
+
+#W24($D0F6D0)
+//The Hell Curse uses physical attacks,<line>
+//but the back row uses magic. Keep an eye<line>
+//on each character's stats.<End>
+
+//POINTER #125 @ $D0F6D4 - STRING #125 @ $D0F08D
+
+#W24($D0F6D4)
+//The Tiamat has high STR and VIT,<line>
+//so physical attacks do little damage.<line>
+//Try using holy or ice magic.<End>
+
+//POINTER #126 @ $D0F6D8 - STRING #126 @ $D0F142
+
+#W24($D0F6D8)
+//Watch out for the two Nosferatu. Their<line>
+//Max move, Explosion, is powerful, so<line>
+//don't let them use it.<End>
+
+//POINTER #127 @ $D0F6DC - STRING #127 @ $D0F1F6
+
+#W24($D0F6DC)
+//The Bomber Kid is susceptible to SLEEP<line>
+//ailments, so bringing Slumber Ivy along<line>
+//may be a good idea.<End>
+
+//POINTER #128 @ $D0F6E0 - STRING #128 @ $D0F2AA
+
+#W24($D0F6E0)
+//The Bomber Kid's Max move, Atomic Bomb,<line>
+//is powerful, lowering everyone's HP by<line>
+//about 1/3, so be careful!<End>
+
+//POINTER #129 @ $D0F6E4 - STRING #129 @ $D0F36A
+
+#W24($D0F6E4)
+//The Bomber Kid is susceptible to SLEEP<line>
+//ailments, so bringing a Slumber along<line>
+//may be useful.<End>
+
+//POINTER #130 @ $D0F6E8 - STRING #130 @ $D0F412
+
+#W24($D0F6E8)
+//Wielder of incredible power. Find his<line>
+//weakness, and continue attacking with<line>
+//that property while healing often.<End>

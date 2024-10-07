@@ -1,0 +1,8570 @@
+#VAR(Table, TABLE)
+#ADDTBL("IN.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($D77780,$D85BAA)
+
+//GAME NAME:		
+
+//BLOCK #028 NAME:		PART (028)
+
+//POINTER #0 @ $D85BAC - STRING #0 @ $D77780
+
+#W24($D85BAC)
+//The Elder said…<Next>
+
+//that one of the Accursed is<line>
+//most likely in this area…<End>
+
+//POINTER #1 @ $D85BB0 - STRING #1 @ $D777FF
+
+#W24($D85BB0)
+//There should be a path<line>
+//underground.<End>
+
+//POINTER #2 @ $D85BB4 - STRING #2 @ $D77841
+
+#W24($D85BB4)
+//So, we just need to find it,<line>
+//right?<End>
+
+//POINTER #3 @ $D85BB8 - STRING #3 @ $D77881
+
+#W24($D85BB8)
+//This is the last Accursed,<line>
+//Ein.<End>
+
+//POINTER #4 @ $D85BBC - STRING #4 @ $D778BB
+
+#W24($D85BBC)
+//You're right.<line>
+//Once we seal it…<Next>
+
+//Riviera will be safe!<line>
+//Stay alert, everyone.<End>
+
+//POINTER #5 @ $D85BC0 - STRING #5 @ $D77945
+
+#W24($D85BC0)
+//I'll try my hardest!<End>
+
+//POINTER #6 @ $D85BC4 - STRING #6 @ $D7796B
+
+#W24($D85BC4)
+//S—Spare me…<line>
+//I'll give it back!<End>
+
+//POINTER #7 @ $D85BC8 - STRING #7 @ $D779A3
+
+#W24($D85BC8)
+//My backpack!<End>
+
+//POINTER #8 @ $D85BCC - STRING #8 @ $D779BB
+
+#W24($D85BCC)
+//What should I do?<End>
+
+//POINTER #9 @ $D85BD0 - STRING #9 @ $D779DB
+
+#W24($D85BD0)
+//I can't let you get away<line>
+//with that.<End>
+
+//POINTER #10 @ $D85BD4 - STRING #10 @ $D77A1B
+
+#W24($D85BD4)
+//Arrgh!<End>
+
+//POINTER #11 @ $D85BD8 - STRING #11 @ $D77A28
+
+#W24($D85BD8)
+//As long as we get<line>
+//the backpack back.<Next>
+
+//It's important to us.<End>
+
+//POINTER #12 @ $D85BDC - STRING #12 @ $D77A93
+
+#W24($D85BDC)
+//Ein…<End>
+
+//POINTER #13 @ $D85BE0 - STRING #13 @ $D77A9C
+
+#W24($D85BE0)
+//Th—Thanks… You can take<line>
+//this, too.<End>
+
+//POINTER #14 @ $D85BE4 - STRING #14 @ $D77ADC
+
+#W24($D85BE4)
+//What's this?<End>
+
+//POINTER #15 @ $D85BE8 - STRING #15 @ $D77AF4
+
+#W24($D85BE8)
+//It's a Thief Manual.<Next>
+
+//It explains how to disarm<line>
+//traps n' stuff.<End>
+
+//POINTER #16 @ $D85BEC - STRING #16 @ $D77B67
+
+#W24($D85BEC)
+//That's awesome!<End>
+
+//POINTER #17 @ $D85BF0 - STRING #17 @ $D77B85
+
+#W24($D85BF0)
+//Sorry 'bout all that<line>
+//trouble…<End>
+
+//POINTER #18 @ $D85BF4 - STRING #18 @ $D77BBC
+
+#W24($D85BF4)
+//…Ein?<line>
+//What are you saying!?<End>
+
+//POINTER #19 @ $D85BF8 - STRING #19 @ $D77BED
+
+#W24($D85BF8)
+//Oh… Sorry…💧<End>
+
+//POINTER #20 @ $D85BFC - STRING #20 @ $D77C03
+
+#W24($D85BFC)
+//I gave it back,<line>
+//y'hear me!?<End>
+
+//POINTER #21 @ $D85C00 - STRING #21 @ $D77C33
+
+#W24($D85C00)
+//And… he's gone.<End>
+
+//POINTER #22 @ $D85C04 - STRING #22 @ $D77C50
+
+#W24($D85C04)
+//Can you hear that?<line>
+//It sounds pretty noisy.<End>
+
+//POINTER #23 @ $D85C08 - STRING #23 @ $D779BB
+
+#W24($D85C08)
+//What should I do?<End>
+
+//POINTER #24 @ $D85C0C - STRING #24 @ $D77C9E
+
+#W24($D85C0C)
+//It could be the thief.<End>
+
+//POINTER #25 @ $D85C10 - STRING #25 @ $D77CC7
+
+#W24($D85C10)
+//Heheheh… Suckers!<End>
+
+//POINTER #26 @ $D85C14 - STRING #26 @ $D77CE9
+
+#W24($D85C14)
+//Like takin' candy<line>
+//from babies…<Next>
+
+//So, what've we got?<End>
+
+//POINTER #27 @ $D85C18 - STRING #27 @ $D77D47
+
+#W24($D85C18)
+//(That's my backpack!)<End>
+
+//POINTER #28 @ $D85C1C - STRING #28 @ $D77D70
+
+#W24($D85C1C)
+//That's the thief,<line>
+//alright.<End>
+
+//POINTER #29 @ $D85C20 - STRING #29 @ $D77DA2
+
+#W24($D85C20)
+//Let's see… Teddy bear,<line>
+//rope, some arrows…<Next>
+
+//What the——!?<line>
+//This is junk!<End>
+
+//POINTER #30 @ $D85C24 - STRING #30 @ $D77E1F
+
+#W24($D85C24)
+//Let's see… Teddy bear,<line>
+//rope, broken arrows…<Next>
+
+//What the——!?<line>
+//This is junk!<End>
+
+//POINTER #31 @ $D85C28 - STRING #31 @ $D77EA0
+
+#W24($D85C28)
+//…Oops.<End>
+
+//POINTER #32 @ $D85C2C - STRING #32 @ $D77EAD
+
+#W24($D85C2C)
+//Who's there!?<End>
+
+//POINTER #33 @ $D85C30 - STRING #33 @ $D77EC5
+
+#W24($D85C30)
+//You're…!?<End>
+
+//POINTER #34 @ $D85C34 - STRING #34 @ $D77ED6
+
+#W24($D85C34)
+//How dare you steal from<line>
+//a little girl!<End>
+
+//POINTER #35 @ $D85C38 - STRING #35 @ $D77F1C
+
+#W24($D85C38)
+//Lina's angry!<End>
+
+//POINTER #36 @ $D85C3C - STRING #36 @ $D77F36
+
+#W24($D85C3C)
+//Ah, c'mon…<line>
+//It's just a lousy bag.<End>
+
+//POINTER #37 @ $D85C40 - STRING #37 @ $D77F73
+
+#W24($D85C40)
+//You're goin' down!<End>
+
+//POINTER #38 @ $D85C44 - STRING #38 @ $D77F96
+
+#W24($D85C44)
+//It would be wise to<line>
+//surrender.<End>
+
+//POINTER #39 @ $D85C48 - STRING #39 @ $D77FCE
+
+#W24($D85C48)
+//It might be a demon…<End>
+
+//POINTER #40 @ $D85C4C - STRING #40 @ $D77FF3
+
+#W24($D85C4C)
+//There's a brick<line>
+//house.<End>
+
+//POINTER #41 @ $D85C50 - STRING #41 @ $D7801D
+
+#W24($D85C50)
+//Think anyone's inside?<End>
+
+//POINTER #42 @ $D85C54 - STRING #42 @ $D78048
+
+#W24($D85C54)
+//It's abandoned.<End>
+
+//POINTER #43 @ $D85C58 - STRING #43 @ $D77C50
+
+#W24($D85C58)
+//Can you hear that?<line>
+//It sounds pretty noisy.<End>
+
+//POINTER #44 @ $D85C5C - STRING #44 @ $D779BB
+
+#W24($D85C5C)
+//What should I do?<End>
+
+//POINTER #45 @ $D85C60 - STRING #45 @ $D77C9E
+
+#W24($D85C60)
+//It could be the thief.<End>
+
+//POINTER #46 @ $D85C64 - STRING #46 @ $D77CC7
+
+#W24($D85C64)
+//Heheheh… Suckers!<End>
+
+//POINTER #47 @ $D85C68 - STRING #47 @ $D78066
+
+#W24($D85C68)
+//Like takin' candy from<line>
+//babies…<Next>
+
+//So, what've we got?<End>
+
+//POINTER #48 @ $D85C6C - STRING #48 @ $D77D47
+
+#W24($D85C6C)
+//(That's my backpack!)<End>
+
+//POINTER #49 @ $D85C70 - STRING #49 @ $D77D70
+
+#W24($D85C70)
+//That's the thief,<line>
+//alright.<End>
+
+//POINTER #50 @ $D85C74 - STRING #50 @ $D77DA2
+
+#W24($D85C74)
+//Let's see… Teddy bear,<line>
+//rope, some arrows…<Next>
+
+//What the——!?<line>
+//This is junk!<End>
+
+//POINTER #51 @ $D85C78 - STRING #51 @ $D77E1F
+
+#W24($D85C78)
+//Let's see… Teddy bear,<line>
+//rope, broken arrows…<Next>
+
+//What the——!?<line>
+//This is junk!<End>
+
+//POINTER #52 @ $D85C7C - STRING #52 @ $D77EA0
+
+#W24($D85C7C)
+//…Oops.<End>
+
+//POINTER #53 @ $D85C80 - STRING #53 @ $D77EAD
+
+#W24($D85C80)
+//Who's there!?<End>
+
+//POINTER #54 @ $D85C84 - STRING #54 @ $D77EC5
+
+#W24($D85C84)
+//You're…!?<End>
+
+//POINTER #55 @ $D85C88 - STRING #55 @ $D77ED6
+
+#W24($D85C88)
+//How dare you steal from<line>
+//a little girl!<End>
+
+//POINTER #56 @ $D85C8C - STRING #56 @ $D77F1C
+
+#W24($D85C8C)
+//Lina's angry!<End>
+
+//POINTER #57 @ $D85C90 - STRING #57 @ $D77F36
+
+#W24($D85C90)
+//Ah, c'mon…<line>
+//It's just a lousy bag.<End>
+
+//POINTER #58 @ $D85C94 - STRING #58 @ $D77F73
+
+#W24($D85C94)
+//You're goin' down!<End>
+
+//POINTER #59 @ $D85C98 - STRING #59 @ $D77F96
+
+#W24($D85C98)
+//It would be wise to<line>
+//surrender.<End>
+
+//POINTER #60 @ $D85C9C - STRING #60 @ $D77FCE
+
+#W24($D85C9C)
+//It might be a demon…<End>
+
+//POINTER #61 @ $D85CA0 - STRING #61 @ $D780C4
+
+#W24($D85CA0)
+//It's kind of a dump.<End>
+
+//POINTER #62 @ $D85CA4 - STRING #62 @ $D780E9
+
+#W24($D85CA4)
+//This really is an ideal<line>
+//hideout for thieves.<End>
+
+//POINTER #63 @ $D85CA8 - STRING #63 @ $D7813B
+
+#W24($D85CA8)
+//This place doesn't look<line>
+//too stable…<End>
+
+//POINTER #64 @ $D85CAC - STRING #64 @ $D7817D
+
+#W24($D85CAC)
+//Eeyuck… It's filthy!<End>
+
+//POINTER #65 @ $D85CB0 - STRING #65 @ $D781A4
+
+#W24($D85CB0)
+//Ooh, a sign.<End>
+
+//POINTER #66 @ $D85CB4 - STRING #66 @ $D781BB
+
+#W24($D85CB4)
+//It's hard to read…<End>
+
+//POINTER #67 @ $D85CB8 - STRING #67 @ $D781DD
+
+#W24($D85CB8)
+//Ouch!<End>
+
+//POINTER #68 @ $D85CBC - STRING #68 @ $D781E8
+
+#W24($D85CBC)
+//Who was that?<End>
+
+//POINTER #69 @ $D85CC0 - STRING #69 @ $D78201
+
+#W24($D85CC0)
+//There are people here?<Next>
+
+//Who could live in<line>
+//a place like this…?<End>
+
+//POINTER #70 @ $D85CC4 - STRING #70 @ $D78270
+
+#W24($D85CC4)
+//Ahhhhh!<End>
+
+//POINTER #71 @ $D85CC8 - STRING #71 @ $D7827F
+
+#W24($D85CC8)
+//What's wrong?<End>
+
+//POINTER #72 @ $D85CCC - STRING #72 @ $D78299
+
+#W24($D85CCC)
+//Lina, your backpack!<End>
+
+//POINTER #73 @ $D85CD0 - STRING #73 @ $D782C0
+
+#W24($D85CD0)
+//!?<line>
+//No way…<End>
+
+//POINTER #74 @ $D85CD4 - STRING #74 @ $D782D1
+
+#W24($D85CD4)
+//No! I swear,<line>
+//it was right here!<End>
+
+//POINTER #75 @ $D85CD8 - STRING #75 @ $D7830A
+
+#W24($D85CD8)
+//I bet it was that guy<line>
+//who bumped into you…<End>
+
+//POINTER #76 @ $D85CDC - STRING #76 @ $D78356
+
+#W24($D85CDC)
+//Huh!?<End>
+
+//POINTER #77 @ $D85CE0 - STRING #77 @ $D7835F
+
+#W24($D85CE0)
+//Serene?<End>
+
+//POINTER #78 @ $D85CE4 - STRING #78 @ $D7836E
+
+#W24($D85CE4)
+//I didn't take it!<End>
+
+//POINTER #79 @ $D85CE8 - STRING #79 @ $D7838E
+
+#W24($D85CE8)
+//It must have been stolen.<End>
+
+//POINTER #80 @ $D85CEC - STRING #80 @ $D779A3
+
+#W24($D85CEC)
+//My backpack!<End>
+
+//POINTER #81 @ $D85CF0 - STRING #81 @ $D783BD
+
+#W24($D85CF0)
+//Hmmm…<line>
+//Ca ti n… Th ve …<Next>
+
+//I think it says,<line>
+//"Caution: Thieves"<End>
+
+//POINTER #82 @ $D85CF4 - STRING #82 @ $D78427
+
+#W24($D85CF4)
+//It's already too late<line>
+//for that!<End>
+
+//POINTER #83 @ $D85CF8 - STRING #83 @ $D78461
+
+#W24($D85CF8)
+//This sign's been through<line>
+//a lot…<End>
+
+//POINTER #84 @ $D85CFC - STRING #84 @ $D7849B
+
+#W24($D85CFC)
+//Isn't Mireno a cemetery?<End>
+
+//POINTER #85 @ $D85D00 - STRING #85 @ $D784C9
+
+#W24($D85D00)
+//Yes.<End>
+
+//POINTER #86 @ $D85D04 - STRING #86 @ $D784D2
+
+#W24($D85D04)
+//Are we really allowed<line>
+//to be here?<End>
+
+//POINTER #87 @ $D85D08 - STRING #87 @ $D7850F
+
+#W24($D85D08)
+//……?<End>
+
+//POINTER #88 @ $D85D0C - STRING #88 @ $D78516
+
+#W24($D85D0C)
+//I don't want to upset<line>
+//the ghosts…<End>
+
+//POINTER #89 @ $D85D10 - STRING #89 @ $D78553
+
+#W24($D85D10)
+//Lina, are you scared of<line>
+//ghosts?<End>
+
+//POINTER #90 @ $D85D14 - STRING #90 @ $D7858D
+
+#W24($D85D14)
+//No! I'm not!<End>
+
+//POINTER #91 @ $D85D18 - STRING #91 @ $D785A4
+
+#W24($D85D18)
+//What was that?<End>
+
+//POINTER #92 @ $D85D1C - STRING #92 @ $D785BF
+
+#W24($D85D1C)
+//It sounded like water<line>
+//splashing.<End>
+
+//POINTER #93 @ $D85D20 - STRING #93 @ $D785FC
+
+#W24($D85D20)
+//An abandoned house…<line>
+//Well, it's spacious.<End>
+
+//POINTER #94 @ $D85D24 - STRING #94 @ $D78648
+
+#W24($D85D24)
+//Was it a rich house?<End>
+
+//POINTER #95 @ $D85D28 - STRING #95 @ $D7866D
+
+#W24($D85D28)
+//Spacious, Ein?<line>
+//I think you mean empty.<End>
+
+//POINTER #96 @ $D85D2C - STRING #96 @ $D786B4
+
+#W24($D85D2C)
+//That doesn't seem to be<line>
+//the case. Look!<End>
+
+//POINTER #97 @ $D85D30 - STRING #97 @ $D786FC
+
+#W24($D85D30)
+//There's a chest!<End>
+
+//POINTER #98 @ $D85D34 - STRING #98 @ $D7871B
+
+#W24($D85D34)
+//So, what's inside?<End>
+
+//POINTER #99 @ $D85D38 - STRING #99 @ $D7873E
+
+#W24($D85D38)
+//…It could be a trap.<End>
+
+//POINTER #100 @ $D85D3C - STRING #100 @ $D78763
+
+#W24($D85D3C)
+//Look at that dusty chest.<End>
+
+//POINTER #101 @ $D85D40 - STRING #101 @ $D78792
+
+#W24($D85D40)
+//Let's check it out.<End>
+
+//POINTER #102 @ $D85D44 - STRING #102 @ $D7873E
+
+#W24($D85D44)
+//…It could be a trap.<End>
+
+//POINTER #103 @ $D85D48 - STRING #103 @ $D787B6
+
+#W24($D85D48)
+//This place doesn't look<line>
+//so good.<End>
+
+//POINTER #104 @ $D85D4C - STRING #104 @ $D787F2
+
+#W24($D85D4C)
+//There's water in here.<End>
+
+//POINTER #105 @ $D85D50 - STRING #105 @ $D7881C
+
+#W24($D85D50)
+//The well hasn't dried up yet.<End>
+
+//POINTER #106 @ $D85D54 - STRING #106 @ $D78852
+
+#W24($D85D54)
+//I see water…<line>
+//Dunno if it's drinkable.<End>
+
+//POINTER #107 @ $D85D58 - STRING #107 @ $D78897
+
+#W24($D85D58)
+//(I highly doubt it.)<End>
+
+//POINTER #108 @ $D85D5C - STRING #108 @ $D788BD
+
+#W24($D85D5C)
+//Where do you think<line>
+//the entrance is?<End>
+
+//POINTER #109 @ $D85D60 - STRING #109 @ $D788FE
+
+#W24($D85D60)
+//I'm not sure.<End>
+
+//POINTER #110 @ $D85D64 - STRING #110 @ $D78917
+
+#W24($D85D64)
+//This path leads only to<line>
+//death.<End>
+
+//POINTER #111 @ $D85D68 - STRING #111 @ $D7894F
+
+#W24($D85D68)
+//Demons!<End>
+
+//POINTER #112 @ $D85D6C - STRING #112 @ $D7895E
+
+#W24($D85D6C)
+//What should we do, Ein?<End>
+
+//POINTER #113 @ $D85D70 - STRING #113 @ $D78989
+
+#W24($D85D70)
+//We can't just run away.<line>
+//Let's go!<End>
+
+//POINTER #114 @ $D85D74 - STRING #114 @ $D789C6
+
+#W24($D85D74)
+//Let's retreat for now.<End>
+
+//POINTER #115 @ $D85D78 - STRING #115 @ $D789F0
+
+#W24($D85D78)
+//This path leads only<line>
+//to death.<End>
+
+//POINTER #116 @ $D85D7C - STRING #116 @ $D78A28
+
+#W24($D85D7C)
+//There's still demons in<line>
+//here…<End>
+
+//POINTER #117 @ $D85D80 - STRING #117 @ $D78A5F
+
+#W24($D85D80)
+//We're not going to get<line>
+//through without a fight.<End>
+
+//POINTER #118 @ $D85D84 - STRING #118 @ $D78AB6
+
+#W24($D85D84)
+//It's too late to run…<line>
+//Let's go!<End>
+
+//POINTER #119 @ $D85D88 - STRING #119 @ $D789C6
+
+#W24($D85D88)
+//Let's retreat for now.<End>
+
+//POINTER #120 @ $D85D8C - STRING #120 @ $D78AEF
+
+#W24($D85D8C)
+//We're not even to the cemetery<line>
+//yet…<End>
+
+//POINTER #121 @ $D85D90 - STRING #121 @ $D78B30
+
+#W24($D85D90)
+//Let's hurry.<End>
+
+//POINTER #122 @ $D85D94 - STRING #122 @ $D78B48
+
+#W24($D85D94)
+//Woo!<End>
+
+//POINTER #123 @ $D85D98 - STRING #123 @ $D78B51
+
+#W24($D85D98)
+//Brace yourselves!<End>
+
+//POINTER #124 @ $D85D9C - STRING #124 @ $D78B73
+
+#W24($D85D9C)
+//Oops… Off balance…<End>
+
+//POINTER #125 @ $D85DA0 - STRING #125 @ $D78B96
+
+#W24($D85DA0)
+//Would we even fit?<End>
+
+//POINTER #126 @ $D85DA4 - STRING #126 @ $D78BB8
+
+#W24($D85DA4)
+//It's pretty high up.<End>
+
+//POINTER #127 @ $D85DA8 - STRING #127 @ $D78BDE
+
+#W24($D85DA8)
+//(Don't we have a rope<line>
+//or something?)<End>
+
+//POINTER #128 @ $D85DAC - STRING #128 @ $D78C21
+
+#W24($D85DAC)
+//Nope…<line>
+//Why don't we jump?<End>
+
+//POINTER #129 @ $D85DB0 - STRING #129 @ $D78C4E
+
+#W24($D85DB0)
+//The rope's…<End>
+
+//POINTER #130 @ $D85DB4 - STRING #130 @ $D78C64
+
+#W24($D85DB4)
+//It's in my backpack…<End>
+
+//POINTER #131 @ $D85DB8 - STRING #131 @ $D78C8A
+
+#W24($D85DB8)
+//Oh, yeah💧 Hmmm…<line>
+//Why don't we jump?<End>
+
+//POINTER #132 @ $D85DBC - STRING #132 @ $D78CC9
+
+#W24($D85DBC)
+//From here!?<End>
+
+//POINTER #133 @ $D85DC0 - STRING #133 @ $D78CDD
+
+#W24($D85DC0)
+//Sounds good to me.<line>
+//What about you guys?<End>
+
+//POINTER #134 @ $D85DC4 - STRING #134 @ $D78D25
+
+#W24($D85DC4)
+//Let's go!<End>
+
+//POINTER #135 @ $D85DC8 - STRING #135 @ $D78D37
+
+#W24($D85DC8)
+//That isn't going to work!<End>
+
+//POINTER #136 @ $D85DCC - STRING #136 @ $D78D66
+
+#W24($D85DCC)
+//No, not yet…<End>
+
+//POINTER #137 @ $D85DD0 - STRING #137 @ $D78D7D
+
+#W24($D85DD0)
+//Are we gonna jump?<End>
+
+//POINTER #138 @ $D85DD4 - STRING #138 @ $D78D9F
+
+#W24($D85DD4)
+//Geronimo!<End>
+
+//POINTER #139 @ $D85DD8 - STRING #139 @ $D78DB2
+
+#W24($D85DD8)
+//Maybe we should wait.<End>
+
+//POINTER #140 @ $D85DDC - STRING #140 @ $D78DDA
+
+#W24($D85DDC)
+//It looks dry.<line>
+//What's down there?<End>
+
+//POINTER #141 @ $D85DE0 - STRING #141 @ $D78E16
+
+#W24($D85DE0)
+//Let's use the rope.<End>
+
+//POINTER #142 @ $D85DE4 - STRING #142 @ $D78E3A
+
+#W24($D85DE4)
+//A rope, eh…?<End>
+
+//POINTER #143 @ $D85DE8 - STRING #143 @ $D78E51
+
+#W24($D85DE8)
+//…That should do it.<End>
+
+//POINTER #144 @ $D85DEC - STRING #144 @ $D78E75
+
+#W24($D85DEC)
+//We're to climb down<line>
+//the rope, correct?<End>
+
+//POINTER #145 @ $D85DF0 - STRING #145 @ $D78EBC
+
+#W24($D85DF0)
+//C'mon!<End>
+
+//POINTER #146 @ $D85DF4 - STRING #146 @ $D78EC9
+
+#W24($D85DF4)
+//Yay♪<End>
+
+//POINTER #147 @ $D85DF8 - STRING #147 @ $D78ED2
+
+#W24($D85DF8)
+//Ein! Lina!<Next>
+
+//Now is not the time to<line>
+//play around!<End>
+
+//POINTER #148 @ $D85DFC - STRING #148 @ $D78F27
+
+#W24($D85DFC)
+//We'll hold off for now.<End>
+
+//POINTER #149 @ $D85E00 - STRING #149 @ $D78DDA
+
+#W24($D85E00)
+//It looks dry.<line>
+//What's down there?<End>
+
+//POINTER #150 @ $D85E04 - STRING #150 @ $D78E16
+
+#W24($D85E04)
+//Let's use the rope.<End>
+
+//POINTER #151 @ $D85E08 - STRING #151 @ $D78E3A
+
+#W24($D85E08)
+//A rope, eh…?<End>
+
+//POINTER #152 @ $D85E0C - STRING #152 @ $D78E51
+
+#W24($D85E0C)
+//…That should do it.<End>
+
+//POINTER #153 @ $D85E10 - STRING #153 @ $D78F52
+
+#W24($D85E10)
+//Yeah, this'll be perfect!<End>
+
+//POINTER #154 @ $D85E14 - STRING #154 @ $D78EBC
+
+#W24($D85E14)
+//C'mon!<End>
+
+//POINTER #155 @ $D85E18 - STRING #155 @ $D78F27
+
+#W24($D85E18)
+//We'll hold off for now.<End>
+
+//POINTER #156 @ $D85E1C - STRING #156 @ $D78F82
+
+#W24($D85E1C)
+//This place doesn't look<line>
+//too sturdy…<End>
+
+//POINTER #157 @ $D85E20 - STRING #157 @ $D78FC4
+
+#W24($D85E20)
+//It's dusty…<line>
+//That's about it.<End>
+
+//POINTER #158 @ $D85E24 - STRING #158 @ $D78FF9
+
+#W24($D85E24)
+//Hm?<line>
+//There's no water.<End>
+
+//POINTER #159 @ $D85E28 - STRING #159 @ $D79021
+
+#W24($D85E28)
+//Did it dry up?<End>
+
+//POINTER #160 @ $D85E2C - STRING #160 @ $D7903B
+
+#W24($D85E2C)
+//The tree's completely dead.<End>
+
+//POINTER #161 @ $D85E30 - STRING #161 @ $D7906F
+
+#W24($D85E30)
+//It won't ever be pretty<line>
+//again?<End>
+
+//POINTER #162 @ $D85E34 - STRING #162 @ $D790A7
+
+#W24($D85E34)
+//It's just a dead tree.<End>
+
+//POINTER #163 @ $D85E38 - STRING #163 @ $D790D0
+
+#W24($D85E38)
+//Hmmm…!<End>
+
+//POINTER #164 @ $D85E3C - STRING #164 @ $D790DD
+
+#W24($D85E3C)
+//Nice! I got it!<End>
+
+//POINTER #165 @ $D85E40 - STRING #165 @ $D790F9
+
+#W24($D85E40)
+//Good work, Ein!<End>
+
+//POINTER #166 @ $D85E44 - STRING #166 @ $D79116
+
+#W24($D85E44)
+//We can use this to climb<line>
+//down the well.<End>
+
+//POINTER #167 @ $D85E48 - STRING #167 @ $D7915D
+
+#W24($D85E48)
+//It may come in handy…<End>
+
+//POINTER #168 @ $D85E4C - STRING #168 @ $D79184
+
+#W24($D85E4C)
+//This is harder than<line>
+//I thought…<End>
+
+//POINTER #169 @ $D85E50 - STRING #169 @ $D791BC
+
+#W24($D85E50)
+//Don't give up, Ein.<End>
+
+//POINTER #170 @ $D85E54 - STRING #170 @ $D791E0
+
+#W24($D85E54)
+//Let's see, here…<End>
+
+//POINTER #171 @ $D85E58 - STRING #171 @ $D791FF
+
+#W24($D85E58)
+//Wyvernzem…<line>
+//It's a powerful claw…<End>
+
+//POINTER #172 @ $D85E5C - STRING #172 @ $D7923C
+
+#W24($D85E5C)
+//Did you hear that splash?<End>
+
+//POINTER #173 @ $D85E60 - STRING #173 @ $D7926B
+
+#W24($D85E60)
+//I bet it's the thief!<End>
+
+//POINTER #174 @ $D85E64 - STRING #174 @ $D79292
+
+#W24($D85E64)
+//Did he jump in?<End>
+
+//POINTER #175 @ $D85E68 - STRING #175 @ $D792AE
+
+#W24($D85E68)
+//I hope not. If so, we won't<line>
+//be able to follow.<End>
+
+//POINTER #176 @ $D85E6C - STRING #176 @ $D79301
+
+#W24($D85E6C)
+//Why's that?<End>
+
+//POINTER #177 @ $D85E70 - STRING #177 @ $D79317
+
+#W24($D85E70)
+//You'd sink with all that<line>
+//equipment on!<End>
+
+//POINTER #178 @ $D85E74 - STRING #178 @ $D7935E
+
+#W24($D85E74)
+//…………<End>
+
+//POINTER #179 @ $D85E78 - STRING #179 @ $D79367
+
+#W24($D85E78)
+//(Ein, I feel like we're<line>
+//being watched…)<End>
+
+//POINTER #180 @ $D85E7C - STRING #180 @ $D793B0
+
+#W24($D85E7C)
+//(What should I say?)<End>
+
+//POINTER #181 @ $D85E80 - STRING #181 @ $D793D6
+
+#W24($D85E80)
+//(Really?)<Next>
+
+//(Is someone keeping tabs<line>
+//on us?)<End>
+
+//POINTER #182 @ $D85E84 - STRING #182 @ $D79426
+
+#W24($D85E84)
+//I don't sense it anymore.<line>
+//Was it the thief?<End>
+
+//POINTER #183 @ $D85E88 - STRING #183 @ $D79475
+
+#W24($D85E88)
+//(Is it really…?)<End>
+
+//POINTER #184 @ $D85E8C - STRING #184 @ $D79494
+
+#W24($D85E8C)
+//Huh!?<line>
+//Was that a bird…?<End>
+
+//POINTER #185 @ $D85E90 - STRING #185 @ $D794BD
+
+#W24($D85E90)
+//I believe we were<line>
+//being watched…<End>
+
+//POINTER #186 @ $D85E94 - STRING #186 @ $D794F9
+
+#W24($D85E94)
+//Huh…!?<End>
+
+//POINTER #187 @ $D85E98 - STRING #187 @ $D79504
+
+#W24($D85E98)
+//Calm down, you two!<line>
+//There's no time for that…<End>
+
+//POINTER #188 @ $D85E9C - STRING #188 @ $D79557
+
+#W24($D85E9C)
+//I never expected a place<line>
+//like this inside a well…<End>
+
+//POINTER #189 @ $D85EA0 - STRING #189 @ $D795B1
+
+#W24($D85EA0)
+//Ein! Are you alright?<End>
+
+//POINTER #190 @ $D85EA4 - STRING #190 @ $D795D9
+
+#W24($D85EA4)
+//I'm fine!<End>
+
+//POINTER #191 @ $D85EA8 - STRING #191 @ $D795EB
+
+#W24($D85EA8)
+//C'mon, let's all go in.<End>
+
+//POINTER #192 @ $D85EAC - STRING #192 @ $D79616
+
+#W24($D85EAC)
+//I wish I had wings like you…<End>
+
+//POINTER #193 @ $D85EB0 - STRING #193 @ $D79649
+
+#W24($D85EB0)
+//Ha ha ha…<End>
+
+//POINTER #194 @ $D85EB4 - STRING #194 @ $D7965A
+
+#W24($D85EB4)
+//Ahhhh!<End>
+
+//POINTER #195 @ $D85EB8 - STRING #195 @ $D79667
+
+#W24($D85EB8)
+//Ouch…<End>
+
+//POINTER #196 @ $D85EBC - STRING #196 @ $D79672
+
+#W24($D85EBC)
+//Cierra, are you okay?<End>
+
+//POINTER #197 @ $D85EC0 - STRING #197 @ $D7969A
+
+#W24($D85EC0)
+//Are you hurt?<End>
+
+//POINTER #198 @ $D85EC4 - STRING #198 @ $D796B3
+
+#W24($D85EC4)
+//I'm fine.<End>
+
+//POINTER #199 @ $D85EC8 - STRING #199 @ $D796C5
+
+#W24($D85EC8)
+//But, it looks like we're<line>
+//stuck down here.<End>
+
+//POINTER #200 @ $D85ECC - STRING #200 @ $D79711
+
+#W24($D85ECC)
+//Cierra…<End>
+
+//POINTER #201 @ $D85ED0 - STRING #201 @ $D79720
+
+#W24($D85ED0)
+//It just couldn't support<line>
+//the weight.<End>
+
+//POINTER #202 @ $D85ED4 - STRING #202 @ $D78356
+
+#W24($D85ED4)
+//Huh!?<End>
+
+//POINTER #203 @ $D85ED8 - STRING #203 @ $D79764
+
+#W24($D85ED8)
+//Uh, Ein…?<End>
+
+//POINTER #204 @ $D85EDC - STRING #204 @ $D79776
+
+#W24($D85EDC)
+//Hm?<End>
+
+//POINTER #205 @ $D85EE0 - STRING #205 @ $D7977D
+
+#W24($D85EE0)
+//N—No!! I didn't mean it<line>
+//like that!<End>
+
+//POINTER #206 @ $D85EE4 - STRING #206 @ $D797BC
+
+#W24($D85EE4)
+//Oh, Ein…<End>
+
+//POINTER #207 @ $D85EE8 - STRING #207 @ $D797CC
+
+#W24($D85EE8)
+//What a meanie.<End>
+
+//POINTER #208 @ $D85EEC - STRING #208 @ $D797E7
+
+#W24($D85EEC)
+//I'm sorry…<End>
+
+//POINTER #209 @ $D85EF0 - STRING #209 @ $D797FB
+
+#W24($D85EF0)
+//No, don't worry about it.<End>
+
+//POINTER #210 @ $D85EF4 - STRING #210 @ $D7982A
+
+#W24($D85EF4)
+//(Mental note:<line>
+//go on a diet…)<End>
+
+//POINTER #211 @ $D85EF8 - STRING #211 @ $D79672
+
+#W24($D85EF8)
+//Cierra, are you okay?<End>
+
+//POINTER #212 @ $D85EFC - STRING #212 @ $D7985E
+
+#W24($D85EFC)
+//Yeah, I'm fine.<Next>
+
+//This mound of dirt broke<line>
+//my fall.<End>
+
+//POINTER #213 @ $D85F00 - STRING #213 @ $D798B9
+
+#W24($D85F00)
+//Lucky break, I guess.<End>
+
+//POINTER #214 @ $D85F04 - STRING #214 @ $D798E1
+
+#W24($D85F04)
+//Let us continue.<End>
+
+//POINTER #215 @ $D85F08 - STRING #215 @ $D79900
+
+#W24($D85F08)
+//We should have a look<line>
+//around.<End>
+
+//POINTER #216 @ $D85F0C - STRING #216 @ $D79936
+
+#W24($D85F0C)
+//Yeah, you're right.<End>
+
+//POINTER #217 @ $D85F10 - STRING #217 @ $D7995B
+
+#W24($D85F10)
+//Everyone seems to be<line>
+//alright.<End>
+
+//POINTER #218 @ $D85F14 - STRING #218 @ $D79992
+
+#W24($D85F14)
+//Yep!<End>
+
+//POINTER #219 @ $D85F18 - STRING #219 @ $D79557
+
+#W24($D85F18)
+//I never expected a place<line>
+//like this inside a well…<End>
+
+//POINTER #220 @ $D85F1C - STRING #220 @ $D7999B
+
+#W24($D85F1C)
+//A—Are you alright?<End>
+
+//POINTER #221 @ $D85F20 - STRING #221 @ $D799BE
+
+#W24($D85F20)
+//No…<End>
+
+//POINTER #222 @ $D85F24 - STRING #222 @ $D79667
+
+#W24($D85F24)
+//Ouch…<End>
+
+//POINTER #223 @ $D85F28 - STRING #223 @ $D799C5
+
+#W24($D85F28)
+//No serious injuries,<line>
+//thank goodness.<End>
+
+//POINTER #224 @ $D85F2C - STRING #224 @ $D79557
+
+#W24($D85F2C)
+//I never expected a place<line>
+//like this inside a well…<End>
+
+//POINTER #225 @ $D85F30 - STRING #225 @ $D79A0A
+
+#W24($D85F30)
+//There's a whole cavern<line>
+//down here!<End>
+
+//POINTER #226 @ $D85F34 - STRING #226 @ $D79A48
+
+#W24($D85F34)
+//Is this the cemetery<line>
+//the heretics used?<End>
+
+//POINTER #227 @ $D85F38 - STRING #227 @ $D79A91
+
+#W24($D85F38)
+//In demon worship?<line>
+//I'm not sure…<End>
+
+//POINTER #228 @ $D85F3C - STRING #228 @ $D79ACB
+
+#W24($D85F3C)
+//My eyes are adjusting<line>
+//to the darkness.<End>
+
+//POINTER #229 @ $D85F40 - STRING #229 @ $D79B12
+
+#W24($D85F40)
+//Mine too.<End>
+
+//POINTER #230 @ $D85F44 - STRING #230 @ $D79B24
+
+#W24($D85F44)
+//Ein, look over there!<End>
+
+//POINTER #231 @ $D85F48 - STRING #231 @ $D79B4C
+
+#W24($D85F48)
+//I hadn't noticed that<line>
+//when it was light…<End>
+
+//POINTER #232 @ $D85F4C - STRING #232 @ $D79B96
+
+#W24($D85F4C)
+//It's just Light Moss.<line>
+//It's harmless.<End>
+
+//POINTER #233 @ $D85F50 - STRING #233 @ $D779BB
+
+#W24($D85F50)
+//What should I do?<End>
+
+//POINTER #234 @ $D85F54 - STRING #234 @ $D79BDA
+
+#W24($D85F54)
+//Allow me.<End>
+
+//POINTER #235 @ $D85F58 - STRING #235 @ $D79BEC
+
+#W24($D85F58)
+//It's just moss,<line>
+//why's it so special?<End>
+
+//POINTER #236 @ $D85F5C - STRING #236 @ $D79C2F
+
+#W24($D85F5C)
+//You can't eat that.<End>
+
+//POINTER #237 @ $D85F60 - STRING #237 @ $D79C53
+
+#W24($D85F60)
+//You're a pig, Ein!<End>
+
+//POINTER #238 @ $D85F64 - STRING #238 @ $D79C75
+
+#W24($D85F64)
+//…Look who's talking.<End>
+
+//POINTER #239 @ $D85F68 - STRING #239 @ $D79C9C
+
+#W24($D85F68)
+//We don't need it.<End>
+
+//POINTER #240 @ $D85F6C - STRING #240 @ $D79CBC
+
+#W24($D85F6C)
+//Cold air is blowing from<line>
+//farther inside…<End>
+
+//POINTER #241 @ $D85F70 - STRING #241 @ $D79D07
+
+#W24($D85F70)
+//I really don't like it<line>
+//here…<End>
+
+//POINTER #242 @ $D85F74 - STRING #242 @ $D79D3B
+
+#W24($D85F74)
+//Monsters could pop out<line>
+//anywhere, huh?<End>
+
+//POINTER #243 @ $D85F78 - STRING #243 @ $D79D81
+
+#W24($D85F78)
+//D—D—Don't say things<line>
+//like that!<End>
+
+//POINTER #244 @ $D85F7C - STRING #244 @ $D79DBC
+
+#W24($D85F7C)
+//Grrrr…<End>
+
+//POINTER #245 @ $D85F80 - STRING #245 @ $D79DC9
+
+#W24($D85F80)
+//Waaaah!<End>
+
+//POINTER #246 @ $D85F84 - STRING #246 @ $D79DD8
+
+#W24($D85F84)
+//Calm down, Lina.<line>
+//We can handle this.<End>
+
+//POINTER #247 @ $D85F88 - STRING #247 @ $D79E1B
+
+#W24($D85F88)
+//What do you think, Ein?<End>
+
+//POINTER #248 @ $D85F8C - STRING #248 @ $D79E46
+
+#W24($D85F8C)
+//We can do it.<line>
+//Come on!<End>
+
+//POINTER #249 @ $D85F90 - STRING #249 @ $D789C6
+
+#W24($D85F90)
+//Let's retreat for now.<End>
+
+//POINTER #250 @ $D85F94 - STRING #250 @ $D79DBC
+
+#W24($D85F94)
+//Grrrr…<End>
+
+//POINTER #251 @ $D85F98 - STRING #251 @ $D79E6E
+
+#W24($D85F98)
+//They haven't moved.<End>
+
+//POINTER #252 @ $D85F9C - STRING #252 @ $D79E93
+
+#W24($D85F9C)
+//We must defeat them to<line>
+//proceed.<End>
+
+//POINTER #253 @ $D85FA0 - STRING #253 @ $D79ECD
+
+#W24($D85FA0)
+//We don't have a choice.<line>
+//Let's go!<End>
+
+//POINTER #254 @ $D85FA4 - STRING #254 @ $D789C6
+
+#W24($D85FA4)
+//Let's retreat for now.<End>
+
+//POINTER #255 @ $D85FA8 - STRING #255 @ $D79F0A
+
+#W24($D85FA8)
+//I don't wanna be here!<End>
+
+//POINTER #256 @ $D85FAC - STRING #256 @ $D79F33
+
+#W24($D85FAC)
+//There's nothing in here.<End>
+
+//POINTER #257 @ $D85FB0 - STRING #257 @ $D79F61
+
+#W24($D85FB0)
+//Shoot… I was hoping for<line>
+//something cool.<End>
+
+//POINTER #258 @ $D85FB4 - STRING #258 @ $D79FAA
+
+#W24($D85FB4)
+//Ah! It's dark!<End>
+
+//POINTER #259 @ $D85FB8 - STRING #259 @ $D79FC5
+
+#W24($D85FB8)
+//I'm sorry, geez!<End>
+
+//POINTER #260 @ $D85FBC - STRING #260 @ $D79FE4
+
+#W24($D85FBC)
+//Let's try to keep moving.<End>
+
+//POINTER #261 @ $D85FC0 - STRING #261 @ $D7A013
+
+#W24($D85FC0)
+//Ah, yes, Gateau should<line>
+//be able to see.<End>
+
+//POINTER #262 @ $D85FC4 - STRING #262 @ $D7A059
+
+#W24($D85FC4)
+//Really?<End>
+
+//POINTER #263 @ $D85FC8 - STRING #263 @ $D7A068
+
+#W24($D85FC8)
+//Cats have excellent<line>
+//eyesight.<End>
+
+//POINTER #264 @ $D85FCC - STRING #264 @ $D7A0A0
+
+#W24($D85FCC)
+//Really...?<End>
+
+//POINTER #265 @ $D85FD0 - STRING #265 @ $D7A0B5
+
+#W24($D85FD0)
+//(I'm not a cat!)<End>
+
+//POINTER #266 @ $D85FD4 - STRING #266 @ $D7A0D3
+
+#W24($D85FD4)
+//My eyes are starting<line>
+//to adjust…<End>
+
+//POINTER #267 @ $D85FD8 - STRING #267 @ $D7A10D
+
+#W24($D85FD8)
+//I don't think we can<line>
+//turn around, now.<End>
+
+//POINTER #268 @ $D85FDC - STRING #268 @ $D7A153
+
+#W24($D85FDC)
+//Lina…<End>
+
+//POINTER #269 @ $D85FE0 - STRING #269 @ $D7A15E
+
+#W24($D85FE0)
+//I can't see a thing…<End>
+
+//POINTER #270 @ $D85FE4 - STRING #270 @ $D7A183
+
+#W24($D85FE4)
+//Maybe there's a switch<line>
+//around here…<End>
+
+//POINTER #271 @ $D85FE8 - STRING #271 @ $D7A1C5
+
+#W24($D85FE8)
+//Eek!<End>
+
+//POINTER #272 @ $D85FEC - STRING #272 @ $D7A1CE
+
+#W24($D85FEC)
+//Huh? Fia?<End>
+
+//POINTER #273 @ $D85FF0 - STRING #273 @ $D7A1E0
+
+#W24($D85FF0)
+//Don't scare me like that!<End>
+
+//POINTER #274 @ $D85FF4 - STRING #274 @ $D7A20F
+
+#W24($D85FF4)
+//Sorry… I couldn't see.<End>
+
+//POINTER #275 @ $D85FF8 - STRING #275 @ $D7A239
+
+#W24($D85FF8)
+//Stop making excuses.<End>
+
+//POINTER #276 @ $D85FFC - STRING #276 @ $D7A260
+
+#W24($D85FFC)
+//I'll just… go over there.<End>
+
+//POINTER #277 @ $D86000 - STRING #277 @ $D7A28F
+
+#W24($D86000)
+//(Hey, it's pretty soft<line>
+//over here…)<End>
+
+//POINTER #278 @ $D86004 - STRING #278 @ $D7A2CF
+
+#W24($D86004)
+//What the…?<End>
+
+//POINTER #279 @ $D86008 - STRING #279 @ $D7A2E3
+
+#W24($D86008)
+//Watch your hands,<line>
+//you jerk!<End>
+
+//POINTER #280 @ $D8600C - STRING #280 @ $D7A316
+
+#W24($D8600C)
+//Ugh…<End>
+
+//POINTER #281 @ $D86010 - STRING #281 @ $D7A31F
+
+#W24($D86010)
+//Serves you right!<End>
+
+//POINTER #282 @ $D86014 - STRING #282 @ $D7A340
+
+#W24($D86014)
+//But, I didn't mean to…<End>
+
+//POINTER #283 @ $D86018 - STRING #283 @ $D7A369
+
+#W24($D86018)
+//Ein…?<End>
+
+//POINTER #284 @ $D8601C - STRING #284 @ $D7A374
+
+#W24($D8601C)
+//I'm guessing that chest<line>
+//was the trigger…<End>
+
+//POINTER #285 @ $D86020 - STRING #285 @ $D7A3BF
+
+#W24($D86020)
+//I see.<End>
+
+//POINTER #286 @ $D86024 - STRING #286 @ $D7A3CB
+
+#W24($D86024)
+//What? Empty!?<End>
+
+//POINTER #287 @ $D86028 - STRING #287 @ $D7A3E3
+
+#W24($D86028)
+//Empty again!?<End>
+
+//POINTER #288 @ $D8602C - STRING #288 @ $D7A3FB
+
+#W24($D8602C)
+//What did you expect?<Next>
+
+//Raiders have known about<line>
+//this place for years.<End>
+
+//POINTER #289 @ $D86030 - STRING #289 @ $D7A478
+
+#W24($D86030)
+//Ooh, that ticks me off!<End>
+
+//POINTER #290 @ $D86034 - STRING #290 @ $D7A4A3
+
+#W24($D86034)
+//The light…<End>
+
+//POINTER #291 @ $D86038 - STRING #291 @ $D7A4B7
+
+#W24($D86038)
+//Serene…?<End>
+
+//POINTER #292 @ $D8603C - STRING #292 @ $D7A4C8
+
+#W24($D8603C)
+//Sorry… I just lost it.<End>
+
+//POINTER #293 @ $D86040 - STRING #293 @ $D7A4F1
+
+#W24($D86040)
+//Serene, will you take care<line>
+//of it?<End>
+
+//POINTER #294 @ $D86044 - STRING #294 @ $D7A52E
+
+#W24($D86044)
+//Again?<End>
+
+//POINTER #295 @ $D86048 - STRING #295 @ $D7A53B
+
+#W24($D86048)
+//Flattery will get you<line>
+//nowhere.<End>
+
+//POINTER #296 @ $D8604C - STRING #296 @ $D78EC9
+
+#W24($D8604C)
+//Yay♪<End>
+
+//POINTER #297 @ $D86050 - STRING #297 @ $D7A574
+
+#W24($D86050)
+//I'll give it a try!<End>
+
+//POINTER #298 @ $D86054 - STRING #298 @ $D7A597
+
+#W24($D86054)
+//…Nothing's happening.<End>
+
+//POINTER #299 @ $D86058 - STRING #299 @ $D7A5C1
+
+#W24($D86058)
+//I think it has to be<line>
+//Serene.<End>
+
+//POINTER #300 @ $D8605C - STRING #300 @ $D7A5F4
+
+#W24($D8605C)
+//Why…?<End>
+
+//POINTER #301 @ $D86060 - STRING #301 @ $D7A5FF
+
+#W24($D86060)
+//Well, here goes…<End>
+
+//POINTER #302 @ $D86064 - STRING #302 @ $D7A61E
+
+#W24($D86064)
+//It's so dark…<End>
+
+//POINTER #303 @ $D86068 - STRING #303 @ $D7A637
+
+#W24($D86068)
+//It got pretty dark in here.<End>
+
+//POINTER #304 @ $D8606C - STRING #304 @ $D7A669
+
+#W24($D8606C)
+//(So, why don't you just<line>
+//throw the chest again?)<End>
+
+//POINTER #305 @ $D86070 - STRING #305 @ $D7A6C0
+
+#W24($D86070)
+//Makes sense, I guess.<End>
+
+//POINTER #306 @ $D86074 - STRING #306 @ $D7A6E8
+
+#W24($D86074)
+//What if that makes it<line>
+//darker…?<End>
+
+//POINTER #307 @ $D86078 - STRING #307 @ $D7935E
+
+#W24($D86078)
+//…………<End>
+
+//POINTER #308 @ $D8607C - STRING #308 @ $D7A720
+
+#W24($D8607C)
+//I'm not taking the blame<line>
+//for this!<End>
+
+//POINTER #309 @ $D86080 - STRING #309 @ $D7A4A3
+
+#W24($D86080)
+//The light…<End>
+
+//POINTER #310 @ $D86084 - STRING #310 @ $D7A75F
+
+#W24($D86084)
+//It's light again.<End>
+
+//POINTER #311 @ $D86088 - STRING #311 @ $D7A780
+
+#W24($D86088)
+//That thing's really<line>
+//messed up…💧<End>
+
+//POINTER #312 @ $D8608C - STRING #312 @ $D7A7BB
+
+#W24($D8608C)
+//I was scared!<End>
+
+//POINTER #313 @ $D86090 - STRING #313 @ $D7A7D4
+
+#W24($D86090)
+//(The switch isn't the chest;<line>
+//it's on the wall…)<End>
+
+//POINTER #314 @ $D86094 - STRING #314 @ $D7A82B
+
+#W24($D86094)
+//Hm… I'd rather not.<End>
+
+//POINTER #315 @ $D86098 - STRING #315 @ $D7A84F
+
+#W24($D86098)
+//Would you mind,<line>
+//Serene?<End>
+
+//POINTER #316 @ $D8609C - STRING #316 @ $D7A87B
+
+#W24($D8609C)
+//Here goes!<End>
+
+//POINTER #317 @ $D860A0 - STRING #317 @ $D7A88F
+
+#W24($D860A0)
+//Yay!<line>
+//It's light again!<End>
+
+//POINTER #318 @ $D860A4 - STRING #318 @ $D7A8B9
+
+#W24($D860A4)
+//Supposedly,<Next>
+
+//the Six Priests set traps<line>
+//for intruders who came here.<End>
+
+//POINTER #319 @ $D860A8 - STRING #319 @ $D7A935
+
+#W24($D860A8)
+//So, even though they're old…<Next>
+
+//Some of the traps might<line>
+//still be working.<End>
+
+//POINTER #320 @ $D860AC - STRING #320 @ $D7A9B7
+
+#W24($D860AC)
+//(It's just never easy,<line>
+//is it?)<End>
+
+//POINTER #321 @ $D860B0 - STRING #321 @ $D7A9EF
+
+#W24($D860B0)
+//Look at all those<line>
+//stalactites…<End>
+
+//POINTER #322 @ $D860B4 - STRING #322 @ $D7AA28
+
+#W24($D860B4)
+//They might come down at<line>
+//any moment…<Next>
+
+//We should keep moving.<End>
+
+//POINTER #323 @ $D860B8 - STRING #323 @ $D7AA94
+
+#W24($D860B8)
+//So, these are the<line>
+//Mireno Catacombs…<Next>
+
+//I thought they'd be<line>
+//more spacious.<End>
+
+//POINTER #324 @ $D860BC - STRING #324 @ $D7AB17
+
+#W24($D860BC)
+//Think of it like a maze.<End>
+
+//POINTER #325 @ $D860C0 - STRING #325 @ $D7AB43
+
+#W24($D860C0)
+//Something about this<line>
+//flower is strange.<End>
+
+//POINTER #326 @ $D860C4 - STRING #326 @ $D7AB8D
+
+#W24($D860C4)
+//It looks poisonous.<line>
+//We should avoid it.<End>
+
+//POINTER #327 @ $D860C8 - STRING #327 @ $D7ABD6
+
+#W24($D860C8)
+//Hm…<End>
+
+//POINTER #328 @ $D860CC - STRING #328 @ $D7ABDD
+
+#W24($D860CC)
+//Are you sure?<Next>
+
+//In that case, I will look,<line>
+//too.<End>
+
+//POINTER #329 @ $D860D0 - STRING #329 @ $D7AC30
+
+#W24($D860D0)
+//I'll check the other side.<End>
+
+//POINTER #330 @ $D860D4 - STRING #330 @ $D7AC61
+
+#W24($D860D4)
+//!?<line>
+//Did it just move?<End>
+
+//POINTER #331 @ $D860D8 - STRING #331 @ $D7AC84
+
+#W24($D860D8)
+//It m—moved…<End>
+
+//POINTER #332 @ $D860DC - STRING #332 @ $D7AC9A
+
+#W24($D860DC)
+//It's a demon!<End>
+
+//POINTER #333 @ $D860E0 - STRING #333 @ $D7ACB3
+
+#W24($D860E0)
+//Alright!<End>
+
+//POINTER #334 @ $D860E4 - STRING #334 @ $D7ACC4
+
+#W24($D860E4)
+//I'll handle it!<End>
+
+//POINTER #335 @ $D860E8 - STRING #335 @ $D7ACE1
+
+#W24($D860E8)
+//I can burn it up with<line>
+//my magic♪<End>
+
+//POINTER #336 @ $D860EC - STRING #336 @ $D7AD19
+
+#W24($D860EC)
+//I did it!<End>
+
+//POINTER #337 @ $D860F0 - STRING #337 @ $D7AD2A
+
+#W24($D860F0)
+//That was cool, Cierra!<End>
+
+//POINTER #338 @ $D860F4 - STRING #338 @ $D7AD54
+
+#W24($D860F4)
+//Uh—oh.<End>
+
+//POINTER #339 @ $D860F8 - STRING #339 @ $D7AD61
+
+#W24($D860F8)
+//I'll handle it.<End>
+
+//POINTER #340 @ $D860FC - STRING #340 @ $D7AD19
+
+#W24($D860FC)
+//I did it!<End>
+
+//POINTER #341 @ $D86100 - STRING #341 @ $D7AD7E
+
+#W24($D86100)
+//That was cool, Serene!<End>
+
+//POINTER #342 @ $D86104 - STRING #342 @ $D7ADA8
+
+#W24($D86104)
+//Oops…<End>
+
+//POINTER #343 @ $D86108 - STRING #343 @ $D7ADB3
+
+#W24($D86108)
+//How's it smell?<End>
+
+//POINTER #344 @ $D8610C - STRING #344 @ $D7ADD0
+
+#W24($D8610C)
+//This plant is dangerous,<line>
+//Ein.<End>
+
+//POINTER #345 @ $D86110 - STRING #345 @ $D7AE07
+
+#W24($D86110)
+//Does it smell good?<End>
+
+//POINTER #346 @ $D86114 - STRING #346 @ $D7AE2B
+
+#W24($D86114)
+//Hmmm… ※sniff※<End>
+
+//POINTER #347 @ $D86118 - STRING #347 @ $D7AE45
+
+#W24($D86118)
+//※chomp※<End>
+
+//POINTER #348 @ $D8611C - STRING #348 @ $D781DD
+
+#W24($D8611C)
+//Ouch!<End>
+
+//POINTER #349 @ $D86120 - STRING #349 @ $D7AE54
+
+#W24($D86120)
+//Did it just bite you!?<End>
+
+//POINTER #350 @ $D86124 - STRING #350 @ $D7AE7B
+
+#W24($D86124)
+//I knew that plant would<line>
+//prove dangerous.<End>
+
+//POINTER #351 @ $D86128 - STRING #351 @ $D7AEC6
+
+#W24($D86128)
+//I'll toast it with<line>
+//my magic!<End>
+
+//POINTER #352 @ $D8612C - STRING #352 @ $D7AEFA
+
+#W24($D8612C)
+//Yes, it's wise not to<line>
+//get near it.<End>
+
+//POINTER #353 @ $D86130 - STRING #353 @ $D7AF38
+
+#W24($D86130)
+//This chest's already<line>
+//been opened.<End>
+
+//POINTER #354 @ $D86134 - STRING #354 @ $D7AF77
+
+#W24($D86134)
+//Here too, huh?<End>
+
+//POINTER #355 @ $D86138 - STRING #355 @ $D7AF92
+
+#W24($D86138)
+//Serene, don't…<End>
+
+//POINTER #356 @ $D8613C - STRING #356 @ $D7AFAE
+
+#W24($D8613C)
+//I know, I know,<line>
+//stay calm, right?<End>
+
+//POINTER #357 @ $D86140 - STRING #357 @ $D7AFEB
+
+#W24($D86140)
+//This chest's already been<line>
+//opened.<End>
+
+//POINTER #358 @ $D86144 - STRING #358 @ $D7AF77
+
+#W24($D86144)
+//Here too, huh?<End>
+
+//POINTER #359 @ $D86148 - STRING #359 @ $D7B02A
+
+#W24($D86148)
+//There's something written<line>
+//here…<End>
+
+//POINTER #360 @ $D8614C - STRING #360 @ $D7B066
+
+#W24($D8614C)
+//Could it be an epitaph?<End>
+
+//POINTER #361 @ $D86150 - STRING #361 @ $D7B091
+
+#W24($D86150)
+//What do you think it<line>
+//means?<End>
+
+//POINTER #362 @ $D86154 - STRING #362 @ $D7B0C3
+
+#W24($D86154)
+//Um… I don't get it.<End>
+
+//POINTER #363 @ $D86158 - STRING #363 @ $D7B0E6
+
+#W24($D86158)
+//(Holy Land…? Path…?)<End>
+
+//POINTER #364 @ $D8615C - STRING #364 @ $D7B10D
+
+#W24($D8615C)
+//An epitaph of the Six<line>
+//Preists.<End>
+
+//POINTER #365 @ $D86160 - STRING #365 @ $D7B0E6
+
+#W24($D86160)
+//(Holy Land…? Path…?)<End>
+
+//POINTER #366 @ $D86164 - STRING #366 @ $D7B145
+
+#W24($D86164)
+//(Names engraved on<line>
+//the Ankhs…?)<End>
+
+//POINTER #367 @ $D86168 - STRING #367 @ $D7B180
+
+#W24($D86168)
+//(Name… Initial…)<End>
+
+//POINTER #368 @ $D8616C - STRING #368 @ $D7B1A0
+
+#W24($D8616C)
+//Maybe later.<End>
+
+//POINTER #369 @ $D86170 - STRING #369 @ $D7B1B8
+
+#W24($D86170)
+//How far does this keep<line>
+//going?<End>
+
+//POINTER #370 @ $D86174 - STRING #370 @ $D7B1EE
+
+#W24($D86174)
+//It's like a really long<line>
+//hallway.<Next>
+
+//…Just walking deeper<line>
+//and deeper.<End>
+
+//POINTER #371 @ $D86178 - STRING #371 @ $D7B268
+
+#W24($D86178)
+//Perhaps this is another<line>
+//trap to confuse us.<End>
+
+//POINTER #372 @ $D8617C - STRING #372 @ $D7B2B8
+
+#W24($D8617C)
+//Maybe…<End>
+
+//POINTER #373 @ $D86180 - STRING #373 @ $D7B2C5
+
+#W24($D86180)
+//Geez!<End>
+
+//POINTER #374 @ $D86184 - STRING #374 @ $D7B2D0
+
+#W24($D86184)
+//Don't let it get to you.<End>
+
+//POINTER #375 @ $D86188 - STRING #375 @ $D7B2FC
+
+#W24($D86188)
+//I feel like we're<line>
+//being watched…<End>
+
+//POINTER #376 @ $D8618C - STRING #376 @ $D7B338
+
+#W24($D8618C)
+//Ein, above you!<End>
+
+//POINTER #377 @ $D86190 - STRING #377 @ $D7B355
+
+#W24($D86190)
+//Why are you with them,<line>
+//comrade…?<End>
+
+//POINTER #378 @ $D86194 - STRING #378 @ $D7B391
+
+#W24($D86194)
+//That voice is echoing<line>
+//in my head!<End>
+
+//POINTER #379 @ $D86198 - STRING #379 @ $D7B3CE
+
+#W24($D86198)
+//Comrade…?<End>
+
+//POINTER #380 @ $D8619C - STRING #380 @ $D7B3E1
+
+#W24($D8619C)
+//Not you!<End>
+
+//POINTER #381 @ $D861A0 - STRING #381 @ $D7B3F1
+
+#W24($D861A0)
+//Comrade…!?<End>
+
+//POINTER #382 @ $D861A4 - STRING #382 @ $D7B404
+
+#W24($D861A4)
+//M—Me!?<Next>
+
+//Comrade…?<End>
+
+//POINTER #383 @ $D861A8 - STRING #383 @ $D7B423
+
+#W24($D861A8)
+//(Why me!?)<End>
+
+//POINTER #384 @ $D861AC - STRING #384 @ $D7B435
+
+#W24($D861AC)
+//Comrade…<End>
+
+//POINTER #385 @ $D861B0 - STRING #385 @ $D7B446
+
+#W24($D861B0)
+//Now, come!<Next>
+
+//Reap their souls and come<line>
+//to my side.<End>
+
+//POINTER #386 @ $D861B4 - STRING #386 @ $D7B49F
+
+#W24($D861B4)
+//Give their lives over to<line>
+//Death!<End>
+
+//POINTER #387 @ $D861B8 - STRING #387 @ $D7B4D9
+
+#W24($D861B8)
+//Vampires…<End>
+
+//POINTER #388 @ $D861BC - STRING #388 @ $D7B4EC
+
+#W24($D861BC)
+//Then, Serene…<End>
+
+//POINTER #389 @ $D861C0 - STRING #389 @ $D7B506
+
+#W24($D861C0)
+//You're a vampire!?<End>
+
+//POINTER #390 @ $D861C4 - STRING #390 @ $D7B527
+
+#W24($D861C4)
+//No, you've got it all<line>
+//wrong!<End>
+
+//POINTER #391 @ $D861C8 - STRING #391 @ $D7B55B
+
+#W24($D861C8)
+//But, we can't fight Serene!<End>
+
+//POINTER #392 @ $D861CC - STRING #392 @ $D7B58E
+
+#W24($D861CC)
+//I told you, it's not<line>
+//like that!!<End>
+
+//POINTER #393 @ $D861D0 - STRING #393 @ $D7B5C7
+
+#W24($D861D0)
+//S—sorry💧<End>
+
+//POINTER #394 @ $D861D4 - STRING #394 @ $D7B5D8
+
+#W24($D861D4)
+//These are Arc wings!<End>
+
+//POINTER #395 @ $D861D8 - STRING #395 @ $D7B5FE
+
+#W24($D861D8)
+//Ein…<Next>
+
+//Serene's not a demon!<End>
+
+//POINTER #396 @ $D861DC - STRING #396 @ $D7B630
+
+#W24($D861DC)
+//Fia…<End>
+
+//POINTER #397 @ $D861E0 - STRING #397 @ $D7B639
+
+#W24($D861E0)
+//I know…<line>
+//Sorry, Serene.<End>
+
+//POINTER #398 @ $D861E4 - STRING #398 @ $D7B663
+
+#W24($D861E4)
+//No, it's okay.<Next>
+
+//The wings are similar,<line>
+//but…<End>
+
+//POINTER #399 @ $D861E8 - STRING #399 @ $D77A93
+
+#W24($D861E8)
+//Ein…<End>
+
+//POINTER #400 @ $D861EC - STRING #400 @ $D7B6B2
+
+#W24($D861EC)
+//How could a cute girl<line>
+//like me be a demon…?<End>
+
+//POINTER #401 @ $D861F0 - STRING #401 @ $D7935E
+
+#W24($D861F0)
+//…………<End>
+
+//POINTER #402 @ $D861F4 - STRING #402 @ $D7B6FE
+
+#W24($D861F4)
+//I'm not some stupid vampire.<End>
+
+//POINTER #403 @ $D861F8 - STRING #403 @ $D7B733
+
+#W24($D861F8)
+//Then, you will die.<End>
+
+//POINTER #404 @ $D861FC - STRING #404 @ $D7B757
+
+#W24($D861FC)
+//That's my line, sister!<line>
+//You ticked me off!<End>
+
+//POINTER #405 @ $D86200 - STRING #405 @ $D7B7A5
+
+#W24($D86200)
+//So much for those<line>
+//vampires.<End>
+
+//POINTER #406 @ $D86204 - STRING #406 @ $D7B7D8
+
+#W24($D86204)
+//There's a chest…<End>
+
+//POINTER #407 @ $D86208 - STRING #407 @ $D7B7F7
+
+#W24($D86208)
+//Not right now.<End>
+
+//POINTER #408 @ $D8620C - STRING #408 @ $D7B812
+
+#W24($D8620C)
+//It's empty…<End>
+
+//POINTER #409 @ $D86210 - STRING #409 @ $D7B828
+
+#W24($D86210)
+//There's water nearby, Ein.<End>
+
+//POINTER #410 @ $D86214 - STRING #410 @ $D7B85A
+
+#W24($D86214)
+//How can you tell?<End>
+
+//POINTER #411 @ $D86218 - STRING #411 @ $D7B87A
+
+#W24($D86218)
+//Take a look at the wall.<Next>
+
+//It isn't dry.<Next>
+
+//In fact, you can see<line>
+//droplets of water…<End>
+
+//POINTER #412 @ $D8621C - STRING #412 @ $D7B909
+
+#W24($D8621C)
+//Grrr…<End>
+
+//POINTER #413 @ $D86220 - STRING #413 @ $D7B914
+
+#W24($D86220)
+//Now's not the time for<line>
+//discussion…<Next>
+
+//Those are demons!<End>
+
+//POINTER #414 @ $D86224 - STRING #414 @ $D7895E
+
+#W24($D86224)
+//What should we do, Ein?<End>
+
+//POINTER #415 @ $D86228 - STRING #415 @ $D7B976
+
+#W24($D86228)
+//We don't have a choice.<line>
+//Let's fight!<End>
+
+//POINTER #416 @ $D8622C - STRING #416 @ $D789C6
+
+#W24($D8622C)
+//Let's retreat for now.<End>
+
+//POINTER #417 @ $D86230 - STRING #417 @ $D7B909
+
+#W24($D86230)
+//Grrr…<End>
+
+//POINTER #418 @ $D86234 - STRING #418 @ $D7B9B9
+
+#W24($D86234)
+//They're still here.<End>
+
+//POINTER #419 @ $D86238 - STRING #419 @ $D7B9DE
+
+#W24($D86238)
+//Defeating them is our<line>
+//only option.<End>
+
+//POINTER #420 @ $D8623C - STRING #420 @ $D7BA1E
+
+#W24($D8623C)
+//You're right.<line>
+//Let's go!<End>
+
+//POINTER #421 @ $D86240 - STRING #421 @ $D789C6
+
+#W24($D86240)
+//Let's retreat for now.<End>
+
+//POINTER #422 @ $D86244 - STRING #422 @ $D7BA4A
+
+#W24($D86244)
+//I'm not sure this is<line>
+//the right way…<Next>
+
+//But, we need to try.<End>
+
+//POINTER #423 @ $D86248 - STRING #423 @ $D7B812
+
+#W24($D86248)
+//It's empty…<End>
+
+//POINTER #424 @ $D8624C - STRING #424 @ $D7BAB0
+
+#W24($D8624C)
+//It's been sealed with<line>
+//magic.<Next>
+
+//It will never open again…<End>
+
+//POINTER #425 @ $D86250 - STRING #425 @ $D7BB15
+
+#W24($D86250)
+//I guess we have to<line>
+//give up, then…<End>
+
+//POINTER #426 @ $D86254 - STRING #426 @ $D7BB51
+
+#W24($D86254)
+//The contents were blown<line>
+//away too…<End>
+
+//POINTER #427 @ $D86258 - STRING #427 @ $D7BB8F
+
+#W24($D86258)
+//Fia, there's more water<line>
+//on the wall.<End>
+
+//POINTER #428 @ $D8625C - STRING #428 @ $D7BBD2
+
+#W24($D8625C)
+//We must be close to<line>
+//its source.<End>
+
+//POINTER #429 @ $D86260 - STRING #429 @ $D7A9EF
+
+#W24($D86260)
+//Look at all those<line>
+//stalactites…<End>
+
+//POINTER #430 @ $D86264 - STRING #430 @ $D7BC0B
+
+#W24($D86264)
+//They might come down<line>
+//at any moment…<Next>
+
+//We should keep moving.<End>
+
+//POINTER #431 @ $D86268 - STRING #431 @ $D7BC77
+
+#W24($D86268)
+//Ein, look out!<line>
+//Above you!<End>
+
+//POINTER #432 @ $D8626C - STRING #432 @ $D7BCA6
+
+#W24($D8626C)
+//What!?<End>
+
+//POINTER #433 @ $D86270 - STRING #433 @ $D7BCB1
+
+#W24($D86270)
+//Whew. That was close.<End>
+
+//POINTER #434 @ $D86274 - STRING #434 @ $D7BCD9
+
+#W24($D86274)
+//We should watch<line>
+//the ceiling.<End>
+
+//POINTER #435 @ $D86278 - STRING #435 @ $D7BD0E
+
+#W24($D86278)
+//If we did that,<line>
+//we'd trip.<End>
+
+//POINTER #436 @ $D8627C - STRING #436 @ $D7BD3E
+
+#W24($D8627C)
+//It was just an idea!<End>
+
+//POINTER #437 @ $D86280 - STRING #437 @ $D7BD63
+
+#W24($D86280)
+//Ahh!<End>
+
+//POINTER #438 @ $D86284 - STRING #438 @ $D7BD6C
+
+#W24($D86284)
+//Ugh… That was really close…<End>
+
+//POINTER #439 @ $D86288 - STRING #439 @ $D7BD9F
+
+#W24($D86288)
+//(Ein, you okay?)<End>
+
+//POINTER #440 @ $D8628C - STRING #440 @ $D78356
+
+#W24($D8628C)
+//Huh!?<End>
+
+//POINTER #441 @ $D86290 - STRING #441 @ $D7BDBE
+
+#W24($D86290)
+//Safe!<End>
+
+//POINTER #442 @ $D86294 - STRING #442 @ $D7BDC9
+
+#W24($D86294)
+//Whew…<End>
+
+//POINTER #443 @ $D86298 - STRING #443 @ $D7BDD4
+
+#W24($D86298)
+//Look out!<End>
+
+//POINTER #444 @ $D8629C - STRING #444 @ $D7BDE6
+
+#W24($D8629C)
+//Whoa!<End>
+
+//POINTER #445 @ $D862A0 - STRING #445 @ $D7BDF1
+
+#W24($D862A0)
+//Owww…<line>
+//This is serious.<End>
+
+//POINTER #446 @ $D862A4 - STRING #446 @ $D7BE1B
+
+#W24($D862A4)
+//(Let's get out of here.)<End>
+
+//POINTER #447 @ $D862A8 - STRING #447 @ $D7BE48
+
+#W24($D862A8)
+//※rustle※ ※rustle※<End>
+
+//POINTER #448 @ $D862AC - STRING #448 @ $D7BE6A
+
+#W24($D862AC)
+//It's awake!<End>
+
+//POINTER #449 @ $D862B0 - STRING #449 @ $D7BE80
+
+#W24($D862B0)
+//What's inside?<End>
+
+//POINTER #450 @ $D862B4 - STRING #450 @ $D7BE9C
+
+#W24($D862B4)
+//It's Wyvernzem,<line>
+//a powerful claw weapon.<End>
+
+//POINTER #451 @ $D862B8 - STRING #451 @ $D7BEE6
+
+#W24($D862B8)
+//It's a chest…<End>
+
+//POINTER #452 @ $D862BC - STRING #452 @ $D7BEFF
+
+#W24($D862BC)
+//Or, maybe not…<End>
+
+//POINTER #453 @ $D862C0 - STRING #453 @ $D7BF1A
+
+#W24($D862C0)
+//Poison gas!<End>
+
+//POINTER #454 @ $D862C4 - STRING #454 @ $D7BF30
+
+#W24($D862C4)
+//Now, what's inside…?<End>
+
+//POINTER #455 @ $D862C8 - STRING #455 @ $D7BF57
+
+#W24($D862C8)
+//Ugh… Well, what's inside…?<End>
+
+//POINTER #456 @ $D862CC - STRING #456 @ $D7BF89
+
+#W24($D862CC)
+//An arrow trap!<End>
+
+//POINTER #457 @ $D862D0 - STRING #457 @ $D7BE80
+
+#W24($D862D0)
+//What's inside?<End>
+
+//POINTER #458 @ $D862D4 - STRING #458 @ $D7BFA4
+
+#W24($D862D4)
+//There's treasure inside,<line>
+//right!?<End>
+
+//POINTER #459 @ $D862D8 - STRING #459 @ $D7BFE0
+
+#W24($D862D8)
+//Freeze gas!<End>
+
+//POINTER #460 @ $D862DC - STRING #460 @ $D7BFF6
+
+#W24($D862DC)
+//What's inside…?<End>
+
+//POINTER #461 @ $D862E0 - STRING #461 @ $D7C014
+
+#W24($D862E0)
+//What item could be<line>
+//worth all that…?<End>
+
+//POINTER #462 @ $D862E4 - STRING #462 @ $D7C055
+
+#W24($D862E4)
+//A magic lock!<End>
+
+//POINTER #463 @ $D862E8 - STRING #463 @ $D7C06E
+
+#W24($D862E8)
+//Wow, good job!<line>
+//It didn't activate!<End>
+
+//POINTER #464 @ $D862EC - STRING #464 @ $D7C0AE
+
+#W24($D862EC)
+//But, why does it need<line>
+//such a fancy lock?<End>
+
+//POINTER #465 @ $D862F0 - STRING #465 @ $D7C0F7
+
+#W24($D862F0)
+//※sigh※ Now it's locked…<End>
+
+//POINTER #466 @ $D862F4 - STRING #466 @ $D7C123
+
+#W24($D862F4)
+//I wasn't fast enough…<End>
+
+//POINTER #467 @ $D862F8 - STRING #467 @ $D7C14B
+
+#W24($D862F8)
+//I'm sorry to say…<Next>
+
+//this chest will never<line>
+//open again.<End>
+
+//POINTER #468 @ $D862FC - STRING #468 @ $D7C1AA
+
+#W24($D862FC)
+//※sigh※<End>
+
+//POINTER #469 @ $D86300 - STRING #469 @ $D7C1B7
+
+#W24($D86300)
+//It's gonna explode!<End>
+
+//POINTER #470 @ $D86304 - STRING #470 @ $D7C1DC
+
+#W24($D86304)
+//That oughtta do it.<End>
+
+//POINTER #471 @ $D86308 - STRING #471 @ $D7C200
+
+#W24($D86308)
+//Not bad, Ein!<End>
+
+//POINTER #472 @ $D8630C - STRING #472 @ $D7C219
+
+#W24($D8630C)
+//※cough※ ※cough※<End>
+
+//POINTER #473 @ $D86310 - STRING #473 @ $D7C237
+
+#W24($D86310)
+//※sigh※ So much for<line>
+//the treasure…<End>
+
+//POINTER #474 @ $D86314 - STRING #474 @ $D7C273
+
+#W24($D86314)
+//Everything's been blown<line>
+//to bits…<End>
+
+//POINTER #475 @ $D86318 - STRING #475 @ $D7C2B0
+
+#W24($D86318)
+//Aha! So much for that<line>
+//trap.<End>
+
+//POINTER #476 @ $D8631C - STRING #476 @ $D7C2E2
+
+#W24($D8631C)
+//We did it♪<End>
+
+//POINTER #477 @ $D86320 - STRING #477 @ $D7C2F5
+
+#W24($D86320)
+//Well done.<End>
+
+//POINTER #478 @ $D86324 - STRING #478 @ $D7C309
+
+#W24($D86324)
+//That was a piece of cake!<End>
+
+//POINTER #479 @ $D86328 - STRING #479 @ $D7C337
+
+#W24($D86328)
+//That wasn't so hard…<End>
+
+//POINTER #480 @ $D8632C - STRING #480 @ $D7BDE6
+
+#W24($D8632C)
+//Whoa!<End>
+
+//POINTER #481 @ $D86330 - STRING #481 @ $D7C35D
+
+#W24($D86330)
+//Waaah!<End>
+
+//POINTER #482 @ $D86334 - STRING #482 @ $D7BD63
+
+#W24($D86334)
+//Ahh!<End>
+
+//POINTER #483 @ $D86338 - STRING #483 @ $D7C36A
+
+#W24($D86338)
+//Wh—Whoa!<End>
+
+//POINTER #484 @ $D8633C - STRING #484 @ $D7C37B
+
+#W24($D8633C)
+//Ahhh!<End>
+
+//POINTER #485 @ $D86340 - STRING #485 @ $D7C386
+
+#W24($D86340)
+//Check it out!<End>
+
+//POINTER #486 @ $D86344 - STRING #486 @ $D7ACB3
+
+#W24($D86344)
+//Alright!<End>
+
+//POINTER #487 @ $D86348 - STRING #487 @ $D7C39F
+
+#W24($D86348)
+//Let's put it to good use.<End>
+
+//POINTER #488 @ $D8634C - STRING #488 @ $D7C3CD
+
+#W24($D8634C)
+//Lucky★<End>
+
+//POINTER #489 @ $D86350 - STRING #489 @ $D7C3DA
+
+#W24($D86350)
+//Not bad.<End>
+
+//POINTER #490 @ $D86354 - STRING #490 @ $D7C3EA
+
+#W24($D86354)
+//It fell…<End>
+
+//POINTER #491 @ $D86358 - STRING #491 @ $D7C3FA
+
+#W24($D86358)
+//I hear something…<End>
+
+//POINTER #492 @ $D8635C - STRING #492 @ $D7C41B
+
+#W24($D8635C)
+//What is it?<End>
+
+//POINTER #493 @ $D86360 - STRING #493 @ $D7C430
+
+#W24($D86360)
+//It sounds like water.<End>
+
+//POINTER #494 @ $D86364 - STRING #494 @ $D7C458
+
+#W24($D86364)
+//We must have reached<line>
+//the water's source.<End>
+
+//POINTER #495 @ $D86368 - STRING #495 @ $D7C4A3
+
+#W24($D86368)
+//The wind's blowing<line>
+//up ahead.<End>
+
+//POINTER #496 @ $D8636C - STRING #496 @ $D7C4D8
+
+#W24($D8636C)
+//It's pleasant.<End>
+
+//POINTER #497 @ $D86370 - STRING #497 @ $D7C4F4
+
+#W24($D86370)
+//(There's probably<line>
+//a lake nearby.)<End>
+
+//POINTER #498 @ $D86374 - STRING #498 @ $D78B30
+
+#W24($D86374)
+//Let's hurry.<End>
+
+//POINTER #499 @ $D86378 - STRING #499 @ $D7C533
+
+#W24($D86378)
+//Do you see that<line>
+//glowing pattern?<End>
+
+//POINTER #500 @ $D8637C - STRING #500 @ $D7C56F
+
+#W24($D8637C)
+//Is it a magic circle?<End>
+
+//POINTER #501 @ $D86380 - STRING #501 @ $D7C596
+
+#W24($D86380)
+//Probably…<Next>
+
+//It must connect to<line>
+//somewhere else.<End>
+
+//POINTER #502 @ $D86384 - STRING #502 @ $D7C5EA
+
+#W24($D86384)
+//Maybe we can cross<line>
+//the lake with it.<End>
+
+//POINTER #503 @ $D86388 - STRING #503 @ $D78D25
+
+#W24($D86388)
+//Let's go!<End>
+
+//POINTER #504 @ $D8638C - STRING #504 @ $D7C62C
+
+#W24($D8638C)
+//It's submerged!<End>
+
+//POINTER #505 @ $D86390 - STRING #505 @ $D7C64A
+
+#W24($D86390)
+//We have to clear away<line>
+//the water…<End>
+
+//POINTER #506 @ $D86394 - STRING #506 @ $D7C685
+
+#W24($D86394)
+//Yay! The water's gone!<End>
+
+//POINTER #507 @ $D86398 - STRING #507 @ $D7C6AF
+
+#W24($D86398)
+//There's something in<line>
+//the water.<End>
+
+//POINTER #508 @ $D8639C - STRING #508 @ $D7C6EA
+
+#W24($D8639C)
+//There's something at<line>
+//the bottom of the lake.<End>
+
+//POINTER #509 @ $D863A0 - STRING #509 @ $D7C73C
+
+#W24($D863A0)
+//I think…<line>
+//It's a chest.<End>
+
+//POINTER #510 @ $D863A4 - STRING #510 @ $D7C765
+
+#W24($D863A4)
+//Yeah, it looks like<line>
+//a chest!<End>
+
+//POINTER #511 @ $D863A8 - STRING #511 @ $D7C799
+
+#W24($D863A8)
+//But, there's no way<line>
+//to reach it…<End>
+
+//POINTER #512 @ $D863AC - STRING #512 @ $D7C7D4
+
+#W24($D863AC)
+//That's too bad.<End>
+
+//POINTER #513 @ $D863B0 - STRING #513 @ $D7C7F1
+
+#W24($D863B0)
+//It's underwater.<End>
+
+//POINTER #514 @ $D863B4 - STRING #514 @ $D7C811
+
+#W24($D863B4)
+//(What would somebody hide<line>
+//that deep underwater?)<End>
+
+//POINTER #515 @ $D863B8 - STRING #515 @ $D7C86C
+
+#W24($D863B8)
+//I can see the underwater<line>
+//chest…<End>
+
+//POINTER #516 @ $D863BC - STRING #516 @ $D7C8A6
+
+#W24($D863BC)
+//We already opened it,<line>
+//remember?<End>
+
+//POINTER #517 @ $D863C0 - STRING #517 @ $D7C8E1
+
+#W24($D863C0)
+//Should we open the chest?<End>
+
+//POINTER #518 @ $D863C4 - STRING #518 @ $D7C910
+
+#W24($D863C4)
+//…Should we?<End>
+
+//POINTER #519 @ $D863C8 - STRING #519 @ $D7C926
+
+#W24($D863C8)
+//Maybe I shouldn't…<End>
+
+//POINTER #520 @ $D863CC - STRING #520 @ $D7B812
+
+#W24($D863CC)
+//It's empty…<End>
+
+//POINTER #521 @ $D863D0 - STRING #521 @ $D7C949
+
+#W24($D863D0)
+//The water's gone!<End>
+
+//POINTER #522 @ $D863D4 - STRING #522 @ $D7C96A
+
+#W24($D863D4)
+//Was it because of<line>
+//the ankh's power?<End>
+
+//POINTER #523 @ $D863D8 - STRING #523 @ $D7C9AB
+
+#W24($D863D8)
+//Whatever it is, now<line>
+//we can walk through.<End>
+
+//POINTER #524 @ $D863DC - STRING #524 @ $D7C62C
+
+#W24($D863DC)
+//It's submerged!<End>
+
+//POINTER #525 @ $D863E0 - STRING #525 @ $D7C9F5
+
+#W24($D863E0)
+//We need to drain the water…<End>
+
+//POINTER #526 @ $D863E4 - STRING #526 @ $D7CA27
+
+#W24($D863E4)
+//Check out the lake.<End>
+
+//POINTER #527 @ $D863E8 - STRING #527 @ $D7CA4B
+
+#W24($D863E8)
+//Rain water must have<line>
+//collected here.<End>
+
+//POINTER #528 @ $D863EC - STRING #528 @ $D7CA8F
+
+#W24($D863EC)
+//How big do you think it is?<End>
+
+//POINTER #529 @ $D863F0 - STRING #529 @ $D7CAC0
+
+#W24($D863F0)
+//Serene can find out!<End>
+
+//POINTER #530 @ $D863F4 - STRING #530 @ $D7CAE6
+
+#W24($D863F4)
+//The ceiling is too low.<End>
+
+//POINTER #531 @ $D863F8 - STRING #531 @ $D7CB11
+
+#W24($D863F8)
+//Yeah, I can't really fly<line>
+//in here.<End>
+
+//POINTER #532 @ $D863FC - STRING #532 @ $D7CB4E
+
+#W24($D863FC)
+//If it's shallow,<line>
+//we can wade across.<End>
+
+//POINTER #533 @ $D86400 - STRING #533 @ $D7CB91
+
+#W24($D86400)
+//It's pretty shallow.<Next>
+
+//Come on, ev——※gurgle※<End>
+
+//POINTER #534 @ $D86404 - STRING #534 @ $D7CBE2
+
+#W24($D86404)
+//Ein!?<End>
+
+//POINTER #535 @ $D86408 - STRING #535 @ $D7CBEB
+
+#W24($D86408)
+//Ein!<End>
+
+//POINTER #536 @ $D8640C - STRING #536 @ $D7CBF4
+
+#W24($D8640C)
+//※gurgle※ ※gurgle※<End>
+
+//POINTER #537 @ $D86410 - STRING #537 @ $D7CC16
+
+#W24($D86410)
+//Ein!<line>
+//Are you alright!?<End>
+
+//POINTER #538 @ $D86414 - STRING #538 @ $D7CC3E
+
+#W24($D86414)
+//※cough※ Barely…<End>
+
+//POINTER #539 @ $D86418 - STRING #539 @ $D7CC5C
+
+#W24($D86418)
+//I don't think we can<line>
+//wade through that.<End>
+
+//POINTER #540 @ $D8641C - STRING #540 @ $D7CCA4
+
+#W24($D8641C)
+//It's pretty deep,<line>
+//actually…<End>
+
+//POINTER #541 @ $D86420 - STRING #541 @ $D7CCD8
+
+#W24($D86420)
+//Let's find another way<line>
+//around.<End>
+
+//POINTER #542 @ $D86424 - STRING #542 @ $D7CD11
+
+#W24($D86424)
+//…Yeah.<End>
+
+//POINTER #543 @ $D86428 - STRING #543 @ $D7CD1E
+
+#W24($D86428)
+//Ein, don't push yourself<line>
+//so hard.<End>
+
+//POINTER #544 @ $D8642C - STRING #544 @ $D7A316
+
+#W24($D8642C)
+//Ugh…<End>
+
+//POINTER #545 @ $D86430 - STRING #545 @ $D7CD5C
+
+#W24($D86430)
+//Ein!<line>
+//You're awake!<End>
+
+//POINTER #546 @ $D86434 - STRING #546 @ $D7CD7F
+
+#W24($D86434)
+//…Huh? I jumped in the lake,<line>
+//and…<End>
+
+//POINTER #547 @ $D86438 - STRING #547 @ $D7CDBA
+
+#W24($D86438)
+//Serene jumped in to save you.<End>
+
+//POINTER #548 @ $D8643C - STRING #548 @ $D7CDF0
+
+#W24($D8643C)
+//She did?<End>
+
+//POINTER #549 @ $D86440 - STRING #549 @ $D7CE00
+
+#W24($D86440)
+//That's right.<Next>
+
+//Now my clothes and<line>
+//my wings are soaked…<Next>
+
+//If I catch a cold,<line>
+//it's all your fault!<End>
+
+//POINTER #550 @ $D86444 - STRING #550 @ $D7CEAB
+
+#W24($D86444)
+//Sorry… I thought it was<line>
+//shallow…<End>
+
+//POINTER #551 @ $D86448 - STRING #551 @ $D7CEE7
+
+#W24($D86448)
+//So you just jumped in!?<End>
+
+//POINTER #552 @ $D8644C - STRING #552 @ $D7CD11
+
+#W24($D8644C)
+//…Yeah.<End>
+
+//POINTER #553 @ $D86450 - STRING #553 @ $D7935E
+
+#W24($D86450)
+//…………<End>
+
+//POINTER #554 @ $D86454 - STRING #554 @ $D7CF10
+
+#W24($D86454)
+//Anyway…<Next>
+
+//Thanks to Ein, we know<line>
+//we can't cross on foot.<End>
+
+//POINTER #555 @ $D86458 - STRING #555 @ $D79992
+
+#W24($D86458)
+//Yep!<End>
+
+//POINTER #556 @ $D8645C - STRING #556 @ $D7CF74
+
+#W24($D8645C)
+//There has to be another<line>
+//way.<End>
+
+//POINTER #557 @ $D86460 - STRING #557 @ $D7B812
+
+#W24($D86460)
+//It's empty…<End>
+
+//POINTER #558 @ $D86464 - STRING #558 @ $D7BAB0
+
+#W24($D86464)
+//It's been sealed with<line>
+//magic.<Next>
+
+//It will never open again…<End>
+
+//POINTER #559 @ $D86468 - STRING #559 @ $D7CFA8
+
+#W24($D86468)
+//Well, so much for that<line>
+//idea…<End>
+
+//POINTER #560 @ $D8646C - STRING #560 @ $D7CFDC
+
+#W24($D8646C)
+//The contents were<line>
+//completely blown away…<End>
+
+//POINTER #561 @ $D86470 - STRING #561 @ $D7C62C
+
+#W24($D86470)
+//It's submerged!<End>
+
+//POINTER #562 @ $D86474 - STRING #562 @ $D7D028
+
+#W24($D86474)
+//We have to drain the water…<End>
+
+//POINTER #563 @ $D86478 - STRING #563 @ $D7D05A
+
+#W24($D86478)
+//The water's sparkling.<End>
+
+//POINTER #564 @ $D8647C - STRING #564 @ $D7D085
+
+#W24($D8647C)
+//Is there something down<line>
+//there?<End>
+
+//POINTER #565 @ $D86480 - STRING #565 @ $D7D0BE
+
+#W24($D86480)
+//It's a Mana Wisp!<End>
+
+//POINTER #566 @ $D86484 - STRING #566 @ $D7D0DE
+
+#W24($D86484)
+//That explains the sparkle<line>
+//that Ein noticed.<End>
+
+//POINTER #567 @ $D86488 - STRING #567 @ $D7D12F
+
+#W24($D86488)
+//Something's shining in<line>
+//the water.<End>
+
+//POINTER #568 @ $D8648C - STRING #568 @ $D7D16E
+
+#W24($D8648C)
+//Maybe it's a gem.<End>
+
+//POINTER #569 @ $D86490 - STRING #569 @ $D7D18E
+
+#W24($D86490)
+//I feel like I'm being<line>
+//pulled in.<End>
+
+//POINTER #570 @ $D86494 - STRING #570 @ $D7D1C9
+
+#W24($D86494)
+//It's a Mana Wisp,<line>
+//alright.<End>
+
+//POINTER #571 @ $D86498 - STRING #571 @ $D779BB
+
+#W24($D86498)
+//What should I do?<End>
+
+//POINTER #572 @ $D8649C - STRING #572 @ $D7D1FA
+
+#W24($D8649C)
+//I can feel its power.<End>
+
+//POINTER #573 @ $D864A0 - STRING #573 @ $D7D221
+
+#W24($D864A0)
+//…I'd better not.<End>
+
+//POINTER #574 @ $D864A4 - STRING #574 @ $D7D240
+
+#W24($D864A4)
+//※sigh※ It disappeared…<End>
+
+//POINTER #575 @ $D864A8 - STRING #575 @ $D7D26B
+
+#W24($D864A8)
+//It's still wet…<End>
+
+//POINTER #576 @ $D864AC - STRING #576 @ $D7C62C
+
+#W24($D864AC)
+//It's submerged!<End>
+
+//POINTER #577 @ $D864B0 - STRING #577 @ $D7D028
+
+#W24($D864B0)
+//We have to drain the water…<End>
+
+//POINTER #578 @ $D864B4 - STRING #578 @ $D7D288
+
+#W24($D864B4)
+//Look, there's a magic<line>
+//circle!<End>
+
+//POINTER #579 @ $D864B8 - STRING #579 @ $D7D2BF
+
+#W24($D864B8)
+//It's blue this time.<End>
+
+//POINTER #580 @ $D864BC - STRING #580 @ $D7D2E5
+
+#W24($D864BC)
+//The water's almost<line>
+//drawing me in.<End>
+
+//POINTER #581 @ $D864C0 - STRING #581 @ $D7D323
+
+#W24($D864C0)
+//There's nothing here…<End>
+
+//POINTER #582 @ $D864C4 - STRING #582 @ $D7D34C
+
+#W24($D864C4)
+//Maybe it's connected<line>
+//to another shrine.<End>
+
+//POINTER #583 @ $D864C8 - STRING #583 @ $D7D396
+
+#W24($D864C8)
+//Follow me.<End>
+
+//POINTER #584 @ $D864CC - STRING #584 @ $D7D3AA
+
+#W24($D864CC)
+//Let's not.<End>
+
+//POINTER #585 @ $D864D0 - STRING #585 @ $D7C62C
+
+#W24($D864D0)
+//It's submerged!<End>
+
+//POINTER #586 @ $D864D4 - STRING #586 @ $D7D028
+
+#W24($D864D4)
+//We have to drain the water…<End>
+
+//POINTER #587 @ $D864D8 - STRING #587 @ $D7D2E5
+
+#W24($D864D8)
+//The water's almost<line>
+//drawing me in.<End>
+
+//POINTER #588 @ $D864DC - STRING #588 @ $D7D3BE
+
+#W24($D864DC)
+//Can you see that dark<line>
+//shadow in the water?<End>
+
+//POINTER #589 @ $D864E0 - STRING #589 @ $D7D40B
+
+#W24($D864E0)
+//The boulder's black.<End>
+
+//POINTER #590 @ $D864E4 - STRING #590 @ $D7D432
+
+#W24($D864E4)
+//(I didn't know boulders<line>
+//came in black.)<End>
+
+//POINTER #591 @ $D864E8 - STRING #591 @ $D7D47B
+
+#W24($D864E8)
+//It looks strange,<line>
+//but it's normal enough…<End>
+
+//POINTER #592 @ $D864EC - STRING #592 @ $D7D4C8
+
+#W24($D864EC)
+//I wonder why it's black.<End>
+
+//POINTER #593 @ $D864F0 - STRING #593 @ $D7D4F5
+
+#W24($D864F0)
+//(Ein!)<Next>
+
+//(The boulder's moveable!)<End>
+
+//POINTER #594 @ $D864F4 - STRING #594 @ $D7D534
+
+#W24($D864F4)
+//Really!?<End>
+
+//POINTER #595 @ $D864F8 - STRING #595 @ $D7D543
+
+#W24($D864F8)
+//You're right… There's a path<line>
+//underneath…<End>
+
+//POINTER #596 @ $D864FC - STRING #596 @ $D7D58F
+
+#W24($D864FC)
+//C'mon, let's push it<line>
+//out of the way.<End>
+
+//POINTER #597 @ $D86500 - STRING #597 @ $D7D5D1
+
+#W24($D86500)
+//We're moving it?<End>
+
+//POINTER #598 @ $D86504 - STRING #598 @ $D7D5F0
+
+#W24($D86504)
+//We might as well try.<End>
+
+//POINTER #599 @ $D86508 - STRING #599 @ $D7D617
+
+#W24($D86508)
+//Alright! It moved!<End>
+
+//POINTER #600 @ $D8650C - STRING #600 @ $D7D63A
+
+#W24($D8650C)
+//Good work, everybody.<End>
+
+//POINTER #601 @ $D86510 - STRING #601 @ $D7D663
+
+#W24($D86510)
+//Hm…? What's this?<End>
+
+//POINTER #602 @ $D86514 - STRING #602 @ $D7D684
+
+#W24($D86514)
+//There's cold air blowing<line>
+//from inside.<End>
+
+//POINTER #603 @ $D86518 - STRING #603 @ $D7D6CA
+
+#W24($D86518)
+//It's dark in there.<End>
+
+//POINTER #604 @ $D8651C - STRING #604 @ $D7D6EE
+
+#W24($D8651C)
+//……!!<line>
+//Please be careful!<Next>
+
+//I feel a strong evil<line>
+//presence.<End>
+
+//POINTER #605 @ $D86520 - STRING #605 @ $D7D751
+
+#W24($D86520)
+//I'm scared…<End>
+
+//POINTER #606 @ $D86524 - STRING #606 @ $D7D767
+
+#W24($D86524)
+//(Even for a random hidden<line>
+//stairway, this is odd.)<End>
+
+//POINTER #607 @ $D86528 - STRING #607 @ $D779BB
+
+#W24($D86528)
+//What should I do?<End>
+
+//POINTER #608 @ $D8652C - STRING #608 @ $D7CBEB
+
+#W24($D8652C)
+//Ein!<End>
+
+//POINTER #609 @ $D86530 - STRING #609 @ $D7D7C2
+
+#W24($D86530)
+//I don't think we have<line>
+//much choice.<End>
+
+//POINTER #610 @ $D86534 - STRING #610 @ $D7D801
+
+#W24($D86534)
+//We have to defeat<line>
+//the Accursed…<Next>
+
+//This is where it may<line>
+//be lurking!<End>
+
+//POINTER #611 @ $D86538 - STRING #611 @ $D7D877
+
+#W24($D86538)
+//(Hm… This feeling…)<Next>
+
+//(No, it's not one of<line>
+//the Accursed.)<End>
+
+//POINTER #612 @ $D8653C - STRING #612 @ $D7D8DE
+
+#W24($D8653C)
+//Wait for me!<End>
+
+//POINTER #613 @ $D86540 - STRING #613 @ $D7D8F5
+
+#W24($D86540)
+//……………<End>
+
+//POINTER #614 @ $D86544 - STRING #614 @ $D7A369
+
+#W24($D86544)
+//Ein…?<End>
+
+//POINTER #615 @ $D86548 - STRING #615 @ $D7D900
+
+#W24($D86548)
+//We'd better not…<Next>
+
+//I think it'd be too<line>
+//dangerous to go down there.<End>
+
+//POINTER #616 @ $D8654C - STRING #616 @ $D7D976
+
+#W24($D8654C)
+//(Let's cover it<line>
+//back up, then.)<End>
+
+//POINTER #617 @ $D86550 - STRING #617 @ $D7D9B0
+
+#W24($D86550)
+//Yeah, let's push the boulder<line>
+//back where it belongs.<End>
+
+//POINTER #618 @ $D86554 - STRING #618 @ $D7DA0F
+
+#W24($D86554)
+//…It won't budge.<End>
+
+//POINTER #619 @ $D86558 - STRING #619 @ $D7DA2E
+
+#W24($D86558)
+//Ein, there's a seal on<line>
+//the boulder.<End>
+
+//POINTER #620 @ $D8655C - STRING #620 @ $D7DA6F
+
+#W24($D8655C)
+//What? A seal!?<End>
+
+//POINTER #621 @ $D86560 - STRING #621 @ $D7DA88
+
+#W24($D86560)
+//Yeah. It's almost like<line>
+//it's resisting us…<Next>
+
+//And, that power is<line>
+//getting stronger.<End>
+
+//POINTER #622 @ $D86564 - STRING #622 @ $D7DB1A
+
+#W24($D86564)
+//What do you mean by that?<End>
+
+//POINTER #623 @ $D86568 - STRING #623 @ $D7DB48
+
+#W24($D86568)
+//…I don't know.<End>
+
+//POINTER #624 @ $D8656C - STRING #624 @ $D7DB63
+
+#W24($D8656C)
+//We definitely shouldn't<line>
+//go down there.<End>
+
+//POINTER #625 @ $D86570 - STRING #625 @ $D7BD63
+
+#W24($D86570)
+//Ahh!<End>
+
+//POINTER #626 @ $D86574 - STRING #626 @ $D7DBAB
+
+#W24($D86574)
+//What was that!?<End>
+
+//POINTER #627 @ $D86578 - STRING #627 @ $D7DBC6
+
+#W24($D86578)
+//The evil emanations<line>
+//have subsided…<Next>
+
+//The path to darkness<line>
+//has been sealed off.<End>
+
+//POINTER #628 @ $D8657C - STRING #628 @ $D7DC54
+
+#W24($D8657C)
+//I have a bad feeling…<line>
+//Let's leave it.<End>
+
+//POINTER #629 @ $D86580 - STRING #629 @ $D7DC98
+
+#W24($D86580)
+//It's a strange boulder.<End>
+
+//POINTER #630 @ $D86584 - STRING #630 @ $D7DCC4
+
+#W24($D86584)
+//A powerful seal's been<line>
+//placed on it.<End>
+
+//POINTER #631 @ $D86588 - STRING #631 @ $D7DD07
+
+#W24($D86588)
+//We should probably<line>
+//leave it alone.<End>
+
+//POINTER #632 @ $D8658C - STRING #632 @ $D7C62C
+
+#W24($D8658C)
+//It's submerged!<End>
+
+//POINTER #633 @ $D86590 - STRING #633 @ $D7D028
+
+#W24($D86590)
+//We have to drain the water…<End>
+
+//POINTER #634 @ $D86594 - STRING #634 @ $D7DD47
+
+#W24($D86594)
+//Look! It's another<line>
+//glowy thing!<End>
+
+//POINTER #635 @ $D86598 - STRING #635 @ $D7DD82
+
+#W24($D86598)
+//It's a different color<line>
+//than the last one.<End>
+
+//POINTER #636 @ $D8659C - STRING #636 @ $D7DDCE
+
+#W24($D8659C)
+//Maybe it leads to<line>
+//a different shrine.<End>
+
+//POINTER #637 @ $D865A0 - STRING #637 @ $D7DE13
+
+#W24($D865A0)
+//The water seems to<line>
+//draw me in.<End>
+
+//POINTER #638 @ $D865A4 - STRING #638 @ $D7D26B
+
+#W24($D865A4)
+//It's still wet…<End>
+
+//POINTER #639 @ $D865A8 - STRING #639 @ $D7DE4A
+
+#W24($D865A8)
+//What will you do?<End>
+
+//POINTER #640 @ $D865AC - STRING #640 @ $D7DE6A
+
+#W24($D865AC)
+//Let's go.<End>
+
+//POINTER #641 @ $D865B0 - STRING #641 @ $D7DE7C
+
+#W24($D865B0)
+//No, not yet.<End>
+
+//POINTER #642 @ $D865B4 - STRING #642 @ $D7DE93
+
+#W24($D865B4)
+//There's water here, too.<End>
+
+//POINTER #643 @ $D865B8 - STRING #643 @ $D7DEC1
+
+#W24($D865B8)
+//We can't go any farther.<End>
+
+//POINTER #644 @ $D865BC - STRING #644 @ $D7DEEE
+
+#W24($D865BC)
+//The magic circle<line>
+//disappeared…<End>
+
+//POINTER #645 @ $D865C0 - STRING #645 @ $D7DF26
+
+#W24($D865C0)
+//That was a dirty trap!<End>
+
+//POINTER #646 @ $D865C4 - STRING #646 @ $D7DF4F
+
+#W24($D865C4)
+//I should've known…<End>
+
+//POINTER #647 @ $D865C8 - STRING #647 @ $D7DF72
+
+#W24($D865C8)
+//There's a magic circle<line>
+//here, too.<End>
+
+//POINTER #648 @ $D865CC - STRING #648 @ $D7DFB0
+
+#W24($D865CC)
+//I didn't realize it was<line>
+//underwater.<End>
+
+//POINTER #649 @ $D865D0 - STRING #649 @ $D7DFF2
+
+#W24($D865D0)
+//Ha!<End>
+
+//POINTER #650 @ $D865D4 - STRING #650 @ $D7DE13
+
+#W24($D865D4)
+//The water seems to<line>
+//draw me in.<End>
+
+//POINTER #651 @ $D865D8 - STRING #651 @ $D7DFF9
+
+#W24($D865D8)
+//This must go to another<line>
+//shrine.<End>
+
+//POINTER #652 @ $D865DC - STRING #652 @ $D7E033
+
+#W24($D865DC)
+//The pattern seems a bit<line>
+//different…<End>
+
+//POINTER #653 @ $D865E0 - STRING #653 @ $D7E033
+
+#W24($D865E0)
+//The pattern seems a bit<line>
+//different…<End>
+
+//POINTER #654 @ $D865E4 - STRING #654 @ $D7C62C
+
+#W24($D865E4)
+//It's submerged!<End>
+
+//POINTER #655 @ $D865E8 - STRING #655 @ $D7D028
+
+#W24($D865E8)
+//We have to drain the water…<End>
+
+//POINTER #656 @ $D865EC - STRING #656 @ $D7D26B
+
+#W24($D865EC)
+//It's still wet…<End>
+
+//POINTER #657 @ $D865F0 - STRING #657 @ $D7E073
+
+#W24($D865F0)
+//There's still water here.<End>
+
+//POINTER #658 @ $D865F4 - STRING #658 @ $D7E0A3
+
+#W24($D865F4)
+//We can't get through it.<End>
+
+//POINTER #659 @ $D865F8 - STRING #659 @ $D7E0D0
+
+#W24($D865F8)
+//Look! A chest that's<line>
+//not open yet.<End>
+
+//POINTER #660 @ $D865FC - STRING #660 @ $D7E10F
+
+#W24($D865FC)
+//Let's open it!<End>
+
+//POINTER #661 @ $D86600 - STRING #661 @ $D7E12A
+
+#W24($D86600)
+//C'mon, open it!<End>
+
+//POINTER #662 @ $D86604 - STRING #662 @ $D779BB
+
+#W24($D86604)
+//What should I do?<End>
+
+//POINTER #663 @ $D86608 - STRING #663 @ $D7E147
+
+#W24($D86608)
+//Hm… Maybe not.<End>
+
+//POINTER #664 @ $D8660C - STRING #664 @ $D7E162
+
+#W24($D8660C)
+//The chest is sealed.<End>
+
+//POINTER #665 @ $D86610 - STRING #665 @ $D7E188
+
+#W24($D86610)
+//You'd need thief skills<line>
+//to crack that thing…<End>
+
+//POINTER #666 @ $D86614 - STRING #666 @ $D7E1DA
+
+#W24($D86614)
+//We must give up on<line>
+//this chest.<End>
+
+//POINTER #667 @ $D86618 - STRING #667 @ $D7B7D8
+
+#W24($D86618)
+//There's a chest…<End>
+
+//POINTER #668 @ $D8661C - STRING #668 @ $D7E211
+
+#W24($D8661C)
+//Ein, hurry up and open it!<End>
+
+//POINTER #669 @ $D86620 - STRING #669 @ $D7E241
+
+#W24($D86620)
+//Maybe I can try it<line>
+//with the Thief Manual?<End>
+
+//POINTER #670 @ $D86624 - STRING #670 @ $D779BB
+
+#W24($D86624)
+//What should I do?<End>
+
+//POINTER #671 @ $D86628 - STRING #671 @ $D7B1A0
+
+#W24($D86628)
+//Maybe later.<End>
+
+//POINTER #672 @ $D8662C - STRING #672 @ $D7E28C
+
+#W24($D8662C)
+//There's nothing inside…<End>
+
+//POINTER #673 @ $D86630 - STRING #673 @ $D7E2B9
+
+#W24($D86630)
+//We finally got past<line>
+//that lake…<End>
+
+//POINTER #674 @ $D86634 - STRING #674 @ $D7E2F1
+
+#W24($D86634)
+//Yay!<End>
+
+//POINTER #675 @ $D86638 - STRING #675 @ $D7E2FA
+
+#W24($D86638)
+//Look at those stalactites…<End>
+
+//POINTER #676 @ $D8663C - STRING #676 @ $D7E32C
+
+#W24($D8663C)
+//They could come down<line>
+//at any time…<Next>
+
+//We should keep moving.<End>
+
+//POINTER #677 @ $D86640 - STRING #677 @ $D779BB
+
+#W24($D86640)
+//What should I do?<End>
+
+//POINTER #678 @ $D86644 - STRING #678 @ $D7E394
+
+#W24($D86644)
+//Maybe not right now.<End>
+
+//POINTER #679 @ $D86648 - STRING #679 @ $D779BB
+
+#W24($D86648)
+//What should I do?<End>
+
+//POINTER #680 @ $D8664C - STRING #680 @ $D7E3BA
+
+#W24($D8664C)
+//Huh? What?<End>
+
+//POINTER #681 @ $D86650 - STRING #681 @ $D7E3CE
+
+#W24($D86650)
+//It's not a magic circle!<End>
+
+//POINTER #682 @ $D86654 - STRING #682 @ $D7935E
+
+#W24($D86654)
+//…………<End>
+
+//POINTER #683 @ $D86658 - STRING #683 @ $D7894F
+
+#W24($D86658)
+//Demons!<End>
+
+//POINTER #684 @ $D8665C - STRING #684 @ $D7E3FB
+
+#W24($D8665C)
+//Was this a trap!?<End>
+
+//POINTER #685 @ $D86660 - STRING #685 @ $D7E419
+
+#W24($D86660)
+//Look out, Ein!<End>
+
+//POINTER #686 @ $D86664 - STRING #686 @ $D7E434
+
+#W24($D86664)
+//Maybe later…<End>
+
+//POINTER #687 @ $D86668 - STRING #687 @ $D7E44C
+
+#W24($D86668)
+//…Huh? It's locked.<End>
+
+//POINTER #688 @ $D8666C - STRING #688 @ $D7E46F
+
+#W24($D8666C)
+//What?<End>
+
+//POINTER #689 @ $D86670 - STRING #689 @ $D7E47A
+
+#W24($D86670)
+//It's actually a trap for<line>
+//thieves.<Next>
+
+//You can't disarm it<line>
+//unless you're skilled.<Next>
+
+//…Probably only a<line>
+//master thief could do it.<End>
+
+//POINTER #690 @ $D86674 - STRING #690 @ $D7E557
+
+#W24($D86674)
+//We're not thieves!<End>
+
+//POINTER #691 @ $D86678 - STRING #691 @ $D7E57A
+
+#W24($D86678)
+//Does it really involve<line>
+//all that?<End>
+
+//POINTER #692 @ $D8667C - STRING #692 @ $D7E5B6
+
+#W24($D8667C)
+//Yes, we need both<line>
+//a thief and magician.<End>
+
+//POINTER #693 @ $D86680 - STRING #693 @ $D7E5FE
+
+#W24($D86680)
+//A thief…<End>
+
+//POINTER #694 @ $D86684 - STRING #694 @ $D7E60E
+
+#W24($D86684)
+//Of course we aren't!<End>
+
+//POINTER #695 @ $D86688 - STRING #695 @ $D7E634
+
+#W24($D86688)
+//No!!<End>
+
+//POINTER #696 @ $D8668C - STRING #696 @ $D7E63B
+
+#W24($D8668C)
+//(I guess we'll just<line>
+//have to give it up.)<End>
+
+//POINTER #697 @ $D86690 - STRING #697 @ $D7E684
+
+#W24($D86690)
+//Remember earlier?<Next>
+
+//That thief gave us a book,<line>
+//right?<End>
+
+//POINTER #698 @ $D86694 - STRING #698 @ $D7E6E4
+
+#W24($D86694)
+//Oh yeah,<line>
+//the Thief Manual.<End>
+
+//POINTER #699 @ $D86698 - STRING #699 @ $D7E715
+
+#W24($D86698)
+//It'd be risky… We aren't<line>
+//experienced thieves.<End>
+
+//POINTER #700 @ $D8669C - STRING #700 @ $D7E76A
+
+#W24($D8669C)
+//That's true.<End>
+
+//POINTER #701 @ $D866A0 - STRING #701 @ $D7E782
+
+#W24($D866A0)
+//Okay, Ein…<Next>
+
+//Fia and I will be<line>
+//chanting the spell<Next>
+
+//while you disarm<line>
+//the lock.<End>
+
+//POINTER #702 @ $D866A4 - STRING #702 @ $D7E80B
+
+#W24($D866A4)
+//M—Me?<End>
+
+//POINTER #703 @ $D866A8 - STRING #703 @ $D7E816
+
+#W24($D866A8)
+//Yes, please.<End>
+
+//POINTER #704 @ $D866AC - STRING #704 @ $D7E82E
+
+#W24($D866AC)
+//…Okay.<End>
+
+//POINTER #705 @ $D866B0 - STRING #705 @ $D7E83B
+
+#W24($D866B0)
+//Here we go…<End>
+
+//POINTER #706 @ $D866B4 - STRING #706 @ $D7E850
+
+#W24($D866B4)
+//Begin!<End>
+
+//POINTER #707 @ $D866B8 - STRING #707 @ $D7E85D
+
+#W24($D866B8)
+//Shoot… I messed up.<End>
+
+//POINTER #708 @ $D866BC - STRING #708 @ $D7CBEB
+
+#W24($D866BC)
+//Ein!<End>
+
+//POINTER #709 @ $D866C0 - STRING #709 @ $D7E881
+
+#W24($D866C0)
+//We can try again.<End>
+
+//POINTER #710 @ $D866C4 - STRING #710 @ $D7E8A1
+
+#W24($D866C4)
+//Let's keep trying.<End>
+
+//POINTER #711 @ $D866C8 - STRING #711 @ $D7DE6A
+
+#W24($D866C8)
+//Let's go.<End>
+
+//POINTER #712 @ $D866CC - STRING #712 @ $D7E8C4
+
+#W24($D866CC)
+//Look at that sword<line>
+//in the ground.<End>
+
+//POINTER #713 @ $D866D0 - STRING #713 @ $D7E901
+
+#W24($D866D0)
+//I got it!<End>
+
+//POINTER #714 @ $D866D4 - STRING #714 @ $D7E912
+
+#W24($D866D4)
+//It won't budge…<End>
+
+//POINTER #715 @ $D866D8 - STRING #715 @ $D7E901
+
+#W24($D866D8)
+//I got it!<End>
+
+//POINTER #716 @ $D866DC - STRING #716 @ $D7E92F
+
+#W24($D866DC)
+//It's won't budge…<End>
+
+//POINTER #717 @ $D866E0 - STRING #717 @ $D7E901
+
+#W24($D866E0)
+//I got it!<End>
+
+//POINTER #718 @ $D866E4 - STRING #718 @ $D7BDE6
+
+#W24($D866E4)
+//Whoa!<End>
+
+//POINTER #719 @ $D866E8 - STRING #719 @ $D7E950
+
+#W24($D866E8)
+//It broke…<End>
+
+//POINTER #720 @ $D866EC - STRING #720 @ $D79C9C
+
+#W24($D866EC)
+//We don't need it.<End>
+
+//POINTER #721 @ $D866F0 - STRING #721 @ $D7BE80
+
+#W24($D866F0)
+//What's inside?<End>
+
+//POINTER #722 @ $D866F4 - STRING #722 @ $D7BE9C
+
+#W24($D866F4)
+//It's Wyvernzem,<line>
+//a powerful claw weapon.<End>
+
+//POINTER #723 @ $D866F8 - STRING #723 @ $D7E962
+
+#W24($D866F8)
+//Ein, above you!<line>
+//Look out!<End>
+
+//POINTER #724 @ $D866FC - STRING #724 @ $D7BCA6
+
+#W24($D866FC)
+//What!?<End>
+
+//POINTER #725 @ $D86700 - STRING #725 @ $D7E991
+
+#W24($D86700)
+//Whew, that was close.<End>
+
+//POINTER #726 @ $D86704 - STRING #726 @ $D7E9B9
+
+#W24($D86704)
+//We better watch<line>
+//the ceiling.<End>
+
+//POINTER #727 @ $D86708 - STRING #727 @ $D7E9EE
+
+#W24($D86708)
+//You'll trip if you don't<line>
+//watch where you're going.<End>
+
+//POINTER #728 @ $D8670C - STRING #728 @ $D7BD3E
+
+#W24($D8670C)
+//It was just an idea!<End>
+
+//POINTER #729 @ $D86710 - STRING #729 @ $D7BD63
+
+#W24($D86710)
+//Ahh!<End>
+
+//POINTER #730 @ $D86714 - STRING #730 @ $D7EA4B
+
+#W24($D86714)
+//Ugh… That was a close one…<End>
+
+//POINTER #731 @ $D86718 - STRING #731 @ $D7BD9F
+
+#W24($D86718)
+//(Ein, you okay?)<End>
+
+//POINTER #732 @ $D8671C - STRING #732 @ $D78356
+
+#W24($D8671C)
+//Huh!?<End>
+
+//POINTER #733 @ $D86720 - STRING #733 @ $D7BDBE
+
+#W24($D86720)
+//Safe!<End>
+
+//POINTER #734 @ $D86724 - STRING #734 @ $D7EA7B
+
+#W24($D86724)
+//Whew!<End>
+
+//POINTER #735 @ $D86728 - STRING #735 @ $D7BDD4
+
+#W24($D86728)
+//Look out!<End>
+
+//POINTER #736 @ $D8672C - STRING #736 @ $D7BDE6
+
+#W24($D8672C)
+//Whoa!<End>
+
+//POINTER #737 @ $D86730 - STRING #737 @ $D7EA86
+
+#W24($D86730)
+//Ouch…<line>
+//This is serious.<End>
+
+//POINTER #738 @ $D86734 - STRING #738 @ $D7EAB0
+
+#W24($D86734)
+//(Let's get outta here.)<End>
+
+//POINTER #739 @ $D86738 - STRING #739 @ $D7B7D8
+
+#W24($D86738)
+//There's a chest…<End>
+
+//POINTER #740 @ $D8673C - STRING #740 @ $D7C926
+
+#W24($D8673C)
+//Maybe I shouldn't…<End>
+
+//POINTER #741 @ $D86740 - STRING #741 @ $D7BF1A
+
+#W24($D86740)
+//Poison gas!<End>
+
+//POINTER #742 @ $D86744 - STRING #742 @ $D7BF30
+
+#W24($D86744)
+//Now, what's inside…?<End>
+
+//POINTER #743 @ $D86748 - STRING #743 @ $D7BF57
+
+#W24($D86748)
+//Ugh… Well, what's inside…?<End>
+
+//POINTER #744 @ $D8674C - STRING #744 @ $D7BF89
+
+#W24($D8674C)
+//An arrow trap!<End>
+
+//POINTER #745 @ $D86750 - STRING #745 @ $D7BE80
+
+#W24($D86750)
+//What's inside?<End>
+
+//POINTER #746 @ $D86754 - STRING #746 @ $D7EADC
+
+#W24($D86754)
+//It's treasure, right!?<End>
+
+//POINTER #747 @ $D86758 - STRING #747 @ $D7BFE0
+
+#W24($D86758)
+//Freeze gas!<End>
+
+//POINTER #748 @ $D8675C - STRING #748 @ $D7BFF6
+
+#W24($D8675C)
+//What's inside…?<End>
+
+//POINTER #749 @ $D86760 - STRING #749 @ $D7EB05
+
+#W24($D86760)
+//I hope it's worth<line>
+//all the hassle.<End>
+
+//POINTER #750 @ $D86764 - STRING #750 @ $D7C055
+
+#W24($D86764)
+//A magic lock!<End>
+
+//POINTER #751 @ $D86768 - STRING #751 @ $D7EB42
+
+#W24($D86768)
+//You did it!<line>
+//Now it's disarmed.<End>
+
+//POINTER #752 @ $D8676C - STRING #752 @ $D7EB7A
+
+#W24($D8676C)
+//Why would someone need<line>
+//to seal a chest like that?<End>
+
+//POINTER #753 @ $D86770 - STRING #753 @ $D7EBD4
+
+#W24($D86770)
+//※sigh※ It's locked…<End>
+
+//POINTER #754 @ $D86774 - STRING #754 @ $D7EBF9
+
+#W24($D86774)
+//I didn't make it…<End>
+
+//POINTER #755 @ $D86778 - STRING #755 @ $D7EC19
+
+#W24($D86778)
+//Unfortunately,<Next>
+
+//this chest will never<line>
+//open, ever again.<End>
+
+//POINTER #756 @ $D8677C - STRING #756 @ $D7C1AA
+
+#W24($D8677C)
+//※sigh※<End>
+
+//POINTER #757 @ $D86780 - STRING #757 @ $D7C1B7
+
+#W24($D86780)
+//It's gonna explode!<End>
+
+//POINTER #758 @ $D86784 - STRING #758 @ $D7EC80
+
+#W24($D86784)
+//I disarmed it!<End>
+
+//POINTER #759 @ $D86788 - STRING #759 @ $D7C200
+
+#W24($D86788)
+//Not bad, Ein!<End>
+
+//POINTER #760 @ $D8678C - STRING #760 @ $D7C219
+
+#W24($D8678C)
+//※cough※ ※cough※<End>
+
+//POINTER #761 @ $D86790 - STRING #761 @ $D7C237
+
+#W24($D86790)
+//※sigh※ So much for<line>
+//the treasure…<End>
+
+//POINTER #762 @ $D86794 - STRING #762 @ $D7EC9B
+
+#W24($D86794)
+//Everything's been<line>
+//blown to bits…<End>
+
+//POINTER #763 @ $D86798 - STRING #763 @ $D7ECD8
+
+#W24($D86798)
+//So much for the trap.<End>
+
+//POINTER #764 @ $D8679C - STRING #764 @ $D7C2E2
+
+#W24($D8679C)
+//We did it♪<End>
+
+//POINTER #765 @ $D867A0 - STRING #765 @ $D7C2F5
+
+#W24($D867A0)
+//Well done.<End>
+
+//POINTER #766 @ $D867A4 - STRING #766 @ $D7C309
+
+#W24($D867A4)
+//That was a piece of cake!<End>
+
+//POINTER #767 @ $D867A8 - STRING #767 @ $D7ECFF
+
+#W24($D867A8)
+//That wasn't so bad.<End>
+
+//POINTER #768 @ $D867AC - STRING #768 @ $D7BDE6
+
+#W24($D867AC)
+//Whoa!<End>
+
+//POINTER #769 @ $D867B0 - STRING #769 @ $D7C35D
+
+#W24($D867B0)
+//Waaah!<End>
+
+//POINTER #770 @ $D867B4 - STRING #770 @ $D7BD63
+
+#W24($D867B4)
+//Ahh!<End>
+
+//POINTER #771 @ $D867B8 - STRING #771 @ $D7C36A
+
+#W24($D867B8)
+//Wh—Whoa!<End>
+
+//POINTER #772 @ $D867BC - STRING #772 @ $D7C37B
+
+#W24($D867BC)
+//Ahhh!<End>
+
+//POINTER #773 @ $D867C0 - STRING #773 @ $D7ED23
+
+#W24($D867C0)
+//This is…<End>
+
+//POINTER #774 @ $D867C4 - STRING #774 @ $D7ACB3
+
+#W24($D867C4)
+//Alright!<End>
+
+//POINTER #775 @ $D867C8 - STRING #775 @ $D7C39F
+
+#W24($D867C8)
+//Let's put it to good use.<End>
+
+//POINTER #776 @ $D867CC - STRING #776 @ $D7C3CD
+
+#W24($D867CC)
+//Lucky★<End>
+
+//POINTER #777 @ $D867D0 - STRING #777 @ $D7ED33
+
+#W24($D867D0)
+//Isn't that nice.<End>
+
+//POINTER #778 @ $D867D4 - STRING #778 @ $D7ED52
+
+#W24($D867D4)
+//This area is<line>
+//somewhat unsettling.<End>
+
+//POINTER #779 @ $D867D8 - STRING #779 @ $D7ED91
+
+#W24($D867D8)
+//What's that thing?<End>
+
+//POINTER #780 @ $D867DC - STRING #780 @ $D7EDB4
+
+#W24($D867DC)
+//It's a deceased person's<line>
+//resting place.<End>
+
+//POINTER #781 @ $D867E0 - STRING #781 @ $D7EDFE
+
+#W24($D867E0)
+//I wish I hadn't asked…<End>
+
+//POINTER #782 @ $D867E4 - STRING #782 @ $D7EE27
+
+#W24($D867E4)
+//You… possess great<line>
+//strength.<End>
+
+//POINTER #783 @ $D867E8 - STRING #783 @ $D7EE5D
+
+#W24($D867E8)
+//Um… He's not dead.<End>
+
+//POINTER #784 @ $D867EC - STRING #784 @ $D7EE7F
+
+#W24($D867EC)
+//I entrust you with my<line>
+//sword… and my will…<Next>
+
+//Now… I can finally——<End>
+
+//POINTER #785 @ $D867F0 - STRING #785 @ $D7EEF1
+
+#W24($D867F0)
+//Huh? That tombstone's<line>
+//different…<Next>
+
+//Look, there's a sword<line>
+//chained to it.<End>
+
+//POINTER #786 @ $D867F4 - STRING #786 @ $D7EF73
+
+#W24($D867F4)
+//Think it's still good?<End>
+
+//POINTER #787 @ $D867F8 - STRING #787 @ $D7EF9D
+
+#W24($D867F8)
+//It looks sturdy enough.<End>
+
+//POINTER #788 @ $D867FC - STRING #788 @ $D7EFC9
+
+#W24($D867FC)
+//But, it appears to be<line>
+//a sealed sword…<End>
+
+//POINTER #789 @ $D86800 - STRING #789 @ $D7F00D
+
+#W24($D86800)
+//Sealed sword?<End>
+
+//POINTER #790 @ $D86804 - STRING #790 @ $D7F027
+
+#W24($D86804)
+//Are you certain?<End>
+
+//POINTER #791 @ $D86808 - STRING #791 @ $D7F046
+
+#W24($D86808)
+//I guess I'll help<line>
+//undo these chains…<Next>
+
+//…Then you can just<line>
+//take it.<End>
+
+//POINTER #792 @ $D8680C - STRING #792 @ $D7F0BC
+
+#W24($D8680C)
+//What thief dares<line>
+//remove my sword?<Next>
+
+//Death to all thieves!<End>
+
+//POINTER #793 @ $D86810 - STRING #793 @ $D7F123
+
+#W24($D86810)
+//It's coming this way!<End>
+
+//POINTER #794 @ $D86814 - STRING #794 @ $D7F14B
+
+#W24($D86814)
+//Good idea.<Next>
+
+//There's no reason to<line>
+//cause trouble.<End>
+
+//POINTER #795 @ $D86818 - STRING #795 @ $D7F1A2
+
+#W24($D86818)
+//Yes, I agree.<End>
+
+//POINTER #796 @ $D8681C - STRING #796 @ $D7D323
+
+#W24($D8681C)
+//There's nothing here…<End>
+
+//POINTER #797 @ $D86820 - STRING #797 @ $D7F1BB
+
+#W24($D86820)
+//We should stay away from<line>
+//that tombstone…<End>
+
+//POINTER #798 @ $D86824 - STRING #798 @ $D7F206
+
+#W24($D86824)
+//The way's blocked by<line>
+//fang—looking things.<End>
+
+//POINTER #799 @ $D86828 - STRING #799 @ $D7F254
+
+#W24($D86828)
+//It won't budge.<End>
+
+//POINTER #800 @ $D8682C - STRING #800 @ $D7F271
+
+#W24($D8682C)
+//This looks like<line>
+//an ancient seal.<End>
+
+//POINTER #801 @ $D86830 - STRING #801 @ $D7F2AD
+
+#W24($D86830)
+//Is there a way<line>
+//we can break it?<End>
+
+//POINTER #802 @ $D86834 - STRING #802 @ $D7F2E5
+
+#W24($D86834)
+//It's a switch—controlled<line>
+//seal, so…<Next>
+
+//If we find the switches,<line>
+//that should do the trick.<End>
+
+//POINTER #803 @ $D86838 - STRING #803 @ $D7F383
+
+#W24($D86838)
+//Switches, hm…?<End>
+
+//POINTER #804 @ $D8683C - STRING #804 @ $D7F39F
+
+#W24($D8683C)
+//We need to find<line>
+//those switches…<End>
+
+//POINTER #805 @ $D86840 - STRING #805 @ $D7F3D9
+
+#W24($D86840)
+//Those fangs are in<line>
+//the way…<End>
+
+//POINTER #806 @ $D86844 - STRING #806 @ $D7F40B
+
+#W24($D86844)
+//(There's three of them,<line>
+//in case you didn't know…)<End>
+
+//POINTER #807 @ $D86848 - STRING #807 @ $D7F3D9
+
+#W24($D86848)
+//Those fangs are in<line>
+//the way…<End>
+
+//POINTER #808 @ $D8684C - STRING #808 @ $D7F466
+
+#W24($D8684C)
+//Yucky! There's two<line>
+//of 'em!<End>
+
+//POINTER #809 @ $D86850 - STRING #809 @ $D7F497
+
+#W24($D86850)
+//There used to be three.<line>
+//One has disappeared.<End>
+
+//POINTER #810 @ $D86854 - STRING #810 @ $D7F4E9
+
+#W24($D86854)
+//They must be related<line>
+//to the stake somehow.<End>
+
+//POINTER #811 @ $D86858 - STRING #811 @ $D7F537
+
+#W24($D86858)
+//I'm sure that's the key<line>
+//to opening the seal.<End>
+
+//POINTER #812 @ $D8685C - STRING #812 @ $D7F588
+
+#W24($D8685C)
+//Why don't we check out<line>
+//the other stakes, then?<End>
+
+//POINTER #813 @ $D86860 - STRING #813 @ $D7F3D9
+
+#W24($D86860)
+//Those fangs are in<line>
+//the way…<End>
+
+//POINTER #814 @ $D86864 - STRING #814 @ $D7F5DD
+
+#W24($D86864)
+//There's still two left.<End>
+
+//POINTER #815 @ $D86868 - STRING #815 @ $D7F609
+
+#W24($D86868)
+//We're almost there…<End>
+
+//POINTER #816 @ $D8686C - STRING #816 @ $D7F62E
+
+#W24($D8686C)
+//Just one more!<End>
+
+//POINTER #817 @ $D86870 - STRING #817 @ $D7F649
+
+#W24($D86870)
+//The seal's gone!<End>
+
+//POINTER #818 @ $D86874 - STRING #818 @ $D7F668
+
+#W24($D86874)
+//We did it.<End>
+
+//POINTER #819 @ $D86878 - STRING #819 @ $D7F67B
+
+#W24($D86878)
+//Yay♪ Let's go!<End>
+
+//POINTER #820 @ $D8687C - STRING #820 @ $D7F696
+
+#W24($D8687C)
+//We should be<line>
+//careful.<End>
+
+//POINTER #821 @ $D86880 - STRING #821 @ $D7F6BE
+
+#W24($D86880)
+//Yes, we must enter<line>
+//with caution.<End>
+
+//POINTER #822 @ $D86884 - STRING #822 @ $D7F6FA
+
+#W24($D86884)
+//…What are you<line>
+//talking about?<End>
+
+//POINTER #823 @ $D86888 - STRING #823 @ $D7F72F
+
+#W24($D86888)
+//"Ladies first" doesn't<line>
+//apply here.<End>
+
+//POINTER #824 @ $D8688C - STRING #824 @ $D7F770
+
+#W24($D8688C)
+//There's an exit,<line>
+//right?<End>
+
+//POINTER #825 @ $D86890 - STRING #825 @ $D7F79C
+
+#W24($D86890)
+//Don't worry.<End>
+
+//POINTER #826 @ $D86894 - STRING #826 @ $D7F7B4
+
+#W24($D86894)
+//Aw, this place isn't<line>
+//that bad…<End>
+
+//POINTER #827 @ $D86898 - STRING #827 @ $D7F7EC
+
+#W24($D86898)
+//Waaah! I don't wanna<line>
+//stay here…!<End>
+
+//POINTER #828 @ $D8689C - STRING #828 @ $D7F828
+
+#W24($D8689C)
+//Serene…<End>
+
+//POINTER #829 @ $D868A0 - STRING #829 @ $D7F837
+
+#W24($D868A0)
+//Sorry.<End>
+
+//POINTER #830 @ $D868A4 - STRING #830 @ $D7B812
+
+#W24($D868A4)
+//It's empty…<End>
+
+//POINTER #831 @ $D868A8 - STRING #831 @ $D7F844
+
+#W24($D868A8)
+//It's been sealed<line>
+//with magic.<Next>
+
+//It will never open<line>
+//again…<End>
+
+//POINTER #832 @ $D868AC - STRING #832 @ $D7F8A9
+
+#W24($D868AC)
+//I guess we'll never know<line>
+//what was inside.<End>
+
+//POINTER #833 @ $D868B0 - STRING #833 @ $D7F8F5
+
+#W24($D868B0)
+//The contents were<line>
+//blown away…<End>
+
+//POINTER #834 @ $D868B4 - STRING #834 @ $D7F92C
+
+#W24($D868B4)
+//It's dark in here<line>
+//and I'm scared!<Next>
+
+//Why can't the dead<line>
+//be outside where<Next>
+
+//it's sunny?<End>
+
+//POINTER #835 @ $D868B8 - STRING #835 @ $D7A153
+
+#W24($D868B8)
+//Lina…<End>
+
+//POINTER #836 @ $D868BC - STRING #836 @ $D7F9C2
+
+#W24($D868BC)
+//We pounded the stake in.<End>
+
+//POINTER #837 @ $D868C0 - STRING #837 @ $D7F9EF
+
+#W24($D868C0)
+//It's quiet.<End>
+
+//POINTER #838 @ $D868C4 - STRING #838 @ $D7FA05
+
+#W24($D868C4)
+//This limited area<line>
+//makes it easy for us<Next>
+
+//to hear when enemies<line>
+//are nearby.<End>
+
+//POINTER #839 @ $D868C8 - STRING #839 @ $D7FA88
+
+#W24($D868C8)
+//Yeah, but it works<line>
+//the other way, too.<Next>
+
+//Y'know?<End>
+
+//POINTER #840 @ $D868CC - STRING #840 @ $D7FADE
+
+#W24($D868CC)
+//This chest has already<line>
+//been opened…<End>
+
+//POINTER #841 @ $D868D0 - STRING #841 @ $D7FB20
+
+#W24($D868D0)
+//What's the point…?<End>
+
+//POINTER #842 @ $D868D4 - STRING #842 @ $D7FB43
+
+#W24($D868D4)
+//Guess I'll look anyways…<End>
+
+//POINTER #843 @ $D868D8 - STRING #843 @ $D7FB71
+
+#W24($D868D8)
+//Empty again, huh?<End>
+
+//POINTER #844 @ $D868DC - STRING #844 @ $D7FB92
+
+#W24($D868DC)
+//Take this!<End>
+
+//POINTER #845 @ $D868E0 - STRING #845 @ $D7FBA6
+
+#W24($D868E0)
+//I know that feeling.<End>
+
+//POINTER #846 @ $D868E4 - STRING #846 @ $D7FBCC
+
+#W24($D868E4)
+//It's empty.<End>
+
+//POINTER #847 @ $D868E8 - STRING #847 @ $D7FBE2
+
+#W24($D868E8)
+//I'm positive it's empty.<End>
+
+//POINTER #848 @ $D868EC - STRING #848 @ $D7FC10
+
+#W24($D868EC)
+//There's an inscription…<End>
+
+//POINTER #849 @ $D868F0 - STRING #849 @ $D7F9C2
+
+#W24($D868F0)
+//We pounded the stake in.<End>
+
+//POINTER #850 @ $D868F4 - STRING #850 @ $D7FC3D
+
+#W24($D868F4)
+//There's an inscription.<End>
+
+//POINTER #851 @ $D868F8 - STRING #851 @ $D7FC3D
+
+#W24($D868F8)
+//There's an inscription.<End>
+
+//POINTER #852 @ $D868FC - STRING #852 @ $D7FC6A
+
+#W24($D868FC)
+//We pounded this stake in.<End>
+
+//POINTER #853 @ $D86900 - STRING #853 @ $D7FC99
+
+#W24($D86900)
+//Huh? W—What the——!?<End>
+
+//POINTER #854 @ $D86904 - STRING #854 @ $D7FCBC
+
+#W24($D86904)
+//"Encoding…" That's a<line>
+//special type of magic.<Next>
+
+//Only high level priests<line>
+//can master it…<End>
+
+//POINTER #855 @ $D86908 - STRING #855 @ $D7FD55
+
+#W24($D86908)
+//Encoding?<End>
+
+//POINTER #856 @ $D8690C - STRING #856 @ $D7FD68
+
+#W24($D8690C)
+//When a certain person reads<line>
+//the spell, it will activate.<End>
+
+//POINTER #857 @ $D86910 - STRING #857 @ $D7FDD0
+
+#W24($D86910)
+//But why Ein…?<End>
+
+//POINTER #858 @ $D86914 - STRING #858 @ $D7FDE9
+
+#W24($D86914)
+//(Because he's the person.)<End>
+
+//POINTER #859 @ $D86918 - STRING #859 @ $D78356
+
+#W24($D86918)
+//Huh!?<End>
+
+//POINTER #860 @ $D8691C - STRING #860 @ $D7FE1B
+
+#W24($D8691C)
+//(You're an angel,<line>
+//remember?)<Next>
+
+//(And that's a priest's seal,<line>
+//get it?)<End>
+
+//POINTER #861 @ $D86920 - STRING #861 @ $D7A3BF
+
+#W24($D86920)
+//I see.<End>
+
+//POINTER #862 @ $D86924 - STRING #862 @ $D7FE97
+
+#W24($D86924)
+//Should I read the<line>
+//inscription again?<End>
+
+//POINTER #863 @ $D86928 - STRING #863 @ $D7FEDB
+
+#W24($D86928)
+//Not now.<End>
+
+//POINTER #864 @ $D8692C - STRING #864 @ $D7FEEB
+
+#W24($D8692C)
+//As guardian of the priest,<line>
+//I will destroy you.<End>
+
+//POINTER #865 @ $D86930 - STRING #865 @ $D7894F
+
+#W24($D86930)
+//Demons!<End>
+
+//POINTER #866 @ $D86934 - STRING #866 @ $D7FF40
+
+#W24($D86934)
+//Ein, what should<line>
+//we do?<End>
+
+//POINTER #867 @ $D86938 - STRING #867 @ $D7FF6B
+
+#W24($D86938)
+//The ghost's still<line>
+//here.<End>
+
+//POINTER #868 @ $D8693C - STRING #868 @ $D7FF97
+
+#W24($D8693C)
+//We have to fight…<End>
+
+//POINTER #869 @ $D86940 - STRING #869 @ $D7FFB7
+
+#W24($D86940)
+//We can't back down.<line>
+//Let's go!<End>
+
+//POINTER #870 @ $D86944 - STRING #870 @ $D7FFED
+
+#W24($D86944)
+//I will destroy those<line>
+//who defile my master.<End>
+
+//POINTER #871 @ $D86948 - STRING #871 @ $D7894F
+
+#W24($D86948)
+//Demons!<End>
+
+//POINTER #872 @ $D8694C - STRING #872 @ $D8003B
+
+#W24($D8694C)
+//What should we do?<End>
+
+//POINTER #873 @ $D86950 - STRING #873 @ $D8005D
+
+#W24($D86950)
+//The demons are still<line>
+//here…<End>
+
+//POINTER #874 @ $D86954 - STRING #874 @ $D7FF97
+
+#W24($D86954)
+//We have to fight…<End>
+
+//POINTER #875 @ $D86958 - STRING #875 @ $D7FFB7
+
+#W24($D86958)
+//We can't back down.<line>
+//Let's go!<End>
+
+//POINTER #876 @ $D8695C - STRING #876 @ $D8008E
+
+#W24($D8695C)
+//More thieves…? You will<line>
+//die like the others.<End>
+
+//POINTER #877 @ $D86960 - STRING #877 @ $D7894F
+
+#W24($D86960)
+//Demons!<End>
+
+//POINTER #878 @ $D86964 - STRING #878 @ $D800E0
+
+#W24($D86964)
+//What do we do?<End>
+
+//POINTER #879 @ $D86968 - STRING #879 @ $D800FA
+
+#W24($D86968)
+//Those demons are<line>
+//still here.<End>
+
+//POINTER #880 @ $D8696C - STRING #880 @ $D8012F
+
+#W24($D8696C)
+//We have no choice<line>
+//but to defeat them.<End>
+
+//POINTER #881 @ $D86970 - STRING #881 @ $D80173
+
+#W24($D86970)
+//There's no choice.<line>
+//Let's go!<End>
+
+//POINTER #882 @ $D86974 - STRING #882 @ $D801A8
+
+#W24($D86974)
+//I will protect my<line>
+//master's grave.<End>
+
+//POINTER #883 @ $D86978 - STRING #883 @ $D7894F
+
+#W24($D86978)
+//Demons!<End>
+
+//POINTER #884 @ $D8697C - STRING #884 @ $D801E6
+
+#W24($D8697C)
+//What's the plan, Ein?<End>
+
+//POINTER #885 @ $D86980 - STRING #885 @ $D7B9B9
+
+#W24($D86980)
+//They're still here.<End>
+
+//POINTER #886 @ $D86984 - STRING #886 @ $D7FF97
+
+#W24($D86984)
+//We have to fight…<End>
+
+//POINTER #887 @ $D86988 - STRING #887 @ $D8020E
+
+#W24($D86988)
+//We have to fight.<line>
+//Let's go!<End>
+
+//POINTER #888 @ $D8698C - STRING #888 @ $D80240
+
+#W24($D8698C)
+//Thieves will not<line>
+//touch this grave.<End>
+
+//POINTER #889 @ $D86990 - STRING #889 @ $D80280
+
+#W24($D86990)
+//D—Demons!<End>
+
+//POINTER #890 @ $D86994 - STRING #890 @ $D80293
+
+#W24($D86994)
+//Any ideas, Ein?<End>
+
+//POINTER #891 @ $D86998 - STRING #891 @ $D800FA
+
+#W24($D86998)
+//Those demons are<line>
+//still here.<End>
+
+//POINTER #892 @ $D8699C - STRING #892 @ $D802B0
+
+#W24($D8699C)
+//We have no choice<line>
+//but to fight.<End>
+
+//POINTER #893 @ $D869A0 - STRING #893 @ $D802E9
+
+#W24($D869A0)
+//We can't turn back.<line>
+//Let's go!<End>
+
+//POINTER #894 @ $D869A4 - STRING #894 @ $D8031F
+
+#W24($D869A4)
+//An angel… No, that<line>
+//can't be… Thieves!<End>
+
+//POINTER #895 @ $D869A8 - STRING #895 @ $D7894F
+
+#W24($D869A8)
+//Demons!<End>
+
+//POINTER #896 @ $D869AC - STRING #896 @ $D80364
+
+#W24($D869AC)
+//Okay, Ein…<line>
+//what now?<End>
+
+//POINTER #897 @ $D869B0 - STRING #897 @ $D8038A
+
+#W24($D869B0)
+//The demons are still<line>
+//here.<End>
+
+//POINTER #898 @ $D869B4 - STRING #898 @ $D803BB
+
+#W24($D869B4)
+//I think we have<line>
+//to fight.<End>
+
+//POINTER #899 @ $D869B8 - STRING #899 @ $D803E9
+
+#W24($D869B8)
+//We can't run away.<line>
+//Let's go!<End>
+
+//POINTER #900 @ $D869BC - STRING #900 @ $D78792
+
+#W24($D869BC)
+//Let's check it out.<End>
+
+//POINTER #901 @ $D869C0 - STRING #901 @ $D8041D
+
+#W24($D869C0)
+//There's something inside!<End>
+
+//POINTER #902 @ $D869C4 - STRING #902 @ $D8044E
+
+#W24($D869C4)
+//Is this a stake?<End>
+
+//POINTER #903 @ $D869C8 - STRING #903 @ $D8046C
+
+#W24($D869C8)
+//Why's it just sitting<line>
+//out here?<End>
+
+//POINTER #904 @ $D869CC - STRING #904 @ $D804A6
+
+#W24($D869CC)
+//Don't just run around, Lina…<line>
+//You'll trip and fall.<End>
+
+//POINTER #905 @ $D869D0 - STRING #905 @ $D795D9
+
+#W24($D869D0)
+//I'm fine!<End>
+
+//POINTER #906 @ $D869D4 - STRING #906 @ $D80503
+
+#W24($D869D4)
+//Look, Ein…<line>
+//A stake!<End>
+
+//POINTER #907 @ $D869D8 - STRING #907 @ $D80527
+
+#W24($D869D8)
+//Are we pounding this one<line>
+//in, too?<End>
+
+//POINTER #908 @ $D869DC - STRING #908 @ $D80564
+
+#W24($D869DC)
+//Look over here, Ein!<End>
+
+//POINTER #909 @ $D869E0 - STRING #909 @ $D8058A
+
+#W24($D869E0)
+//It's a stake.<End>
+
+//POINTER #910 @ $D869E4 - STRING #910 @ $D805A3
+
+#W24($D869E4)
+//There's a stake…<End>
+
+//POINTER #911 @ $D869E8 - STRING #911 @ $D805C2
+
+#W24($D869E8)
+//Let's pound it in.<End>
+
+//POINTER #912 @ $D869EC - STRING #912 @ $D805E4
+
+#W24($D869EC)
+//Good luck, Ein.<End>
+
+//POINTER #913 @ $D869F0 - STRING #913 @ $D7ACB3
+
+#W24($D869F0)
+//Alright!<End>
+
+//POINTER #914 @ $D869F4 - STRING #914 @ $D80601
+
+#W24($D869F4)
+//Hah!<End>
+
+//POINTER #915 @ $D869F8 - STRING #915 @ $D8060A
+
+#W24($D869F8)
+//Not bad!<End>
+
+//POINTER #916 @ $D869FC - STRING #916 @ $D8061A
+
+#W24($D869FC)
+//Now Lina won't trip<line>
+//over it.<End>
+
+//POINTER #917 @ $D86A00 - STRING #917 @ $D8064E
+
+#W24($D86A00)
+//I wouldn't have tripped!<line>
+//…Thanks, though♪<End>
+
+//POINTER #918 @ $D86A04 - STRING #918 @ $D8069C
+
+#W24($D86A04)
+//But still, what purpose<line>
+//does this stake serve?<End>
+
+//POINTER #919 @ $D86A08 - STRING #919 @ $D806F2
+
+#W24($D86A08)
+//Is it a trap?<End>
+
+//POINTER #920 @ $D86A0C - STRING #920 @ $D8070A
+
+#W24($D86A0C)
+//Only Lina would fall for<line>
+//a trap that lame.<End>
+
+//POINTER #921 @ $D86A10 - STRING #921 @ $D80757
+
+#W24($D86A10)
+//Serene's a meanie!<End>
+
+//POINTER #922 @ $D86A14 - STRING #922 @ $D8077A
+
+#W24($D86A14)
+//(※sigh※)<End>
+
+//POINTER #923 @ $D86A18 - STRING #923 @ $D8078B
+
+#W24($D86A18)
+//You're so strong…<End>
+
+//POINTER #924 @ $D86A1C - STRING #924 @ $D807AC
+
+#W24($D86A1C)
+//You pounded it all the way<line>
+//into the ground!<End>
+
+//POINTER #925 @ $D86A20 - STRING #925 @ $D807FB
+
+#W24($D86A20)
+//Nice work.<End>
+
+//POINTER #926 @ $D86A24 - STRING #926 @ $D8080F
+
+#W24($D86A24)
+//※huff※ ※huff※<End>
+
+//POINTER #927 @ $D86A28 - STRING #927 @ $D7E912
+
+#W24($D86A28)
+//It won't budge…<End>
+
+//POINTER #928 @ $D86A2C - STRING #928 @ $D80829
+
+#W24($D86A2C)
+//Nothing's happening…<End>
+
+//POINTER #929 @ $D86A30 - STRING #929 @ $D80851
+
+#W24($D86A30)
+//It didn't move.<End>
+
+//POINTER #930 @ $D86A34 - STRING #930 @ $D8086E
+
+#W24($D86A34)
+//I'm not interested in<line>
+//stakes.<End>
+
+//POINTER #931 @ $D86A38 - STRING #931 @ $D808A5
+
+#W24($D86A38)
+//Then, what are you<line>
+//interested in?<End>
+
+//POINTER #932 @ $D86A3C - STRING #932 @ $D808E3
+
+#W24($D86A3C)
+//…What AM I interested in?<End>
+
+//POINTER #933 @ $D86A40 - STRING #933 @ $D80912
+
+#W24($D86A40)
+//I'm interested in learning<line>
+//about the Arcs…<End>
+
+//POINTER #934 @ $D86A44 - STRING #934 @ $D77A93
+
+#W24($D86A44)
+//Ein…<End>
+
+//POINTER #935 @ $D86A48 - STRING #935 @ $D80961
+
+#W24($D86A48)
+//You should tell me about<line>
+//them one of these days.<End>
+
+//POINTER #936 @ $D86A4C - STRING #936 @ $D7E82E
+
+#W24($D86A4C)
+//…Okay.<End>
+
+//POINTER #937 @ $D86A50 - STRING #937 @ $D809B9
+
+#W24($D86A50)
+//I lost my wings…<Next>
+
+//Sometimes I wonder if<line>
+//I'll ever fly again.<End>
+
+//POINTER #938 @ $D86A54 - STRING #938 @ $D77A93
+
+#W24($D86A54)
+//Ein…<End>
+
+//POINTER #939 @ $D86A58 - STRING #939 @ $D80A26
+
+#W24($D86A58)
+//Maybe you can teach me<line>
+//one day.<End>
+
+//POINTER #940 @ $D86A5C - STRING #940 @ $D80A5F
+
+#W24($D86A5C)
+//Huh!? Oh, yeah!<line>
+//Of course!<End>
+
+//POINTER #941 @ $D86A60 - STRING #941 @ $D80A8E
+
+#W24($D86A60)
+//All I've been able to<line>
+//think about lately<Next>
+
+//is defeating the Accursed.<End>
+
+//POINTER #942 @ $D86A64 - STRING #942 @ $D77A93
+
+#W24($D86A64)
+//Ein…<End>
+
+//POINTER #943 @ $D86A68 - STRING #943 @ $D7D3AA
+
+#W24($D86A68)
+//Let's not.<End>
+
+//POINTER #944 @ $D86A6C - STRING #944 @ $D7B7D8
+
+#W24($D86A6C)
+//There's a chest…<End>
+
+//POINTER #945 @ $D86A70 - STRING #945 @ $D7C926
+
+#W24($D86A70)
+//Maybe I shouldn't…<End>
+
+//POINTER #946 @ $D86A74 - STRING #946 @ $D7BF1A
+
+#W24($D86A74)
+//Poison gas!<End>
+
+//POINTER #947 @ $D86A78 - STRING #947 @ $D80B0B
+
+#W24($D86A78)
+//Now, what's<line>
+//inside…?<End>
+
+//POINTER #948 @ $D86A7C - STRING #948 @ $D80B32
+
+#W24($D86A7C)
+//Ugh… Well, what's<line>
+//inside…?<End>
+
+//POINTER #949 @ $D86A80 - STRING #949 @ $D7BF89
+
+#W24($D86A80)
+//An arrow trap!<End>
+
+//POINTER #950 @ $D86A84 - STRING #950 @ $D7BE80
+
+#W24($D86A84)
+//What's inside?<End>
+
+//POINTER #951 @ $D86A88 - STRING #951 @ $D80B64
+
+#W24($D86A88)
+//There's treasure<line>
+//inside, right?<End>
+
+//POINTER #952 @ $D86A8C - STRING #952 @ $D7BFE0
+
+#W24($D86A8C)
+//Freeze gas!<End>
+
+//POINTER #953 @ $D86A90 - STRING #953 @ $D7BFF6
+
+#W24($D86A90)
+//What's inside…?<End>
+
+//POINTER #954 @ $D86A94 - STRING #954 @ $D7C014
+
+#W24($D86A94)
+//What item could be<line>
+//worth all that…?<End>
+
+//POINTER #955 @ $D86A98 - STRING #955 @ $D7C055
+
+#W24($D86A98)
+//A magic lock!<End>
+
+//POINTER #956 @ $D86A9C - STRING #956 @ $D80BA0
+
+#W24($D86A9C)
+//You did it!<line>
+//It didn't lock!<End>
+
+//POINTER #957 @ $D86AA0 - STRING #957 @ $D80BD2
+
+#W24($D86AA0)
+//Why would this chest<line>
+//need a magic lock?<End>
+
+//POINTER #958 @ $D86AA4 - STRING #958 @ $D80C1A
+
+#W24($D86AA4)
+//※sigh※ It's<line>
+//locked…<End>
+
+//POINTER #959 @ $D86AA8 - STRING #959 @ $D80C3F
+
+#W24($D86AA8)
+//I couldn't do it…<End>
+
+//POINTER #960 @ $D86AAC - STRING #960 @ $D80C5F
+
+#W24($D86AAC)
+//I'm sorry to say<line>
+//that this chest<Next>
+
+//will never open<line>
+//again.<End>
+
+//POINTER #961 @ $D86AB0 - STRING #961 @ $D7C1AA
+
+#W24($D86AB0)
+//※sigh※<End>
+
+//POINTER #962 @ $D86AB4 - STRING #962 @ $D7C1B7
+
+#W24($D86AB4)
+//It's gonna explode!<End>
+
+//POINTER #963 @ $D86AB8 - STRING #963 @ $D80CC5
+
+#W24($D86AB8)
+//Yes!<End>
+
+//POINTER #964 @ $D86ABC - STRING #964 @ $D7C200
+
+#W24($D86ABC)
+//Not bad, Ein!<End>
+
+//POINTER #965 @ $D86AC0 - STRING #965 @ $D7C219
+
+#W24($D86AC0)
+//※cough※ ※cough※<End>
+
+//POINTER #966 @ $D86AC4 - STRING #966 @ $D80CCE
+
+#W24($D86AC4)
+//※sigh※ So much<line>
+//for the treasure…<End>
+
+//POINTER #967 @ $D86AC8 - STRING #967 @ $D7EC9B
+
+#W24($D86AC8)
+//Everything's been<line>
+//blown to bits…<End>
+
+//POINTER #968 @ $D86ACC - STRING #968 @ $D80D0A
+
+#W24($D86ACC)
+//Alright! So much<line>
+//for that trap.<End>
+
+//POINTER #969 @ $D86AD0 - STRING #969 @ $D7C2E2
+
+#W24($D86AD0)
+//We did it♪<End>
+
+//POINTER #970 @ $D86AD4 - STRING #970 @ $D7C2F5
+
+#W24($D86AD4)
+//Well done.<End>
+
+//POINTER #971 @ $D86AD8 - STRING #971 @ $D80D44
+
+#W24($D86AD8)
+//That was a piece<line>
+//of cake!<End>
+
+//POINTER #972 @ $D86ADC - STRING #972 @ $D80D72
+
+#W24($D86ADC)
+//My, that was easy.<End>
+
+//POINTER #973 @ $D86AE0 - STRING #973 @ $D7BDE6
+
+#W24($D86AE0)
+//Whoa!<End>
+
+//POINTER #974 @ $D86AE4 - STRING #974 @ $D7C35D
+
+#W24($D86AE4)
+//Waaah!<End>
+
+//POINTER #975 @ $D86AE8 - STRING #975 @ $D7BD63
+
+#W24($D86AE8)
+//Ahh!<End>
+
+//POINTER #976 @ $D86AEC - STRING #976 @ $D7C36A
+
+#W24($D86AEC)
+//Wh—Whoa!<End>
+
+//POINTER #977 @ $D86AF0 - STRING #977 @ $D7C37B
+
+#W24($D86AF0)
+//Ahhh!<End>
+
+//POINTER #978 @ $D86AF4 - STRING #978 @ $D7ED23
+
+#W24($D86AF4)
+//This is…<End>
+
+//POINTER #979 @ $D86AF8 - STRING #979 @ $D7ACB3
+
+#W24($D86AF8)
+//Alright!<End>
+
+//POINTER #980 @ $D86AFC - STRING #980 @ $D80D94
+
+#W24($D86AFC)
+//Let's put it to<line>
+//good use.<End>
+
+//POINTER #981 @ $D86B00 - STRING #981 @ $D7C3CD
+
+#W24($D86B00)
+//Lucky★<End>
+
+//POINTER #982 @ $D86B04 - STRING #982 @ $D7ED33
+
+#W24($D86B04)
+//Isn't that nice.<End>
+
+//POINTER #983 @ $D86B08 - STRING #983 @ $D80DC2
+
+#W24($D86B08)
+//Looks like yet another<line>
+//creepy area…<End>
+
+//POINTER #984 @ $D86B0C - STRING #984 @ $D80E04
+
+#W24($D86B0C)
+//Don't say that, Ein!<Next>
+
+//I don't wanna think<line>
+//about it!<End>
+
+//POINTER #985 @ $D86B10 - STRING #985 @ $D80E61
+
+#W24($D86B10)
+//We've traveled pretty<line>
+//far south.<End>
+
+//POINTER #986 @ $D86B14 - STRING #986 @ $D80E9E
+
+#W24($D86B14)
+//Have we?<End>
+
+//POINTER #987 @ $D86B18 - STRING #987 @ $D80EAE
+
+#W24($D86B18)
+//Where have you been?<End>
+
+//POINTER #988 @ $D86B1C - STRING #988 @ $D80ED4
+
+#W24($D86B1C)
+//I've had my eyes closed.<End>
+
+//POINTER #989 @ $D86B20 - STRING #989 @ $D80F01
+
+#W24($D86B20)
+//It'll be okay…<End>
+
+//POINTER #990 @ $D86B24 - STRING #990 @ $D80F1C
+
+#W24($D86B24)
+//Yay!<line>
+//It's ours!<End>
+
+//POINTER #991 @ $D86B28 - STRING #991 @ $D80F39
+
+#W24($D86B28)
+//What's written inside?<End>
+
+//POINTER #992 @ $D86B2C - STRING #992 @ $D80F64
+
+#W24($D86B2C)
+//Someone left something<line>
+//on this grave…<Next>
+
+//Can we take it?<End>
+
+//POINTER #993 @ $D86B30 - STRING #993 @ $D80FC7
+
+#W24($D86B30)
+//Should we?<End>
+
+//POINTER #994 @ $D86B34 - STRING #994 @ $D7ACB3
+
+#W24($D86B34)
+//Alright!<End>
+
+//POINTER #995 @ $D86B38 - STRING #995 @ $D80FDB
+
+#W24($D86B38)
+//Lina, you shouldn't do that…<End>
+
+//POINTER #996 @ $D86B3C - STRING #996 @ $D81010
+
+#W24($D86B3C)
+//Don't worry!<End>
+
+//POINTER #997 @ $D86B40 - STRING #997 @ $D78356
+
+#W24($D86B40)
+//Huh!?<End>
+
+//POINTER #998 @ $D86B44 - STRING #998 @ $D81028
+
+#W24($D86B44)
+//The fruits of my magic<line>
+//research…<Next>
+
+//No one shall lay a finger<line>
+//on it!<End>
+
+//POINTER #999 @ $D86B48 - STRING #999 @ $D8109F
+
+#W24($D86B48)
+//Ein, what should we do?<End>
+
+//POINTER #1000 @ $D86B4C - STRING #1000 @ $D810CA
+
+#W24($D86B4C)
+//We can't give up.<line>
+//Let's go!<End>
+
+//POINTER #1001 @ $D86B50 - STRING #1001 @ $D810FC
+
+#W24($D86B50)
+//We shouldn't steal.<End>
+
+//POINTER #1002 @ $D86B54 - STRING #1002 @ $D81121
+
+#W24($D86B54)
+//How strange… Leaving<line>
+//a book as a memorial?<End>
+
+//POINTER #1003 @ $D86B58 - STRING #1003 @ $D8116F
+
+#W24($D86B58)
+//Good thinking, Ein.<End>
+
+//POINTER #1004 @ $D86B5C - STRING #1004 @ $D81194
+
+#W24($D86B5C)
+//I don't think it's something<line>
+//to be happy about.<End>
+
+//POINTER #1005 @ $D86B60 - STRING #1005 @ $D811EB
+
+#W24($D86B60)
+//It's best to give a person<line>
+//what they enjoy…<End>
+
+//POINTER #1006 @ $D86B64 - STRING #1006 @ $D8123A
+
+#W24($D86B64)
+//Yeah!<End>
+
+//POINTER #1007 @ $D86B68 - STRING #1007 @ $D81245
+
+#W24($D86B68)
+//Oh, well.<End>
+
+//POINTER #1008 @ $D86B6C - STRING #1008 @ $D81257
+
+#W24($D86B6C)
+//Now I'm interested.<End>
+
+//POINTER #1009 @ $D86B70 - STRING #1009 @ $D8127C
+
+#W24($D86B70)
+//No touching, Cierra.<End>
+
+//POINTER #1010 @ $D86B74 - STRING #1010 @ $D812A3
+
+#W24($D86B74)
+//Don't blame me if you<line>
+//get cursed…<End>
+
+//POINTER #1011 @ $D86B78 - STRING #1011 @ $D812E0
+
+#W24($D86B78)
+//…I was joking.<End>
+
+//POINTER #1012 @ $D86B7C - STRING #1012 @ $D812FB
+
+#W24($D86B7C)
+//There's a book.<End>
+
+//POINTER #1013 @ $D86B80 - STRING #1013 @ $D81318
+
+#W24($D86B80)
+//We have no business here…<End>
+
+//POINTER #1014 @ $D86B84 - STRING #1014 @ $D81347
+
+#W24($D86B84)
+//There's nothing here.<End>
+
+//POINTER #1015 @ $D86B88 - STRING #1015 @ $D81370
+
+#W24($D86B88)
+//That's because you took<line>
+//the book.<End>
+
+//POINTER #1016 @ $D86B8C - STRING #1016 @ $D813AE
+
+#W24($D86B8C)
+//Sorry, Fia… I should have<line>
+//listened to you.<End>
+
+//POINTER #1017 @ $D86B90 - STRING #1017 @ $D813FC
+
+#W24($D86B90)
+//Sorry, Fia.<End>
+
+//POINTER #1018 @ $D86B94 - STRING #1018 @ $D81412
+
+#W24($D86B94)
+//I don't see any traps<line>
+//on this chest.<End>
+
+//POINTER #1019 @ $D86B98 - STRING #1019 @ $D81454
+
+#W24($D86B98)
+//So we can open it?<End>
+
+//POINTER #1020 @ $D86B9C - STRING #1020 @ $D81475
+
+#W24($D86B9C)
+//Ein…<Next>
+
+//I find it odd that only this<line>
+//chest doesn't have a trap…<End>
+
+//POINTER #1021 @ $D86BA0 - STRING #1021 @ $D814E3
+
+#W24($D86BA0)
+//It was pretty hard to<line>
+//find…<Next>
+
+//Maybe we're the first<line>
+//ones to find it♪<End>
+
+//POINTER #1022 @ $D86BA4 - STRING #1022 @ $D8155C
+
+#W24($D86BA4)
+//Hmmm…<End>
+
+//POINTER #1023 @ $D86BA8 - STRING #1023 @ $D7BE80
+
+#W24($D86BA8)
+//What's inside?<End>
+
+//POINTER #1024 @ $D86BAC - STRING #1024 @ $D81567
+
+#W24($D86BAC)
+//E—Ein…<End>
+
+//POINTER #1025 @ $D86BB0 - STRING #1025 @ $D81574
+
+#W24($D86BB0)
+//See? It's all good♪<End>
+
+//POINTER #1026 @ $D86BB4 - STRING #1026 @ $D81598
+
+#W24($D86BB4)
+//What's happening!?<End>
+
+//POINTER #1027 @ $D86BB8 - STRING #1027 @ $D815BA
+
+#W24($D86BB8)
+//Thieves, pay the price<line>
+//for your foolishness.<End>
+
+//POINTER #1028 @ $D86BBC - STRING #1028 @ $D8160D
+
+#W24($D86BBC)
+//…Demons!<End>
+
+//POINTER #1029 @ $D86BC0 - STRING #1029 @ $D79DC9
+
+#W24($D86BC0)
+//Waaaah!<End>
+
+//POINTER #1030 @ $D86BC4 - STRING #1030 @ $D8161E
+
+#W24($D86BC4)
+//I knew it…<End>
+
+//POINTER #1031 @ $D86BC8 - STRING #1031 @ $D81631
+
+#W24($D86BC8)
+//They're coming!<End>
+
+//POINTER #1032 @ $D86BCC - STRING #1032 @ $D8164F
+
+#W24($D86BCC)
+//Thank you, Ein.<End>
+
+//POINTER #1033 @ $D86BD0 - STRING #1033 @ $D8166C
+
+#W24($D86BD0)
+//Huh…?<line>
+//We aren't opening it?<End>
+
+//POINTER #1034 @ $D86BD4 - STRING #1034 @ $D8169F
+
+#W24($D86BD4)
+//Huh? It's not opening.<End>
+
+//POINTER #1035 @ $D86BD8 - STRING #1035 @ $D816C9
+
+#W24($D86BD8)
+//It might be a trap.<Next>
+
+//It's best that it<line>
+//remains shut.<End>
+
+//POINTER #1036 @ $D86BDC - STRING #1036 @ $D7FBCC
+
+#W24($D86BDC)
+//It's empty.<End>
+
+//POINTER #1037 @ $D86BE0 - STRING #1037 @ $D7FC3D
+
+#W24($D86BE0)
+//There's an inscription.<End>
+
+//POINTER #1038 @ $D86BE4 - STRING #1038 @ $D81727
+
+#W24($D86BE4)
+//It's easy to walk when<line>
+//there's no grass.<End>
+
+//POINTER #1039 @ $D86BE8 - STRING #1039 @ $D81771
+
+#W24($D86BE8)
+//Of course there's no grass;<line>
+//we're underground.<End>
+
+//POINTER #1040 @ $D86BEC - STRING #1040 @ $D817C8
+
+#W24($D86BEC)
+//Grass doesn't grow<line>
+//underground?<End>
+
+//POINTER #1041 @ $D86BF0 - STRING #1041 @ $D81804
+
+#W24($D86BF0)
+//Most plants require<line>
+//sunlight to grow.<End>
+
+//POINTER #1042 @ $D86BF4 - STRING #1042 @ $D8184A
+
+#W24($D86BF4)
+//Oh, right… The sun.<End>
+
+//POINTER #1043 @ $D86BF8 - STRING #1043 @ $D8186E
+
+#W24($D86BF8)
+//Y'know all these souls<line>
+//and ghosts and stuff?<Next>
+
+//Why do they hang around<line>
+//here?<End>
+
+//POINTER #1044 @ $D86BFC - STRING #1044 @ $D818F7
+
+#W24($D86BFC)
+//Well…<Next>
+
+//Perhaps they have<line>
+//something left to do…<End>
+
+//POINTER #1045 @ $D86C00 - STRING #1045 @ $D8194C
+
+#W24($D86C00)
+//Really? Like what…?<Next>
+
+//(If I died here…)<Next>
+
+//(Would I wander Riviera,<line>
+//too…?)<End>
+
+//POINTER #1046 @ $D86C04 - STRING #1046 @ $D7FC3D
+
+#W24($D86C04)
+//There's an inscription.<End>
+
+//POINTER #1047 @ $D86C08 - STRING #1047 @ $D819CE
+
+#W24($D86C08)
+//It's huge in here!<End>
+
+//POINTER #1048 @ $D86C0C - STRING #1048 @ $D819F0
+
+#W24($D86C0C)
+//How many graves are<line>
+//there here…?<End>
+
+//POINTER #1049 @ $D86C10 - STRING #1049 @ $D7FC3D
+
+#W24($D86C10)
+//There's an inscription.<End>
+
+//POINTER #1050 @ $D86C14 - STRING #1050 @ $D81A2C
+
+#W24($D86C14)
+//There's a stake sitting<line>
+//here.<End>
+
+//POINTER #1051 @ $D86C18 - STRING #1051 @ $D81A63
+
+#W24($D86C18)
+//That's weird.<End>
+
+//POINTER #1052 @ $D86C1C - STRING #1052 @ $D81A7D
+
+#W24($D86C1C)
+//Lina… Don't run around<line>
+//so much——you'll trip.<End>
+
+//POINTER #1053 @ $D86C20 - STRING #1053 @ $D81AD0
+
+#W24($D86C20)
+//I won't trip!<End>
+
+//POINTER #1054 @ $D86C24 - STRING #1054 @ $D81AE9
+
+#W24($D86C24)
+//Ein, there's a stake.<End>
+
+//POINTER #1055 @ $D86C28 - STRING #1055 @ $D81B11
+
+#W24($D86C28)
+//Are we going to pound<line>
+//this one, too?<End>
+
+//POINTER #1056 @ $D86C2C - STRING #1056 @ $D81B53
+
+#W24($D86C2C)
+//Look, Ein!<End>
+
+//POINTER #1057 @ $D86C30 - STRING #1057 @ $D8058A
+
+#W24($D86C30)
+//It's a stake.<End>
+
+//POINTER #1058 @ $D86C34 - STRING #1058 @ $D81B67
+
+#W24($D86C34)
+//How should we handle this?<End>
+
+//POINTER #1059 @ $D86C38 - STRING #1059 @ $D805C2
+
+#W24($D86C38)
+//Let's pound it in.<End>
+
+//POINTER #1060 @ $D86C3C - STRING #1060 @ $D805E4
+
+#W24($D86C3C)
+//Good luck, Ein.<End>
+
+//POINTER #1061 @ $D86C40 - STRING #1061 @ $D7ACB3
+
+#W24($D86C40)
+//Alright!<End>
+
+//POINTER #1062 @ $D86C44 - STRING #1062 @ $D7DFF2
+
+#W24($D86C44)
+//Ha!<End>
+
+//POINTER #1063 @ $D86C48 - STRING #1063 @ $D8060A
+
+#W24($D86C48)
+//Not bad!<End>
+
+//POINTER #1064 @ $D86C4C - STRING #1064 @ $D8061A
+
+#W24($D86C4C)
+//Now Lina won't trip<line>
+//over it.<End>
+
+//POINTER #1065 @ $D86C50 - STRING #1065 @ $D8064E
+
+#W24($D86C50)
+//I wouldn't have tripped!<line>
+//…Thanks, though♪<End>
+
+//POINTER #1066 @ $D86C54 - STRING #1066 @ $D81B98
+
+#W24($D86C54)
+//But still, what is this<line>
+//stake here for?<End>
+
+//POINTER #1067 @ $D86C58 - STRING #1067 @ $D806F2
+
+#W24($D86C58)
+//Is it a trap?<End>
+
+//POINTER #1068 @ $D86C5C - STRING #1068 @ $D81BE0
+
+#W24($D86C5C)
+//Only Lina would fall for<line>
+//something like that.<End>
+
+//POINTER #1069 @ $D86C60 - STRING #1069 @ $D80757
+
+#W24($D86C60)
+//Serene's a meanie!<End>
+
+//POINTER #1070 @ $D86C64 - STRING #1070 @ $D8077A
+
+#W24($D86C64)
+//(※sigh※)<End>
+
+//POINTER #1071 @ $D86C68 - STRING #1071 @ $D81C34
+
+#W24($D86C68)
+//You're so strong…❤<End>
+
+//POINTER #1072 @ $D86C6C - STRING #1072 @ $D81C57
+
+#W24($D86C6C)
+//You sure nailed it!<End>
+
+//POINTER #1073 @ $D86C70 - STRING #1073 @ $D807FB
+
+#W24($D86C70)
+//Nice work.<End>
+
+//POINTER #1074 @ $D86C74 - STRING #1074 @ $D8080F
+
+#W24($D86C74)
+//※huff※ ※huff※<End>
+
+//POINTER #1075 @ $D86C78 - STRING #1075 @ $D7E912
+
+#W24($D86C78)
+//It won't budge…<End>
+
+//POINTER #1076 @ $D86C7C - STRING #1076 @ $D80829
+
+#W24($D86C7C)
+//Nothing's happening…<End>
+
+//POINTER #1077 @ $D86C80 - STRING #1077 @ $D81C7B
+
+#W24($D86C80)
+//It didn't move…<End>
+
+//POINTER #1078 @ $D86C84 - STRING #1078 @ $D8086E
+
+#W24($D86C84)
+//I'm not interested in<line>
+//stakes.<End>
+
+//POINTER #1079 @ $D86C88 - STRING #1079 @ $D808A5
+
+#W24($D86C88)
+//Then, what are you<line>
+//interested in?<End>
+
+//POINTER #1080 @ $D86C8C - STRING #1080 @ $D81C98
+
+#W24($D86C8C)
+//Hmm… Good question.<End>
+
+//POINTER #1081 @ $D86C90 - STRING #1081 @ $D80912
+
+#W24($D86C90)
+//I'm interested in learning<line>
+//about the Arcs…<End>
+
+//POINTER #1082 @ $D86C94 - STRING #1082 @ $D77A93
+
+#W24($D86C94)
+//Ein…<End>
+
+//POINTER #1083 @ $D86C98 - STRING #1083 @ $D81CBD
+
+#W24($D86C98)
+//You should tell me one<line>
+//of these days.<End>
+
+//POINTER #1084 @ $D86C9C - STRING #1084 @ $D7E82E
+
+#W24($D86C9C)
+//…Okay.<End>
+
+//POINTER #1085 @ $D86CA0 - STRING #1085 @ $D809B9
+
+#W24($D86CA0)
+//I lost my wings…<Next>
+
+//Sometimes I wonder if<line>
+//I'll ever fly again.<End>
+
+//POINTER #1086 @ $D86CA4 - STRING #1086 @ $D77A93
+
+#W24($D86CA4)
+//Ein…<End>
+
+//POINTER #1087 @ $D86CA8 - STRING #1087 @ $D80A26
+
+#W24($D86CA8)
+//Maybe you can teach me<line>
+//one day.<End>
+
+//POINTER #1088 @ $D86CAC - STRING #1088 @ $D80A5F
+
+#W24($D86CAC)
+//Huh!? Oh, yeah!<line>
+//Of course!<End>
+
+//POINTER #1089 @ $D86CB0 - STRING #1089 @ $D80A8E
+
+#W24($D86CB0)
+//All I've been able to<line>
+//think about lately<Next>
+
+//is defeating the Accursed.<End>
+
+//POINTER #1090 @ $D86CB4 - STRING #1090 @ $D77A93
+
+#W24($D86CB4)
+//Ein…<End>
+
+//POINTER #1091 @ $D86CB8 - STRING #1091 @ $D7D3AA
+
+#W24($D86CB8)
+//Let's not.<End>
+
+//POINTER #1092 @ $D86CBC - STRING #1092 @ $D81D01
+
+#W24($D86CBC)
+//Huh? Wh—What the——!?<End>
+
+//POINTER #1093 @ $D86CC0 - STRING #1093 @ $D7FCBC
+
+#W24($D86CC0)
+//"Encoding…" That's a<line>
+//special type of magic.<Next>
+
+//Only high level priests<line>
+//can master it…<End>
+
+//POINTER #1094 @ $D86CC4 - STRING #1094 @ $D7FD55
+
+#W24($D86CC4)
+//Encoding?<End>
+
+//POINTER #1095 @ $D86CC8 - STRING #1095 @ $D81D26
+
+#W24($D86CC8)
+//When the right person reads<line>
+//a spell, it will activate.<End>
+
+//POINTER #1096 @ $D86CCC - STRING #1096 @ $D7FDD0
+
+#W24($D86CCC)
+//But why Ein…?<End>
+
+//POINTER #1097 @ $D86CD0 - STRING #1097 @ $D81D8A
+
+#W24($D86CD0)
+//(Because he's the right<line>
+//person.)<End>
+
+//POINTER #1098 @ $D86CD4 - STRING #1098 @ $D78356
+
+#W24($D86CD4)
+//Huh!?<End>
+
+//POINTER #1099 @ $D86CD8 - STRING #1099 @ $D81DC7
+
+#W24($D86CD8)
+//(You're an angel,<line>
+//remember?)<Next>
+
+//(And, that's a priest's seal.<line>
+//Get it now?)<End>
+
+//POINTER #1100 @ $D86CDC - STRING #1100 @ $D7A3BF
+
+#W24($D86CDC)
+//I see.<End>
+
+//POINTER #1101 @ $D86CE0 - STRING #1101 @ $D7FE97
+
+#W24($D86CE0)
+//Should I read the<line>
+//inscription again?<End>
+
+//POINTER #1102 @ $D86CE4 - STRING #1102 @ $D81E4C
+
+#W24($D86CE4)
+//…Not now.<End>
+
+//POINTER #1103 @ $D86CE8 - STRING #1103 @ $D7FEEB
+
+#W24($D86CE8)
+//As guardian of the priest,<line>
+//I will destroy you.<End>
+
+//POINTER #1104 @ $D86CEC - STRING #1104 @ $D7894F
+
+#W24($D86CEC)
+//Demons!<End>
+
+//POINTER #1105 @ $D86CF0 - STRING #1105 @ $D8109F
+
+#W24($D86CF0)
+//Ein, what should we do?<End>
+
+//POINTER #1106 @ $D86CF4 - STRING #1106 @ $D81E5E
+
+#W24($D86CF4)
+//The ghost's still here.<End>
+
+//POINTER #1107 @ $D86CF8 - STRING #1107 @ $D81E8A
+
+#W24($D86CF8)
+//We have to fight….<End>
+
+//POINTER #1108 @ $D86CFC - STRING #1108 @ $D7FFB7
+
+#W24($D86CFC)
+//We can't back down.<line>
+//Let's go!<End>
+
+//POINTER #1109 @ $D86D00 - STRING #1109 @ $D7FFED
+
+#W24($D86D00)
+//I will destroy those<line>
+//who defile my master.<End>
+
+//POINTER #1110 @ $D86D04 - STRING #1110 @ $D7894F
+
+#W24($D86D04)
+//Demons!<End>
+
+//POINTER #1111 @ $D86D08 - STRING #1111 @ $D8003B
+
+#W24($D86D08)
+//What should we do?<End>
+
+//POINTER #1112 @ $D86D0C - STRING #1112 @ $D8005D
+
+#W24($D86D0C)
+//The demons are still<line>
+//here…<End>
+
+//POINTER #1113 @ $D86D10 - STRING #1113 @ $D7FF97
+
+#W24($D86D10)
+//We have to fight…<End>
+
+//POINTER #1114 @ $D86D14 - STRING #1114 @ $D7FFB7
+
+#W24($D86D14)
+//We can't back down.<line>
+//Let's go!<End>
+
+//POINTER #1115 @ $D86D18 - STRING #1115 @ $D8008E
+
+#W24($D86D18)
+//More thieves…? You will<line>
+//die like the others.<End>
+
+//POINTER #1116 @ $D86D1C - STRING #1116 @ $D7894F
+
+#W24($D86D1C)
+//Demons!<End>
+
+//POINTER #1117 @ $D86D20 - STRING #1117 @ $D800E0
+
+#W24($D86D20)
+//What do we do?<End>
+
+//POINTER #1118 @ $D86D24 - STRING #1118 @ $D81EAC
+
+#W24($D86D24)
+//Those demons are still<line>
+//here.<End>
+
+//POINTER #1119 @ $D86D28 - STRING #1119 @ $D81EE1
+
+#W24($D86D28)
+//We have no choice but<line>
+//to defeat them.<End>
+
+//POINTER #1120 @ $D86D2C - STRING #1120 @ $D80173
+
+#W24($D86D2C)
+//There's no choice.<line>
+//Let's go!<End>
+
+//POINTER #1121 @ $D86D30 - STRING #1121 @ $D801A8
+
+#W24($D86D30)
+//I will protect my<line>
+//master's grave.<End>
+
+//POINTER #1122 @ $D86D34 - STRING #1122 @ $D7894F
+
+#W24($D86D34)
+//Demons!<End>
+
+//POINTER #1123 @ $D86D38 - STRING #1123 @ $D801E6
+
+#W24($D86D38)
+//What's the plan, Ein?<End>
+
+//POINTER #1124 @ $D86D3C - STRING #1124 @ $D7B9B9
+
+#W24($D86D3C)
+//They're still here.<End>
+
+//POINTER #1125 @ $D86D40 - STRING #1125 @ $D7FF97
+
+#W24($D86D40)
+//We have to fight…<End>
+
+//POINTER #1126 @ $D86D44 - STRING #1126 @ $D8020E
+
+#W24($D86D44)
+//We have to fight.<line>
+//Let's go!<End>
+
+//POINTER #1127 @ $D86D48 - STRING #1127 @ $D80240
+
+#W24($D86D48)
+//Thieves will not<line>
+//touch this grave.<End>
+
+//POINTER #1128 @ $D86D4C - STRING #1128 @ $D80280
+
+#W24($D86D4C)
+//D—Demons!<End>
+
+//POINTER #1129 @ $D86D50 - STRING #1129 @ $D80293
+
+#W24($D86D50)
+//Any ideas, Ein?<End>
+
+//POINTER #1130 @ $D86D54 - STRING #1130 @ $D81EAC
+
+#W24($D86D54)
+//Those demons are still<line>
+//here.<End>
+
+//POINTER #1131 @ $D86D58 - STRING #1131 @ $D81F25
+
+#W24($D86D58)
+//We have no choice but<line>
+//to fight.<End>
+
+//POINTER #1132 @ $D86D5C - STRING #1132 @ $D802E9
+
+#W24($D86D5C)
+//We can't turn back.<line>
+//Let's go!<End>
+
+//POINTER #1133 @ $D86D60 - STRING #1133 @ $D8031F
+
+#W24($D86D60)
+//An angel… No, that<line>
+//can't be… Thieves!<End>
+
+//POINTER #1134 @ $D86D64 - STRING #1134 @ $D7894F
+
+#W24($D86D64)
+//Demons!<End>
+
+//POINTER #1135 @ $D86D68 - STRING #1135 @ $D81F5E
+
+#W24($D86D68)
+//Okay, Ein… what now?<End>
+
+//POINTER #1136 @ $D86D6C - STRING #1136 @ $D81F84
+
+#W24($D86D6C)
+//The demons are still here.<End>
+
+//POINTER #1137 @ $D86D70 - STRING #1137 @ $D81FB5
+
+#W24($D86D70)
+//I think we have to fight.<End>
+
+//POINTER #1138 @ $D86D74 - STRING #1138 @ $D803E9
+
+#W24($D86D74)
+//We can't run away.<line>
+//Let's go!<End>
+
+//POINTER #1139 @ $D86D78 - STRING #1139 @ $D81FE3
+
+#W24($D86D78)
+//Time to look…<End>
+
+//POINTER #1140 @ $D86D7C - STRING #1140 @ $D81FFC
+
+#W24($D86D7C)
+//Something's inside!<End>
+
+//POINTER #1141 @ $D86D80 - STRING #1141 @ $D82022
+
+#W24($D86D80)
+//Where are we?<End>
+
+//POINTER #1142 @ $D86D84 - STRING #1142 @ $D8203B
+
+#W24($D86D84)
+//It looks like some<line>
+//sort of shrine.<End>
+
+//POINTER #1143 @ $D86D88 - STRING #1143 @ $D8207A
+
+#W24($D86D88)
+//A red crystal…<End>
+
+//POINTER #1144 @ $D86D8C - STRING #1144 @ $D82095
+
+#W24($D86D8C)
+//Using the power of the<line>
+//ankhs, we can control<Next>
+
+//the water level of the<line>
+//lake.<End>
+
+//POINTER #1145 @ $D86D90 - STRING #1145 @ $D7ACB3
+
+#W24($D86D90)
+//Alright!<End>
+
+//POINTER #1146 @ $D86D94 - STRING #1146 @ $D8211B
+
+#W24($D86D94)
+//Another one!<End>
+
+//POINTER #1147 @ $D86D98 - STRING #1147 @ $D82133
+
+#W24($D86D98)
+//If we use the power of<line>
+//the ankhs, we should be<Next>
+
+//able to control the<line>
+//water here, too.<End>
+
+//POINTER #1148 @ $D86D9C - STRING #1148 @ $D821CA
+
+#W24($D86D9C)
+//Sweet!<End>
+
+//POINTER #1149 @ $D86DA0 - STRING #1149 @ $D821D7
+
+#W24($D86DA0)
+//I can't. There's water<line>
+//on the other side…<End>
+
+//POINTER #1150 @ $D86DA4 - STRING #1150 @ $D82223
+
+#W24($D86DA4)
+//There's one here, too!<End>
+
+//POINTER #1151 @ $D86DA8 - STRING #1151 @ $D8224D
+
+#W24($D86DA8)
+//Now we can drain<line>
+//the water further.<End>
+
+//POINTER #1152 @ $D86DAC - STRING #1152 @ $D8228E
+
+#W24($D86DAC)
+//We might be able to<line>
+//cross!<End>
+
+//POINTER #1153 @ $D86DB0 - STRING #1153 @ $D821D7
+
+#W24($D86DB0)
+//I can't. There's water<line>
+//on the other side…<End>
+
+//POINTER #1154 @ $D86DB4 - STRING #1154 @ $D822BE
+
+#W24($D86DB4)
+//Which ankh should I<line>
+//offer?<End>
+
+//POINTER #1155 @ $D86DB8 - STRING #1155 @ $D822EF
+
+#W24($D86DB8)
+//I can hear the sound<line>
+//of water…<End>
+
+//POINTER #1156 @ $D86DBC - STRING #1156 @ $D82326
+
+#W24($D86DBC)
+//Should I remove<line>
+//the L Ankh?<End>
+
+//POINTER #1157 @ $D86DC0 - STRING #1157 @ $D82358
+
+#W24($D86DC0)
+//Should I remove<line>
+//the T Ankh?<End>
+
+//POINTER #1158 @ $D86DC4 - STRING #1158 @ $D8238A
+
+#W24($D86DC4)
+//Should I remove<line>
+//the A Ankh?<End>
+
+//POINTER #1159 @ $D86DC8 - STRING #1159 @ $D823BC
+
+#W24($D86DC8)
+//Should I remove<line>
+//the I Ankh?<End>
+
+//POINTER #1160 @ $D86DCC - STRING #1160 @ $D823EE
+
+#W24($D86DCC)
+//Should I remove<line>
+//the Y Ankh?<End>
+
+//POINTER #1161 @ $D86DD0 - STRING #1161 @ $D82420
+
+#W24($D86DD0)
+//Should I remove<line>
+//the X Ankh?<End>
+
+//POINTER #1162 @ $D86DD4 - STRING #1162 @ $D822EF
+
+#W24($D86DD4)
+//I can hear the sound<line>
+//of water…<End>
+
+//POINTER #1163 @ $D86DD8 - STRING #1163 @ $D82452
+
+#W24($D86DD8)
+//※cough※ Something's wrong<line>
+//with the air…<End>
+
+//POINTER #1164 @ $D86DDC - STRING #1164 @ $D8249C
+
+#W24($D86DDC)
+//Venoma are releasing<line>
+//poison spores… ※cough※<End>
+
+//POINTER #1165 @ $D86DE0 - STRING #1165 @ $D824EE
+
+#W24($D86DE0)
+//It's quite toxic.<End>
+
+//POINTER #1166 @ $D86DE4 - STRING #1166 @ $D8250F
+
+#W24($D86DE4)
+//They're fungi… ※cough※<line>
+//…that grow… ※cough※<End>
+
+//POINTER #1167 @ $D86DE8 - STRING #1167 @ $D8255F
+
+#W24($D86DE8)
+//Talk about it later!<line>
+//Let's get outta here!<End>
+
+//POINTER #1168 @ $D86DEC - STRING #1168 @ $D825AD
+
+#W24($D86DEC)
+//The air's stagnant…<End>
+
+//POINTER #1169 @ $D86DF0 - STRING #1169 @ $D825D2
+
+#W24($D86DF0)
+//We need to get<line>
+//outta here.<End>
+
+//POINTER #1170 @ $D86DF4 - STRING #1170 @ $D82602
+
+#W24($D86DF4)
+//Waaah! I wanna go<line>
+//home!<End>
+
+//POINTER #1171 @ $D86DF8 - STRING #1171 @ $D8262D
+
+#W24($D86DF8)
+//Venoma… Just breathing<line>
+//burns my lungs…<End>
+
+//POINTER #1172 @ $D86DFC - STRING #1172 @ $D82675
+
+#W24($D86DFC)
+//※cough※ ※cough※<line>
+//Ein, let's hurry…<End>
+
+//POINTER #1173 @ $D86E00 - STRING #1173 @ $D7B812
+
+#W24($D86E00)
+//It's empty…<End>
+
+//POINTER #1174 @ $D86E04 - STRING #1174 @ $D826B4
+
+#W24($D86E04)
+//It's been sealed<line>
+//with magic.<Next>
+
+//It won't open ever<line>
+//again…<End>
+
+//POINTER #1175 @ $D86E08 - STRING #1175 @ $D82719
+
+#W24($D86E08)
+//I guess we have to<line>
+//give it up…<End>
+
+//POINTER #1176 @ $D86E0C - STRING #1176 @ $D8274F
+
+#W24($D86E0C)
+//The contents were<line>
+//all blown away…<End>
+
+//POINTER #1177 @ $D86E10 - STRING #1177 @ $D8278D
+
+#W24($D86E10)
+//Is there really anything<line>
+//here?<End>
+
+//POINTER #1178 @ $D86E14 - STRING #1178 @ $D827C6
+
+#W24($D86E14)
+//Who cares? The whole<line>
+//area is poison!<End>
+
+//POINTER #1179 @ $D86E18 - STRING #1179 @ $D82809
+
+#W24($D86E18)
+//※squish※ ※squish※<End>
+
+//POINTER #1180 @ $D86E1C - STRING #1180 @ $D8282B
+
+#W24($D86E1C)
+//There are demons here!<End>
+
+//POINTER #1181 @ $D86E20 - STRING #1181 @ $D82855
+
+#W24($D86E20)
+//In this poison!?<line>
+//What should we do?<End>
+
+//POINTER #1182 @ $D86E24 - STRING #1182 @ $D82894
+
+#W24($D86E24)
+//We'll have to fight.<line>
+//Let's go!<End>
+
+//POINTER #1183 @ $D86E28 - STRING #1183 @ $D789C6
+
+#W24($D86E28)
+//Let's retreat for now.<End>
+
+//POINTER #1184 @ $D86E2C - STRING #1184 @ $D82809
+
+#W24($D86E2C)
+//※squish※ ※squish※<End>
+
+//POINTER #1185 @ $D86E30 - STRING #1185 @ $D8005D
+
+#W24($D86E30)
+//The demons are still<line>
+//here…<End>
+
+//POINTER #1186 @ $D86E34 - STRING #1186 @ $D828CC
+
+#W24($D86E34)
+//We have to defeat them<line>
+//before we can move on.<End>
+
+//POINTER #1187 @ $D86E38 - STRING #1187 @ $D803E9
+
+#W24($D86E38)
+//We can't run away.<line>
+//Let's go!<End>
+
+//POINTER #1188 @ $D86E3C - STRING #1188 @ $D789C6
+
+#W24($D86E3C)
+//Let's retreat for now.<End>
+
+//POINTER #1189 @ $D86E40 - STRING #1189 @ $D7C219
+
+#W24($D86E40)
+//※cough※ ※cough※<End>
+
+//POINTER #1190 @ $D86E44 - STRING #1190 @ $D8291E
+
+#W24($D86E44)
+//You know…<Next>
+
+//We should just cut down<line>
+//all these Venoma.<End>
+
+//POINTER #1191 @ $D86E48 - STRING #1191 @ $D8297D
+
+#W24($D86E48)
+//Serene… ※cough※<End>
+
+//POINTER #1192 @ $D86E4C - STRING #1192 @ $D8299B
+
+#W24($D86E4C)
+//Aren't I always?<End>
+
+//POINTER #1193 @ $D86E50 - STRING #1193 @ $D829BA
+
+#W24($D86E50)
+//Step back, I'm gonna<line>
+//wail on this thing!<End>
+
+//POINTER #1194 @ $D86E54 - STRING #1194 @ $D82A04
+
+#W24($D86E54)
+//Stop!!<End>
+
+//POINTER #1195 @ $D86E58 - STRING #1195 @ $D78356
+
+#W24($D86E58)
+//Huh!?<End>
+
+//POINTER #1196 @ $D86E5C - STRING #1196 @ $D82A0F
+
+#W24($D86E5C)
+//That will only release<line>
+//more spores into the air,<Next>
+
+//making it even more<line>
+//difficult to breathe.<End>
+
+//POINTER #1197 @ $D86E60 - STRING #1197 @ $D82AB6
+
+#W24($D86E60)
+//Really? ※cough※<End>
+
+//POINTER #1198 @ $D86E64 - STRING #1198 @ $D82AD4
+
+#W24($D86E64)
+//Yes…<End>
+
+//POINTER #1199 @ $D86E68 - STRING #1199 @ $D82ADD
+
+#W24($D86E68)
+//Thanks, Ein.<End>
+
+//POINTER #1200 @ $D86E6C - STRING #1200 @ $D82AF5
+
+#W24($D86E6C)
+//Go Serene and Ein!<End>
+
+//POINTER #1201 @ $D86E70 - STRING #1201 @ $D82B17
+
+#W24($D86E70)
+//Alright!<Next>
+
+//Ein, you can start<line>
+//over there…<End>
+
+//POINTER #1202 @ $D86E74 - STRING #1202 @ $D82A04
+
+#W24($D86E74)
+//Stop!!<End>
+
+//POINTER #1203 @ $D86E78 - STRING #1203 @ $D78356
+
+#W24($D86E78)
+//Huh!?<End>
+
+//POINTER #1204 @ $D86E7C - STRING #1204 @ $D82A0F
+
+#W24($D86E7C)
+//That will only release<line>
+//more spores into the air,<Next>
+
+//making it even more<line>
+//difficult to breathe.<End>
+
+//POINTER #1205 @ $D86E80 - STRING #1205 @ $D82AB6
+
+#W24($D86E80)
+//Really? ※cough※<End>
+
+//POINTER #1206 @ $D86E84 - STRING #1206 @ $D82AD4
+
+#W24($D86E84)
+//Yes…<End>
+
+//POINTER #1207 @ $D86E88 - STRING #1207 @ $D7935E
+
+#W24($D86E88)
+//…………<End>
+
+//POINTER #1208 @ $D86E8C - STRING #1208 @ $D82B61
+
+#W24($D86E8C)
+//Aww, why not?<End>
+
+//POINTER #1209 @ $D86E90 - STRING #1209 @ $D82B7A
+
+#W24($D86E90)
+//The spores are poisoning<line>
+//the air, and cutting down<Next>
+
+//the Venoma will only<line>
+//release more spores…<End>
+
+//POINTER #1210 @ $D86E94 - STRING #1210 @ $D82C25
+
+#W24($D86E94)
+//I see… ※cough※<End>
+
+//POINTER #1211 @ $D86E98 - STRING #1211 @ $D82C40
+
+#W24($D86E98)
+//Tch…<Next>
+
+//In a way, Venoma are<line>
+//worse than demons…<End>
+
+//POINTER #1212 @ $D86E9C - STRING #1212 @ $D82C92
+
+#W24($D86E9C)
+//Where's the Accursed…?<End>
+
+//POINTER #1213 @ $D86EA0 - STRING #1213 @ $D82CBD
+
+#W24($D86EA0)
+//Hey, Fia…<Next>
+
+//This one's shaped<line>
+//differently.<End>
+
+//POINTER #1214 @ $D86EA4 - STRING #1214 @ $D82D0A
+
+#W24($D86EA4)
+//※cough※ That's a<line>
+//Venoma Bud.<Next>
+
+//It's sometimes used<line>
+//in medicine.<Next>
+
+//I wonder how people<line>
+//are able to gather it…<Next>
+
+//From what I understand,<line>
+//Venoma plants melt<Next>
+
+//when exposed to normal<line>
+//air.<End>
+
+//POINTER #1215 @ $D86EA8 - STRING #1215 @ $D82E4F
+
+#W24($D86EA8)
+//(We could probably take<line>
+//it if we had some way)<Next>
+
+//(to protect the Venoma<line>
+//from outside air.)<End>
+
+//POINTER #1216 @ $D86EAC - STRING #1216 @ $D82EF1
+
+#W24($D86EAC)
+//Protect it, huh?<End>
+
+//POINTER #1217 @ $D86EB0 - STRING #1217 @ $D82F10
+
+#W24($D86EB0)
+//Nice one, Ein!<line>
+//You're pretty smart… ※cough※<End>
+
+//POINTER #1218 @ $D86EB4 - STRING #1218 @ $D82F61
+
+#W24($D86EB4)
+//It worked…<End>
+
+//POINTER #1219 @ $D86EB8 - STRING #1219 @ $D82F75
+
+#W24($D86EB8)
+//(This isn't the best time<line>
+//to take crazy risks.)<End>
+
+//POINTER #1220 @ $D86EBC - STRING #1220 @ $D82FCC
+
+#W24($D86EBC)
+//If only we had something<line>
+//to put it in…<Next>
+
+//We might've been able to<line>
+//take it.<End>
+
+//POINTER #1221 @ $D86EC0 - STRING #1221 @ $D8304F
+
+#W24($D86EC0)
+//A Venoma Bud…<Next>
+
+//It's difficult to breathe<line>
+//just standing here.<Next>
+
+//We need to hurry.<End>
+
+//POINTER #1222 @ $D86EC4 - STRING #1222 @ $D830DF
+
+#W24($D86EC4)
+//The poison is getting<line>
+//stronger…!?<End>
+
+//POINTER #1223 @ $D86EC8 - STRING #1223 @ $D8311C
+
+#W24($D86EC8)
+//We must find the Accursed<line>
+//quickly.<End>
+
+//POINTER #1224 @ $D86ECC - STRING #1224 @ $D8315C
+
+#W24($D86ECC)
+//We're almost done.<line>
+//Just one more Accursed…<Next>
+
+//After that, Riviera<line>
+//will be safe…<Next>
+
+//Hang in there,<line>
+//everyone!<End>
+
+//POINTER #1225 @ $D86ED0 - STRING #1225 @ $D83219
+
+#W24($D86ED0)
+//I know…!<End>
+
+//POINTER #1226 @ $D86ED4 - STRING #1226 @ $D83229
+
+#W24($D86ED4)
+//I can burn them… ※cough※<line>
+//With my magic…!<End>
+
+//POINTER #1227 @ $D86ED8 - STRING #1227 @ $D83273
+
+#W24($D86ED8)
+//Leave it to me, Ein.<Next>
+
+//Here I go!<End>
+
+//POINTER #1228 @ $D86EDC - STRING #1228 @ $D832AC
+
+#W24($D86EDC)
+//Lina, too!<End>
+
+//POINTER #1229 @ $D86EE0 - STRING #1229 @ $D832C0
+
+#W24($D86EE0)
+//Why?<End>
+
+//POINTER #1230 @ $D86EE4 - STRING #1230 @ $D832C9
+
+#W24($D86EE4)
+//It might just make<line>
+//things worse.<End>
+
+//POINTER #1231 @ $D86EE8 - STRING #1231 @ $D83305
+
+#W24($D86EE8)
+//I'm sure burning them<line>
+//would work…<End>
+
+//POINTER #1232 @ $D86EEC - STRING #1232 @ $D83343
+
+#W24($D86EEC)
+//Don't! Excessive heat<line>
+//could strengthen the poison.<End>
+
+//POINTER #1233 @ $D86EF0 - STRING #1233 @ $D833A2
+
+#W24($D86EF0)
+//We just need to get<line>
+//through here, fast.<End>
+
+//POINTER #1234 @ $D86EF4 - STRING #1234 @ $D833EA
+
+#W24($D86EF4)
+//※cough※ I should've<line>
+//studied barrier magic…<End>
+
+//POINTER #1235 @ $D86EF8 - STRING #1235 @ $D8343A
+
+#W24($D86EF8)
+//It's probably another<line>
+//trap.<End>
+
+//POINTER #1236 @ $D86EFC - STRING #1236 @ $D8346E
+
+#W24($D86EFC)
+//We're not falling for<line>
+//it this——※cough※<End>
+
+//POINTER #1237 @ $D86F00 - STRING #1237 @ $D834B6
+
+#W24($D86F00)
+//I'll check it out.<End>
+
+//POINTER #1238 @ $D86F04 - STRING #1238 @ $D834D8
+
+#W24($D86F04)
+//Sorry, Ein… It just<line>
+//opened… ※cough※<End>
+
+//POINTER #1239 @ $D86F08 - STRING #1239 @ $D8351A
+
+#W24($D86F08)
+//You don't need to<line>
+//apologize, Lina.<End>
+
+//POINTER #1240 @ $D86F0C - STRING #1240 @ $D8355A
+
+#W24($D86F0C)
+//Huh? It opened?<End>
+
+//POINTER #1241 @ $D86F10 - STRING #1241 @ $D83577
+
+#W24($D86F10)
+//I assume thieves never<line>
+//made it this far…<End>
+
+//POINTER #1242 @ $D86F14 - STRING #1242 @ $D835C1
+
+#W24($D86F14)
+//※cough※ Ein, let's<line>
+//move on quickly…<End>
+
+//POINTER #1243 @ $D86F18 - STRING #1243 @ $D83603
+
+#W24($D86F18)
+//We need to keep moving.<End>
+
+//POINTER #1244 @ $D86F1C - STRING #1244 @ $D8362E
+
+#W24($D86F1C)
+//That's true…<End>
+
+//POINTER #1245 @ $D86F20 - STRING #1245 @ $D7B812
+
+#W24($D86F20)
+//It's empty…<End>
+
+//POINTER #1246 @ $D86F24 - STRING #1246 @ $D83646
+
+#W24($D86F24)
+//※cough※ ※cough※<Next>
+
+//C'mon! Let's go…<End>
+
+//POINTER #1247 @ $D86F28 - STRING #1247 @ $D83684
+
+#W24($D86F28)
+//This is rough…<End>
+
+//POINTER #1248 @ $D86F2C - STRING #1248 @ $D8369F
+
+#W24($D86F2C)
+//I sense great hatred<line>
+//and spite…<End>
+
+//POINTER #1249 @ $D86F30 - STRING #1249 @ $D836D9
+
+#W24($D86F30)
+//Another angel…<line>
+//in my holy land…<Next>
+
+//My fallen comrades…<line>
+//crave… your deaths…<End>
+
+//POINTER #1250 @ $D86F34 - STRING #1250 @ $D8375E
+
+#W24($D86F34)
+//This is the final<line>
+//Accursed…!<End>
+
+//POINTER #1251 @ $D86F38 - STRING #1251 @ $D83793
+
+#W24($D86F38)
+//Angel…<End>
+
+//POINTER #1252 @ $D86F3C - STRING #1252 @ $D837A0
+
+#W24($D86F3C)
+//Riviera will be<line>
+//saved, at last!<End>
+
+//POINTER #1253 @ $D86F40 - STRING #1253 @ $D837DA
+
+#W24($D86F40)
+//Saved, huh?<End>
+
+//POINTER #1254 @ $D86F44 - STRING #1254 @ $D837F0
+
+#W24($D86F44)
+//It's do—or—die time…<End>
+
+//POINTER #1255 @ $D86F48 - STRING #1255 @ $D83817
+
+#W24($D86F48)
+//Let's do it.<End>
+
+//POINTER #1256 @ $D86F4C - STRING #1256 @ $D8382E
+
+#W24($D86F4C)
+//Silence…<Next>
+
+//I shall at last have my<line>
+//thousand years of revenge!<End>
+
+//POINTER #1257 @ $D86F50 - STRING #1257 @ $D78D25
+
+#W24($D86F50)
+//Let's go!<End>
+
+//POINTER #1258 @ $D86F54 - STRING #1258 @ $D8389C
+
+#W24($D86F54)
+//Alright…! We defeated<line>
+//all of the Accursed.<End>
+
+//POINTER #1259 @ $D86F58 - STRING #1259 @ $D838EB
+
+#W24($D86F58)
+//We did it, Ein!<End>
+
+//POINTER #1260 @ $D86F5C - STRING #1260 @ $D83907
+
+#W24($D86F5C)
+//Riviera no longer needs<line>
+//to fear demons.<End>
+
+//POINTER #1261 @ $D86F60 - STRING #1261 @ $D83950
+
+#W24($D86F60)
+//Thanks, everyone. I couldn't<line>
+//have done this alone.<End>
+
+//POINTER #1262 @ $D86F64 - STRING #1262 @ $D839AE
+
+#W24($D86F64)
+//Oh, it was nothing.<End>
+
+//POINTER #1263 @ $D86F68 - STRING #1263 @ $D839D2
+
+#W24($D86F68)
+//Lina worked hard!<End>
+
+//POINTER #1264 @ $D86F6C - STRING #1264 @ $D839F3
+
+#W24($D86F6C)
+//A peaceful Riviera…<End>
+
+//POINTER #1265 @ $D86F70 - STRING #1265 @ $D83A18
+
+#W24($D86F70)
+//(Ein, look!)<End>
+
+//POINTER #1266 @ $D86F74 - STRING #1266 @ $D83A30
+
+#W24($D86F74)
+//What the——!?<End>
+
+//POINTER #1267 @ $D86F78 - STRING #1267 @ $D83A46
+
+#W24($D86F78)
+//I… will not… die…<Next>
+
+//I shall… return… and<line>
+//have my… revenge…!<Next>
+
+//May that thought haunt…<line>
+//your sleepless nights!<End>
+
+//POINTER #1268 @ $D86F7C - STRING #1268 @ $D83B08
+
+#W24($D86F7C)
+//All the Accursed have<line>
+//been sealed…<End>
+
+//POINTER #1269 @ $D86F80 - STRING #1269 @ $D83B48
+
+#W24($D86F80)
+//Riviera was supposed<line>
+//to be saved…<Next>
+
+//But now, a more<line>
+//horrific darkness<Next>
+
+//is threatening to<line>
+//envelop the land.<End>
+
+//POINTER #1270 @ $D86F84 - STRING #1270 @ $D83C08
+
+#W24($D86F84)
+//The name of that darkness is…<End>
+
+//POINTER #1271 @ $D86F88 - STRING #1271 @ $D83C3E
+
+#W24($D86F88)
+//Light has yet to shine<line>
+//upon Riviera…<Next>
+
+//Its future is still<line>
+//shrouded by darkness…<End>
+
+//POINTER #1272 @ $D86F8C - STRING #1272 @ $D83CCF
+
+#W24($D86F8C)
+//Let's see…<End>
+
+//POINTER #1273 @ $D86F90 - STRING #1273 @ $D8041D
+
+#W24($D86F90)
+//There's something inside!<End>
+
+//POINTER #1274 @ $D86F94 - STRING #1274 @ $D7B7D8
+
+#W24($D86F94)
+//There's a chest…<End>
+
+//POINTER #1275 @ $D86F98 - STRING #1275 @ $D7C926
+
+#W24($D86F98)
+//Maybe I shouldn't…<End>
+
+//POINTER #1276 @ $D86F9C - STRING #1276 @ $D7BF1A
+
+#W24($D86F9C)
+//Poison gas!<End>
+
+//POINTER #1277 @ $D86FA0 - STRING #1277 @ $D7871B
+
+#W24($D86FA0)
+//So, what's inside?<End>
+
+//POINTER #1278 @ $D86FA4 - STRING #1278 @ $D80B32
+
+#W24($D86FA4)
+//Ugh… Well, what's<line>
+//inside…?<End>
+
+//POINTER #1279 @ $D86FA8 - STRING #1279 @ $D7BF89
+
+#W24($D86FA8)
+//An arrow trap!<End>
+
+//POINTER #1280 @ $D86FAC - STRING #1280 @ $D7BE80
+
+#W24($D86FAC)
+//What's inside?<End>
+
+//POINTER #1281 @ $D86FB0 - STRING #1281 @ $D83CE3
+
+#W24($D86FB0)
+//There is treasure<line>
+//inside, right!?<End>
+
+//POINTER #1282 @ $D86FB4 - STRING #1282 @ $D7BFE0
+
+#W24($D86FB4)
+//Freeze gas!<End>
+
+//POINTER #1283 @ $D86FB8 - STRING #1283 @ $D83D20
+
+#W24($D86FB8)
+//What could be inside…?<End>
+
+//POINTER #1284 @ $D86FBC - STRING #1284 @ $D83D4A
+
+#W24($D86FBC)
+//What item would require<line>
+//such a trap…?<End>
+
+//POINTER #1285 @ $D86FC0 - STRING #1285 @ $D7C055
+
+#W24($D86FC0)
+//A magic lock!<End>
+
+//POINTER #1286 @ $D86FC4 - STRING #1286 @ $D83D8F
+
+#W24($D86FC4)
+//You did it! It<line>
+//stopped!<End>
+
+//POINTER #1287 @ $D86FC8 - STRING #1287 @ $D83DBA
+
+#W24($D86FC8)
+//Why would a chest<line>
+//need to be locked?<End>
+
+//POINTER #1288 @ $D86FCC - STRING #1288 @ $D7EBD4
+
+#W24($D86FCC)
+//※sigh※ It's locked…<End>
+
+//POINTER #1289 @ $D86FD0 - STRING #1289 @ $D7EBF9
+
+#W24($D86FD0)
+//I didn't make it…<End>
+
+//POINTER #1290 @ $D86FD4 - STRING #1290 @ $D83DFC
+
+#W24($D86FD4)
+//I'm sorry to say that<line>
+//this chest…<Next>
+
+//won't ever open again.<End>
+
+//POINTER #1291 @ $D86FD8 - STRING #1291 @ $D7C1AA
+
+#W24($D86FD8)
+//※sigh※<End>
+
+//POINTER #1292 @ $D86FDC - STRING #1292 @ $D7C1B7
+
+#W24($D86FDC)
+//It's gonna explode!<End>
+
+//POINTER #1293 @ $D86FE0 - STRING #1293 @ $D83E64
+
+#W24($D86FE0)
+//It's disarmed!<End>
+
+//POINTER #1294 @ $D86FE4 - STRING #1294 @ $D7C200
+
+#W24($D86FE4)
+//Not bad, Ein!<End>
+
+//POINTER #1295 @ $D86FE8 - STRING #1295 @ $D7C219
+
+#W24($D86FE8)
+//※cough※ ※cough※<End>
+
+//POINTER #1296 @ $D86FEC - STRING #1296 @ $D7C237
+
+#W24($D86FEC)
+//※sigh※ So much for<line>
+//the treasure…<End>
+
+//POINTER #1297 @ $D86FF0 - STRING #1297 @ $D7EC9B
+
+#W24($D86FF0)
+//Everything's been<line>
+//blown to bits…<End>
+
+//POINTER #1298 @ $D86FF4 - STRING #1298 @ $D80D0A
+
+#W24($D86FF4)
+//Alright! So much<line>
+//for that trap.<End>
+
+//POINTER #1299 @ $D86FF8 - STRING #1299 @ $D7C2E2
+
+#W24($D86FF8)
+//We did it♪<End>
+
+//POINTER #1300 @ $D86FFC - STRING #1300 @ $D7C2F5
+
+#W24($D86FFC)
+//Well done.<End>
+
+//POINTER #1301 @ $D87000 - STRING #1301 @ $D80D44
+
+#W24($D87000)
+//That was a piece<line>
+//of cake!<End>
+
+//POINTER #1302 @ $D87004 - STRING #1302 @ $D80D72
+
+#W24($D87004)
+//My, that was easy.<End>
+
+//POINTER #1303 @ $D87008 - STRING #1303 @ $D7BDE6
+
+#W24($D87008)
+//Whoa!<End>
+
+//POINTER #1304 @ $D8700C - STRING #1304 @ $D7C35D
+
+#W24($D8700C)
+//Waaah!<End>
+
+//POINTER #1305 @ $D87010 - STRING #1305 @ $D7BD63
+
+#W24($D87010)
+//Ahh!<End>
+
+//POINTER #1306 @ $D87014 - STRING #1306 @ $D7C36A
+
+#W24($D87014)
+//Wh—Whoa!<End>
+
+//POINTER #1307 @ $D87018 - STRING #1307 @ $D7C37B
+
+#W24($D87018)
+//Ahhh!<End>
+
+//POINTER #1308 @ $D8701C - STRING #1308 @ $D7ED23
+
+#W24($D8701C)
+//This is…<End>
+
+//POINTER #1309 @ $D87020 - STRING #1309 @ $D7ACB3
+
+#W24($D87020)
+//Alright!<End>
+
+//POINTER #1310 @ $D87024 - STRING #1310 @ $D83E80
+
+#W24($D87024)
+//Let's put it<line>
+//to good use.<End>
+
+//POINTER #1311 @ $D87028 - STRING #1311 @ $D7C3CD
+
+#W24($D87028)
+//Lucky★<End>
+
+//POINTER #1312 @ $D8702C - STRING #1312 @ $D7ED33
+
+#W24($D8702C)
+//Isn't that nice.<End>
+
+//POINTER #1313 @ $D87030 - STRING #1313 @ $D83EAE
+
+#W24($D87030)
+//Underground maze, huh?<line>
+//THAT'S a surprise…<End>
+
+//POINTER #1314 @ $D87034 - STRING #1314 @ $D83EFC
+
+#W24($D87034)
+//Serene complaining?<line>
+//THAT'S a surprise!<End>
+
+//POINTER #1315 @ $D87038 - STRING #1315 @ $D83F45
+
+#W24($D87038)
+//The air's too thin here…<line>
+//…It's hard to breathe.<End>
+
+//POINTER #1316 @ $D8703C - STRING #1316 @ $D83F9C
+
+#W24($D8703C)
+//How can we be under<line>
+//the lake? It's so dry.<End>
+
+//POINTER #1317 @ $D87040 - STRING #1317 @ $D83FE8
+
+#W24($D87040)
+//It's like a totally<line>
+//different world…<End>
+
+//POINTER #1318 @ $D87044 - STRING #1318 @ $D8402C
+
+#W24($D87044)
+//The air's cold…<End>
+
+//POINTER #1319 @ $D87048 - STRING #1319 @ $D82022
+
+#W24($D87048)
+//Where are we?<End>
+
+//POINTER #1320 @ $D8704C - STRING #1320 @ $D84049
+
+#W24($D8704C)
+//What if the lake<line>
+//fills back in?<End>
+
+//POINTER #1321 @ $D87050 - STRING #1321 @ $D84082
+
+#W24($D87050)
+//I wouldn't worry<line>
+//about it.<End>
+
+//POINTER #1322 @ $D87054 - STRING #1322 @ $D79DBC
+
+#W24($D87054)
+//Grrrr…<End>
+
+//POINTER #1323 @ $D87058 - STRING #1323 @ $D80280
+
+#W24($D87058)
+//D—Demons!<End>
+
+//POINTER #1324 @ $D8705C - STRING #1324 @ $D801E6
+
+#W24($D8705C)
+//What's the plan, Ein?<End>
+
+//POINTER #1325 @ $D87060 - STRING #1325 @ $D840B3
+
+#W24($D87060)
+//We need to fight.<line>
+//Let's go!<End>
+
+//POINTER #1326 @ $D87064 - STRING #1326 @ $D789C6
+
+#W24($D87064)
+//Let's retreat for now.<End>
+
+//POINTER #1327 @ $D87068 - STRING #1327 @ $D79DBC
+
+#W24($D87068)
+//Grrrr…<End>
+
+//POINTER #1328 @ $D8706C - STRING #1328 @ $D840E5
+
+#W24($D8706C)
+//I don't think they're<line>
+//going to leave.<End>
+
+//POINTER #1329 @ $D87070 - STRING #1329 @ $D8412A
+
+#W24($D87070)
+//Defeating them is the<line>
+//only way to advance.<End>
+
+//POINTER #1330 @ $D87074 - STRING #1330 @ $D84178
+
+#W24($D87074)
+//Running's no good…<line>
+//Let's go!<End>
+
+//POINTER #1331 @ $D87078 - STRING #1331 @ $D789C6
+
+#W24($D87078)
+//Let's retreat for now.<End>
+
+//POINTER #1332 @ $D8707C - STRING #1332 @ $D78356
+
+#W24($D8707C)
+//Huh!?<End>
+
+//POINTER #1333 @ $D87080 - STRING #1333 @ $D841AD
+
+#W24($D87080)
+//I just heard a voice…<End>
+
+//POINTER #1334 @ $D87084 - STRING #1334 @ $D841D4
+
+#W24($D87084)
+//Who was it?<End>
+
+//POINTER #1335 @ $D87088 - STRING #1335 @ $D76E28
+
+#W24($D87088)
+//I heard it, too.<End>
+
+//POINTER #1336 @ $D8708C - STRING #1336 @ $D841E9
+
+#W24($D8708C)
+//Yeah, no kidding.<End>
+
+//POINTER #1337 @ $D87090 - STRING #1337 @ $D8420A
+
+#W24($D87090)
+//I didn't say anything!<End>
+
+//POINTER #1338 @ $D87094 - STRING #1338 @ $D84234
+
+#W24($D87094)
+//I feel strong negative<line>
+//energy…<End>
+
+//POINTER #1339 @ $D87098 - STRING #1339 @ $D8426D
+
+#W24($D87098)
+//What do you think it<line>
+//could be?<End>
+
+//POINTER #1340 @ $D8709C - STRING #1340 @ $D842A4
+
+#W24($D8709C)
+//Look at this funny<line>
+//icicle, Ein!<End>
+
+//POINTER #1341 @ $D870A0 - STRING #1341 @ $D842DE
+
+#W24($D870A0)
+//Water must have dripped<line>
+//down and frozen…<End>
+
+//POINTER #1342 @ $D870A4 - STRING #1342 @ $D84329
+
+#W24($D870A4)
+//I think I can chop it<line>
+//down…<End>
+
+//POINTER #1343 @ $D870A8 - STRING #1343 @ $D7AD19
+
+#W24($D870A8)
+//I did it!<End>
+
+//POINTER #1344 @ $D870AC - STRING #1344 @ $D8435A
+
+#W24($D870AC)
+//You're cool, Ein♪<End>
+
+//POINTER #1345 @ $D870B0 - STRING #1345 @ $D8437B
+
+#W24($D870B0)
+//Huh?<End>
+
+//POINTER #1346 @ $D870B4 - STRING #1346 @ $D84384
+
+#W24($D870B4)
+//What was that about?<End>
+
+//POINTER #1347 @ $D870B8 - STRING #1347 @ $D843AA
+
+#W24($D870B8)
+//I didn't really get<line>
+//the point of that…<End>
+
+//POINTER #1348 @ $D870BC - STRING #1348 @ $D843F0
+
+#W24($D870BC)
+//I think he messed up.<End>
+
+//POINTER #1349 @ $D870C0 - STRING #1349 @ $D84417
+
+#W24($D870C0)
+//What's it feel like?<End>
+
+//POINTER #1350 @ $D870C4 - STRING #1350 @ $D8443D
+
+#W24($D870C4)
+//Wh—Wha?<End>
+
+//POINTER #1351 @ $D870C8 - STRING #1351 @ $D8444C
+
+#W24($D870C8)
+//Whaddya mean, "Wha?"<End>
+
+//POINTER #1352 @ $D870CC - STRING #1352 @ $D84473
+
+#W24($D870CC)
+//You were a popsicle!<End>
+
+//POINTER #1353 @ $D870D0 - STRING #1353 @ $D84499
+
+#W24($D870D0)
+//Ummm…<line>
+//What?<End>
+
+//POINTER #1354 @ $D870D4 - STRING #1354 @ $D844AF
+
+#W24($D870D4)
+//You were frozen solid<line>
+//as soon as you<Next>
+
+//touched the icicle.<End>
+
+//POINTER #1355 @ $D870D8 - STRING #1355 @ $D84517
+
+#W24($D870D8)
+//Yeah, and thawing<line>
+//you out wasn't easy.<End>
+
+//POINTER #1356 @ $D870DC - STRING #1356 @ $D8455E
+
+#W24($D870DC)
+//If we hadn't stopped<line>
+//Cierra, you'd be toast.<End>
+
+//POINTER #1357 @ $D870E0 - STRING #1357 @ $D845B0
+
+#W24($D870E0)
+//Serene! I said not to<line>
+//tell him that!<End>
+
+//POINTER #1358 @ $D870E4 - STRING #1358 @ $D845F2
+
+#W24($D870E4)
+//※shiver※<End>
+
+//POINTER #1359 @ $D870E8 - STRING #1359 @ $D84603
+
+#W24($D870E8)
+//It's not important.<End>
+
+//POINTER #1360 @ $D870EC - STRING #1360 @ $D84628
+
+#W24($D870EC)
+//That was embarrassing.<End>
+
+//POINTER #1361 @ $D870F0 - STRING #1361 @ $D84653
+
+#W24($D870F0)
+//…I was trying so hard<line>
+//to look cool.<End>
+
+//POINTER #1362 @ $D870F4 - STRING #1362 @ $D84693
+
+#W24($D870F4)
+//The end's gone.<End>
+
+//POINTER #1363 @ $D870F8 - STRING #1363 @ $D846B0
+
+#W24($D870F8)
+//That's because Ein chopped<line>
+//it off.<End>
+
+//POINTER #1364 @ $D870FC - STRING #1364 @ $D846F0
+
+#W24($D870FC)
+//Did I do something wrong?<End>
+
+//POINTER #1365 @ $D87100 - STRING #1365 @ $D8471F
+
+#W24($D87100)
+//I don't think anyone cares<line>
+//about the icicle.<End>
+
+//POINTER #1366 @ $D87104 - STRING #1366 @ $D84771
+
+#W24($D87104)
+//I froze when I touched<line>
+//this…<End>
+
+//POINTER #1367 @ $D87108 - STRING #1367 @ $D847A5
+
+#W24($D87108)
+//Hey, Ein's trying to<line>
+//touch it again!<End>
+
+//POINTER #1368 @ $D8710C - STRING #1368 @ $D847E8
+
+#W24($D8710C)
+//I guess it can't be<line>
+//helped…<End>
+
+//POINTER #1369 @ $D87110 - STRING #1369 @ $D8481A
+
+#W24($D87110)
+//Look! I'm not touching it!<End>
+
+//POINTER #1370 @ $D87114 - STRING #1370 @ $D8484B
+
+#W24($D87114)
+//Just looking at the icicle<line>
+//makes me cold…<End>
+
+//POINTER #1371 @ $D87118 - STRING #1371 @ $D84897
+
+#W24($D87118)
+//(Actually Ein, it's already<line>
+//cold in here.)<End>
+
+//POINTER #1372 @ $D8711C - STRING #1372 @ $D848E6
+
+#W24($D8711C)
+//I'll warm you up,<line>
+//little Gateau.<End>
+
+//POINTER #1373 @ $D87120 - STRING #1373 @ $D84922
+
+#W24($D87120)
+//(Mmm…<line>
+//That's much better…)<End>
+
+//POINTER #1374 @ $D87124 - STRING #1374 @ $D8437B
+
+#W24($D87124)
+//Huh?<End>
+
+//POINTER #1375 @ $D87128 - STRING #1375 @ $D7935E
+
+#W24($D87128)
+//…………<End>
+
+//POINTER #1376 @ $D8712C - STRING #1376 @ $D84954
+
+#W24($D8712C)
+//Oh my…❤<End>
+
+//POINTER #1377 @ $D87130 - STRING #1377 @ $D84962
+
+#W24($D87130)
+//I guess my swordsmanship<line>
+//could use some work.<End>
+
+//POINTER #1378 @ $D87134 - STRING #1378 @ $D849B6
+
+#W24($D87134)
+//That's an odd shape.<End>
+
+//POINTER #1379 @ $D87138 - STRING #1379 @ $D849DC
+
+#W24($D87138)
+//You did it.<End>
+
+//POINTER #1380 @ $D8713C - STRING #1380 @ $D849F1
+
+#W24($D8713C)
+//I'm afraid of what Cierra<line>
+//will do if I touch it again…<End>
+
+//POINTER #1381 @ $D87140 - STRING #1381 @ $D79776
+
+#W24($D87140)
+//Hm?<End>
+
+//POINTER #1382 @ $D87144 - STRING #1382 @ $D84A53
+
+#W24($D87144)
+//It looks so cold…<line>
+//It's ice blue.<End>
+
+//POINTER #1383 @ $D87148 - STRING #1383 @ $D84A8E
+
+#W24($D87148)
+//The ice you cut is<line>
+//lying here.<End>
+
+//POINTER #1384 @ $D8714C - STRING #1384 @ $D84AC5
+
+#W24($D8714C)
+//Let's keep it as<line>
+//a souvenir.<End>
+
+//POINTER #1385 @ $D87150 - STRING #1385 @ $D84AF9
+
+#W24($D87150)
+//Won't it just melt<line>
+//on the way back?<End>
+
+//POINTER #1386 @ $D87154 - STRING #1386 @ $D84B39
+
+#W24($D87154)
+//If we hurry, it should<line>
+//be fine…<End>
+
+//POINTER #1387 @ $D87158 - STRING #1387 @ $D84B72
+
+#W24($D87158)
+//If we hurry, huh?<End>
+
+//POINTER #1388 @ $D8715C - STRING #1388 @ $D79C9C
+
+#W24($D8715C)
+//We don't need it.<End>
+
+//POINTER #1389 @ $D87160 - STRING #1389 @ $D84B92
+
+#W24($D87160)
+//What's below the catacombs?<End>
+
+//POINTER #1390 @ $D87164 - STRING #1390 @ $D84BC6
+
+#W24($D87164)
+//It might have something<line>
+//to do with the Accursed.<End>
+
+//POINTER #1391 @ $D87168 - STRING #1391 @ $D84C1F
+
+#W24($D87168)
+//I guess we'll have to<line>
+//see for ourselves.<End>
+
+//POINTER #1392 @ $D8716C - STRING #1392 @ $D84C69
+
+#W24($D8716C)
+//A big piece of ice!<End>
+
+//POINTER #1393 @ $D87170 - STRING #1393 @ $D84C8C
+
+#W24($D87170)
+//Wow… How'd that happen?<End>
+
+//POINTER #1394 @ $D87174 - STRING #1394 @ $D84CB8
+
+#W24($D87174)
+//It's not natural. I'm<line>
+//sure magic was involved.<End>
+
+//POINTER #1395 @ $D87178 - STRING #1395 @ $D84D0E
+
+#W24($D87178)
+//That makes sense…<End>
+
+//POINTER #1396 @ $D8717C - STRING #1396 @ $D84D2F
+
+#W24($D8717C)
+//I can feel the magic.<End>
+
+//POINTER #1397 @ $D87180 - STRING #1397 @ $D84D56
+
+#W24($D87180)
+//Really? Cool!<End>
+
+//POINTER #1398 @ $D87184 - STRING #1398 @ $D84D70
+
+#W24($D87184)
+//It's nothing, really.<End>
+
+//POINTER #1399 @ $D87188 - STRING #1399 @ $D84D99
+
+#W24($D87188)
+//Probably not——I'm better<line>
+//with fire magic.<End>
+
+//POINTER #1400 @ $D8718C - STRING #1400 @ $D84DE7
+
+#W24($D8718C)
+//Lina wants some, too♪<End>
+
+//POINTER #1401 @ $D87190 - STRING #1401 @ $D84E0F
+
+#W24($D87190)
+//I wouldn't play around<line>
+//with magic like that…<End>
+
+//POINTER #1402 @ $D87194 - STRING #1402 @ $D84E61
+
+#W24($D87194)
+//Ein! There's something<line>
+//inside the ice!<End>
+
+//POINTER #1403 @ $D87198 - STRING #1403 @ $D84EA9
+
+#W24($D87198)
+//IN the ice!?<End>
+
+//POINTER #1404 @ $D8719C - STRING #1404 @ $D84EBE
+
+#W24($D8719C)
+//I believe it is.<End>
+
+//POINTER #1405 @ $D871A0 - STRING #1405 @ $D84EDC
+
+#W24($D871A0)
+//Good eyes, Fia.<End>
+
+//POINTER #1406 @ $D871A4 - STRING #1406 @ $D84EF9
+
+#W24($D871A4)
+//Thank you…<line>
+//I'm proud of my eyesight.<End>
+
+//POINTER #1407 @ $D871A8 - STRING #1407 @ $D84F3C
+
+#W24($D871A8)
+//So… What item is it?<End>
+
+//POINTER #1408 @ $D871AC - STRING #1408 @ $D84F61
+
+#W24($D871AC)
+//No… It's doesn't look<line>
+//like it.<End>
+
+//POINTER #1409 @ $D871B0 - STRING #1409 @ $D84F99
+
+#W24($D871B0)
+//If it was, they'd be<line>
+//frozen anyway.<End>
+
+//POINTER #1410 @ $D871B4 - STRING #1410 @ $D84FDA
+
+#W24($D871B4)
+//I believe it's an item.<End>
+
+//POINTER #1411 @ $D871B8 - STRING #1411 @ $D85005
+
+#W24($D871B8)
+//Yes, there is quite<line>
+//a lot of ice here.<End>
+
+//POINTER #1412 @ $D871BC - STRING #1412 @ $D8504A
+
+#W24($D871BC)
+//But, what does that have<line>
+//to do with what's inside?<End>
+
+//POINTER #1413 @ $D871C0 - STRING #1413 @ $D850A6
+
+#W24($D871C0)
+//Just don't stick your tongue<line>
+//on the walls!<End>
+
+//POINTER #1414 @ $D871C4 - STRING #1414 @ $D850F4
+
+#W24($D871C4)
+//And why would I want to<line>
+//do that?<End>
+
+//POINTER #1415 @ $D871C8 - STRING #1415 @ $D8512E
+
+#W24($D871C8)
+//Great, you guys…<End>
+
+//POINTER #1416 @ $D871CC - STRING #1416 @ $D8514D
+
+#W24($D871CC)
+//Now, Fia's confused.<End>
+
+//POINTER #1417 @ $D871D0 - STRING #1417 @ $D7935E
+
+#W24($D871D0)
+//…………<End>
+
+//POINTER #1418 @ $D871D4 - STRING #1418 @ $D85174
+
+#W24($D871D4)
+//Sorry…<End>
+
+//POINTER #1419 @ $D871D8 - STRING #1419 @ $D85181
+
+#W24($D871D8)
+//Yeah, don't confuse her!<End>
+
+//POINTER #1420 @ $D871DC - STRING #1420 @ $D851AF
+
+#W24($D871DC)
+//(Look who's talking.)<End>
+
+//POINTER #1421 @ $D871E0 - STRING #1421 @ $D851D8
+
+#W24($D871E0)
+//The ice is in pieces.<End>
+
+//POINTER #1422 @ $D871E4 - STRING #1422 @ $D851FF
+
+#W24($D871E4)
+//(Of course it is.<line>
+//We broke it.)<End>
+
+//POINTER #1423 @ $D871E8 - STRING #1423 @ $D85238
+
+#W24($D871E8)
+//This ice really<line>
+//confuses me.<End>
+
+//POINTER #1424 @ $D871EC - STRING #1424 @ $D8526D
+
+#W24($D871EC)
+//(I think this is a<line>
+//new low for you, Ein…)<End>
+
+//POINTER #1425 @ $D871F0 - STRING #1425 @ $D852B7
+
+#W24($D871F0)
+//I'm not so sure<line>
+//about that…<End>
+
+//POINTER #1426 @ $D871F4 - STRING #1426 @ $D852E9
+
+#W24($D871F4)
+//(We should stay away<line>
+//from it.)<End>
+
+//POINTER #1427 @ $D871F8 - STRING #1427 @ $D85321
+
+#W24($D871F8)
+//What's that?<End>
+
+//POINTER #1428 @ $D871FC - STRING #1428 @ $D85339
+
+#W24($D871FC)
+//It looks likes a magic<line>
+//circle.<End>
+
+//POINTER #1429 @ $D87200 - STRING #1429 @ $D85371
+
+#W24($D87200)
+//Maybe something's<line>
+//sealed inside.<End>
+
+//POINTER #1430 @ $D87204 - STRING #1430 @ $D7935E
+
+#W24($D87204)
+//…………<End>
+
+//POINTER #1431 @ $D87208 - STRING #1431 @ $D7894F
+
+#W24($D87208)
+//Demons!<End>
+
+//POINTER #1432 @ $D8720C - STRING #1432 @ $D853AF
+
+#W24($D8720C)
+//What do we do, Ein?<End>
+
+//POINTER #1433 @ $D87210 - STRING #1433 @ $D853D2
+
+#W24($D87210)
+//…No point in running.<line>
+//Let's go!<End>
+
+//POINTER #1434 @ $D87214 - STRING #1434 @ $D789C6
+
+#W24($D87214)
+//Let's retreat for now.<End>
+
+//POINTER #1435 @ $D87218 - STRING #1435 @ $D7935E
+
+#W24($D87218)
+//…………<End>
+
+//POINTER #1436 @ $D8721C - STRING #1436 @ $D8540C
+
+#W24($D8721C)
+//We shouldn't run.<line>
+//Let's go!<End>
+
+//POINTER #1437 @ $D87220 - STRING #1437 @ $D789C6
+
+#W24($D87220)
+//Let's retreat for now.<End>
+
+//POINTER #1438 @ $D87224 - STRING #1438 @ $D8543F
+
+#W24($D87224)
+//※roar※<End>
+
+//POINTER #1439 @ $D87228 - STRING #1439 @ $D8544C
+
+#W24($D87228)
+//Another one!?<End>
+
+//POINTER #1440 @ $D8722C - STRING #1440 @ $D85464
+
+#W24($D8722C)
+//Is that a<line>
+//Zombie Dragon!?<End>
+
+//POINTER #1441 @ $D87230 - STRING #1441 @ $D85491
+
+#W24($D87230)
+//Who dares awaken me…?<Next>
+
+//You will pay dearly…<line>
+//with your lives!<End>
+
+//POINTER #1442 @ $D87234 - STRING #1442 @ $D8543F
+
+#W24($D87234)
+//※roar※<End>
+
+//POINTER #1443 @ $D87238 - STRING #1443 @ $D854FF
+
+#W24($D87238)
+//We're going to have<line>
+//to fight it!<End>
+
+//POINTER #1444 @ $D8723C - STRING #1444 @ $D8543F
+
+#W24($D8723C)
+//※roar※<End>
+
+//POINTER #1445 @ $D87240 - STRING #1445 @ $D8553A
+
+#W24($D87240)
+//Th—There's no other choice.<line>
+//We have to fight!<End>
+
+//POINTER #1446 @ $D87244 - STRING #1446 @ $D77ADC
+
+#W24($D87244)
+//What's this?<End>
+
+//POINTER #1447 @ $D87248 - STRING #1447 @ $D8558E
+
+#W24($D87248)
+//This is the Key to Hell!<End>
+
+//POINTER #1448 @ $D8724C - STRING #1448 @ $D855BA
+
+#W24($D8724C)
+//The Key to Hell…<Next>
+
+//So, this is what the Zombie<line>
+//Dragon was guarding.<End>
+
+//POINTER #1449 @ $D87250 - STRING #1449 @ $D85632
+
+#W24($D87250)
+//W—What the!?<End>
+
+//POINTER #1450 @ $D87254 - STRING #1450 @ $D85648
+
+#W24($D87254)
+//It's definitely not good,<line>
+//whatever it is.<End>
+
+//POINTER #1451 @ $D87258 - STRING #1451 @ $D85695
+
+#W24($D87258)
+//It's too dangerous…<line>
+//Let's go!<End>
+
+//POINTER #1452 @ $D8725C - STRING #1452 @ $D856CC
+
+#W24($D8725C)
+//Go where!?<End>
+
+//POINTER #1453 @ $D87260 - STRING #1453 @ $D856DE
+
+#W24($D87260)
+//There's only one way<line>
+//we can go: forward.<End>
+
+//POINTER #1454 @ $D87264 - STRING #1454 @ $D85728
+
+#W24($D87264)
+//Waaaah! I'm scared!<End>
+
+//POINTER #1455 @ $D87268 - STRING #1455 @ $D8574D
+
+#W24($D87268)
+//Lina, hurry!<End>
+
+//POINTER #1456 @ $D8726C - STRING #1456 @ $D85765
+
+#W24($D8726C)
+//(Ein! Above you!)<End>
+
+//POINTER #1457 @ $D87270 - STRING #1457 @ $D78356
+
+#W24($D87270)
+//Huh!?<End>
+
+//POINTER #1458 @ $D87274 - STRING #1458 @ $D7BDE6
+
+#W24($D87274)
+//Whoa!<End>
+
+//POINTER #1459 @ $D87278 - STRING #1459 @ $D85786
+
+#W24($D87278)
+//That was close!<End>
+
+//POINTER #1460 @ $D8727C - STRING #1460 @ $D857A3
+
+#W24($D8727C)
+//Quick, Ein!<line>
+//Come on!<End>
+
+//POINTER #1461 @ $D87280 - STRING #1461 @ $D857C9
+
+#W24($D87280)
+//Alright, let's go.<End>
+
+//POINTER #1462 @ $D87284 - STRING #1462 @ $D857EC
+
+#W24($D87284)
+//Argh!<End>
+
+//POINTER #1463 @ $D87288 - STRING #1463 @ $D857F7
+
+#W24($D87288)
+//Oooh…<End>
+
+//POINTER #1464 @ $D8728C - STRING #1464 @ $D7A316
+
+#W24($D8728C)
+//Ugh…<End>
+
+//POINTER #1465 @ $D87290 - STRING #1465 @ $D85802
+
+#W24($D87290)
+//At least we're still<line>
+//alive.<End>
+
+//POINTER #1466 @ $D87294 - STRING #1466 @ $D85835
+
+#W24($D87294)
+//Waaaaah!<End>
+
+//POINTER #1467 @ $D87298 - STRING #1467 @ $D85846
+
+#W24($D87298)
+//Quit crying! We need to<line>
+//get going…<End>
+
+//POINTER #1468 @ $D8729C - STRING #1468 @ $D85885
+
+#W24($D8729C)
+//Hurry!<End>
+
+//POINTER #1469 @ $D872A0 - STRING #1469 @ $D85892
+
+#W24($D872A0)
+//It looks like a sword.<End>
+
+//POINTER #1470 @ $D872A4 - STRING #1470 @ $D858BB
+
+#W24($D872A4)
+//I think it's worth<line>
+//closer inspection.<End>
+
+//POINTER #1471 @ $D872A8 - STRING #1471 @ $D85901
+
+#W24($D872A8)
+//We have to do something<line>
+//about this ice, first!<End>
+
+//POINTER #1472 @ $D872AC - STRING #1472 @ $D85956
+
+#W24($D872AC)
+//Einherjar!<End>
+
+//POINTER #1473 @ $D872B0 - STRING #1473 @ $D8596B
+
+#W24($D872B0)
+//Haaah!<End>
+
+//POINTER #1474 @ $D872B4 - STRING #1474 @ $D85978
+
+#W24($D872B4)
+//Huh!<End>
+
+//POINTER #1475 @ $D872B8 - STRING #1475 @ $D77027
+
+#W24($D872B8)
+//Leave it to me!<End>
+
+//POINTER #1476 @ $D872BC - STRING #1476 @ $D85981
+
+#W24($D872BC)
+//Melt the ice…<line>
+//Burning Flare!<End>
+
+//POINTER #1477 @ $D872C0 - STRING #1477 @ $D859B6
+
+#W24($D872C0)
+//Ahaa!<End>
+
+//POINTER #1478 @ $D872C4 - STRING #1478 @ $D8596B
+
+#W24($D872C4)
+//Haaah!<End>
+
+//POINTER #1479 @ $D872C8 - STRING #1479 @ $D859C1
+
+#W24($D872C8)
+//I'll cleave it in two…<line>
+//Serene Spark!<End>
+
+//POINTER #1480 @ $D872CC - STRING #1480 @ $D80601
+
+#W24($D872CC)
+//Hah!<End>
+
+//POINTER #1481 @ $D872D0 - STRING #1481 @ $D8437B
+
+#W24($D872D0)
+//Huh?<End>
+
+//POINTER #1482 @ $D872D4 - STRING #1482 @ $D85A04
+
+#W24($D872D4)
+//I'll do it…<line>
+//Cutesy Shot!<End>
+
+//POINTER #1483 @ $D872D8 - STRING #1483 @ $D85A31
+
+#W24($D872D8)
+//Yah!<End>
+
+//POINTER #1484 @ $D872DC - STRING #1484 @ $D85A31
+
+#W24($D872DC)
+//Yah!<End>
+
+//POINTER #1485 @ $D872E0 - STRING #1485 @ $D85A3A
+
+#W24($D872E0)
+//M—Me!? …I'll try.<End>
+
+//POINTER #1486 @ $D872E4 - STRING #1486 @ $D85A59
+
+#W24($D872E4)
+//Hmmm!<End>
+
+//POINTER #1487 @ $D872E8 - STRING #1487 @ $D85A64
+
+#W24($D872E8)
+//Hmm!<End>
+
+//POINTER #1488 @ $D872EC - STRING #1488 @ $D85A6D
+
+#W24($D872EC)
+//I have a bad feeling…<line>
+//Let's not touch it.<End>
+
+//POINTER #1489 @ $D872F0 - STRING #1489 @ $D85AB8
+
+#W24($D872F0)
+//Whatever you say.<End>
+
+//POINTER #1490 @ $D872F4 - STRING #1490 @ $D7B7D8
+
+#W24($D872F4)
+//There's a chest…<End>
+
+//POINTER #1491 @ $D872F8 - STRING #1491 @ $D7C926
+
+#W24($D872F8)
+//Maybe I shouldn't…<End>
+
+//POINTER #1492 @ $D872FC - STRING #1492 @ $D7BF1A
+
+#W24($D872FC)
+//Poison gas!<End>
+
+//POINTER #1493 @ $D87300 - STRING #1493 @ $D7BF30
+
+#W24($D87300)
+//Now, what's inside…?<End>
+
+//POINTER #1494 @ $D87304 - STRING #1494 @ $D80B32
+
+#W24($D87304)
+//Ugh… Well, what's<line>
+//inside…?<End>
+
+//POINTER #1495 @ $D87308 - STRING #1495 @ $D7BF89
+
+#W24($D87308)
+//An arrow trap!<End>
+
+//POINTER #1496 @ $D8730C - STRING #1496 @ $D7BE80
+
+#W24($D8730C)
+//What's inside?<End>
+
+//POINTER #1497 @ $D87310 - STRING #1497 @ $D7BFA4
+
+#W24($D87310)
+//There's treasure inside,<line>
+//right!?<End>
+
+//POINTER #1498 @ $D87314 - STRING #1498 @ $D7BFE0
+
+#W24($D87314)
+//Freeze gas!<End>
+
+//POINTER #1499 @ $D87318 - STRING #1499 @ $D83D20
+
+#W24($D87318)
+//What could be inside…?<End>
+
+//POINTER #1500 @ $D8731C - STRING #1500 @ $D85AD9
+
+#W24($D8731C)
+//What item's worth<line>
+//such a trap?<End>
+
+//POINTER #1501 @ $D87320 - STRING #1501 @ $D7C055
+
+#W24($D87320)
+//A magic lock!<End>
+
+//POINTER #1502 @ $D87324 - STRING #1502 @ $D83D8F
+
+#W24($D87324)
+//You did it! It<line>
+//stopped!<End>
+
+//POINTER #1503 @ $D87328 - STRING #1503 @ $D83DBA
+
+#W24($D87328)
+//Why would a chest<line>
+//need to be locked?<End>
+
+//POINTER #1504 @ $D8732C - STRING #1504 @ $D7EBD4
+
+#W24($D8732C)
+//※sigh※ It's locked…<End>
+
+//POINTER #1505 @ $D87330 - STRING #1505 @ $D7EBF9
+
+#W24($D87330)
+//I didn't make it…<End>
+
+//POINTER #1506 @ $D87334 - STRING #1506 @ $D85B11
+
+#W24($D87334)
+//I'm sorry to say that<line>
+//this chest…<Next>
+
+//wil never open again.<End>
+
+//POINTER #1507 @ $D87338 - STRING #1507 @ $D7C1AA
+
+#W24($D87338)
+//※sigh※<End>
+
+//POINTER #1508 @ $D8733C - STRING #1508 @ $D7C1B7
+
+#W24($D8733C)
+//It's gonna explode!<End>
+
+//POINTER #1509 @ $D87340 - STRING #1509 @ $D83E64
+
+#W24($D87340)
+//It's disarmed!<End>
+
+//POINTER #1510 @ $D87344 - STRING #1510 @ $D7C200
+
+#W24($D87344)
+//Not bad, Ein!<End>
+
+//POINTER #1511 @ $D87348 - STRING #1511 @ $D7C219
+
+#W24($D87348)
+//※cough※ ※cough※<End>
+
+//POINTER #1512 @ $D8734C - STRING #1512 @ $D7C237
+
+#W24($D8734C)
+//※sigh※ So much for<line>
+//the treasure…<End>
+
+//POINTER #1513 @ $D87350 - STRING #1513 @ $D7EC9B
+
+#W24($D87350)
+//Everything's been<line>
+//blown to bits…<End>
+
+//POINTER #1514 @ $D87354 - STRING #1514 @ $D80D0A
+
+#W24($D87354)
+//Alright! So much<line>
+//for that trap.<End>
+
+//POINTER #1515 @ $D87358 - STRING #1515 @ $D7C2E2
+
+#W24($D87358)
+//We did it♪<End>
+
+//POINTER #1516 @ $D8735C - STRING #1516 @ $D7C2F5
+
+#W24($D8735C)
+//Well done.<End>
+
+//POINTER #1517 @ $D87360 - STRING #1517 @ $D80D44
+
+#W24($D87360)
+//That was a piece<line>
+//of cake!<End>
+
+//POINTER #1518 @ $D87364 - STRING #1518 @ $D85B77
+
+#W24($D87364)
+//That wasn't so hard,<line>
+//was it?<End>
+
+//POINTER #1519 @ $D87368 - STRING #1519 @ $D7BDE6
+
+#W24($D87368)
+//Whoa!<End>
+
+//POINTER #1520 @ $D8736C - STRING #1520 @ $D7C35D
+
+#W24($D8736C)
+//Waaah!<End>
+
+//POINTER #1521 @ $D87370 - STRING #1521 @ $D7BD63
+
+#W24($D87370)
+//Ahh!<End>
+
+//POINTER #1522 @ $D87374 - STRING #1522 @ $D7C36A
+
+#W24($D87374)
+//Wh—Whoa!<End>
+
+//POINTER #1523 @ $D87378 - STRING #1523 @ $D7C37B
+
+#W24($D87378)
+//Ahhh!<End>
+
+//POINTER #1524 @ $D8737C - STRING #1524 @ $D7ED23
+
+#W24($D8737C)
+//This is…<End>
+
+//POINTER #1525 @ $D87380 - STRING #1525 @ $D7ACB3
+
+#W24($D87380)
+//Alright!<End>
+
+//POINTER #1526 @ $D87384 - STRING #1526 @ $D83E80
+
+#W24($D87384)
+//Let's put it<line>
+//to good use.<End>
+
+//POINTER #1527 @ $D87388 - STRING #1527 @ $D7C3CD
+
+#W24($D87388)
+//Lucky★<End>
+
+//POINTER #1528 @ $D8738C - STRING #1528 @ $D7ED33
+
+#W24($D8738C)
+//Isn't that nice.<End>
+
+//POINTER #1529 @ $D87390 - STRING #1529 @ $D7BE80
+
+#W24($D87390)
+//What's inside?<End>
+
+//POINTER #1530 @ $D87394 - STRING #1530 @ $D7BE9C
+
+#W24($D87394)
+//It's Wyvernzem,<line>
+//a powerful claw weapon.<End>
