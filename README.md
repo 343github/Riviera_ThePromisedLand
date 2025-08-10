@@ -18,7 +18,7 @@ It must be a color-indexed program so that there are no errors when inserting it
 <img width="371" height="144" alt="image" src="https://github.com/user-attachments/assets/d78714d0-aac6-492a-aa3d-8e0338a7cd5e" />
 
 After finishing your font editing, open the `widths.txt` file and enter the width value for each modified character.
-This game only accepts values from 0.1 pixel to 10 pixels.
+This game only accepts values from 01 pixel to 10 pixels.
 
 <img width="409" height="229" alt="image" src="https://github.com/user-attachments/assets/7e5a836e-ddb2-4917-a07a-39e04b4a0d52" />
 
